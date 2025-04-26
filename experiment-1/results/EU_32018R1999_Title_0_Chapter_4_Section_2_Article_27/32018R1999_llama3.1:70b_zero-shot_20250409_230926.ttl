@@ -1,0 +1,57 @@
+turtle
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix polianna: <https://w3id.org/polianna/> .
+
+<https://w3id.org/polianna/EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27>
+  a owl:Ontology ;
+  dct:title "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27" ;
+  polianna:celex_number "32018R1999" ;
+  polianna:eli "http://data.europa.eu/eli/reg/2018/1999/oj" ;
+  polianna:annotators ("A", "C") .
+
+<https://w3id.org/polianna/EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27>
+  polianna:has_report <https://w3id.org/polianna/report-2022-04-30> .
+
+<https://w3id.org/polianna/report-2022-04-30>
+  a polianna:Report ;
+  dct:date "2022-04-30"^^xsd:date ;
+  polianna:has_target <https://w3id.org/polianna/target-2020-energy-efficiency> .
+
+<https://w3id.org/polianna/target-2020-energy-efficiency>
+  a polianna:Target ;
+  dct:description "Achievement of its 2020 energy efficiency national target established pursuant to article 3(1) of directive 2012/27/eu" ;
+  polianna:has_share <https://w3id.org/polianna/share-renewable-sources-2020> .
+
+<https://w3id.org/polianna/target-2020-energy-efficiency>
+  polianna:has_share <https://w3id.org/polianna/national-overall-targets-share-renewable-sources-2020> .
+
+<https://w3id.org/polianna/share-renewable-sources-2020>
+  a polianna:Share ;
+  dct:description "Sectoral (electricity, heating and cooling, and transport) and overall shares of energy from renewable sources in 2020" ;
+  skos:narrowMatch <https://w3id.org/polianna/measures-to-achieve-target> .
+
+<https://w3id.org/polianna/national-overall-targets-share-renewable-sources-2020>
+  a polianna:Share ;
+  dct:description "National overall targets for the share of energy from renewable sources in 2020" ;
+  skos:narrowMatch <https://w3id.org/polianna/measures-to-achieve-target> .
+
+<https://w3id.org/polianna/measures-to-achieve-target>
+  a polianna:Measure ;
+  dct:description "Measures taken to achieve the 2020 national renewable energy targets, including measures related to support schemes, guarantees of origin and simplification of administrative procedures" .
+
+<https://w3id.org/polianna/EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27>
+  polianna:has_article_text """article 27
+reporting on the 2020 targets
+by 30 april 2022, each member state shall report to the commission on the achievement of its 2020 energy efficiency national target established pursuant to article 3(1) of directive 2012/27/eu by providing the information set out in part 2 of annex ix to this regulation, and of the national overall targets for the share of energy from renewable sources in 2020 as set out in annex i to directive 2009/28/ec in the version in force on 31 december 2020 by providing the following information:
+(a)
+the sectoral (electricity, heating and cooling, and transport) and overall shares of energy from renewable sources in 2020;
+(b)
+the measures taken to achieve the 2020 national renewable energy targets, including measures related to support schemes, guarantees of origin and simplification of administrative procedures;
+(c)
+the share of energy from biofuels and bioliquids produced from cereal and other starch-rich crops, sugars and oil crops in energy consumption in transport;
+(d)
+the share of energy from biofuels and bioliquids produced from cereal and other starch-rich crops, sugars and oil crops in energy consumption in transport""" .

@@ -1,0 +1,62 @@
+@prefix ex: <http://example.org/> .
+@prefix pol: <http://purl.org/net/polia/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Amendment1 a pol:LegalAmendment ;
+    pol:amends ex:Directive ;
+    pol:hasDate "2018-07-09"^^xsd:date .
+
+ex:Article11 a pol:LegalArticle ;
+    pol:describes "Energy performance certificates" ;
+    pol:number "11" .
+
+ex:Article12 a pol:LegalArticle ;
+    pol:describes "Inspection of heating and cooling systems" ;
+    pol:number "12" .
+
+ex:Article13 a pol:LegalArticle ;
+    pol:describes "Inspection of building envelopes" ;
+    pol:number "13" .
+
+ex:Article14 a pol:LegalArticle ;
+    pol:describes "Inspection of lighting installations" ;
+    pol:number "14" .
+
+ex:Article19a a pol:LegalArticle ;
+    pol:describes "Feasibility study on inspection of stand-alone ventilation systems and building renovation passport" ;
+    pol:number "19a" .
+
+ex:Article20 a pol:LegalArticle ;
+    pol:describes "Information to owners or tenants" ;
+    pol:number "20" .
+
+ex:Article23 a pol:LegalArticle ;
+    pol:describes "Exercise of the delegation" ;
+    pol:number "23" .
+
+ex:Article26 a pol:LegalArticle ;
+    pol:describes "Committee procedure" ;
+    pol:number "26" .
+
+ex:Article5 a pol:LegalArticle ;
+    pol:describes "Energy performance requirements for new buildings and major renovations" ;
+    pol:number "5" .
+
+ex:Article8 a pol:LegalArticle ;
+    pol:describes "Calculation methods for energy performance certificates" ;
+    pol:number "8" .
+
+ex:Directive a pol:LegalDocument ;
+    pol:hasAmendment ex:Amendment1 ;
+    pol:hasArticle ex:Article11,
+        ex:Article12,
+        ex:Article13,
+        ex:Article14,
+        ex:Article19a,
+        ex:Article20,
+        ex:Article23,
+        ex:Article26,
+        ex:Article5,
+        ex:Article8 ;
+    pol:title "Energy Performance of Buildings Directive" .
+

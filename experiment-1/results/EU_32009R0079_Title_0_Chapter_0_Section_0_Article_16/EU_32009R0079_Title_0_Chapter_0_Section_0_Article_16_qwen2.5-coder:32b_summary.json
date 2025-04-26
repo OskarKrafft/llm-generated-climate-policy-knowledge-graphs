@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:Article ;\n    pol:hasTitle \"article 16\" ;\n    pol:hasEntryIntoForceDate \"2009-04-10\"^^xsd:date ;\n    pol:appliesFrom \"2011-02-24\"^^xsd:date ;\n    pol:hasException pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 ,\n                    pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 ;\n    pol:isBinding \"true\"^^xsd:boolean ;\n    pol:isDirectlyApplicable \"true\"^^xsd:boolean .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 a pol:Exception ;\n    pol:refersTo pol:Article_11_3 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 a pol:Exception ;\n    pol:refersTo pol:Article_12 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:Article_11_2 a pol:Provision ;\n    pol:hasSpecificApplicationDate \"to be determined\" .",
+    "original_output": "```turtle\n@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:Article ;\n    pol:hasTitle \"article 16\" ;\n    pol:hasEntryIntoForceDate \"2009-04-10\"^^xsd:date ;\n    pol:appliesFrom \"2011-02-24\"^^xsd:date ;\n    pol:hasException pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 ,\n                    pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 ;\n    pol:isBinding \"true\"^^xsd:boolean ;\n    pol:isDirectlyApplicable \"true\"^^xsd:boolean .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 a pol:Exception ;\n    pol:refersTo pol:Article_11_3 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 a pol:Exception ;\n    pol:refersTo pol:Article_12 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:Article_11_2 a pol:Provision ;\n    pol:hasSpecificApplicationDate \"to be determined\" .\n```",
+    "generation_time": 20.012779235839844,
+    "output": "```turtle\n@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:Article ;\n    pol:hasTitle \"article 16\" ;\n    pol:hasEntryIntoForceDate \"2009-04-10\"^^xsd:date ;\n    pol:appliesFrom \"2011-02-24\"^^xsd:date ;\n    pol:hasException pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 ,\n                    pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 ;\n    pol:isBinding \"true\"^^xsd:boolean ;\n    pol:isDirectlyApplicable \"true\"^^xsd:boolean .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 a pol:Exception ;\n    pol:refersTo pol:Article_11_3 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 a pol:Exception ;\n    pol:refersTo pol:Article_12 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:Article_11_2 a pol:Provision ;\n    pol:hasSpecificApplicationDate \"to be determined\" .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "qwen2.5-coder:32b",
+      "timestamp": "2025-04-21T15:12:30.242146"
+    },
+    "total_processing_time": 20.02252721786499,
+    "triple_count": 16
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://poliana.example.org/ontology/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n    a pol:Regulation ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\" ;\n    pol:annotators (\"B\" \"F\") ;\n    pol:hasArticle <http://data.europa.eu/eli/reg/2009/79/oj/article/16> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16>\n    a pol:Article ;\n    pol:entryIntoForce \"2009-03-12\"^^xsd:date ;  # Assuming publication date is 2009-02-20\n    pol:startDate \"2011-02-24\"^^xsd:date ;\n    pol:exception <http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception>\n    a pol:Exception ;\n    pol:appliesTo <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/3> ,\n                 <http://data.europa.eu/eli/reg/2009/79/oj/article/12> ;\n    pol:startDate \"2009-03-12\"^^xsd:date .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2>\n    a pol:Paragraph ;\n    pol:appliesFrom <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date>\n    a pol:Date ;\n    pol:date \"TBD\"^^xsd:string .  # Date to be determined as per the article text",
+    "original_output": "```turtle\n@prefix pol: <https://poliana.example.org/ontology/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n    a pol:Regulation ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\" ;\n    pol:annotators (\"B\" \"F\") ;\n    pol:hasArticle <http://data.europa.eu/eli/reg/2009/79/oj/article/16> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16>\n    a pol:Article ;\n    pol:entryIntoForce \"2009-03-12\"^^xsd:date ;  # Assuming publication date is 2009-02-20\n    pol:startDate \"2011-02-24\"^^xsd:date ;\n    pol:exception <http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception>\n    a pol:Exception ;\n    pol:appliesTo <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/3> ,\n                 <http://data.europa.eu/eli/reg/2009/79/oj/article/12> ;\n    pol:startDate \"2009-03-12\"^^xsd:date .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2>\n    a pol:Paragraph ;\n    pol:appliesFrom <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date>\n    a pol:Date ;\n    pol:date \"TBD\"^^xsd:string .  # Date to be determined as per the article text\n```",
+    "generation_time": 30.44707155227661,
+    "output": "```turtle\n@prefix pol: <https://poliana.example.org/ontology/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n    a pol:Regulation ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\" ;\n    pol:annotators (\"B\" \"F\") ;\n    pol:hasArticle <http://data.europa.eu/eli/reg/2009/79/oj/article/16> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16>\n    a pol:Article ;\n    pol:entryIntoForce \"2009-03-12\"^^xsd:date ;  # Assuming publication date is 2009-02-20\n    pol:startDate \"2011-02-24\"^^xsd:date ;\n    pol:exception <http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception>\n    a pol:Exception ;\n    pol:appliesTo <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/3> ,\n                 <http://data.europa.eu/eli/reg/2009/79/oj/article/12> ;\n    pol:startDate \"2009-03-12\"^^xsd:date .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2>\n    a pol:Paragraph ;\n    pol:appliesFrom <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date>\n    a pol:Date ;\n    pol:date \"TBD\"^^xsd:string .  # Date to be determined as per the article text\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "qwen2.5-coder:32b",
+      "timestamp": "2025-04-21T15:13:00.712738"
+    },
+    "total_processing_time": 30.47177529335022,
+    "triple_count": 21
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://poliana.example.org/ontology/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n    a pol:Regulation ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\" ;\n    pol:annotators (\"B\" \"F\") ;\n    pol:hasArticle <http://data.europa.eu/eli/reg/2009/79/oj/article/16> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16>\n    a pol:Article ;\n    pol:entryIntoForce \"2009-03-12\"^^xsd:date ;  # Assuming publication date is 2009-02-20\n    pol:startDate \"2011-02-24\"^^xsd:date ;\n    pol:exception <http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception>\n    a pol:Exception ;\n    pol:appliesTo <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/3> ,\n                 <http://data.europa.eu/eli/reg/2009/79/oj/article/12> ;\n    pol:startDate \"2009-03-12\"^^xsd:date .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2>\n    a pol:Paragraph ;\n    pol:appliesFrom <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date>\n    a pol:Date ;\n    pol:date \"TBD\"^^xsd:string .  # Date to be determined as per the article text",
+    "original_output": "```turtle\n@prefix pol: <https://poliana.example.org/ontology/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n    a pol:Regulation ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\" ;\n    pol:annotators (\"B\" \"F\") ;\n    pol:hasArticle <http://data.europa.eu/eli/reg/2009/79/oj/article/16> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16>\n    a pol:Article ;\n    pol:entryIntoForce \"2009-03-12\"^^xsd:date ;  # Assuming publication date is 2009-02-20\n    pol:startDate \"2011-02-24\"^^xsd:date ;\n    pol:exception <http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception>\n    a pol:Exception ;\n    pol:appliesTo <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/3> ,\n                 <http://data.europa.eu/eli/reg/2009/79/oj/article/12> ;\n    pol:startDate \"2009-03-12\"^^xsd:date .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2>\n    a pol:Paragraph ;\n    pol:appliesFrom <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date>\n    a pol:Date ;\n    pol:date \"TBD\"^^xsd:string .  # Date to be determined as per the article text\n```",
+    "generation_time": 30.416535139083862,
+    "output": "```turtle\n@prefix pol: <https://poliana.example.org/ontology/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n    a pol:Regulation ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\" ;\n    pol:annotators (\"B\" \"F\") ;\n    pol:hasArticle <http://data.europa.eu/eli/reg/2009/79/oj/article/16> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16>\n    a pol:Article ;\n    pol:entryIntoForce \"2009-03-12\"^^xsd:date ;  # Assuming publication date is 2009-02-20\n    pol:startDate \"2011-02-24\"^^xsd:date ;\n    pol:exception <http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception>\n    a pol:Exception ;\n    pol:appliesTo <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/3> ,\n                 <http://data.europa.eu/eli/reg/2009/79/oj/article/12> ;\n    pol:startDate \"2009-03-12\"^^xsd:date .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2>\n    a pol:Paragraph ;\n    pol:appliesFrom <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date>\n    a pol:Date ;\n    pol:date \"TBD\"^^xsd:string .  # Date to be determined as per the article text\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "qwen2.5-coder:32b",
+      "timestamp": "2025-04-21T15:13:31.139673"
+    },
+    "total_processing_time": 30.42566752433777,
+    "triple_count": 21
+  }
+}

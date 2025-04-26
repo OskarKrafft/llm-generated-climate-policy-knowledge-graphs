@@ -1,0 +1,30 @@
+@prefix pol: <http://example.org/pollanna#> .
+
+<http://example.org/articles/EnergyUnionObjectives> a pol:Article ;
+    pol:hasSection [ a pol:Section ;
+            pol:content """national objectives with regard to:
+— increasing the diversification of energy sources and supply from third countries, the purpose of which may be to reduce energy import dependency,
+— increasing the flexibility of the national energy system, and
+— addressing constrained or interrupted supply of an energy source, for the purpose of improving the resilience of regional and national energy systems, including a timeframe for when the objectives should be met;""" ;
+            pol:sectionNumber "c" ],
+        [ a pol:Section ;
+            pol:content """the level of electricity interconnectivity that the member state aims for in 2030 in consideration of the electricity interconnection target for 2030 of at least 15 %, with a strategy with the level from 2021 onwards defined in close cooperation with the member states affected, taking into account the 2020 interconnection target of 10 % and the indicators of the urgency of action based on price differential in the wholesale market, nominal transmission capacity of interconnectors in relation to peak load and to installed renewable generation capacity as set out in point 2.4.1 of section a of part i of annex i. each new interconnector shall be subject to a socioeconomic and environmental cost-benefit analysis and implemented only if the potential benefits outweigh the costs;
+(2) key electricity and gas transmission infrastructure projects, and, where relevant, modernisation projects, that are necessary for the achievement of objectives and targets under the five dimensions of the energy union;
+(3) national objectives related to other aspects of the internal energy market such as: increasing system flexibility, in particular through policies and measures related to market-based price formation in compliance with applicable law; market integration and coupling, aiming to increase the tradeable capacity of existing interconnectors, smart grids, aggregation, demand response, storage, distributed generation, mechanisms for dispatching, re-dispatching and curtailment and real-time price signals, including a timeframe for when the objectives should be met, and other national objectives related to the internal energy market as set out in point 2.4.3 of section a of part 1 of annex i;""" ;
+            pol:sectionNumber "d" ],
+        [ a pol:Section ;
+            pol:content """national objectives and funding targets for public and, where available, private research and innovation relating to the energy union, including, where appropriate, a timeframe for when the objectives should be met; reflecting the priorities of the energy union strategy and, where relevant, of the set-plan. in setting out its objectives, targets and contributions, the member state may build upon existing national strategies or plans that are compatible with union law;
+(2) where available, national 2050 objectives related to the promotion of clean energy technologies.""" ;
+            pol:sectionNumber "e" ],
+        [ a pol:Section ;
+            pol:content """national objectives with regard to:
+— increasing the diversification of energy sources and supply from third countries, the purpose of which may be to reduce energy import dependency,
+— increasing the flexibility of the national energy system, and
+— addressing constrained or interrupted supply of an energy source, for the purpose of improving the resilience of regional and national energy systems, including a timeframe for when the objectives should be met;""" ;
+            pol:sectionNumber "a" ],
+        [ a pol:Section ;
+            pol:content """the level of electricity interconnectivity that the member state aims for in 2030 in consideration of the electricity interconnection target for 2030 of at least 15 %, with a strategy with the level from 2021 onwards defined in close cooperation with the member states affected, taking into account the 2020 interconnection target of 10 % and the indicators of the urgency of action based on price differential in the wholesale market, nominal transmission capacity of interconnectors in relation to peak load and to installed renewable generation capacity as set out in point 2.4.1 of section a of part i of annex i. each new interconnector shall be subject to a socioeconomic and environmental cost-benefit analysis and implemented only if the potential benefits outweigh the costs;
+(2) key electricity and gas transmission infrastructure projects, and, where relevant, modernisation projects, that are necessary for the achievement of objectives and targets under the five dimensions of the energy union;
+(3) national objectives related to other aspects of the internal energy market such as: increasing system flexibility, in particular through policies and measures related to market-based price formation in compliance with applicable law; market integration and coupling, aiming to increase the tradeable capacity of existing interconnectors, smart grids, aggregation, demand response, storage, distributed generation, mechanisms for dispatching, re-dispatching and curtailment and real-time price signals, including a timeframe for when the objectives should be met, and other national objectives related to the internal energy market as set out in point 2.4.3 of section a of part 1 of annex i;""" ;
+            pol:sectionNumber "b" ] .
+

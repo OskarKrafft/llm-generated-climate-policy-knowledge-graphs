@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "graph": "[a rdfg:Graph;rdflib:storage [a rdflib:Store;rdfs:label 'Memory']].",
+  "error": null,
+  "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32006L0066 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:specifies_compliance_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1,\n                                  pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2,\n                                  pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_3 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:Compliance_date \"2012-09-26\"^^xsd:date ;\n    pol:annotatedText \"25 % by 26 september 2012\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:Compliance_date \"2016-09-26\"^^xsd:date ;\n    pol:annotatedText \"45 % by 26 september 2016\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:Compliance_date \"2007-09-26\"^^xsd:date ;\n    pol:annotatedText \"Common methodology for the calculation of annual sales of portable batteries and accumulators to end\u2010users by 26 september 2007\" .",
+  "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32006L0066 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:specifies_compliance_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1,\n                                  pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2,\n                                  pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_3 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:Compliance_date \"2012-09-26\"^^xsd:date ;\n    pol:annotatedText \"25 % by 26 september 2012\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:Compliance_date \"2016-09-26\"^^xsd:date ;\n    pol:annotatedText \"45 % by 26 september 2016\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:Compliance_date \"2007-09-26\"^^xsd:date ;\n    pol:annotatedText \"Common methodology for the calculation of annual sales of portable batteries and accumulators to end\u2010users by 26 september 2007\" .\n```",
+  "generation_time": 21.56220817565918,
+  "success": true,
+  "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32006L0066 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:specifies_compliance_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1,\n                                  pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2,\n                                  pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_3 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:Compliance_date \"2012-09-26\"^^xsd:date ;\n    pol:annotatedText \"25 % by 26 september 2012\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:Compliance_date \"2016-09-26\"^^xsd:date ;\n    pol:annotatedText \"45 % by 26 september 2016\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:Compliance_date \"2007-09-26\"^^xsd:date ;\n    pol:annotatedText \"Common methodology for the calculation of annual sales of portable batteries and accumulators to end\u2010users by 26 september 2007\" .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10",
+      "CELEX_Number": "32006L0066",
+      "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "ttl",
+    "model": "o3-mini-2025-01-31",
+    "timestamp": "2025-04-10T23:43:35.913038"
+  }
+}

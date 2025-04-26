@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@base <https://polianna-kg.org/Ontology#> .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    rdfs:label \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:CELEX_Number \"32009R0079\" ;\n    pol:ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    rdfs:comment \"\"\"article\u00a016\nentry into force\nthis regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\nit shall apply from 24 february 2011, with the exception of article\u00a011(3) and article\u00a012, which shall apply from the date of entry into force of this regulation, and article\u00a011(2), which shall apply from the date set out therein.\nthis regulation shall be binding in its entirety and directly applicable in all member states.\nAnnotators: B, F\"\"\" .",
+    "original_output": "```turtle\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@base <https://polianna-kg.org/Ontology#> .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    rdfs:label \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:CELEX_Number \"32009R0079\" ;\n    pol:ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    rdfs:comment \"\"\"article\u00a016\nentry into force\nthis regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\nit shall apply from 24 february 2011, with the exception of article\u00a011(3) and article\u00a012, which shall apply from the date of entry into force of this regulation, and article\u00a011(2), which shall apply from the date set out therein.\nthis regulation shall be binding in its entirety and directly applicable in all member states.\nAnnotators: B, F\"\"\" .\n```",
+    "generation_time": 18.197767972946167,
+    "success": true,
+    "output": "```turtle\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@base <https://polianna-kg.org/Ontology#> .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    rdfs:label \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:CELEX_Number \"32009R0079\" ;\n    pol:ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    rdfs:comment \"\"\"article\u00a016\nentry into force\nthis regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\nit shall apply from 24 february 2011, with the exception of article\u00a011(3) and article\u00a012, which shall apply from the date of entry into force of this regulation, and article\u00a011(2), which shall apply from the date set out therein.\nthis regulation shall be binding in its entirety and directly applicable in all member states.\nAnnotators: B, F\"\"\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-10T23:32:27.656578"
+    },
+    "total_processing_time": 18.201412200927734,
+    "triple_count": 5
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n                                  pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"applies from 24 february 2011\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n                                  pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"applies from 24 february 2011\" .\n```",
+    "generation_time": 21.426512956619263,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n                                  pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"applies from 24 february 2011\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-10T23:32:49.088775"
+    },
+    "total_processing_time": 21.432586908340454,
+    "triple_count": 11
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n                                 pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"applies from 24 february 2011, with the exception of article 11(3) and article 12 applying from the date of entry into force of this regulation, and article 11(2) applying from the date set out therein\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n                                 pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"applies from 24 february 2011, with the exception of article 11(3) and article 12 applying from the date of entry into force of this regulation, and article 11(2) applying from the date set out therein\" .\n```",
+    "generation_time": 22.354767084121704,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n                                 pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"applies from 24 february 2011, with the exception of article 11(3) and article 12 applying from the date of entry into force of this regulation, and article 11(2) applying from the date set out therein\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-10T23:33:11.449891"
+    },
+    "total_processing_time": 22.360347986221313,
+    "triple_count": 10
+  }
+}

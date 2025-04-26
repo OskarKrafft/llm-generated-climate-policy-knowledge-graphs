@@ -1,0 +1,25 @@
+{
+  "is_valid": false,
+  "graph": null,
+  "error": "at line 1 of <>:\nBad syntax (expected directive or statement) at ^ in:\n\"b''^b'turtle\\n@prefix poli: <https://w3id.org/poli#> .\\n@prefix skos'...\"",
+  "extracted_content": "turtle\n@prefix poli: <https://w3id.org/poli#> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<https://w3id.org/poli/eu-32006l0066-article25>\n    a poli:Policy ;\n    skos:notation \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n    dcterms:title \"Penalties\"@en ;\n    eli:celexNumber \"32006L0066\" ;\n    eli:eli \"http://data.europa.eu/eli/dir/2006/66/oj\" ;\n    poli:hasAnnotator \"C\", \"F\" .\n\n<https://w3id.org/poli/eu-32006l0066-article25>\n    poli:isAbout [\n        a poli:PolicyElement ;\n        skos:notation \"Article 25\" ;\n        dcterms:description \"\"\"Member States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this Directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\"@en ;\n        poli:hasInstrumentType <https://w3id.org/poli/Regulation> ;\n        poli:hasPolicyInstrument \"Penalty\"@en ;\n        poli:hasEnforcementType <https://w3id.org/poli/AdministrativeSanction> ;\n    ] .\n\n.",
+  "original_output": "```\nturtle\n@prefix poli: <https://w3id.org/poli#> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<https://w3id.org/poli/eu-32006l0066-article25>\n    a poli:Policy ;\n    skos:notation \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n    dcterms:title \"Penalties\"@en ;\n    eli:celexNumber \"32006L0066\" ;\n    eli:eli \"http://data.europa.eu/eli/dir/2006/66/oj\" ;\n    poli:hasAnnotator \"C\", \"F\" .\n\n<https://w3id.org/poli/eu-32006l0066-article25>\n    poli:isAbout [\n        a poli:PolicyElement ;\n        skos:notation \"Article 25\" ;\n        dcterms:description \"\"\"Member States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this Directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\"@en ;\n        poli:hasInstrumentType <https://w3id.org/poli/Regulation> ;\n        poli:hasPolicyInstrument \"Penalty\"@en ;\n        poli:hasEnforcementType <https://w3id.org/poli/AdministrativeSanction> ;\n    ] .\n\n.\n```",
+  "generation_time": 43.6040894985199,
+  "success": false,
+  "output": "```\nturtle\n@prefix poli: <https://w3id.org/poli#> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<https://w3id.org/poli/eu-32006l0066-article25>\n    a poli:Policy ;\n    skos:notation \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n    dcterms:title \"Penalties\"@en ;\n    eli:celexNumber \"32006L0066\" ;\n    eli:eli \"http://data.europa.eu/eli/dir/2006/66/oj\" ;\n    poli:hasAnnotator \"C\", \"F\" .\n\n<https://w3id.org/poli/eu-32006l0066-article25>\n    poli:isAbout [\n        a poli:PolicyElement ;\n        skos:notation \"Article 25\" ;\n        dcterms:description \"\"\"Member States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this Directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\"@en ;\n        poli:hasInstrumentType <https://w3id.org/poli/Regulation> ;\n        poli:hasPolicyInstrument \"Penalty\"@en ;\n        poli:hasEnforcementType <https://w3id.org/poli/AdministrativeSanction> ;\n    ] .\n\n.\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+      "CELEX_Number": "32006L0066",
+      "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "llama3.1:70b",
+    "timestamp": "2025-04-10T00:19:22.278671"
+  }
+}

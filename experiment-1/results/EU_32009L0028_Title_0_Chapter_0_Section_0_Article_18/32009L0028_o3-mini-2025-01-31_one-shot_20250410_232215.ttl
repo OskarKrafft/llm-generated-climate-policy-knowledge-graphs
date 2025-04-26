@@ -1,0 +1,28 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    rdfs:comment "Annotators: A, B" ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/Member_States> ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038>, <http://eurovoc.europa.eu/2243> ;
+    pol:imposes_monitoring <http://eurovoc.europa.eu/Member_States> ;
+    pol:specifies_monitoring_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_2,
+                                  pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_3 ;
+    pol:specifies_compliance_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeCompliance_4 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "report to the European Parliament and the Council in 2010 on the operation of the mass balance verification method" ;
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "report to the European Parliament and the Council in 2012 on the operation of the mass balance verification method" ;
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2012-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2012" .

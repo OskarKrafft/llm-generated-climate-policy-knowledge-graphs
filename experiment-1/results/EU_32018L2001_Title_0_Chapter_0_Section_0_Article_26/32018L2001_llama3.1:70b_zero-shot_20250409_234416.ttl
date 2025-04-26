@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix polianna: <https://w3id.org/polianna/> .
+
+<http://example.com/EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26>
+  dc:title "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26" ;
+  eli:CELEX "32018L2001" ;
+  eli:ELI <http://data.europa.eu/eli/dir/2018/2001/oj> ;
+  dc:description """Specific rules for biofuels, bioliquids and biomass fuels produced from food and feed crops""" .
+
+<http://example.com/EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26#Annotator>
+  skos:prefLabel "C" ;
+  skos:altLabel "F" .
+
+<http://example.com/EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26#Article>
+  dc:title "Article 26" ;
+  dc:description """Specific rules for biofuels, bioliquids and biomass fuels produced from food and feed crops""" .
+
+<http://example.com/EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26#Paragraph1>
+  skos:prefLabel "Paragraph 1" ;
+  dc:description """For the calculation of a member state's gross final consumption of energy from renewable sources referred to in Article 7 and the minimum share referred to in the first subparagraph of Article 25(1), the share of biofuels and bioliquids, as well as of biomass fuels consumed in transport, where produced from food and feed crops, shall be no more than one percentage point higher than the share of such fuels in the final consumption of energy in the road and rail transport sectors in 2020 in that member state, with a maximum of 7 % of final consumption of energy in the road and rail transport sectors in that member state.""" .
+
+<http://example.com/EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26#Paragraph2>
+  skos:prefLabel "Paragraph 2" ;
+  dc:description """For the calculation of a member state's gross final consumption of energy from renewable sources referred to in Article 7 and the minimum share referred to in the first subparagraph of Article 25(1), the share of high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed shall not exceed the level of consumption of such fuels in that member state in 2019, unless they are certified to be low indirect land-use change-risk biofuels, bioliquids or biomass fuels pursuant to this paragraph.""" .
+
+<http://example.com/EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26>
+  polianna:instrument <https://w3id.org/polianna/instrument#Directive> ;
+  polianna:theme <https://w3id.org/polianna/theme#Energy> .

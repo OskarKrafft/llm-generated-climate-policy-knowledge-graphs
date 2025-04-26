@@ -1,0 +1,51 @@
+@prefix ex: <http://example.org/> .
+@prefix pol: <https://poliana.example.org/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ex:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 a pol:PolicyDocument ;
+    ex:hasCELEXNumber "32018R1999" ;
+    ex:hasELI <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    ex:annotatedBy (ex:Alice ex:Charlie) .
+
+ex:Alice a pol:Annotator .
+ex:Charlie a pol:Annotator .
+
+ex:Article_27 a pol:PolicyArticle ;
+    skos:prefLabel "reporting on the 2020 targets" ;
+    ex:isPartOf ex:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 ;
+    ex:requiresReportingByDate "2022-04-30"^^xsd:date ;
+    ex:reportsOn pol:NationalEnergyEfficiencyTarget, pol:NationalRenewableEnergyTarget .
+
+pol:NationalEnergyEfficiencyTarget a pol:PolicyTarget ;
+    skos:prefLabel "national energy efficiency target" ;
+    ex:establishedInArticle <http://data.europa.eu/eli/dir/2012/27/art_3> .
+
+pol:NationalRenewableEnergyTarget a pol:PolicyTarget ;
+    skos:prefLabel "national renewable energy target" ;
+    ex:establishedInDirective <http://data.europa.eu/eli/dir/2009/28/ec> .
+
+ex:Article_27 ex:requiresReportingOf [
+    a pol:ReportSection ;
+    skos:prefLabel "sectoral and overall shares of energy from renewable sources in 2020" ;
+    ex:describedInAnnexPart <http://data.europa.eu/eli/reg/2018/1999/annex_ix/part_2>
+] .
+
+ex:Article_27 ex:requiresReportingOf [
+    a pol:ReportSection ;
+    skos:prefLabel "measures taken to achieve the 2020 national renewable energy targets" ;
+    ex:includesMeasures [ a pol:SupportScheme ] ,
+                         [ a pol:GuaranteeOfOrigin ],
+                         [ a pol:SimplificationOfAdministrativeProcedures ]
+] .
+
+ex:Article_27 ex:requiresReportingOf [
+    a pol:ReportSection ;
+    skos:prefLabel "share of energy from biofuels and bioliquids produced from cereal and other starch-rich crops, sugars and oil crops in transport" ;
+    ex:describedInAnnexPart <http://data.europa.eu/eli/dir/2009/28/ec/annex_i>
+] .
+
+ex:Article_27 ex:requiresReportingOf [
+    a pol:ReportSection ;
+    skos:prefLabel "share of energy from biofuels and biogas for transport produced from feedstocks" ;
+    ex:describedInAnnexPart <http://data.europa.eu/eli/dir/2009/28/ec/annex_ix/part_a>
+] .

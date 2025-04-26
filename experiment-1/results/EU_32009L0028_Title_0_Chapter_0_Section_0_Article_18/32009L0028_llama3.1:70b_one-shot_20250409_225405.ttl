@@ -1,0 +1,50 @@
+@prefix pol: <http://purl.org/polontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://example.com/article-18> 
+  a pol:Article ;
+  dc:title "Renewable Energy Directive" ;
+  dc:description "Article 18 of the Renewable Energy Directive" .
+
+<http://example.com/section-1>
+  a pol:Section ;
+  skos:broader <http://example.com/article-18> ;
+  dc:title "Verification of compliance with the sustainability criteria for biofuels and bioliquids" .
+
+<http://example.com/paragraph-1>
+  a pol:Paragraph ;
+  skos:broader <http://example.com/section-1> ;
+  dc:description "Member States shall take measures to ensure that information on the sustainability criteria for biofuels and bioliquids is reliable and that this information, as well as the methods used to validate it, are transparent" .
+
+<http://example.com/paragraph-2>
+  a pol:Paragraph ;
+  skos:broader <http://example.com/section-1> ;
+  dc:description "Member States shall designate one or more competent authorities for the purposes of paragraph 1. The competent authority may delegate tasks to other bodies" .
+
+<http://example.com/subparagraph-2a>
+  a pol:Subparagraph ;
+  skos:broader <http://example.com/paragraph-2> ;
+  dc:description "The competent authority shall ensure that the delegated body is independent from the economic operators concerned and has the necessary expertise to perform its tasks" .
+
+<http://example.com/subparagraph-2b>
+  a pol:Subparagraph ;
+  skos:broader <http://example.com/paragraph-2> ;
+  dc:description "The competent authority shall ensure that the delegated body is transparent in its decisions, and provides reasons for those decisions, when requested to do so" .
+
+<http://example.com/subsection-3>
+  a pol:Subsection ;
+  skos:broader <http://example.com/section-1> ;
+  dc:title "Voluntary schemes" .
+
+<http://example.com/paragraph-3>
+  a pol:Paragraph ;
+  skos:broader <http://example.com/subsection-3> ;
+  dc:description "The Commission may decide that voluntary national or international schemes setting standards for the production of biomass products contain accurate data for the purposes of Article 17(2) or demonstrate that consignments of biofuel comply with the sustainability criteria set out in Article 17(3) to (5)" .
+
+<http://example.com/subparagraph-3a>
+  a pol:Subparagraph ;
+  skos:broader <http://example.com/paragraph-3> ;
+  dc:description "Such schemes shall meet adequate standards of reliability, transparency and independent auditing" .
+
+.

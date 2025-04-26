@@ -1,0 +1,80 @@
+@prefix pol: <http://purl.org/olia/polcore.owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.com/eu-2012-27-article14>
+  a pol:Article ;
+  skos:notation "Art. 14" ;
+  pol:title "Guarantee of origin of electricity produced from high-efficiency cogeneration"@en ;
+  pol:text """
+    1. On the basis of the harmonised efficiency reference values referred to in point (f) of Annex II, Member States shall ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria laid down by each Member State.
+
+    2. They shall ensure that this guarantee of origin complies with the requirements and contains at least the information specified in Annex X.
+
+    3. Member States shall mutually recognise their guarantees of origin, exclusively as proof of the information referred to in this paragraph.
+
+    4. Any refusal to recognise a guarantee of origin as such proof, in particular for reasons relating to the prevention of fraud, must be based on objective, transparent and non-discriminatory criteria.
+
+    5. Member States shall notify the Commission of such refusal and its justification.
+
+    6. In the event of refusal to recognise a guarantee of origin, the Commission may adopt a decision to compel the refusing party to recognise it, in particular with regard to objective, transparent and non-discriminatory criteria on which such recognition is based.
+  """ .
+
+<http://example.com/eu-2012-27-article14-paragraph1>
+  a pol:Paragraph ;
+  skos:notation "Art. 14(1)" ;
+  pol:text """
+    On the basis of the harmonised efficiency reference values referred to in point (f) of Annex II, Member States shall ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria laid down by each Member State.
+  """ .
+
+<http://example.com/eu-2012-27-article14-paragraph1>
+  pol:isPartOf <http://example.com/eu-2012-27-article14> .
+
+<http://example.com/eu-2012-27-article14-paragraph2>
+  a pol:Paragraph ;
+  skos:notation "Art. 14(2)" ;
+  pol:text """
+    They shall ensure that this guarantee of origin complies with the requirements and contains at least the information specified in Annex X.
+  """ .
+
+<http://example.com/eu-2012-27-article14-paragraph2>
+  pol:isPartOf <http://example.com/eu-2012-27-article14> .
+
+<http://example.com/eu-2012-27-article14-paragraph3>
+  a pol:Paragraph ;
+  skos:notation "Art. 14(3)" ;
+  pol:text """
+    Member States shall mutually recognise their guarantees of origin, exclusively as proof of the information referred to in this paragraph.
+  """ .
+
+<http://example.com/eu-2012-27-article14-paragraph3>
+  pol:isPartOf <http://example.com/eu-2012-27-article14> .
+
+<http://example.com/eu-2012-27-article14-paragraph4>
+  a pol:Paragraph ;
+  skos:notation "Art. 14(4)" ;
+  pol:text """
+    Any refusal to recognise a guarantee of origin as such proof, in particular for reasons relating to the prevention of fraud, must be based on objective, transparent and non-discriminatory criteria.
+  """ .
+
+<http://example.com/eu-2012-27-article14-paragraph4>
+  pol:isPartOf <http://example.com/eu-2012-27-article14> .
+
+<http://example.com/eu-2012-27-article14-paragraph5>
+  a pol:Paragraph ;
+  skos:notation "Art. 14(5)" ;
+  pol:text """
+    Member States shall notify the Commission of such refusal and its justification.
+  """ .
+
+<http://example.com/eu-2012-27-article14-paragraph5>
+  pol:isPartOf <http://example.com/eu-2012-27-article14> .
+
+<http://example.com/eu-2012-27-article14-paragraph6>
+  a pol:Paragraph ;
+  skos:notation "Art. 14(6)" ;
+  pol:text """
+    In the event of refusal to recognise a guarantee of origin, the Commission may adopt a decision to compel the refusing party to recognise it, in particular with regard to objective, transparent and non-discriminatory criteria on which such recognition is based.
+  """ .
+
+<http://example.com/eu-2012-27-article14-paragraph6>
+  pol:isPartOf <http://example.com/eu-2012-27-article14> .

@@ -1,0 +1,20 @@
+@prefix pola: <http://example.org/polia#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pola:Article_7 pola:hasSection [ pola:content "Member states shall ensure that biofuels and bioliquids used for the purposes referred to in points (a), (b) and (c) of paragraph 1 comply with the minimum environmental requirements set out in paragraphs 3, 4, 5, 6, and 7." ;
+            pola:number "2"^^xsd:int ],
+        [ pola:content "The greenhouse gas (GHG) emission saving of biofuels and bioliquids shall be at least 35% compared to fossil fuels. From 2017 onwards, this percentage is increased to at least 50%. For biofuels and bioliquids produced from certain feedstocks such as algae or non-chemical lignocellulosic ethanol, the GHG emission saving threshold remains at 35%." ;
+            pola:number "3"^^xsd:int ],
+        [ pola:content "The use of biofuels and bioliquids shall not contribute to deforestation or forest degradation, nor to the conversion of other areas with high carbon stock such as peatlands. Biofuels and bioliquids shall comply with the criteria set out in this paragraph regarding land-use change and biodiversity impact." ;
+            pola:number "4"^^xsd:int ],
+        [ pola:content "The cultivation of raw materials for biofuels and bioliquids within the Community shall comply with the requirements under the heading ‘Environment’ in Part A and in point 9 of Annex II to Regulation (EC) No 73/2009 establishing common rules for direct support schemes for farmers under the Common Agricultural Policy and establishing certain support schemes for farmers, and in accordance with the minimum requirements for good agricultural and environmental condition defined pursuant to Article 6(1) of that regulation." ;
+            pola:number "5"^^xsd:int ],
+        [ pola:content "The Commission shall report every two years to the European Parliament and the Council on national measures taken to respect the sustainability criteria set out in paragraphs 2, 3, 4, and 5. The first report is due in 2012." ;
+            pola:number "6"^^xsd:int ],
+        [ pola:content "The Commission shall also report every two years on the impact of increased demand for biofuels on social sustainability, food availability at affordable prices in developing countries, and wider development issues. The reports will address respect for land-use rights and state whether relevant international conventions have been ratified and implemented by significant source countries." ;
+            pola:number "7"^^xsd:int ],
+        [ pola:content "Member states shall not refuse to take into account biofuels and bioliquids obtained in compliance with this article on other sustainability grounds." ;
+            pola:number "8"^^xsd:int ],
+        [ pola:content "The Commission shall report by 31 December 2009 on requirements for a sustainability scheme for energy uses of biomass, other than biofuels and bioliquids. This report may be accompanied by proposals for such schemes based on the best available scientific evidence and taking into account new developments in innovative processes." ;
+            pola:number "9"^^xsd:int ] .
+

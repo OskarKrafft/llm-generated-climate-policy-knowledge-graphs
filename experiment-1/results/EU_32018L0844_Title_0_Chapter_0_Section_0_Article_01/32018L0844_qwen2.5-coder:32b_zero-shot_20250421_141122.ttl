@@ -1,0 +1,29 @@
+@prefix ex: <http://example.org/> .
+@prefix pol: <http://purl.org/net/pollinate/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Article a pol:LegalText ;
+    pol:hasSection ex:Section19a,
+        ex:Section20_2,
+        ex:Section23,
+        ex:Section9 ;
+    pol:title "Directive on the energy performance of buildings" .
+
+ex:Section19a a pol:LegalSection ;
+    pol:content "The commission shall, before 2020, conclude a feasibility study, clarifying the possibilities and timeline to introduce the inspection of stand-alone ventilation systems and an optional building renovation passport that is complementary to the energy performance certificates, in order to provide a long-term, step-by-step renovation roadmap for a specific building based on quality criteria, following an energy audit, and outlining relevant measures and renovations that could improve the energy performance." ;
+    pol:hasDate "2020"^^xsd:date ;
+    pol:title "Feasibility Study" .
+
+ex:Section20_2 a pol:LegalSection ;
+    pol:content "Member states shall in particular provide information to the owners or tenants of buildings on energy performance certificates, including their purpose and objectives, on cost-effective measures and, where appropriate, financial instruments, to improve the energy performance of the building, and on replacing fossil fuel boilers with more sustainable alternatives. Member states shall provide the information through accessible and transparent advisory tools such as renovation advice and one-stop-shops." ;
+    pol:title "Information to Owners or Tenants" .
+
+ex:Section23 a pol:LegalSection ;
+    pol:content "The power to adopt delegated acts is conferred on the commission subject to the conditions laid down in this article. The power to adopt delegated acts referred to in articles 5, 8 and 22 shall be conferred on the commission for a period of five years from 9 july 2018. The commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period. The delegation of power shall be tacitly extended for periods of an identical duration, unless the european parliament or the council opposes such extension not later than three months before the end of each period." ;
+    pol:title "Exercise of Delegation" .
+
+ex:Section9 a pol:LegalSection ;
+    pol:content "The commission shall, before 2020, conclude a feasibility study, clarifying the possibilities and timeline to introduce the inspection of stand-alone ventilation systems and an optional building renovation passport that is complementary to the energy performance certificates, in order to provide a long-term, step-by-step renovation roadmap for a specific building based on quality criteria, following an energy audit, and outlining relevant measures and renovations that could improve the energy performance." ;
+    pol:hasDate "2020"^^xsd:date ;
+    pol:title "Feasibility Study" .
+

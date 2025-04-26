@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:Article ;\n    pol:hasTitle \"article 16\" ;\n    pol:hasEntryIntoForceDate \"2009-04-10\"^^xsd:date ;\n    pol:appliesFrom \"2011-02-24\"^^xsd:date ;\n    pol:hasException pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 ,\n                    pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 ;\n    pol:isBinding \"true\"^^xsd:boolean ;\n    pol:isDirectlyApplicable \"true\"^^xsd:boolean .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 a pol:Exception ;\n    pol:refersTo pol:Article_11_3 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 a pol:Exception ;\n    pol:refersTo pol:Article_12 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:Article_11_2 a pol:Provision ;\n    pol:hasSpecificApplicationDate \"to be determined\" .",
+  "original_output": "```turtle\n@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:Article ;\n    pol:hasTitle \"article 16\" ;\n    pol:hasEntryIntoForceDate \"2009-04-10\"^^xsd:date ;\n    pol:appliesFrom \"2011-02-24\"^^xsd:date ;\n    pol:hasException pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 ,\n                    pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 ;\n    pol:isBinding \"true\"^^xsd:boolean ;\n    pol:isDirectlyApplicable \"true\"^^xsd:boolean .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 a pol:Exception ;\n    pol:refersTo pol:Article_11_3 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 a pol:Exception ;\n    pol:refersTo pol:Article_12 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:Article_11_2 a pol:Provision ;\n    pol:hasSpecificApplicationDate \"to be determined\" .\n```",
+  "generation_time": 20.012779235839844,
+  "output": "```turtle\n@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:Article ;\n    pol:hasTitle \"article 16\" ;\n    pol:hasEntryIntoForceDate \"2009-04-10\"^^xsd:date ;\n    pol:appliesFrom \"2011-02-24\"^^xsd:date ;\n    pol:hasException pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 ,\n                    pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 ;\n    pol:isBinding \"true\"^^xsd:boolean ;\n    pol:isDirectlyApplicable \"true\"^^xsd:boolean .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 a pol:Exception ;\n    pol:refersTo pol:Article_11_3 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 a pol:Exception ;\n    pol:refersTo pol:Article_12 ;\n    pol:appliesFrom \"2009-04-10\"^^xsd:date .\n\npol:Article_11_2 a pol:Provision ;\n    pol:hasSpecificApplicationDate \"to be determined\" .\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+      "CELEX_Number": "32009R0079",
+      "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+      "Annotators": [
+        "B",
+        "F"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5-coder:32b",
+    "timestamp": "2025-04-21T15:12:30.242146"
+  },
+  "triple_count": 16
+}

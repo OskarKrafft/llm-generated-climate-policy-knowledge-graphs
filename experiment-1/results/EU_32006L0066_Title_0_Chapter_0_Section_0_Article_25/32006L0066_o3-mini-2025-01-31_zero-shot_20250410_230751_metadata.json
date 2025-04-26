@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "graph": "[a rdfg:Graph;rdflib:storage [a rdflib:Store;rdfs:label 'Memory']].",
+  "error": null,
+  "extracted_content": "@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n<https://example.org/article/EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25> rdf:type pol:PolicyArticle ;\n    rdfs:label \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n    pol:CELEX_Number \"32006L0066\" ;\n    pol:ELI <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:annotator \"C\", \"F\" ;\n    rdfs:comment \"article 25 penalties member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member states shall notify those measures to the commission by 26 september 2008 and shall inform it without delay of any subsequent amendment to them.\" .",
+  "original_output": "```turtle\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n<https://example.org/article/EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25> rdf:type pol:PolicyArticle ;\n    rdfs:label \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n    pol:CELEX_Number \"32006L0066\" ;\n    pol:ELI <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:annotator \"C\", \"F\" ;\n    rdfs:comment \"article 25 penalties member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member states shall notify those measures to the commission by 26 september 2008 and shall inform it without delay of any subsequent amendment to them.\" .\n```",
+  "generation_time": 25.30533194541931,
+  "success": true,
+  "output": "```turtle\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n<https://example.org/article/EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25> rdf:type pol:PolicyArticle ;\n    rdfs:label \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n    pol:CELEX_Number \"32006L0066\" ;\n    pol:ELI <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:annotator \"C\", \"F\" ;\n    rdfs:comment \"article 25 penalties member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member states shall notify those measures to the commission by 26 september 2008 and shall inform it without delay of any subsequent amendment to them.\" .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+      "CELEX_Number": "32006L0066",
+      "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "o3-mini-2025-01-31",
+    "timestamp": "2025-04-10T23:07:51.418174"
+  }
+}

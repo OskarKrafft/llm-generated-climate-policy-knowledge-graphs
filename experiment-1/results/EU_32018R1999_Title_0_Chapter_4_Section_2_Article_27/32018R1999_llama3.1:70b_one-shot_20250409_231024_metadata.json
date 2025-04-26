@@ -1,0 +1,25 @@
+{
+  "is_valid": false,
+  "graph": null,
+  "error": "at line 17 of <>:\nBad syntax (Prefix \"xsd:\" not bound) at ^ in:\n\"...b':annotator :A_C ;\\n    poli:startTime \"2023-02-20T00:00:00\"^^'^b'xsd:dateTime .\\n\\n:EU_32018R1999_Title_0_Chapter_4_Section_2_A'...\"",
+  "extracted_content": "@prefix : <http://example.org/> .\n@prefix poli: <https://w3id.org/poli/def/ontology#> .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 \n    a poli:Policy ;\n    poli:title \"article 27\" ;\n    poli:celexNumber \"32018R1999\" ;\n    poli:eli \"http://data.europa.eu/eli/reg/2018/1999/oj\" .\n\n:A_C\n    a poli:Annotator .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Annotation\n    a poli:Annotation ;\n    poli:annotatedDocument :EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 ;\n    poli:annotator :A_C ;\n    poli:startTime \"2023-02-20T00:00:00\"^^xsd:dateTime .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_1\n    a poli:Time_Monitoring ;\n    poli:annotatedText \"30 april 2022\" ;\n    poli:monitoringDate \"2022-04-30\"^^xsd:date .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_2\n    a poli:Time_Monitoring ;\n    poli:annotatedText \"31 december 2020\" ;\n    poli:monitoringDate \"2020-12-31\"^^xsd:date .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_3\n    a poli:Time_Monitoring ;\n    poli:annotatedText \"2020\" ;\n    poli:monitoringYear \"2020\"^^xsd:gYear .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_1 poli:hasTime_Monitoring :EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 .\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Annotation poli:hasAnnotator :A_C .",
+  "original_output": "```turtle\n@prefix : <http://example.org/> .\n@prefix poli: <https://w3id.org/poli/def/ontology#> .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 \n    a poli:Policy ;\n    poli:title \"article 27\" ;\n    poli:celexNumber \"32018R1999\" ;\n    poli:eli \"http://data.europa.eu/eli/reg/2018/1999/oj\" .\n\n:A_C\n    a poli:Annotator .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Annotation\n    a poli:Annotation ;\n    poli:annotatedDocument :EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 ;\n    poli:annotator :A_C ;\n    poli:startTime \"2023-02-20T00:00:00\"^^xsd:dateTime .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_1\n    a poli:Time_Monitoring ;\n    poli:annotatedText \"30 april 2022\" ;\n    poli:monitoringDate \"2022-04-30\"^^xsd:date .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_2\n    a poli:Time_Monitoring ;\n    poli:annotatedText \"31 december 2020\" ;\n    poli:monitoringDate \"2020-12-31\"^^xsd:date .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_3\n    a poli:Time_Monitoring ;\n    poli:annotatedText \"2020\" ;\n    poli:monitoringYear \"2020\"^^xsd:gYear .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_1 poli:hasTime_Monitoring :EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 .\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Annotation poli:hasAnnotator :A_C .\n```",
+  "generation_time": 57.84442973136902,
+  "success": false,
+  "output": "```turtle\n@prefix : <http://example.org/> .\n@prefix poli: <https://w3id.org/poli/def/ontology#> .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 \n    a poli:Policy ;\n    poli:title \"article 27\" ;\n    poli:celexNumber \"32018R1999\" ;\n    poli:eli \"http://data.europa.eu/eli/reg/2018/1999/oj\" .\n\n:A_C\n    a poli:Annotator .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Annotation\n    a poli:Annotation ;\n    poli:annotatedDocument :EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 ;\n    poli:annotator :A_C ;\n    poli:startTime \"2023-02-20T00:00:00\"^^xsd:dateTime .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_1\n    a poli:Time_Monitoring ;\n    poli:annotatedText \"30 april 2022\" ;\n    poli:monitoringDate \"2022-04-30\"^^xsd:date .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_2\n    a poli:Time_Monitoring ;\n    poli:annotatedText \"31 december 2020\" ;\n    poli:monitoringDate \"2020-12-31\"^^xsd:date .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_3\n    a poli:Time_Monitoring ;\n    poli:annotatedText \"2020\" ;\n    poli:monitoringYear \"2020\"^^xsd:gYear .\n\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Time_Monitoring_1 poli:hasTime_Monitoring :EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 .\n:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Annotation poli:hasAnnotator :A_C .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27",
+      "CELEX_Number": "32018R1999",
+      "ELI": "http://data.europa.eu/eli/reg/2018/1999/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "ttl",
+    "model": "llama3.1:70b",
+    "timestamp": "2025-04-09T23:10:24.383004"
+  }
+}

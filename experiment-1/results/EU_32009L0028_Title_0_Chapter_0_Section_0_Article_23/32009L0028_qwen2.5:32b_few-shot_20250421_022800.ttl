@@ -1,0 +1,58 @@
+@prefix pol: <http://example.org/polanna#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:Article_7 rdf:type pol:Article ;
+    pol:hasArticleNumber "7"^^xsd:string ;
+    pol:hasSection pol:Section_7_1, pol:Section_7_2, pol:Section_7_3, pol:Section_7_4, pol:Section_7_5, pol:Section_7_6, pol:Section_7_7, pol:Section_7_8, pol:Section_7_9, pol:Section_7_10 .
+
+pol:Section_7_1 rdf:type pol:Section ;
+    pol:hasArticle pol:Article_7 ;
+    pol:hasSectionNumber "7.1"^^xsd:string ;
+    pol:hasContent "The commission shall present an analysis and action plan on energy from renewable sources by 31 december 2010." .
+
+pol:Section_7_2 rdf:type pol:Section ;
+    pol:hasArticle pol:Article_7 ;
+    pol:hasSectionNumber "7.2"^^xsd:string ;
+    pol:hasContent "The report, addressing the following elements by 31 december 2014:" .
+
+pol:Section_7_3 rdf:type pol:Section ;
+    pol:hasArticle pol:Article_7 ;
+    pol:hasSectionNumber "7.3"^^xsd:string ;
+    pol:hasContent "A review of the minimum greenhouse gas emission saving thresholds based on an impact assessment taking into account technological developments and available technologies." .
+
+pol:Section_7_4 rdf:type pol:Section ;
+    pol:hasArticle pol:Article_7 ;
+    pol:hasSectionNumber "7.4"^^xsd:string ;
+    pol:hasContent "Review of the cost-efficiency of measures to achieve the target, assessment of feasibility and commercial availability of second-generation biofuels." .
+
+pol:Section_7_5 rdf:type pol:Section ;
+    pol:hasArticle pol:Article_7 ;
+    pol:hasSectionNumber "7.5"^^xsd:string ;
+    pol:hasContent "Impact on foodstuff prices, commercial availability of electric, hybrid and hydrogen powered vehicles, specific market conditions." .
+
+pol:Section_7_6 rdf:type pol:Section ;
+    pol:hasArticle pol:Article_7 ;
+    pol:hasSectionNumber "7.6"^^xsd:string ;
+    pol:hasContent "Evaluation of the implementation of this directive with regard to cooperation mechanisms and national support schemes." .
+
+pol:Section_7_7 rdf:type pol:Section ;
+    pol:hasArticle pol:Article_7 ;
+    pol:hasSectionNumber "7.7"^^xsd:string ;
+    pol:hasContent "The commission shall present a renewable energy roadmap for the post-2020 period in 2018." .
+
+pol:Section_7_8 rdf:type pol:Section ;
+    pol:hasArticle pol:Article_7 ;
+    pol:hasSectionNumber "7.8"^^xsd:string ;
+    pol:hasContent "The report reviewing the application of this directive shall be presented by the commission in 2021." .
+
+pol:Section_7_9 rdf:type pol:Section ;
+    pol:hasArticle pol:Article_7 ;
+    pol:hasSectionNumber "7.9"^^xsd:string ;
+    pol:hasContent "The roadmap and proposals for the period after 2020 shall take into account technological developments in energy from renewable sources." .
+
+pol:Section_7_10 rdf:type pol:Section ;
+    pol:hasArticle pol:Article_7 ;
+    pol:hasSectionNumber "7.10"^^xsd:string ;
+    pol:hasContent "The report reviewing the application of this directive shall address the role of preparation forecasts, national renewable energy action plans, effectiveness of cooperation mechanisms, technological developments, and support schemes." .
+.

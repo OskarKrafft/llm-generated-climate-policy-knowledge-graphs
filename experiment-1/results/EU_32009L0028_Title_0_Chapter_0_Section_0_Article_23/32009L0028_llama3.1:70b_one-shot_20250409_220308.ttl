@@ -1,0 +1,40 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix polianna: <https://w3id.org/poli/def/ontology/> .
+
+<https://example.com/article-1>
+  dc:title "Directive on the promotion of the use of energy from renewable sources"@en ;
+  skos:notation "2009/28/EC" ;
+  a polianna:Legislation ;
+  dc:description """This Directive sets out to establish a common framework for the promotion of energy from renewable sources."""@en .
+
+<https://example.com/article-1#article-3>
+  dc:title "Article 3 - National targets"@en ;
+  skos:notation "art.3" ;
+  a polianna:Article ;
+  dc:description """Member States shall ensure that the share of energy from renewable sources in gross final consumption of energy in 2020 is at least 20%."""@en .
+
+<https://example.com/article-1#article-8>
+  dc:title "Article 8 - Review of targets"@en ;
+  skos:notation "art.8" ;
+  a polianna:Article ;
+  dc:description """By 31 December 2014, the Commission shall present a report reviewing the national targets."""@en .
+
+<https://example.com/article-1#article-9>
+  dc:title "Article 9 - Renewable energy roadmap"@en ;
+  skos:notation "art.9" ;
+  a polianna:Article ;
+  dc:description """In 2018, the Commission shall present a renewable energy roadmap for the post-2020 period."""@en .
+
+<https://example.com/article-1#article-10>
+  dc:title "Article 10 - Review of application"@en ;
+  skos:notation "art.10" ;
+  a polianna:Article ;
+  dc:description """In 2021, the Commission shall present a report reviewing the application of this Directive."""@en .
+
+<https://example.com/article-1>
+  polianna:hasPart <https://example.com/article-1#article-3>, <https://example.com/article-1#article-8>, <https://example.com/article-1#article-9>, <https://example.com/article-1#article-10> .
+
+<https://example.com/article-1>
+  dc:date "2009-04-23" ;
+  dc:creator "European Parliament and the Council of the European Union"@en .

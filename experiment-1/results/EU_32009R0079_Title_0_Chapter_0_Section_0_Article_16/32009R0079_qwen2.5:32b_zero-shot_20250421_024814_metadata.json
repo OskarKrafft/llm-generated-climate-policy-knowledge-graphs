@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <https://w3id.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n    a pol:Regulation ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\"^^xsd:string ;\n    pol:eliURI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    pol:annotators (\"B\" \"F\") .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article16>\n    a pol:Article ;\n    pol:title \"article 16 entry into force\" ;\n    pol:content \"\"\"\nthis regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\nit shall apply from 24 february 2011, with the exception of article 11(3) and article 12, which shall apply from the date of entry into force of this regulation, and article 11(2), which shall apply from the date set out therein.\nthis regulation shall be binding in its entirety and directly applicable in all member states.\n\"\"\"^^xsd:string ;\n    pol:regulation <http://data.europa.eu/eli/reg/2009/79/oj> .",
+  "original_output": "```turtle\n@prefix pol: <https://w3id.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n    a pol:Regulation ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\"^^xsd:string ;\n    pol:eliURI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    pol:annotators (\"B\" \"F\") .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article16>\n    a pol:Article ;\n    pol:title \"article 16 entry into force\" ;\n    pol:content \"\"\"\nthis regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\nit shall apply from 24 february 2011, with the exception of article 11(3) and article 12, which shall apply from the date of entry into force of this regulation, and article 11(2), which shall apply from the date set out therein.\nthis regulation shall be binding in its entirety and directly applicable in all member states.\n\"\"\"^^xsd:string ;\n    pol:regulation <http://data.europa.eu/eli/reg/2009/79/oj> .\n``` .",
+  "generation_time": 21.226476669311523,
+  "output": "```turtle\n@prefix pol: <https://w3id.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n    a pol:Regulation ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\"^^xsd:string ;\n    pol:eliURI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    pol:annotators (\"B\" \"F\") .\n\n<http://data.europa.eu/eli/reg/2009/79/oj/article16>\n    a pol:Article ;\n    pol:title \"article 16 entry into force\" ;\n    pol:content \"\"\"\nthis regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\nit shall apply from 24 february 2011, with the exception of article 11(3) and article 12, which shall apply from the date of entry into force of this regulation, and article 11(2), which shall apply from the date set out therein.\nthis regulation shall be binding in its entirety and directly applicable in all member states.\n\"\"\"^^xsd:string ;\n    pol:regulation <http://data.europa.eu/eli/reg/2009/79/oj> .\n``` .",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+      "CELEX_Number": "32009R0079",
+      "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+      "Annotators": [
+        "B",
+        "F"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T02:48:14.558950"
+  },
+  "triple_count": 13
+}

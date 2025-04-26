@@ -1,0 +1,36 @@
+@prefix pol: <http://example.org/pollution#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://example.org/pollution#Article_2013-Regulation>
+    a pol:LegalAct ;
+    pol:hasArticle <http://example.org/pollution#Article_3_G> ;
+    pol:hasAnnex <http://example.org/pollution#Annex_I>.
+
+<http://example.org/pollution#Article_3_G>
+    a pol:RegulationArticle ;
+    pol:requiresAction pol:AuctionAviationAllowances ;
+    pol:specifiesScope pol:CoversFlights1000TonnesPerYear .
+
+<http://example.org/pollution#Annex_I>
+    a pol:LegalDocumentPart ;
+    pol:hasPoint <http://example.org/pollution#Point_k>.
+
+<http://example.org/pollution#Point_k>
+    a pol:RegulationPoint ;
+    pol:appliesToPeriod "2013-01-01"^^xsd:date , "2020-12-31"^^xsd:date ;
+    pol:specifiesActivityType pol:NonCommercialFlightsBelowThreshold .
+
+<http://example.org/pollution#AuctionAviationAllowances>
+    a pol:RegulatoryAction ;
+    pol:requiresAuctionOf pol:AviationAllowances .
+
+<http://example.org/pollution#CoversFlights1000TonnesPerYear>
+    a pol:ScopeSpecification ;
+    pol:hasEmissionThreshold "1000"^^xsd:integer ;
+    pol:hasUnit pol:TonnesCO2 .
+
+<http://example.org/pollution#NonCommercialFlightsBelowThreshold>
+    a pol:ActivityType ;
+    pol:hasTotalAnnualEmissionsThreshold "1000"^^xsd:float ;
+    pol:hasEmissionUnit pol:TonnesPerYear .
+.

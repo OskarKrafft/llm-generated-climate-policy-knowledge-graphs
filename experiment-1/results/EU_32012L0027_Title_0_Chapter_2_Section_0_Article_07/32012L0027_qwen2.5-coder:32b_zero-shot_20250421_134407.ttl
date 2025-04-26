@@ -1,0 +1,49 @@
+@prefix pol: <http://example.org/polianna#> .
+
+pol:Article_1 a pol:LegalText ;
+    pol:hasSection pol:Section_1,
+        pol:Section_10,
+        pol:Section_12,
+        pol:Section_9 ;
+    pol:title "Energy Efficiency Obligation Scheme" .
+
+pol:Paragraph_10_1 a pol:LegalParagraph ;
+    pol:text "The policy measures taken pursuant to the second subparagraph of paragraph 9 shall provide for at least two intermediate periods by 31 December 2020 and lead to the achievement of the level of ambition set out in paragraph 1; the responsibility of each entrusted party, participating party or implementing public authority is defined; the energy savings that are to be achieved are determined in a transparent manner; the amount of energy savings required or to be achieved by the policy measure are expressed in either final or primary energy consumption, using the conversion factors set out in Annex IV; energy savings are calculated using the methods and principles provided in points (1) and (2) of Annex V; an annual report of the energy savings achieved is provided by participating parties unless not feasible and made publicly available; monitoring of the results is ensured and appropriate measures are envisaged if the progress is not satisfactory; a control system is put in place that also includes independent verification of a statistically significant proportion of the energy efficiency improvement measures; data on the annual trend of energy savings are published annually." .
+
+pol:Paragraph_12_1 a pol:LegalParagraph ;
+    pol:text "Member States shall ensure that when the impact of policy measures or individual actions overlaps, no double counting of energy savings is made." .
+
+pol:Paragraph_1_1 a pol:LegalParagraph ;
+    pol:text "Member States shall establish an obligation scheme for the promotion of energy efficiency in end-use sectors." .
+
+pol:Paragraph_1_2 a pol:LegalParagraph ;
+    pol:text "The annual target for each Member State shall be set at 1.5% of its total final energy consumption in 2008, increasing by 0.8 percentage points per year until it reaches 3% in 2020." .
+
+pol:Paragraph_1_3 a pol:LegalParagraph ;
+    pol:text "Member States may choose to implement the obligation scheme through one or more of the following measures: energy efficiency obligations on suppliers, public authorities, or other entities; financial incentives for end-users; or other measures that lead to the application of energy-efficient technology or techniques." .
+
+pol:Paragraph_9_1 a pol:LegalParagraph ;
+    pol:text "Member States may adopt alternative policy measures to achieve the energy savings targets set out in this Directive." .
+
+pol:Paragraph_9_2 a pol:LegalParagraph ;
+    pol:text "The policy measures referred to in the first subparagraph may include, but are not restricted to, energy or CO2 taxes, financing schemes and instruments, regulations or voluntary agreements, standards and norms, energy labelling schemes, training and education." .
+
+pol:Section_1 a pol:LegalSection ;
+    pol:contains pol:Paragraph_1_1,
+        pol:Paragraph_1_2,
+        pol:Paragraph_1_3 ;
+    pol:title "Obligation Scheme" .
+
+pol:Section_10 a pol:LegalSection ;
+    pol:contains pol:Paragraph_10_1 ;
+    pol:title "Criteria for Policy Measures" .
+
+pol:Section_12 a pol:LegalSection ;
+    pol:contains pol:Paragraph_12_1 ;
+    pol:title "Avoiding Double Counting" .
+
+pol:Section_9 a pol:LegalSection ;
+    pol:contains pol:Paragraph_9_1,
+        pol:Paragraph_9_2 ;
+    pol:title "Alternative Policy Measures" .
+

@@ -1,0 +1,46 @@
+@prefix : <http://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj>
+  a <http://ontology.ontotext.com/publishing#Document> ;
+  dcterms:title "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09" .
+
+<EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09>
+  a <http://ontology.ontotext.com/publishing#Article> ;
+  dcterms:identifier "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09" ;
+  foaf:maker _:A ;
+  skos:narrowMatch _:B .
+
+_:A
+  a <http://xmlns.com/foaf/0.1/Agent> ;
+  foaf:name "A" .
+
+_:B
+  a <http://ontology.ontotext.com/publishing#Article> ;
+  dcterms:title "Draft integrated national energy and climate plans" ;
+  skos:note """
+    1.   By 31 December 2018, and subsequently by 1 January 2028 and every ten years thereafter, each Member State shall prepare and submit to the Commission a draft of the integrated national energy and climate plan in accordance with Article 3(1) and Annex I.
+    2.   The Commission shall assess the draft integrated national energy and climate plans and may issue country-specific recommendations to Member States in accordance with Article 34 no later than six months before the deadline for submitting those integrated national energy and climate plans. Those recommendations may, in particular, address:
+        (a) the level of ambition of objectives, targets and contributions with a view to collectively achieving the energy union objectives and, in particular, the Union's 2030 targets for renewable energy and energy efficiency as well as the level of electricity interconnectivity that the Member State aims for in 2030 as referred to in point (d) of Article 4, taking due account of relevant circumstances affecting the deployment of renewable energy and energy consumption, as indicated by the Member State concerned in the draft integrated national energy and climate plan and the indicators of the urgency of action for interconnectivity established in point 2.4.1 of Section A of Part 1 of Annex I;
+        (b) policies and measures relating to Member State- and Union-level objectives and other policies and measures of potential cross-border relevance;
+        (c) any additional policies and measures that might be required in the integrated national energy and climate plans;
+        (d) interactions between and consistency of existing and planned policies and measures included in the integrated national energy and climate plan within one dimension and among different dimensions of the energy union.
+    3.   Each Member State shall take due account of any recommendations from the Commission in its integrated national energy and climate plan. If the Member State concerned does not address a recommendation or a substantial part thereof, that Member State shall provide and make public its reasons.
+    4.   In the context of the public consultation as referred to in Article 10, each Member State shall make available to the public its draft integrated national energy and climate plan.
+    """ .
+
+<EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09>
+  dcterms:date "2018-12-31" ;
+  dcterms:hasPart _:C ;
+  foaf:topic _:D .
+
+_:C
+  a <http://ontology.ontotext.com/publishing#Section> ;
+  dcterms:title "Draft integrated national energy and climate plans" ;
+  skos:prefLabel "Draft integrated national energy and climate plans" .
+
+_:D
+  a <http://xmlns.com/foaf/0.1/Topic> ;
+  foaf:name "Renewable energy and energy efficiency" .

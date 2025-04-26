@@ -1,0 +1,126 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pol:32018L0844 a pol:PolicyDocument ;
+    rdfs:comment "CELEX: 32018L0844. ELI: http://data.europa.eu/eli/dir/2018/844/oj. Annotators: B, F." ;
+    pol:hasArticle pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    rdfs:label "EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01" ;
+    rdfs:comment """amendments to directive 2010/31/eu
+directive 2010/31/eu is amended as follows:
+(1)
+article 2 is amended as follows:
+(a)
+point 3 is replaced by the following:
+‘3.
+“technical building system” means technical equipment for space heating, space cooling, ventilation, domestic hot water, built-in lighting, building automation and control, on-site electricity generation, or a combination thereof, including those systems using energy from renewable sources, of a building or building unit;’;
+(b)
+the following point is inserted:
+‘3a.
+“building automation and control system” means a system comprising all products, software and engineering services that can support energy efficient, economical and safe operation of technical building systems through automatic controls and by facilitating the manual management of those technical building systems;’;
+(c)
+the following points are inserted:
+‘15a.
+“heating system” means a combination of the components required to provide a form of indoor air treatment, by which the temperature is increased;
+15b.
+“heat generator” means the part of a heating system that generates useful heat using one or more of the following processes:
+(a)
+the combustion of fuels in, for example, a boiler;
+(b)
+the joule effect, taking place in the heating elements of an electric resistance heating system;
+(c)
+capturing heat from ambient air, ventilation exhaust air, or a water or ground heat source using a heat pump;
+15c.
+“energy performance contracting” means energy performance contracting as defined in point (27) of article 2 of directive 2012/27/eu of the european parliament and of the council (*1);
+(*1)  directive 2012/27/eu of the european parliament and of the council of 25 october 2012 on energy efficiency, amending directives 2009/125/ec and 2010/30/eu and repealing directives 2004/8/ec and 2006/32/ec (oj l 315, 14.11.2012, p. 1).’;
+(d)
+the following point is added:
+‘20.
+“micro isolated system” means micro isolated system as defined in point 27 of article 2 of directive 2009/72/ec of the european parliament and of the council (*2).
+(*2)  directive 2009/72/ec of the european parliament and of the council of 13 july 2009 concerning common rules for the internal market in electricity and repealing directive 2003/54/ec (oj l 211, 14.8.2009, p. 55).’.
+(2)
+the following article is inserted:
+‘article 2a
+long-term renovation strategy
+1.   each member state shall establish a long-term renovation strategy to support the renovation of the national stock of residential and non-residential buildings, both public and private, into a highly energy efficient and decarbonised building stock by 2050, facilitating the cost-effective transformation of existing buildings into nearly zero-energy buildings. each long-term renovation strategy shall be submitted in accordance with the applicable planning and reporting obligations and shall encompass:
+(a)
+an overview of the national building stock, based, as appropriate, on statistical sampling and expected share of renovated buildings in 2020;
+(b)
+the identification of cost-effective approaches to renovation relevant to the building type and climatic zone, considering potential relevant trigger points, where applicable, in the life-cycle of the building;
+(c)
+policies and actions to stimulate cost-effective deep renovation of buildings, including staged deep renovation, and to support targeted cost-effective measures and renovation for example by introducing an optional scheme for building renovation passports;
+(d)
+an overview of policies and actions to target the worst performing segments of the national building stock, split-incentive dilemmas and market failures, and an outline of relevant national actions that contribute to the alleviation of energy poverty;
+(e)
+policies and actions to target all public buildings;
+(f)
+an overview of national initiatives to promote smart technologies and well-connected buildings and communities, as well as skills and education in the construction and energy efficiency sectors; and
+(g)
+an evidence-based estimate of expected energy savings and wider benefits, such as those related to health, safety and air quality.
+2.   in its long-term renovation strategy, each member state shall set out a roadmap with measures and domestically established measurable progress indicators, with a view to the long-term 2050 goal of reducing greenhouse gas emissions in the union by 80-95 % compared to 1990, in order to ensure a highly energy efficient and decarbonised national building stock and in order to facilitate the cost-effective transformation of existing buildings into nearly zero-energy buildings. the roadmap shall include indicative milestones for 2030, 2040 and 2050, and specify how they contribute to achieving the union’s energy efficiency targets in accordance with directive 2012/27/eu.
+3.   to support the mobilisation of investments into the renovation needed to achieve the goals referred to in paragraph 1, member states shall facilitate access to appropriate mechanisms for:
+(a)
+the aggregation of projects, including by investment platforms or groups, and by consortia of small and medium-sized enterprises, to enable investor access as well as packaged solutions for potential clients;
+(b)
+the reduction of the perceived risk of energy efficiency operations for investors and the private sector;
+(c)
+the use of public funding to leverage additional private-sector investment or address specific market failures;
+(d)
+guiding investments into an energy efficient public building stock, in line with eurostat guidance; and
+(e)
+accessible and transparent advisory tools, such as one-stop-shops for consumers and energy advisory services, on relevant energy efficiency renovations and financing instruments.
+4.   the commission shall collect and disseminate, at least to public authorities, best practices on successful public and private financing schemes for energy efficiency renovation as well as information on schemes for the aggregation of small-scale energy efficiency renovation projects. the commission shall identify and disseminate best practices on financial incentives to renovate from a consumer perspective taking into account cost-efficiency differences between member states.
+5.   to support the development of its long-term renovation strategy, each member state shall carry out a public consultation on its long-term renovation strategy prior to submitting it to the commission. each member state shall annex a summary of the results of its public consultation to its long-term renovation strategy.
+each member state shall establish the modalities for consultation in an inclusive way during the implementation of its long-term renovation strategy.
+6.   each member state shall annex the details of the implementation of its most recent long-term renovation strategy to its long-term renovation strategy, including on the planned policies and actions.
+7.   each member state may use its long-term renovation strategy to address fire safety and risks related to intense seismic activity affecting energy efficiency renovations and the lifetime of buildings.
+(3)
+article 6 is replaced by the following:
+‘article 6
+new buildings
+1.   member states shall take the necessary measures to ensure that new buildings meet the minimum energy performance requirements laid down in accordance with article 4.
+2.   member states shall ensure that, before construction of new buildings starts, the technical, environmental and economic feasibility of high-efficiency alternative systems, if available, is taken into account.
+(4)
+in article 7, the fifth paragraph is replaced by the following:
+‘member states shall encourage, in relation to buildings undergoing major renovation, high-efficiency alternative systems, in so far as this is technically, functionally and economically feasible, and shall address the issues of healthy indoor climate conditions, fire safety and risks related to intense seismic activity.’
+(5)
+article 8 is replaced by the following:
+‘article 8
+technical building systems, electromobility and smart readiness indicator
+1.   member states shall, for the purpose of optimising the energy use of technical building systems, set system requirements in respect of the overall energy performance, the proper installation, and the appropriate dimensioning, adjustment and control of the technical building systems which are installed in existing buildings. member states may also apply these system requirements to new buildings.
+system requirements shall be set for new, replacement and upgrading of technical building systems and shall be applied in so far as they are technically, economically and functionally feasible.
+member states shall require new buildings, where technically and economically feasible, to be equipped with self-regulating devices for the separate regulation of the temperature in each room or, where justified, in a designated heated zone of the building unit. in existing buildings, the installation of such self-regulating devices shall be required when heat generators are replaced, where technically and economically feasible.
+2.   with regard to new non-residential buildings and non-residential buildings undergoing major renovation, with more than ten parking spaces, member states shall ensure the installation of at least one recharging point within the meaning of directive 2014/94/eu of the european parliament and of the council (*3) and ducting infrastructure, namely conduits for electric cables, for at least one in every five parking spaces to enable the installation at a later stage of recharging points for electric vehicles where:
+(a)
+the car park is located inside the building, and, for major renovations, renovation measures include the car park or the electrical infrastructure of the building; or
+(b)
+the car park is physically adjacent to the building, and, for major renovations, renovation measures include the car park or the electrical infrastructure of the car park.
+the commission shall report to the european parliament and the council by 1 january 2023 on the potential contribution of a union building policy to the promotion of electromobility and shall, if appropriate, propose measures in that regard.
+3.   member states shall lay down requirements for the installation of a minimum number of recharging points for all non-residential buildings with more than twenty parking spaces, by 1 january 2025.
+4.   member states may decide not to lay down or apply the requirements referred to in paragraphs 2 and 3 to buildings owned and occupied by small and medium-sized enterprises as defined in title i of the annex to commission recommendation 2003/361/ec (*4).
+5.   with regard to new residential buildings and residential buildings undergoing major renovation, with more than ten parking spaces, member states shall ensure the installation of ducting infrastructure, namely conduits for electric cables, for every parking space to enable the installation, at a later stage, of recharging points for electric vehicles, where:
+(a)
+the car park is located inside the building, and, for major renovations, renovation measures include the car park or the electric infrastructure of the building; or
+(b)
+the car park is physically adjacent to the building, and, for major renovations, renovation measures include the car park or the electrical infrastructure of the car park.
+6.   member states may decide not to apply paragraphs 2, 3 and 5 to specific categories of buildings where:
+(a)
+with regard to paragraphs 2 and 5, building permit applications or equivalent applications have been submitted by 10 march 2021;
+(b)
+the ducting infrastructure required would rely on micro isolated systems or the buildings are situated in the outermost regions within the meaning of article 349 tfeu, if this would lead to substantial problems for the operation of the local energy system and would endanger the stability of the local grid;
+(c)
+the cost of the recharging and ducting installations exceeds 7 % of the total cost of the major renovation of the building;
+(d)
+a public building is already covered by comparable requirements according to the transposition of directive 2014/94/eu.
+7.   member states shall provide for measures in order to simplify the deployment of recharging points in new and existing residential and non-residential buildings and address possible regulatory barriers, including permitting and approval procedures, without prejudice to the property and tenancy law of the member states.
+8.   member states shall consider the need for coherent policies for buildings, soft and green mobility and urban planning.
+9.   member states shall ensure that, when a technical building system is installed, replaced or upgraded, the overall energy performance of the altered part, and where relevant, of the complete altered system, is assessed. the results shall be documented and passed on to the building owner, so that they remain available and can be used for the verification of compliance with the minimum requirements laid down pursuant to paragraph 1 of this article and the issue of energy performance certificates. without prejudice to article 12, member states shall decide whether to require the issuing of a new energy performance certificate.
+10.   the commission shall, by 31 december 2019, adopt a delegated act in accordance with article 23, supplementing this directive by establishing an optional common union scheme for rating the smart readiness of buildings. the rating shall be based on an assessment of the capabilities of a building or building unit to adapt its operation to the needs of the occupant and the grid and to improve its energy efficiency and overall performance.
+in accordance with annex ia, the optional common union scheme for rating the smart readiness of buildings shall:
+(a)
+establish the definition of the smart readiness indicator; and
+(b)
+establish a methodology by which it is to be calculated.
+11.   the commission shall, by 31 december 2019, and after having consulted the relevant stakeholders, adopt an implementing act detailing the technical modalities for the effective implementation of the scheme referred to in paragraph 10 of this article, including a timeline for a non-committal test-phase at national level, and clarifying the complementary relation of the scheme to the energy performance certificates referred to

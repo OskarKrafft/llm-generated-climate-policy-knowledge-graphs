@@ -1,0 +1,25 @@
+{
+  "is_valid": false,
+  "graph": null,
+  "error": "at line 1 of <>:\nBad syntax (expected directive or statement) at ^ in:\n\"b''^b'turtle\\n@prefix poli: <http://www.w3.org/ns/poli/> .\\n@prefix '...\"",
+  "extracted_content": "turtle\n@prefix poli: <http://www.w3.org/ns/poli/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://example.com/article>\n  a poli:Article ;\n  poli:hasTitle \"Energy Efficiency Directive\" ;\n  poli:hasText \"\"\"...\"\"\" ;\n  poli:hasSection [\n    a poli:Section ;\n    poli:hasNumber \"9\" ;\n    poli:hasText \"\"\"Member States shall ensure that...\"\"\"\n  ] .\n\n<http://example.com/paragraph-1>\n  a poli:Paragraph ;\n  poli:isPartOf <http://example.com/article> ;\n  poli:hasText \"\"\"Member States may set alternative...\"\"\" .\n\n<http://example.com/alternative-measure-1>\n  a poli:AlternativeMeasure ;\n  poli:isDescribedIn <http://example.com/paragraph-1> ;\n  poli:hasType \"Energy or CO2 taxes\" .\n\n<http://example.com/criterion-1>\n  a poli:Criterion ;\n  poli:appliesTo <http://example.com/alternative-measure-1> ;\n  poli:hasCode \"(a)\" ;\n  poli:hasText \"\"\"The policy measures provide for at least...\"\"\" .\n\n# ... more triples ...\n\n<http://example.com/article>\n  poli:hasSection [\n    a poli:Section ;\n    poli:hasNumber \"12\" ;\n    poli:hasText \"\"\"Member States shall ensure that when...\"\"\"\n  ] .",
+  "original_output": "```\nturtle\n@prefix poli: <http://www.w3.org/ns/poli/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://example.com/article>\n  a poli:Article ;\n  poli:hasTitle \"Energy Efficiency Directive\" ;\n  poli:hasText \"\"\"...\"\"\" ;\n  poli:hasSection [\n    a poli:Section ;\n    poli:hasNumber \"9\" ;\n    poli:hasText \"\"\"Member States shall ensure that...\"\"\"\n  ] .\n\n<http://example.com/paragraph-1>\n  a poli:Paragraph ;\n  poli:isPartOf <http://example.com/article> ;\n  poli:hasText \"\"\"Member States may set alternative...\"\"\" .\n\n<http://example.com/alternative-measure-1>\n  a poli:AlternativeMeasure ;\n  poli:isDescribedIn <http://example.com/paragraph-1> ;\n  poli:hasType \"Energy or CO2 taxes\" .\n\n<http://example.com/criterion-1>\n  a poli:Criterion ;\n  poli:appliesTo <http://example.com/alternative-measure-1> ;\n  poli:hasCode \"(a)\" ;\n  poli:hasText \"\"\"The policy measures provide for at least...\"\"\" .\n\n# ... more triples ...\n\n<http://example.com/article>\n  poli:hasSection [\n    a poli:Section ;\n    poli:hasNumber \"12\" ;\n    poli:hasText \"\"\"Member States shall ensure that when...\"\"\"\n  ] .\n```",
+  "generation_time": 38.195900678634644,
+  "success": false,
+  "output": "```\nturtle\n@prefix poli: <http://www.w3.org/ns/poli/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://example.com/article>\n  a poli:Article ;\n  poli:hasTitle \"Energy Efficiency Directive\" ;\n  poli:hasText \"\"\"...\"\"\" ;\n  poli:hasSection [\n    a poli:Section ;\n    poli:hasNumber \"9\" ;\n    poli:hasText \"\"\"Member States shall ensure that...\"\"\"\n  ] .\n\n<http://example.com/paragraph-1>\n  a poli:Paragraph ;\n  poli:isPartOf <http://example.com/article> ;\n  poli:hasText \"\"\"Member States may set alternative...\"\"\" .\n\n<http://example.com/alternative-measure-1>\n  a poli:AlternativeMeasure ;\n  poli:isDescribedIn <http://example.com/paragraph-1> ;\n  poli:hasType \"Energy or CO2 taxes\" .\n\n<http://example.com/criterion-1>\n  a poli:Criterion ;\n  poli:appliesTo <http://example.com/alternative-measure-1> ;\n  poli:hasCode \"(a)\" ;\n  poli:hasText \"\"\"The policy measures provide for at least...\"\"\" .\n\n# ... more triples ...\n\n<http://example.com/article>\n  poli:hasSection [\n    a poli:Section ;\n    poli:hasNumber \"12\" ;\n    poli:hasText \"\"\"Member States shall ensure that when...\"\"\"\n  ] .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07",
+      "CELEX_Number": "32012L0027",
+      "ELI": "http://data.europa.eu/eli/dir/2012/27/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "llama3.1:70b",
+    "timestamp": "2025-04-09T23:35:13.946289"
+  }
+}

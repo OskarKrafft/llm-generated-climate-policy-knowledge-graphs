@@ -1,0 +1,6 @@
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:Article ;
+    dc:title "Penalties" ;
+    skos:notation "art. 25" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeNotification_1 a pol:Time_Notification ;
+    pol:annotatedText "by 26 September 2008" .

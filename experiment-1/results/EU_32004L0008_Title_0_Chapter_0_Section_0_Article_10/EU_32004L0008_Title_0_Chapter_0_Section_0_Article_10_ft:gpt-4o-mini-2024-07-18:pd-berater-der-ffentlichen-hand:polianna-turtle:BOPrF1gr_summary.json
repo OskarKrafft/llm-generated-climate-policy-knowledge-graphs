@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32004L0008 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2006\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2007\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years\" .",
+    "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32004L0008 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2006\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2007\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years\" .",
+    "generation_time": 6.020107746124268,
+    "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32004L0008 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2006\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2007\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years\" .",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10",
+        "CELEX_Number": "32004L0008",
+        "ELI": "http://data.europa.eu/eli/dir/2004/8/oj",
+        "Annotators": [
+          "B",
+          "C"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:35:44.167069"
+    },
+    "total_processing_time": 6.0245277881622314,
+    "triple_count": 15
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32004L0008 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2006\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2007\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual basis\" .",
+    "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32004L0008 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2006\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2007\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual basis\" .",
+    "generation_time": 7.498260974884033,
+    "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32004L0008 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2006\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2007\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual basis\" .",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10",
+        "CELEX_Number": "32004L0008",
+        "ELI": "http://data.europa.eu/eli/dir/2004/8/oj",
+        "Annotators": [
+          "B",
+          "C"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:35:51.672401"
+    },
+    "total_processing_time": 7.507885217666626,
+    "triple_count": 20
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32004L0008 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2006\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2007\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years\" .",
+    "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32004L0008 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2006\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2007\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years\" .",
+    "generation_time": 4.366073131561279,
+    "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32004L0008 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,\n        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2006\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"21 february 2007\" .\n\npol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years\" .",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10",
+        "CELEX_Number": "32004L0008",
+        "ELI": "http://data.europa.eu/eli/dir/2004/8/oj",
+        "Annotators": [
+          "B",
+          "C"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:35:56.047145"
+    },
+    "total_processing_time": 4.3726348876953125,
+    "triple_count": 17
+  }
+}

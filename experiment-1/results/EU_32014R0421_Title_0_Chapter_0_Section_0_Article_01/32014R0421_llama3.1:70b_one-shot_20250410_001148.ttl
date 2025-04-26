@@ -1,0 +1,51 @@
+turtle
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix poliana: <https://w3id.org/poliana/> .
+
+<http://example.org/policy/EU-ETS-Article28a>
+    a poliana:Article ;
+    dc:description "EU ETS Article 28a" ;
+    dc:title "Derogations from certain obligations for aircraft operators with total annual emissions lower than 25,000 tonnes of CO2" .
+
+<http://example.org/policy/EU-ETS-Article28a-Paragraph1>
+    a poliana:Paragraph ;
+    dc:description "By way of derogation from Article 3g, aircraft operators shall not be required to submit monitoring plans setting out measures to monitor and report emissions in respect of flights which are subject to the derogations provided for in points (a) and (b) of this paragraph." ;
+    poliana:hasParent <http://example.org/policy/EU-ETS-Article28a> .
+
+<http://example.org/policy/EU-ETS-Article28a-Paragraph2>
+    a poliana:Paragraph ;
+    dc:description "By way of derogation from Article 3f, aircraft operators shall be issued a number of free allowances reduced in proportion to the reduction of the surrender obligation provided for in points (a) and (b) of paragraph 1." ;
+    poliana:hasParent <http://example.org/policy/EU-ETS-Article28a> .
+
+<http://example.org/policy/EU-ETS-Article28a-Paragraph3>
+    a poliana:Paragraph ;
+    dc:description "By way of derogation from Article 3d, Member States shall auction a number of aviation allowances reduced in proportion to the reduction in the total number of allowances issued." ;
+    poliana:hasParent <http://example.org/policy/EU-ETS-Article28a> .
+
+<http://example.org/policy/EU-ETS-Article28a-Paragraph4>
+    a poliana:Paragraph ;
+    dc:description "By way of derogation from Article 3d(3), the number of allowances to be auctioned by each Member State in respect of the period from 1 January 2013 to 31 December 2016 shall be reduced to correspond to its share of attributed aviation emissions from flights which are not subject to the derogations provided for in points (a) and (b) of paragraph 1." ;
+    poliana:hasParent <http://example.org/policy/EU-ETS-Article28a> .
+
+<http://example.org/policy/EU-ETS-Article28a-Paragraph5>
+    a poliana:Paragraph ;
+    dc:description "By way of derogation from Article 3g, aircraft operators shall not be required to submit monitoring plans setting out measures to monitor and report emissions in respect of flights which are subject to the derogations provided for in points (a) and (b) of paragraph 1." ;
+    poliana:hasParent <http://example.org/policy/EU-ETS-Article28a> .
+
+<http://example.org/policy/EU-ETS-Article28a-Paragraph6>
+    a poliana:Paragraph ;
+    dc:description "By way of derogation from Articles 3g, 12, 15 and 18a, where an aircraft operator has total annual emissions lower than 25,000 tonnes CO2, its emissions shall be considered to be verified emissions if determined by using the small emitters tool approved under Commission Regulation (EU) No 606/2010." ;
+    poliana:hasParent <http://example.org/policy/EU-ETS-Article28a> .
+
+<http://example.org/policy/EU-ETS-Article28a-Paragraph7>
+    a poliana:Paragraph ;
+    dc:description "For the purposes of this Article, flights between aerodromes located in States of the EEA and countries that acceded to the Union in 2013 shall be considered to be flights between aerodromes located in States of the EEA." ;
+    poliana:hasParent <http://example.org/policy/EU-ETS-Article28a> .
+
+<http://example.org/policy/EU-ETS-Article28a-Paragraph8>
+    a poliana:Paragraph ;
+    dc:description "The Commission shall regularly, and at least once a year, inform the European Parliament and the Council of the progress of the International Civil Aviation Organization (ICAO) negotiations as well as of its own actions to address international aviation emissions." ;
+    poliana:hasParent <http://example.org/policy/EU-ETS-Article28a> .

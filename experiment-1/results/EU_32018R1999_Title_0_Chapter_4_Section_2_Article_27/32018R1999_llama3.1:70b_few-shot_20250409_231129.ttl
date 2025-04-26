@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj>
+  dc:title "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27" ;
+  eli:date_publication "2021-07-06"^^xsd:date ;
+  owl:sameAs <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R1999> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_27>
+  a eli:LegalResource, dcat:Dataset ;
+  dc:title "Article 27 - Reporting on the 2020 targets" ;
+  skos:notation "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_27_Time_Monitoring_1>
+  a time:Instant ;
+  dc:description "By 30 April 2022" ;
+  time:inXSDDateTime "2022-04-30T00:00:00Z"^^xsd:dateTime .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_27_Time_Monitoring_2>
+  a time:Instant ;
+  dc:description "31 December 2020" ;
+  time:inXSDDateTime "2020-12-31T00:00:00Z"^^xsd:dateTime .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_27_Annotation_1>
+  a eli:Annotation ;
+  dc:description "Member States shall report to the Commission on the achievement of its 2020 energy efficiency national target established pursuant to Article 3(1) of Directive 2012/27/EU" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_27_Annotation_2>
+  a eli:Annotation ;
+  dc:description "The report shall include the information set out in Part 2 of Annex IX to this Regulation, and of the national overall targets for the share of energy from renewable sources in 2020 as set out in Annex I to Directive 2009/28/EC" .

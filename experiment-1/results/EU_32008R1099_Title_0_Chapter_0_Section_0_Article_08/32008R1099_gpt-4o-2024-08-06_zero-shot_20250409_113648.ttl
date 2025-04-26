@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj> a pol:PolicyDocument ;
+    pol:hasArticle <https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08> .
+
+<https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08> a pol:PolicyArticle ;
+    pol:annotatedText "annual nuclear statistics the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)." ;
+    pol:addresses eurovoc:2198 ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:specifies_compliance_time [ a pol:Time_Compliance ;
+        pol:Compliance_date "2009-01-01"^^xsd:date ;
+        pol:annotatedText "from 2009 onwards, that year being the first reported period" ] ;
+    pol:authorises eurovoc:4038 .

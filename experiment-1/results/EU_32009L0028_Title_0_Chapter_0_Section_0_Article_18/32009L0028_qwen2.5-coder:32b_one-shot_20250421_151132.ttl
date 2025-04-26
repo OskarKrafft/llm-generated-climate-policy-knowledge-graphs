@@ -1,0 +1,51 @@
+@prefix ex: <http://example.org/example#> .
+@prefix pol: <http://example.org/polina#> .
+
+ex:Article17 a pol:PolicyDocument ;
+    pol:hasSection ex:Section1,
+        ex:Section2,
+        ex:Section3,
+        ex:Section4,
+        ex:Section5,
+        ex:Section6,
+        ex:Section7,
+        ex:Section8,
+        ex:Section9 ;
+    pol:title "Verification and Monitoring of Sustainability Criteria" .
+
+ex:Section1 a pol:PolicySection ;
+    pol:hasContent "Member States shall ensure that biofuels and bioliquids comply with the sustainability criteria set out in Article 17." ;
+    pol:title "Verification of Compliance with Sustainability Criteria" .
+
+ex:Section2 a pol:PolicySection ;
+    pol:hasContent "Economic operators shall provide information on measures taken for conservation of areas providing basic ecosystem services, soil, water and air protection, indirect land-use changes, restoration of degraded land, avoidance of excessive water consumption in areas where water is scarce and issues related to biodiversity." ;
+    pol:title "Information Requirements" .
+
+ex:Section3 a pol:PolicySection ;
+    pol:hasContent "The Community shall conclude bilateral or multilateral agreements with third countries containing provisions on sustainability criteria corresponding to those of this Directive." ;
+    pol:title "Agreements with Third Countries" .
+
+ex:Section4 a pol:PolicySection ;
+    pol:hasContent "The Commission may decide that voluntary national or international schemes setting standards for the production of biomass products contain accurate data or demonstrate compliance with sustainability criteria." ;
+    pol:title "Recognition of Voluntary Schemes" .
+
+ex:Section5 a pol:PolicySection ;
+    pol:hasContent "Decisions under Section 4 shall be adopted only if the agreement or scheme meets adequate standards of reliability, transparency and independent auditing." ;
+    pol:title "Criteria for Recognition" .
+
+ex:Section6 a pol:PolicySection ;
+    pol:hasContent "Decisions under Section 4 shall be adopted in accordance with the advisory procedure referred to in Article 25(3) and shall be valid for no more than five years." ;
+    pol:title "Procedure for Decisions" .
+
+ex:Section7 a pol:PolicySection ;
+    pol:hasContent "When an economic operator provides proof or data obtained in accordance with an agreement or scheme that has been the subject of a decision pursuant to Section 4, Member States shall not require further evidence of compliance." ;
+    pol:title "Use of Recognized Agreements or Schemes" .
+
+ex:Section8 a pol:PolicySection ;
+    pol:hasContent "At the request of a Member State or on its own initiative, the Commission shall examine the application of Article 17 in relation to a source of biofuel or bioliquid and decide whether it may be taken into account." ;
+    pol:title "Examination of Compliance" .
+
+ex:Section9 a pol:PolicySection ;
+    pol:hasContent "By 31 December 2012, the Commission shall report to the European Parliament and Council on the effectiveness of the system in place for provision of information on sustainability criteria and whether it is feasible and appropriate to introduce mandatory requirements." ;
+    pol:title "Report on Effectiveness" .
+

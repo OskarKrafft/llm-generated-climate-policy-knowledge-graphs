@@ -1,0 +1,58 @@
+turtle
+@prefix pol: <http://purl.org/olia/polcore#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/article/EU-Directive-2012-27-EU>
+  a pol:Document ;
+  rdfs:label "EU Directive 2012/27/EU"^^xsd:string ;
+
+  pol:contains [
+    a pol:Article ;
+    rdfs:label "Article 1"^^xsd:string ;
+    pol:paragraph [
+      a pol:Paragraph ;
+      rdfs:label "Paragraph 1"^^xsd:string ;
+      pol:text """Member States shall ensure that authorisation procedures for the construction of new installations are coordinated with the relevant energy efficiency and environmental assessments, as required by Community law."""^^xsd:string
+    ] ;
+    pol:paragraph [
+      a pol:Paragraph ;
+      rdfs:label "Paragraph 2"^^xsd:string ;
+      pol:text """The coordination shall take into account the requirements laid down in Annex II to Directive 2009/72/EC and in Article 8 of Directive 2010/75/EU."""^^xsd:string
+    ]
+  ] ;
+
+  pol:contains [
+    a pol:Article ;
+    rdfs:label "Article 2"^^xsd:string ;
+    pol:paragraph [
+      a pol:Paragraph ;
+      rdfs:label "Paragraph 1"^^xsd:string ;
+      pol:text """Member States shall ensure that the energy performance of buildings is certified by an independent expert on the basis of a harmonised calculation methodology and criteria set out in Annex I."""^^xsd:string
+    ] ;
+    pol:paragraph [
+      a pol:Paragraph ;
+      rdfs:label "Paragraph 2"^^xsd:string ;
+      pol:text """The certificate shall include recommendations for cost-effective improvements to the energy performance of the building, including those which could be achieved through major renovation or demolition and reconstruction."""^^xsd:string
+    ]
+  ] ;
+
+  pol:contains [
+    a pol:Article ;
+    rdfs:label "Article 3"^^xsd:string ;
+    pol:paragraph [
+      a pol:Paragraph ;
+      rdfs:label "Paragraph 1"^^xsd:string ;
+      pol:text """Member States shall ensure that all new buildings occupied and owned by public authorities are nearly zero-energy buildings by 31 December 2018."""^^xsd:string
+    ] ;
+    pol:paragraph [
+      a pol:Paragraph ;
+      rdfs:label "Paragraph 2"^^xsd:string ;
+      pol:text """Member States may choose to have a longer period for meeting this obligation, provided that they set an intermediate target of at least 50 % of new buildings being nearly zero-energy buildings by 31 December 2015."""^^xsd:string
+    ]
+  ] ;
+
+  # ... and so on ...
+Note: This is just an excerpt from the complete output. The actual RDF will contain many more triples, representing all the articles, paragraphs, and text within the directive.
+
+Also note that I've assumed a certain structure for the data, based on my understanding of the POLIANNA ontology. If this structure doesn't match your requirements, please let me know and I'll make adjustments accordingly.

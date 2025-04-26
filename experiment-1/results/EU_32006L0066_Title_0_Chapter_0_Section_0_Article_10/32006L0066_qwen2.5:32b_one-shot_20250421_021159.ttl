@@ -1,0 +1,38 @@
+@prefix pola: <http://purl.org/politico/ontologies/policy-ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/dir/2006/66/oj>
+    a pola:Directive ;
+    pola:hasCELEXNumber "32006L0066"^^xsd:string ;
+    pola:annotatedBy "C", "F" ;
+    pola:hasArticle <http://data.europa.eu/eli/dir/2006/66/oj#EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10> .
+
+<http://data.europa.eu/eli/dir/2006/66/oj#EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10>
+    a pola:Article ;
+    pola:hasText "article 10 collection targets
+1. member states shall calculate the collection rate for the first time in respect of the fifth full calendar year following the entry into force of this directive.
+without prejudice to directive 2002/96/ec, annual collection and sales figures shall include batteries and accumulators incorporated into appliances.
+2. member states shall achieve the following minimum collection rates:
+(a) 25 % by 26 september 2012;
+(b) 45 % by 26 september 2016.
+3. member states shall monitor collection rates on a yearly basis according to the scheme set out in annex i. without prejudice to regulation (ec) no 2150/2002 of the european parliament and of the council of 25 november 2002 on waste statistics, member states shall transmit reports to the commission within six months of the end of the calendar year concerned. reports shall indicate how they obtained the data necessary to calculate the collection rate.
+4. in accordance with the procedure referred to in article 24(2):
+(a) transitional arrangements may be laid down to address difficulties faced by a member state in satisfying the requirements of paragraph 2 as a result of specific national circumstances;
+(b) a common methodology shall be established for the calculation of annual sales of portable batteries and accumulators to end-users by 26 september 2007." ;
+    pola:hasRequirement [
+        a pola:Requirement ;
+        pola:hasDate "2012-09-26"^^xsd:date ;
+        pola:hasTargetPercentage "25.0"^^xsd:float
+    ] , [
+        a pola:Requirement ;
+        pola:hasDate "2016-09-26"^^xsd:date ;
+        pola:hasTargetPercentage "45.0"^^xsd:float
+    ] .
+
+<http://data.europa.eu/eli/dir/2006/66/oj#EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10> pola:hasMonitorFrequency "yearly"^^xsd:string .
+<http://data.europa.eu/eli/dir/2006/66/oj#EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10> pola:hasReportFrequency "six months"^^xsd:string .
+<http://data.europa.eu/eli/dir/2006/66/oj#EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10> pola:hasAnnex <http://data.europa.eu/eli/dir/2006/66/oj#annex-i> .
+
+<http://data.europa.eu/eli/dir/2006/66/oj#annex-i>
+    a pola:Annex ;
+    pola:hasTitle "Annex I" .

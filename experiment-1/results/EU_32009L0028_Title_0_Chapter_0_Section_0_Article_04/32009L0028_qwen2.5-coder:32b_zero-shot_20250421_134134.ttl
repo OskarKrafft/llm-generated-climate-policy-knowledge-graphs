@@ -1,0 +1,37 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04 a pol:Article ;
+    pol:annotatedBy ( pol:B pol:A ) ;
+    pol:hasCELEXNumber "32009L0028" ;
+    pol:hasTitle "national renewable energy action plans" ;
+    pol:isPartOf <http://data.europa.eu/eli/dir/2009/28/oj> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_Paragraph_1 a pol:Paragraph ;
+    pol:hasContent "each member state shall adopt a national renewable energy action plan. the national renewable energy action plans shall set out member states’ national targets for the share of energy from renewable sources consumed in transport, electricity and heating and cooling in 2020, taking into account the effects of other policy measures relating to energy efficiency on final consumption of energy, and adequate measures to be taken to achieve those national overall targets, including cooperation between local, regional and national authorities, planned statistical transfers or joint projects, national policies to develop existing biomass resources and mobilise new biomass resources for different uses, and the measures to be taken to fulfil the requirements of articles 13 to 19." ;
+    pol:hasDate "2009-06-30"^^xsd:date ;
+    pol:hasTemplate <http://data.europa.eu/eli/dir/2009/28/oj#annex_vi> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_Paragraph_2 a pol:Paragraph ;
+    pol:hasContent "member states shall notify their national renewable energy action plans to the commission by 30 june 2010." ;
+    pol:hasDate "2010-06-30"^^xsd:date .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_Paragraph_3 a pol:Paragraph ;
+    pol:hasContent "each member state shall publish and notify to the commission, six months before its national renewable energy action plan is due, a forecast document indicating:" ;
+    pol:hasSubparagraph ( [ pol:hasContent "its estimated excess production of energy from renewable sources compared to the indicative trajectory which could be transferred to other member states in accordance with articles 6 to 11, as well as its estimated potential for joint projects, until 2020;" ] [ pol:hasContent "its estimated demand for energy from renewable sources to be satisfied by means other than domestic production until 2020." ] ) ;
+    pol:mayInclude "elements relating to cost and benefits and financing" ;
+    pol:mustUpdateIn <http://data.europa.eu/eli/dir/2009/28/oj#article_22(1)(l)_and_(m)> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_Paragraph_4 a pol:Paragraph ;
+    pol:hasContent "a member state whose share of energy from renewable sources fell below the indicative trajectory in the immediately preceding two-year period set out in part b of annex i, shall submit an amended national renewable energy action plan to the commission by 30 june of the following year, setting out adequate and proportionate measures to rejoin, within a reasonable timetable, the indicative trajectory in part b of annex i." ;
+    pol:hasDate "2010-06-30"^^xsd:date ;
+    pol:mayReleaseFrom <http://data.europa.eu/eli/dir/2009/28/oj#article_4> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_Paragraph_5 a pol:Paragraph ;
+    pol:hasContent "the commission shall evaluate the national renewable energy action plans, notably the adequacy of the measures envisaged by the member state in accordance with article 3(2)." ;
+    pol:mayIssue <http://data.europa.eu/eli/dir/2009/28/oj#recommendation> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_Paragraph_6 a pol:Paragraph ;
+    pol:hasContent "the commission shall send to the european parliament the national renewable energy action plans and the forecast documents in the form as made public on the transparency platform as referred to in article 24(2), as well as any recommendation as referred to in paragraph 5 of this article." .
+

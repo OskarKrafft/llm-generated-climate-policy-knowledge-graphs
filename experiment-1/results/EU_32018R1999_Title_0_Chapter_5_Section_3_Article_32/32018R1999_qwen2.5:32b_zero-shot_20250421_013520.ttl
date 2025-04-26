@@ -1,0 +1,72 @@
+@prefix pol: <http://example.org/poliana#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/regulation/Explanation> a pol:GapExplanation ;
+    pol:gapDate "2022-12-31"^^xsd:date ;
+    pol:isExplainableIn <http://example.org/regulation/IntegratedReport2022> ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> .
+
+<http://example.org/regulation/Explanation2> a pol:GapExplanation ;
+    pol:gapDate "2025-12-31"^^xsd:date ;
+    pol:isExplainableIn <http://example.org/regulation/IntegratedReport2025> ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> .
+
+<http://example.org/regulation/Explanation3> a pol:GapExplanation ;
+    pol:gapDate "2027-12-31"^^xsd:date ;
+    pol:isExplainableIn <http://example.org/regulation/IntegratedReport2027> ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> .
+
+<http://example.org/regulation/GapCoverExplanation> a pol:GapCoverExplanation ;
+    pol:gapDate "2022-12-31"^^xsd:date ;
+    pol:isExplainableIn <http://example.org/regulation/IntegratedReport2022> ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> .
+
+<http://example.org/regulation/GapCoverExplanation2> a pol:GapCoverExplanation ;
+    pol:gapDate "2025-12-31"^^xsd:date ;
+    pol:isExplainableIn <http://example.org/regulation/IntegratedReport2025> ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> .
+
+<http://example.org/regulation/GapCoverExplanation3> a pol:GapCoverExplanation ;
+    pol:gapDate "2027-12-31"^^xsd:date ;
+    pol:isExplainableIn <http://example.org/regulation/IntegratedReport2027> ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> .
+
+<http://example.org/regulation/Measure1> a pol:AdditionalMeasure ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> ;
+    pol:measureType "national measures to increase deployment of renewable energy"^^xsd:string .
+
+<http://example.org/regulation/Measure2> a pol:AdditionalMeasure ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> ;
+    pol:measureType "adjusting the share of renewable energy in the heating and cooling sector"^^xsd:string .
+
+<http://example.org/regulation/Measure3> a pol:AdditionalMeasure ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> ;
+    pol:measureType "adjusting the share of renewable energy in the transport sector"^^xsd:string .
+
+<http://example.org/regulation/Measure4> a pol:AdditionalMeasure ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> ;
+    pol:measureType "voluntary financial payment to union mechanism"^^xsd:string .
+
+<http://example.org/regulation/Measure5> a pol:AdditionalMeasure ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> ;
+    pol:measureType "using cooperation mechanisms"^^xsd:string .
+
+<http://example.org/regulation/ProgressExplanation> a pol:ProgressExplanation ;
+    pol:gapDate "2022-12-31"^^xsd:date ;
+    pol:isExplainableIn <http://example.org/regulation/IntegratedReport2022> ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> .
+
+<http://example.org/regulation/ProgressExplanation2> a pol:ProgressExplanation ;
+    pol:gapDate "2025-12-31"^^xsd:date ;
+    pol:isExplainableIn <http://example.org/regulation/IntegratedReport2025> ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> .
+
+<http://example.org/regulation/ProgressExplanation3> a pol:ProgressExplanation ;
+    pol:gapDate "2027-12-31"^^xsd:date ;
+    pol:isExplainableIn <http://example.org/regulation/IntegratedReport2027> ;
+    pol:isRequiredBy <http://example.org/regulation/Article5> .
+
+<http://example.org/regulation/Article5> a pol:RegulationArticle ;
+    pol:hasArticleNumber "5"^^xsd:string ;
+    pol:isPartOf <http://example.org/regulation/Directive2018_2001> .
+

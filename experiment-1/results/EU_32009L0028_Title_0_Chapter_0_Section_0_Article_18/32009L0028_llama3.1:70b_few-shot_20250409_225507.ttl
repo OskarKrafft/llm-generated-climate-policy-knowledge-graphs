@@ -1,0 +1,45 @@
+@prefix pol: <http://purl.org/olia/polian#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://example.com/EU_Directive_2009_28_EC> a pol:Regulation ;
+    dcterms:title "Directive 2009/28/EC of the European Parliament and of the Council" ;
+    skos:notation "2009/28/EC" .
+
+_:article1 a pol:Article ;
+    pol:belongsTo <http://example.com/EU_Directive_2009_28_EC> ;
+    dcterms:title "Article 1" ;
+    pol:text "This Article shall apply to..." .
+
+_:article2 a pol:Article ;
+    pol:belongsTo <http://example.com/EU_Directive_2009_28_EC> ;
+    dcterms:title "Article 2" ;
+    pol:text "The Community shall endeavour to conclude bilateral or multilateral agreements..." .
+
+_:paragraph3 a pol:Paragraph ;
+    pol:belongsTo _:article1 ;
+    pol:text "Member States shall ensure that the share of energy from renewable sources in all forms of transport is at least..." .
+
+_:paragraph4 a pol:Paragraph ;
+    pol:belongsTo _:article2 ;
+    pol:text "The Community shall endeavour to conclude bilateral or multilateral agreements with third countries containing provisions on sustainability criteria..." .
+
+_:subsection3_1 a pol:Subsection ;
+    pol:belongsTo _:paragraph3 ;
+    dcterms:title "Sustainability criteria" ;
+    pol:text "The Commission may decide that voluntary national or international schemes setting standards for the production of biomass products contain accurate data for the purposes of Article 17(2)..." .
+
+_:subsection4_1 a pol:Subsection ;
+    pol:belongsTo _:paragraph4 ;
+    dcterms:title "Bilateral or multilateral agreements" ;
+    pol:text "When an economic operator provides proof or data obtained in accordance with an agreement or scheme that has been the subject of a decision pursuant to paragraph 4, to the extent covered by that decision..." .
+
+_:subsection3_2 a pol:Subsection ;
+    pol:belongsTo _:paragraph3 ;
+    dcterms:title "Greenhouse gas emission saving" ;
+    pol:text "The Commission may decide that voluntary national or international schemes to measure greenhouse gas emission saving contain accurate data for the purposes of Article 17(2)" .
+
+_:decision8 a pol:Decision ;
+    pol:madeBy <http://example.com/European_Commission> ;
+    dcterms:date "2010-01-01" ;
+    pol:text "The Commission shall examine the application of Article 17 in relation to a source of biofuel or bioliquid and, within six months of receipt of a request..." .

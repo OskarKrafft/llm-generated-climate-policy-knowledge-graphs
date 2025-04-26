@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix dc: <http://purl.org/dc/elements/1.1/> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix dctype: <http://purl.org/dc/dcmitype/> .\n@prefix eli: <http://data.europa.eu/eli/> .\n@prefix annotators: <https://example.com/annotators/> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n  dc:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\" ;\n  skos:notation \"32008R1099\" ;\n  dctype:Text <http://data.europa.eu/eli/reg/2008/1099/oj#article8> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj#article8>\n  dc:description \"Annual nuclear statistics. The Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).\" ;\n  dc:creator annotators:A, annotators:C .",
+    "original_output": "```turtle\n@prefix dc: <http://purl.org/dc/elements/1.1/> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix dctype: <http://purl.org/dc/dcmitype/> .\n@prefix eli: <http://data.europa.eu/eli/> .\n@prefix annotators: <https://example.com/annotators/> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n  dc:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\" ;\n  skos:notation \"32008R1099\" ;\n  dctype:Text <http://data.europa.eu/eli/reg/2008/1099/oj#article8> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj#article8>\n  dc:description \"Annual nuclear statistics. The Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).\" ;\n  dc:creator annotators:A, annotators:C .\n```",
+    "generation_time": 40.13183093070984,
+    "output": "```turtle\n@prefix dc: <http://purl.org/dc/elements/1.1/> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix dctype: <http://purl.org/dc/dcmitype/> .\n@prefix eli: <http://data.europa.eu/eli/> .\n@prefix annotators: <https://example.com/annotators/> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n  dc:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\" ;\n  skos:notation \"32008R1099\" ;\n  dctype:Text <http://data.europa.eu/eli/reg/2008/1099/oj#article8> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj#article8>\n  dc:description \"Annual nuclear statistics. The Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).\" ;\n  dc:creator annotators:A, annotators:C .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "llama3.1:70b",
+      "timestamp": "2025-04-21T04:16:39.919158"
+    },
+    "total_processing_time": 40.136752128601074,
+    "triple_count": 6
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix poli: <http://www.polina.eu/ontologies/poli/> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n\npoli:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a poli:Policy_Article ;\n  poli:has_CELEX_Number \"32008R1099\" ;\n  poli:has_ELI \"http://data.europa.eu/eli/reg/2008/1099/oj\" ;\n  skos:notation \"Article 8\" ;\n  poli:annotatedText \"\"\"article\u00a08\nannual nuclear statistics\nthe commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\nthe set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article\u00a011(2).\"\"\" .",
+    "original_output": "```turtle\n@prefix poli: <http://www.polina.eu/ontologies/poli/> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n\npoli:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a poli:Policy_Article ;\n  poli:has_CELEX_Number \"32008R1099\" ;\n  poli:has_ELI \"http://data.europa.eu/eli/reg/2008/1099/oj\" ;\n  skos:notation \"Article 8\" ;\n  poli:annotatedText \"\"\"article\u00a08\nannual nuclear statistics\nthe commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\nthe set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article\u00a011(2).\"\"\" .\n```",
+    "generation_time": 31.5024356842041,
+    "output": "```turtle\n@prefix poli: <http://www.polina.eu/ontologies/poli/> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n\npoli:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a poli:Policy_Article ;\n  poli:has_CELEX_Number \"32008R1099\" ;\n  poli:has_ELI \"http://data.europa.eu/eli/reg/2008/1099/oj\" ;\n  skos:notation \"Article 8\" ;\n  poli:annotatedText \"\"\"article\u00a08\nannual nuclear statistics\nthe commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\nthe set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article\u00a011(2).\"\"\" .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "llama3.1:70b",
+      "timestamp": "2025-04-21T04:17:11.427121"
+    },
+    "total_processing_time": 31.50791883468628,
+    "triple_count": 5
+  },
+  "few-shot": {
+    "is_valid": false,
+    "error": "at line 1 of <>:\nBad syntax (Prefix \"pol:\" not bound) at ^ in:\n\"b''^b'pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a p'...\"",
+    "extracted_content": "pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:Article ;\n    pol:has_CELEX \"32008R1099\" ;\n    pol:title \"Annual nuclear statistics\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"2009 onwards\" .",
+    "original_output": "```turtle\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:Article ;\n    pol:has_CELEX \"32008R1099\" ;\n    pol:title \"Annual nuclear statistics\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"2009 onwards\" .\n```",
+    "generation_time": 16.923142194747925,
+    "output": "```turtle\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:Article ;\n    pol:has_CELEX \"32008R1099\" ;\n    pol:title \"Annual nuclear statistics\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"2009 onwards\" .\n```",
+    "success": false,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "llama3.1:70b",
+      "timestamp": "2025-04-21T04:17:28.355029"
+    },
+    "total_processing_time": 16.926810026168823,
+    "triple_count": 0
+  }
+}

@@ -1,0 +1,23 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:Article_11_2 a pol:Provision ;
+    pol:hasSpecificApplicationDate "to be determined" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:Article ;
+    pol:appliesFrom "2011-02-24"^^xsd:date ;
+    pol:hasEntryIntoForceDate "2009-04-10"^^xsd:date ;
+    pol:hasException pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 ;
+    pol:hasTitle "article 16" ;
+    pol:isBinding true ;
+    pol:isDirectlyApplicable true .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_1 a pol:Exception ;
+    pol:appliesFrom "2009-04-10"^^xsd:date ;
+    pol:refersTo pol:Article_11_3 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Exception_2 a pol:Exception ;
+    pol:appliesFrom "2009-04-10"^^xsd:date ;
+    pol:refersTo pol:Article_12 .
+

@@ -1,0 +1,83 @@
+{
+  "zero-shot": {
+    "is_valid": false,
+    "error": "at line 11 of <>:\nBad syntax (newline found in string literal) at ^ in:\n\"...b'hapter_0_Section_0_Article_01\" ;\\n    rdfs:comment \"article 1'^b'\\nsubject matter\\nthis directive establishes a common framewor'...\"",
+    "extracted_content": "@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@base <https://polianna-kg.org/Ontology#> .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    rdfs:label \"EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01\" ;\n    rdfs:comment \"article 1\\nsubject matter\\nthis directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\" ;\n    pol:CELEX_Number \"32018L2001\" ;\n    pol:ELI <http://data.europa.eu/eli/dir/2018/2001/oj> ;\n    pol:hasAnnotator pol:Annotator_C , pol:Annotator_F , pol:Annotator_B .\n\npol:CELEX_Number a owl:DatatypeProperty ;\n    rdfs:domain pol:PolicyArticle ;\n    rdfs:range xsd:string .\n\npol:ELI a owl:DatatypeProperty ;\n    rdfs:domain pol:PolicyArticle ;\n    rdfs:range xsd:anyURI .\n\npol:hasAnnotator a owl:ObjectProperty ;\n    rdfs:domain pol:PolicyArticle ;\n    rdfs:range <http://data.europa.eu/eli/ontology#Agent> .\n\npol:Annotator_C a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"C\" .\n\npol:Annotator_F a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"F\" .\n\npol:Annotator_B a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"B\" .",
+    "original_output": "```turtle\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@base <https://polianna-kg.org/Ontology#> .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    rdfs:label \"EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01\" ;\n    rdfs:comment \"article 1\\nsubject matter\\nthis directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\" ;\n    pol:CELEX_Number \"32018L2001\" ;\n    pol:ELI <http://data.europa.eu/eli/dir/2018/2001/oj> ;\n    pol:hasAnnotator pol:Annotator_C , pol:Annotator_F , pol:Annotator_B .\n\npol:CELEX_Number a owl:DatatypeProperty ;\n    rdfs:domain pol:PolicyArticle ;\n    rdfs:range xsd:string .\n\npol:ELI a owl:DatatypeProperty ;\n    rdfs:domain pol:PolicyArticle ;\n    rdfs:range xsd:anyURI .\n\npol:hasAnnotator a owl:ObjectProperty ;\n    rdfs:domain pol:PolicyArticle ;\n    rdfs:range <http://data.europa.eu/eli/ontology#Agent> .\n\npol:Annotator_C a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"C\" .\n\npol:Annotator_F a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"F\" .\n\npol:Annotator_B a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"B\" .\n```",
+    "generation_time": 24.81897497177124,
+    "success": false,
+    "output": "```turtle\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@base <https://polianna-kg.org/Ontology#> .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    rdfs:label \"EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01\" ;\n    rdfs:comment \"article 1\\nsubject matter\\nthis directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\" ;\n    pol:CELEX_Number \"32018L2001\" ;\n    pol:ELI <http://data.europa.eu/eli/dir/2018/2001/oj> ;\n    pol:hasAnnotator pol:Annotator_C , pol:Annotator_F , pol:Annotator_B .\n\npol:CELEX_Number a owl:DatatypeProperty ;\n    rdfs:domain pol:PolicyArticle ;\n    rdfs:range xsd:string .\n\npol:ELI a owl:DatatypeProperty ;\n    rdfs:domain pol:PolicyArticle ;\n    rdfs:range xsd:anyURI .\n\npol:hasAnnotator a owl:ObjectProperty ;\n    rdfs:domain pol:PolicyArticle ;\n    rdfs:range <http://data.europa.eu/eli/ontology#Agent> .\n\npol:Annotator_C a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"C\" .\n\npol:Annotator_F a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"F\" .\n\npol:Annotator_B a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"B\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01",
+        "CELEX_Number": "32018L2001",
+        "ELI": "http://data.europa.eu/eli/dir/2018/2001/oj",
+        "Annotators": [
+          "C",
+          "F",
+          "B"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-10T23:03:09.700725"
+    },
+    "total_processing_time": 24.82284688949585,
+    "triple_count": 0
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    rdfs:comment \"subject matter: this directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    rdfs:comment \"subject matter: this directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\" .\n```",
+    "generation_time": 12.691882133483887,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    rdfs:comment \"subject matter: this directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01",
+        "CELEX_Number": "32018L2001",
+        "ELI": "http://data.europa.eu/eli/dir/2018/2001/oj",
+        "Annotators": [
+          "C",
+          "F",
+          "B"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-10T23:03:22.397273"
+    },
+    "total_processing_time": 12.69532322883606,
+    "triple_count": 4
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    rdfs:label \"Article 1: subject matter\" ;\n    rdfs:comment \"this directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    rdfs:label \"Article 1: subject matter\" ;\n    rdfs:comment \"this directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\" .\n```",
+    "generation_time": 20.481211185455322,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    rdfs:label \"Article 1: subject matter\" ;\n    rdfs:comment \"this directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01",
+        "CELEX_Number": "32018L2001",
+        "ELI": "http://data.europa.eu/eli/dir/2018/2001/oj",
+        "Annotators": [
+          "C",
+          "F",
+          "B"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-10T23:03:42.880894"
+    },
+    "total_processing_time": 20.48360300064087,
+    "triple_count": 5
+  }
+}

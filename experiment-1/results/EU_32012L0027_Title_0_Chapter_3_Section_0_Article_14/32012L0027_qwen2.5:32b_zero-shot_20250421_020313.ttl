@@ -1,0 +1,42 @@
+@prefix pol: <http://example.org/poliana#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:Article_7 a pol:Regulation ;
+    pol:hasRequirement pol:CertainInstallations,
+        pol:GuaranteeOfOrigin,
+        pol:SupportForCogeneration ;
+    pol:requires pol:ComprehensiveAssessment,
+        pol:CostBenefitAnalysis,
+        pol:GuaranteeOfOrigin ;
+    pol:title "Energy Efficiency - Cogeneration" .
+
+pol:ComprehensiveAssessment a pol:Requirement ;
+    pol:description "Member states shall conduct a comprehensive assessment of energy efficiency and cogeneration options." ;
+    pol:hasDeadline "2013-12-31"^^xsd:date .
+
+pol:CostBenefitAnalysis a pol:Requirement ;
+    pol:appliesTo pol:CertainInstallations ;
+    pol:description "Member states shall require cost-benefit analysis for specific installations to ensure efficient use of waste heat.",
+        "The requirement applies to peak load, back-up electricity generating installations operating under 1500 hours per year on average over a five-year period, nuclear power installations and those near geological storage sites approved under directive 2009/31/EU." .
+
+pol:HarmonisedValues a pol:Requirement ;
+    pol:description "Commission Implementing Decision 2011/877/EU shall be reviewed by the Commission by delegated acts in accordance with Article 23 of this directive before December 31, 2014." .
+
+pol:SupportForCogeneration a pol:Requirement ;
+    pol:description "Member states shall ensure that any available support for cogeneration is subject to the electricity produced originating from high-efficiency cogeneration and effective use of waste heat to achieve primary energy savings, while also being subject to state aid rules where applicable." .
+
+pol:CertainInstallations a pol:SetOfRequirements ;
+    pol:hasRequirement [ pol:description "Peak load and back-up electricity generating installations operating under 1500 hours per year on average over five years." ;
+            pol:type "Exemption" ],
+        [ pol:description "Nuclear power installations are exempted from the cost-benefit analysis requirement." ;
+            pol:type "Exemption" ],
+        [ pol:description "Installations near geological storage sites approved under directive 2009/31/EU are exempted." ;
+            pol:type "Exemption" ] .
+
+pol:GuaranteeOfOrigin a pol:Requirement ;
+    pol:description "Member states shall ensure electricity from high-efficiency cogeneration has a guarantee of origin according to objective, transparent and non-discriminatory criteria.",
+        "Member states shall mutually recognize guarantees of origin from other member states as proof of the information specified in Annex X, and any refusal to recognize a guarantee must be based on objective criteria and justified.",
+        "The harmonized efficiency reference values laid down in Commission Implementing Decision 2011/877/EU, based on Directive 2004/8/EC." ;
+    pol:requiresHarmonisedEfficiencyReferenceValues pol:HarmonisedValues ;
+    pol:requiresMutualRecognition true .
+

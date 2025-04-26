@@ -1,0 +1,37 @@
+turtle
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix poli: <https://w3id.org/poli/> .
+
+<https://w3id.org/poli/act/EUDirective200928EC>
+  a poli:Regulation ;
+  skos:notation "EU Directive 2009/28/EC" ;
+  rdfs:label "Promotion of the use of energy from renewable sources"@en ;
+  poli:dateIssued "2009-04-23"^^xsd:date .
+
+<https://w3id.org/poli/article/EU200928EC_Art_03>
+  a poli:RegulationArticle ;
+  rdfs:label "Article 3 - National targets for the share of energy from renewable sources"@en ;
+  skos:notation "EU Directive 2009/28/EC, Article 3" ;
+  poli:hasParent <https://w3id.org/poli/act/EUDirective200928EC> .
+
+<https://w3id.org/poli/article/EU200928EC_Art_17>
+  a poli:RegulationArticle ;
+  rdfs:label "Article 17 - Sustainability criteria for biofuels and bioliquids"@en ;
+  skos:notation "EU Directive 2009/28/EC, Article 17" ;
+  poli:hasParent <https://w3id.org/poli/act/EUDirective200928EC> .
+
+<https://w3id.org/poli/article/EU200928EC_Art_03_Par01>
+  a poli:RegulationArticleParagraph ;
+  rdfs:label "By 2020, the share of energy from renewable sources in gross final consumption of energy shall be at least 20 %."@en ;
+  skos:notation "EU Directive 2009/28/EC, Article 3(1)" ;
+  poli:hasParent <https://w3id.org/poli/article/EU200928EC_Art_03> .
+
+<https://w3id.org/poli/article/EU200928EC_Art_17_Par02>
+  a poli:RegulationArticleParagraph ;
+  rdfs:label "The Commission shall report to the European Parliament and the Council on the implementation of this Article by [date]."@en ;
+  skos:notation "EU Directive 2009/28/EC, Article 17(2)" ;
+  poli:hasParent <https://w3id.org/poli/article/EU200928EC_Art_17> .

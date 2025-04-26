@@ -1,0 +1,41 @@
+@prefix pola: <http://example.org/polanna#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj>
+    a pola:PolicyDocument ;
+    pola:title "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09" ;
+    pola:celexNumber "32018R1999"^^xsd:string ;
+    pola:annotator "A", "C" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#article-9>
+    a pola:Article ;
+    pola:title "Draft Integrated National Energy and Climate Plans" ;
+    pola:policyDocument <http://data.europa.eu/eli/reg/2018/1999/oj> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#article-9-para-1>
+    a pola:Paragraph ;
+    pola:title "Preparation and Submission of Draft Integrated National Energy and Climate Plans" ;
+    pola:content "By 31 December 2018, and subsequently by 1 January 2028 and every ten years thereafter, each member state shall prepare and submit to the commission a draft of the integrated national energy and climate plan in accordance with article 3(1) and annex i." ;
+    pola:article <http://data.europa.eu/eli/reg/2018/1999/oj#article-9> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#article-9-para-2>
+    a pola:Paragraph ;
+    pola:title "Commission Assessment and Recommendations" ;
+    pola:content "The commission shall assess the draft integrated national energy and climate plans and may issue country-specific recommendations to member states in accordance with article 34 no later than six months before the deadline for submitting those integrated national energy and climate plans. Those recommendations may, in particular, address:
+(a) The level of ambition of objectives, targets and contributions with a view to collectively achieving the energy union objectives and, in particular, the union's 2030 targets for renewable energy and energy efficiency as well as the level of electricity interconnectivity that the member state aims for in 2030 as referred to in point (d) of article 4, taking due account of relevant circumstances affecting the deployment of renewable energy and energy consumption, as indicated by the member state concerned in the draft integrated national energy and climate plan and the indicators of the urgency of action for interconnectivity established in point 2.4.1 of section A of part 1 of annex I;
+(b) Policies and measures relating to member-state- and union-level objectives and other policies and measures of potential cross-border relevance;
+(c) Any additional policies and measures that might be required in the integrated national energy and climate plans;
+(d) Interactions between and consistency of existing and planned policies and measures included in the integrated national energy and climate plan within one dimension and among different dimensions of the energy union." ;
+    pola:article <http://data.europa.eu/eli/reg/2018/1999/oj#article-9> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#article-9-para-3>
+    a pola:Paragraph ;
+    pola:title "Member State Consideration of Recommendations" ;
+    pola:content "Each member state shall take due account of any recommendations from the commission in its integrated national energy and climate plan. If the member state concerned does not address a recommendation or a substantial part thereof, that member state shall provide and make public its reasons." ;
+    pola:article <http://data.europa.eu/eli/reg/2018/1999/oj#article-9> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#article-9-para-4>
+    a pola:Paragraph ;
+    pola:title "Public Consultation and Availability of Draft Plans" ;
+    pola:content "In the context of the public consultation as referred to in article 10, each member state shall make available to the public its draft integrated national energy and climate plan." ;
+    pola:article <http://data.europa.eu/eli/reg/2018/1999/oj#article-9> .

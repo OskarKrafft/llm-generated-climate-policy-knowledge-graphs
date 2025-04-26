@@ -1,0 +1,24 @@
+{
+  "is_valid": false,
+  "error": "at line 13 of <>:\nBad syntax (']' expected) at ^ in:\n\"...b' them.\"\"\" ;\\n    pol:notificationDate \"2008-09-26\"^^xsd:date '^b'.\\n] .'\"",
+  "extracted_content": "@prefix pol: <http://example.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj> \n    pol:title \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n    pol:celexNumber \"32006L0066\"^^xsd:string ;\n    pol:annotators (\"C\" \"F\") .\n\n<http://data.europa.eu/eli/dir/2006/66/oj> pol:article [\n    pol:number \"25\" ;\n    pol:title \"Penalties\" ;\n    pol:text \"\"\"Member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member states shall notify those measures to the commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" ;\n    pol:notificationDate \"2008-09-26\"^^xsd:date .\n] .",
+  "original_output": "```turtle\n@prefix pol: <http://example.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj> \n    pol:title \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n    pol:celexNumber \"32006L0066\"^^xsd:string ;\n    pol:annotators (\"C\" \"F\") .\n\n<http://data.europa.eu/eli/dir/2006/66/oj> pol:article [\n    pol:number \"25\" ;\n    pol:title \"Penalties\" ;\n    pol:text \"\"\"Member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member states shall notify those measures to the commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" ;\n    pol:notificationDate \"2008-09-26\"^^xsd:date .\n] .\n```",
+  "generation_time": 17.6855046749115,
+  "output": "```turtle\n@prefix pol: <http://example.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj> \n    pol:title \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n    pol:celexNumber \"32006L0066\"^^xsd:string ;\n    pol:annotators (\"C\" \"F\") .\n\n<http://data.europa.eu/eli/dir/2006/66/oj> pol:article [\n    pol:number \"25\" ;\n    pol:title \"Penalties\" ;\n    pol:text \"\"\"Member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member states shall notify those measures to the commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" ;\n    pol:notificationDate \"2008-09-26\"^^xsd:date .\n] .\n```",
+  "success": false,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+      "CELEX_Number": "32006L0066",
+      "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T02:08:15.639795"
+  }
+}

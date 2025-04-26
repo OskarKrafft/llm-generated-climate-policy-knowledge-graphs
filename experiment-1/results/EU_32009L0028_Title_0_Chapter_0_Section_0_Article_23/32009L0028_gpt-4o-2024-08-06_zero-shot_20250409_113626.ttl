@@ -1,0 +1,37 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23> a pol:PolicyArticle ;
+    pol:annotatedText "Article 23: Monitoring and reporting by the Commission" ;
+    pol:contains_monitoring_form <https://polianna-kg.org/Ontology#Form_monitoring> ;
+    pol:contains_objective <https://polianna-kg.org/Ontology#Objective> ;
+    pol:addresses <http://eurovoc.europa.eu/4038> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2012-01-01"^^xsd:date ;
+        pol:annotatedText "The first report shall be submitted in 2012."
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2010-12-31"^^xsd:date ;
+        pol:annotatedText "By 31 December 2010, the Commission shall present an analysis and action plan."
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2014-12-31"^^xsd:date ;
+        pol:annotatedText "By 31 December 2014, the Commission shall present a report."
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2018-01-01"^^xsd:date ;
+        pol:annotatedText "In 2018, the Commission shall present a renewable energy roadmap."
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2021-01-01"^^xsd:date ;
+        pol:annotatedText "In 2021, the Commission shall present a report reviewing the application of this directive."
+    ] ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:hasArticle <https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23> ;
+    pol:annotatedText "The Commission shall monitor the origin of biofuels and bioliquids consumed in the Community and the impact of their production." .

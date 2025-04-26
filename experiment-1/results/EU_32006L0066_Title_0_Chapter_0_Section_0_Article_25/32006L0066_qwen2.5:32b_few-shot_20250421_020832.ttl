@@ -1,0 +1,12 @@
+@prefix pol: <http://example.org/polliana#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:Article25 pol:partOf <http://data.europa.eu/eli/dir/2006/66/oj> ;
+    pol:penaltiesRule true ;
+    pol:text "article 25 penalties member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member states shall notify those measures to the commission by 26 september 2008 and shall inform it without delay of any subsequent amendment to them." .
+
+<http://data.europa.eu/eli/dir/2006/66/oj> pol:CELEX_Number "32006L0066" ;
+    pol:annotators ( "C" "F" ) ;
+    pol:title "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25" .
+

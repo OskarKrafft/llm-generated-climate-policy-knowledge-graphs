@@ -1,0 +1,58 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pol: <http://purl.org/political-ontology#> .
+
+<http://example.com/article/EU_2018_2001_Article_25>
+    a pol:LegislativeArticle ;
+    pol:number "25" ;
+    pol:title "Advanced biofuels and biogas for transport"@en ;
+    pol:hasParagraph [
+        a pol:LegislativeParagraph ;
+        pol:number "1" ;
+        pol:text """By 31 December 2020, the share of advanced biofuels in the Union's energy mix shall be at least 3.5 % of the total energy consumed in transport."""@en
+    ] ;
+    pol:hasParagraph [
+        a pol:LegislativeParagraph ;
+        pol:number "2" ;
+        pol:text """Member States shall require economic operators to enter into a database information on transactions made and sustainability characteristics of fuels, including life-cycle greenhouse gas emissions from production to the fuel supplier that places the fuel on the market."""@en
+    ] ;
+    pol:hasParagraph [
+        a pol:LegislativeParagraph ;
+        pol:number "3" ;
+        pol:text """By 31 December 2021, Member States shall take measures to ensure the availability of fuels from renewable sources for transport, including publicly accessible high-power recharging points and other refuelling infrastructure."""@en
+    ] ;
+    pol:hasParagraph [
+        a pol:LegislativeParagraph ;
+        pol:number "4" ;
+        pol:text """Member States shall have access to the Union database. They shall take measures to ensure that economic operators enter accurate information into the relevant database."""@en
+    ] ;
+    pol:hasParagraph [
+        a pol:LegislativeParagraph ;
+        pol:number "5" ;
+        pol:text """By 31 December 2021, the Commission shall adopt delegated acts specifying the methodology for determining the share of biofuel and biogas resulting from biomass processed with fossil fuels in a common process."""@en
+    ] ;
+    pol:hasParagraph [
+        a pol:LegislativeParagraph ;
+        pol:number "6" ;
+        pol:text """By 25 June 2019, and every two years thereafter, the Commission shall review the list of feedstock set out in parts A and B of Annex IX."""@en
+    ] ;
+    pol:hasParagraph [
+        a pol:LegislativeParagraph ;
+        pol:number "7" ;
+        pol:text """By 31 December 2025, the Commission shall assess whether the obligation relating to advanced biofuels and biogas produced from feedstock listed in part A of Annex IX effectively stimulates innovation and ensures greenhouse gas emissions savings."""@en
+    ] .
+
+<http://example.com/article/EU_2018_2001_Article_29>
+    a pol:LegislativeArticle ;
+    pol:number "29" ;
+    pol:title "Sustainability criteria for biofuels, bioliquids and biomass fuels"@en .
+
+<http://example.com/decision/EU_2014_94>
+    a pol:LegislativeDecision ;
+    pol:title "Directive 2014/94/EU on the deployment of alternative fuels infrastructure"@en .
+
+<http://example.com/regulation/EU_2018_1999>
+    a pol:LegislativeRegulation ;
+    pol:title "Regulation (EU) 2018/1999 on the Governance of the Energy Union and Climate Action"@en .

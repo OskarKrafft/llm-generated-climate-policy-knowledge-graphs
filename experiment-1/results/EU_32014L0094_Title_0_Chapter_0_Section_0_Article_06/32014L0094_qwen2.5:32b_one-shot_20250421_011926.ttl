@@ -1,0 +1,54 @@
+@prefix pol: <http://example.org/polanna#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://example.org/article/EU_Directive_20XX_Article_X>
+    a pol:Article;
+    pol:hasProvision [
+        a pol:Provision;
+        pol:isPartOf <http://example.org/article/EU_Directive_20XX_Article_X>;
+        pol:requiresDeployment [ 
+            a pol:Requirement;
+            pol:text "appropriate number of LNG refuelling points accessible to the public"^^xsd:string;  
+            pol:endDate "2027-12-31T23:59:59Z"^^xsd:dateTime
+        ].
+    ];
+    pol:hasProvision [
+        a pol:Provision;
+        pol:isPartOf <http://example.org/article/EU_Directive_20XX_Article_X>;
+        pol:requiresDeployment [ 
+            a pol:Requirement;
+            pol:text "appropriate number of CNG refuelling points accessible to the public"^^xsd:string;  
+            pol:endDate "2025-12-31T23:59:59Z"^^xsd:dateTime
+        ].
+    ];
+    pol:hasProvision [
+        a pol:Provision;
+        pol:isPartOf <http://example.org/article/EU_Directive_20XX_Article_X>;
+        pol:text "CNG refuelling points for motor vehicles deployed or renewed as from 18 November 2017 comply with the technical specifications set out in point 3.4 of annex II"^^xsd:string.
+    ];
+    pol:hasProvision [
+        a pol:Provision;
+        pol:isPartOf <http://example.org/article/EU_Directive_20XX_Article_X>;
+        pol:text "Union to pursue the development by relevant European or international standardisation organisations of standards, including detailed technical specifications"^^xsd:string.
+    ];
+    pol:hasProvision [
+        a pol:Provision;
+        pol:isPartOf <http://example.org/article/EU_Directive_20XX_Article_X>;
+        pol:text "Commission to adopt delegated acts in accordance with article 8 for supplementing this article and technical specifications"^^xsd:string.
+    ];
+    pol:hasProvision [
+        a pol:Provision;
+        pol:isPartOf <http://example.org/article/EU_Directive_20XX_Article_X>;
+        pol:text "Commission to adopt delegated acts in accordance with article 8 for laying down requirements for interfaces of bunker transfer and safety aspects"^^xsd:string.
+    ].
+
+<http://example.org/requirement/LNG_Refuelling>
+    a pol:Requirement;
+    pol:forInfrastructure <http://example.org/article/EU_Directive_20XX_Article_X>;
+    pol:endDate "2027-12-31T23:59:59Z"^^xsd:dateTime.
+
+<http://example.org/requirement/CNG_Refuelling>
+    a pol:Requirement;
+    pol:forInfrastructure <http://example.org/article/EU_Directive_20XX_Article_X>;
+    pol:endDate "2025-12-31T23:59:59Z"^^xsd:dateTime.
+.

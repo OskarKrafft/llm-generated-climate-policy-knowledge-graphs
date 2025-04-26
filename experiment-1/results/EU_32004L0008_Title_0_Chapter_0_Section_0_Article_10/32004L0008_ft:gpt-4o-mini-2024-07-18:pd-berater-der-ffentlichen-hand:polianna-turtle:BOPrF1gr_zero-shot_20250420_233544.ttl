@@ -1,0 +1,22 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32004L0008 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,
+        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,
+        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "21 february 2006" .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "21 february 2007" .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "every four years" .
+

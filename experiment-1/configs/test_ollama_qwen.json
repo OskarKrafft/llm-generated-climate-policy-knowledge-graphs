@@ -1,0 +1,10 @@
+{
+    "test_data": "test_data/v16",
+    "output_dir": "experiment-1/results/ollama_runs/qwen2.5_32b",
+    "model_type": "ollama",
+    "model_name": "qwen2.5:32b",
+    "strategies": ["zero-shot", "one-shot", "few-shot"],
+    "temperature": 0.0,
+    "max_tokens": 4000,
+    "limit": 1
+  }

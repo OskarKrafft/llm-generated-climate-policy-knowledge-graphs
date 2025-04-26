@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix ex: <http://example.org/> .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    rdfs:label \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\" ;\n    rdfs:comment \"article 8 annual nuclear statistics the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)\" ;\n    rdfs:seeAlso <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    ex:celexNumber \"32008R1099\" ;\n    ex:annotatedBy ex:A , ex:C .\n\nex:A a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"A\" .\n\nex:C a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"C\" .",
+    "original_output": "```turtle\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix ex: <http://example.org/> .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    rdfs:label \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\" ;\n    rdfs:comment \"article 8 annual nuclear statistics the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)\" ;\n    rdfs:seeAlso <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    ex:celexNumber \"32008R1099\" ;\n    ex:annotatedBy ex:A , ex:C .\n\nex:A a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"A\" .\n\nex:C a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"C\" .\n```",
+    "generation_time": 16.974020957946777,
+    "success": true,
+    "output": "```turtle\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix ex: <http://example.org/> .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    rdfs:label \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\" ;\n    rdfs:comment \"article 8 annual nuclear statistics the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)\" ;\n    rdfs:seeAlso <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    ex:celexNumber \"32008R1099\" ;\n    ex:annotatedBy ex:A , ex:C .\n\nex:A a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"A\" .\n\nex:C a <http://data.europa.eu/eli/ontology#Agent> ;\n    rdfs:label \"C\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-11T00:09:13.013337"
+    },
+    "total_processing_time": 16.98190689086914,
+    "triple_count": 11
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    rdfs:comment \"annual nuclear statistics: the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, and avoiding any duplication of data collection, while keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)\" ;\n    pol:authorises <http://eurovoc.europa.eu/4038>, <http://eurovoc.europa.eu/2198> ;\n    pol:contains_instrument pol:Annual_Nuclear_Statistics ;\n    pol:specifies_in_effect_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect a pol:Time_InEffect ;\n    pol:In_effect_date \"2009-01-01\"^^xsd:date ;\n    pol:annotatedText \"from 2009 onwards, first reported period\" .\n\npol:Annual_Nuclear_Statistics a <http://www.w3.org/2004/02/skos/core#Concept> ;\n    rdfs:label \"Annual Nuclear Statistics\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    rdfs:comment \"annual nuclear statistics: the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, and avoiding any duplication of data collection, while keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)\" ;\n    pol:authorises <http://eurovoc.europa.eu/4038>, <http://eurovoc.europa.eu/2198> ;\n    pol:contains_instrument pol:Annual_Nuclear_Statistics ;\n    pol:specifies_in_effect_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect a pol:Time_InEffect ;\n    pol:In_effect_date \"2009-01-01\"^^xsd:date ;\n    pol:annotatedText \"from 2009 onwards, first reported period\" .\n\npol:Annual_Nuclear_Statistics a <http://www.w3.org/2004/02/skos/core#Concept> ;\n    rdfs:label \"Annual Nuclear Statistics\" .\n```",
+    "generation_time": 21.943944931030273,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    rdfs:comment \"annual nuclear statistics: the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, and avoiding any duplication of data collection, while keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)\" ;\n    pol:authorises <http://eurovoc.europa.eu/4038>, <http://eurovoc.europa.eu/2198> ;\n    pol:contains_instrument pol:Annual_Nuclear_Statistics ;\n    pol:specifies_in_effect_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect a pol:Time_InEffect ;\n    pol:In_effect_date \"2009-01-01\"^^xsd:date ;\n    pol:annotatedText \"from 2009 onwards, first reported period\" .\n\npol:Annual_Nuclear_Statistics a <http://www.w3.org/2004/02/skos/core#Concept> ;\n    rdfs:label \"Annual Nuclear Statistics\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-11T00:09:34.964253"
+    },
+    "total_processing_time": 21.94801115989685,
+    "triple_count": 13
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    rdfs:comment \"annual nuclear statistics: the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    rdfs:comment \"annual nuclear statistics: the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" .\n```",
+    "generation_time": 21.751665353775024,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    rdfs:comment \"annual nuclear statistics: the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-11T00:09:56.718982"
+    },
+    "total_processing_time": 21.754626035690308,
+    "triple_count": 4
+  }
+}

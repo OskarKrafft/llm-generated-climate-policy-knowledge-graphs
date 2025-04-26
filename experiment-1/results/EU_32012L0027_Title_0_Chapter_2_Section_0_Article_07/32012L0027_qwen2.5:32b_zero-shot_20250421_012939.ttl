@@ -1,0 +1,74 @@
+@prefix pol: <http://example.org/pollution/vocab#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:Article1 a pol:Regulation ;
+    pol:title "Energy Savings Regulation" ;
+    pol:hasRequirement [
+        pol:description "The level of ambition is set at 9-11% for energy savings by 2020." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasAdjustment [
+        pol:description "Reduction of ambition from 13-15% to 9-11% for energy savings." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasRequirement [
+        pol:description "Adjustments based on gross domestic product, unemployment rate, and public debt ratio." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasRequirement [
+        pol:description "Specific reduction targets for each year from 2014 to 2020. Targets are 3%, 2%, 2% for 2014-2016 and 1% annually for 2017-2020." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasException [
+        pol:description "Exceptions apply to energy-intensive sectors, agriculture, fishing and aquaculture under certain conditions." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasRequirement [
+        pol:description "Annual verification of progress towards achieving energy savings targets with necessary measures for non-compliance." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasRequirement [
+        pol:description "Data on annual trend of energy savings must be published annually." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasRequirement [
+        pol:description "Energy savings are calculated using final or primary energy consumption with conversion factors provided in Annex IV." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasException [
+        pol:description "Exclusion of certain sectors such as iron and steel, cement, lime, glass, ceramics, pulp and paper from specific energy savings." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasRequirement [
+        pol:description "Energy savings are calculated using methods and principles provided in Annex V, points (1) and (2)." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasRequirement [
+        pol:description "Energy savings must be calculated using methods and principles provided in Annex V, point 3." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasRequirement [
+        pol:description "Intermediate periods by 31 December 2020 for achieving energy savings targets." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasRequirement [
+        pol:description "Policy measures must be defined and transparent in terms of responsibilities, determination of energy savings, and annual reporting." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear
+    ] ;
+    pol:hasRequirement [
+        pol:description "No double counting of energy savings when impact of policy measures or individual actions overlaps." ;
+        pol:startYear "2014"^^xsd:gYear ;
+        pol:endYear "2020"^^xsd:gYear .

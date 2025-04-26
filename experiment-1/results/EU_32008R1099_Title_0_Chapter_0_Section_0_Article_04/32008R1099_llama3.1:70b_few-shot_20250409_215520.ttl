@@ -1,0 +1,17 @@
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:Article ;
+    pol:hasPolicy pol:EU_32008R1099 .
+
+pol:EU_32008R1099 a pol:Policy ;
+    dc:title "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04" ;
+    celex:CELEX "32008R1099" ;
+    eli:ELI "http://data.europa.eu/eli/reg/2008/1099/oj" ;
+    dc:creator "A", "C" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "annual, for the energy statistics in annex b" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "monthly, for the energy statistics in annex c" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "short-term monthly, for the energy statistics in annex d" .

@@ -1,0 +1,25 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix poli: <https://w3id.org/poli/> .
+
+poli:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a poli:Article ;
+    poli:hasTitle "Annual nuclear statistics" ;
+    poli:belongsTo poli:EU_32008R1099 ;
+    poli:hasParagraph [
+        poli:text "The Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable." ;
+        poli:hasTime [
+            a poli:Time_Monitoring ;
+            poli:annotatedText "2009" ;
+            poli:hasType poli:Start
+        ]
+    ] ;
+    poli:hasParagraph [
+        poli:text "The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2)." ;
+        poli:hasReference [
+            a poli:Article_Reference ;
+            poli:refersTo poli:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_11 ;
+            poli:hasType poli:Regulatory_Procedure
+        ]
+    ] .
+
+poli:EU_32008R1099 a poli:Policy_Document ;
+    poli:hasTitle "Commission Regulation (EC) No 1099/2008" .

@@ -1,0 +1,18 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03 a pol:Article ;
+    pol:hasNumber "3" ;
+    pol:hasProvision pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_Provision_1,
+        pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_Provision_2 ;
+    pol:hasTitle "notification of data" ;
+    pol:isPartOf <http://data.europa.eu/eli/reg/2014/256/oj> .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_Provision_1 a pol:Provision ;
+    pol:hasFrequency "P2Y"^^xsd:duration ;
+    pol:hasStartDate "2015-01-01"^^xsd:date ;
+    pol:hasText "while keeping the collection and reporting burden proportionate, member states or the entities to which they delegate that task shall compile all the data and information required under this regulation as from 1 january 2015 and every two years thereafter. they shall notify the data and relevant project information specified in this regulation to the commission in 2015, that year being the first reporting year, and from then onwards every two years. that notification shall be made in aggregated form, except for data and relevant information relating to cross-border transmission projects. member states or their delegated entities shall notify aggregated data and relevant project information by 31 july of the reporting year concerned." .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_Provision_2 a pol:Provision ;
+    pol:hasText "member states or their delegated entities are exempted from the obligations set out in paragraph 1, provided that, and to the extent that, pursuant to energy sector-specific legal acts of the union or the euratom treaty: (a) the member state concerned or its delegated entity has already notified to the commission data or information equivalent to that required under this regulation and has indicated the date of that notification and the specific legal act concerned; or (b) a specific body is entrusted with the preparation of a multi-annual investment plan in energy infrastructure at union level and, to that end, compiles data and information equivalent to that required under this regulation. in this case and for the purposes of this regulation, that specific body shall notify all the relevant data and information to the commission." .
+

@@ -1,0 +1,20 @@
+@prefix pol: <http://example.org/polannatypes/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj> pol:annotators ( "A" "C" ) ;
+    pol:celexNumber "32018R1999"^^xsd:string ;
+    pol:eli "http://data.europa.eu/eli/reg/2018/1999/oj" ;
+    pol:title "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27" .
+
+<http://example.org/reporting-on-the-2020-targets> pol:articleTitle "Article 27"^^xsd:string ;
+    pol:item "a"^^xsd:string,
+        "b"^^xsd:string,
+        "c"^^xsd:string,
+        "d"^^xsd:string,
+        "the measures taken to achieve the 2020 national renewable energy targets, including measures related to support schemes, guarantees of origin and simplification of administrative procedures.",
+        "the sectoral (electricity, heating and cooling, and transport) and overall shares of energy from renewable sources in 2020.",
+        "the share of energy from biofuels and biogas for transport produced from feedstocks and of other fuels listed in part a of annex ix to directive 2009/28/ec in the version in force on 31 December 2020 in energy consumption in transport.",
+        "the share of energy from biofuels and bioliquids produced from cereal and other starch-rich crops, sugars and oil crops in energy consumption in transport." ;
+    pol:requirement "By 30 April 2022, each member state shall report to the commission on the achievement of its 2020 energy efficiency national target established pursuant to article 3(1) of directive 2012/27/eu by providing the information set out in part 2 of annex ix to this regulation, and of the national overall targets for the share of energy from renewable sources in 2020 as set out in annex i to directive 2009/28/ec in the version in force on 31 December 2020 by providing the following information:" .
+

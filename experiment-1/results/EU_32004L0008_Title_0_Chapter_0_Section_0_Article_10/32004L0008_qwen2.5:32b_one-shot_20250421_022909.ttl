@@ -1,0 +1,39 @@
+@prefix poli: <http://example.org/poliana#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+poli:Article10_1 a poli:Clause ;
+    poli:article poli:Article10 ;
+    poli:complianceDate "2006-02-21"^^xsd:date ;
+    poli:text "member states shall, not later than 21 february 2006, publish a report with the results of the analysis and evaluations carried out in accordance with articles 5(3), 6(1), 9(1) and 9(2)." .
+
+poli:Article10_2 a poli:Clause ;
+    poli:article poli:Article10 ;
+    poli:complianceDate "2007-02-21"^^xsd:date ;
+    poli:text "member states shall not later than 21 february 2007 and thereafter every four years, following a request by the commission at least six months before the due date, publish a report with the result of the evaluation referred to in article 6(3)." .
+
+poli:Article10_3 a poli:Clause ;
+    poli:article poli:Article10 ;
+    poli:complianceDate "2004-12-31"^^xsd:date ;
+    poli:text """
+member states shall submit to the commission, for the first time before the end of december 2004 covering data for the year 2003, and thereafter on an annual basis,
+statistics on national electricity and heat production from cogeneration, in accordance with the methodology shown in annex ii.
+they shall also submit annual statistics on cogeneration capacities and fuels used for cogeneration. member states may also submit statistics on primary energy savings achieved by application of cogeneration, in accordance with the methodology shown in annex iii.
+""" .
+
+<http://data.europa.eu/eli/dir/2004/8/oj> a poli:Policy ;
+    poli:annotators ( "B" "C" ) ;
+    poli:celexNumber "32004L0008"^^xsd:string ;
+    poli:title "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10" .
+
+poli:Article10 a poli:Article ;
+    poli:policy <http://data.europa.eu/eli/dir/2004/8/oj> ;
+    poli:text """
+article 10
+member states shall, not later than 21 february 2006, publish a report with the results of the analysis and evaluations carried out in accordance with articles 5(3), 6(1), 9(1) and 9(2).
+member states shall not later than 21 february 2007 and thereafter every four years, following a request by the commission at least six months before the due date, publish a report with the result of the evaluation referred to in article 6(3).
+member states shall submit to the commission, for the first time before the end of december 2004 covering data for the year 2003, and thereafter on an annual basis, statistics on national electricity and heat production from cogeneration, in accordance with the methodology shown in annex ii.
+they shall also submit annual statistics on cogeneration capacities and fuels used for cogeneration. member states may also submit statistics on primary energy savings achieved by application of cogeneration, in accordance with the methodology shown in annex iii.
+""" ;
+    poli:title "Member States' Reporting" .
+

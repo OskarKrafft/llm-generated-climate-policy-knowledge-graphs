@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "graph": "[a rdfg:Graph;rdflib:storage [a rdflib:Store;rdfs:label 'Memory']].",
+  "error": null,
+  "extracted_content": "@prefix poli: <http://purl.org/olia/poli.owl#> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n  a poli:Policy ;\n  poli:hasCELEX \"32009R0079\" ;\n  poli:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\n  a poli:Article ;\n  poli:hasAnnotator \"B\", \"F\" ;\n  poli:entryIntoForce \"20th day following its publication in the Official Journal of the European Union\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1\n  a poli:Time_Compliance ;\n  poli:annotatedText \"24 February 2011\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2\n  a poli:Time_Compliance ;\n  poli:annotatedText \"date of entry into force of this regulation\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3\n  a poli:Time_Compliance ;\n  poli:annotatedText \"date set out therein\" .",
+  "original_output": "```turtle\n@prefix poli: <http://purl.org/olia/poli.owl#> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n  a poli:Policy ;\n  poli:hasCELEX \"32009R0079\" ;\n  poli:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\n  a poli:Article ;\n  poli:hasAnnotator \"B\", \"F\" ;\n  poli:entryIntoForce \"20th day following its publication in the Official Journal of the European Union\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1\n  a poli:Time_Compliance ;\n  poli:annotatedText \"24 February 2011\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2\n  a poli:Time_Compliance ;\n  poli:annotatedText \"date of entry into force of this regulation\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3\n  a poli:Time_Compliance ;\n  poli:annotatedText \"date set out therein\" .\n```",
+  "generation_time": 39.66442131996155,
+  "success": true,
+  "output": "```turtle\n@prefix poli: <http://purl.org/olia/poli.owl#> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj>\n  a poli:Policy ;\n  poli:hasCELEX \"32009R0079\" ;\n  poli:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\n  a poli:Article ;\n  poli:hasAnnotator \"B\", \"F\" ;\n  poli:entryIntoForce \"20th day following its publication in the Official Journal of the European Union\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1\n  a poli:Time_Compliance ;\n  poli:annotatedText \"24 February 2011\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2\n  a poli:Time_Compliance ;\n  poli:annotatedText \"date of entry into force of this regulation\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3\n  a poli:Time_Compliance ;\n  poli:annotatedText \"date set out therein\" .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+      "CELEX_Number": "32009R0079",
+      "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+      "Annotators": [
+        "B",
+        "F"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "ttl",
+    "model": "llama3.1:70b",
+    "timestamp": "2025-04-09T22:51:16.685789"
+  }
+}

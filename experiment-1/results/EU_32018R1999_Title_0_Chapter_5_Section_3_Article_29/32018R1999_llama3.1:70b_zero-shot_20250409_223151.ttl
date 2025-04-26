@@ -1,0 +1,49 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix poli: <https://w3id.org/poli/> .
+
+<https://w3id.org/poli/example/eu-regulation-art-15>
+  a poli:Provision ;
+  rdfs:label "Assessment of progress" ;
+  poli:regulates [
+    a poli:EconomicActivity, poli:Energy ;
+    rdfs:label "Renewable energy"
+  ] ;
+  poli:appliesToCountry "EU" ;
+  poli:hasProvisionType poli:Evaluation ;
+  poli:assesses [
+    a poli:Plan ;
+    rdfs:label "Integrated national energy and climate plans"
+  ] ;
+  poli:evaluates [
+    a poli:Measure, poli:Target ;
+    rdfs:label "Renewable energy targets" ;
+    poli:valueType xsd:decimal ;
+    poli:valueUnit "%" ;
+    poli:targetValue "32" ;
+    poli:evaluationDate "2030-12-31"^^xsd:date
+  ] ;
+  poli:evaluates [
+    a poli:Measure, poli:Target ;
+    rdfs:label "Energy efficiency targets" ;
+    poli:valueType xsd:decimal ;
+    poli:valueUnit "Mtoe" ;
+    poli:targetValue "1273" ;
+    poli:evaluationDate "2030-12-31"^^xsd:date
+  ] ;
+  poli:evaluates [
+    a poli:Measure, poli:Target ;
+    rdfs:label "Electricity interconnectivity targets" ;
+    poli:valueType xsd:decimal ;
+    poli:valueUnit "%" ;
+    poli:targetValue "2030-12-31"^^xsd:date
+  ] ;
+  poli:covers [
+    a poli:GeopoliticalEntity, poli:Country ;
+    rdfs:label "Member States"
+  ] .
+
+<https://w3id.org/poli/example/eu-regulation-art-15>
+  poli:hasDateOfEffectiveness "2021-10-31"^^xsd:date .

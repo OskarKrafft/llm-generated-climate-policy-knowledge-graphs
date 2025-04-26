@@ -1,0 +1,49 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23 a pol:Article ;
+    pol:hasAnnotators ( "A" "B" ) ;
+    pol:hasCELEXNumber "32009L0028" ;
+    pol:hasParagraph pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_1,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_10,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_2,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_3,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_4,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_5,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_6,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_7,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_8,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_9 ;
+    pol:hasTitle "monitoring and reporting by the commission" ;
+    pol:isPartOf <http://data.europa.eu/eli/dir/2009/28/oj> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_1 a pol:Paragraph ;
+    pol:hasContent "Below is the content of Paragraph 1."@en .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_10 a pol:Paragraph ;
+    pol:hasContent "Below is the content of Paragraph 10."@en .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_2 a pol:Paragraph ;
+    pol:hasContent "Below is the content of Paragraph 2."@en .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_3 a pol:Paragraph ;
+    pol:hasContent "Below is the content of Paragraph 3."@en .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_4 a pol:Paragraph ;
+    pol:hasContent "Below is the content of Paragraph 4."@en .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_5 a pol:Paragraph ;
+    pol:hasContent "Below is the content of Paragraph 5."@en .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_6 a pol:Paragraph ;
+    pol:hasContent "Below is the content of Paragraph 6."@en .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_7 a pol:Paragraph ;
+    pol:hasContent "Below is the content of Paragraph 7."@en .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_8 a pol:Paragraph ;
+    pol:hasContent "Below is the content of Paragraph 8."@en .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_Paragraph_9 a pol:Paragraph ;
+    pol:hasContent "Below is the content of Paragraph 9."@en .
+

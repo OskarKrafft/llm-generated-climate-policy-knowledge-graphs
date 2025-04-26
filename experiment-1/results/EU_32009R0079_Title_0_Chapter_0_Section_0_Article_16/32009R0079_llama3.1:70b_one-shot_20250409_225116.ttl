@@ -1,0 +1,24 @@
+@prefix poli: <http://purl.org/olia/poli.owl#> .
+@prefix eli: <http://data.europa.eu/eli/> .
+
+<http://data.europa.eu/eli/reg/2009/79/oj>
+  a poli:Policy ;
+  poli:hasCELEX "32009R0079" ;
+  poli:title "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16" .
+
+poli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16
+  a poli:Article ;
+  poli:hasAnnotator "B", "F" ;
+  poli:entryIntoForce "20th day following its publication in the Official Journal of the European Union" .
+
+poli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1
+  a poli:Time_Compliance ;
+  poli:annotatedText "24 February 2011" .
+
+poli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2
+  a poli:Time_Compliance ;
+  poli:annotatedText "date of entry into force of this regulation" .
+
+poli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3
+  a poli:Time_Compliance ;
+  poli:annotatedText "date set out therein" .

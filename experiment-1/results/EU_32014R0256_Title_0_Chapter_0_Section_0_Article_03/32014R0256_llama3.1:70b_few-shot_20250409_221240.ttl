@@ -1,0 +1,39 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03>
+    a eli:LegalResource ;
+    dc:title "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03" .
+
+<http://example.com/EU_32014R0256>
+    a eli:Regulation ;
+    skos:notation "CELEX:32014R0256" ;
+    owl:sameAs <http://data.europa.eu/eli/reg/2014/256/oj> .
+
+<http://example.com/EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_Annotation>
+    a eli:Annotation ;
+    dc:description "Annotated by C and F" .
+
+<http://example.com/EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_Time_Compliance_01>
+    a eli:Time_Compliance ;
+    skos:notation "1 January 2015" .
+
+<http://example.com/EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_Time_Monitoring_01>
+    a eli:Time_Monitoring ;
+    skos:notation "31 July of the reporting year concerned" .
+
+<http://example.com/EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_Time_Frequency_01>
+    a eli:Time_Frequency ;
+    skos:notation "every two years thereafter" .
+
+<http://example.com/EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_Time_Compliance_02>
+    a eli:Time_Compliance ;
+    skos:notation "2015, that year being the first reporting year" .
+
+<http://example.com/EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_Time_Monitoring_02>
+    a eli:Time_Monitoring ;
+    skos:notation "from then onwards every two years" .

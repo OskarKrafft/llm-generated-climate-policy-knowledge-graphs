@@ -1,0 +1,65 @@
+@prefix pola: <http://example.org/polanna#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/terms/CogenerationPlant> a pola:Term ;
+    pola:hasName "Cogeneration Plant"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/CombinedHeatAndPowerPlant> a pola:Term ;
+    pola:hasName "Combined Heat and Power Plant"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/DistributionSystemOperator> a pola:Term ;
+    pola:hasName "Distribution System Operator"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009L0072>,
+        <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009L0073>,
+        <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/EnergyDistributor> a pola:Term ;
+    pola:hasName "Energy Distributor"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/EnergyEfficiency> a pola:Term ;
+    pola:hasName "Energy Efficiency"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/EnergyEfficiencyImprovement> a pola:Term ;
+    pola:hasName "Energy Efficiency Improvement"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/EnergyManagementSystem> a pola:Term ;
+    pola:hasName "Energy Management System"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/EnergyPerformanceContracting> a pola:Term ;
+    pola:hasName "Energy Performance Contracting"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/EnergySavings> a pola:Term ;
+    pola:hasName "Energy Savings"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/EnergyServiceProvider> a pola:Term ;
+    pola:hasName "Energy Service Provider"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/FinalEnergyConsumption> a pola:Term ;
+    pola:hasName "Final Energy Consumption"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/ImplementingPublicAuthority> a pola:Term ;
+    pola:hasName "Implementing Public Authority"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/IndividualAction> a pola:Term ;
+    pola:hasName "Individual Action"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/ObligatedParty> a pola:Term ;
+    pola:hasName "Obligated Party"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<https://example.org/terms/RetailEnergySalesCompany> a pola:Term ;
+    pola:hasName "Retail Energy Sales Company"^^xsd:string ;
+    pola:isDefinedInDirective <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+

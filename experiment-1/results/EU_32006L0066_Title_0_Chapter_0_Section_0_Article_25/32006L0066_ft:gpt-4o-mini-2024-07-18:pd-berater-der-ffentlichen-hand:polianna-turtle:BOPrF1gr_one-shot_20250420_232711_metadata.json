@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32006L0066 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_sanctioning_form pol:Form_sanctioning ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeMonitoring_1 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"26\u00a0september 2008\" .",
+  "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32006L0066 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_sanctioning_form pol:Form_sanctioning ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeMonitoring_1 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"26\u00a0september 2008\" .",
+  "generation_time": 2.96311092376709,
+  "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32006L0066 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_sanctioning_form pol:Form_sanctioning ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeMonitoring_1 .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"26\u00a0september 2008\" .",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+      "CELEX_Number": "32006L0066",
+      "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "ttl",
+    "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+    "timestamp": "2025-04-20T23:27:11.356104"
+  },
+  "triple_count": 12
+}

@@ -1,0 +1,44 @@
+@prefix pol: <http://purl.org/olia/polcore#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.com/eu-directive-2009-28-article-22>
+    dc:title "Article 22 of Directive 2009/28/EC" ;
+    dc:description "Reporting on the progress in the promotion and use of energy from renewable sources"@en ;
+    pol:hasSection [
+        pol:number "1" ;
+        pol:text "By [31 December 2010], each Member State shall submit to the Commission a report..."@en
+    ] ;
+    pol:hasSection [
+        pol:number "2" ;
+        pol:text "Member States shall also provide information on the measures referred to in Article 17(1)(a) and (b)."@en
+    ] ;
+    pol:hasSection [
+        pol:number "3" ;
+        pol:text "The Commission shall, by [31 December 2010], submit a report..."@en
+    ] .
+
+<http://example.com/eu-directive-2009-28-article-23>
+    dc:title "Article 23 of Directive 2009/28/EC" ;
+    dc:description "Reporting on the progress in the promotion and use of energy from renewable sources"@en ;
+    pol:hasSection [
+        pol:number "1" ;
+        pol:text "By [31 December 2012], each Member State shall submit to the Commission a report..."@en
+    ] ;
+    pol:hasSection [
+        pol:number "2" ;
+        pol:text "Member States shall also provide information on the measures referred to in Article 17(1)(a) and (b)."@en
+    ] .
+
+<http://example.com/eu-directive-2009-28-article-24>
+    dc:title "Article 24 of Directive 2009/28/EC" ;
+    dc:description "Reporting on the progress in the promotion and use of energy from renewable sources"@en ;
+    pol:hasSection [
+        pol:number "1" ;
+        pol:text "The Commission shall, by [31 December 2015], submit a report..."@en
+    ] ;
+    pol:hasSection [
+        pol:number "2" ;
+        pol:text "Member States shall also provide information on the measures referred to in Article 17(1)(a) and (b)."@en
+    ] .

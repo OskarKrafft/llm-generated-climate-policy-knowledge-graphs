@@ -1,0 +1,74 @@
+@prefix pol: <http://example.org/polinaa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pol:Article_1 a pol:Article ;
+    pol:hasSection pol:Section_c,
+        pol:Section_d,
+        pol:Section_e,
+        pol:Section_f,
+        pol:Section_g,
+        pol:Section_h .
+
+pol:Point_b_1 a pol:Point ;
+    rdfs:label "Contribution to the union's energy efficiency targets based on either primary or final energy consumption, primary or final energy savings, or energy intensity" .
+
+pol:Point_b_2 a pol:Point ;
+    rdfs:label "Cumulative amount of end-use energy savings to be achieved over the period 2021-2030 under point (b) of article 7(1) on the energy saving obligations" .
+
+pol:Point_b_3 a pol:Point ;
+    rdfs:label "Indicative milestones of the long-term strategy for the renovation of the national stock of residential and non-residential buildings" .
+
+pol:Point_b_4 a pol:Point ;
+    rdfs:label "Total floor area to be renovated or equivalent annual energy savings to be achieved from 2021 to 2030 under article 5 of directive 2012/27/eu on the exemplary role of public bodies' buildings" .
+
+pol:Point_c_1 a pol:Point ;
+    rdfs:label "National objectives with regard to increasing the diversification of energy sources and supply from third countries, increasing the flexibility of the national energy system, and addressing constrained or interrupted supply of an energy source" .
+
+pol:Point_d_1 a pol:Point ;
+    rdfs:label "Level of electricity interconnectivity that the member state aims for in 2030" .
+
+pol:Point_d_2 a pol:Point ;
+    rdfs:label "Key electricity and gas transmission infrastructure projects, and, where relevant, modernisation projects" .
+
+pol:Point_d_3 a pol:Point ;
+    rdfs:label "National objectives related to other aspects of the internal energy market" .
+
+pol:Point_e_1 a pol:Point ;
+    rdfs:label "National objectives and funding targets for public and, where available, private research and innovation relating to the energy union" .
+
+pol:Point_e_2 a pol:Point ;
+    rdfs:label "Where available, national 2050 objectives related to the promotion of clean energy technologies" .
+
+pol:Section_c a pol:Section ;
+    rdfs:label "Research, Innovation and Competitiveness" ;
+    pol:containsPoint pol:Point_e_1,
+        pol:Point_e_2 .
+
+pol:Section_d a pol:Section ;
+    rdfs:label "Internal Energy Market" ;
+    pol:containsPoint pol:Point_d_1,
+        pol:Point_d_2,
+        pol:Point_d_3 .
+
+pol:Section_e a pol:Section ;
+    rdfs:label "Energy Security" ;
+    pol:containsPoint pol:Point_c_1 .
+
+pol:Section_f a pol:Section ;
+    rdfs:label "Energy Efficiency" ;
+    pol:containsPoint pol:Point_b_1,
+        pol:Point_b_2,
+        pol:Point_b_3,
+        pol:Point_b_4 .
+
+pol:Section_g a pol:Section ;
+    rdfs:label "Energy Security" ;
+    pol:containsPoint pol:Point_a_1 .
+
+pol:Section_h a pol:Section ;
+    rdfs:label "Energy Security" ;
+    pol:containsPoint pol:Point_a_1 .
+
+pol:Point_a_1 a pol:Point ;
+    rdfs:label "National objectives with regard to increasing the diversification of energy sources and supply from third countries, increasing the flexibility of the national energy system, and addressing constrained or interrupted supply of an energy source" .
+

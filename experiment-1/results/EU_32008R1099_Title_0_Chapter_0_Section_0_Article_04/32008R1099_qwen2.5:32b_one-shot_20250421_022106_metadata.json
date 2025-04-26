@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <http://example.org/pol#>.\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.\n\n<http://data.europa.eu/eli/reg/2008/1099/oj> a pol:PolicyMetadata;\n    pol:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\";\n    pol:celexNumber \"32008R1099\";\n    pol:eli \"<http://data.europa.eu/eli/reg/2008/1099/oj>\";\n    pol:annotators (\"A\" \"C\").\n\n<http://example.org/article/EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> a pol:Article;\n    pol:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\";\n    pol:text \"\"\"\narticle 4\naggregates, energy products and the transmission frequency of national statistics\n1.   the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:\n(a) annual, for the energy statistics in annex b;\n(b) monthly, for the energy statistics in annex c;\n(c) short-term monthly, for the energy statistics in annex d.\n2.   applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).\n3.   the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\"\"\";\n    pol:policyMetadata <http://data.europa.eu/eli/reg/2008/1099/oj>.",
+  "original_output": "```turtle\n@prefix pol: <http://example.org/pol#>.\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.\n\n<http://data.europa.eu/eli/reg/2008/1099/oj> a pol:PolicyMetadata;\n    pol:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\";\n    pol:celexNumber \"32008R1099\";\n    pol:eli \"<http://data.europa.eu/eli/reg/2008/1099/oj>\";\n    pol:annotators (\"A\" \"C\").\n\n<http://example.org/article/EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> a pol:Article;\n    pol:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\";\n    pol:text \"\"\"\narticle 4\naggregates, energy products and the transmission frequency of national statistics\n1.   the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:\n(a) annual, for the energy statistics in annex b;\n(b) monthly, for the energy statistics in annex c;\n(c) short-term monthly, for the energy statistics in annex d.\n2.   applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).\n3.   the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\"\"\";\n    pol:policyMetadata <http://data.europa.eu/eli/reg/2008/1099/oj>.\n```",
+  "generation_time": 26.063780784606934,
+  "output": "```turtle\n@prefix pol: <http://example.org/pol#>.\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.\n\n<http://data.europa.eu/eli/reg/2008/1099/oj> a pol:PolicyMetadata;\n    pol:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\";\n    pol:celexNumber \"32008R1099\";\n    pol:eli \"<http://data.europa.eu/eli/reg/2008/1099/oj>\";\n    pol:annotators (\"A\" \"C\").\n\n<http://example.org/article/EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> a pol:Article;\n    pol:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\";\n    pol:text \"\"\"\narticle 4\naggregates, energy products and the transmission frequency of national statistics\n1.   the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:\n(a) annual, for the energy statistics in annex b;\n(b) monthly, for the energy statistics in annex c;\n(c) short-term monthly, for the energy statistics in annex d.\n2.   applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).\n3.   the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\"\"\";\n    pol:policyMetadata <http://data.europa.eu/eli/reg/2008/1099/oj>.\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+      "CELEX_Number": "32008R1099",
+      "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T02:21:06.266771"
+  },
+  "triple_count": 13
+}

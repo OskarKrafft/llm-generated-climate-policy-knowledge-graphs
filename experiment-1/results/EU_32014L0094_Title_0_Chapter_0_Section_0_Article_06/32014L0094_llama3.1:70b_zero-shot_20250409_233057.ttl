@@ -1,0 +1,49 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix polianna: <https://ontology.egregium.com/polianna/> .
+
+<https://ontology.egregium.com/polianna/resource/article_1>
+    a            polianna:Article ;
+    dc:title     "Natural Gas Refuelling Infrastructure" ;
+    skos:prefLabel "Article 6 of Directive (EU) No 994/2010" ;
+    dc:description """
+        Article 6 of the EU Directive concerning measures to safeguard security of gas supply.
+    """ .
+
+<https://ontology.egregium.com/polianna/resource/article_1>
+    polianna:hasArticleSection <https://ontology.egregium.com/polianna/resource/section_1> .
+
+<https://ontology.egregium.com/polianna/resource/section_1>
+    a            polianna:Section ;
+    dc:title     "Natural Gas Refuelling Infrastructure" ;
+    skos:prefLabel "Article 6, Section 1 of Directive (EU) No 994/2010" ;
+    dc:description """
+        Each Member State shall ensure that the minimum number and capacity of natural gas refuelling points accessible to the public are put in place.
+    """ .
+
+<https://ontology.egregium.com/polianna/resource/article_1>
+    polianna:hasArticleSection <https://ontology.egregium.com/polianna/resource/section_2> .
+
+<https://ontology.egregium.com/polianna/resource/section_2>
+    a            polianna:Section ;
+    dc:title     "Technical Specifications for Refuelling Points" ;
+    skos:prefLabel "Article 6, Section 10 of Directive (EU) No 994/2010" ;
+    dc:description """
+        The Commission shall be empowered to adopt delegated acts to require compliance of the infrastructures with technical specifications.
+    """ .
+
+<https://ontology.egregium.com/polianna/resource/article_1>
+    polianna:hasPolicyInstitution <https://ontology.egregium.com/polianna/resource/european_commission> .
+
+<https://ontology.egregium.com/polianna/resource/european_commission>
+    a            polianna:Organization ;
+    dc:title     "European Commission" ;
+    skos:prefLabel "Commission of the European Union" .
+
+<https://ontology.egregium.com/polianna/resource/article_1>
+    polianna:hasGeopoliticalEntity <https://ontology.egregium.com/polianna/resource/european_union> .
+
+<https://ontology.egregium.com/polianna/resource/european_union>
+    a            polianna:GeopoliticalEntity ;
+    dc:title     "European Union" ;
+    skos:prefLabel "The European Union" .

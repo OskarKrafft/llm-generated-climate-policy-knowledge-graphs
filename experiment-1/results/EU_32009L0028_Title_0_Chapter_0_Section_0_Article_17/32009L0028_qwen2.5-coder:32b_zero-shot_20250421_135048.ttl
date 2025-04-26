@@ -1,0 +1,141 @@
+@prefix pol: <http://example.org/polina#> .
+
+pol:Article pol:hasParagraph pol:Paragraph_2,
+        pol:Paragraph_3,
+        pol:Paragraph_4,
+        pol:Paragraph_5,
+        pol:Paragraph_6,
+        pol:Paragraph_7,
+        pol:Paragraph_8,
+        pol:Paragraph_9 .
+
+pol:Action_7a pol:hasContent "Below is the content of Action 7a."@en .
+
+pol:Action_7b pol:hasContent "Below is the content of Action 7b."@en .
+
+pol:Action_7c pol:hasContent "Below is the content of Action 7c."@en .
+
+pol:Action_7d pol:hasContent "Below is the content of Action 7d."@en .
+
+pol:Action_7e pol:hasContent "Below is the content of Action 7e."@en .
+
+pol:Action_7f pol:hasContent "Below is the content of Action 7f."@en .
+
+pol:Convention_5a pol:hasContent "Below is the content of Convention 5a."@en .
+
+pol:Convention_5b pol:hasContent "Below is the content of Convention 5b."@en .
+
+pol:Convention_5c pol:hasContent "Below is the content of Convention 5c."@en .
+
+pol:Convention_5d pol:hasContent "Below is the content of Convention 5d."@en .
+
+pol:Convention_5e pol:hasContent "Below is the content of Convention 5e."@en .
+
+pol:Convention_5f pol:hasContent "Below is the content of Convention 5f."@en .
+
+pol:Convention_5g pol:hasContent "Below is the content of Convention 5g."@en .
+
+pol:Convention_5h pol:hasContent "Below is the content of Convention 5h."@en .
+
+pol:Criterion_2 pol:hasContent "Below is the content of Criterion 2."@en .
+
+pol:Criterion_3 pol:hasContent "Below is the content of Criterion 3."@en .
+
+pol:Criterion_4 pol:hasContent "Below is the content of Criterion 4."@en .
+
+pol:Criterion_5 pol:hasContent "Below is the content of Criterion 5."@en .
+
+pol:Criterion_6 pol:hasContent "Below is the content of Criterion 6."@en .
+
+pol:Criterion_7 pol:hasContent "Below is the content of Criterion 7."@en .
+
+pol:Paragraph_2 pol:hasContent "Below is the content of Paragraph 2."@en ;
+    pol:hasCriterion pol:Criterion_2,
+        pol:Criterion_3,
+        pol:Criterion_4,
+        pol:Criterion_5,
+        pol:Criterion_6,
+        pol:Criterion_7 .
+
+pol:Paragraph_3 pol:hasContent "Below is the content of Paragraph 3."@en ;
+    pol:hasRequirement pol:Requirement_3a,
+        pol:Requirement_3b,
+        pol:Requirement_3c .
+
+pol:Paragraph_4 pol:hasContent "Below is the content of Paragraph 4."@en ;
+    pol:hasReport pol:Report_4a,
+        pol:Report_4b .
+
+pol:Paragraph_5 pol:hasContent "Below is the content of Paragraph 5."@en ;
+    pol:hasConvention pol:Convention_5a,
+        pol:Convention_5b,
+        pol:Convention_5c,
+        pol:Convention_5d,
+        pol:Convention_5e,
+        pol:Convention_5f,
+        pol:Convention_5g,
+        pol:Convention_5h .
+
+pol:Paragraph_6 pol:hasContent "Below is the content of Paragraph 6."@en ;
+    pol:hasProtocol pol:Protocol_6a,
+        pol:Protocol_6b .
+
+pol:Paragraph_7 pol:hasAction pol:Action_7a,
+        pol:Action_7b,
+        pol:Action_7c,
+        pol:Action_7d,
+        pol:Action_7e,
+        pol:Action_7f ;
+    pol:hasContent "Below is the content of Paragraph 7."@en .
+
+pol:Paragraph_8 pol:hasContent "Below is the content of Paragraph 8."@en ;
+    pol:hasProvision pol:Provision_8a,
+        pol:Provision_8b,
+        pol:Provision_8c,
+        pol:Provision_8d,
+        pol:Provision_8e .
+
+pol:Paragraph_9 pol:hasContent "Below is the content of Paragraph 9."@en ;
+    pol:hasProcedure pol:Procedure_9a,
+        pol:Procedure_9b,
+        pol:Procedure_9c,
+        pol:Procedure_9d,
+        pol:Procedure_9e,
+        pol:Procedure_9f .
+
+pol:Procedure_9a pol:hasContent "Below is the content of Procedure 9a."@en .
+
+pol:Procedure_9b pol:hasContent "Below is the content of Procedure 9b."@en .
+
+pol:Procedure_9c pol:hasContent "Below is the content of Procedure 9c."@en .
+
+pol:Procedure_9d pol:hasContent "Below is the content of Procedure 9d."@en .
+
+pol:Procedure_9e pol:hasContent "Below is the content of Procedure 9e."@en .
+
+pol:Procedure_9f pol:hasContent "Below is the content of Procedure 9f."@en .
+
+pol:Protocol_6a pol:hasContent "Below is the content of Protocol 6a."@en .
+
+pol:Protocol_6b pol:hasContent "Below is the content of Protocol 6b."@en .
+
+pol:Provision_8a pol:hasContent "Below is the content of Provision 8a."@en .
+
+pol:Provision_8b pol:hasContent "Below is the content of Provision 8b."@en .
+
+pol:Provision_8c pol:hasContent "Below is the content of Provision 8c."@en .
+
+pol:Provision_8d pol:hasContent "Below is the content of Provision 8d."@en .
+
+pol:Provision_8e pol:hasContent "Below is the content of Provision 8e."@en .
+
+pol:Report_4a pol:hasContent "Below is the content of Report 4a."@en .
+
+pol:Report_4b pol:hasContent "Below is the content of Report 4b."@en .
+
+pol:Requirement_3a pol:hasContent "Below is the content of Requirement 3a."@en .
+
+pol:Requirement_3b pol:hasContent "Below is the content of Requirement 3b."@en .
+
+pol:Requirement_3c pol:hasContent "Below is the content of Requirement 3c."@en .
+

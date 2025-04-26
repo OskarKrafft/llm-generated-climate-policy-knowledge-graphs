@@ -1,0 +1,33 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04 a pol:PolicyArticle ;
+    pol:contains_objective pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjDecarbonisation,
+                           pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjRenewableEnergy,
+                           pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjEnergyEfficiency,
+                           pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjEnergySecurity,
+                           pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjInternalMarket,
+                           pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjResearchInnovation ;
+    rdfs:comment "Article 4: national objectives, targets and contributions for the five dimensions of the energy union." .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjDecarbonisation a pol:Objective ;
+    rdfs:comment "As regards the dimension ‘decarbonisation’: with respect to greenhouse gas emissions and removals; the member state's binding national target for greenhouse gas emissions and the annual binding national limits pursuant to regulation (eu) 2018/842; the member state's commitments pursuant to regulation (eu) 2018/841; and, where applicable, other objectives and targets including sector targets and adaptation goals." .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjRenewableEnergy a pol:Objective ;
+    rdfs:comment "As regards the dimension ‘renewable energy’: a contribution to the union's binding target of at least 32% renewable energy in 2030 in terms of the member state's share of energy from renewable sources in gross final consumption, with an indicative trajectory from 2021 onwards reaching reference points of at least 18% in 2022, 43% in 2025, 65% in 2027, and by 2030 achieving at least the member state's planned contribution." .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjEnergyEfficiency a pol:Objective ;
+    rdfs:comment "As regards the dimension ‘energy efficiency’: the indicative national energy efficiency contribution to achieving the union's targets of at least 32.5% in 2030, expressed in absolute terms for 2020 and 2030 with an indicative trajectory from 2021 onwards; including the cumulative amount of end‐use energy savings over 2021–2030 and the milestones for the renovation of the national stock of buildings." .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjEnergySecurity a pol:Objective ;
+    rdfs:comment "As regards the dimension ‘energy security’: national objectives on increasing the diversification of energy sources and supply from third countries, enhancing the flexibility of the national energy system, and addressing constrained or interrupted energy supply with a specified timeframe for achieving these objectives." .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjInternalMarket a pol:Objective ;
+    rdfs:comment "As regards the dimension ‘internal energy market’: the level of electricity interconnectivity aimed for in 2030 with a strategy from 2021 onwards, including key electricity and gas transmission infrastructure projects and objectives related to market integration, smart grids, and real-time price signals with associated timeframes." .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_ObjResearchInnovation a pol:Objective ;
+    rdfs:comment "As regards the dimension ‘research, innovation and competitiveness’: national objectives and funding targets for public and, where available, private research and innovation relating to the energy union, including timeframes for achieving these objectives and, where available, national 2050 objectives for the promotion of clean energy technologies." .

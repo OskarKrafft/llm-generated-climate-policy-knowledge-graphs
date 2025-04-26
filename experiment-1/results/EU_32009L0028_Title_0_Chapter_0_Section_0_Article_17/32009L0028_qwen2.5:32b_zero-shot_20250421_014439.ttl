@@ -1,0 +1,48 @@
+@prefix pol: <http://example.org/pollution/ontology#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://example.org/regulations/EUBiofuelSustainabilityCriteria>
+    a pol:Regulation;
+    pol:title "EU Biofuel Sustainability Criteria";
+    pol:requiresStandard <http://example.org/standards/GAEC>;
+    pol:regulatesActivity <http://example.org/activity/BiofuelProduction>;
+    pol:hasRequirement [
+        a pol:CarbonFootprintReduction;
+        pol:minValue "35"^^xsd:string;
+        pol:maxValue "100"^^xsd:string
+    ];
+    pol:requiresStandard <http://example.org/standards/CAPRegulation732009>;
+    pol:reportsTo [
+        a pol:ReportingEntity; 
+        pol:title "European Parliament"
+    ],[
+        a pol:ReportingEntity;
+        pol:title "Council of the European Union"
+    ];
+    pol:mandatesReport <http://example.org/report/SustainabilityCriteriaImpactReport>;
+    pol:requiresSustainableSource <http://example.org/source/CommunityCultivatedAgriculturalRawMaterials>.
+
+<http://example.org/activity/BiofuelProduction>
+    a pol:Activity;
+    pol:title "Biofuel Production".
+
+<http://example.org/regulations/CAPRegulation732009>
+    a pol:Regulation;
+    pol:title "Council Regulation (EC) No 73/2009";
+    pol:url <https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32009R0073>.
+
+<http://example.org/source/CommunityCultivatedAgriculturalRawMaterials>
+    a pol:Source;
+    pol:title "Community Cultivated Agricultural Raw Materials".
+
+<http://example.org/report/SustainabilityCriteriaImpactReport>
+    a pol:Report;
+    pol:title "Sustainability Criteria Impact Report";
+    pol:hasFrequency "2 years"^^xsd:string;
+    pol:firstPublicationDate "2012-01-01"^^xsd:date.
+    
+<http://example.org/standards/GAEC>
+    a pol:Standard;
+    pol:title "Good Agricultural and Environmental Condition".
+
+.

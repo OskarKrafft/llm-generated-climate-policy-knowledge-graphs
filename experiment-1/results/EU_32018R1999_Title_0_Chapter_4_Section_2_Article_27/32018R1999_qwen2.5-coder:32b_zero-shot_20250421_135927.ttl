@@ -1,0 +1,40 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 a pol:LegalProvision ;
+    pol:hasCELEXNumber "32018R1999" ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    pol:hasTitle "reporting on the 2020 targets" ;
+    pol:isAnnotatedBy ( pol:A pol:C ) ;
+    pol:requiresInformationFrom pol:Annex_IX_Part_2_Regulation_2018_1999,
+        pol:Annex_I_Directive_2009_28_EC_Version_31_December_2020 ;
+    pol:requiresReportingByDate "2022-04-30"^^xsd:date ;
+    pol:requiresReportingOnTarget pol:EU_2020_Energy_Efficiency_National_Target,
+        pol:EU_2020_Renewable_Energy_Share_Target .
+
+pol:Annex_IX_Part_2_Regulation_2018_1999 a pol:InformationSource .
+
+pol:Annex_I_Directive_2009_28_EC_Version_31_December_2020 a pol:InformationSource ;
+    pol:hasVersionDate "2020-12-31"^^xsd:date .
+
+pol:Article_3_1_Directive_2012_27_EU a pol:LegalReference .
+
+pol:EU_2020_Energy_Efficiency_National_Target a pol:EnergyEfficiencyTarget ;
+    pol:isEstablishedPursuantTo pol:Article_3_1_Directive_2012_27_EU .
+
+pol:EU_2020_Renewable_Energy_Share_Target a pol:RenewableEnergyShareTarget ;
+    pol:hasSectoralShares ( pol:Electricity_Sector_Share pol:Heating_and_Cooling_Sector_Share pol:Transport_Sector_Share ) ;
+    pol:requiresReportingOnMeasuresTaken true .
+
+pol:Electricity_Sector_Share a pol:SectoralShare ;
+    pol:isForSector "electricity" .
+
+pol:Heating_and_Cooling_Sector_Share a pol:SectoralShare ;
+    pol:isForSector "heating and cooling" .
+
+pol:Transport_Sector_Share a pol:SectoralShare ;
+    pol:isForSector "transport" ;
+    pol:requiresReportingOnBiofuelsAndBiogas true ;
+    pol:requiresReportingOnBiofuelsAndBioliquids true .
+

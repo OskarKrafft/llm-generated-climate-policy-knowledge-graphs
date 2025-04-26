@@ -1,0 +1,47 @@
+@prefix pol: <http://example.org/polinaa#> .
+@prefix ex: <http://data.europa.eu/eli/dir/2009/28/oj#> .
+
+ex:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyDocument ;
+    pol:hasTitle "national renewable energy action plans" ;
+    pol:hasCELEXNumber "32009L0028" ;
+    pol:hasELI ex:oij ;
+    pol:annotatedBy (pol:B pol:A) .
+
+ex:oij a pol:EuropeanLegislationIdentifier .
+
+ex:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04 pol:containsArticle ex:Article_4 .
+ex:Article_4 a pol:PolicyArticle ;
+    pol:hasParagraph ex:Paragraph_1, ex:Paragraph_2, ex:Paragraph_3, ex:Paragraph_4, ex:Paragraph_5, ex:Paragraph_6 .
+
+ex:Paragraph_1 a pol:PolicyParagraph ;
+    pol:describesAction "each member state shall adopt a national renewable energy action plan" ;
+    pol:setsOutTarget "member states’ national targets for the share of energy from renewable sources consumed in transport, electricity and heating and cooling in 2020" ;
+    pol:considersEffect "effects of other policy measures relating to energy efficiency on final consumption of energy" ;
+    pol:includesMeasure "adequate measures to be taken to achieve those national overall targets" ;
+    pol:requiresCooperation "cooperation between local, regional and national authorities" ;
+    pol:allowsTransfer "planned statistical transfers or joint projects" ;
+    pol:developsResource "national policies to develop existing biomass resources and mobilise new biomass resources for different uses" ;
+    pol:fulfillsRequirement "measures to be taken to fulfil the requirements of articles 13 to 19" .
+
+ex:Paragraph_2 a pol:PolicyParagraph ;
+    pol:requiresNotification "member states shall notify their national renewable energy action plans to the commission by 30 june 2010" .
+
+ex:Paragraph_3 a pol:PolicyParagraph ;
+    pol:requiresForecast "each member state shall publish and notify to the commission, six months before its national renewable energy action plan is due, a forecast document indicating" ;
+    pol:includesExcessProduction "its estimated excess production of energy from renewable sources compared to the indicative trajectory which could be transferred to other member states in accordance with articles 6 to 11, as well as its estimated potential for joint projects, until 2020" ;
+    pol:includesDemand "its estimated demand for energy from renewable sources to be satisfied by means other than domestic production until 2020" ;
+    pol:mayInclude "elements relating to cost and benefits and financing" ;
+    pol:requiresUpdate "that forecast shall be updated in the reports of the member states as set out in article 22(1)(l) and (m)" .
+
+ex:Paragraph_4 a pol:PolicyParagraph ;
+    pol:requiresAmendedPlan "a member state whose share of energy from renewable sources fell below the indicative trajectory in the immediately preceding two-year period set out in part b of annex i, shall submit an amended national renewable energy action plan to the commission by 30 june of the following year" ;
+    pol:setsOutMeasure "setting out adequate and proportionate measures to rejoin, within a reasonable timetable, the indicative trajectory in part b of annex i" ;
+    pol:mayRelease "the commission may, if the member state has not met the indicative trajectory by a limited margin, and taking due account of the current and future measures taken by the member state, adopt a decision to release the member state from the obligation to submit an amended national renewable energy action plan" .
+
+ex:Paragraph_5 a pol:PolicyParagraph ;
+    pol:requiresEvaluation "the commission shall evaluate the national renewable energy action plans, notably the adequacy of the measures envisaged by the member state in accordance with article 3(2)" ;
+    pol:mayIssueRecommendation "in response to a national renewable energy action plan or to an amended national renewable energy action plan, the commission may issue a recommendation" .
+
+ex:Paragraph_6 a pol:PolicyParagraph ;
+    pol:requiresTransmission "the commission shall send to the european parliament the national renewable energy action plans and the forecast documents in the form as made public on the transparency platform as referred to in article 24(2), as well as any recommendation as referred to in paragraph 5 of this article" .
+.

@@ -1,0 +1,34 @@
+@prefix pol: <http://example.org/pollution#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:Article46 a pol:Article ;
+    pol:containsDefinition pol:def_EnergyEfficiencyImprovement ;
+    pol:title "Energy Efficiency Improvement Definition" .
+
+pol:Article48 a pol:Article ;
+    pol:containsDefinition pol:def_EnergyService ;
+    pol:title "Energy Service Definition" .
+
+pol:Article54 a pol:Article ;
+    pol:containsDefinition pol:def_EnergyPerformanceContracting ;
+    pol:title "Energy Performance Contracting Definition" .
+
+pol:Article61 a pol:Article ;
+    pol:containsDefinition pol:def_FossilFuel ;
+    pol:title "Fossil Fuel Definition" .
+
+pol:def_EnergyEfficiencyImprovement a pol:Definition ;
+    pol:definitionText "An energy efficiency improvement is defined as the enhancement or optimization of processes, systems, or technologies that leads to less energy usage without sacrificing service levels."^^xsd:string ;
+    pol:sourceDirective <http://example.org/directive2012/27/eu> .
+
+pol:def_EnergyPerformanceContracting a pol:Definition ;
+    pol:definitionText "An energy performance contract is defined as an agreement where one party agrees to reduce the energy consumption and/or costs of another, with the repayment typically based on the savings achieved."^^xsd:string ;
+    pol:sourceDirective <http://example.org/directive2012/27/eu> .
+
+pol:def_EnergyService a pol:Definition ;
+    pol:definitionText "An energy service is defined as an activity or process provided to end users, which results in the delivery of useful energy outcomes such as heat, light, and motive power."^^xsd:string ;
+    pol:sourceDirective <http://example.org/directive2012/27/eu> .
+
+pol:def_FossilFuel a pol:Definition ;
+    pol:definitionText "A fossil fuel is defined as non-renewable carbon-based energy sources such as solid fuels, natural gas and oil."^^xsd:string .
+

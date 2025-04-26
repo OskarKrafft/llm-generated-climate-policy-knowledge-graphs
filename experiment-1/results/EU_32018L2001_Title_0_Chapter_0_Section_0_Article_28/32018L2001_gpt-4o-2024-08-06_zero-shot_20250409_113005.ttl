@@ -1,0 +1,31 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://polianna-kg.org/Ontology#EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28> a pol:PolicyArticle ;
+    pol:annotatedText "Article 28: Other provisions on renewable energy in the transport sector" ;
+    pol:contains_instrument <http://eurovoc.europa.eu/5782> ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:addresses <http://eurovoc.europa.eu/4060> ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_compliance_time [
+        a pol:Time_Compliance ;
+        pol:Compliance_date "2021-12-31"^^xsd:date
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2019-06-25"^^xsd:date
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2025-12-31"^^xsd:date
+    ] ;
+    pol:specifies_in_effect_time [
+        a pol:Time_InEffect ;
+        pol:In_effect_date "2019-06-25"^^xsd:date
+    ] ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring <http://eurovoc.europa.eu/4060> ;
+    pol:establishes_authority <http://eurovoc.europa.eu/4038> .

@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "graph": "[a rdfg:Graph;rdflib:storage [a rdflib:Store;rdfs:label 'Memory']].",
+  "error": null,
+  "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2,\n        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"24 february 2011\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:annotatedText \"date set out therein\" .",
+  "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2,\n        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"24 february 2011\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:annotatedText \"date set out therein\" .\n```",
+  "generation_time": 5.111280202865601,
+  "success": true,
+  "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2,\n        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"24 february 2011\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:annotatedText \"date set out therein\" .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+      "CELEX_Number": "32009R0079",
+      "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+      "Annotators": [
+        "B",
+        "F"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "ttl",
+    "model": "gpt-4o-2024-08-06",
+    "timestamp": "2025-04-09T11:26:25.526287"
+  }
+}

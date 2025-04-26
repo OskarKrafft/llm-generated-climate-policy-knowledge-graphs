@@ -1,0 +1,61 @@
+@prefix poli: <http://www.purl.org/net/polian#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://data.europa.eu/eli/dir/2006/66/oj>
+    dc:title "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10" ;
+    poli:CELEX_number "32006L0066" ;
+    poli:ELI "http://data.europa.eu/eli/dir/2006/66/oj" .
+
+<http://example.org/article-10>
+    a poli:Article ;
+    dc:title "article 10" ;
+    poli:has_section <http://example.org/section-1>, <http://example.org/section-2>, <http://example.org/section-3>, <http://example.org/section-4> .
+
+<http://example.org/section-1>
+    a poli:Section ;
+    dc:description "Member States shall calculate the collection rate for the first time in respect of the fifth full calendar year following the entry into force of this Directive." .
+
+<http://example.org/section-2>
+    a poli:Section ;
+    dc:description "Member States shall achieve the following minimum collection rates:" ;
+    poli:has_list <http://example.org/list-1> .
+
+<http://example.org/list-1>
+    a poli:List ;
+    poli:has_item <http://example.org/item-25>, <http://example.org/item-45> .
+
+<http://example.org/item-25>
+    a poli:Item ;
+    dc:description "25 % by 26 September 2012" ;
+    poli:date "2012-09-26"^^xsd:date ;
+    poli:percentage "25" .
+
+<http://example.org/item-45>
+    a poli:Item ;
+    dc:description "45 % by 26 September 2016" ;
+    poli:date "2016-09-26"^^xsd:date ;
+    poli:percentage "45" .
+
+<http://example.org/section-3>
+    a poli:Section ;
+    dc:description "Member States shall monitor collection rates on a yearly basis according to the scheme set out in Annex I." ;
+    poli:has_procedure <http://example.org/procedure-monitoring> .
+
+<http://example.org/procedure-monitoring>
+    a poli:Procedure ;
+    dc:description "Reports shall indicate how they obtained the data necessary to calculate the collection rate." ;
+    poli:frequency "yearly" .
+
+<http://example.org/section-4>
+    a poli:Section ;
+    dc:description "In accordance with the procedure referred to in Article 24(2):" ;
+    poli:has_procedure <http://example.org/procedure-transitional>, <http://example.org/procedure-methodology> .
+
+<http://example.org/procedure-transitional>
+    a poli:Procedure ;
+    dc:description "Transitional arrangements may be laid down to address difficulties faced by a Member State in satisfying the requirements of paragraph 2 as a result of specific national circumstances." .
+
+<http://example.org/procedure-methodology>
+    a poli:Procedure ;
+    dc:description "A common methodology shall be established for the calculation of annual sales of portable batteries and accumulators to end-users by 26 September 2007." ;
+    poli:date "2007-09-26"^^xsd:date .

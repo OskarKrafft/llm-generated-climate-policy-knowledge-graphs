@@ -1,0 +1,25 @@
+turtle
+@prefix poli: <https://w3id.org/poli#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix eli: <http://data.europa.eu/eli/> .
+
+<https://w3id.org/poli/eu-32006l0066-article25>
+    a poli:Policy ;
+    skos:notation "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25" ;
+    dcterms:title "Penalties"@en ;
+    eli:celexNumber "32006L0066" ;
+    eli:eli "http://data.europa.eu/eli/dir/2006/66/oj" ;
+    poli:hasAnnotator "C", "F" .
+
+<https://w3id.org/poli/eu-32006l0066-article25>
+    poli:isAbout [
+        a poli:PolicyElement ;
+        skos:notation "Article 25" ;
+        dcterms:description """Member States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this Directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them."""@en ;
+        poli:hasInstrumentType <https://w3id.org/poli/Regulation> ;
+        poli:hasPolicyInstrument "Penalty"@en ;
+        poli:hasEnforcementType <https://w3id.org/poli/AdministrativeSanction> ;
+    ] .
+
+.

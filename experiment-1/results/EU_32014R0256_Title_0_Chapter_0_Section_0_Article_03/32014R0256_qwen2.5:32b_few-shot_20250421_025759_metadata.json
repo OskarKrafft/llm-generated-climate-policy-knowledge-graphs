@@ -1,0 +1,24 @@
+{
+  "is_valid": false,
+  "error": "at line 15 of <>:\nBad syntax (Prefix \"xsd:\" not bound) at ^ in:\n\"...b'       poli:requiresCollectionAndReporting \"proportionate\"^^'^b'xsd:string ;\\n        poli:collectionStartDate \"2015-01-01\"^^'...\"",
+  "extracted_content": "@prefix poli: <http://example.org/polia#> .\n@prefix dct: <http://purl.org/dc/terms/> .\n\n<http://data.europa.eu/eli/reg/2014/256/oj>\n    a poli:Policy ;\n    dct:title \"EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03\" ;\n    poli:CELEX_Number \"32014R0256\" ;\n    poli:annotatedBy \"C\", \"F\" .\n\npoli:Article3\n    a poli:PolicyArticle ;\n    dct:isPartOf <http://data.europa.eu/eli/reg/2014/256/oj> ;\n    poli:hasProvision [\n        a poli:Provision ;\n        poli:requiresCollectionAndReporting \"proportionate\"^^xsd:string ;\n        poli:collectionStartDate \"2015-01-01\"^^xsd:date ;\n        poli:reportingInterval \"every two years\"^^xsd:string ;\n        poli:notificationDate \"by 31 July of the reporting year concerned\"^^xsd:string ;\n    ] , [\n        a poli:Provision ;\n        poli:exemptionCondition \"already notified to the commission equivalent data or information and indicated the date and specific legal act\"^^xsd:string ;\n        poli:exemptionCondition \"specific body entrusted with preparation of multi-annual investment plan at union level\"^^xsd:string ;\n    ] .\n.",
+  "original_output": "```turtle\n@prefix poli: <http://example.org/polia#> .\n@prefix dct: <http://purl.org/dc/terms/> .\n\n<http://data.europa.eu/eli/reg/2014/256/oj>\n    a poli:Policy ;\n    dct:title \"EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03\" ;\n    poli:CELEX_Number \"32014R0256\" ;\n    poli:annotatedBy \"C\", \"F\" .\n\npoli:Article3\n    a poli:PolicyArticle ;\n    dct:isPartOf <http://data.europa.eu/eli/reg/2014/256/oj> ;\n    poli:hasProvision [\n        a poli:Provision ;\n        poli:requiresCollectionAndReporting \"proportionate\"^^xsd:string ;\n        poli:collectionStartDate \"2015-01-01\"^^xsd:date ;\n        poli:reportingInterval \"every two years\"^^xsd:string ;\n        poli:notificationDate \"by 31 July of the reporting year concerned\"^^xsd:string ;\n    ] , [\n        a poli:Provision ;\n        poli:exemptionCondition \"already notified to the commission equivalent data or information and indicated the date and specific legal act\"^^xsd:string ;\n        poli:exemptionCondition \"specific body entrusted with preparation of multi-annual investment plan at union level\"^^xsd:string ;\n    ] .\n.\n```",
+  "generation_time": 20.66986060142517,
+  "output": "```turtle\n@prefix poli: <http://example.org/polia#> .\n@prefix dct: <http://purl.org/dc/terms/> .\n\n<http://data.europa.eu/eli/reg/2014/256/oj>\n    a poli:Policy ;\n    dct:title \"EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03\" ;\n    poli:CELEX_Number \"32014R0256\" ;\n    poli:annotatedBy \"C\", \"F\" .\n\npoli:Article3\n    a poli:PolicyArticle ;\n    dct:isPartOf <http://data.europa.eu/eli/reg/2014/256/oj> ;\n    poli:hasProvision [\n        a poli:Provision ;\n        poli:requiresCollectionAndReporting \"proportionate\"^^xsd:string ;\n        poli:collectionStartDate \"2015-01-01\"^^xsd:date ;\n        poli:reportingInterval \"every two years\"^^xsd:string ;\n        poli:notificationDate \"by 31 July of the reporting year concerned\"^^xsd:string ;\n    ] , [\n        a poli:Provision ;\n        poli:exemptionCondition \"already notified to the commission equivalent data or information and indicated the date and specific legal act\"^^xsd:string ;\n        poli:exemptionCondition \"specific body entrusted with preparation of multi-annual investment plan at union level\"^^xsd:string ;\n    ] .\n.\n```",
+  "success": false,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+      "CELEX_Number": "32014R0256",
+      "ELI": "http://data.europa.eu/eli/reg/2014/256/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "few-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T02:57:59.066713"
+  }
+}

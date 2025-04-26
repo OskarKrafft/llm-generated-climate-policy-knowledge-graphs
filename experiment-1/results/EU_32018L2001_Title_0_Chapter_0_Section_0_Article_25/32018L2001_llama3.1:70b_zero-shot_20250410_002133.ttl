@@ -1,0 +1,40 @@
+turtle
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix purl: <http://purl.org/dc/terms/> .
+@prefix polianna: <https://w3id.org/poli/def/ontology/> .
+
+<https://example.com/EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25>
+    a polianna:Policy ;
+    purl:title "EU Directive 2018/2001 Article 25" ;
+    purl:description "Mainstreaming renewable energy in the transport sector" ;
+    purl:identifier "32018L2001" ;
+    purl:source <http://data.europa.eu/eli/dir/2018/2001/oj> .
+
+<https://example.com/EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25>
+    polianna:hasArticleSection
+        [
+            a polianna:ArticleSection ;
+            polianna:number "1" ;
+            polianna:text """
+                In order to mainstream the use of renewable energy in the transport sector, each Member State shall set an obligation on fuel suppliers to ensure that the share of renewable energy within the final consumption of energy in the transport sector is at least 14 % by 2030 (minimum share) in accordance with an indicative trajectory set by the Member State and calculated in accordance with the methodology set out in this article and in Articles 26 and 27.
+            """ .
+        ] ;
+    polianna:hasArticleSection
+        [
+            a polianna:ArticleSection ;
+            polianna:number "2" ;
+            polianna:text """
+                The greenhouse gas emissions savings from the use of renewable liquid and gaseous transport fuels of non-biological origin shall be at least 70 % from 1 January 2021.
+            """ .
+        ] .
+
+<https://example.com/EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25>
+    polianna:hasAnnotation
+        [
+            a polianna:Annotation ;
+            purl:creator "C" ;
+        ] ,
+        [
+            a polianna:Annotation ;
+            purl:creator "F" ;
+        ] .

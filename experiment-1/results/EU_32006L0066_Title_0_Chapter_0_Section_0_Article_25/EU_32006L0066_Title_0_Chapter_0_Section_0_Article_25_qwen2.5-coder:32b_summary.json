@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:Article ;\n    pol:hasTitle \"penalties\" ;\n    pol:isPartOf <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:hasContent \"\"\"Member States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" ;\n    pol:hasDeadline \"2008-09-26\"^^xsd:date .",
+    "original_output": "```turtle\n@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:Article ;\n    pol:hasTitle \"penalties\" ;\n    pol:isPartOf <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:hasContent \"\"\"Member States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" ;\n    pol:hasDeadline \"2008-09-26\"^^xsd:date .\n```",
+    "generation_time": 11.049766302108765,
+    "output": "```turtle\n@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:Article ;\n    pol:hasTitle \"penalties\" ;\n    pol:isPartOf <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:hasContent \"\"\"Member States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" ;\n    pol:hasDeadline \"2008-09-26\"^^xsd:date .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+        "CELEX_Number": "32006L0066",
+        "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "qwen2.5-coder:32b",
+      "timestamp": "2025-04-21T14:27:34.180597"
+    },
+    "total_processing_time": 11.057342529296875,
+    "triple_count": 5
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix ex: <http://example.org/> .\n@prefix eli: <http://data.europa.eu/eli/ontology#> .\n@prefix pol: <https://poliana.example.org/ontology#> .\n\nex:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a eli:Article ;\n    eli:title \"penalties\" ;\n    eli:number \"25\" ;\n    eli:has_celex_number \"32006L0066\" ;\n    eli:is_realized_by <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:annotatedBy (ex:C ex:F) ;\n    pol:content \"\"\"member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member\u00a0states shall notify those measures to the commission by 26\u00a0september 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" .",
+    "original_output": "```turtle\n@prefix ex: <http://example.org/> .\n@prefix eli: <http://data.europa.eu/eli/ontology#> .\n@prefix pol: <https://poliana.example.org/ontology#> .\n\nex:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a eli:Article ;\n    eli:title \"penalties\" ;\n    eli:number \"25\" ;\n    eli:has_celex_number \"32006L0066\" ;\n    eli:is_realized_by <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:annotatedBy (ex:C ex:F) ;\n    pol:content \"\"\"member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member\u00a0states shall notify those measures to the commission by 26\u00a0september 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" .\n```",
+    "generation_time": 16.63518977165222,
+    "output": "```turtle\n@prefix ex: <http://example.org/> .\n@prefix eli: <http://data.europa.eu/eli/ontology#> .\n@prefix pol: <https://poliana.example.org/ontology#> .\n\nex:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a eli:Article ;\n    eli:title \"penalties\" ;\n    eli:number \"25\" ;\n    eli:has_celex_number \"32006L0066\" ;\n    eli:is_realized_by <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:annotatedBy (ex:C ex:F) ;\n    pol:content \"\"\"member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member\u00a0states shall notify those measures to the commission by 26\u00a0september 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+        "CELEX_Number": "32006L0066",
+        "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "qwen2.5-coder:32b",
+      "timestamp": "2025-04-21T14:27:50.824444"
+    },
+    "total_processing_time": 16.642967224121094,
+    "triple_count": 11
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix ex: <http://example.org/> .\n@prefix eli: <http://data.europa.eu/eli/ontology#> .\n@prefix pol: <https://poliana.example.org/ontology#> .\n\nex:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a eli:Article ;\n    eli:title \"penalties\" ;\n    eli:number \"25\" ;\n    eli:has_celex_number \"32006L0066\" ;\n    eli:is_realized_by <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:annotatedBy (ex:C ex:F) ;\n    pol:content \"\"\"member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member\u00a0states shall notify those measures to the commission by 26\u00a0september 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" .",
+    "original_output": "```turtle\n@prefix ex: <http://example.org/> .\n@prefix eli: <http://data.europa.eu/eli/ontology#> .\n@prefix pol: <https://poliana.example.org/ontology#> .\n\nex:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a eli:Article ;\n    eli:title \"penalties\" ;\n    eli:number \"25\" ;\n    eli:has_celex_number \"32006L0066\" ;\n    eli:is_realized_by <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:annotatedBy (ex:C ex:F) ;\n    pol:content \"\"\"member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member\u00a0states shall notify those measures to the commission by 26\u00a0september 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" .\n```",
+    "generation_time": 16.715951204299927,
+    "output": "```turtle\n@prefix ex: <http://example.org/> .\n@prefix eli: <http://data.europa.eu/eli/ontology#> .\n@prefix pol: <https://poliana.example.org/ontology#> .\n\nex:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a eli:Article ;\n    eli:title \"penalties\" ;\n    eli:number \"25\" ;\n    eli:has_celex_number \"32006L0066\" ;\n    eli:is_realized_by <http://data.europa.eu/eli/dir/2006/66/oj> ;\n    pol:annotatedBy (ex:C ex:F) ;\n    pol:content \"\"\"member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member\u00a0states shall notify those measures to the commission by 26\u00a0september 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+        "CELEX_Number": "32006L0066",
+        "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "qwen2.5-coder:32b",
+      "timestamp": "2025-04-21T14:28:07.548250"
+    },
+    "total_processing_time": 16.723573207855225,
+    "triple_count": 11
+  }
+}

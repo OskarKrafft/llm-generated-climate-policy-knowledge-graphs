@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,
+                                 pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:annotatedText "20th day following its publication in the official journal of the european union" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2011-02-24"^^xsd:date ;
+    pol:annotatedText "applies from 24 february 2011, with the exception of article 11(3) and article 12 applying from the date of entry into force of this regulation, and article 11(2) applying from the date set out therein" .

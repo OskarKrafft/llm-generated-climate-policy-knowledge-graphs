@@ -1,0 +1,33 @@
+@prefix poli: <http://purl.org/ontology/polian#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://example.com/article1>
+    a poli:LegislativeText ;
+    skos:notation "EU2010_31" ;
+    dcterms:title "Directive 2010/31/EU of the European Parliament and of the Council" .
+
+<http://example.com/article1/p1>
+    a poli:Paragraph ;
+    skos:notation "Article 1, Paragraph 1" ;
+    dcterms:description """Member States shall ensure that by 2020 all new buildings are nearly zero-energy buildings; and after 31 December 2018, new buildings occupied and owned by public authorities are nearly zero-energy buildings.""" .
+
+<http://example.com/article1/p2>
+    a poli:Paragraph ;
+    skos:notation "Article 1, Paragraph 2" ;
+    dcterms:description """Member States may decide not to set or apply the requirements referred to in paragraph 1 to the following categories of buildings:""" .
+
+<http://example.com/article1/p3>
+    a poli:ListedItem ;
+    skos:notation "(a)" ;
+    dcterms:description "buildings officially protected as part of a designated environment, or because of their special architectural or historical merit," .
+    
+<http://example.com/article1/p4>
+    a poli:ListedItem ;
+    skos:notation "(b)" ;
+    dcterms:description "buildings owned by the armed forces or central government and serving national defence purposes," .
+
+<http://example.com/article1/p5>
+    a poli:Paragraph ;
+    skos:notation "Article 2" ;
+    dcterms:description """Member States shall ensure that by 2020 all new buildings are nearly zero-energy buildings;""" .

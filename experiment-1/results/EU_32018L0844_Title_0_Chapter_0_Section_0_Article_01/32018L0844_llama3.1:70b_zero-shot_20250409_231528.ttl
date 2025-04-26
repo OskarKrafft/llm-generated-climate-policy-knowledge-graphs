@@ -1,0 +1,23 @@
+turtle
+@prefix pol: <http://purl.org/olia/politema.owl#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://example.org/document>
+  dc:title "Directive on the energy performance of buildings"@en ;
+  dc:date "2018-07-09"^^xsd:date ;
+  pol:hasArticle [
+    pol:number "19a" ;
+    pol:text "The Commission shall, before 2020, conclude a feasibility study, clarifying the possibilities and timeline to introduce the inspection of stand-alone ventilation systems and an optional building renovation passport that is complementary to the energy performance certificates, in order to provide a long-term, step-by-step renovation roadmap for a specific building based on quality criteria, following an energy audit, and outlining relevant measures and renovations that could improve the energy performance."@en ;
+  ] ;
+  pol:hasArticle [
+    pol:number "19" ;
+    pol:text "The Commission shall review this Directive by 1 January 2026 at the latest, in the light of the experience gained and progress made during its application, and, if necessary, make proposals. As part of that review, the Commission shall examine in what manner Member States could apply integrated district or neighbourhood approaches in Union building and energy efficiency policy, while ensuring that each building meets the minimum energy performance requirements, for example by means of overall renovation schemes applying to a number of buildings in a spatial context instead of a single building."@en ;
+  ] ;
+  pol:hasArticle [
+    pol:number "20" ;
+    pol:text "Member States shall provide information to the owners or tenants of buildings on energy performance certificates, including their purpose and objectives, on cost-effective measures and, where appropriate, financial instruments, to improve the energy performance of the building, and on replacing fossil fuel boilers with more sustainable alternatives. Member States shall provide the information through accessible and transparent advisory tools such as renovation advice and one-stop-shops."@en ;
+  ] ;
+  pol:hasArticle [
+    pol:number "23" ;
+    pol:text "The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this article. The power to adopt delegated acts referred to in Articles 5, 8 and 22 shall be conferred on the Commission for a period of five years from 9 July 2018."@en ;
+  ] .

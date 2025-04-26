@@ -1,0 +1,9 @@
+{
+    "test_data": "test_data",
+    "output_dir": "experiment-1/results",
+    "model_type": "ollama",
+    "model_name": "llama3.1:70b",
+    "strategies": ["zero-shot", "one-shot", "few-shot"],
+    "temperature": 0.0,
+    "max_tokens": 20000
+  }

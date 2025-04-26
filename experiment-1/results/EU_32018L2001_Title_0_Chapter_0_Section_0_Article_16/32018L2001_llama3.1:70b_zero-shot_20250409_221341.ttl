@@ -1,0 +1,62 @@
+turtle
+@prefix : <http://purl.org/poliana#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj>
+  a :Document ;
+  dct:title "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16" ;
+  skos:notation "CELEX Number: 32018L2001" .
+
+_:Annotators
+  a :AnnotationGroup ;
+  dct:description "Annotators of the policy document" ;
+  :annotator [
+    a :Person ;
+    skos:prefLabel "C"
+  ] , [
+    a :Person ;
+    skos:prefLabel "F"
+  ] .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#article16>
+  a :Article ;
+  dct:title "Organisation and duration of the permit-granting process" ;
+  skos:notation "Article 16" ;
+  :hasParagraph [
+    a :Paragraph ;
+    dct:description "Member States shall set up or designate one or more contact points." ;
+    skos:prefLabel "1."
+  ] , [
+    a :Paragraph ;
+    dct:description "The contact point shall guide the applicant through the administrative permit application process in a transparent manner..." ;
+    skos:prefLabel "2."
+  ] , [
+    a :Paragraph ;
+    dct:description "The contact point shall make available a manual of procedures for developers of renewable energy production projects..." ;
+    skos:prefLabel "3."
+  ] .
+
+_:ContactPoint
+  a :ContactPoint ;
+  dct:description "A single point of contact for the entire administrative permit application and granting process." .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#article16>
+  :hasPermission [
+    a :Permission ;
+    dct:title "Simplified permit-granting process for repowering of existing renewable energy plants" ;
+    skos:prefLabel "6."
+  ] , [
+    a :Permission ;
+    dct:title "Simple-notification procedure for grid connections for repowering projects" ;
+    skos:prefLabel "8."
+  ] .
+
+_:TimeLimit
+  a :TimeLimit ;
+  dct:description "The permit-granting process shall not exceed two years for power plants." ;
+  skos:prefLabel "4."
+
+_:ExceptionalCircumstances
+  a :ExceptionalCircumstances ;
+  dct:description "Where duly justified on the grounds of extraordinary circumstances, that two-year period may be extended by up to one year." .

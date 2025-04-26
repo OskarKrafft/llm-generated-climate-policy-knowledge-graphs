@@ -1,0 +1,64 @@
+turtle
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix polianna: <https://raw.githubusercontent.com/PolianaLabs/poliana-ontology/master/poliana.ttl#> .
+
+<https://example.org/article6> a polianna:Article ;
+    dc:title "Article 6" ;
+    dc:description """IT IS OF PARTICULAR IMPORTANCE THAT THE COMMISSION FOLLOW ITS USUAL PRACTICE AND CARRY OUT CONSULTATIONS WITH RELEVANT GROUPS OF EXPERTS ON MARITIME TRANSPORT AND ON INLAND WATERWAY TRANSPORT, INCLUDING EXPERTS FROM NATIONAL MARITIME OR INLAND NAVIGATION AUTHORITIES, BEFORE ADOPTING THOSE DELEGATED ACTS.""" ;
+    polianna:paragraph [
+        a polianna:Paragraph ;
+        dc:description "Member States shall ensure that an appropriate number of CNG refuelling points accessible to the public are put in place by 31 December 2020, in order to ensure, in line with the sixth indent of Article 3(1), that CNG motor vehicles can circulate in urban/suburban agglomerations and other densely populated areas, and, where appropriate, within networks determined by the Member States." ;
+    ] ;
+    polianna:paragraph [
+        a polianna:Paragraph ;
+        dc:description "Member States shall ensure that an appropriate number of CNG refuelling points accessible to the public are put in place by 31 December 2025, at least along the existing TEN-T core network, to ensure that CNG motor vehicles can circulate throughout the Union." ;
+    ] ;
+    polianna:paragraph [
+        a polianna:Paragraph ;
+        dc:description "Member States shall ensure that CNG refuelling points for motor vehicles deployed or renewed as from 18 November 2017 comply with the technical specifications set out in point 3.4 of Annex II." ;
+    ] ;
+    polianna:paragraph [
+        a polianna:Paragraph ;
+        dc:description "Without prejudice to Regulation (EU) No 1025/2012, the Union shall pursue the development by the relevant European or international standardisation organisations of standards, including detailed technical specifications, for refuelling points for LNG and CNG motor vehicles." ;
+    ] .
+
+<https://example.org/article6#paragraph1> a polianna:Paragraph ;
+    dc:description "Member States shall ensure that an appropriate number of CNG refuelling points accessible to the public are put in place by 31 December 2020, in order to ensure, in line with the sixth indent of Article 3(1), that CNG motor vehicles can circulate in urban/suburban agglomerations and other densely populated areas, and, where appropriate, within networks determined by the Member States." .
+
+<https://example.org/article6#paragraph2> a polianna:Paragraph ;
+    dc:description "Member States shall ensure that an appropriate number of CNG refuelling points accessible to the public are put in place by 31 December 2025, at least along the existing TEN-T core network, to ensure that CNG motor vehicles can circulate throughout the Union." .
+
+<https://example.org/article6#paragraph3> a polianna:Paragraph ;
+    dc:description "Member States shall ensure that CNG refuelling points for motor vehicles deployed or renewed as from 18 November 2017 comply with the technical specifications set out in point 3.4 of Annex II." .
+
+<https://example.org/article6#paragraph4> a polianna:Paragraph ;
+    dc:description "Without prejudice to Regulation (EU) No 1025/2012, the Union shall pursue the development by the relevant European or international standardisation organisations of standards, including detailed technical specifications, for refuelling points for LNG and CNG motor vehicles." .
+
+<https://example.org/article6#requirement1> a polianna:Requirement ;
+    dc:description "Member States shall ensure that an appropriate number of CNG refuelling points accessible to the public are put in place by 31 December 2020, in order to ensure, in line with the sixth indent of Article 3(1), that CNG motor vehicles can circulate in urban/suburban agglomerations and other densely populated areas, and, where appropriate, within networks determined by the Member States." ;
+    polianna:hasTargetDate "2020-12-31"^^xsd:date .
+
+<https://example.org/article6#requirement2> a polianna:Requirement ;
+    dc:description "Member States shall ensure that an appropriate number of CNG refuelling points accessible to the public are put in place by 31 December 2025, at least along the existing TEN-T core network, to ensure that CNG motor vehicles can circulate throughout the Union." ;
+    polianna:hasTargetDate "2025-12-31"^^xsd:date .
+
+<https://example.org/article6#requirement3> a polianna:Requirement ;
+    dc:description "Member States shall ensure that CNG refuelling points for motor vehicles deployed or renewed as from 18 November 2017 comply with the technical specifications set out in point 3.4 of Annex II." ;
+    polianna:hasTargetDate "2017-11-18"^^xsd:date .
+
+<https://example.org/article6#requirement4> a polianna:Requirement ;
+    dc:description "Without prejudice to Regulation (EU) No 1025/2012, the Union shall pursue the development by the relevant European or international standardisation organisations of standards, including detailed technical specifications, for refuelling points for LNG and CNG motor vehicles." .
+
+<https://example.org/article6#article3> a polianna:Article ;
+    dc:title "Article 3" .
+
+<https://example.org/annexII> a polianna:Annex ;
+    dc:title "Annex II" .
+
+<https://example.org/regulation10252012> a polianna:Regulation ;
+    dc:title "Regulation (EU) No 1025/2012" .

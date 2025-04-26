@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32012L0027 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 .\n\npol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:addresses <http://eurovoc.europa.eu/4038>,\n        pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_instrument pol:Edu_Outreach,\n        pol:PublicInvt,\n        pol:RegulatoryInstr,\n        pol:Subsidies_Incentives,\n        pol:VoluntaryAgrmt ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 ;\n    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2 .\n\npol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:Compliance_date \"2015-12-05\"^^xsd:date ;\n    pol:annotatedText \"5 december 2015\" .\n\npol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years from the date of the previous energy audit\" .",
+  "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32012L0027 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 .\n\npol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:addresses <http://eurovoc.europa.eu/4038>,\n        pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_instrument pol:Edu_Outreach,\n        pol:PublicInvt,\n        pol:RegulatoryInstr,\n        pol:Subsidies_Incentives,\n        pol:VoluntaryAgrmt ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 ;\n    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2 .\n\npol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:Compliance_date \"2015-12-05\"^^xsd:date ;\n    pol:annotatedText \"5 december 2015\" .\n\npol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years from the date of the previous energy audit\" .\n```",
+  "generation_time": 7.165227890014648,
+  "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32012L0027 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 .\n\npol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:addresses <http://eurovoc.europa.eu/4038>,\n        pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_instrument pol:Edu_Outreach,\n        pol:PublicInvt,\n        pol:RegulatoryInstr,\n        pol:Subsidies_Incentives,\n        pol:VoluntaryAgrmt ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 ;\n    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2 .\n\npol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:Compliance_date \"2015-12-05\"^^xsd:date ;\n    pol:annotatedText \"5 december 2015\" .\n\npol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"every four years from the date of the previous energy audit\" .\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+      "CELEX_Number": "32012L0027",
+      "ELI": "http://data.europa.eu/eli/dir/2012/27/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "ttl",
+    "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+    "timestamp": "2025-04-20T23:27:29.278032"
+  },
+  "triple_count": 22
+}

@@ -1,0 +1,67 @@
+@prefix ex: <http://example.org/example#> .
+@prefix pol: <http://example.org/polina#> .
+
+ex:Article1 a pol:LegislativeAct ;
+    pol:amends ex:Directive2003_87_EC ;
+    pol:hasProvision ex:Provision1,
+        ex:Provision2,
+        ex:Provision3,
+        ex:Provision4,
+        ex:Provision5,
+        ex:Provision6,
+        ex:Provision7,
+        ex:Provision8 ;
+    pol:title "Amendment to Directive 2003/87/EC" .
+
+ex:Article12 a pol:Provision ;
+    pol:text "Specific provisions regarding the allocation of allowances." .
+
+ex:Article15 a pol:Provision ;
+    pol:text "Provisions concerning the use of revenues from auctioning allowances." .
+
+ex:Article18a a pol:Provision ;
+    pol:text "Simplified procedures for non-commercial aircraft operators." .
+
+ex:Article3d a pol:Provision ;
+    pol:text "Member States shall auction allowances in accordance with the rules set out in this Directive." .
+
+ex:Article3d_3 a pol:Provision ;
+    pol:text "The number of allowances to be auctioned by each Member State shall correspond to its share of attributed emissions for the period concerned." .
+
+ex:Directive2003_87_EC a pol:LegislativeAct ;
+    pol:title "Directive 2003/87/EC" .
+
+ex:Provision1 a pol:Provision ;
+    pol:derogatesFrom ex:Article3d ;
+    pol:text "By way of derogation from article 3d, member states shall auction a number of aviation allowances reduced in proportion to the reduction in the total number of allowances issued." .
+
+ex:Provision2 a pol:Provision ;
+    pol:derogatesFrom ex:Article3d_3 ;
+    pol:text "By way of derogation from article 3d(3), the number of allowances to be auctioned by each member state in respect of the period from 1 January 2013 to 31 December 2016 shall be reduced to correspond to its share of attributed aviation emissions from flights which are not subject to the derogations provided for in points (a) and (b) of paragraph 1 of this article." .
+
+ex:Provision3 a pol:Provision ;
+    pol:derogatesFrom ex:Article3g ;
+    pol:text "By way of derogation from article 3g, aircraft operators shall not be required to submit monitoring plans setting out measures to monitor and report emissions in respect of flights which are subject to the derogations provided for in points (a) and (b) of paragraph 1 of this article." .
+
+ex:Provision4 a pol:Provision ;
+    pol:derogatesFrom ex:Article12,
+        ex:Article15,
+        ex:Article18a,
+        ex:Article3g ;
+    pol:text "By way of derogation from articles 3g, 12, 15 and 18a, where an aircraft operator has total annual emissions lower than 25 000 tonnes CO2, its emissions shall be considered to be verified emissions if determined by using the small emitters tool approved under commission regulation (EU) No 606/2010 and populated by Eurocontrol with data from its ETS support facility. Member states may implement simplified procedures for non-commercial aircraft operators as long as such procedures provide no less accuracy than the small emitters tool provides." .
+
+ex:Provision5 a pol:Provision ;
+    pol:text "For the purposes of this article, flights between aerodromes located in states of the EEA and countries that acceded to the Union in 2013 shall be considered to be flights between aerodromes located in states of the EEA." .
+
+ex:Provision6 a pol:Provision ;
+    pol:text "The Commission shall regularly, and at least once a year, inform the European Parliament and the Council of the progress of the International Civil Aviation Organization (ICAO) negotiations as well as of its efforts to promote the international acceptance of market-based mechanisms among third countries. Following the 2016 ICAO Assembly, the Commission shall report to the European Parliament and to the Council on actions to implement an international agreement on a global market-based measure from 2020, that will reduce greenhouse gas emissions from aviation in a non-discriminatory manner, including on information, with regard to the use of revenues, submitted by Member States in accordance with article 17 of Regulation (EU) No 525/2013." .
+
+ex:Provision7 a pol:Provision ;
+    pol:text "In its report, the Commission shall consider, and, if appropriate, include proposals in reaction to, those developments on the appropriate scope for coverage of emissions from activity to and from aerodromes located in countries outside the EEA from 1 January 2017 onwards. In its report, the Commission shall also consider solutions to other issues that may arise in the application of paragraphs 1 to 4 of this article, while preserving the equal treatment of all aircraft operators on the same route." .
+
+ex:Provision8 a pol:Provision ;
+    pol:text "From 1 January 2013 to 31 December 2020, flights which, but for this point, would fall within this activity, performed by a non-commercial aircraft operator operating flights with total annual emissions lower than 1 000 tonnes per year." .
+
+ex:Article3g a pol:Provision ;
+    pol:text "Aircraft operators shall submit monitoring plans setting out measures to monitor and report emissions." .
+

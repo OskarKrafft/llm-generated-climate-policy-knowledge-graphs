@@ -1,0 +1,20 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pol: <https://poliana.example.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj/article4> a pol:Article ;
+    dcterms:title "Aggregates, Energy Products and the Transmission Frequency of National Statistics" ;
+    pol:policy <http://data.europa.eu/eli/reg/2008/1099/oj> ;
+    pol:text """1. The national statistics to be reported shall be as set out in the annexes. They shall be transmitted with the following frequencies:
+(a) annual, for the energy statistics in Annex B;
+(b) monthly, for the energy statistics in Annex C;
+(c) short-term monthly, for the energy statistics in Annex D.
+2. Applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in Annex A (clarifications of terminology).
+3. The data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).""" .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj> a pol:Policy ;
+    dcterms:title "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04" ;
+    pol:annotators ( "A" "C" ) ;
+    pol:celexNumber "32008R1099"^^xsd:string .
+

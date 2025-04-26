@@ -1,0 +1,37 @@
+turtle
+@prefix poli: <http://purl.org/np/POLICIES#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.com/policy/EU-RL-2009-28>
+    a poli:Policy ;
+    dc:title "Directive 2009/28/EC of the European Parliament and of the Council" ;
+    dc:description "On the promotion of the use of energy from renewable sources and amending and subsequently repealing Directives 2001/77/EC and 2003/30/EC" .
+
+<http://example.com/policy/EU-RL-2009-28#article17>
+    a poli:Provision ;
+    dc:title "Article 17 - Sustainability criteria for biofuels and bioliquids" ;
+    skos:narrower <http://example.com/policy/EU-RL-2009-28#article17.2> , 
+                <http://example.com/policy/EU-RL-2009-28#article17.3> .
+
+<http://example.com/policy/EU-RL-2009-28#article17.2>
+    a poli:Provision ;
+    dc:description "The Commission shall report to the European Parliament and to the Council on the effectiveness of the system in place for the provision of information on sustainability criteria." .
+
+<http://example.com/policy/EU-RL-2009-28#article17.3>
+    a poli:Provision ;
+    dc:description "Whether it is feasible and appropriate to introduce mandatory requirements in relation to air, soil or water protection, taking into account the latest scientific evidence and the Community’s international obligations." .
+
+<http://example.com/policy/EU-RL-2009-28#article24>
+    a poli:Provision ;
+    dc:title "Article 24 - Transparency platform" ;
+    skos:narrower <http://example.com/policy/EU-RL-2009-28#article24.1> .
+
+<http://example.com/policy/EU-RL-2009-28#article24.1>
+    a poli:Provision ;
+    dc:description "The Commission shall adopt decisions under paragraph 4 only if the agreement or scheme in question meets adequate standards of reliability, transparency and independent auditing." .
+
+<http://example.com/policy/EU-RL-2009-28#annexV>
+    a poli:Annex ;
+    dc:title "Methodological requirements for schemes to measure greenhouse gas emission saving" .

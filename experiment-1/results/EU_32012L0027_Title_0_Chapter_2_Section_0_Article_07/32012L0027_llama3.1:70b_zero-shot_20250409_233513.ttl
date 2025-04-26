@@ -1,0 +1,38 @@
+turtle
+@prefix poli: <http://www.w3.org/ns/poli/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/article>
+  a poli:Article ;
+  poli:hasTitle "Energy Efficiency Directive" ;
+  poli:hasText """...""" ;
+  poli:hasSection [
+    a poli:Section ;
+    poli:hasNumber "9" ;
+    poli:hasText """Member States shall ensure that..."""
+  ] .
+
+<http://example.com/paragraph-1>
+  a poli:Paragraph ;
+  poli:isPartOf <http://example.com/article> ;
+  poli:hasText """Member States may set alternative...""" .
+
+<http://example.com/alternative-measure-1>
+  a poli:AlternativeMeasure ;
+  poli:isDescribedIn <http://example.com/paragraph-1> ;
+  poli:hasType "Energy or CO2 taxes" .
+
+<http://example.com/criterion-1>
+  a poli:Criterion ;
+  poli:appliesTo <http://example.com/alternative-measure-1> ;
+  poli:hasCode "(a)" ;
+  poli:hasText """The policy measures provide for at least...""" .
+
+# ... more triples ...
+
+<http://example.com/article>
+  poli:hasSection [
+    a poli:Section ;
+    poli:hasNumber "12" ;
+    poli:hasText """Member States shall ensure that when..."""
+  ] .

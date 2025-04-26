@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:Edu_Outreach,\n        pol:RegulatoryInstr ;\n    pol:contains_objective pol:Objective ;\n    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:annotatedText \"two years\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:annotatedText \"one\u00a0year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 a pol:Time_Compliance ;\n    pol:annotatedText \"six months\" .",
+    "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:Edu_Outreach,\n        pol:RegulatoryInstr ;\n    pol:contains_objective pol:Objective ;\n    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:annotatedText \"two years\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:annotatedText \"one\u00a0year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 a pol:Time_Compliance ;\n    pol:annotatedText \"six months\" .",
+    "generation_time": 4.4891676902771,
+    "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:Edu_Outreach,\n        pol:RegulatoryInstr ;\n    pol:contains_objective pol:Objective ;\n    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:annotatedText \"two years\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:annotatedText \"one\u00a0year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 a pol:Time_Compliance ;\n    pol:annotatedText \"six months\" .",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32018L2001",
+        "ELI": "http://data.europa.eu/eli/dir/2018/2001/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:40:26.861371"
+    },
+    "total_processing_time": 4.497929811477661,
+    "triple_count": 19
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_objective pol:Objective ;\n    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:annotatedText \"two years\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 a pol:Time_Compliance ;\n    pol:annotatedText \"six months\" .",
+    "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_objective pol:Objective ;\n    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:annotatedText \"two years\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 a pol:Time_Compliance ;\n    pol:annotatedText \"six months\" .",
+    "generation_time": 5.961963891983032,
+    "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_objective pol:Objective ;\n    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:annotatedText \"two years\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 a pol:Time_Compliance ;\n    pol:annotatedText \"six months\" .",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32018L2001",
+        "ELI": "http://data.europa.eu/eli/dir/2018/2001/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:40:32.831114"
+    },
+    "total_processing_time": 5.967933177947998,
+    "triple_count": 18
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_objective pol:Objective ;\n    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:annotatedText \"two years\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:annotatedText \"one\u00a0year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 a pol:Time_Compliance ;\n    pol:annotatedText \"six months\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_objective pol:Objective ;\n    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:annotatedText \"two years\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:annotatedText \"one\u00a0year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 a pol:Time_Compliance ;\n    pol:annotatedText \"six months\" .\n```",
+    "generation_time": 6.497793912887573,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_objective pol:Objective ;\n    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3,\n        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;\n    pol:annotatedText \"two years\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;\n    pol:annotatedText \"one year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;\n    pol:annotatedText \"one\u00a0year\" .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 a pol:Time_Compliance ;\n    pol:annotatedText \"six months\" .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32018L2001",
+        "ELI": "http://data.europa.eu/eli/dir/2018/2001/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:40:39.335587"
+    },
+    "total_processing_time": 6.5067760944366455,
+    "triple_count": 18
+  }
+}

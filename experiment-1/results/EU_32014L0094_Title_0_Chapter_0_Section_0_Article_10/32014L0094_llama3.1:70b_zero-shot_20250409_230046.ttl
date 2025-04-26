@@ -1,0 +1,63 @@
+turtle
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<https://data.europa.eu/eli/dir/2014/94/oj>
+    dc:title "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10"@en ;
+    dct:identifier "CELEX_Number"^^xsd:string, "32014L0094" ;
+    dct:conformsTo <https://w3id.org/polifonia/voc/ontology> .
+
+<#article>
+    a <http://www.w3id.org/def/eurovoc#Article> ;
+    rdfs:label "article 10"@en ;
+    dc:title "Reporting and review" ;
+    dct:description """Each Member State shall submit to the Commission a report on the implementation of its national policy framework by 18 November 2019, and every three years thereafter. Those reports shall cover the information listed in Annex I and shall, where appropriate, include a relevant justification regarding the level of attainment of the national targets and objectives referred to in Article 3(1)."""@en ;
+    dct:references <https://data.europa.eu/eli/dir/2014/94/oj> .
+
+<#article-paragraph-1>
+    a <http://www.w3id.org/def/eurovoc#Paragraph> ;
+    rdfs:label "Article 10, Paragraph 1"@en ;
+    dct:description """Each Member State shall submit to the Commission a report on the implementation of its national policy framework by 18 November 2019, and every three years thereafter. Those reports shall cover the information listed in Annex I and shall, where appropriate, include a relevant justification regarding the level of attainment of the national targets and objectives referred to in Article 3(1)."""@en ;
+    dct:partOf <#article> .
+
+<#action-1>
+    a <http://www.w3id.org/def/eurovoc#Action> ;
+    rdfs:label "Submission of report by Member States"@en ;
+    dct:description """Each Member State shall submit to the Commission a report on the implementation of its national policy framework by 18 November 2019, and every three years thereafter."""@en ;
+    dct:instrument <https://data.europa.eu/eli/dir/2014/94/oj> ;
+    dct:agent "Member States"@en .
+
+<#action-2>
+    a <http://www.w3id.org/def/eurovoc#Action> ;
+    rdfs:label "Assessment by the Commission"@en ;
+    dct:description """The Commission shall submit to the European Parliament and to the Council a report on the assessment of the national policy frameworks and their coherence at Union level, including an evaluation of the level of attainment of the national targets and objectives referred to in Article 3(1)."""@en ;
+    dct:instrument <https://data.europa.eu/eli/dir/2014/94/oj> ;
+    dct:agent "The Commission"@en .
+
+<#action-3>
+    a <http://www.w3id.org/def/eurovoc#Action> ;
+    rdfs:label "Review by the Commission"@en ;
+    dct:description """By 31 December 2020, the Commission shall review the implementation of this Directive, and, as appropriate, submit a proposal to amend it by laying down new common technical specifications for alternative fuels infrastructure within the scope of this Directive."""@en ;
+    dct:instrument <https://data.europa.eu/eli/dir/2014/94/oj> ;
+    dct:agent "The Commission"@en .
+
+<#annotation>
+    dc:title "Annotation metadata"@en ;
+    dct:description """Annotators: B, C"""@en ;
+    dct:creator "B", "C" ;
+    dct:date "2023-03-10"^^xsd:date ;
+    dct:rights <https://creativecommons.org/licenses/by/4.0/> .
+
+<#metadata>
+    dc:title "Metadata"@en ;
+    dct:description """CELEX Number: 32014L0094"""@en ;
+    dct:creator <#annotation> ;
+    dct:date "2023-03-10"^^xsd:date .

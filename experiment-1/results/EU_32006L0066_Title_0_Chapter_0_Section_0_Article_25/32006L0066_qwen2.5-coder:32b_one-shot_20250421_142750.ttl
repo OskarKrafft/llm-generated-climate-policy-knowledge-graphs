@@ -1,0 +1,13 @@
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix ex: <http://example.org/> .
+@prefix pol: <https://poliana.example.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a eli:Article ;
+    eli:has_celex_number "32006L0066" ;
+    eli:is_realized_by <http://data.europa.eu/eli/dir/2006/66/oj> ;
+    eli:number "25" ;
+    eli:title "penalties" ;
+    pol:annotatedBy ( ex:C ex:F ) ;
+    pol:content "member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member states shall notify those measures to the commission by 26 september 2008 and shall inform it without delay of any subsequent amendment to them." .
+

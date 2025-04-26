@@ -1,0 +1,32 @@
+@prefix pola: <http://purl.org/policy/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2014/256/oj#Article3> a pola:LegalProvision ;
+    pola:hasRequirement [ a pola:ReportingRequirement ;
+            pola:collectionStartDate "2015-01-01"^^xsd:date ;
+            pola:deadline "31 July of the reporting year concerned"^^xsd:string ;
+            pola:reportingFrequency "every two years"^^xsd:string ],
+        [ a pola:ExemptionCondition ;
+            pola:conditionType "already notified equivalent data or information to the commission"^^xsd:string ],
+        [ a pola:ExemptionCondition ;
+            pola:conditionType "specific body compiles data for multi-annual investment plan"^^xsd:string ] ;
+    pola:hasText """
+article 3
+notification of data
+1.   while keeping the collection and reporting burden proportionate, member states or the entities to which they delegate that task shall compile all the data and information required under this regulation as from 1 january 2015 and every two years thereafter.
+they shall notify the data and relevant project information specified in this regulation to the commission in 2015, that year being the first reporting year, and from then onwards every two years. that notification shall be made in aggregated form, except for data and relevant information relating to cross-border transmission projects.
+member states or their delegated entities shall notify aggregated data and relevant project information by 31 july of the reporting year concerned.
+2.   member states or their delegated entities are exempted from the obligations set out in paragraph 1, provided that, and to the extent that, pursuant to energy sector-specific legal acts of the union or the euratom treaty:
+(a)
+the member state concerned or its delegated entity has already notified to the commission data or information equivalent to that required under this regulation and has indicated the date of that notification and the specific legal act concerned; or
+(b)
+a specific body is entrusted with the preparation of a multi-annual investment plan in energy infrastructure at union level and, to that end, compiles data and information equivalent to that required under this regulation. in this case and for the purposes of this regulation, that specific body shall notify all the relevant data and information to the commission.
+"""^^xsd:string ;
+    pola:partOf <http://data.europa.eu/eli/reg/2014/256/oj> .
+
+<http://data.europa.eu/eli/reg/2014/256/oj> a pola:LegalInstrument ;
+    pola:annotatedBy "C",
+        "F" ;
+    pola:hasCELEXNumber "32014R0256"^^xsd:string ;
+    pola:title "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03"^^xsd:string .
+

@@ -1,0 +1,8 @@
+{
+  "test_data": "test_data",
+  "output_dir": "experiment-1/results/test_results",
+  "model_type": "ollama",
+  "model_name": "qwen2.5-coder:32b",
+  "strategies": ["zero-shot", "one-shot", "few-shot"],
+  "temperature": 0.0
+}

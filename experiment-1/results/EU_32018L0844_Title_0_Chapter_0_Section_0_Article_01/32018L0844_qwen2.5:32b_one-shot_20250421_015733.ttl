@@ -1,0 +1,20 @@
+@prefix poli: <http://example.org/polia/ontology#> .
+
+<https://example.org/regulations/Directive_2018_744_EU> a poli:Regulation ;
+    poli:hasArticle [ a poli:Directive_Amendment ;
+            poli:amendsDirective <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32018L0744:en:HTML> ],
+        [ a poli:Directive_Amendment ;
+            poli:amendsDirective <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32018L0744:en:HTML> ],
+        [ a poli:Directive_Amendment ;
+            poli:amendsDirective <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32018L0744:en:HTML> ],
+        [ a poli:Directive_Amendment ;
+            poli:amendsDirective <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32018L0744:en:HTML> ],
+        [ a poli:Directive_Amendment ;
+            poli:amendsDirective <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32018L0744:en:HTML> ],
+        [ a poli:Directive_Amendment ;
+            poli:amendsDirective <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32018L0744:en:HTML> ],
+        [ a poli:Directive_Amendment ;
+            poli:amendsDirective <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32018L0744:en:HTML> ],
+        [ a poli:Directive_Amendment ;
+            poli:amendsDirective <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32018L0744:en:HTML> ] .
+

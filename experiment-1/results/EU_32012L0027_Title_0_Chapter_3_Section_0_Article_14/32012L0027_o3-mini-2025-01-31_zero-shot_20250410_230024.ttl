@@ -1,0 +1,56 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14 rdf:type pol:PolicyArticle ;
+    rdfs:label "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14" ;
+    rdfs:comment """CELEX Number: 32012L0027
+ELI: <http://data.europa.eu/eli/dir/2012/27/oj>
+Annotators: C, F
+
+article 14
+promotion of efficiency in heating and cooling
+1.   by 31 december 2015, member states shall carry out and notify to the commission a comprehensive assessment of the potential for the application of high-efficiency cogeneration and efficient district heating and cooling, containing the information set out in annex viii. if they have already carried out an equivalent assessment, they shall notify it to the commission.
+the comprehensive assessment shall take full account of the analysis of the national potentials for high-efficiency cogeneration carried out under directive 2004/8/ec.
+at the request of the commission, the assessment shall be updated and notified to the commission every five years. the commission shall make any such request at least one year before the due date.
+2.   member states shall adopt policies which encourage the due taking into account at local and regional levels of the potential of using efficient heating and cooling systems, in particular those using high-efficiency cogeneration. account shall be taken of the potential for developing local and regional heat markets.
+3.   for the purpose of the assessment referred to in paragraph 1, member states shall carry out a cost-benefit analysis covering their territory based on climate conditions, economic feasibility and technical suitability in accordance with part 1 of annex ix. the cost-benefit analysis shall be capable of facilitating the identification of the most resource-and cost-efficient solutions to meeting heating and cooling needs. that cost-benefit analysis may be part of an environmental assessment under directive 2001/42/ec of the european parliament and of the council of 27 june 2001 on the assessment of the effects of certain plans and programmes on the environment (25).
+4.   where the assessment referred to in paragraph 1 and the analysis referred to in paragraph 3 identify a potential for the application of high-efficiency cogeneration and/or efficient district heating and cooling whose benefits exceed the costs, member states shall take adequate measures for efficient district heating and cooling infrastructure to be developed and/or to accommodate the development of high-efficiency cogeneration and the use of heating and cooling from waste heat and renewable energy sources in accordance with paragraphs 1, 5, and 7.
+where the assessment referred to in paragraph 1 and the analysis referred to in paragraph 3 do not identify a potential whose benefits exceed the costs, including the administrative costs of carrying out the cost-benefit analysis referred to in paragraph 5, the member state concerned may exempt installations from the requirements laid down in that paragraph.
+5.   member states shall ensure that a cost-benefit analysis in accordance with part 2 of annex ix is carried out when, after 5 june 2014:
+(a)
+a new thermal electricity generation installation with a total thermal input exceeding 20 mw is planned, in order to assess the cost and benefits of providing for the operation of the installation as a high-efficiency cogeneration installation;
+(b)
+an existing thermal electricity generation installation with a total thermal input exceeding 20 mw is substantially refurbished, in order to assess the cost and benefits of converting it to high-efficiency cogeneration;
+(c)
+an industrial installation with a total thermal input exceeding 20 mw generating waste heat at a useful temperature level is planned or substantially refurbished, in order to assess the cost and benefits of utilising the waste heat to satisfy economically justified demand, including through cogeneration, and of the connection of that installation to a district heating and cooling network;
+(d)
+a new district heating and cooling network is planned or in an existing district heating or cooling network a new energy production installation with a total thermal input exceeding 20 mw is planned or an existing such installation is to be substantially refurbished, in order to assess the cost and benefits of utilising the waste heat from nearby industrial installations.
+the fitting of equipment to capture carbon dioxide produced by a combustion installation with a view to its being geologically stored as provided for in directive 2009/31/ec shall not be considered as refurbishment for the purpose of points (b), (c) and (d) of this paragraph.
+member states may require the cost-benefit analysis referred to in points (c) and (d) to be carried out in cooperation with the companies responsible for the operation of the district heating and cooling networks.
+6.   member states may exempt from paragraph 5:
+(a)
+those peak load and back-up electricity generating installations which are planned to operate under 1 500 operating hours per year as a rolling average over a period of five years, based on a verification procedure established by the member states ensuring that this exemption criterion is met;
+(b)
+nuclear power installations;
+(c)
+installations that need to be located close to a geological storage site approved under directive 2009/31/ec.
+member states may also lay down thresholds, expressed in terms of the amount of available useful waste heat, the demand for heat or the distances between industrial installations and district heating networks, for exempting individual installations from the provisions of points (c) and (d) of paragraph 5.
+member states shall notify exemptions adopted under this paragraph to the commission by 31 december 2013 and any subsequent changes to them thereafter.
+7.   member states shall adopt authorisation criteria as referred to in article 7 of directive 2009/72/ec, or equivalent permit criteria, to:
+(a)
+take into account the outcome of the comprehensive assessment referred to in paragraph 1;
+(b)
+ensure that the requirements of paragraph 5 are fulfilled; and
+(c)
+take into account the outcome of cost-benefit analysis referred to in paragraph 5.
+8.   member states may exempt individual installations from being required, by the authorisation and permit criteria referred to in paragraph 7, to implement options whose benefits exceed their costs, if there are imperative reasons of law, ownership or finance for so doing. in these cases the member state concerned shall submit a reasoned notification of its decision to the commission within three months of the date of taking it.
+9.   paragraphs 5, 6, 7 and 8 of this article shall apply to installations covered by directive 2010/75/eu without prejudice to the requirements of that directive.
+10.   on the basis of the harmonised efficiency reference values referred to in point (f) of annex ii, member states shall ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria laid down by each member state. they shall ensure that this guarantee of origin complies with the requirements and contains at least the information specified in annex x. member states shall mutually recognise their guarantees of origin, exclusively as proof of the information referred to in this paragraph. any refusal to recognise a guarantee of origin as such proof, in particular for reasons relating to the prevention of fraud, must be based on objective, transparent and non-discriminatory criteria. member states shall notify the commission of such refusal and its justification. in the event of refusal to recognise a guarantee of origin, the commission may adopt a decision to compel the refusing party to recognise it, in particular with regard to objective, transparent and non-discriminatory criteria on which such recognition is based.
+the commission shall be empowered to review, by means of delegated acts in accordance with article 23 of this directive, the harmonised efficiency reference values laid down in commission implementing decision 2011/877/eu (26) on the basis of directive 2004/8/ec by 31 december 2014.
+11.   member states shall ensure that any available support for cogeneration is subject to the electricity produced originating from high-efficiency cogeneration and the waste heat being effectively used to achieve primary energy savings. public support to cogeneration and district heating generation and networks shall be subject to state aid rules, where applicable.
+""" .

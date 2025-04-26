@@ -1,0 +1,67 @@
+turtle
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix polianna: <https://w3id.org/poli/ontology/> .
+
+<https://w3id.org/poli/example/act/article14>
+    a polianna:Article ;
+    dct:title "Article 14" ;
+    dct:description """Text of Article 14""" ;
+
+    polianna:hasSection [
+        a polianna:Section ;
+        dct:title "Section 1" ;
+        dct:description """Text of Section 1"""
+    ] ;
+
+    polianna:hasParagraph [
+        a polianna:Paragraph ;
+        dct:title "Paragraph 1" ;
+        dct:description """Member States shall ensure that..."""
+    ] , [
+        a polianna:Paragraph ;
+        dct:title "Paragraph 2" ;
+        dct:description """The Commission may adopt..."""
+    ] ;
+
+    polianna:hasArticle [
+        a polianna:Subarticle ;
+        dct:title "Article 7" ;
+        dct:description """Member States shall ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria laid down by each Member State."""
+    ] .
+
+<https://w3id.org/poli/example/act/article14#section1>
+    a polianna:Section ;
+    dct:title "Section 1" ;
+    dct:description """Text of Section 1""" ;
+
+    polianna:hasParagraph [
+        a polianna:Paragraph ;
+        dct:title "Paragraph 1" ;
+        dct:description """Member States shall ensure that..."""
+    ] .
+
+<https://w3id.org/poli/example/act/article14#paragraph1>
+    a polianna:Paragraph ;
+    dct:title "Paragraph 1" ;
+    dct:description """Member States shall ensure that...""" ;
+
+    polianna:hasSentence [
+        a polianna:Sentence ;
+        dct:description """Member States shall ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria laid down by each Member State."""
+    ] .
+
+<https://w3id.org/poli/example/act/article14#article7>
+    a polianna:Subarticle ;
+    dct:title "Article 7" ;
+    dct:description """Member States shall ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria laid down by each Member State.""" .

@@ -1,0 +1,73 @@
+@prefix pol: <http://example.org/polanna#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1a a pol:ArticlePart ;
+    pol:isSubpartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1 ;
+    pol:text "(a) carried out in an independent manner by qualified and/or accredited experts according to qualification criteria" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1b a pol:ArticlePart ;
+    pol:isSubpartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1 ;
+    pol:text "(b) implemented and supervised by independent authorities under national legislation" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1c a pol:ArticlePart ;
+    pol:isSubpartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1 ;
+    pol:text "the energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the member state concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1d a pol:ArticlePart ;
+    pol:isSubpartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1 ;
+    pol:text "for the purpose of guaranteeing the high quality of the energy audits and energy management systems, member states shall establish transparent and non-discriminatory minimum criteria for energy audits based on annex vi" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1e a pol:ArticlePart ;
+    pol:isSubpartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1 ;
+    pol:text "energy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part2a a pol:ArticlePart ;
+    pol:isSubpartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part2 ;
+    pol:text "on condition that the customer does not object" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part2b a pol:ArticlePart ;
+    pol:isSubpartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part2 ;
+    pol:text "on condition that the customer does not object" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part3 a pol:ArticlePart ;
+    pol:isPartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 ;
+    pol:text "member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part4 a pol:ArticlePart ;
+    pol:isPartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 ;
+    pol:text "member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part5 a pol:ArticlePart ;
+    pol:isPartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 ;
+    pol:text "member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part6 a pol:ArticlePart ;
+    pol:isPartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 ;
+    pol:text "member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part7 a pol:ArticlePart ;
+    pol:isPartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 ;
+    pol:text "member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part8 a pol:ArticlePart ;
+    pol:isPartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 ;
+    pol:text "member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part9 a pol:ArticlePart ;
+    pol:isPartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 ;
+    pol:text "member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part2 a pol:ArticlePart ;
+    pol:isPartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 ;
+    pol:text "member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Part1 a pol:ArticlePart ;
+    pol:isPartOf pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 ;
+    pol:text "member states shall promote the availability to all final customers of high quality energy audits which are cost-effective and:" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 a pol:Article ;
+    pol:annotatedBy "C",
+        "F" ;
+    pol:hasCELEXNumber "32012L0027"^^xsd:string ;
+    pol:hasELI <http://data.europa.eu/eli/dir/2012/27/oj> .
+

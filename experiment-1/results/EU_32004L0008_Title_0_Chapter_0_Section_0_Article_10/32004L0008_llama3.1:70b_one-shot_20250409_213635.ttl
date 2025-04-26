@@ -1,0 +1,42 @@
+@prefix celex: <http://publications.europa.eu/resource/celex/> .
+@prefix eurlex: <http://eur-lex.europa.eu/resource.html?uri=CELEX:> .
+@prefix eli: <http://data.europa.eu/eli/dir/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+<http://publications.europa.eu/resource/celex/32004L0008>
+  a <http://purl.org/vocab/frbr/core#Work> ;
+  dc:title "Directive on the promotion of cogeneration based on a useful heat demand in the internal energy market"@en .
+
+eurlex:32004L0008 eurlex:article [
+    a <http://purl.org/vocab/frbr/core#Expression> ;
+    dc:description "Article 10 of Directive 2004/8/EC" ;
+    rdfs:label "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10"@en
+] .
+
+[
+    a <http://purl.org/vocab/frbr/core#Expression> ;
+    dc:description "Article 10 of Directive 2004/8/EC" ;
+    rdfs:label "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10"@en ;
+    poliann:has_Annotator <http://example.org/B> , <http://example.org/C>
+] .
+
+poliann:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a poliann:Policy_Metadata ;
+  dc:title "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10" ;
+  celex:CELEX "32004L0008" ;
+  eli:ELI "http://data.europa.eu/eli/dir/2004/8/oj" .
+
+poliann:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_Time_Compliance_1 a poliann:Time_Compliance ;
+  time:hasBeginning "2006-02-21"^^xsd:date ;
+  rdfs:label "Member States' reporting - Initial report"@en .
+
+poliann:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_Time_Compliance_2 a poliann:Time_Compliance ;
+  time:hasBeginning "2007-02-21"^^xsd:date ;
+  rdfs:label "Member States' reporting - Follow-up report"@en .
+
+poliann:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_Time_Monitoring_1 a poliann:Time_Monitoring ;
+  time:hasBeginning "2004-12-31"^^xsd:date ;
+  rdfs:label "Submission of statistics on cogeneration"@en .
+
+poliann:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_Time_Monitoring_2 a poliann:Time_Monitoring ;
+  time:hasBeginning "2006-02-21"^^xsd:date ;
+  rdfs:label "Publication of report on cogeneration evaluation"@en .

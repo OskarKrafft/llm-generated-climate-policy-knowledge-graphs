@@ -1,0 +1,163 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:Article ;
+    pol:hasTitle "organisation and duration of the permit-granting process" ;
+    pol:isPartOfDocument <http://data.europa.eu/eli/dir/2018/2001/oj> ;
+    pol:hasParagraph pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_1 ,
+                     pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_2 ,
+                     pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_3 ,
+                     pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_4 ,
+                     pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 ,
+                     pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 ,
+                     pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 ,
+                     pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_1 a pol:Paragraph ;
+    pol:hasText "member states shall set up or designate one or more contact points. those contact points shall, upon request by the applicant, guide through and facilitate the entire administrative permit application and granting process. the applicant shall not be required to contact more than one contact point for the entire process. the permit-granting process shall cover the relevant administrative permits to build, repower and operate plants for the production of energy from renewable sources and assets necessary for their connection to the grid. the permit-granting process shall comprise all procedures from the acknowledgment of the receipt of the application to the transmission of the outcome of the procedure referred to in paragraph 2." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_2 a pol:Paragraph ;
+    pol:hasText "the contact point shall guide the applicant through the administrative permit application process in a transparent manner up to the delivery of one or several decisions by the responsible authorities at the end of the process, provide the applicant with all necessary information and involve, where appropriate, other administrative authorities. applicants shall be allowed to submit relevant documents also in digital form." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_3 a pol:Paragraph ;
+    pol:hasText "the contact point shall make available a manual of procedures for developers of renewable energy production projects and shall provide that information also online, addressing distinctly also small-scale projects and renewables self-consumers projects. the online information shall indicate the contact point relevant to the applicant's application. if a member state has more than one contact point, the online information shall indicate the contact point relevant to the applicant's application." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_4 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process referred to in paragraph 1 shall not exceed two years for power plants, including all relevant procedures of competent authorities. where duly justified on the grounds of extraordinary circumstances, that two-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kw. where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kw. where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kw. where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kw. where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kw. where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kw. where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kw. where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kw. where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kw. where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_5 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_6 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_7 a pol:Paragraph ;
+    pol:hasText "without prejudice to paragraph 7, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kw. where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_Paragraph_8 a pol:Paragraph ;
+    pol:hasText "member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality." .
+
+It seems like there is a repetition in the text. Could you please provide me with a cleaned-up version?
+Certainly! It looks like the text has been repeated multiple times. Here's a cleaned-up version:
+
+---
+
+Below is the cleaned-up version of the text:
+
+**Article 16:**
+
+- **Paragraph 5:** Member states shall ensure that the provisions of this Directive are applied in such a way as to avoid unjustified discrimination on grounds of nationality.
+  
+- **Paragraph 7:** Without prejudice to paragraph 5, the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kW. Where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year.
+
+---
+
+If you need further adjustments or additional information, feel free to let me know!

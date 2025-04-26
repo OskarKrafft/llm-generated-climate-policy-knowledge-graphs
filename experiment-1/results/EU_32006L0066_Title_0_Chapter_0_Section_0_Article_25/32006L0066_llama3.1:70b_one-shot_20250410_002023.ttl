@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix poli: <http://www.polifonia-project.eu/ontology/> .
+
+<http://data.europa.eu/eli/dir/2006/66/oj> dc:title "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25" ;
+    dc:description """
+        article 25
+        penalties
+        member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member states shall notify those measures to the commission by 26 september 2008 and shall inform it without delay of any subsequent amendment to them.
+    """ ;
+    poli:has_Article <http://data.europa.eu/eli/dir/2006/66/oj/article_25> .
+
+<http://data.europa.eu/eli/dir/2006/66/oj/article_25> a poli:Article ;
+    dc:title "article 25" ;
+    poli:number 25 ;
+    poli:text """
+        penalties
+        member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member states shall notify those measures to the commission by 26 september 2008 and shall inform it without delay of any subsequent amendment to them.
+    """ ;
+    poli:has_TimeCompliance <http://data.europa.eu/eli/dir/2006/66/oj/article_25_TimeCompliance> .
+
+<http://data.europa.eu/eli/dir/2006/66/oj/article_25_TimeCompliance> a poli:Time_Compliance ;
+    poli:compliance_date "2008-09-26"^^xsd:date ;
+    poli:annotatedText "by 26 september 2008" .
+
+<http://data.europa.eu/eli/dir/2006/66/oj/article_25_Annotation> a poli:Annotation ;
+    dc:description """EU policy metadata:
+    {
+        \"Titel\": \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\",
+        \"CELEX_Number\": \"32006L0066\",
+        \"ELI\": \"http://data.europa.eu/eli/dir/2006/66/oj\"
+    }""" ;
+    poli:annotatedEntity <http://data.europa.eu/eli/dir/2006/66/oj/article_25> .

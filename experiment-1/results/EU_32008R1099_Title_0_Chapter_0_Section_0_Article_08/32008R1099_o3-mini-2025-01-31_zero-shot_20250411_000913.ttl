@@ -1,0 +1,20 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://example.org/> .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;
+    rdfs:label "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08" ;
+    rdfs:comment "article 8 annual nuclear statistics the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)" ;
+    rdfs:seeAlso <http://data.europa.eu/eli/reg/2008/1099/oj> ;
+    ex:celexNumber "32008R1099" ;
+    ex:annotatedBy ex:A , ex:C .
+
+ex:A a <http://data.europa.eu/eli/ontology#Agent> ;
+    rdfs:label "A" .
+
+ex:C a <http://data.europa.eu/eli/ontology#Agent> ;
+    rdfs:label "C" .

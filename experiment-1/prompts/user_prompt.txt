@@ -1,0 +1,17 @@
+Below is the policy metadata in JSON form:
+{policy_info}
+
+Below is the raw article text:
+{article_text}
+
+Task:
+- Convert this article into valid RDF/Turtle using the POLIANNA ontology. 
+- Follow the naming conventions from the system instructions.
+- Put your complete RDF in a single code fence labeled 'turtle'. 
+- No text outside that fence.
+- End with a period on the last triple.
+- DO NOT include any binary string markers like b'', b''^b', or similar.
+- Make sure the output is clean, with no escape characters or artifacts.
+- Make sure rdflib can parse it.
+
+Begin now.

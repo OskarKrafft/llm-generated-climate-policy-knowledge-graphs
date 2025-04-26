@@ -1,0 +1,24 @@
+@prefix poli: <http://example.org/polia#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.europa.eu/eli/reg/2014/256/oj>
+    a poli:Policy ;
+    dct:title "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03" ;
+    poli:CELEX_Number "32014R0256" ;
+    poli:annotatedBy "C", "F" .
+
+poli:Article3
+    a poli:PolicyArticle ;
+    dct:isPartOf <http://data.europa.eu/eli/reg/2014/256/oj> ;
+    poli:hasProvision [
+        a poli:Provision ;
+        poli:requiresCollectionAndReporting "proportionate"^^xsd:string ;
+        poli:collectionStartDate "2015-01-01"^^xsd:date ;
+        poli:reportingInterval "every two years"^^xsd:string ;
+        poli:notificationDate "by 31 July of the reporting year concerned"^^xsd:string ;
+    ] , [
+        a poli:Provision ;
+        poli:exemptionCondition "already notified to the commission equivalent data or information and indicated the date and specific legal act"^^xsd:string ;
+        poli:exemptionCondition "specific body entrusted with preparation of multi-annual investment plan at union level"^^xsd:string ;
+    ] .
+.

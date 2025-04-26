@@ -1,0 +1,44 @@
+turtle
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix poliannna: <https://w3id.org/poliannna/> .
+
+<https://w3id.org/poliannna/EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10>
+  a poliannna:LegislativeAct ;
+  dc:title "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10" ;
+  skos:notation "32006L0066" ;
+  owl:sameAs <http://data.europa.eu/eli/dir/2006/66/oj> ;
+  poliannna:hasAnnotator "C", "F".
+
+<https://w3id.org/poliannna/EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_Target>
+  a poliannna:Target ;
+  rdfs:label "Collection targets" ;
+  skos:topConceptOf <https://w3id.org/poliannna/EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10> ;
+  poliannna:hasIndicator [
+    a poliannna:Indicator ;
+    rdfs:label "Collection rate" ;
+    skos:notation "25 %" ;
+    skos:changeNote "by 26 September 2012"
+  ], [
+    a poliannna:Indicator ;
+    rdfs:label "Collection rate" ;
+    skos:notation "45 %" ;
+    skos:changeNote "by 26 September 2016"
+  ].
+
+<https://w3id.org/poliannna/EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_Target>
+  poliannna:hasMonitoring [
+    a poliannna:Monitoring ;
+    rdfs:label "Yearly basis" ;
+    skos:notation "according to the scheme set out in Annex I"
+  ].
+
+<https://w3id.org/poliannna/EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_Target>
+  poliannna:hasReporting [
+    a poliannna:Reporting ;
+    rdfs:label "Reports to the Commission" ;
+    skos:notation "within six months of the end of the calendar year concerned"
+  ].

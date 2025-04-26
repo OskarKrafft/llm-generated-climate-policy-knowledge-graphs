@@ -1,0 +1,87 @@
+turtle
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix polianna: <https://w3id.org/poli/ontopolis/> .
+
+<http://example.com/policy/EU_Emissions_Trading_System>
+    rdf:type        polianna:Policy ;
+    rdfs:label      "EU Emissions Trading System" ;
+    owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> .
+
+<http://example.com/article/1_2013_to_31_december_2020_flights_by_non-commercial_aircraft_operators>
+    rdf:type        polianna:Article ;
+    rdfs:label      "Flights by non-commercial aircraft operators from 1 January 2013 to 31 December 2020" ;
+    owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> ;
+    polianna:partOf <http://example.com/policy/EU_Emissions_Trading_System> .
+
+<http://example.com/article/1_2013_to_31_december_2020_flights_by_non-commercial_aircraft_operators>
+    polianna:hasParagraph [
+        rdf:type        polianna:Paragraph ;
+        rdfs:label      "Paragraph 1" ;
+        owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> ;
+        polianna:text   """By way of derogation from Article 3g, aircraft operators shall not be required to submit monitoring plans setting out measures to monitor and report emissions in respect of flights which are subject to the derogations provided for in points (a) and (b) of paragraph 1 of this article.""" .
+    ] .
+
+<http://example.com/article/1_2013_to_31_december_2020_flights_by_non-commercial_aircraft_operators>
+    polianna:hasParagraph [
+        rdf:type        polianna:Paragraph ;
+        rdfs:label      "Paragraph 2" ;
+        owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> ;
+        polianna:text   """For the purposes of this article, flights between aerodromes located in states of the EEA and countries that acceded to the Union in 2013 shall be considered to be flights between aerodromes located in states of the EEA.""" .
+    ] .
+
+<http://example.com/article/1_2013_to_31_december_2020_flights_by_non-commercial_aircraft_operators>
+    polianna:hasParagraph [
+        rdf:type        polianna:Paragraph ;
+        rdfs:label      "Paragraph 3" ;
+        owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> ;
+        polianna:text   """The Commission shall regularly, and at least once a year, inform the European Parliament and the Council of the progress of the international civil aviation organization (ICAO) negotiations as well as of its efforts to promote the international acceptance of market-based mechanisms among third countries.""" .
+    ] .
+
+<http://example.com/article/1_2013_to_31_december_2020_flights_by_non-commercial_aircraft_operators>
+    polianna:hasParagraph [
+        rdf:type        polianna:Paragraph ;
+        rdfs:label      "Paragraph 4" ;
+        owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> ;
+        polianna:text   """Following the 2016 ICAO Assembly, the Commission shall report to the European Parliament and to the Council on actions to implement an international agreement on a global market-based measure from 2020, that will reduce greenhouse gas emissions from aviation in a non-discriminatory manner.""" .
+    ] .
+
+<http://example.com/article/1_2013_to_31_december_2020_flights_by_non-commercial_aircraft_operators>
+    polianna:hasParagraph [
+        rdf:type        polianna:Paragraph ;
+        rdfs:label      "Paragraph 5" ;
+        owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> ;
+        polianna:text   """In its report, the Commission shall consider, and, if appropriate, include proposals in reaction to, those developments on the appropriate scope for coverage of emissions from activity to and from aerodromes located in countries outside the EEA from 1 January 2017 onwards.""" .
+    ] .
+
+<http://example.com/article/1_2013_to_31_december_2020_flights_by_non-commercial_aircraft_operators>
+    polianna:hasParagraph [
+        rdf:type        polianna:Paragraph ;
+        rdfs:label      "Paragraph 6" ;
+        owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> ;
+        polianna:text   """In its report, the Commission shall consider, and, if appropriate, include proposals in reaction to, those developments on the appropriate scope for coverage of emissions from activity to and from aerodromes located in countries outside the EEA from 1 January 2017 onwards.""" .
+    ] .
+
+<http://example.com/article/1_2013_to_31_december_2020_flights_by_non-commercial_aircraft_operators>
+    polianna:hasParagraph [
+        rdf:type        polianna:Paragraph ;
+        rdfs:label      "Paragraph 7" ;
+        owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> ;
+        polianna:text   """In its report, the Commission shall consider, and, if appropriate, include proposals in reaction to, those developments on the appropriate scope for coverage of emissions from activity to and from aerodromes located in countries outside the EEA from 1 January 2017 onwards.""" .
+    ] .
+
+<http://example.com/article/1_2013_to_31_december_2020_flights_by_non-commercial_aircraft_operators>
+    polianna:hasParagraph [
+        rdf:type        polianna:Paragraph ;
+        rdfs:label      "Paragraph 8" ;
+        owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> ;
+        polianna:text   """In its report, the Commission shall consider, and, if appropriate, include proposals in reaction to, those developments on the appropriate scope for coverage of emissions from activity to and from aerodromes located in countries outside the EEA from 1 January 2017 onwards.""" .
+    ] .
+
+<http://example.com/article/annex_I>
+    rdf:type        polianna:Annex ;
+    rdfs:label      "Annex I" ;
+    owl:sameAs      <http://data.europa.eu/eli/reg/2003/87/oj> ;
+    polianna:text   """By way of derogation from Article 3g, aircraft operators shall not be required to submit monitoring plans setting out measures to monitor and report emissions in respect of flights which are subject to the derogations provided for in points (a) and (b) of paragraph 1 of this article.""" ;
+    polianna:partOf <http://example.com/policy/EU_Emissions_Trading_System> .

@@ -1,0 +1,22 @@
+@prefix pol: <http://example.org/pol/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:Policy ;
+    dcterms:title "article 1 subject matter" ;
+    pol:hasCELEXNumber "32018L2001"^^xsd:string ;
+    pol:hasELI "http://data.europa.eu/eli/dir/2018/2001/oj" ;
+    pol:annotatedBy "C", "F", "B" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 pol:establishesFramework [
+        a pol:CommonFramework ;
+        skos:note "this directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 pol:laysDownRules [
+        a pol:LaidDownRules ;
+        skos:note "it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training." .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 pol:establishesSustainabilityCriteria [
+        a pol:SustainabilityCriteria ;
+        skos:note "it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels." .

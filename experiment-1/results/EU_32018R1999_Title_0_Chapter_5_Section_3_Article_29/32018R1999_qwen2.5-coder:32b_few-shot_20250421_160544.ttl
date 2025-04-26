@@ -1,0 +1,66 @@
+@prefix ex: <http://example.org/> .
+@prefix pol: <http://poliaa.org/ontology#> .
+
+ex:Article46 a pol:RegulatoryArticle ;
+    pol:hasSection ex:Section1,
+        ex:Section2,
+        ex:Section3,
+        ex:Section4,
+        ex:Section5,
+        ex:Section6,
+        ex:Section7 ;
+    pol:title "Assessment of the Integrated National Energy and Climate Plans" .
+
+ex:Section1 a pol:RegulatorySection ;
+    pol:describes "The commission shall assess the progress made in various areas based on data provided by member states and other sources." ;
+    pol:hasSubSection ex:SubSection1a,
+        ex:SubSection1b,
+        ex:SubSection1c,
+        ex:SubSection1d,
+        ex:SubSection1e ;
+    pol:sectionNumber "1" .
+
+ex:Section2 a pol:RegulatorySection ;
+    pol:describes "In the area of renewable energy, assess progress made in the share of energy from renewable sources in the union's gross final consumption on the basis of an indicative union trajectory." ;
+    pol:sectionNumber "2" .
+
+ex:Section3 a pol:RegulatorySection ;
+    pol:describes "In the area of energy efficiency, assess progress towards collectively achieving a maximum energy consumption at union level of 1,273 mtoe of primary energy and 956 mtoe of final energy in 2030." ;
+    pol:sectionNumber "3" .
+
+ex:Section4 a pol:RegulatorySection ;
+    pol:describes "In the area of the internal energy market, assess progress made towards the level of electricity interconnectivity that the member state aims for in 2030." ;
+    pol:sectionNumber "4" .
+
+ex:Section5 a pol:RegulatorySection ;
+    pol:describes "Assess whether the union and its member states have made sufficient progress towards meeting commitments under article 4 of the unfccc, obligations set out in regulations (eu) 2018/842 and (eu) 2018/841, and objectives set out in the integrated national energy and climate plan." ;
+    pol:sectionNumber "5" .
+
+ex:Section6 a pol:RegulatorySection ;
+    pol:describes "In its assessment, take into consideration the latest country-specific recommendations issued in the context of the european semester." ;
+    pol:sectionNumber "6" .
+
+ex:Section7 a pol:RegulatorySection ;
+    pol:describes "The commission shall report on its assessment as part of the state of the energy union report referred to in article 35." ;
+    pol:sectionNumber "7" .
+
+ex:SubSection1a a pol:RegulatorySubSection ;
+    pol:describes "Consider whether the union's milestone of no more than 1,483 mtoe of primary energy and no more than 1,086 mtoe of final energy in 2020 is achieved." ;
+    pol:subSectionNumber "1a" .
+
+ex:SubSection1b a pol:RegulatorySubSection ;
+    pol:describes "Assess whether member states' progress indicates that the union as a whole is on track towards the level of energy consumption in 2030, taking into account the assessment of information provided by member states in their integrated national energy and climate progress reports." ;
+    pol:subSectionNumber "1b" .
+
+ex:SubSection1c a pol:RegulatorySubSection ;
+    pol:describes "Use results from modelling exercises in relation to future trends in energy consumption at union level and national level and use other complementary analysis." ;
+    pol:subSectionNumber "1c" .
+
+ex:SubSection1d a pol:RegulatorySubSection ;
+    pol:describes "Take due account of relevant circumstances affecting primary and final energy consumption indicated by the member states in their integrated national energy and climate plans, in accordance with article 6(2)." ;
+    pol:subSectionNumber "1d" .
+
+ex:SubSection1e a pol:RegulatorySubSection ;
+    pol:describes "Assess the overall impact of aviation on the global climate, including through non-co2 emissions or effects, based on the emission data provided by member states pursuant to article 26, and improve that assessment by reference to scientific advancements and air traffic data, as appropriate." ;
+    pol:subSectionNumber "1e" .
+

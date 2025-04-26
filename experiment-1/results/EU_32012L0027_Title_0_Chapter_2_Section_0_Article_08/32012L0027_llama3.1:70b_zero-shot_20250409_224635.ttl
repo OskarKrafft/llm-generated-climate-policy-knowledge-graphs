@@ -1,0 +1,42 @@
+turtle
+@prefix poli: <http://purl.org/olia/politema.owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08>
+  dc:title "EU Directive 2012/27/EU, Article 8"@en ;
+  poli:hasCELEXNumber "32012L0027" ;
+  poli:isAbout <http://example.com/EnergyAudits> ;
+  skos:narrowMatch <http://example.com/SustainableEnergy>, 
+                    <http://example.com/EnvironmentalProtection> ;
+  dc:description """Promoting the availability of high-quality energy audits and encouraging SMEs to undergo energy audits and implement recommendations."""@en .
+
+<http://example.com/EnergyAudits>
+  a poli:PolicyMeasure, skos:Concept ;
+  skos:prefLabel "Energy Audits"@en ;
+  skos:altLabel "Energy Efficiency Measures"@en ;
+  dc:description """Measures aimed at improving energy efficiency through audits and management systems."""@en .
+
+<http://example.com/SustainableEnergy>
+  a poli:PolicyTopic, skos:Concept ;
+  skos:prefLabel "Sustainable Energy"@en ;
+  skos:altLabel "Renewable Energy Sources"@en ;
+  dc:description """Policies promoting the use of renewable energy sources and reducing greenhouse gas emissions."""@en .
+
+<http://example.com/EnvironmentalProtection>
+  a poli:PolicyTopic, skos:Concept ;
+  skos:prefLabel "Environmental Protection"@en ;
+  skos:altLabel "Climate Change Mitigation"@en ;
+  dc:description """Measures aimed at protecting the environment and mitigating climate change."""@en .
+
+<http://example.com/EnergyManagementSystems>
+  a poli:PolicyMeasure, skos:Concept ;
+  skos:prefLabel "Energy Management Systems"@en ;
+  skos:altLabel "EMS"@en ;
+  dc:description """Systems aimed at improving energy efficiency through monitoring and management."""@en .
+
+<http://example.com/Annotators>
+  a poli:Annotation ;
+  skos:notation "C", "F" .

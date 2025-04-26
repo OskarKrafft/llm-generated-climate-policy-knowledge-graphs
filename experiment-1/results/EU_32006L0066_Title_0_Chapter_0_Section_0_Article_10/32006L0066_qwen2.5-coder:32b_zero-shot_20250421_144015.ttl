@@ -1,0 +1,32 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10 a pol:Article ;
+    pol:hasContent "Member States shall calculate the collection rate for the first time in respect of the fifth full calendar year following the entry into force of this directive. Without prejudice to Directive 2002/96/EC, annual collection and sales figures shall include batteries and accumulators incorporated into appliances. Member States shall achieve the following minimum collection rates: (a) 25 % by 26 September 2012; (b) 45 % by 26 September 2016. Member States shall monitor collection rates on a yearly basis according to the scheme set out in Annex I. Without prejudice to Regulation (EC) No 2150/2002 of the European Parliament and of the Council of 25 November 2002 on waste statistics, Member States shall transmit reports to the Commission within six months of the end of the calendar year concerned. Reports shall indicate how they obtained the data necessary to calculate the collection rate. In accordance with the procedure referred to in Article 24(2): (a) transitional arrangements may be laid down to address difficulties faced by a Member State in satisfying the requirements of paragraph 2 as a result of specific national circumstances; (b) a common methodology shall be established for the calculation of annual sales of portable batteries and accumulators to end-users by 26 September 2007." ;
+    pol:hasProvision [ a pol:Provision ;
+            pol:hasException "Without prejudice to Directive 2002/96/EC, annual collection and sales figures shall include batteries and accumulators incorporated into appliances." ;
+            pol:hasRequirement "Member States shall calculate the collection rate for the first time in respect of the fifth full calendar year following the entry into force of this directive." ],
+        [ a pol:Provision ;
+            pol:hasRequirement "Member States shall achieve the following minimum collection rates:" ;
+            pol:hasSubProvision [ a pol:SubProvision ;
+                    pol:hasDeadline "2012-09-26"^^xsd:date ;
+                    pol:hasTargetValue "25%"^^xsd:string ],
+                [ a pol:SubProvision ;
+                    pol:hasDeadline "2016-09-26"^^xsd:date ;
+                    pol:hasTargetValue "45%"^^xsd:string ] ],
+        [ a pol:Provision ;
+            pol:hasRequirement "Member States shall monitor collection rates on a yearly basis according to the scheme set out in Annex I." ;
+            pol:hasSubProvision [ a pol:SubProvision ;
+                    pol:hasRequirement "Without prejudice to Regulation (EC) No 2150/2002 of the European Parliament and of the Council of 25 November 2002 on waste statistics, Member States shall transmit reports to the Commission within six months of the end of the calendar year concerned." ;
+                    pol:hasSubProvision [ a pol:SubProvision ;
+                            pol:hasRequirement "Reports shall indicate how they obtained the data necessary to calculate the collection rate." ] ] ],
+        [ a pol:Provision ;
+            pol:hasRequirement "In accordance with the procedure referred to in Article 24(2):" ;
+            pol:hasSubProvision [ a pol:SubProvision ;
+                    pol:hasDeadline "2007-09-26"^^xsd:date ;
+                    pol:hasRequirement "a common methodology shall be established for the calculation of annual sales of portable batteries and accumulators to end-users by 26 September 2007." ],
+                [ a pol:SubProvision ;
+                    pol:hasRequirement "transitional arrangements may be laid down to address difficulties faced by a Member State in satisfying the requirements of paragraph 2 as a result of specific national circumstances;" ] ] ;
+    pol:hasTitle "collection targets" ;
+    pol:isPartOf <http://data.europa.eu/eli/dir/2006/66/oj> .
+

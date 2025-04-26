@@ -1,0 +1,25 @@
+{
+  "is_valid": false,
+  "graph": null,
+  "error": "at line 1 of <>:\nBad syntax (expected directive or statement) at ^ in:\n\"b''^b'turtle\\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08'...\"",
+  "extracted_content": "turtle\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a poliannadata:Policy .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:title \"article\u00a08 Annual Nuclear Statistics\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:celexNumber \"32008R1099\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:description \"\"\"\nThe Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\nThe set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article\u00a011(2).\n\"\"\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:date \"2008-10-22\"^^xsd:date .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:country \"EU\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:identifier \"http://data.europa.eu/eli/reg/2008/1099/oj\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:source \"Official Journal of the European Union, L 311, 21 November 2008, p. 1\u201355\" .\n\n.",
+  "original_output": "```\nturtle\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a poliannadata:Policy .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:title \"article\u00a08 Annual Nuclear Statistics\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:celexNumber \"32008R1099\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:description \"\"\"\nThe Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\nThe set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article\u00a011(2).\n\"\"\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:date \"2008-10-22\"^^xsd:date .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:country \"EU\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:identifier \"http://data.europa.eu/eli/reg/2008/1099/oj\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:source \"Official Journal of the European Union, L 311, 21 November 2008, p. 1\u201355\" .\n\n.\n```",
+  "generation_time": 46.750412940979004,
+  "success": false,
+  "output": "```\nturtle\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a poliannadata:Policy .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:title \"article\u00a08 Annual Nuclear Statistics\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:celexNumber \"32008R1099\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:description \"\"\"\nThe Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\nThe set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article\u00a011(2).\n\"\"\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:date \"2008-10-22\"^^xsd:date .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:country \"EU\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:identifier \"http://data.europa.eu/eli/reg/2008/1099/oj\" .\n:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:source \"Official Journal of the European Union, L 311, 21 November 2008, p. 1\u201355\" .\n\n.\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+      "CELEX_Number": "32008R1099",
+      "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "llama3.1:70b",
+    "timestamp": "2025-04-09T23:24:20.593752"
+  }
+}

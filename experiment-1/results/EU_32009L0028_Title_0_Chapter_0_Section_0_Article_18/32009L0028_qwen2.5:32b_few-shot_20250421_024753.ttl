@@ -1,0 +1,50 @@
+@prefix pol: <http://example.org/pollanian#> .
+
+<http://example.org/clauses/Article_6.1> a pol:Clause ;
+    pol:isPartOf <http://example.org/regulations/Article_6> ;
+    pol:text "The Community shall endeavour to conclude bilateral or multilateral agreements with third countries containing provisions on sustainability criteria that correspond to those of this Directive." .
+
+<http://example.org/clauses/Article_6.2> a pol:Clause ;
+    pol:isPartOf <http://example.org/regulations/Article_6> ;
+    pol:text "The Commission may decide that voluntary national or international schemes setting standards for the production of biomass products contain accurate data for the purposes of Article 17(2) or demonstrate that consignments of biofuel comply with the sustainability criteria set out in Article 17(3) to (5)." .
+
+<http://example.org/clauses/Article_6.3> a pol:Clause ;
+    pol:isPartOf <http://example.org/regulations/Article_6> ;
+    pol:text "The Commission may also recognise areas for the protection of rare, threatened or endangered ecosystems or species recognised by international agreements or included in lists drawn up by intergovernmental organisations or the International Union for Conservation of Nature for the purposes of Article 17(3)(b)(ii)." .
+
+<http://example.org/clauses/Article_6.4> a pol:Clause ;
+    pol:isPartOf <http://example.org/regulations/Article_6> ;
+    pol:text "The Commission may decide that voluntary national or international schemes to measure greenhouse gas emission saving contain accurate data for the purposes of Article 17(2)." .
+
+<http://example.org/clauses/Article_6.5> a pol:Clause ;
+    pol:isPartOf <http://example.org/regulations/Article_6> ;
+    pol:text "The Commission may decide that land that falls within the scope of a national or regional recovery programme aimed at improving severely degraded or heavily contaminated land fulfils the criteria referred to in point 9 of part C of Annex V." .
+
+<http://example.org/clauses/Article_6.6> a pol:Clause ;
+    pol:isPartOf <http://example.org/regulations/Article_6> ;
+    pol:text "The Commission shall adopt decisions under paragraph 4 only if the agreement or scheme in question meets adequate standards of reliability, transparency and independent auditing." .
+
+<http://example.org/clauses/Article_6.7> a pol:Clause ;
+    pol:isPartOf <http://example.org/regulations/Article_6> ;
+    pol:text "Decisions under paragraph 4 shall be adopted in accordance with the advisory procedure referred to in Article 25(3). Such decisions shall be valid for a period of no more than five years." .
+
+<http://example.org/clauses/Article_6.8> a pol:Clause ;
+    pol:isPartOf <http://example.org/regulations/Article_6> ;
+    pol:text "When an economic operator provides proof or data obtained in accordance with an agreement or scheme that has been the subject of a decision pursuant to paragraph 4, to the extent covered by that decision, a Member State shall not require the supplier to provide further evidence of compliance with the sustainability criteria set out in Article 17(2) to (5) nor information on measures referred to in the second subparagraph of paragraph 3 of this article." .
+
+<http://example.org/clauses/Article_6.9> a pol:Clause ;
+    pol:isPartOf <http://example.org/regulations/Article_6> ;
+    pol:text "By 31 December 2012, the Commission shall report to the European Parliament and to the Council on (a) the effectiveness of the system in place for the provision of information on sustainability criteria; and (b) whether it is feasible and appropriate to introduce mandatory requirements in relation to air, soil or water protection." .
+
+<http://example.org/regulations/Article_6> a pol:Regulation ;
+    pol:containsClause <http://example.org/clauses/Article_6.1>,
+        <http://example.org/clauses/Article_6.2>,
+        <http://example.org/clauses/Article_6.3>,
+        <http://example.org/clauses/Article_6.4>,
+        <http://example.org/clauses/Article_6.5>,
+        <http://example.org/clauses/Article_6.6>,
+        <http://example.org/clauses/Article_6.7>,
+        <http://example.org/clauses/Article_6.8>,
+        <http://example.org/clauses/Article_6.9> ;
+    pol:hasTitle "Article 6" .
+

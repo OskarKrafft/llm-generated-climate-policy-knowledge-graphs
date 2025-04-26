@@ -1,0 +1,64 @@
+@prefix pol: <https://w3id.org/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/regulation/EU2018_1999_article_26_paragraph_1> a pol:RegulatoryParagraph ;
+    pol:hasTitle "paragraph 1"^^xsd:string ;
+    pol:isPartOf <https://example.org/regulation/EU2018_1999_article_26> ;
+    pol:requiresReportingOn <http://www.w3id.org/pol#AnnexIXDirective2013_30_EU>,
+        <http://www.w3id.org/pol#Article6Directive2009_119_EC> ;
+    pol:requiresReportingTo <https://ec.europa.eu/commission> .
+
+<https://example.org/regulation/EU2018_1999_article_26_paragraph_2> a pol:RegulatoryParagraph ;
+    pol:hasTitle "paragraph 2"^^xsd:string ;
+    pol:isPartOf <https://example.org/regulation/EU2018_1999_article_26> ;
+    pol:requiresReportingOn <http://www.w3id.org/pol#ApproximatedGHGInventories> ;
+    pol:requiresReportingTo <https://ec.europa.eu/commission> .
+
+<https://example.org/regulation/EU2018_1999_article_26_paragraph_3> a pol:RegulatoryParagraph ;
+    pol:hasTitle "paragraph 3"^^xsd:string ;
+    pol:isPartOf <https://example.org/regulation/EU2018_1999_article_26> ;
+    pol:requiresReportingOn <http://www.w3id.org/pol#FinalGHGInventoryData>,
+        <http://www.w3id.org/pol#PreliminaryData> ;
+    pol:requiresReportingTo <https://ec.europa.eu/commission> .
+
+<https://example.org/regulation/EU2018_1999_article_26_paragraph_4> a pol:RegulatoryParagraph ;
+    pol:hasTitle "paragraph 4"^^xsd:string ;
+    pol:isPartOf <https://example.org/regulation/EU2018_1999_article_26> ;
+    pol:requiresReportingOn <http://www.w3id.org/pol#FinalGHGInventoryData> ;
+    pol:requiresReportingTo <http://unfccc.int/unfccc>,
+        <https://ec.europa.eu/commission> .
+
+<https://example.org/regulation/EU2018_1999_article_26_paragraph_5> a pol:RegulatoryParagraph ;
+    pol:hasTitle "paragraph 5"^^xsd:string ;
+    pol:isPartOf <https://example.org/regulation/EU2018_1999_article_26> ;
+    pol:requiresReportingOn <http://www.w3id.org/pol#LULUCFAccounts> ;
+    pol:requiresReportingTo <https://ec.europa.eu/commission> .
+
+<https://example.org/regulation/EU2018_1999_article_26_paragraph_6> a pol:RegulatoryParagraph ;
+    pol:empowersDelegatedActs <http://www.w3id.org/pol#GlobalWarmingPotentials>,
+        <http://www.w3id.org/pol#InventoryGuidelines> ;
+    pol:hasTitle "paragraph 6"^^xsd:string ;
+    pol:isPartOf <https://example.org/regulation/EU2018_1999_article_26> .
+
+<https://example.org/regulation/EU2018_1999_article_26_paragraph_7_subparagraph_1> a pol:RegulatorySubParagraph ;
+    pol:hasTitle "subparagraph 1"^^xsd:string ;
+    pol:isPartOf <https://example.org/regulation/EU2018_1999_article_26_paragraph_7> .
+
+<https://example.org/regulation/EU2018_1999_article_26_paragraph_7_subparagraph_2> a pol:RegulatorySubParagraph ;
+    pol:hasTitle "subparagraph 2"^^xsd:string ;
+    pol:isPartOf <https://example.org/regulation/EU2018_1999_article_26_paragraph_7> .
+
+<https://example.org/regulation/EU2018_1999_article_26_paragraph_7> a pol:RegulatoryParagraph ;
+    pol:empowersDelegatedActs <http://www.w3id.org/pol#ApproximatedGHGInventories>,
+        <http://www.w3id.org/pol#FinalGHGInventoryData> ;
+    pol:hasTitle "paragraph 7"^^xsd:string ;
+    pol:isPartOf <https://example.org/regulation/EU2018_1999_article_26> ;
+    pol:requiresReportingTo <http://www.w3id.org/pol#ClimateChangeCommittee> .
+
+<https://example.org/regulation/EU2018_1999_article_26> a pol:RegulatoryArticle,
+        pol:ReportingObligation ;
+    pol:annotatedBy <https://example.org/annotators/A>,
+        <https://example.org/annotators/C> ;
+    pol:hasTitle "article 26"^^xsd:string ;
+    pol:isPartOf <https://example.org/regulation/EU2018_1999> .
+

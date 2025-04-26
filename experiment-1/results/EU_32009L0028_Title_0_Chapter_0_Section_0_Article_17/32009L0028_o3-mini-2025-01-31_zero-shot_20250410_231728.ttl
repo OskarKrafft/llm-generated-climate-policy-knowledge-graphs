@@ -1,0 +1,69 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17 a pol:PolicyArticle ;
+    rdfs:label "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17" ;
+    pol:CELEX_Number "32009L0028" ;
+    pol:ELI <http://data.europa.eu/eli/dir/2009/28/oj> ;
+    pol:Annotator "A", "B" ;
+    rdfs:comment "article 17
+sustainability criteria for biofuels and bioliquids
+1.   irrespective of whether the raw materials were cultivated inside or outside the territory of the community, energy from biofuels and bioliquids shall be taken into account for the purposes referred to in points (a), (b) and (c) only if they fulfil the sustainability criteria set out in paragraphs 2 to 6:
+(a)
+measuring compliance with the requirements of this directive concerning national targets;
+(b)
+measuring compliance with renewable energy obligations;
+(c)
+eligibility for financial support for the consumption of biofuels and bioliquids.
+however, biofuels and bioliquids produced from waste and residues, other than agricultural, aquaculture, fisheries and forestry residues, need only fulfil the sustainability criteria set out in paragraph 2 in order to be taken into account for the purposes referred to in points (a), (b) and (c).
+2.   the greenhouse gas emission saving from the use of biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall be at least 35 %.
+with effect from 1 january 2017, the greenhouse gas emission saving from the use of biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall be at least 50 %. from 1 january 2018 that greenhouse gas emission saving shall be at least 60 % for biofuels and bioliquids produced in installations in which production started on or after 1 january 2017.
+the greenhouse gas emission saving from the use of biofuels and bioliquids shall be calculated in accordance with article 19(1).
+in the case of biofuels and bioliquids produced by installations that were in operation on 23 january 2008, the first subparagraph shall apply from 1 april 2013.
+3.   biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall not be made from raw material obtained from land with high biodiversity value, namely land that had one of the following statuses in or after january 2008, whether or not the land continues to have that status:
+(a)
+primary forest and other wooded land, namely forest and other wooded land of native species, where there is no clearly visible indication of human activity and the ecological processes are not significantly disturbed;
+(b)
+areas designated:
+(i)
+by law or by the relevant competent authority for nature protection purposes; or
+(ii)
+for the protection of rare, threatened or endangered ecosystems or species recognised by international agreements or included in lists drawn up by intergovernmental organisations or the international union for the conservation of nature, subject to their recognition in accordance with the second subparagraph of article 18(4);
+unless evidence is provided that the production of that raw material did not interfere with those nature protection purposes;
+(c)
+highly biodiverse grassland that is:
+(i)
+natural, namely grassland that would remain grassland in the absence of human intervention and which maintains the natural species composition and ecological characteristics and processes; or
+(ii)
+non-natural, namely grassland that would cease to be grassland in the absence of human intervention and which is species-rich and not degraded, unless evidence is provided that the harvesting of the raw material is necessary to preserve its grassland status.
+the commission shall establish the criteria and geographic ranges to determine which grassland shall be covered by point (c) of the first subparagraph. those measures, designed to amend non-essential elements of this directive, by supplementing it shall be adopted in accordance with the regulatory procedure with scrutiny referred to in article 25(4).
+4.   biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall not be made from raw material obtained from land with high carbon stock, namely land that had one of the following statuses in january 2008 and no longer has that status:
+(a)
+wetlands, namely land that is covered with or saturated by water permanently or for a significant part of the year;
+(b)
+continuously forested areas, namely land spanning more than one hectare with trees higher than five metres and a canopy cover of more than 30 %, or trees able to reach those thresholds in situ;
+(c)
+land spanning more than one hectare with trees higher than five metres and a canopy cover of between 10 % and 30 %, or trees able to reach those thresholds in situ, unless evidence is provided that the carbon stock of the area before and after conversion is such that, when the methodology laid down in part c of annex v is applied, the conditions laid down in paragraph 2 of this article would be fulfilled.
+the provisions of this paragraph shall not apply if, at the time the raw material was obtained, the land had the same status as it had in january 2008.
+5.   biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall not be made from raw material obtained from land that was peatland in january 2008, unless evidence is provided that the cultivation and harvesting of that raw material does not involve drainage of previously undrained soil.
+6.   agricultural raw materials cultivated in the community and used for the production of biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall be obtained in accordance with the requirements and standards under the provisions referred to under the heading ‘environment’ in part a and in point 9 of annex ii to council regulation (ec) no 73/2009 of 19 january 2009 establishing common rules for direct support schemes for farmers under the common agricultural policy and establishing certain support schemes for farmers (22) and in accordance with the minimum requirements for good agricultural and environmental condition defined pursuant to article 6(1) of that regulation.
+7.   the commission shall, every two years, report to the european parliament and the council, in respect of both third countries and member states that are a significant source of biofuels or of raw material for biofuels consumed within the community, on national measures taken to respect the sustainability criteria set out in paragraphs 2 to 5 and for soil, water and air protection. the first report shall be submitted in 2012.
+the commission shall, every two years, report to the european parliament and the council on the impact on social sustainability in the community and in third countries of increased demand for biofuel, on the impact of community biofuel policy on the availability of foodstuffs at affordable prices, in particular for people living in developing countries, and wider development issues. reports shall address the respect of land-use rights. they shall state, both for third countries and member states that are a significant source of raw material for biofuel consumed within the community, whether the country has ratified and implemented each of the following conventions of the international labour organisation:
+— convention concerning forced or compulsory labour (no 29),
+— convention concerning freedom of association and protection of the right to organise (no 87),
+— convention concerning the application of the principles of the right to organise and to bargain collectively (no 98),
+— convention concerning equal remuneration of men and women workers for work of equal value (no 100),
+— convention concerning the abolition of forced labour (no 105),
+— convention concerning discrimination in respect of employment and occupation (no 111),
+— convention concerning minimum age for admission to employment (no 138),
+— convention concerning the prohibition and immediate action for the elimination of the worst forms of child labour (no 182).
+those reports shall state, both for third countries and member states that are a significant source of raw material for biofuel consumed within the community, whether the country has ratified and implemented:
+— the cartagena protocol on biosafety,
+— the convention on international trade in endangered species of wild fauna and flora.
+the first report shall be submitted in 2012. the commission shall, if appropriate, propose corrective action, in particular if evidence shows that biofuel production has a significant impact on food prices.
+8.   for the purposes referred to in points (a), (b) and (c) of paragraph 1, member states shall not refuse to take into account, on other sustainability grounds, biofuels and bioliquids obtained in compliance with this article.
+9.   the commission shall report on requirements for a sustainability scheme for energy uses of biomass, other than biofuels and bioliquids, by 31 december 2009. that report shall be accompanied, where appropriate, by proposals for a sustainability scheme for other energy uses of biomass, to the european parliament and the council. that report and any proposals contained therein shall be based on the best available scientific evidence, taking into account new developments in innovative processes. if the analysis done for that purpose demonstrates that it would be appropriate to introduce amendments, in relation to forest biomass, in the calculation methodology in annex v or in the sustainability criteria relating to carbon stocks applied to biofuels and bioliquids, the commission shall, where appropriate, make proposals to the european parliament and council at the same time in this regard." .

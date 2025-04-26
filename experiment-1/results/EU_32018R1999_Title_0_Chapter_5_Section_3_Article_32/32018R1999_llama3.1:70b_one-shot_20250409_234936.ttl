@@ -1,0 +1,73 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix polinanna: <https://w3id.org/polinanna/> .
+
+<> a polinanna:Document ;
+    dc:title "EU Renewable Energy Directive" ;
+    dc:description "Directive on the promotion of the use of energy from renewable sources" ;
+    dc:date "2021-01-01"^^xsd:date .
+
+(polianne:Article rdf:id="article_1")
+    skos:prefLabel "Article 1" ;
+    skos:definition "General provisions"@en ;
+    rdfs:label " Article 1. General provisions."@en .
+
+(polianne:Paragraph rdf:id="paragraph_1_1")
+    polinanna:belongsTo (polianne:Article rdf:id="article_1") ;
+    skos:prefLabel "Paragraph 1" ;
+    skos:definition "Baseline share of energy from renewable sources"@en ;
+    rdfs:label " 1. From 1 January 2021 onwards, the share of energy from renewable sources in each Member State's gross final consumption of energy shall not be lower than a baseline share that is equal to its mandatory national overall target for the share of energy from renewable sources in 2020 set out in Article 3(4) of Directive (EU) 2018/2001."@en .
+
+(polianne:Paragraph rdf:id="paragraph_1_2")
+    polinanna:belongsTo (polianne:Article rdf:id="article_1") ;
+    skos:prefLabel "Paragraph 2" ;
+    skos:definition "Measures to cover gap"@en ;
+    rdfs:label " 2. If a Member State does not maintain its baseline share as measured over a one-year period, the Member State concerned shall take, within one year, additional measures such as those set out in points (a) to (e) of the first subparagraph of paragraph 3 sufficient to cover the gap within one year."@en .
+
+(polianne:Article rdf:id="article_2")
+    skos:prefLabel "Article 2" ;
+    skos:definition "Union renewable energy financing mechanism"@en ;
+    rdfs:label " Article 2. Union renewable energy financing mechanism."@en .
+
+(polianne:Paragraph rdf:id="paragraph_2_1")
+    polinanna:belongsTo (polianne:Article rdf:id="article_2") ;
+    skos:prefLabel "Paragraph 1" ;
+    skos:definition "Establishment of the mechanism"@en ;
+    rdfs:label " 1. The Commission shall establish a Union renewable energy financing mechanism to support the development and deployment of renewable energy projects in the Member States."@en .
+
+(polianne:Article rdf:id="article_3")
+    skos:prefLabel "Article 3" ;
+    skos:definition "National reference points"@en ;
+    rdfs:label " Article 3. National reference points."@en .
+
+(polianne:Paragraph rdf:id="paragraph_3_1")
+    polinanna:belongsTo (polianne:Article rdf:id="article_3") ;
+    skos:prefLabel "Paragraph 1" ;
+    skos:definition "National reference points for renewable energy"@en ;
+    rdfs:label " 1. Each Member State shall set national reference points for the share of energy from renewable sources in its gross final consumption of energy, broken down by sector."@en .
+
+(polianne:Article rdf:id="article_4")
+    skos:prefLabel "Article 4" ;
+    skos:definition "Cooperation mechanisms"@en ;
+    rdfs:label " Article 4. Cooperation mechanisms."@en .
+
+(polianne:Paragraph rdf:id="paragraph_4_1")
+    polinanna:belongsTo (polianne:Article rdf:id="article_4") ;
+    skos:prefLabel "Paragraph 1" ;
+    skos:definition "Cooperation between Member States"@en ;
+    rdfs:label " 1. Member States may cooperate with each other to achieve their national targets for the share of energy from renewable sources in their gross final consumption of energy."@en .
+
+(polianne:Article rdf:id="article_5")
+    skos:prefLabel "Article 5" ;
+    skos:definition "Monitoring and reporting"@en ;
+    rdfs:label " Article 5. Monitoring and reporting."@en .
+
+(polianne:Paragraph rdf:id="paragraph_5_1")
+    polinanna:belongsTo (polianne:Article rdf:id="article_5") ;
+    skos:prefLabel "Paragraph 1" ;
+    skos:definition "Monitoring of progress"@en ;
+    rdfs:label " 1. The Commission shall monitor the progress made by each Member State towards achieving its national targets for the share of energy from renewable sources in its gross final consumption of energy."@en .

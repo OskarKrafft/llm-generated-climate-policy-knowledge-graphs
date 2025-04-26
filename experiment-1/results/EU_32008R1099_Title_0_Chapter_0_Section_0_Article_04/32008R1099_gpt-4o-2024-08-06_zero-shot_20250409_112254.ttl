@@ -1,0 +1,20 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> a pol:PolicyArticle ;
+    pol:annotatedText "aggregates, energy products and the transmission frequency of national statistics" ;
+    pol:contains_instrument <http://eurovoc.europa.eu/5237> ;
+    pol:specifies_compliance_time [
+        a pol:Time_Compliance ;
+        pol:Compliance_date "2008-12-31"^^xsd:date
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2008-12-31"^^xsd:date
+    ] ;
+    pol:addresses <http://eurovoc.europa.eu/2198> ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:hasArticle <https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> ;
+    pol:annotatedText "the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d." ;
+    pol:annotatedText "applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology)." ;
+    pol:annotatedText "the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)." .

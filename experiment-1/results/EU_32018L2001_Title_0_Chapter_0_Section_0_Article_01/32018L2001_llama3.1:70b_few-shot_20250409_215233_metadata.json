@@ -1,0 +1,26 @@
+{
+  "is_valid": false,
+  "graph": null,
+  "error": "at line 1 of <>:\nBad syntax (Prefix \"pol:\" not bound) at ^ in:\n\"b''^b'pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a p'...\"",
+  "extracted_content": "pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:Policy ;\n    rdfs:label \"Energy from renewable sources\" .\n\npol:EU_32018L2001 a pol:Document ;\n    dc:title \"Directive 2018/2001/EU\" ;\n    skos:notation \"32018L2001\" ;\n    foaf:primaryTopic pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a owl:NamedIndividual, pol:Article ;\n    dc:description \"Establishing a common framework for the promotion of energy from renewable sources\" .",
+  "original_output": "```turtle\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:Policy ;\n    rdfs:label \"Energy from renewable sources\" .\n\npol:EU_32018L2001 a pol:Document ;\n    dc:title \"Directive 2018/2001/EU\" ;\n    skos:notation \"32018L2001\" ;\n    foaf:primaryTopic pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a owl:NamedIndividual, pol:Article ;\n    dc:description \"Establishing a common framework for the promotion of energy from renewable sources\" .\n```",
+  "generation_time": 23.151565074920654,
+  "success": false,
+  "output": "```turtle\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:Policy ;\n    rdfs:label \"Energy from renewable sources\" .\n\npol:EU_32018L2001 a pol:Document ;\n    dc:title \"Directive 2018/2001/EU\" ;\n    skos:notation \"32018L2001\" ;\n    foaf:primaryTopic pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a owl:NamedIndividual, pol:Article ;\n    dc:description \"Establishing a common framework for the promotion of energy from renewable sources\" .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01",
+      "CELEX_Number": "32018L2001",
+      "ELI": "http://data.europa.eu/eli/dir/2018/2001/oj",
+      "Annotators": [
+        "C",
+        "F",
+        "B"
+      ]
+    },
+    "prompt_strategy": "few-shot",
+    "output_format": "ttl",
+    "model": "llama3.1:70b",
+    "timestamp": "2025-04-09T21:52:33.714662"
+  }
+}

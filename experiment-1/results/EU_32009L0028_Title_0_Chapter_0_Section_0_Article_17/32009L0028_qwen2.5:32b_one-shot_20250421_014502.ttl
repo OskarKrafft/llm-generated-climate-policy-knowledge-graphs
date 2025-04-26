@@ -1,0 +1,33 @@
+@prefix pol: <http://example.org/pollution#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+pol:CouncilRegulation73_2009 a pol:Regulation ;
+    pol:title "Council Regulation (EC) No 73/2009" ;
+    pol:date "2009-01-19"^^xsd:date .
+
+pol:SustainabilityCriteria a pol:Policy ;
+    pol:requires pol:GoodAgriculturalPractices ;
+    pol:hasRequirement pol:CouncilRegulation73_2009 ;
+    pol:hasCriterion pol:CarbonFootprintReduction ;
+    pol:hasCriterion pol:NoDrainageOfUndrainedSoil ;
+    pol:hasCriterion pol:AgriculturalRawMaterialsSustainability ;
+    pol:hasCriterion pol:SocialSustainabilityImpactReport .
+
+pol:GoodAgriculturalPractices a pol:Requirement ;
+    pol:title "Minimum Requirements for Good Agricultural and Environmental Condition" .
+
+pol:CarbonFootprintReduction a pol:SustainabilityCriterion ;
+    pol:title "Reduce Carbon Footprint by 35%" .
+
+pol:AgriculturalRawMaterialsSustainability a pol:SustainabilityCriterion ;
+    pol:title "Agricultural Raw Materials Cultivated in Compliance with Community Standards" .
+
+pol:NoDrainageOfUndrainedSoil a pol:SustainabilityCriterion ;
+    pol:title "Cultivation and Harvesting Without Drainage of Previously Undrained Soil" .
+
+pol:SocialSustainabilityImpactReport a pol:Requirement ;
+    pol:title "Biennial Report on Social Sustainability Impact of Increased Biofuel Demand" .
+
+pol:CouncilRegulation73_2009 pol:establishes pol:SustainabilityCriteria .
+
+.

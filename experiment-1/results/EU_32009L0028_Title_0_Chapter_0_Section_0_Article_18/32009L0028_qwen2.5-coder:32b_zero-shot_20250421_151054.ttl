@@ -1,0 +1,49 @@
+@prefix pol: <http://purl.org/net/polia/ontology#> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18 a pol:Article ;
+    pol:hasParagraph pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_1,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_2,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_3,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_4,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_5,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_6,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_7,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_8,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_9 ;
+    pol:title "verification of compliance with the sustainability criteria for biofuels and bioliquids" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_9_Point_a a pol:Point ;
+    pol:hasPartOf pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_9 ;
+    pol:text "the effectiveness of the system in place for the provision of information on sustainability criteria;" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_9_Point_b a pol:Point ;
+    pol:hasPartOf pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_9 ;
+    pol:text "whether it is feasible and appropriate to introduce mandatory requirements in relation to air, soil or water protection, taking into account the latest scientific evidence and the community’s international obligations." .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_1 a pol:Paragraph ;
+    pol:text "Below is the text of paragraph 1." .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_2 a pol:Paragraph ;
+    pol:text "Below is the text of paragraph 2." .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_3 a pol:Paragraph ;
+    pol:text "Below is the text of paragraph 3." .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_4 a pol:Paragraph ;
+    pol:text "Below is the text of paragraph 4." .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_5 a pol:Paragraph ;
+    pol:text "Below is the text of paragraph 5." .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_6 a pol:Paragraph ;
+    pol:text "Below is the text of paragraph 6." .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_7 a pol:Paragraph ;
+    pol:text "Below is the text of paragraph 7." .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_8 a pol:Paragraph ;
+    pol:text "Below is the text of paragraph 8." .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Paragraph_9 a pol:Paragraph ;
+    pol:text "By 31 december 2012, the commission shall report to the european parliament and to the council on:" .
+

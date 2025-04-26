@@ -1,0 +1,67 @@
+@prefix poliana: <http://purl.org/olia/poliana#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.com/article1>
+    a poliana:LegislativeText ;
+    skos:notation "Article 9" ;
+    poliana:numberingScheme "paragraph" ;
+    poliana:text """
+Each Member State shall ensure that the energy savings required by paragraph 1 are achieved.
+
+Member States may use measures to achieve the energy savings, such as:
+
+(a) energy or CO2 taxes that have the effect of reducing end-use energy consumption;
+
+(b) financing schemes and instruments or fiscal incentives that lead to the application of energy-efficient technology or techniques and have the effect of reducing end-use energy consumption;
+
+(c) regulations or voluntary agreements that lead to the application of energy-efficient technology or techniques and have the effect of reducing end-use energy consumption.
+
+Member States shall notify the Commission by 5 December 2013 of the measures they plan to use to achieve the required amount of savings, following the framework provided in point 4 of Annex V, and showing how they would achieve the required level of ambition.
+""" .
+
+<http://example.com/article1>
+    poliana:provision <http://example.com/paragraph1> ;
+    poliana:provision <http://example.com/paragraph2> ;
+    poliana:provision <http://example.com/paragraph3> ;
+    poliana:provision <http://example.com/paragraph9> .
+
+<http://example.com/paragraph1>
+    a poliana:Paragraph ;
+    skos:notation "1" ;
+    poliana:text """Each Member State shall ensure that the energy savings required by paragraph 1 are achieved.""" .
+
+<http://example.com/paragraph2>
+    a poliana:Paragraph ;
+    skos:notation "2" ;
+    poliana:text """
+Member States may use measures to achieve the energy savings, such as:
+
+(a) energy or CO2 taxes that have the effect of reducing end-use energy consumption;
+
+(b) financing schemes and instruments or fiscal incentives that lead to the application of energy-efficient technology or techniques and have the effect of reducing end-use energy consumption;
+
+(c) regulations or voluntary agreements that lead to the application of energy-efficient technology or techniques and have the effect of reducing end-use energy consumption.
+""" .
+
+<http://example.com/paragraph3>
+    a poliana:Paragraph ;
+    skos:notation "3" ;
+    poliana:text """
+Member States shall notify the Commission by 5 December 2013 of the measures they plan to use to achieve the required amount of savings, following the framework provided in point 4 of Annex V, and showing how they would achieve the required level of ambition.
+""" .
+
+<http://example.com/paragraph9>
+    a poliana:Paragraph ;
+    skos:notation "9" ;
+    poliana:text """
+The policy measures referred to in paragraph 9 may include, but are not restricted to, the following policy measures or combinations thereof:
+
+(a) energy or CO2 taxes that have the effect of reducing end-use energy consumption;
+
+(b) financing schemes and instruments or fiscal incentives that lead to the application of energy-efficient technology or techniques and have the effect of reducing end-use energy consumption;
+
+(c) regulations or voluntary agreements that lead to the application of energy-efficient technology or techniques and have the effect of reducing end-use energy consumption.
+""" .
+
+<http://example.com/article1>
+    poliana:refersTo <http://example.com/AnnexV> .

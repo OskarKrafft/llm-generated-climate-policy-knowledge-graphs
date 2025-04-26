@@ -1,0 +1,71 @@
+turtle
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.com/legislation/eu-directive-2012-27-eu>
+  a skos:Concept ;
+  dc:title "EU Directive 2012/27/EU"@en ;
+  dc:description """This directive aims to improve energy efficiency by setting rules for the labelling of energy-related products and promoting efficient technologies."""@en .
+
+<http://example.com/concept/energy-efficiency-improvement>
+  a skos:Concept ;
+  skos:prefLabel "Energy Efficiency Improvement"@en ;
+  dc:description """A reduction in the amount of energy required to provide products and services."""@en .
+
+<http://example.com/concept/final-energy-consumption>
+  a skos:Concept ;
+  skos:prefLabel "Final Energy Consumption"@en ;
+  dc:description """The total energy consumed by end-users, such as households and industries."""@en .
+
+<http://example.com/concept/primary-energy-consumption>
+  a skos:Concept ;
+  skos:prefLabel "Primary Energy Consumption"@en ;
+  dc:description """The total energy consumed by a country or region, including both renewable and non-renewable sources."""@en .
+
+<http://example.com/concept/energy-savings>
+  a skos:Concept ;
+  skos:prefLabel "Energy Savings"@en ;
+  dc:description """A reduction in the amount of energy used for a specific purpose."""@en .
+
+<http://example.com/concept/obligated-party>
+  a skos:Concept ;
+  skos:prefLabel "Obligated Party"@en ;
+  dc:description """An entity that is required to meet specific energy efficiency targets or obligations."""@en .
+
+<http://example.com/concept/distribution-system-operator>
+  a skos:Concept ;
+  skos:prefLabel "Distribution System Operator"@en ;
+  dc:description """A company responsible for managing and maintaining the distribution of electricity or gas in a specific area."""@en .
+
+<http://example.com/concept/energy-service-provider>
+  a skos:Concept ;
+  skos:prefLabel "Energy Service Provider"@en ;
+  dc:description """A company that offers energy-related services, such as energy audits or energy efficiency improvements."""@en .
+
+<http://example.com/concept/cogeneration>
+  a skos:Concept ;
+  skos:prefLabel "Cogeneration"@en ;
+  dc:description """The simultaneous production of heat and electricity from a single fuel source."""@en .
+
+<http://example.com/concept/nearly-zero-energy-building>
+  a skos:Concept ;
+  skos:prefLabel "Nearly Zero-Energy Building"@en ;
+  dc:description """A building that has a very low energy consumption, typically through the use of renewable energy sources and energy-efficient design."""@en .
+
+<http://example.com/concept/fossil-fuel>
+  a skos:Concept ;
+  skos:prefLabel "Fossil Fuel"@en ;
+  dc:description """A non-renewable carbon-based energy source, such as coal, oil, or natural gas."""@en .
+
+<http://example.com/legislation/eu-directive-2012-27-eu>
+  skos:related <http://example.com/concept/energy-efficiency-improvement>, 
+               <http://example.com/concept/final-energy-consumption>, 
+               <http://example.com/concept/primary-energy-consumption>, 
+               <http://example.com/concept/energy-savings>, 
+               <http://example.com/concept/obligated-party>, 
+               <http://example.com/concept/distribution-system-operator>, 
+               <http://example.com/concept/energy-service-provider>, 
+               <http://example.com/concept/cogeneration>, 
+               <http://example.com/concept/nearly-zero-energy-building>, 
+               <http://example.com/concept/fossil-fuel> .
+.

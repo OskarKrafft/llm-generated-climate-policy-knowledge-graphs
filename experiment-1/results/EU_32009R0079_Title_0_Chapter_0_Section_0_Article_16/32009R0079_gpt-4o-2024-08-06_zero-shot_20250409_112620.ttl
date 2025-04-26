@@ -1,0 +1,12 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://polianna-kg.org/Ontology#EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16> a pol:PolicyArticle ;
+    pol:annotatedText "entry into force this regulation shall enter into force on the 20th day following its publication in the official journal of the european union. it shall apply from 24 february 2011, with the exception of article 11(3) and article 12, which shall apply from the date of entry into force of this regulation, and article 11(2), which shall apply from the date set out therein. this regulation shall be binding in its entirety and directly applicable in all member states." ;
+    pol:specifies_in_effect_time [ a pol:Time_InEffect ;
+        pol:In_effect_date "2011-02-24"^^xsd:date ;
+        pol:annotatedText "it shall apply from 24 february 2011" ] ;
+    pol:specifies_in_effect_time [ a pol:Time_InEffect ;
+        pol:annotatedText "this regulation shall enter into force on the 20th day following its publication in the official journal of the european union" ] ;
+    pol:addresses <https://polianna-kg.org/Ontology#Member_States> ;
+    pol:authorises <http://eurovoc.europa.eu/4060> .

@@ -1,0 +1,18 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;
+    rdfs:label "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16" ;
+    pol:CELEX_Number "32009R0079" ;
+    pol:ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;
+    rdfs:comment """article 16
+entry into force
+this regulation shall enter into force on the 20th day following its publication in the official journal of the european union.
+it shall apply from 24 february 2011, with the exception of article 11(3) and article 12, which shall apply from the date of entry into force of this regulation, and article 11(2), which shall apply from the date set out therein.
+this regulation shall be binding in its entirety and directly applicable in all member states.
+Annotators: B, F""" .

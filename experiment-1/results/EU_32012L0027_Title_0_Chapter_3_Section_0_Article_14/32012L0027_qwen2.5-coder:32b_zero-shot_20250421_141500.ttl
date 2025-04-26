@@ -1,0 +1,106 @@
+@prefix pol: <http://policyspace.org/ontologies/polina#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14 a pol:Article ;
+    pol:hasTitle "promotion of efficiency in heating and cooling" ;
+    pol:isPartOf <http://data.europa.eu/eli/dir/2012/27/oj> ;
+    pol:hasCELEXNumber "32012L0027" ;
+    pol:hasAnnotators ("C" "F") .
+
+pol:EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14 pol:hasParagraph pol:Paragraph_1 ;
+    pol:hasParagraph pol:Paragraph_2 ;
+    pol:hasParagraph pol:Paragraph_3 ;
+    pol:hasParagraph pol:Paragraph_4 ;
+    pol:hasParagraph pol:Paragraph_5 ;
+    pol:hasParagraph pol:Paragraph_6 ;
+    pol:hasParagraph pol:Paragraph_7 ;
+    pol:hasParagraph pol:Paragraph_8 ;
+    pol:hasParagraph pol:Paragraph_9 ;
+    pol:hasParagraph pol:Paragraph_10 ;
+    pol:hasParagraph pol:Paragraph_11 .
+
+pol:Paragraph_1 a pol:Paragraph ;
+    pol:hasContent "By 31 December 2013, Member States shall ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria laid down by each Member State. They shall ensure that this guarantee of origin complies with the requirements and contains at least the information specified in Annex X. Member States shall mutually recognise their guarantees of origin, exclusively as proof of the information referred to in this paragraph. Any refusal to recognise a guarantee of origin as such proof, in particular for reasons relating to the prevention of fraud, must be based on objective, transparent and non-discriminatory criteria. Member States shall notify the Commission of such refusal and its justification. In the event of refusal to recognise a guarantee of origin, the Commission may adopt a decision to compel the refusing party to recognise it, in particular with regard to objective, transparent and non-discriminatory criteria on which such recognition is based." .
+
+pol:Paragraph_2 a pol:Paragraph ;
+    pol:hasContent "The Commission shall be empowered to review, by means of delegated acts in accordance with Article 23 of this Directive, the harmonised efficiency reference values laid down in Commission Implementing Decision 2011/877/EU on the basis of Directive 2004/8/EC by 31 December 2014." .
+
+pol:Paragraph_3 a pol:Paragraph ;
+    pol:hasContent "Member States shall ensure that any available support for cogeneration is subject to the electricity produced originating from high-efficiency cogeneration and the waste heat being effectively used to achieve primary energy savings. Public support to cogeneration and district heating generation and networks shall be subject to State aid rules, where applicable." .
+
+pol:Paragraph_4 a pol:Paragraph ;
+    pol:hasContent "Member States may exempt individual installations from being required, by the authorisation and permit criteria referred to in paragraph 7, to implement options whose benefits exceed their costs, if there are imperative reasons of law, ownership or finance for so doing. In these cases the Member State concerned shall submit a reasoned notification of its decision to the Commission within three months of the date of taking it." .
+
+pol:Paragraph_5 a pol:Paragraph ;
+    pol:hasContent "Member States shall adopt authorisation criteria as referred to in Article 7 of Directive 2009/72/EC, or equivalent permit criteria, to:" ;
+    pol:hasSubParagraph pol:SubParagraph_5a ;
+    pol:hasSubParagraph pol:SubParagraph_5b ;
+    pol:hasSubParagraph pol:SubParagraph_5c .
+
+pol:SubParagraph_5a a pol:SubParagraph ;
+    pol:hasContent "take into account the outcome of the comprehensive assessment referred to in paragraph 1;" .
+
+pol:SubParagraph_5b a pol:SubParagraph ;
+    pol:hasContent "ensure that the requirements of paragraph 5 are fulfilled;" .
+
+pol:SubParagraph_5c a pol:SubParagraph ;
+    pol:hasContent "take into account the outcome of cost-benefit analysis referred to in paragraph 5." .
+
+pol:Paragraph_6 a pol:Paragraph ;
+    pol:hasContent "Member States may exempt individual installations from being required, by the authorisation and permit criteria referred to in paragraph 7, to implement options whose benefits exceed their costs, if there are imperative reasons of law, ownership or finance for so doing. In these cases the Member State concerned shall submit a reasoned notification of its decision to the Commission within three months of the date of taking it." .
+
+pol:Paragraph_7 a pol:Paragraph ;
+    pol:hasContent "Member States may exempt installations covered by Directive 2010/75/EU from the provisions of paragraphs 5, 6 and 7 without prejudice to the requirements of that Directive." .
+
+pol:Paragraph_8 a pol:Paragraph ;
+    pol:hasContent "Member States shall ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria laid down by each Member State. They shall ensure that this guarantee of origin complies with the requirements and contains at least the information specified in Annex X. Member States shall mutually recognise their guarantees of origin, exclusively as proof of the information referred to in this paragraph. Any refusal to recognise a guarantee of origin as such proof, in particular for reasons relating to the prevention of fraud, must be based on objective, transparent and non-discriminatory criteria. Member States shall notify the Commission of such refusal and its justification. In the event of refusal to recognise a guarantee of origin, the Commission may adopt a decision to compel the refusing party to recognise it, in particular with regard to objective, transparent and non-discriminatory criteria on which such recognition is based." .
+
+pol:Paragraph_9 a pol:Paragraph ;
+    pol:hasContent "The Commission shall be empowered to review, by means of delegated acts in accordance with Article 23 of this Directive, the harmonised efficiency reference values laid down in Commission Implementing Decision 2011/877/EU on the basis of Directive 2004/8/EC by 31 December 2014." .
+
+pol:Paragraph_10 a pol:Paragraph ;
+    pol:hasContent "Member States shall ensure that any available support for cogeneration is subject to the electricity produced originating from high-efficiency cogeneration and the waste heat being effectively used to achieve primary energy savings. Public support to cogeneration and district heating generation and networks shall be subject to State aid rules, where applicable." .
+
+pol:Paragraph_11 a pol:Paragraph ;
+    pol:hasContent "Member States may exempt individual installations from being required, by the authorisation and permit criteria referred to in paragraph 7, to implement options whose benefits exceed their costs, if there are imperative reasons of law, ownership or finance for so doing. In these cases the Member State concerned shall submit a reasoned notification of its decision to the Commission within three months of the date of taking it." .
+
+.
+.
+.
+
+pol:Paragraph_2 a pol:Paragraph ;
+    pol:hasContent "Member States shall ensure that any available support for cogeneration is subject to the electricity produced originating from high-efficiency cogeneration and the waste heat being effectively used to achieve primary energy savings. Public support to cogeneration and district heating generation and networks shall be subject to State aid rules, where applicable." .
+
+pol:Paragraph_3 a pol:Paragraph ;
+    pol:hasContent "Member States may exempt individual installations from being required, by the authorisation and permit criteria referred to in paragraph 7, to implement options whose benefits exceed their costs, if there are imperative reasons of law, ownership or finance for so doing. In these cases the Member State concerned shall submit a reasoned notification of its decision to the Commission within three months of the date of taking it." .
+
+pol:Paragraph_4 a pol:Paragraph ;
+    pol:hasContent "Member States shall adopt authorisation criteria as referred to in Article 7 of Directive 2009/72/EC, or equivalent permit criteria, to:" ;
+    pol:hasSubParagraph pol:SubParagraph_4a ;
+    pol:hasSubParagraph pol:SubParagraph_4b ;
+    pol:hasSubParagraph pol:SubParagraph_4c .
+
+pol:SubParagraph_4a a pol:SubParagraph ;
+    pol:hasContent "take into account the outcome of the comprehensive assessment referred to in paragraph 1;" .
+
+pol:SubParagraph_4b a pol:SubParagraph ;
+    pol:hasContent "ensure that the requirements of paragraph 5 are fulfilled;" .
+
+pol:SubParagraph_4c a pol:SubParagraph ;
+    pol:hasContent "take into account the outcome of cost-benefit analysis referred to in paragraph 5." .
+
+pol:Paragraph_5 a pol:Paragraph ;
+    pol:hasContent "Member States may exempt installations covered by Directive 2010/75/EU from the provisions of paragraphs 5, 6 and 7 without prejudice to the requirements of that Directive." .
+
+pol:Paragraph_6 a pol:Paragraph ;
+    pol:hasContent "By 31 December 2013, Member States shall ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria laid down by each Member State. They shall ensure that this guarantee of origin complies with the requirements and contains at least the information specified in Annex X. Member States shall mutually recognise their guarantees of origin, exclusively as proof of the information referred to in this paragraph. Any refusal to recognise a guarantee of origin as such proof, in particular for reasons relating to the prevention of fraud, must be based on objective, transparent and non-discriminatory criteria. Member States shall notify the Commission of such refusal and its justification. In the event of refusal to recognise a guarantee of origin, the Commission may adopt a decision to compel the refusing party to recognise it, in particular with regard to objective, transparent and non-discriminatory criteria on which such recognition is based." .
+
+pol:Paragraph_7 a pol:Paragraph ;
+    pol:hasContent "The Commission shall be empowered to review, by means of delegated acts in accordance with Article 23 of this Directive, the harmonised efficiency reference values laid down in Commission Implementing Decision 2011/877/EU on the basis of Directive 2004/8/EC by 31 December 2014." .
+
+pol:Paragraph_8 a pol:Paragraph ;
+    pol:hasContent "Member States shall ensure that any available support for cogeneration is subject to the electricity produced originating from high-efficiency cogeneration and the waste heat being effectively used to achieve primary energy savings. Public support to cogeneration and district heating generation and networks shall be subject to State aid rules, where applicable." .
+
+pol:Paragraph_9 a pol:Paragraph ;
+    pol:<|im_start|>
+<|im_start|><|im_start|>It seems like there is some repetition in your text, and it's not fully structured as intended. Let's clean up the content and structure it properly:

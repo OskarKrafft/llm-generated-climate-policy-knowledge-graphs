@@ -1,0 +1,41 @@
+@prefix eli: <http://data.europa.eu/eli/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/dir/2014/94/oj>
+    dc:title "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10" ;
+    skos:notation "32014L0094" .
+
+<EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10>
+    dc:title "Article 10" ;
+    skos:prefLabel "Reporting and Review" ;
+    dc:description """
+        Article 10
+        Reporting and Review
+
+        1. Each Member State shall submit to the Commission a report on the implementation of its national policy framework by 18 November 2019, and every three years thereafter. Those reports shall cover the information listed in Annex I and shall, where appropriate, include a relevant justification regarding the level of attainment of the national targets and objectives referred to in Article 3(1).
+
+        2. By 18 November 2017, the Commission shall submit to the European Parliament and to the Council a report on the assessment of the national policy frameworks and their coherence at Union level, including an evaluation of the level of attainment of the national targets and objectives referred to in Article 3(1).
+
+        3. The Commission shall submit a report on the application of this Directive to the European Parliament and to the Council every three years with effect from 18 November 2020.
+
+        The Commission report shall contain the following elements:
+
+        — An assessment of the actions taken by Member States,
+        — An assessment of the effects of this Directive on the development of the market as regards alternative fuels infrastructure and its contribution to the market of alternative fuels for transport, as well as its impact on the economy and the environment,
+        — Information on technical progress and the development of the market as regards alternative fuels in the transport sector and of the relevant infrastructure covered by this Directive and of any other alternative fuel.
+
+        The Commission may outline examples of best practices and make appropriate recommendations.
+
+        The Commission report shall also assess the requirements and the dates set out in this Directive in respect of the infrastructure build-up and implementation of specifications, taking into account the technical, economic and market developments of the respective alternative fuels, accompanied if appropriate by a legislative proposal.
+
+        4. The Commission shall adopt guidelines concerning the reporting by the Member States of the elements listed in Annex I.
+
+        5. By 31 December 2020, the Commission shall review the implementation of this Directive, and, as appropriate, submit a proposal to amend it by laying down new common technical specifications for alternative fuels infrastructure within the scope of this Directive.
+
+        6. By 31 December 2018, the Commission shall, if it considers it appropriate, adopt an action plan for the implementation of the strategy set out in the communication entitled ‘Clean Power for Transport: A European Alternative Fuels Strategy’ in order to achieve the broadest possible use of alternative fuels for transport, while ensuring technological neutrality, and to promote sustainable electric mobility throughout the Union. To that end, it may take into account individual market needs and developments in the Member States.
+    """ ;
+    dc:date "2014" .
+
+dc:creator 
+    skos:prefLabel "B", "C" .

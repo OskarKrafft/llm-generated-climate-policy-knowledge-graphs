@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\n    a pol:PolicyArticle ;\n    rdfs:label \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    rdfs:comment \"article 4 aggregates, energy products and the transmission frequency of national statistics 1. the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d. 2. applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology). 3. the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" ;\n    pol:CELEX_Number \"32008R1099\" ;\n    rdfs:seeAlso <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    pol:Annotator \"A\", \"C\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\n    a pol:PolicyArticle ;\n    rdfs:label \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    rdfs:comment \"article 4 aggregates, energy products and the transmission frequency of national statistics 1. the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d. 2. applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology). 3. the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" ;\n    pol:CELEX_Number \"32008R1099\" ;\n    rdfs:seeAlso <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    pol:Annotator \"A\", \"C\" .\n```",
+    "generation_time": 23.560328006744385,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\n    a pol:PolicyArticle ;\n    rdfs:label \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    rdfs:comment \"article 4 aggregates, energy products and the transmission frequency of national statistics 1. the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d. 2. applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology). 3. the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" ;\n    pol:CELEX_Number \"32008R1099\" ;\n    rdfs:seeAlso <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    pol:Annotator \"A\", \"C\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-10T23:18:40.040292"
+    },
+    "total_processing_time": 23.565696001052856,
+    "triple_count": 7
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    rdfs:label \"aggregates, energy products and the transmission frequency of national statistics\" ;\n    rdfs:comment \"1. the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d. 2. applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology). 3. the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)\" ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_objective <http://eurovoc.europa.eu/4060> ;\n    pol:contains_monitoring_form <http://eurovoc.europa.eu/114> ;\n    pol:specifies_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_A,\n                       pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_B,\n                       pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_C .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_A a pol:TimeCharacteristic ;\n    pol:annotatedText \"annual, for the energy statistics in annex b\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_B a pol:TimeCharacteristic ;\n    pol:annotatedText \"monthly, for the energy statistics in annex c\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_C a pol:TimeCharacteristic ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex d\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    rdfs:label \"aggregates, energy products and the transmission frequency of national statistics\" ;\n    rdfs:comment \"1. the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d. 2. applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology). 3. the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)\" ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_objective <http://eurovoc.europa.eu/4060> ;\n    pol:contains_monitoring_form <http://eurovoc.europa.eu/114> ;\n    pol:specifies_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_A,\n                       pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_B,\n                       pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_C .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_A a pol:TimeCharacteristic ;\n    pol:annotatedText \"annual, for the energy statistics in annex b\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_B a pol:TimeCharacteristic ;\n    pol:annotatedText \"monthly, for the energy statistics in annex c\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_C a pol:TimeCharacteristic ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex d\" .\n```",
+    "generation_time": 28.166424036026,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    rdfs:label \"aggregates, energy products and the transmission frequency of national statistics\" ;\n    rdfs:comment \"1. the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d. 2. applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology). 3. the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)\" ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_objective <http://eurovoc.europa.eu/4060> ;\n    pol:contains_monitoring_form <http://eurovoc.europa.eu/114> ;\n    pol:specifies_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_A,\n                       pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_B,\n                       pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_C .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_A a pol:TimeCharacteristic ;\n    pol:annotatedText \"annual, for the energy statistics in annex b\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_B a pol:TimeCharacteristic ;\n    pol:annotatedText \"monthly, for the energy statistics in annex c\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Freq_C a pol:TimeCharacteristic ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex d\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-10T23:19:08.214670"
+    },
+    "total_processing_time": 28.17382502555847,
+    "triple_count": 17
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    rdfs:comment \"aggregates, energy products and the transmission frequency of national statistics. The national statistics to be reported shall be as set out in the annexes. They shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d. Applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology). The data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    rdfs:comment \"aggregates, energy products and the transmission frequency of national statistics. The national statistics to be reported shall be as set out in the annexes. They shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d. Applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology). The data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" .\n```",
+    "generation_time": 32.02976417541504,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    rdfs:comment \"aggregates, energy products and the transmission frequency of national statistics. The national statistics to be reported shall be as set out in the annexes. They shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d. Applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology). The data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "o3-mini-2025-01-31",
+      "timestamp": "2025-04-10T23:19:40.249558"
+    },
+    "total_processing_time": 32.03439736366272,
+    "triple_count": 4
+  }
+}

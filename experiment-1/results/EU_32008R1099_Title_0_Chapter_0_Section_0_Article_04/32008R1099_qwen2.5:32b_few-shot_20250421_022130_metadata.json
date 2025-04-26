@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pola: <http://purl.org/policy/pola#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n    a pola:Policy ;\n    pola:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    pola:celexNumber \"32008R1099\"^^xsd:string ;\n    pola:eliUri <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    pola:annotatedBy \"A\", \"C\" .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj/article4>\n    a pola:Article ;\n    pola:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    pola:text \"\"\"national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:\n(a) annual, for the energy statistics in annex b;\n(b) monthly, for the energy statistics in annex c;\n(c) short-term monthly, for the energy statistics in annex d.\napplicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).\nthe data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\"\"\" ;\n    pola:policy <http://data.europa.eu/eli/reg/2008/1099/oj> .",
+  "original_output": "```turtle\n@prefix pola: <http://purl.org/policy/pola#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n    a pola:Policy ;\n    pola:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    pola:celexNumber \"32008R1099\"^^xsd:string ;\n    pola:eliUri <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    pola:annotatedBy \"A\", \"C\" .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj/article4>\n    a pola:Article ;\n    pola:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    pola:text \"\"\"national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:\n(a) annual, for the energy statistics in annex b;\n(b) monthly, for the energy statistics in annex c;\n(c) short-term monthly, for the energy statistics in annex d.\napplicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).\nthe data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\"\"\" ;\n    pola:policy <http://data.europa.eu/eli/reg/2008/1099/oj> .\n``` .",
+  "generation_time": 24.129442930221558,
+  "output": "```turtle\n@prefix pola: <http://purl.org/policy/pola#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n    a pola:Policy ;\n    pola:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    pola:celexNumber \"32008R1099\"^^xsd:string ;\n    pola:eliUri <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    pola:annotatedBy \"A\", \"C\" .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj/article4>\n    a pola:Article ;\n    pola:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    pola:text \"\"\"national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:\n(a) annual, for the energy statistics in annex b;\n(b) monthly, for the energy statistics in annex c;\n(c) short-term monthly, for the energy statistics in annex d.\napplicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).\nthe data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\"\"\" ;\n    pola:policy <http://data.europa.eu/eli/reg/2008/1099/oj> .\n``` .",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+      "CELEX_Number": "32008R1099",
+      "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "few-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T02:21:30.404907"
+  },
+  "triple_count": 10
+}

@@ -1,0 +1,47 @@
+turtle
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26 rdf:type poliana:Article ;
+  poliana:articleTitle "Annual reporting"^^xsd:string ;
+  poliana:hasPart :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph1 ,
+                   :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph2 ,
+                   :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph3 ,
+                   :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph4 ,
+                   :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph5 ,
+                   :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph6 ,
+                   :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph7 .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph1 rdf:type poliana:Paragraph ;
+  poliana:paragraph "By 15 March 2021, and every year thereafter (year x), Member States shall report to the Commission:"^^xsd:string ;
+  poliana:hasPart :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph1_PointA ,
+                  :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph1_PointB .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph1_PointA rdf:type poliana:ListItem ;
+  poliana:text "the information referred to in Article 6(2) of Directive 2009/119/EC"^^xsd:string .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph1_PointB rdf:type poliana:ListItem ;
+  poliana:text "the information referred to in point 3 of Annex IX of Directive 2013/30/EU, in accordance with Article 25 of that Directive"^^xsd:string .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph2 rdf:type poliana:Paragraph ;
+  poliana:paragraph "By 31 July 2021, and every year thereafter (year x), Member States shall report to the Commission their approximated greenhouse gas inventories for the year x-1."^^xsd:string .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph3 rdf:type poliana:Paragraph ;
+  poliana:paragraph "From 2023, Member States shall determine and report to the Commission final greenhouse gas inventory data by 15 March each year (year x) and preliminary data by 15 January each year, including the greenhouse gases and the inventory information listed in Annex V."^^xsd:string .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph4 rdf:type poliana:Paragraph ;
+  poliana:paragraph "Member States shall submit to the UNFCCC secretariat national inventories containing the information submitted to the Commission on the final greenhouse gas inventory data in accordance with paragraph 3 by 15 April each year."^^xsd:string .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph5 rdf:type poliana:Paragraph ;
+  poliana:paragraph "Member States shall report to the Commission the preliminary and the final national inventory data, by 15 January and 15 March respectively in the years 2027 and 2032, prepared for their LULUCF accounts for the purpose of the compliance reports in accordance with Article 14 of Regulation (EU) 2018/841."^^xsd:string .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph6 rdf:type poliana:Paragraph ;
+  poliana:paragraph "The Commission is empowered to adopt delegated acts in accordance with Article 43:"^^xsd:string ;
+  poliana:hasPart :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph6_PointA ,
+                  :EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph6_PointB .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph6_PointA rdf:type poliana:ListItem ;
+  poliana:text "amending this Regulation"^^xsd:string .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph6_PointB rdf:type poliana:ListItem ;
+  poliana:text "supplementing this Regulation"^^xsd:string .
+
+:EU32018R1999_Title_0_Chapter_4_Section_2_Article_26_Paragraph7 rdf:type poliana:Paragraph ;
+  poliana:paragraph "The Commission shall adopt implementing acts"^^xsd:string .

@@ -1,0 +1,60 @@
+@prefix : <http://example.com/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix polianna: <https://w3id.org/polianna/> .
+
+:p1 a polianna:SustainabilityCriteria ;
+    dct:title "Sustainability criteria for biofuels and bioliquids"@en ;
+    skos:definition """
+        Biofuels and bioliquids shall only be taken into account if they fulfil the sustainability criteria set out in this Article.
+    """@en .
+
+:p2 a polianna:SustainabilityCriteria ;
+    dct:title "Greenhouse gas emissions savings"@en ;
+    skos:definition """
+        The greenhouse gas emission saving from the use of biofuels and bioliquids taken into account shall be at least 35% compared to the fossil diesel used as a reference.
+    """@en .
+
+:p3 a polianna:SustainabilityCriteria ;
+    dct:title "Land with high biodiversity value"@en ;
+    skos:definition """
+        Biofuels and bioliquids shall not be made from raw material obtained from land that had a high carbon stock in January 2008, such as forest and other wooded land.
+    """@en .
+
+:p4 a polianna:SustainabilityCriteria ;
+    dct:title "Highly biodiverse grasslands"@en ;
+    skos:definition """
+        Biofuels and bioliquids shall not be made from raw material obtained from highly biodiverse grasslands, including natural grasslands that are unique or threatened and/or protected by national or international law.
+    """@en .
+
+:p5 a polianna:SustainabilityCriteria ;
+    dct:title "Peatland"@en ;
+    skos:definition """
+        Biofuels and bioliquids shall not be made from raw material obtained from land that was peatland in January 2008, unless evidence is provided that the cultivation and harvesting of that raw material does not involve drainage of previously undrained soil.
+    """@en .
+
+:p6 a polianna:SustainabilityCriteria ;
+    dct:title "Agricultural raw materials"@en ;
+    skos:definition """
+        Agricultural raw materials cultivated in the Community and used for the production of biofuels and bioliquids shall be obtained in accordance with the requirements and standards under the provisions referred to under the heading ‘environment’ in part A and in point 9 of Annex II to Council Regulation (EC) No 73/2009.
+    """@en .
+
+:p7 a polianna:Report ;
+    dct:title "Reports on social sustainability"@en ;
+    skos:definition """
+        The Commission shall, every two years, report to the European Parliament and the Council on the impact on social sustainability in the Community and in third countries of increased demand for biofuel.
+    """@en .
+
+:p8 a polianna:Rule ;
+    dct:title "Sustainability grounds"@en ;
+    skos:definition """
+        For the purposes referred to in points (a), (b) and (c) of paragraph 1, Member States shall not refuse to take into account, on other sustainability grounds, biofuels and bioliquids obtained in compliance with this Article.
+    """@en .
+
+:p9 a polianna:Report ;
+    dct:title "Requirements for a sustainability scheme"@en ;
+    skos:definition """
+        The Commission shall report on requirements for a sustainability scheme for energy uses of biomass, other than biofuels and bioliquids, by 31 December 2009.
+    """@en .
+
+.

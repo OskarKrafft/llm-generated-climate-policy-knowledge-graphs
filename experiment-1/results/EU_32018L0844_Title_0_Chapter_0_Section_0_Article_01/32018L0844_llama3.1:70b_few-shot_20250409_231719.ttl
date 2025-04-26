@@ -1,0 +1,33 @@
+@prefix : <http://example.com/> .
+@prefix poli: <https://w3id.org/policy#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Article a poli:LegislativeText ;
+    poli:title "Amending Directive 2010/31/EU on the energy performance of buildings" ;
+    poli:articleBody """
+        (1) The following Article is inserted:
+            'Article 19a
+                Feasibility study
+                The Commission shall, before 2020, conclude a feasibility study, clarifying the possibilities and timeline to introduce the inspection of stand-alone ventilation systems and an optional building renovation passport that is complementary to the energy performance certificates, in order to provide a long-term, step-by-step renovation roadmap for a specific building based on quality criteria, following an energy audit, and outlining relevant measures and renovations that could improve the energy performance.'
+    """ .
+
+:Article poli:hasSection :Section1 .
+:Section1 a skos:Concept ;
+    skos:prefLabel "Feasibility study" ;
+    skos:definition """
+        The Commission shall, before 2020, conclude a feasibility study, clarifying the possibilities and timeline to introduce the inspection of stand-alone ventilation systems and an optional building renovation passport that is complementary to the energy performance certificates, in order to provide a long-term, step-by-step renovation roadmap for a specific building based on quality criteria, following an energy audit, and outlining relevant measures and renovations that could improve the energy performance.
+    """ .
+
+:Section1 poli:hasSubsection :Subsection1 .
+:Subsection1 a skos:Concept ;
+    skos:prefLabel "Inspection of stand-alone ventilation systems" ;
+    skos:definition """
+        The Commission shall, before 2020, conclude a feasibility study, clarifying the possibilities and timeline to introduce the inspection of stand-alone ventilation systems.
+    """ .
+
+:Section1 poli:hasSubsection :Subsection2 .
+:Subsection2 a skos:Concept ;
+    skos:prefLabel "Optional building renovation passport" ;
+    skos:definition """
+        The Commission shall, before 2020, conclude a feasibility study, clarifying the possibilities and timeline to introduce an optional building renovation passport that is complementary to the energy performance certificates.
+    """ .

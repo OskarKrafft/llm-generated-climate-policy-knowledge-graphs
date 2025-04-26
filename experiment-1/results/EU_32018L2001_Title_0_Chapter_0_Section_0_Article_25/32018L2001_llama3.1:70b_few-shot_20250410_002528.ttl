@@ -1,0 +1,37 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix poli: <https://w3id.org/policy/> .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj>
+    rdf:type        poli:Policy ;
+    rdfs:label      "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25" .
+
+<poli:FuelSupplierObligation>
+    a                poli:Provision ;
+    poli:hasPolicy   <http://data.europa.eu/eli/dir/2018/2001/oj> ;
+    poli:appliesTo   "Fuel suppliers in the transport sector" ;
+    poli:obligation  "Ensure at least 14% share of renewable energy within final consumption of energy in the transport sector by 2030" .
+
+<poli:RenewableEnergyTarget>
+    a                poli:Provision ;
+    poli:hasPolicy   <http://data.europa.eu/eli/dir/2018/2001/oj> ;
+    poli:appliesTo   "Member States" ;
+    poli:target      "At least 14% share of renewable energy within final consumption of energy in the transport sector by 2030" .
+
+<poli:Exemption>
+    a                poli:Provision ;
+    poli:hasPolicy   <http://data.europa.eu/eli/dir/2018/2001/oj> ;
+    poli:appliesTo   "Fuel suppliers supplying fuel in the form of electricity or renewable liquid and gaseous transport fuels of non-biological origin" ;
+    poli:exemption  "From the requirement to comply with the minimum share of advanced biofuels and biogas produced from the feedstock listed in part a of annex ix" .
+
+<poli:GreenhouseGasEmissionsSavings>
+    a                poli:Provision ;
+    poli:hasPolicy   <http://data.europa.eu/eli/dir/2018/2001/oj> ;
+    poli:appliesTo   "Renewable liquid and gaseous transport fuels of non-biological origin" ;
+    poli:savings     "At least 70% from 1 January 2021" .
+
+<poli:DelegatedAct>
+    a                poli:Provision ;
+    poli:hasPolicy   <http://data.europa.eu/eli/dir/2018/2001/oj> ;
+    poli:adoptedBy   "Commission" ;
+    poli:delegatedAct  "To supplement this directive by establishing appropriate minimum thresholds for greenhouse gas emissions savings of recycled carbon fuels" .

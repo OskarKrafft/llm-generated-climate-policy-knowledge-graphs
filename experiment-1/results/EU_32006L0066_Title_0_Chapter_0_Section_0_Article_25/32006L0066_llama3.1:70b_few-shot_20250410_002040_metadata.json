@@ -1,0 +1,25 @@
+{
+  "is_valid": false,
+  "graph": null,
+  "error": "at line 1 of <>:\nBad syntax (Prefix \"pol:\" not bound) at ^ in:\n\"b''^b'pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a p'...\"",
+  "extracted_content": "pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:Article ;\n    dc:title \"Penalties\" ;\n    skos:notation \"art. 25\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeNotification_1 a pol:Time_Notification ;\n    pol:annotatedText \"by 26 September 2008\" .",
+  "original_output": "```turtle\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:Article ;\n    dc:title \"Penalties\" ;\n    skos:notation \"art. 25\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeNotification_1 a pol:Time_Notification ;\n    pol:annotatedText \"by 26 September 2008\" .\n```",
+  "generation_time": 16.940200567245483,
+  "success": false,
+  "output": "```turtle\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:Article ;\n    dc:title \"Penalties\" ;\n    skos:notation \"art. 25\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeNotification_1 a pol:Time_Notification ;\n    pol:annotatedText \"by 26 September 2008\" .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+      "CELEX_Number": "32006L0066",
+      "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "few-shot",
+    "output_format": "ttl",
+    "model": "llama3.1:70b",
+    "timestamp": "2025-04-10T00:20:40.842006"
+  }
+}

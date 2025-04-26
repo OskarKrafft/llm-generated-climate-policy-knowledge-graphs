@@ -1,0 +1,120 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix polianna: <https://w3id.org/poli/def/ontology/> .
+
+<https://w3id.org/poli/countries/EU>
+    dc:title "European Union"@en ;
+    skos:notation "EU" .
+
+<https://w3id.org/poli/documents/2012/Directive-2012-27-EU>
+    a polianna:Document ;
+    dc:title "Directive 2012/27/EU"@en ;
+    dc:date "2012"^^xsd:gYear ;
+    skos:notation "2012/27/EU" .
+
+<https://w3id.org/poli/documents/2018/Regulation-2018-841>
+    a polianna:Document ;
+    dc:title "Regulation (EU) 2018/841"@en ;
+    dc:date "2018"^^xsd:gYear ;
+    skos:notation "2018/841" .
+
+<https://w3id.org/poli/documents/2018/Regulation-2018-842>
+    a polianna:Document ;
+    dc:title "Regulation (EU) 2018/842"@en ;
+    dc:date "2018"^^xsd:gYear ;
+    skos:notation "2018/842" .
+
+<https://w3id.org/poli/documents/UNFCCC-Decision>
+    a polianna:Document ;
+    dc:title "UNFCCC Decision"@en .
+
+<https://w3id.org/poli/documents/Paris-Agreement>
+    a polianna:Document ;
+    dc:title "Paris Agreement"@en .
+
+<https://w3id.org/poli/countries/EU/laws/Article-35-State-of-the-Energy-Union-Report>
+    a polianna:Law ;
+    dc:title "State of the Energy Union Report"@en ;
+    skos:notation "Article 35" .
+
+<https://w3id.org/poli/countries/EU/laws/Article-4-UNFCCC-Commitments>
+    a polianna:Law ;
+    dc:title "Commitments under Article 4 of the UNFCCC"@en ;
+    skos:notation "Article 4" .
+
+<https://w3id.org/poli/countries/EU/laws/Article-4-Paris-Agreement-Commitments>
+    a polianna:Law ;
+    dc:title "Commitments under Article 3 of the Paris Agreement"@en ;
+    skos:notation "Article 3" .
+
+<https://w3id.org/poli/countries/EU/laws/Article-4-Regulation-2018-841-Obligations>
+    a polianna:Law ;
+    dc:title "Obligations set out in Article 4 of Regulation (EU) 2018/841"@en ;
+    skos:notation "Article 4" .
+
+<https://w3id.org/poli/countries/EU/laws/Article-4-Regulation-2018-842-Obligations>
+    a polianna:Law ;
+    dc:title "Obligations set out in Article 4 of Regulation (EU) 2018/842"@en ;
+    skos:notation "Article 4" .
+
+<https://w3id.org/poli/countries/EU/laws/Renewable-Energy-Targets>
+    a polianna:Law ;
+    dc:title "Renewable Energy Targets"@en .
+
+<https://w3id.org/poli/countries/EU/laws/Article-3-Directive-2012-27-EU-Energy-Efficiency-Targets>
+    a polianna:Law ;
+    dc:title "Energy Efficiency Targets under Article 3(5) of Directive 2012/27/EU"@en ;
+    skos:notation "Article 3(5)" .
+
+<https://w3id.org/poli/countries/EU/laws/Internal-Energy-Market-Objectives>
+    a polianna:Law ;
+    dc:title "Internal Energy Market Objectives"@en .
+
+<https://w3id.org/poli/countries/EU/policies/EU-Country-Specific-Recommendations>
+    a polianna:Policy ;
+    dc:title "EU Country-Specific Recommendations"@en .
+
+<https://w3id.org/poli/countries/EU/reports/State-of-the-Energy-Union-Report-2021>
+    a polianna:Report ;
+    dc:title "State of the Energy Union Report 2021"@en ;
+    dc:date "2021"^^xsd:gYear .
+
+<https://w3id.org/poli/countries/EU/reports/Commission-Report-on-Renewable-Energy-Targets>
+    a polianna:Report ;
+    dc:title "Commission Report on Renewable Energy Targets"@en .
+
+<https://w3id.org/poli/countries/EU/reports/Commission-Report-on-Energy-Efficiency-Targets>
+    a polianna:Report ;
+    dc:title "Commission Report on Energy Efficiency Targets"@en .
+
+<https://w3id.org/poli/countries/EU/reports/Commission-Report-on-Internal-Energy-Market-Objectives>
+    a polianna:Report ;
+    dc:title "Commission Report on Internal Energy Market Objectives"@en .
+
+<https://w3id.org/poli/countries/EU/actions/EU-Country-Specific-Recommendations-Implementation>
+    a polianna:Action ;
+    dc:title "Implementation of EU Country-Specific Recommendations"@en .
+
+<https://w3id.org/poli/countries/EU/actors/European-Commission>
+    a polianna:Actor ;
+    dc:title "European Commission"@en .
+
+<https://w3id.org/poli/countries/EU/stakeholders/European-Public>
+    a polianna:Stakeholder ;
+    dc:title "European Public"@en .
+
+<https://w3id.org/poli/countries/EU/laws/Article-35-State-of-the-Energy-Union-Report>
+    polianna:hasResponsibleActor <https://w3id.org/poli/countries/EU/actors/European-Commission> ;
+    polianna:isRelatedToLaw <https://w3id.org/poli/documents/2012/Directive-2012-27-EU>, <https://w3id.org/poli/documents/2018/Regulation-2018-841>, <https://w3id.org/poli/documents/2018/Regulation-2018-842> ;
+    polianna:isRelatedToPolicy <https://w3id.org/poli/countries/EU/policies/EU-Country-Specific-Recommendations> ;
+    polianna:isImplementedByAction <https://w3id.org/poli/countries/EU/actions/EU-Country-Specific-Recommendations-Implementation> .
+
+<https://w3id.org/poli/countries/EU/reports/State-of-the-Energy-Union-Report-2021>
+    polianna:hasResponsibleActor <https://w3id.org/poli/countries/EU/actors/European-Commission> ;
+    polianna:isRelatedToLaw <https://w3id.org/poli/documents/2012/Directive-2012-27-EU>, <https://w3id.org/poli/documents/2018/Regulation-2018-841>, <https://w3id.org/poli/documents/2018/Regulation-2018-842> ;
+    polianna:isRelatedToPolicy <https://w3id.org/poli/countries/EU/policies/EU-Country-Specific-Recommendations> .
+
+<https://w3id.org/poli/countries/EU/actions/EU-Country-Specific-Recommendations-Implementation>
+    polianna:hasResponsibleActor <https://w3id.org/poli/countries/EU/actors/European-Commission> ;
+    polianna:isRelatedToLaw <https://w3id.org/poli/documents/2012/Directive-2012-27-EU>, <https://w3id.org/poli/documents/2018/Regulation-2018-841>, <https://w3id.org/poli/documents/2018/Regulation-2018-842> ;
+    polianna:isRelatedToPolicy <https://w3id.org/poli/countries/EU/policies/EU-Country-Specific-Recommendations> .

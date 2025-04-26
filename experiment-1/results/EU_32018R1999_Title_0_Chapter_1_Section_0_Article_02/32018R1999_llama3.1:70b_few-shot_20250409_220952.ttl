@@ -1,0 +1,140 @@
+turtle
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix polianna: <http://example.com/polianna/> .
+
+polianna:Article_2021EU a owl:Ontology ;
+    rdfs:label "Energy Efficiency Directive" ;
+    rdfs:comment "Definitions for the Energy Efficiency Directive 2012/27/EU and the Renewable Energy Directive 2018/2001/EU" .
+
+polianna:gas_emission a owl:Class ;
+    rdfs:label "gas emission" ;
+    rdfs:comment "A type of greenhouse gas emission" .
+    
+polianna:greenhouse_gas_emission a owl:Class ;
+    rdfs:subClassOf polianna:pollutant ;
+    rdfs:label "greenhouse gas emission" .
+
+polianna:pollutant a owl:Class ;
+    rdfs:label "pollutant" ;
+    rdfs:comment "A substance that is harmful to the environment or human health" .
+
+polianna:starch_rich_crops a owl:Class ;
+    rdfs:subClassOf polianna:crops ;
+    rdfs:label "starch rich crops" .
+
+polianna:food_and_feed_crops a owl:Class ;
+    rdfs:subClassOf polianna:crops ;
+    rdfs:label "food and feed crops" .
+
+polianna:ligno_cellulosic_material a owl:Class ;
+    rdfs:subClassOf polianna:bioenergy_source ;
+    rdfs:label "ligno-cellulosic material" .
+    
+polianna:residue a owl:Class ;
+    rdfs:subClassOf polianna:bioenergy_source ;
+    rdfs:label "residue" .
+
+polianna:crops a owl:Class ;
+    rdfs:label "crops" ;
+    rdfs:comment "A type of plant grown for food, feed or other products" .
+    
+polianna:bioenergy_source a owl:Class ;
+    rdfs:subClassOf polianna:renewable_energy_source ;
+    rdfs:label "bioenergy source" .
+
+polianna:renewable_energy_source a owl:Class ;
+    rdfs:label "renewable energy source" ;
+    rdfs:comment "A type of energy that comes from natural resources and is replenished over time" .
+    
+polianna:fossil_fuel a owl:Class ;
+    rdfs:subClassOf polianna:non_renewable_energy_source ;
+    rdfs:label "fossil fuel" .
+
+polianna:non_renewable_energy_source a owl:Class ;
+    rdfs:label "non-renewable energy source" ;
+    rdfs:comment "A type of energy that comes from finite natural resources and is not replenished over time" .
+    
+polianna:heat_pump a owl:Class ;
+    rdfs:subClassOf polianna:heating_technology ;
+    rdfs:label "heat pump" .
+
+polianna:heating_technology a owl:Class ;
+    rdfs:label "heating technology" ;
+    rdfs:comment "A type of technology used for heating purposes" .
+    
+polianna:cogeneration a owl:Class ;
+    rdfs:subClassOf polianna:energy_efficiency_measure ;
+    rdfs:label "cogeneration" .
+
+polianna:energy_efficiency_measure a owl:Class ;
+    rdfs:label "energy efficiency measure" ;
+    rdfs:comment "A type of action or technology used to improve energy efficiency" .
+    
+polianna:nearly_zero_energy_building a owl:Class ;
+    rdfs:subClassOf polianna:building ;
+    rdfs:label "nearly zero-energy building" .
+
+polianna:building a owl:Class ;
+    rdfs:label "building" ;
+    rdfs:comment "A type of structure with walls and a roof, used for various purposes" .
+    
+polianna:distribution_system_operator a owl:Class ;
+    rdfs:subClassOf polianna:energy_company ;
+    rdfs:label "distribution system operator" .
+
+polianna:retail_energy_sales_company a owl:Class ;
+    rdfs:subClassOf polianna:energy_company ;
+    rdfs:label "retail energy sales company" .
+    
+polianna:energy_distributor a owl:Class ;
+    rdfs:subClassOf polianna:energy_company ;
+    rdfs:label "energy distributor" .
+
+polianna:energy_company a owl:Class ;
+    rdfs:label "energy company" ;
+    rdfs:comment "A type of organization involved in the energy sector" .
+    
+polianna:implementing_measure a owl:Class ;
+    rdfs:subClassOf polianna:energy_efficiency_measure ;
+    rdfs:label "implementing measure" .
+
+polianna:alternative_fuel a owl:Class ;
+    rdfs:subClassOf polianna:fuel ;
+    rdfs:label "alternative fuel" .
+    
+polianna:fuel a owl:Class ;
+    rdfs:label "fuel" ;
+    rdfs:comment "A type of substance used to produce energy or power" .
+
+polianna:final_energy_consumption a owl:Property ;
+    rdfs:domain polianna:country ;
+    rdfs:range xsd:string ;
+    rdfs:label "final energy consumption" .
+    
+polianna:primary_energy_production a owl:Property ;
+    rdfs:domain polianna:country ;
+    rdfs:range xsd:string ;
+    rdfs:label "primary energy production" .
+
+polianna:energy_intensity a owl:Property ;
+    rdfs:domain polianna:sector ;
+    rdfs:range xsd:string ;
+    rdfs:label "energy intensity" .
+    
+polianna:greenhouse_gas_emission_intensity a owl:Property ;
+    rdfs:domain polianna:sector ;
+    rdfs:range xsd:string ;
+    rdfs:label "greenhouse gas emission intensity" .
+
+polianna:country a owl:Class ;
+    rdfs:label "country" ;
+    rdfs:comment "A type of geographical entity with its own government and borders" .
+    
+polianna:sector a owl:Class ;
+    rdfs:label "sector" ;
+    rdfs:comment "A type of area or field of activity, often used in energy and environmental contexts" .
+
+.

@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <https://pol.example.org/ontology/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n    a pol:Policy ;\n    pol:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\" ;\n    pol:celexNumber \"32008R1099\"^^xsd:string ;\n    pol:eli \"http://data.europa.eu/eli/reg/2008/1099/oj\" ;\n    pol:annotators (\"A\" \"C\") .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj#Article8>\n    a pol:Article ;\n    pol:title \"annual nuclear statistics\" ;\n    pol:content \"\"\"\nthe commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\nthe set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article\u00a011(2).\n\"\"\" ;\n    pol:policy <http://data.europa.eu/eli/reg/2008/1099/oj> .",
+  "original_output": "```turtle\n@prefix pol: <https://pol.example.org/ontology/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n    a pol:Policy ;\n    pol:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\" ;\n    pol:celexNumber \"32008R1099\"^^xsd:string ;\n    pol:eli \"http://data.europa.eu/eli/reg/2008/1099/oj\" ;\n    pol:annotators (\"A\" \"C\") .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj#Article8>\n    a pol:Article ;\n    pol:title \"annual nuclear statistics\" ;\n    pol:content \"\"\"\nthe commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\nthe set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article\u00a011(2).\n\"\"\" ;\n    pol:policy <http://data.europa.eu/eli/reg/2008/1099/oj> .\n```",
+  "generation_time": 21.551886320114136,
+  "output": "```turtle\n@prefix pol: <https://pol.example.org/ontology/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n    a pol:Policy ;\n    pol:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\" ;\n    pol:celexNumber \"32008R1099\"^^xsd:string ;\n    pol:eli \"http://data.europa.eu/eli/reg/2008/1099/oj\" ;\n    pol:annotators (\"A\" \"C\") .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj#Article8>\n    a pol:Article ;\n    pol:title \"annual nuclear statistics\" ;\n    pol:content \"\"\"\nthe commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\nthe set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article\u00a011(2).\n\"\"\" ;\n    pol:policy <http://data.europa.eu/eli/reg/2008/1099/oj> .\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+      "CELEX_Number": "32008R1099",
+      "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T01:22:49.599478"
+  },
+  "triple_count": 13
+}

@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32004L0008 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>, <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_compliance_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeCompliance_1 ;
+    pol:annotatedText "commission reporting: review the application of this directive and submit to the european parliament and to the council a progress report on its implementation; in particular, consider progress towards realising national potentials for high-efficiency cogeneration, assess the framework conditions for cogeneration and the coexistence of different support mechanisms, and if appropriate, submit further proposals." .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2008-02-21"^^xsd:date ;
+    pol:annotatedText "not later than 21 february 2008 and thereafter every four years" .

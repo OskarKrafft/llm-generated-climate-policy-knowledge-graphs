@@ -1,0 +1,24 @@
+{
+  "is_valid": false,
+  "error": "at line 36 of <>:\nBad syntax (expected directive or statement) at ^ in:\n\"...b'0\"^^xsd:float ;\\n    pol:hasEmissionUnit pol:TonnesPerYear .\\n'^b'.'\"",
+  "extracted_content": "@prefix pol: <http://example.org/pollution#>.\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.\n\n<http://example.org/pollution#Article_2013-Regulation>\n    a pol:LegalAct ;\n    pol:hasArticle <http://example.org/pollution#Article_3_G> ;\n    pol:hasAnnex <http://example.org/pollution#Annex_I>.\n\n<http://example.org/pollution#Article_3_G>\n    a pol:RegulationArticle ;\n    pol:requiresAction pol:AuctionAviationAllowances ;\n    pol:specifiesScope pol:CoversFlights1000TonnesPerYear .\n\n<http://example.org/pollution#Annex_I>\n    a pol:LegalDocumentPart ;\n    pol:hasPoint <http://example.org/pollution#Point_k>.\n\n<http://example.org/pollution#Point_k>\n    a pol:RegulationPoint ;\n    pol:appliesToPeriod \"2013-01-01\"^^xsd:date , \"2020-12-31\"^^xsd:date ;\n    pol:specifiesActivityType pol:NonCommercialFlightsBelowThreshold .\n\n<http://example.org/pollution#AuctionAviationAllowances>\n    a pol:RegulatoryAction ;\n    pol:requiresAuctionOf pol:AviationAllowances .\n\n<http://example.org/pollution#CoversFlights1000TonnesPerYear>\n    a pol:ScopeSpecification ;\n    pol:hasEmissionThreshold \"1000\"^^xsd:integer ;\n    pol:hasUnit pol:TonnesCO2 .\n\n<http://example.org/pollution#NonCommercialFlightsBelowThreshold>\n    a pol:ActivityType ;\n    pol:hasTotalAnnualEmissionsThreshold \"1000\"^^xsd:float ;\n    pol:hasEmissionUnit pol:TonnesPerYear .\n.",
+  "original_output": "```turtle\n@prefix pol: <http://example.org/pollution#>.\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.\n\n<http://example.org/pollution#Article_2013-Regulation>\n    a pol:LegalAct ;\n    pol:hasArticle <http://example.org/pollution#Article_3_G> ;\n    pol:hasAnnex <http://example.org/pollution#Annex_I>.\n\n<http://example.org/pollution#Article_3_G>\n    a pol:RegulationArticle ;\n    pol:requiresAction pol:AuctionAviationAllowances ;\n    pol:specifiesScope pol:CoversFlights1000TonnesPerYear .\n\n<http://example.org/pollution#Annex_I>\n    a pol:LegalDocumentPart ;\n    pol:hasPoint <http://example.org/pollution#Point_k>.\n\n<http://example.org/pollution#Point_k>\n    a pol:RegulationPoint ;\n    pol:appliesToPeriod \"2013-01-01\"^^xsd:date , \"2020-12-31\"^^xsd:date ;\n    pol:specifiesActivityType pol:NonCommercialFlightsBelowThreshold .\n\n<http://example.org/pollution#AuctionAviationAllowances>\n    a pol:RegulatoryAction ;\n    pol:requiresAuctionOf pol:AviationAllowances .\n\n<http://example.org/pollution#CoversFlights1000TonnesPerYear>\n    a pol:ScopeSpecification ;\n    pol:hasEmissionThreshold \"1000\"^^xsd:integer ;\n    pol:hasUnit pol:TonnesCO2 .\n\n<http://example.org/pollution#NonCommercialFlightsBelowThreshold>\n    a pol:ActivityType ;\n    pol:hasTotalAnnualEmissionsThreshold \"1000\"^^xsd:float ;\n    pol:hasEmissionUnit pol:TonnesPerYear .\n.\n```",
+  "generation_time": 25.182825088500977,
+  "output": "```turtle\n@prefix pol: <http://example.org/pollution#>.\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.\n\n<http://example.org/pollution#Article_2013-Regulation>\n    a pol:LegalAct ;\n    pol:hasArticle <http://example.org/pollution#Article_3_G> ;\n    pol:hasAnnex <http://example.org/pollution#Annex_I>.\n\n<http://example.org/pollution#Article_3_G>\n    a pol:RegulationArticle ;\n    pol:requiresAction pol:AuctionAviationAllowances ;\n    pol:specifiesScope pol:CoversFlights1000TonnesPerYear .\n\n<http://example.org/pollution#Annex_I>\n    a pol:LegalDocumentPart ;\n    pol:hasPoint <http://example.org/pollution#Point_k>.\n\n<http://example.org/pollution#Point_k>\n    a pol:RegulationPoint ;\n    pol:appliesToPeriod \"2013-01-01\"^^xsd:date , \"2020-12-31\"^^xsd:date ;\n    pol:specifiesActivityType pol:NonCommercialFlightsBelowThreshold .\n\n<http://example.org/pollution#AuctionAviationAllowances>\n    a pol:RegulatoryAction ;\n    pol:requiresAuctionOf pol:AviationAllowances .\n\n<http://example.org/pollution#CoversFlights1000TonnesPerYear>\n    a pol:ScopeSpecification ;\n    pol:hasEmissionThreshold \"1000\"^^xsd:integer ;\n    pol:hasUnit pol:TonnesCO2 .\n\n<http://example.org/pollution#NonCommercialFlightsBelowThreshold>\n    a pol:ActivityType ;\n    pol:hasTotalAnnualEmissionsThreshold \"1000\"^^xsd:float ;\n    pol:hasEmissionUnit pol:TonnesPerYear .\n.\n```",
+  "success": false,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01",
+      "CELEX_Number": "32014R0421",
+      "ELI": "http://data.europa.eu/eli/reg/2014/421/oj",
+      "Annotators": [
+        "F",
+        "B"
+      ]
+    },
+    "prompt_strategy": "few-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T02:16:05.122606"
+  }
+}

@@ -1,0 +1,83 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix polianna: <https://w3id.org/polianna/> .
+
+<https://w3id.org/polianna/example/article-12345>
+  a polianna:Article ;
+  dc:title "National Objectives and Targets for the Energy Union" ;
+  dct:description "This article outlines national objectives and targets for the five dimensions of the energy union." ;
+  dcat:theme <https://w3id.org/polianna/theme/energy-union> ;
+  foaf:primaryTopic <https://w3id.org/polianna/concept/national-objectives-and-targets-for-the-energy-union> .
+
+<https://w3id.org/polianna/concept/national-objectives-and-targets-for-the-energy-union>
+  a skos:Concept ;
+  skos:prefLabel "National Objectives and Targets for the Energy Union" ;
+  skos:definition "This concept refers to national objectives and targets for the five dimensions of the energy union." .
+
+<https://w3id.org/polianna/dimension/decarbonisation>
+  a polianna:Dimension ;
+  dc:title "Decarbonisation" ;
+  dct:description "This dimension refers to reducing greenhouse gas emissions from energy production, transmission, and consumption." .
+
+<https://w3id.org/polianna/dimension/energy-efficiency>
+  a polianna:Dimension ;
+  dc:title "Energy Efficiency" ;
+  dct:description "This dimension refers to using energy more efficiently in buildings, industry, and transport." .
+
+<https://w3id.org/polianna/dimension/internal-energy-market>
+  a polianna:Dimension ;
+  dc:title "Internal Energy Market" ;
+  dct:description "This dimension refers to creating a single European energy market with free movement of energy across borders." .
+
+<https://w3id.org/polianna/dimension/research-innovation-and-competitiveness>
+  a polianna:Dimension ;
+  dc:title "Research, Innovation and Competitiveness" ;
+  dct:description "This dimension refers to promoting research and innovation in the energy sector and increasing competitiveness." .
+
+<https://w3id.org/polianna/dimension/energy-security>
+  a polianna:Dimension ;
+  dc:title "Energy Security" ;
+  dct:description "This dimension refers to ensuring a stable and secure energy supply for Europe." .
+
+<https://w3id.org/polianna/example/article-12345>
+  polianna:hasDimension <https://w3id.org/polianna/dimension/decarbonisation> ,
+    <https://w3id.org/polianna/dimension/energy-efficiency> ,
+    <https://w3id.org/polianna/dimension/internal-energy-market> ,
+    <https://w3id.org/polianna/dimension/research-innovation-and-competitiveness> ,
+    <https://w3id.org/polianna/dimension/energy-security> .
+
+<https://w3id.org/polianna/example/national-objective-1>
+  a polianna:NationalObjective ;
+  dc:title "Increase the share of renewable energy sources in the energy mix" ;
+  dct:description "This objective aims to increase the share of renewable energy sources in the energy mix by 2030." ;
+  polianna:hasDimension <https://w3id.org/polianna/dimension/decarbonisation> .
+
+<https://w3id.org/polianna/example/national-target-1>
+  a polianna:NationalTarget ;
+  dc:title "At least 32% of the energy consumed in the EU should come from renewable sources by 2030" ;
+  dct:description "This target aims to ensure that at least 32% of the energy consumed in the EU comes from renewable sources by 2030." ;
+  polianna:hasNationalObjective <https://w3id.org/polianna/example/national-objective-1> .
+
+<https://w3id.org/polianna/example/article-12345>
+  polianna:hasNationalObjective <https://w3id.org/polianna/example/national-objective-1> ;
+  polianna:hasNationalTarget <https://w3id.org/polianna/example/national-target-1> .
+
+<https://w3id.org/polianna/example/measurement-unit-1>
+  a polianna:MeasurementUnit ;
+  dc:title "% of renewable energy in the energy mix" ;
+  dct:description "This measurement unit refers to the percentage of renewable energy sources in the energy mix." .
+
+<https://w3id.org/polianna/example/indicator-1>
+  a polianna:Indicator ;
+  dc:title "Renewable energy share in the energy mix" ;
+  dct:description "This indicator measures the share of renewable energy sources in the energy mix." ;
+  polianna:hasMeasurementUnit <https://w3id.org/polianna/example/measurement-unit-1> .
+
+<https://w3id.org/polianna/example/national-target-1>
+  polianna:isMeasuredBy <https://w3id.org/polianna/example/indicator-1> .

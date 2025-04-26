@@ -1,0 +1,54 @@
+@prefix pol: <http://example.org/polanna#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/provisions/art57_1> a pol:PolicyProvision ;
+    pol:exempts [ a pol:ExemptActionRequirement ;
+            pol:description "Buildings officially protected as part of a designated environment or due to their special architectural or historical merit, in so far as compliance with certain minimum energy performance requirements would unacceptably alter their character or appearance." ],
+        [ a pol:ExemptActionRequirement ;
+            pol:description "Buildings owned by the armed forces or central government and serving national defence purposes, apart from single living quarters or office buildings for the armed forces and other staff employed by national defence authorities." ],
+        [ a pol:ExemptActionRequirement ;
+            pol:description "Buildings used as places of worship and for religious activities." ] ;
+    pol:isPartOf <http://example.org/policies/art57> ;
+    pol:requiresAction [ a pol:ActionRequirement ;
+            pol:description "Central government buildings with the poorest energy performance be a priority for energy efficiency measures, where cost-effective and technically feasible." ;
+            pol:hasDateConstraint "2013-12-31"^^xsd:date ] .
+
+<http://example.org/provisions/art57_2> a pol:PolicyProvision ;
+    pol:isPartOf <http://example.org/policies/art57> ;
+    pol:requiresAction [ a pol:ActionRequirement ;
+            pol:description "Member states may decide not to set or apply the requirements referred to in paragraph 1." ] .
+
+<http://example.org/provisions/art57_3> a pol:PolicyProvision ;
+    pol:isPartOf <http://example.org/policies/art57> ;
+    pol:requiresAction [ a pol:ActionRequirement ;
+            pol:description "If a member state renovates more than 3% of the total floor area of central government buildings in a given year, it may count the excess towards the annual renovation rate of any of the three previous or following years." ] .
+
+<http://example.org/provisions/art57_4> a pol:PolicyProvision ;
+    pol:isPartOf <http://example.org/policies/art57> ;
+    pol:requiresAction [ a pol:ActionRequirement ;
+            pol:description "Member states may count towards the annual renovation rate of central government buildings new buildings occupied and owned as replacements for specific central government buildings demolished in any of the two previous years, or buildings that have been sold, demolished or taken out of use in any of the two previous years due to more intensive use of other buildings." ] .
+
+<http://example.org/provisions/art57_5> a pol:PolicyProvision ;
+    pol:isPartOf <http://example.org/policies/art57> ;
+    pol:requiresAction [ a pol:ActionRequirement ;
+            pol:description "Member states shall establish and make publicly available an inventory of heated and/or cooled central government buildings with a total useful floor area over 500 m2, excluding buildings exempted on the basis of paragraph 2." ] .
+
+<http://example.org/provisions/art57_6> a pol:PolicyProvision ;
+    pol:isPartOf <http://example.org/policies/art57> ;
+    pol:requiresAction [ a pol:ActionRequirement ;
+            pol:description "Member states may opt for an alternative approach to paragraphs 1 to 5 of this article, whereby they take other cost-effective measures, including deep renovations and measures for behavioural change of occupants." ] .
+
+<http://example.org/provisions/art57_7> a pol:PolicyProvision ;
+    pol:isPartOf <http://example.org/policies/art57> ;
+    pol:requiresAction [ a pol:ActionRequirement ;
+            pol:description "Member states shall encourage public bodies, including at regional and local level, and social housing bodies governed by public law." ] .
+
+<http://example.org/policies/art57> a pol:Policy ;
+    pol:hasProvision <http://example.org/provisions/art57_1>,
+        <http://example.org/provisions/art57_2>,
+        <http://example.org/provisions/art57_3>,
+        <http://example.org/provisions/art57_4>,
+        <http://example.org/provisions/art57_5>,
+        <http://example.org/provisions/art57_6>,
+        <http://example.org/provisions/art57_7> .
+

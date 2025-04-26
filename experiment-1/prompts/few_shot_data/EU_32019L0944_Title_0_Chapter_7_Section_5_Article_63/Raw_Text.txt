@@ -1,0 +1,15 @@
+article 63
+compliance with the network codes and guidelines
+1.   any regulatory authority and the commission may request the opinion of acer on the compliance of a decision taken by a regulatory authority with the network codes and guidelines referred to in this directive or in chapter vii of regulation (eu) 2019/943.
+2.   acer shall provide its opinion to the regulatory authority which has requested it or to the commission, respectively, and to the regulatory authority which has taken the decision in question within three months of the date of receipt of the request.
+3.   where the regulatory authority which has taken the decision does not comply with acer's opinion within four months of the date of receipt of that opinion, acer shall inform the commission accordingly.
+4.   any regulatory authority may inform the commission where it considers that a decision relevant for cross-border trade taken by another regulatory authority does not comply with the network codes and guidelines referred to in this directive or in chapter vii of regulation (eu) 2019/943 within two months of the date of that decision.
+5.   where the commission, within two months of having been informed by acer in accordance with paragraph 3, or by a regulatory authority in accordance with paragraph 4, or, on its own initiative, within three months of the date of the decision, finds that the decision of a regulatory authority raises serious doubts as to its compatibility with the network codes and guidelines referred to in this directive or in chapter vii of regulation (eu) 2019/943, the commission may decide to examine the case further. in such a case, it shall invite the regulatory authority and the parties to the proceedings before the regulatory authority to submit observations.
+6.   where the commission takes a decision to examine the case further, it shall, within four months of the date of such decision, issue a final decision:
+(a)
+not to raise objections against the decision of the regulatory authority; or
+(b)
+to require the regulatory authority concerned to withdraw its decision on the basis that network codes and guidelines have not been complied with.
+7.   where the commission has not taken a decision to examine the case further or a final decision within the time-limits set in paragraphs 5 and 6 respectively, it shall be deemed not to have raised objections to the decision of the regulatory authority.
+8.   the regulatory authority shall comply with the commission decision requiring it to withdraw its decision within two months and shall inform the commission accordingly.
+9.   the commission is empowered to adopt delegated acts in accordance with article 67 supplementing this directive by establishing guidelines setting out the details of the procedure to be followed for the application of this article.

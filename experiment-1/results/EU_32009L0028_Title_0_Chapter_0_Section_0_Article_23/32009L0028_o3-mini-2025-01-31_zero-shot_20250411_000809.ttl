@@ -1,0 +1,80 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://polianna-kg.org/Ontology#> .
+
+<EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23> rdf:type pol:PolicyArticle ;
+    rdfs:label "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23" ;
+    pol:hasCELEXNumber "32009L0028" ;
+    pol:hasELI <http://data.europa.eu/eli/dir/2009/28/oj> ;
+    pol:annotator "A", "B" ;
+    rdfs:comment """article 23
+monitoring and reporting by the commission
+1.   the commission shall monitor the origin of biofuels and bioliquids consumed in the community and the impact of their production, including impact as a result of displacement, on land use in the community and the main third countries of supply. such monitoring shall be based on member states’ reports, submitted pursuant to article 22(1), and those of relevant third countries, intergovernmental organisations, scientific studies and any other relevant pieces of information. the commission shall also monitor the commodity price changes associated with the use of biomass for energy and any associated positive and negative effects on food security. the commission shall monitor all installations to which article 19(6) applies.
+2.   the commission shall maintain a dialogue and exchange information with third countries and biofuel producers, consumer organisations and civil society concerning the general implementation of the measures in this directive relating to biofuels and bioliquids. it shall, within that framework, pay particular attention to the impact biofuel production may have on food prices.
+3.   on the basis of the reports submitted by member states pursuant to article 22(1) and the monitoring and analysis referred to in paragraph 1 of this article, the commission shall report every two years to the european parliament and the council. the first report shall be submitted in 2012.
+4.   in reporting on greenhouse gas emission saving from the use of biofuels, the commission shall use the values reported by member states and shall evaluate whether and how the estimate would change if co-products were accounted for using the substitution approach.
+5.   in its reports, the commission shall, in particular, analyse:
+(a)
+the relative environmental benefits and costs of different biofuels, the effects of the community’s import policies thereon, the security of supply implications and the ways of achieving a balanced approach between domestic production and imports;
+(b)
+the impact of increased demand for biofuel on sustainability in the community and in third countries, considering economic and environmental impacts, including impacts on biodiversity;
+(c)
+the scope for identifying, in a scientifically objective manner, geographical areas of high biodiversity value that are not covered in article 17(3);
+(d)
+the impact of increased demand for biomass on biomass using sectors;
+(e)
+the availability of biofuels made from waste, residues, non-food cellulosic material and ligno-cellulosic material; and
+(f)
+indirect land-use changes in relation to all production pathways.
+the commission shall, if appropriate, propose corrective action.
+6.   on the basis of the reports submitted by member states pursuant to article 22(3), the commission shall analyse the effectiveness of measures taken by member states on establishing a single administrative body responsible for processing authorisation, certification and licensing applications and providing assistance to applicants.
+7.   in order to improve financing and coordination with a view to the achievement of the 20 % target referred to in article 3(1), the commission shall, by 31 december 2010, present an analysis and action plan on energy from renewable sources with a view, in particular, to:
+(a)
+the better use of structural funds and framework programmes;
+(b)
+the better and increased use of funds from the european investment bank and other public finance institutions;
+(c)
+better access to risk capital notably by analysing the feasibility of a risk sharing facility for investments in energy from renewable sources in the community similar to the global energy efficiency and renewable energy fund initiative which is aimed at third countries;
+(d)
+the better coordination of community and national funding and other forms of support; and
+(e)
+the better coordination in support of renewable energy initiatives whose success depends on action by actors in several member states.
+8.   by 31 december 2014, the commission shall present a report, addressing, in particular, the following elements:
+(a)
+a review of the minimum greenhouse gas emission saving thresholds to apply from the dates referred to in the second subparagraph of article 17(2), on the basis of an impact assessment taking into account, in particular, technological developments, available technologies and the availability of first and second-generation bio-fuels with a high level of greenhouse gas emission saving;
+(b)
+with respect to the target referred to in article 3(4), a review of:
+(i)
+the cost-efficiency of the measures to be implemented to achieve the target;
+(ii)
+an assessment of the feasibility of reaching the target whilst ensuring the sustainability of biofuels production in the community and in third countries, and considering economic, environmental and social impacts, including indirect effects and impacts on biodiversity, as well as the commercial availability of second-generation biofuels;
+(iii)
+the impact of the implementation of the target on the availability of foodstuffs at affordable prices;
+(iv)
+the commercial availability of electric, hybrid and hydrogen powered vehicles, as well as the methodology chosen to calculate the share of energy from renewable sources consumed in the transport sector;
+(v)
+the evaluation of specific market conditions, considering, in particular, markets on which transport fuels represent more than half of the final energy consumption, and markets which are fully dependent on imported biofuels;
+(c)
+an evaluation of the implementation of this directive, in particular with regard to cooperation mechanisms, in order to ensure that, together with the possibility for the members states to continue to use national support schemes referred to in article 3(3), those mechanisms enable member states to achieve the national targets defined in annex i on the best cost-benefit basis, of technological developments, and the conclusions to be drawn to achieve the target of 20 % of energy from renewable sources at community level.
+on the basis of that report, the commission shall submit, if appropriate, proposals to the european parliament and the council, addressing the above elements and in particular:
+—
+for the element contained in point (a), a modification of the minimum greenhouse gas emission saving referred to in that point, and
+—
+for the element contained in point (c), appropriate adjustments of the cooperation measures provided for in this directive in order to improve their effectiveness for achieving the target of 20 %. such proposals shall neither affect the 20 % target nor member states’ control over national support schemes and cooperation measures.
+9.   in 2018, the commission shall present a renewable energy roadmap for the post-2020 period.
+that roadmap shall, if appropriate, be accompanied by proposals to the european parliament and the council for the period after 2020. the roadmap shall take into account the experience of the implementation of this directive and technological developments in energy from renewable sources.
+10.   in 2021, the commission shall present a report reviewing the application of this directive. that report shall, in particular, address the role of the following elements in having enabled member states to achieve the national targets defined in annex i on the best cost-benefit basis:
+(a)
+the process of preparing forecasts and national renewable energy action plans;
+(b)
+the effectiveness of the cooperation mechanisms;
+(c)
+technological developments in energy from renewable sources, including the development of the use of biofuels in commercial aviation;
+(d)
+the effectiveness of the national support schemes; and
+(e)
+the conclusions of the commission reports referred to in paragraphs 8 and 9. """ .

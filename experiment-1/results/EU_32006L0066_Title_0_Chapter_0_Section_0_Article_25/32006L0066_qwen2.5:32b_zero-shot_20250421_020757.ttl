@@ -1,0 +1,32 @@
+@prefix pol: <https://w3id.org/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eli: <http://data.europa.eu/eli/> .
+
+<http://data.europa.eu/eli/dir/2006/66/oj#Article_25>
+    a pol:LegalProvision ;
+    pol:title "penalties" ;
+    pol:celexNumber "32006L0066"^^xsd:string ;
+    pol:articleNumber "25"^^xsd:int ;
+    pol:annotators ("C" "F") .
+
+<http://data.europa.eu/eli/dir/2006/66/oj>
+    a pol:LegalAct ;
+    pol:hasProvision <http://data.europa.eu/eli/dir/2006/66/oj#Article_25> .
+
+pol:MemberStates
+    pol:shallEstablishRules [
+        a pol:RuleSet ;
+        pol:penaltiesCharacteristics "effective, proportionate and dissuasive"^^xsd:string ;
+        pol:applicableTo "infringements of national provisions adopted pursuant to this directive"^^xsd:string ;
+        pol:notifiedTo <http://data.europa.eu/eli/org/commission> ;
+        pol:notificationDeadline "2008-09-26"^^xsd:date
+    ] .
+
+pol:MemberStates
+    pol:shallTakeMeasures [
+        a pol:MeasureSet ;
+        pol:measuresType "all necessary measures to ensure that they are implemented"^^xsd:string ;
+        pol:inform <http://data.europa.eu/eli/org/commission> ;
+        pol:inCaseOfAmendment "without delay"^^xsd:string
+    ] .
+.

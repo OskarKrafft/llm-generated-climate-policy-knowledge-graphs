@@ -1,0 +1,21 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/PolicyDocument_32018R1999> rdf:type pol:PolicyDocument ;
+    rdfs:label "32018R1999" ;
+    rdfs:seeAlso <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    pol:hasArticle <https://example.org/EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27> .
+
+<https://example.org/EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27> rdf:type pol:PolicyArticle ;
+    rdfs:label "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27" ;
+    rdfs:comment "article 27 reporting on the 2020 targets by 30 april 2022, each member state shall report to the commission on the achievement of its 2020 energy efficiency national target established pursuant to article 3(1) of directive 2012/27/eu by providing the information set out in part 2 of annex ix to this regulation, and of the national overall targets for the share of energy from renewable sources in 2020 as set out in annex i to directive 2009/28/ec in the version in force on 31 december 2020 by providing the following information:\n(a) the sectoral (electricity, heating and cooling, and transport) and overall shares of energy from renewable sources in 2020;\n(b) the measures taken to achieve the 2020 national renewable energy targets, including measures related to support schemes, guarantees of origin and simplification of administrative procedures;\n(c) the share of energy from biofuels and bioliquids produced from cereal and other starch-rich crops, sugars and oil crops in energy consumption in transport;\n(d) the share of energy from biofuels and biogas for transport produced from feedstocks and of other fuels listed in part a of annex ix to directive 2009/28/ec in the version in force on 31 december 2020 in energy consumption in transport" ;
+    pol:addresses <https://example.org/Annotator/A> , <https://example.org/Annotator/C> .
+
+<https://example.org/Annotator/A> rdf:type <http://data.europa.eu/eli/ontology#Agent> ;
+    rdfs:label "A" .
+
+<https://example.org/Annotator/C> rdf:type <http://data.europa.eu/eli/ontology#Agent> ;
+    rdfs:label "C" .

@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <http://example.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj> a pol:Policy ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\" ;\n    pol:eli \"http://data.europa.eu/eli/reg/2009/79/oj\" ;\n    pol:annotatedBy \"B\", \"F\" .\n\n<http://data.europa.eu/eli/reg/2009/79/oj> pol:hasArticle [\n    a pol:RegulationEntryIntoForce ;\n    pol:entryIntoForceDate \"2009-xx-xxT20:00:00Z\"^^xsd:dateTime ;\n    pol:annotatedText \"This regulation shall enter into force on the 20th day following its publication in the Official Journal of the European Union.\" ;\n    pol:applicableDate \"2011-02-24\"^^xsd:date ;\n    pol:exception [\n        a pol:RegulationException ;\n        pol:annotatedText \"Article 11(3) and Article 12 shall apply from the date of entry into force of this regulation.\" ;\n        pol:applicableDate \"2009-xx-xxT20:00:00Z\"^^xsd:dateTime\n    ] , [\n        a pol:RegulationException ;\n        pol:annotatedText \"Article 11(2) shall apply from the date set out therein.\" ;\n        pol:applicableDate \"\"\n    ]\n] .",
+  "original_output": "```turtle\n@prefix pol: <http://example.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj> a pol:Policy ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\" ;\n    pol:eli \"http://data.europa.eu/eli/reg/2009/79/oj\" ;\n    pol:annotatedBy \"B\", \"F\" .\n\n<http://data.europa.eu/eli/reg/2009/79/oj> pol:hasArticle [\n    a pol:RegulationEntryIntoForce ;\n    pol:entryIntoForceDate \"2009-xx-xxT20:00:00Z\"^^xsd:dateTime ;\n    pol:annotatedText \"This regulation shall enter into force on the 20th day following its publication in the Official Journal of the European Union.\" ;\n    pol:applicableDate \"2011-02-24\"^^xsd:date ;\n    pol:exception [\n        a pol:RegulationException ;\n        pol:annotatedText \"Article 11(3) and Article 12 shall apply from the date of entry into force of this regulation.\" ;\n        pol:applicableDate \"2009-xx-xxT20:00:00Z\"^^xsd:dateTime\n    ] , [\n        a pol:RegulationException ;\n        pol:annotatedText \"Article 11(2) shall apply from the date set out therein.\" ;\n        pol:applicableDate \"\"\n    ]\n] .\n``` \n\n(Note: The exact publication date for entry into force is not specified in the provided text, hence represented as `2009-xx-xxT20:00:00Z`. You may adjust this placeholder to reflect an accurate date if known.)",
+  "generation_time": 26.824054956436157,
+  "output": "```turtle\n@prefix pol: <http://example.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2009/79/oj> a pol:Policy ;\n    pol:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    pol:celexNumber \"32009R0079\" ;\n    pol:eli \"http://data.europa.eu/eli/reg/2009/79/oj\" ;\n    pol:annotatedBy \"B\", \"F\" .\n\n<http://data.europa.eu/eli/reg/2009/79/oj> pol:hasArticle [\n    a pol:RegulationEntryIntoForce ;\n    pol:entryIntoForceDate \"2009-xx-xxT20:00:00Z\"^^xsd:dateTime ;\n    pol:annotatedText \"This regulation shall enter into force on the 20th day following its publication in the Official Journal of the European Union.\" ;\n    pol:applicableDate \"2011-02-24\"^^xsd:date ;\n    pol:exception [\n        a pol:RegulationException ;\n        pol:annotatedText \"Article 11(3) and Article 12 shall apply from the date of entry into force of this regulation.\" ;\n        pol:applicableDate \"2009-xx-xxT20:00:00Z\"^^xsd:dateTime\n    ] , [\n        a pol:RegulationException ;\n        pol:annotatedText \"Article 11(2) shall apply from the date set out therein.\" ;\n        pol:applicableDate \"\"\n    ]\n] .\n``` \n\n(Note: The exact publication date for entry into force is not specified in the provided text, hence represented as `2009-xx-xxT20:00:00Z`. You may adjust this placeholder to reflect an accurate date if known.)",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+      "CELEX_Number": "32009R0079",
+      "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+      "Annotators": [
+        "B",
+        "F"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T02:48:41.405246"
+  },
+  "triple_count": 19
+}

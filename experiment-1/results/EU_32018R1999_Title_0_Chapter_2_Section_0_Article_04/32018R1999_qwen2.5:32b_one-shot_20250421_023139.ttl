@@ -1,0 +1,43 @@
+@prefix pol: <https://w3id.org/pol#> .
+
+<https://example.org/article/energyUnionArticle> a pol:LegislativeAct ;
+    pol:hasProvision <https://example.org/article/energyUnionArticle/electrictyInterconnectivity>,
+        <https://example.org/article/energyUnionArticle/finalEnergyConsumption>,
+        <https://example.org/article/energyUnionArticle/market>,
+        <https://example.org/article/energyUnionArticle/researchInnovation>,
+        <https://example.org/article/energyUnionArticle/security> ;
+    pol:text """
+The article requires member states to set out national objectives, targets and contributions in five dimensions of the Energy Union: security of supply, internal energy market, research innovation and competitiveness, energy efficiency and energy climate change. These are to be expressed in terms of absolute levels with an indicative trajectory from 2021 onwards.
+""" ;
+    pol:title "Energy Union Article" .
+
+<https://example.org/article/energyUnionArticle/electrictyInterconnectivity> a pol:Provision ;
+    pol:text """
+The provision specifies that member states aim for an electricity interconnectivity level in 2030, with a strategy from 2021 onwards defined cooperatively.
+""" ;
+    pol:title "Electricity Interconnectivity" .
+
+<https://example.org/article/energyUnionArticle/finalEnergyConsumption> a pol:Provision ;
+    pol:text """
+The provision requires member states to express their contribution in terms of absolute level of primary and final energy consumption, with an indicative trajectory from 2021 onwards.
+""" ;
+    pol:title "Final Energy Consumption" .
+
+<https://example.org/article/energyUnionArticle/market> a pol:Provision ;
+    pol:text """
+The provision includes electricity interconnectivity level in 2030, key infrastructure projects, and objectives related to system flexibility, market integration, smart grids, demand response, storage, distributed generation, dispatching mechanisms.
+""" ;
+    pol:title "Internal Energy Market" .
+
+<https://example.org/article/energyUnionArticle/researchInnovation> a pol:Provision ;
+    pol:text """
+The provision requires national objectives and funding targets for public and private research and innovation relating to the Energy Union. It includes reflecting the priorities of the Energy Union strategy.
+""" ;
+    pol:title "Research Innovation and Competitiveness" .
+
+<https://example.org/article/energyUnionArticle/security> a pol:Provision ;
+    pol:text """
+The provision requires national objectives with regard to increasing the diversification of energy sources and supply from third countries, flexibility of the national energy system, and addressing constrained or interrupted supply.
+""" ;
+    pol:title "Security of Supply" .
+

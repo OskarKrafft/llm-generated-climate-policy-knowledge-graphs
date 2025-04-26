@@ -1,0 +1,52 @@
+@prefix polianna: <http://example.org/polianna#> .
+
+polianna:Article1 a polianna:Legislation ;
+    polianna:hasProvision polianna:Provision1,
+        polianna:Provision10,
+        polianna:Provision11,
+        polianna:Provision12,
+        polianna:Provision2,
+        polianna:Provision3,
+        polianna:Provision4,
+        polianna:Provision5,
+        polianna:Provision6,
+        polianna:Provision7,
+        polianna:Provision8,
+        polianna:Provision9 .
+
+polianna:Provision1 a polianna:Provision ;
+    polianna:text "The member states shall ensure that by 31 December 2020 the total cumulative amount of energy savings achieved through obligation schemes is at least equivalent to 9-14% of annual final energy consumption in 2008." .
+
+polianna:Provision10 a polianna:Provision ;
+    polianna:text "Without prejudice to paragraph 11, the criteria for the policy measures taken pursuant to the second subparagraph of paragraph 9 and article 20(6) shall be as follows:" .
+
+polianna:Provision11 a polianna:Provision ;
+    polianna:text "Member states shall ensure that the taxes referred to in point (a) of the second subparagraph of paragraph 9 comply with the criteria listed in points (a), (b), (c), (d), (f), (h) and (j) of paragraph 10." .
+
+polianna:Provision12 a polianna:Provision ;
+    polianna:text "Member states shall ensure that any energy savings from the periods ending on 31 December 2013 and 31 December 2016 are not included when calculating the target set for the period ending on 31 December 2020." .
+
+polianna:Provision2 a polianna:Provision ;
+    polianna:text "Member states shall ensure that by 31 December 2020 the total cumulative amount of energy savings achieved through obligation schemes is at least equivalent to 9-14% of annual final energy consumption in 2008." .
+
+polianna:Provision3 a polianna:Provision ;
+    polianna:text "For each of the periods ending on 31 December 2013, 31 December 2016 and 31 December 2020, the target set for that period shall be at least equivalent to 0.54%, 1.79% and 4.82%, respectively, of annual final energy consumption in 2008." .
+
+polianna:Provision4 a polianna:Provision ;
+    polianna:text "In determining the target set for each period referred to in paragraph 3, member states shall ensure that any energy savings from the periods ending on 31 December 2013 and 31 December 2016 are not included when calculating the target set for the period ending on 31 December 2020." .
+
+polianna:Provision5 a polianna:Provision ;
+    polianna:text "Member states shall ensure that by 31 December 2020 the total cumulative amount of energy savings achieved through obligation schemes is at least equivalent to 9-14% of annual final energy consumption in 2008." .
+
+polianna:Provision6 a polianna:Provision ;
+    polianna:text "Member states shall ensure that any energy savings which have been included in the calculation for the period ending on 31 December 2013 or the period ending on 31 December 2016 cannot be counted again when calculating the target set for the period ending on 31 December 2020." .
+
+polianna:Provision7 a polianna:Provision ;
+    polianna:text "Member states may, in determining their target sets for each of the periods referred to in paragraph 3, allow energy savings achieved between 1 January 2008 and 31 December 2009 to contribute towards the first period target." .
+
+polianna:Provision8 a polianna:Provision ;
+    polianna:text "Member states shall take into account the following criteria when determining their target sets for each of the periods referred to in paragraph 3:" .
+
+polianna:Provision9 a polianna:Provision ;
+    polianna:text "The member states may reduce the level of energy savings required by up to 5 percentage points provided that they notify to the Commission, by 5 December 2013, any reductions and justify them in accordance with point (a) of paragraph 8." .
+

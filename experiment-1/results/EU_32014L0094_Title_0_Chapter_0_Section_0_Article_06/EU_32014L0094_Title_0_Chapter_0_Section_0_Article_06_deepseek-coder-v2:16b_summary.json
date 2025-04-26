@@ -1,0 +1,20 @@
+{
+  "zero-shot": {
+    "success": false,
+    "error": "No output from LLM",
+    "generation_time": 19.1721510887146,
+    "total_processing_time": 19.172502279281616
+  },
+  "one-shot": {
+    "success": false,
+    "error": "No output from LLM",
+    "generation_time": 12.528631687164307,
+    "total_processing_time": 12.529205560684204
+  },
+  "few-shot": {
+    "success": false,
+    "error": "No output from LLM",
+    "generation_time": 12.705368995666504,
+    "total_processing_time": 12.705994606018066
+  }
+}

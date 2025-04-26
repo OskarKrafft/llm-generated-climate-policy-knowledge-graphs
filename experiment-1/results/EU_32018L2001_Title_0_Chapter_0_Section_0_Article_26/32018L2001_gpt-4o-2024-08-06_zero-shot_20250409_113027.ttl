@@ -1,0 +1,34 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://polianna-kg.org/Ontology#EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26> a pol:PolicyArticle ;
+    pol:annotatedText "Specific rules for biofuels, bioliquids and biomass fuels produced from food and feed crops" ;
+    pol:contains_instrument <http://eurovoc.europa.eu/1459> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/1496> ;
+    pol:contains_objective pol:Objective ;
+    pol:specifies_compliance_time [
+        a pol:Time_Compliance ;
+        pol:Compliance_date "2023-12-31"^^xsd:date
+    ] ;
+    pol:specifies_compliance_time [
+        a pol:Time_Compliance ;
+        pol:Compliance_date "2030-12-31"^^xsd:date
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2019-02-01"^^xsd:date
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2023-09-01"^^xsd:date
+    ] ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:addresses pol:Member_States ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_instrument pol:VoluntaryAgrmt ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_instrument pol:Subsidies_Incentives ;
+    pol:contains_instrument pol:TaxIncentives ;
+    pol:contains_instrument pol:TradablePermit .

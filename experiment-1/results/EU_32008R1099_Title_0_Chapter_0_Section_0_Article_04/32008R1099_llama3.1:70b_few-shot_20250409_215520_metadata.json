@@ -1,0 +1,25 @@
+{
+  "is_valid": false,
+  "graph": null,
+  "error": "at line 1 of <>:\nBad syntax (Prefix \"pol:\" not bound) at ^ in:\n\"b''^b'pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a p'...\"",
+  "extracted_content": "pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:Article ;\n    pol:hasPolicy pol:EU_32008R1099 .\n\npol:EU_32008R1099 a pol:Policy ;\n    dc:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    celex:CELEX \"32008R1099\" ;\n    eli:ELI \"http://data.europa.eu/eli/reg/2008/1099/oj\" ;\n    dc:creator \"A\", \"C\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual, for the energy statistics in annex b\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"monthly, for the energy statistics in annex c\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex d\" .",
+  "original_output": "```turtle\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:Article ;\n    pol:hasPolicy pol:EU_32008R1099 .\n\npol:EU_32008R1099 a pol:Policy ;\n    dc:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    celex:CELEX \"32008R1099\" ;\n    eli:ELI \"http://data.europa.eu/eli/reg/2008/1099/oj\" ;\n    dc:creator \"A\", \"C\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual, for the energy statistics in annex b\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"monthly, for the energy statistics in annex c\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex d\" .\n```",
+  "generation_time": 36.33722901344299,
+  "success": false,
+  "output": "```turtle\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:Article ;\n    pol:hasPolicy pol:EU_32008R1099 .\n\npol:EU_32008R1099 a pol:Policy ;\n    dc:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    celex:CELEX \"32008R1099\" ;\n    eli:ELI \"http://data.europa.eu/eli/reg/2008/1099/oj\" ;\n    dc:creator \"A\", \"C\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual, for the energy statistics in annex b\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"monthly, for the energy statistics in annex c\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_Time_Monitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex d\" .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+      "CELEX_Number": "32008R1099",
+      "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "few-shot",
+    "output_format": "ttl",
+    "model": "llama3.1:70b",
+    "timestamp": "2025-04-09T21:55:20.472812"
+  }
+}

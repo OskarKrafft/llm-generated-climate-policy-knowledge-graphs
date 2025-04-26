@@ -1,0 +1,20 @@
+@prefix pola: <http://purl.org/policy/pola#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj/article4> a pola:Article ;
+    pola:policy <http://data.europa.eu/eli/reg/2008/1099/oj> ;
+    pola:text """national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:
+(a) annual, for the energy statistics in annex b;
+(b) monthly, for the energy statistics in annex c;
+(c) short-term monthly, for the energy statistics in annex d.
+applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).
+the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).""" ;
+    pola:title "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04" .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj> a pola:Policy ;
+    pola:annotatedBy "A",
+        "C" ;
+    pola:celexNumber "32008R1099"^^xsd:string ;
+    pola:eliUri <http://data.europa.eu/eli/reg/2008/1099/oj> ;
+    pola:title "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04" .
+

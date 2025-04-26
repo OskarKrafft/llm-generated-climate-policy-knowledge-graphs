@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"24\u00a0february 2011\" .",
+  "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"24\u00a0february 2011\" .",
+  "generation_time": 5.01271390914917,
+  "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32009R0079 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,\n        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:annotatedText \"20th day following its publication in the official journal of the european union\" .\n\npol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2011-02-24\"^^xsd:date ;\n    pol:annotatedText \"24\u00a0february 2011\" .",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+      "CELEX_Number": "32009R0079",
+      "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+      "Annotators": [
+        "B",
+        "F"
+      ]
+    },
+    "prompt_strategy": "few-shot",
+    "output_format": "ttl",
+    "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+    "timestamp": "2025-04-20T23:34:37.002299"
+  },
+  "triple_count": 11
+}

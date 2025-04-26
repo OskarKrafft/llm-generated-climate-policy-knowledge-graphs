@@ -1,0 +1,40 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix polianna: <https://w3id.org/poli/> .
+
+<https://w3id.org/poli/article/eu-energy-efficiency-directive-2012>
+  a polianna:Article ;
+  skos:notation "EU Energy Efficiency Directive 2012" ;
+  polianna:title "EU Energy Efficiency Directive 2012" ;
+  polianna:articleContent """
+    Article 1
+    ----------
+
+    Member States shall ensure that their national energy consumption does not exceed the indicative targets laid down in Annex I.
+
+    Article 2
+    ----------
+
+    Member States shall establish a long-term strategy to mobilise investment in the renovation of the national building stock, both public and private, including apartment blocks and individual homes.
+
+    ...
+
+    """ .
+
+<https://w3id.org/poli/article/eu-energy-efficiency-directive-2012/section1>
+  a polianna:Section ;
+  skos:notation "Article 1" ;
+  skos:prefLabel "Energy consumption targets" ;
+  polianna:text """
+    Member States shall ensure that their national energy consumption does not exceed the indicative targets laid down in Annex I.
+    """ .
+
+<https://w3id.org/poli/article/eu-energy-efficiency-directive-2012/section2>
+  a polianna:Section ;
+  skos:notation "Article 2" ;
+  skos:prefLabel "Renovation of national building stock" ;
+  polianna:text """
+    Member States shall establish a long-term strategy to mobilise investment in the renovation of the national building stock, both public and private, including apartment blocks and individual homes.
+    """ .
+
+...

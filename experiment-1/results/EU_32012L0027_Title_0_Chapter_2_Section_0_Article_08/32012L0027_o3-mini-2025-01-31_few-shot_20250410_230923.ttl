@@ -1,0 +1,21 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:contains_instrument pol:Energy_Audit_and_Management_System ;
+    pol:contains_objective pol:Support_for_SME ;
+    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2015-12-05"^^xsd:date ;
+    pol:annotatedText "by 5 december 2015 and at least every four years from the date of the previous energy audit" .
+
+pol:Energy_Audit_and_Management_System a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Energy Audits and Energy Management Systems" .
+
+pol:Support_for_SME a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Support for SMEs in energy audits and implementation of recommendations" .

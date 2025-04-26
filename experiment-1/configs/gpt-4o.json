@@ -1,0 +1,8 @@
+{
+    "test_data": "test_data",
+    "output_dir": "experiment-1/results",
+    "model_type": "openai",
+    "model_name": "gpt-4o-2024-08-06",
+    "strategies": ["zero-shot", "one-shot" ,"few-shot"],
+    "temperature": 0.0
+  }

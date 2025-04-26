@@ -1,0 +1,26 @@
+@prefix pol: <https://poliana.example.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2009/79/oj> a pol:Regulation ;
+    pol:annotators ( "B" "F" ) ;
+    pol:celexNumber "32009R0079" ;
+    pol:hasArticle <http://data.europa.eu/eli/reg/2009/79/oj/article/16> ;
+    pol:title "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16" .
+
+<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2> a pol:Paragraph ;
+    pol:appliesFrom <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date> .
+
+<http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/2/date> a pol:Date ;
+    pol:date "TBD"^^xsd:string .
+
+<http://data.europa.eu/eli/reg/2009/79/oj/article/16> a pol:Article ;
+    pol:entryIntoForce "2009-03-12"^^xsd:date ;
+    pol:exception <http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception> ;
+    pol:startDate "2011-02-24"^^xsd:date .
+
+<http://data.europa.eu/eli/reg/2009/79/oj/article/16/exception> a pol:Exception ;
+    pol:appliesTo <http://data.europa.eu/eli/reg/2009/79/oj/article/11/paragraph/3>,
+        <http://data.europa.eu/eli/reg/2009/79/oj/article/12> ;
+    pol:startDate "2009-03-12"^^xsd:date .
+

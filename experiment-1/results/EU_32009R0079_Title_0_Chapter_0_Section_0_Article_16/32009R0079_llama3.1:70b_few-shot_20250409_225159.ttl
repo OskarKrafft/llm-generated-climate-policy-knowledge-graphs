@@ -1,0 +1,17 @@
+@prefix poli: <http://purl.org/poli/> .
+
+poli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a poli:Article .
+poli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 poli:title "article 16" .
+poli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 poli:text "entry into force
+this regulation shall enter into force on the 20th day following its publication in the official journal of the european union.
+it shall apply from 24 february 2011, with the exception of article 11(3) and article 12, which shall apply from the date of entry into force of this regulation, and article 11(2), which shall apply from the date set out therein.
+this regulation shall be binding in its entirety and directly applicable in all member states." .
+
+poli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 poli:date_of_entry_into_force "the 20th day following its publication" .
+poli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 poli:applicable_from "24 february 2011" .
+
+poli:EU_32009R0079 a poli:Document ;
+    poli:title "eu regulation" ;
+    poli:celex_number "32009R0079" ;
+    poli:eli "http://data.europa.eu/eli/reg/2009/79/oj" ;
+    poli:annotated_by "B", "F" .

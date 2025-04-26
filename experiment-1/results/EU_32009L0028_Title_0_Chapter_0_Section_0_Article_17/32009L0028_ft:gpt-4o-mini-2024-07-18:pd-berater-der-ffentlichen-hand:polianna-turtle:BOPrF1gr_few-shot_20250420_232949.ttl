@@ -1,0 +1,58 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4060>,
+        pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_compliance_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_1,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_2,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_3,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_4,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_5,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_6,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_7,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_8 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2017-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2017" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2018-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2018" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2013-04-01"^^xsd:date ;
+    pol:annotatedText "1 april 2013" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2012-01-01"^^xsd:date ;
+    pol:annotatedText "2012" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_5 a pol:Time_Compliance ;
+    pol:Compliance_date "2009-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2009" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_6 a pol:Time_Compliance ;
+    pol:Compliance_date "2012-01-01"^^xsd:date ;
+    pol:annotatedText "2012" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_7 a pol:Time_Compliance ;
+    pol:Compliance_date "2012-01-01"^^xsd:date ;
+    pol:annotatedText "2012" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17_TimeCompliance_8 a pol:Time_Compliance ;
+    pol:Compliance_date "2012-01-01"^^xsd:date ;
+    pol:annotatedText "2012" .
+

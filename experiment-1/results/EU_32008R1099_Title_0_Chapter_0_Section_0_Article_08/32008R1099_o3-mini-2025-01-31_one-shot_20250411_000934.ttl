@@ -1,0 +1,19 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pol:32008R1099 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;
+    rdfs:comment "annual nuclear statistics: the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, and avoiding any duplication of data collection, while keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)" ;
+    pol:authorises <http://eurovoc.europa.eu/4038>, <http://eurovoc.europa.eu/2198> ;
+    pol:contains_instrument pol:Annual_Nuclear_Statistics ;
+    pol:specifies_in_effect_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect a pol:Time_InEffect ;
+    pol:In_effect_date "2009-01-01"^^xsd:date ;
+    pol:annotatedText "from 2009 onwards, first reported period" .
+
+pol:Annual_Nuclear_Statistics a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Annual Nuclear Statistics" .

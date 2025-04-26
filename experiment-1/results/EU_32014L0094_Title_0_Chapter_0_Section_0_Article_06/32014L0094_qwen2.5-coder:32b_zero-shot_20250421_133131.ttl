@@ -1,0 +1,66 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06 a pol:Article ;
+    pol:hasPart pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_1,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_10,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_11,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_12,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_2,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_3,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_4,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_5,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_6,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_7,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_8,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_9 ;
+    pol:hasTitle "natural gas supply for transport" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_1 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 1."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_10 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 10."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_11 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 11."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_12 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 12."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_2 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 2."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_3 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 3."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_4 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 4."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_5 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 5."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_6 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 6."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_7 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 7."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_8 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 8."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06_Part_9 a pol:ArticlePart ;
+    pol:hasContent "Below is the content of Part 9."@en ;
+    pol:hasDeadline "2023-12-31"^^xsd:date .
+

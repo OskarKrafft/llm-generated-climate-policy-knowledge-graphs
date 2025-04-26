@@ -1,0 +1,35 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    rdfs:label "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01" ;
+    rdfs:comment "article 1\nsubject matter\nthis directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels." ;
+    pol:CELEX_Number "32018L2001" ;
+    pol:ELI <http://data.europa.eu/eli/dir/2018/2001/oj> ;
+    pol:hasAnnotator pol:Annotator_C , pol:Annotator_F , pol:Annotator_B .
+
+pol:CELEX_Number a owl:DatatypeProperty ;
+    rdfs:domain pol:PolicyArticle ;
+    rdfs:range xsd:string .
+
+pol:ELI a owl:DatatypeProperty ;
+    rdfs:domain pol:PolicyArticle ;
+    rdfs:range xsd:anyURI .
+
+pol:hasAnnotator a owl:ObjectProperty ;
+    rdfs:domain pol:PolicyArticle ;
+    rdfs:range <http://data.europa.eu/eli/ontology#Agent> .
+
+pol:Annotator_C a <http://data.europa.eu/eli/ontology#Agent> ;
+    rdfs:label "C" .
+
+pol:Annotator_F a <http://data.europa.eu/eli/ontology#Agent> ;
+    rdfs:label "F" .
+
+pol:Annotator_B a <http://data.europa.eu/eli/ontology#Agent> ;
+    rdfs:label "B" .

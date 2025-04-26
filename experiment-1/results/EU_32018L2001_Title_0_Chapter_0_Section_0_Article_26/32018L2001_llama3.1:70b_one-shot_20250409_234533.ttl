@@ -1,0 +1,53 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefixowl: <http://www.w3.org/2002/07/owl#> .
+@prefix poliana: <http://purl.org/poliana/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj>
+    dc:title "EU Directive 2018/2001" ;
+    dct:description "Renewable Energy Directive" ;
+    eli:celexNumber "32018L2001" ;
+    foaf:maker <https://op.europa.eu/en/web/eu-law> .
+
+<http://example.org/article26>
+    a poliana:Article ;
+    dc:title "Article 26 - Specific rules for biofuels, bioliquids and biomass fuels produced from food and feed crops" ;
+    dct:description "Specific rules for the calculation of gross final consumption of energy from renewable sources." ;
+    eli:date "2018-12-11"^^xsd:date ;
+    poliana:hasSection <http://example.org/article26#section1>, 
+                        <http://example.org/article26#section2> .
+
+<http://example.org/article26#section1>
+    a poliana:Paragraph ;
+    dc:title "Calculation of gross final consumption of energy from renewable sources" ;
+    dct:description "The share of biofuels and bioliquids, as well as of biomass fuels consumed in transport, where produced from food and feed crops, shall be no more than one percentage point higher than the share of such fuels in the final consumption of energy in the road and rail transport sectors in 2020." ;
+    poliana:hasConstraint [
+        a poliana:Constraint ;
+        dc:title "Maximum limit for biofuels and bioliquids" ;
+        dct:description "The maximum limit is 7% of final consumption of energy in the road and rail transport sectors." 
+    ] .
+
+<http://example.org/article26#section2>
+    a poliana:Paragraph ;
+    dc:title "Calculation of high indirect land-use change-risk biofuels, bioliquids or biomass fuels" ;
+    dct:description "The share of high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed shall not exceed the level of consumption of such fuels in that member state in 2019." ;
+    poliana:hasConstraint [
+        a poliana:Constraint ;
+        dc:title "Limit on high indirect land-use change-risk biofuels" ;
+        dct:description "The limit shall gradually decrease to 0% by 31 December 2030."
+    ] .
+
+<http://example.org/annotation1>
+    a poliana:Annotation ;
+    dc:title "Annotation for Article 26" ;
+    dct:description "This annotation provides additional information about the article." ;
+    foaf:maker <https://example.org/C> ;
+    poliana:hasTarget <http://example.org/article26> .
+
+<https://example.org/F>
+    a foaf:Agent ;
+    foaf:name "Annotator F" .

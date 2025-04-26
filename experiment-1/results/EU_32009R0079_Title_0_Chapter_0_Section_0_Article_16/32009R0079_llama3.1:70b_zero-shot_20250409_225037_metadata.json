@@ -1,0 +1,25 @@
+{
+  "is_valid": false,
+  "graph": null,
+  "error": "at line 1 of <>:\nBad syntax (expected directive or statement) at ^ in:\n\"b''^b'turtle\\n@prefix dc: <http://purl.org/dc/terms/> .\\n@prefix eli'...\"",
+  "extracted_content": "turtle\n@prefix dc: <http://purl.org/dc/terms/> .\n@prefix eli: <http://data.europa.eu/eli/> .\n@prefix polianna: <https://polianna.ai/> .\n\n<http://example.com/policy/EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16>\n    dc:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    eli:CELEX \"32009R0079\" ;\n    eli:ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    dc:annotator \"B\", \"F\" ;\n    polianna:text \"\"\"article 16\nentry into force\nthis regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\nit shall apply from 24 february 2011, with the exception of article 11(3) and article 12, which shall apply from the date of entry into force of this regulation, and article 11(2), which shall apply from the date set out therein.\nthis regulation shall be binding in its entirety and directly applicable in all member states.\"\"\" .",
+  "original_output": "```\nturtle\n@prefix dc: <http://purl.org/dc/terms/> .\n@prefix eli: <http://data.europa.eu/eli/> .\n@prefix polianna: <https://polianna.ai/> .\n\n<http://example.com/policy/EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16>\n    dc:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    eli:CELEX \"32009R0079\" ;\n    eli:ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    dc:annotator \"B\", \"F\" ;\n    polianna:text \"\"\"article 16\nentry into force\nthis regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\nit shall apply from 24 february 2011, with the exception of article 11(3) and article 12, which shall apply from the date of entry into force of this regulation, and article 11(2), which shall apply from the date set out therein.\nthis regulation shall be binding in its entirety and directly applicable in all member states.\"\"\" .\n```",
+  "generation_time": 32.56542158126831,
+  "success": false,
+  "output": "```\nturtle\n@prefix dc: <http://purl.org/dc/terms/> .\n@prefix eli: <http://data.europa.eu/eli/> .\n@prefix polianna: <https://polianna.ai/> .\n\n<http://example.com/policy/EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16>\n    dc:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    eli:CELEX \"32009R0079\" ;\n    eli:ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    dc:annotator \"B\", \"F\" ;\n    polianna:text \"\"\"article 16\nentry into force\nthis regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\nit shall apply from 24 february 2011, with the exception of article 11(3) and article 12, which shall apply from the date of entry into force of this regulation, and article 11(2), which shall apply from the date set out therein.\nthis regulation shall be binding in its entirety and directly applicable in all member states.\"\"\" .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+      "CELEX_Number": "32009R0079",
+      "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+      "Annotators": [
+        "B",
+        "F"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "llama3.1:70b",
+    "timestamp": "2025-04-09T22:50:37.015069"
+  }
+}

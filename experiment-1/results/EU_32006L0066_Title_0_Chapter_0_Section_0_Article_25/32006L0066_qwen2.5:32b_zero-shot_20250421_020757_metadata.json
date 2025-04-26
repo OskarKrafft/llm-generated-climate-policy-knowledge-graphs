@@ -1,0 +1,24 @@
+{
+  "is_valid": false,
+  "error": "at line 32 of <>:\nBad syntax (expected directive or statement) at ^ in:\n\"...b'  pol:inCaseOfAmendment \"without delay\"^^xsd:string\\n    ] .\\n'^b'.'\"",
+  "extracted_content": "@prefix pol: <https://w3id.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj#Article_25>\n    a pol:LegalProvision ;\n    pol:title \"penalties\" ;\n    pol:celexNumber \"32006L0066\"^^xsd:string ;\n    pol:articleNumber \"25\"^^xsd:int ;\n    pol:annotators (\"C\" \"F\") .\n\n<http://data.europa.eu/eli/dir/2006/66/oj>\n    a pol:LegalAct ;\n    pol:hasProvision <http://data.europa.eu/eli/dir/2006/66/oj#Article_25> .\n\npol:MemberStates\n    pol:shallEstablishRules [\n        a pol:RuleSet ;\n        pol:penaltiesCharacteristics \"effective, proportionate and dissuasive\"^^xsd:string ;\n        pol:applicableTo \"infringements of national provisions adopted pursuant to this directive\"^^xsd:string ;\n        pol:notifiedTo <http://data.europa.eu/eli/org/commission> ;\n        pol:notificationDeadline \"2008-09-26\"^^xsd:date\n    ] .\n\npol:MemberStates\n    pol:shallTakeMeasures [\n        a pol:MeasureSet ;\n        pol:measuresType \"all necessary measures to ensure that they are implemented\"^^xsd:string ;\n        pol:inform <http://data.europa.eu/eli/org/commission> ;\n        pol:inCaseOfAmendment \"without delay\"^^xsd:string\n    ] .\n.",
+  "original_output": "```turtle\n@prefix pol: <https://w3id.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj#Article_25>\n    a pol:LegalProvision ;\n    pol:title \"penalties\" ;\n    pol:celexNumber \"32006L0066\"^^xsd:string ;\n    pol:articleNumber \"25\"^^xsd:int ;\n    pol:annotators (\"C\" \"F\") .\n\n<http://data.europa.eu/eli/dir/2006/66/oj>\n    a pol:LegalAct ;\n    pol:hasProvision <http://data.europa.eu/eli/dir/2006/66/oj#Article_25> .\n\npol:MemberStates\n    pol:shallEstablishRules [\n        a pol:RuleSet ;\n        pol:penaltiesCharacteristics \"effective, proportionate and dissuasive\"^^xsd:string ;\n        pol:applicableTo \"infringements of national provisions adopted pursuant to this directive\"^^xsd:string ;\n        pol:notifiedTo <http://data.europa.eu/eli/org/commission> ;\n        pol:notificationDeadline \"2008-09-26\"^^xsd:date\n    ] .\n\npol:MemberStates\n    pol:shallTakeMeasures [\n        a pol:MeasureSet ;\n        pol:measuresType \"all necessary measures to ensure that they are implemented\"^^xsd:string ;\n        pol:inform <http://data.europa.eu/eli/org/commission> ;\n        pol:inCaseOfAmendment \"without delay\"^^xsd:string\n    ] .\n.\n```",
+  "generation_time": 23.346866130828857,
+  "output": "```turtle\n@prefix pol: <https://w3id.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj#Article_25>\n    a pol:LegalProvision ;\n    pol:title \"penalties\" ;\n    pol:celexNumber \"32006L0066\"^^xsd:string ;\n    pol:articleNumber \"25\"^^xsd:int ;\n    pol:annotators (\"C\" \"F\") .\n\n<http://data.europa.eu/eli/dir/2006/66/oj>\n    a pol:LegalAct ;\n    pol:hasProvision <http://data.europa.eu/eli/dir/2006/66/oj#Article_25> .\n\npol:MemberStates\n    pol:shallEstablishRules [\n        a pol:RuleSet ;\n        pol:penaltiesCharacteristics \"effective, proportionate and dissuasive\"^^xsd:string ;\n        pol:applicableTo \"infringements of national provisions adopted pursuant to this directive\"^^xsd:string ;\n        pol:notifiedTo <http://data.europa.eu/eli/org/commission> ;\n        pol:notificationDeadline \"2008-09-26\"^^xsd:date\n    ] .\n\npol:MemberStates\n    pol:shallTakeMeasures [\n        a pol:MeasureSet ;\n        pol:measuresType \"all necessary measures to ensure that they are implemented\"^^xsd:string ;\n        pol:inform <http://data.europa.eu/eli/org/commission> ;\n        pol:inCaseOfAmendment \"without delay\"^^xsd:string\n    ] .\n.\n```",
+  "success": false,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+      "CELEX_Number": "32006L0066",
+      "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T02:07:57.948300"
+  }
+}

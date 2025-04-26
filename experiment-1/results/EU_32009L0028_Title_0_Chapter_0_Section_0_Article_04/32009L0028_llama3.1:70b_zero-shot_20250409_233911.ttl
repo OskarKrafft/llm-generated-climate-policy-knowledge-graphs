@@ -1,0 +1,72 @@
+turtle
+@prefix poli: <http://purl.org/olia/poli.owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04>
+  a poli:Policy ;
+  dc:title "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04" ;
+  dc:identifier "32009L0028" ;
+  owl:sameAs <http://data.europa.eu/eli/dir/2009/28/oj> .
+
+_:b1 
+  a poli:TextAnnotator ;
+  skos:altLabel "B" .
+
+_:a1 
+  a poli:TextAnnotator ;
+  skos:altLabel "A" .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04>
+  dc:annotator _:b1, _:a1 .
+
+_:article
+  a poli:PolicyArticle ;
+  dc:title "Article 4: National Renewable Energy Action Plans" ;
+  skos:partOf <http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04> .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04#Article4-Paragraph1>
+  a poli:PolicyArticleParagraph ;
+  dc:title "National Renewable Energy Action Plans" ;
+  skos:partOf _:article .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04#Article4-Paragraph1>
+  a poli:PolicyArticleParagraph ;
+  dc:description "Each Member State shall adopt a national renewable energy action plan. The national renewable energy action plans shall set out member states’ national targets for the share of energy from renewable sources consumed in transport, electricity and heating and cooling in 2020, taking into account the effects of other policy measures relating to energy efficiency on final consumption of energy, and adequate measures to be taken to achieve those national overall targets, including cooperation between local, regional and national authorities, planned statistical transfers or joint projects, national policies to develop existing biomass resources and mobilise new biomass resources for different uses, and the measures to be taken to fulfil the requirements of articles 13 to 19." .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04#Article4-Paragraph2>
+  a poli:PolicyArticleParagraph ;
+  dc:title "Submission and evaluation of national renewable energy action plans" ;
+  skos:partOf _:article .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04#Article4-Paragraph2>
+  a poli:PolicyArticleParagraph ;
+  dc:description "Member States shall notify their national renewable energy action plans to the Commission by 30 June 2010." .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04#Article4-Paragraph3>
+  a poli:PolicyArticleParagraph ;
+  dc:title "Forecast and evaluation" ;
+  skos:partOf _:article .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04#Article4-Paragraph3>
+  a poli:PolicyArticleParagraph ;
+  dc:description "Each Member State shall publish and notify to the Commission, six months before its national renewable energy action plan is due, a forecast document indicating its estimated excess production of energy from renewable sources compared to the indicative trajectory which could be transferred to other Member States in accordance with Articles 6 to 11, as well as its estimated potential for joint projects, until 2020." .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04#Article4-Paragraph4>
+  a poli:PolicyArticleParagraph ;
+  dc:title "Amendment of national renewable energy action plans" ;
+  skos:partOf _:article .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04#Article4-Paragraph4>
+  a poli:PolicyArticleParagraph ;
+  dc:description "A Member State which has not submitted its national renewable energy action plan by the deadline set out in paragraph 2 shall submit it to the Commission without delay." .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04#Article4-Paragraph5>
+  a poli:PolicyArticleParagraph ;
+  dc:title "Review and evaluation" ;
+  skos:partOf _:article .
+
+<http://example.com/EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04#Article4-Paragraph5>
+  a poli:PolicyArticleParagraph ;
+  dc:description "The Commission shall review and evaluate the national renewable energy action plans, taking into account the progress made by each Member State towards its national targets." .

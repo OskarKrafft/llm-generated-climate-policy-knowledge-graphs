@@ -1,0 +1,58 @@
+@prefix pol: <http://example.org/polanna#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://example.org/article/Article_7>
+    a pol:LegislativeArticle ;
+    pol:hasArticleNumber "7"^^xsd:string ;
+    pol:isPartOfDirective <http://example.org/directive/DIRECTIVE> .
+
+<http://example.org/provision/Provision_3>
+    a pol:LegislativeProvision ;
+    pol:hasProvisionType pol:TimeBoundRequirement ;
+    pol:requiresActionByDate "2021-12-31"^^xsd:date ;
+    pol:requiresMeasuresFor pol:fuelRenewableSourcesTransport ;
+    pol:isPartOfArticle <http://example.org/article/Article_7> .
+
+<http://example.org/provision/Provision_4>
+    a pol:LegislativeProvision ;
+    pol:hasProvisionType pol:GeneralRequirement ;
+    pol:requiresAccessToDatabase <http://example.org/database/UnionDatabase> ;
+    pol:ensuresEntryIntoDatabase <http://example.org/database/RelevantDatabase> ;
+    pol:requiresMeasuresFor pol:economicOperators ;
+    pol:isPartOfArticle <http://example.org/article/Article_7> .
+
+<http://example.org/provision/Provision_5>
+    a pol:LegislativeProvision ;
+    pol:hasProvisionType pol:TimeBoundRequirement ;
+    pol:requiresActionByDate "2021-12-31"^^xsd:date ;
+    pol:requiresAdoptionOfDelegatedActs <http://example.org/delegatedAct/MethodologyBiofuelShare> , <http://example.org/delegatedAct/GHG_EmissionsSavings> ;
+    pol:isPartOfArticle <http://example.org/article/Article_7> .
+
+<http://example.org/provision/Provision_6>
+    a pol:LegislativeProvision ;
+    pol:hasProvisionType pol:PeriodicRequirement ;
+    pol:requiresReviewDate "2019-06-25"^^xsd:date ;
+    pol:requiresSubsequentReviewsEvery "2"^^xsd:int ;
+    pol:isPartOfArticle <http://example.org/article/Article_7> .
+
+<http://example.org/provision/Provision_7>
+    a pol:LegislativeProvision ;
+    pol:hasProvisionType pol:TimeBoundRequirement ;
+    pol:requiresActionByDate "2025-12-31"^^xsd:date ;
+    pol:requiresAssessmentOfInnovationAndGHGEmissionsSavings ;
+    pol:isPartOfArticle <http://example.org/article/Article_7> .
+
+<http://example.org/database/UnionDatabase>
+    a pol:LegislativeResource ;
+    pol:isReferencedByProvision <http://example.org/provision/Provision_4>.
+
+<http://example.org/delegatedAct/MethodologyBiofuelShare>
+    a pol:DelegatedAct ;
+    pol:specifiesFor pol:biofuelShareMethodology ;
+    pol:isRequiredByProvision <http://example.org/provision/Provision_5> .
+
+<http://example.org/delegatedAct/GHG_EmissionsSavings>
+    a pol:DelegatedAct ;
+    pol:specifiesFor pol:greenhouseGasEmissionsSavingsMethodology ;
+    pol:isRequiredByProvision <http://example.org/provision/Provision_5>.
+.

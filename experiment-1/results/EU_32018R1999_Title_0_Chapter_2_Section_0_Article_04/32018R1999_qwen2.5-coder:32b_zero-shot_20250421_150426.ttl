@@ -1,0 +1,69 @@
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04 a eli:Article ;
+    eli:has_celex_number "32018R1999" ;
+    eli:has_part pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_Part_a,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_Part_b,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_Part_c,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_Part_d,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_Part_e ;
+    eli:is_about pol:Energy_Union_Dimensions ;
+    eli:number "4" ;
+    eli:title "national objectives, targets and contributions for the five dimensions of the energy union" .
+
+pol:Decarbonisation_Objective a pol:Objective ;
+    eli:title "national objectives with regard to decarbonisation" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_Part_a a eli:ArticlePart ;
+    eli:title "as regards the dimension ‘decarbonisation’" ;
+    pol:has_objective pol:Decarbonisation_Objective .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_Part_b a eli:ArticlePart ;
+    eli:title "as regards the dimension ‘energy security’" ;
+    pol:has_objective pol:Energy_Security_Objective_Diversification,
+        pol:Energy_Security_Objective_Flexibility,
+        pol:Energy_Security_Objective_Interrupted_Supply .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_Part_c a eli:ArticlePart ;
+    eli:title "as regards the dimension ‘internal energy market’" ;
+    pol:has_objective pol:Internal_Energy_Market_Objective_Interconnectivity,
+        pol:Internal_Energy_Market_Objective_System_Flexibility,
+        pol:Internal_Energy_Market_Objective_Transmission_Infrastructure .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_Part_d a eli:ArticlePart ;
+    eli:title "as regards the dimension ‘research, innovation and competitiveness’" ;
+    pol:has_objective pol:Research_Innovation_Competitiveness_Objective_2050_Objectives,
+        pol:Research_Innovation_Competitiveness_Objective_National_Targets .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_Part_e a eli:ArticlePart ;
+    eli:title "as regards the dimension ‘energy efficiency’" ;
+    pol:has_objective pol:Energy_Efficiency_Objective_National_Targets .
+
+pol:Energy_Efficiency_Objective_National_Targets a pol:Objective ;
+    eli:title "national objectives with regard to energy efficiency" .
+
+pol:Energy_Security_Objective_Diversification a pol:Objective ;
+    eli:title "increasing the diversification of energy sources and supply from third countries" .
+
+pol:Energy_Security_Objective_Flexibility a pol:Objective ;
+    eli:title "increasing the flexibility of the national energy system" .
+
+pol:Energy_Security_Objective_Interrupted_Supply a pol:Objective ;
+    eli:title "addressing constrained or interrupted supply of an energy source" .
+
+pol:Internal_Energy_Market_Objective_Interconnectivity a pol:Objective ;
+    eli:title "the level of electricity interconnectivity that the member state aims for in 2030" .
+
+pol:Internal_Energy_Market_Objective_System_Flexibility a pol:Objective ;
+    eli:title "increasing system flexibility, in particular through policies and measures related to market-based price formation" .
+
+pol:Internal_Energy_Market_Objective_Transmission_Infrastructure a pol:Objective ;
+    eli:title "key electricity and gas transmission infrastructure projects" .
+
+pol:Research_Innovation_Competitiveness_Objective_2050_Objectives a pol:Objective ;
+    eli:title "where available, national 2050 objectives related to the promotion of clean energy technologies" .
+
+pol:Research_Innovation_Competitiveness_Objective_National_Targets a pol:Objective ;
+    eli:title "national objectives and funding targets for public and, where available, private research and innovation relating to the energy union" .
+

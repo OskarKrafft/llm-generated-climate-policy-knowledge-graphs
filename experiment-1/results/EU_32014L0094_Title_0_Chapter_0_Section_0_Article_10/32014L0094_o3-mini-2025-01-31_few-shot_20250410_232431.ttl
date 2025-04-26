@@ -1,0 +1,34 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014L0094 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038> ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/4038>, <http://eurovoc.europa.eu/114>, <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_compliance_time pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_3,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_4 ;
+    pol:specifies_in_effect_time pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeInEffect_1 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2019-11-18"^^xsd:date ;
+    pol:annotatedText "18 november 2019, and every three years thereafter" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2017-11-18"^^xsd:date ;
+    pol:annotatedText "18 november 2017" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2020-11-18"^^xsd:date ;
+    pol:annotatedText "with effect from 18 november 2020" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2020" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2018-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2018" .

@@ -1,0 +1,76 @@
+turtle
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix polianna: <http://purl.org/net/polian#> .
+
+<http://example.org/article>
+  a polianna:Article ;
+  dc:title "Alternative Fuels Infrastructure" ;
+  dct:abstract "This article sets out the requirements for the development of alternative fuels infrastructure in the European Union." ;
+  foaf:primaryTopic <http://example.org/alternative-fuels-infrastructure> .
+
+<http://example.org/article>
+  polianna:hasParagraph [
+    a polianna:Paragraph ;
+    dc:description "Member States shall ensure that an appropriate number of refuelling points for liquefied natural gas (LNG) accessible to the public are put in place by 31 December 2020." ;
+    dct:date <http://example.org/2017-11-18> .
+  ].
+
+<http://example.org/article>
+  polianna:hasParagraph [
+    a polianna:Paragraph ;
+    dc:description "Member States shall ensure that an appropriate number of refuelling points for compressed natural gas (CNG) accessible to the public are put in place by 31 December 2025, at least along the existing TEN-T core network." .
+  ].
+
+<http://example.org/article>
+  polianna:hasParagraph [
+    a polianna:Paragraph ;
+    dc:description "The Commission shall assess the application of the requirement in paragraph 4 and, as appropriate, submit a proposal to amend this Directive by 31 December 2027." ;
+    dct:date <http://example.org/2017-11-18> .
+  ].
+
+<http://example.org/article>
+  polianna:hasParagraph [
+    a polianna:Paragraph ;
+    dc:description "The Union shall pursue the development by the relevant European or international standardisation organisations of standards, including detailed technical specifications, for refuelling points for LNG and CNG motor vehicles." .
+  ].
+
+<http://example.org/article>
+  polianna:hasArticleComponent [
+    a polianna:Subparagraph ;
+    dc:description "The Commission shall be empowered to adopt delegated acts in accordance with Article 8 to supplement this article and points 3.1, 3.2 and 3.4 of Annex II." .
+  ].
+
+<http://example.org/article>
+  polianna:hasArticleComponent [
+    a polianna:Subparagraph ;
+    dc:description "The Commission shall be empowered to adopt delegated acts in accordance with Article 8 to update the references to the standards referred to in the technical specifications set out or to be set out in point 3 of Annex II." .
+  ].
+
+<http://example.org/article>
+  polianna:hasArticleComponent [
+    a polianna:List ;
+    dc:description "The Commission shall pursue the development by the relevant European or international standardisation organisations of standards, including detailed technical specifications, for:" ;
+    polianna:listItem [
+      a polianna:ListItem ;
+      dc:description "refuelling points for LNG for maritime and inland waterway transport" .
+    ] ;
+    polianna:listItem [
+      a polianna:ListItem ;
+      dc:description "refuelling points for LNG and CNG motor vehicles" .
+    ].
+  ].
+
+<http://example.org/article>
+  polianna:hasDate [
+    a dct:Date ;
+    dc:date "2017-11-18"^^xsd:date .
+  ].
+
+<http://example.org/alternative-fuels-infrastructure>
+  a foaf:Topic .
+
+<http://example.org/alternative-fuels-infrastructure>
+  dct:title "Alternative Fuels Infrastructure".
+.

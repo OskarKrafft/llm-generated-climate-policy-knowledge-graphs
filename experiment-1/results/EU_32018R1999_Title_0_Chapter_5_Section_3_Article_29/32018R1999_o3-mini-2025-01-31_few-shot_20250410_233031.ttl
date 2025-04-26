@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29 .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29 a pol:PolicyArticle ;
+    rdfs:label "assessment of progress" ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_TimeMonitoring_1,
+                                   pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_TimeMonitoring_2 .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "by 31 october 2021 and every two years thereafter" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "by 31 october 2021 and every year thereafter" .

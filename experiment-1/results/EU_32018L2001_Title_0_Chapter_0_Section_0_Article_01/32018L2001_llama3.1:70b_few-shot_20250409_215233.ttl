@@ -1,0 +1,10 @@
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:Policy ;
+    rdfs:label "Energy from renewable sources" .
+
+pol:EU_32018L2001 a pol:Document ;
+    dc:title "Directive 2018/2001/EU" ;
+    skos:notation "32018L2001" ;
+    foaf:primaryTopic pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a owl:NamedIndividual, pol:Article ;
+    dc:description "Establishing a common framework for the promotion of energy from renewable sources" .

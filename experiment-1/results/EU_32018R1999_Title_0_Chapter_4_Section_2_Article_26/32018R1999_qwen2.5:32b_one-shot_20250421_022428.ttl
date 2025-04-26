@@ -1,0 +1,39 @@
+@prefix pol: <http://example.org/pollution/ontologies/> .
+
+pol:art26_1 pol:hasText "by 15 march 2021, and every year thereafter (year x), member states shall report to the commission:" ;
+    pol:isPartOf pol:art26 ;
+    pol:refersToArticle <http://example.org/article/6(2)_directive_2009/119/ec>,
+        <http://example.org/point3_annexIX_directive_2013/30/eu> .
+
+pol:art26_2b pol:hasText "the commission shall make that information available to the public by 30 september every year." ;
+    pol:isPartOf pol:art26_2 .
+
+pol:art26_3 pol:commissionAction "make information referred to in point (n) of part I of annex V available to the climate change committee" ;
+    pol:hasText "from 2023, member states shall determine and report to the commission final greenhouse gas inventory data by 15 march each year (year x) and preliminary data by 15 january each year" ;
+    pol:isPartOf pol:art26 ;
+    pol:refersToAnnex <http://example.org/annexV> .
+
+pol:art26_4 pol:commissionAction "compile a union greenhouse gas inventory and prepare a union greenhouse gas inventory report" ;
+    pol:hasText "member states shall submit to the unfccc secretariat national inventories containing the information submitted to the commission on the final greenhouse gas inventory data in accordance with paragraph 3 by 15 april each year" ;
+    pol:isPartOf pol:art26 .
+
+pol:art26_5 pol:hasText "member states shall report to the commission the preliminary and the final national inventory data, by 15 january and 15 march respectively in the years 2027 and 2032" ;
+    pol:isPartOf pol:art26 .
+
+pol:art26_6 pol:hasText "the commission is empowered to adopt delegated acts in order to amend part 2 of annex v by adding or deleting substances in the list of greenhouse gases" ;
+    pol:isPartOf pol:art26 .
+
+pol:art26_7 pol:hasText "the commission, assisted by the climate change committee, shall adopt implementing acts to set out the structure, technical details, format and processes for member states' submission" ;
+    pol:isPartOf pol:art26 .
+
+pol:art26_2 pol:commissionAction "compile a union approximated greenhouse gas inventory" ;
+    pol:hasText "by 31 july 2021, and every year thereafter (year x), member states shall report to the commission their approximated greenhouse gas inventories for the year x-1." ;
+    pol:isPartOf pol:art26 .
+
+pol:art26 pol:annotatedBy "A",
+        "C" ;
+    pol:hasArticleTitle "article 26" ;
+    pol:isAbout "annual reporting" ;
+    pol:ojLink <http://example.org/oj/reg/2018/1999> ;
+    pol:regulationReference "Regulation (EU) 2018/1999" .
+

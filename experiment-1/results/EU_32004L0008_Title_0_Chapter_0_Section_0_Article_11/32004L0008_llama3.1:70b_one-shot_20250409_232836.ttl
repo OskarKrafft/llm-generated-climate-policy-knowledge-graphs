@@ -1,0 +1,51 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix poliann: <http://purl.org/poliann/> .
+
+<http://example.com/EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11>
+  a poliann:Policy ;
+  dc:title "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11" ;
+  eli:celexNumber "32004L0008" ;
+  eli:eli <http://data.europa.eu/eli/dir/2004/8/oj> .
+
+<http://example.com/EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11>
+  poliann:article "article 11" ;
+  poliann:section [
+    a poliann:Section ;
+    poliann:number "1" ;
+    poliann:text "On the basis of the reports submitted pursuant to Article 10, the Commission shall review the application of this Directive and submit to the European Parliament and to the Council not later than 21 February 2008 and thereafter every four years, a progress report on the implementation of this Directive." ;
+    poliann:subsections [
+      a poliann:Subsection ;
+      poliann:number "(a)" ;
+      poliann:text "consider progress towards realising national potentials for high-efficiency cogeneration referred to in Article 6;"
+    ] , [
+      a poliann:Subsection ;
+      poliann:number "(b)" ;
+      poliann:text "assess the extent to which rules and procedures defining the framework conditions for cogeneration in the internal energy market are set on the basis of objective, transparent and non-discriminatory criteria taking due account of the benefits of cogeneration;"
+    ] , [
+      a poliann:Subsection ;
+      poliann:number "(c)" ;
+      poliann:text "examine the experiences gained with the application and coexistence of different support mechanisms for cogeneration;"
+    ] , [
+      a poliann:Subsection ;
+      poliann:number "(d)" ;
+      poliann:text "review efficiency reference values for separate production on the basis of the current technologies."
+    ]
+  ] .
+
+<http://example.com/EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11>
+  poliann:section [
+    a poliann:Section ;
+    poliann:number "2" ;
+    poliann:text "When evaluating the progress referred to in paragraph 1(a), the Commission shall consider to what extent the national potentials for high-efficiency cogeneration, referred to in Article 6, have been or are foreseen to be realised taking into account Member State measures, conditions, including climate conditions, and impacts of the internal energy market and implications of other Community initiatives such as Directive 2003/87/EC of the European Parliament and of the Council of 13 October 2003 establishing a scheme for greenhouse gas emission allowance trading within the Community and amending Council Directive 96/61/EC(19)."
+  ] .
+
+<http://example.com/EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11>
+  poliann:section [
+    a poliann:Section ;
+    poliann:number "3" ;
+    poliann:text "When evaluating the scope for further harmonisation of calculation methods as referred to in Article 4(1), the Commission shall consider the impact of the coexistence of calculations as referred to in Article 12, Annex II and Annex III, on the internal energy market also taking into account the experiences gained from national support mechanisms."
+  ] .

@@ -1,0 +1,273 @@
+@prefix pola: <http://example.org/polia#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    dcterms:title "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14" ;
+    pola:celexNumber "32018R1999" ;
+    pola:eli "http://data.europa.eu/eli/reg/2018/1999/oj" ;
+    pola:annotatedBy "A", "C" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:hasDeadline "2023-06-30"^^xsd:date ;
+        pola:actionDescription "submit draft update of the latest notified integrated national energy and climate plan or provide reasons justifying why the plan does not require updating." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:hasDeadline "2024-06-30"^^xsd:date ;
+        pola:actionDescription "submit an update of the latest notified integrated national energy and climate plan, unless reasons are provided why the plan does not require updating." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:hasDeadline "2033-01-01"^^xsd:date ;
+        pola:actionDescription "submit draft update of the latest notified integrated national energy and climate plan or provide reasons justifying why the plan does not require updating." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:hasDeadline "2034-01-01"^^xsd:date ;
+        pola:actionDescription "submit an update of the latest notified integrated national energy and climate plan, unless reasons are provided why the plan does not require updating." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:hasDeadline "2024-06-30"^^xsd:date ;
+        pola:actionDescription "modify national objective, target or contribution with regard to any of the quantified union objectives, targets or contributions set out in point (a)(1) of article 4 to reflect an increased ambition as compared to that set out in its latest notified integrated national energy and climate plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:hasDeadline "2024-06-30"^^xsd:date ;
+        pola:actionDescription "modify national objective, target or contribution with regard to any of the quantified union objectives, targets or contributions set out in points (a)(2) and (b) of article 4 only to reflect an equal or increased ambition as compared to that set out in its latest notified integrated national energy and climate plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "mitigate adverse impacts of the updated plan on environment and society." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "consider environmental and societal impacts in the plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "follow the procedures outlined in article 4 for updating the plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "mitigate adverse impacts of the updated plan on environment and society." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "mitigate adverse impacts of the updated plan on environment and society." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "consider environmental and societal impacts in the plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "follow the procedures outlined in article 4 for updating the plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "mitigate adverse impacts of the updated plan on environment and society." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "mitigate adverse impacts of the updated plan on environment and society." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "consider environmental and societal impacts in the plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "follow the procedures outlined in article 4 for updating the plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "mitigate adverse impacts of the updated plan on environment and society." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "mitigate adverse impacts of the updated plan on environment and society." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "consider environmental and societal impacts in the plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "follow the procedures outlined in article 4 for updating the plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "mitigate adverse impacts of the updated plan on environment and society." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "ensure the plan is updated in line with requirements of article 4." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "mitigate adverse impacts of the updated plan on environment and society." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "consider environmental and societal impacts in the plan." .
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14>
+    pola:requiresAction [
+        a pola:Requirement ;
+        pola:actionDescription "follow the procedures outlined in article 4 for updating the plan." .
+    ] . It seems like you are trying to outline requirements or actions related to some kind of regulatory document, possibly from the European Union. However, your representation is repetitive and somewhat unclear.
+
+Let's break down a more coherent approach:
+
+### Requirements and Actions
+
+1. **Ensure Compliance with Article 4:**
+   - Ensure that any updates to the plan are in line with the requirements specified in Article 4.
+   
+2. **Mitigate Adverse Impacts:**
+   - Identify potential adverse impacts of the updated plan on the environment and society, and implement measures to mitigate these effects.
+
+3. **Consider Environmental and Societal Impacts:**
+   - Evaluate how the proposed updates will affect both environmental and societal factors.
+
+4. **Follow Procedures Outlined in Article 4:**
+   - Adhere to all procedures detailed in Article 4 when updating the plan.
+
+### Example RDF (Resource Description Framework) Representation

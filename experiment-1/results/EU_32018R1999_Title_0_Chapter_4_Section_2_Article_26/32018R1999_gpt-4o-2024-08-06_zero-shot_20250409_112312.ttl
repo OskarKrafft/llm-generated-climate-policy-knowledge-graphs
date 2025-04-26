@@ -1,0 +1,67 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26> a pol:PolicyArticle ;
+    pol:annotatedText "article 26 annual reporting" ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2021-03-15"^^xsd:date ;
+        pol:annotatedText "by 15 march 2021, and every year thereafter (year x), member states shall report to the commission"
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2021-07-31"^^xsd:date ;
+        pol:annotatedText "by 31 july 2021, and every year thereafter (year x), member states shall report to the commission their approximated greenhouse gas inventories for the year x-1"
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2023-03-15"^^xsd:date ;
+        pol:annotatedText "from 2023, member states shall determine and report to the commission final greenhouse gas inventory data by 15 march each year (year x)"
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2023-01-15"^^xsd:date ;
+        pol:annotatedText "preliminary data by 15 january each year"
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2027-01-15"^^xsd:date ;
+        pol:annotatedText "by 15 january and 15 march respectively in the years 2027 and 2032"
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2027-03-15"^^xsd:date ;
+        pol:annotatedText "by 15 january and 15 march respectively in the years 2027 and 2032"
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2032-01-15"^^xsd:date ;
+        pol:annotatedText "by 15 january and 15 march respectively in the years 2027 and 2032"
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2032-03-15"^^xsd:date ;
+        pol:annotatedText "by 15 january and 15 march respectively in the years 2027 and 2032"
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2023-04-15"^^xsd:date ;
+        pol:annotatedText "by 15 april each year"
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2023-09-30"^^xsd:date ;
+        pol:annotatedText "the commission shall make that information available to the public by 30 september every year"
+    ] ;
+    pol:contains_instrument <http://eurovoc.europa.eu/5782> ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:addresses <http://eurovoc.europa.eu/4060> ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring <https://polianna-kg.org/Ontology#Member_States> ;
+    pol:establishes_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/2243> ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114> ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/128> ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/4060> .

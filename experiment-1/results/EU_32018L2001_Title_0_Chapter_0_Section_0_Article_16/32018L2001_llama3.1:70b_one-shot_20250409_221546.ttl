@@ -1,0 +1,72 @@
+@prefix poliana: <http://www.poliana.eu/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj>
+    rdf:type poliana:Policy ;
+    rdfs:label "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16" ;
+    poliana:CELEXNumber "32018L2001" .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj>
+    rdf:type poliana:Article ;
+    rdfs:label "article 16" ;
+    poliana:hasSection <http://data.europa.eu/eli/dir/2018/2001/oj#section_1>,
+                       <http://data.europa.eu/eli/dir/2018/2001/oj#section_2>,
+                       <http://data.europa.eu/eli/dir/2018/2001/oj#section_3>,
+                       <http://data.europa.eu/eli/dir/2018/2001/oj#section_4>,
+                       <http://data.europa.eu/eli/dir/2018/2001/oj#section_5>,
+                       <http://data.europa.eu/eli/dir/2018/2001/oj#section_6>,
+                       <http://data.europa.eu/eli/dir/2018/2001/oj#section_7>,
+                       <http://data.europa.eu/eli/dir/2018/2001/oj#section_8> .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#section_1>
+    rdf:type poliana:Section ;
+    rdfs:label "organisation and duration of the permit-granting process" ;
+    poliana:text "Member States shall set up or designate one or more contact points. Those contact points shall, upon request by the applicant, guide through and facilitate the entire administrative permit application and granting process. The applicant shall not be required to contact more than one contact point for the entire process." .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#section_2>
+    rdf:type poliana:Section ;
+    rdfs:label "The contact point shall guide the applicant through the administrative permit application process in a transparent manner" ;
+    poliana:text "up to the delivery of one or several decisions by the responsible authorities at the end of the process, provide the applicant with all necessary information and involve, where appropriate, other administrative authorities. Applicants shall be allowed to submit relevant documents also in digital form." .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#section_3>
+    rdf:type poliana:Section ;
+    rdfs:label "The contact point shall make available a manual of procedures" ;
+    poliana:text "for developers of renewable energy production projects and shall provide that information also online, addressing distinctly also small-scale projects and renewables self-consumers projects. The online information shall indicate the contact point relevant to the applicant's application." .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#section_4>
+    rdf:type poliana:Section ;
+    rdfs:label "Without prejudice to paragraph 7" ;
+    poliana:text ", the permit-granting process referred to in paragraph 1 shall not exceed two years for power plants, including all relevant procedures of competent authorities. Where duly justified on the grounds of extraordinary circumstances, that two-year period may be extended by up to one year." .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#section_5>
+    rdf:type poliana:Section ;
+    rdfs:label "Without prejudice to paragraph 7" ;
+    poliana:text ", the permit-granting process shall not exceed one year for installations with an electrical capacity of less than 150 kW. Where duly justified on the grounds of extraordinary circumstances, that one-year period may be extended by up to one year." .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#section_6>
+    rdf:type poliana:Section ;
+    rdfs:label "Member States shall facilitate the repowering of existing renewable energy plants" ;
+    poliana:text "by ensuring a simplified and swift permit-granting process. The length of that process shall not exceed one year." .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#section_7>
+    rdf:type poliana:Section ;
+    rdfs:label "The deadlines established in this article" ;
+    poliana:text "shall apply without prejudice to paragraph 7." .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#section_8>
+    rdf:type poliana:Section ;
+    rdfs:label "Member States shall ensure that the permit-granting process" ;
+    poliana:text "is transparent and that the applicant is informed of the progress of the application." .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj>
+    poliana:hasAnnotator <http://data.europa.eu/eli/dir/2018/2001/oj#annotator_C> ;
+    poliana:hasAnnotator <http://data.europa.eu/eli/dir/2018/2001/oj#annotator_D> .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#annotator_C>
+    rdf:type poliana:Annotator ;
+    rdfs:label "C" .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj#annotator_D>
+    rdf:type poliana:Annotator ;
+    rdfs:label "D" .

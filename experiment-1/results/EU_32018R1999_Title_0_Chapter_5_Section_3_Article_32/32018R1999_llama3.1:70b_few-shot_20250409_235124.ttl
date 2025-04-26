@@ -1,0 +1,101 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix polianna: <https://w3id.org/poli/annah/> .
+
+<https://w3id.org/poli/annah/resource/article-2020-01>
+    a polianna:Article ;
+    polianna:title "EU Renewable Energy Directive" ;
+    polianna:paragraph [
+        rdf:value "Member States shall ensure that the share of energy from renewable sources in their gross final consumption of energy is at least 32% by 2030." ;
+        polianna:sentence [
+            rdf:value "The Commission shall assess, by 2023 and every two years thereafter, whether the Union is on track to meet its renewable energy targets." ;
+            polianna:section [
+                a polianna:Section ;
+                rdf:value "Progress towards collectively achieving the Union's renewable energy targets"
+            ] ;
+            polianna:article [
+                a polianna:Article ;
+                rdf:value "29(3)"
+            ]
+        ] ;
+        polianna:sentence [
+            rdf:value "The Commission shall, by 2025 and every two years thereafter, assess whether the Union is on track to meet its energy efficiency targets." ;
+            polianna:section [
+                a polianna:Section ;
+                rdf:value "Progress towards collectively achieving the Union's energy efficiency targets"
+            ] ;
+            polianna:article [
+                a polianna:Article ;
+                rdf:value "29(3)"
+            ]
+        ]
+    ] ;
+    polianna:paragraph [
+        rdf:value "Member States shall ensure that their greenhouse gas emissions from land use, land-use change and forestry are offset by an equivalent removal of CO2 from the atmosphere." ;
+        polianna:sentence [
+            rdf:value "The Commission shall assess, by 2023 and every two years thereafter, whether the Union is on track to meet its greenhouse gas emission reduction targets." ;
+            polianna:section [
+                a polianna:Section ;
+                rdf:value "Progress towards collectively achieving the Union's greenhouse gas emission reduction targets"
+            ] ;
+            polianna:article [
+                a polianna:Article ;
+                rdf:value "29(1)"
+            ]
+        ] ;
+        polianna:sentence [
+            rdf:value "Member States shall submit their national long-term low-greenhouse gas emission development strategies to the Commission by 2020." ;
+            polianna:section [
+                a polianna:Section ;
+                rdf:value "National long-term low-greenhouse gas emission development strategies"
+            ] ;
+            polianna:article [
+                a polianna:Article ;
+                rdf:value "15(1)"
+            ]
+        ]
+    ] ;
+    polianna:metadata [
+        a polianna:Metadata ;
+        polianna:creator "European Union" ;
+        polianna:date "2020-01-01"
+    ] .
+
+<https://w3id.org/poli/annah/resource/article-2018-12>
+    a polianna:Article ;
+    polianna:title "EU Renewable Energy Directive (recast)" ;
+    polianna:paragraph [
+        rdf:value "Member States shall ensure that the share of energy from renewable sources in their gross final consumption of energy is at least 27% by 2030." ;
+        polianna:sentence [
+            rdf:value "The Commission shall assess, by 2023 and every two years thereafter, whether the Union is on track to meet its renewable energy targets." ;
+            polianna:section [
+                a polianna:Section ;
+                rdf:value "Progress towards collectively achieving the Union's renewable energy targets"
+            ] ;
+            polianna:article [
+                a polianna:Article ;
+                rdf:value "25(1)"
+            ]
+        ]
+    ] .
+
+<https://w3id.org/poli/annah/resource/article-2010-05>
+    a polianna:Article ;
+    polianna:title "EU Energy Efficiency Directive" ;
+    polianna:paragraph [
+        rdf:value "Member States shall ensure that their energy consumption does not exceed 1,483 Mtoe by 2020." ;
+        polianna:sentence [
+            rdf:value "The Commission shall assess, by 2014 and every three years thereafter, whether the Union is on track to meet its energy efficiency targets." ;
+            polianna:section [
+                a polianna:Section ;
+                rdf:value "Progress towards collectively achieving the Union's energy efficiency targets"
+            ] ;
+            polianna:article [
+                a polianna:Article ;
+                rdf:value "24(1)"
+            ]
+        ]
+    ] .
+
+<https://w3id.org/poli/annah/resource/article-2020-01> polianna:cites <https://w3id.org/poli/annah/resource/article-2018-12>, <https://w3id.org/poli/annah/resource/article-2010-05> .

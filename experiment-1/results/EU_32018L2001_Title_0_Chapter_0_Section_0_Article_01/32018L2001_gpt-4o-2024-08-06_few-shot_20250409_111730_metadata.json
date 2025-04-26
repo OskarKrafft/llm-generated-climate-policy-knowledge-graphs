@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "graph": "[a rdfg:Graph;rdflib:storage [a rdflib:Store;rdfs:label 'Memory']].",
+  "error": null,
+  "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_instrument pol:FrameworkPolicy,\n        pol:PublicInvestment,\n        pol:Subsidies_Incentives ;\n    pol:contains_objective pol:Objective ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_sanctioning_form pol:Form_sanctioning ;\n    pol:specifies_in_effect_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01_TimeInEffect_2030 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01_TimeInEffect_2030 a pol:Time_InEffect ;\n    pol:In_effect_date \"2030-01-01\"^^xsd:date ;\n    pol:annotatedText \"2030\" .",
+  "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_instrument pol:FrameworkPolicy,\n        pol:PublicInvestment,\n        pol:Subsidies_Incentives ;\n    pol:contains_objective pol:Objective ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_sanctioning_form pol:Form_sanctioning ;\n    pol:specifies_in_effect_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01_TimeInEffect_2030 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01_TimeInEffect_2030 a pol:Time_InEffect ;\n    pol:In_effect_date \"2030-01-01\"^^xsd:date ;\n    pol:annotatedText \"2030\" .\n```",
+  "generation_time": 4.9977028369903564,
+  "success": true,
+  "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32018L2001 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_instrument pol:FrameworkPolicy,\n        pol:PublicInvestment,\n        pol:Subsidies_Incentives ;\n    pol:contains_objective pol:Objective ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_sanctioning_form pol:Form_sanctioning ;\n    pol:specifies_in_effect_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01_TimeInEffect_2030 .\n\npol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01_TimeInEffect_2030 a pol:Time_InEffect ;\n    pol:In_effect_date \"2030-01-01\"^^xsd:date ;\n    pol:annotatedText \"2030\" .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01",
+      "CELEX_Number": "32018L2001",
+      "ELI": "http://data.europa.eu/eli/dir/2018/2001/oj",
+      "Annotators": [
+        "C",
+        "F",
+        "B"
+      ]
+    },
+    "prompt_strategy": "few-shot",
+    "output_format": "ttl",
+    "model": "gpt-4o-2024-08-06",
+    "timestamp": "2025-04-09T11:17:30.843142"
+  }
+}

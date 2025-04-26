@@ -1,0 +1,62 @@
+@prefix poli: <http://www.purl.org/NET/polian#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj>
+  a poli:Legislation ;
+  poli:hasTitle "Regulation (EU) 2018/1999" ;
+  poli:celexNumber "32018R1999" ;
+  poli:eli "http://data.europa.eu/eli/reg/2018/1999/oj" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_26>
+  a poli:Article ;
+  poli:belongsTo <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+  poli:number "26" ;
+  poli:title "Annual reporting" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_26-Paragraph_1>
+  a poli:Paragraph ;
+  poli:belongsTo <http://data.europa.eu/eli/reg/2018/1999/oj#Article_26> ;
+  poli:number "1" ;
+  poli:text "By 15 March 2021, and every year thereafter (year x), Member States shall report to the Commission:" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_26-Paragraph_1-Point_a>
+  a poli:ListItem ;
+  poli:belongsTo <http://data.europa.eu/eli/reg/2018/1999/oj#Article_26-Paragraph_1> ;
+  poli:number "(a)" ;
+  poli:text "the information referred to in Article 6(2) of Directive 2009/119/EC" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_26-Paragraph_1-Point_b>
+  a poli:ListItem ;
+  poli:belongsTo <http://data.europa.eu/eli/reg/2018/1999/oj#Article_26-Paragraph_1> ;
+  poli:number "(b)" ;
+  poli:text "the information referred to in point 3 of Annex IX of Directive 2013/30/EU, in accordance with Article 25 of that Directive" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_26-Paragraph_2>
+  a poli:Paragraph ;
+  poli:belongsTo <http://data.europa.eu/eli/reg/2018/1999/oj#Article_26> ;
+  poli:number "2" ;
+  poli:text "By 31 July 2021, and every year thereafter (year x), Member States shall report to the Commission their approximated greenhouse gas inventories for the year x-1." .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_26-Paragraph_3>
+  a poli:Paragraph ;
+  poli:belongsTo <http://data.europa.eu/eli/reg/2018/1999/oj#Article_26> ;
+  poli:number "3" ;
+  poli:text "From 2023, Member States shall determine and report to the Commission final greenhouse gas inventory data by 15 March each year (year x) and preliminary data by 15 January each year, including the greenhouse gases and the inventory information listed in Annex V." .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_26-Paragraph_4>
+  a poli:Paragraph ;
+  poli:belongsTo <http://data.europa.eu/eli/reg/2018/1999/oj#Article_26> ;
+  poli:number "4" ;
+  poli:text "Member States shall submit to the UNFCCC secretariat national inventories containing the information submitted to the Commission on the final greenhouse gas inventory data in accordance with paragraph 3 by 15 April each year." .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_26-Paragraph_5>
+  a poli:Paragraph ;
+  poli:belongsTo <http://data.europa.eu/eli/reg/2018/1999/oj#Article_26> ;
+  poli:number "5" ;
+  poli:text "Member States shall report to the Commission the preliminary and the final national inventory data, by 15 January and 15 March respectively in the years 2027 and 2032, prepared for their LULUCF accounts for the purpose of the compliance reports in accordance with Article 14 of Regulation (EU) 2018/1999." .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article_26-Paragraph_6>
+  a poli:Paragraph ;
+  poli:belongsTo <http://data.europa.eu/eli/reg/2018/1999/oj#Article_26> ;
+  poli:number "6" ;
+  poli:text "The Commission is empowered to adopt delegated acts in accordance with Article 36 to supplement this Regulation by laying down detailed rules on the reporting of information by Member States." .

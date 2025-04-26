@@ -1,0 +1,33 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17> a pol:PolicyArticle ;
+    pol:annotatedText "Sustainability criteria for biofuels and bioliquids" ;
+    pol:contains_instrument <http://eurovoc.europa.eu/1459> ;
+    pol:contains_objective <https://polianna-kg.org/Ontology#Objective> ;
+    pol:specifies_compliance_time [
+        a pol:Time_Compliance ;
+        pol:Compliance_date "2013-04-01"^^xsd:date
+    ] ;
+    pol:specifies_compliance_time [
+        a pol:Time_Compliance ;
+        pol:Compliance_date "2017-01-01"^^xsd:date
+    ] ;
+    pol:specifies_compliance_time [
+        a pol:Time_Compliance ;
+        pol:Compliance_date "2018-01-01"^^xsd:date
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2012-01-01"^^xsd:date
+    ] ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2009-12-31"^^xsd:date
+    ] ;
+    pol:addresses <http://eurovoc.europa.eu/4060> ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring <http://eurovoc.europa.eu/4060> ;
+    pol:contains_monitoring_form <https://polianna-kg.org/Ontology#Form_monitoring> ;
+    pol:contains_sanctioning_form <https://polianna-kg.org/Ontology#Form_sanctioning> .

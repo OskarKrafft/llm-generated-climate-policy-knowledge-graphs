@@ -1,0 +1,60 @@
+@prefix ex: <http://example.org/> .
+@prefix pol: <http://poliaa.org/ontology#> .
+
+ex:Article26 a pol:ReportingRequirement ;
+    pol:hasReportingDate "2021-03-15"^^xsd:date ;
+    pol:hasFrequency pol:Annual ;
+    pol:requiresReport ex:Report1, ex:Report2, ex:Report3, ex:Report4, ex:Report5 .
+
+ex:Report1 a pol:InformationReport ;
+    pol:reportsOn ex:InfoFromArticle6_2, ex:InfoFromAnnexIXPoint3 ;
+    pol:dueDate "2021-03-15"^^xsd:date ;
+    pol:frequency pol:Annual .
+
+ex:Report2 a pol:GreenhouseGasInventoryReport ;
+    pol:reportsOn ex:ApproximatedGHGInventories ;
+    pol:dueDate "2021-07-31"^^xsd:date ;
+    pol:frequency pol:Annual ;
+    pol:compiledBy ex:Commission .
+
+ex:Report3 a pol:GreenhouseGasInventoryReport ;
+    pol:reportsOn ex:FinalGHGInventoryData, ex:PreliminaryGHGInventoryData ;
+    pol:dueDate "2023-01-15"^^xsd:date, "2023-03-15"^^xsd:date ;
+    pol:frequency pol:Annual ;
+    pol:compiledBy ex:Commission .
+
+ex:Report4 a pol:NationalInventoryReport ;
+    pol:reportsOn ex:LULUCFAccounts ;
+    pol:dueDate "2027-01-15"^^xsd:date, "2032-01-15"^^xsd:date, "2027-03-15"^^xsd:date, "2032-03-15"^^xsd:date ;
+    pol:frequency pol:Biennial .
+
+ex:Report5 a pol:NationalInventoryReport ;
+    pol:reportsOn ex:FinalGHGInventoryDataForUNFCCC ;
+    pol:dueDate "2023-04-15"^^xsd:date ;
+    pol:frequency pol:Annual ;
+    pol:compiledBy ex:Commission .
+
+ex:InfoFromArticle6_2 a pol:InformationType .
+ex:InfoFromAnnexIXPoint3 a pol:InformationType .
+ex:ApproximatedGHGInventories a pol:InventoryType .
+ex:FinalGHGInventoryData a pol:InventoryType .
+ex:PreliminaryGHGInventoryData a pol:InventoryType .
+ex:LULUCFAccounts a pol:AccountType .
+ex:FinalGHGInventoryDataForUNFCCC a pol:InventoryType .
+
+ex:Commission a pol:ReportingAuthority ;
+    pol:compiles ex:UnionApproximatedGHGInventory, ex:UnionGreenhouseGasInventoryReport ;
+    pol:submitsTo ex:UNFCCCSecretariat .
+
+ex:UNFCCCSecretariat a pol:InternationalSecretariat ;
+    pol:receives ex:NationalInventoriesForUNFCCC .
+
+ex:UnionApproximatedGHGInventory a pol:InventoryType .
+ex:UnionGreenhouseGasInventoryReport a pol:ReportType .
+ex:NationalInventoriesForUNFCCC a pol:InventoryType .
+
+ex:ClimateChangeCommittee a pol:AdvisoryBody ;
+    pol:assists ex:Commission .
+
+pol:Annual a pol:FrecuencyType .
+pol:Biennial a pol:FrecuencyType .

@@ -1,0 +1,45 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeCompliance_1,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeCompliance_2,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeCompliance_3 ;
+    pol:specifies_monitoring_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeMonitoring_4,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeMonitoring_5,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeMonitoring_6 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2021" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2021" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2025" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "25 june 2019" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28_TimeMonitoring_6 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years thereafter" .
+

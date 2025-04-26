@@ -1,0 +1,29 @@
+@prefix pol: <http://example.org/poliana/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/policy/EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14> a pol:Article ;
+    rdfs:label "EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14" ;
+    pol:annotatedBy "C",
+        "F" ;
+    pol:hasCELEXNumber "32006L0032" ;
+    pol:hasELI <http://data.europa.eu/eli/dir/2006/32/oj> ;
+    pol:hasProvision [ a pol:Provision ;
+            rdfs:label "Member states that already use calculation methods for measuring energy savings similar to those described in annex iv may submit information not later than 17 November 2006." ],
+        [ a pol:Provision ;
+            rdfs:label "Member states shall submit the following EEAPs to the commission:" ;
+            pol:submitByDeadline <http://example.org/EEAPSubmission/date/30June2007>,
+                <http://example.org/EEAPSubmission/date/30June2011>,
+                <http://example.org/EEAPSubmission/date/30June2014> ],
+        [ a pol:Provision ;
+            rdfs:label "Not later than 17 May 2008, the commission shall publish a cost/benefit impact assessment examining the linkages between EU standards, regulations, policies and measures on end-use energy efficiency." ],
+        [ a pol:Provision ;
+            rdfs:label "The EEAPs shall be assessed in accordance with the procedure referred to in article 16(2):" ;
+            pol:reviewByDeadline <http://example.org/EEAPReview/date/01January2008>,
+                <http://example.org/EEAPReview/date/01January2012>,
+                <http://example.org/EEAPReview/date/01January2015> ],
+        [ a pol:Provision ;
+            rdfs:label "On the basis of the EEAPs, the commission shall assess progress towards achieving national indicative energy savings targets and publish reports with its conclusions." ;
+            pol:publishReportByDeadline <http://example.org/CommissionReport/date/01January2008>,
+                <http://example.org/CommissionReport/date/01January2012>,
+                <http://example.org/CommissionReport/date/01January2015> ] .
+

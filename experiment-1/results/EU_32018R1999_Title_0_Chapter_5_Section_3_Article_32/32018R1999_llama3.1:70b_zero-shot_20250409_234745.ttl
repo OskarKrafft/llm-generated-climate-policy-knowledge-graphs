@@ -1,0 +1,46 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix polianna: <https://w3id.org/polianna/> .
+
+polianna:article_2022-001 rdf:type polianna:Article ;
+    dc:title "Renewable Energy Directive" ;
+    dc:description "EU Renewable Energy Directive Article 32" ;
+    skos:notation "Art.32 REDII" ;
+    rdfs:label "REDII Art 32" .
+
+polianna:article_2022-001 polianna:hasParagraph [
+        rdf:type polianna:Paragraph ;
+        dc:description "Additional measures to cover gap compared to national reference points." ;
+        skos:notation "Art.32 para.3 REDII"
+    ] ,
+    [ rdf:type polianna:Paragraph ;
+      dc:description "Baseline share of energy from renewable sources in each member state's gross final consumption of energy." ;
+      skos:notation "Art.32 para.4 REDII"
+    ] ,
+    [ rdf:type polianna:Paragraph ;
+      dc:description "Explanations for gaps in national reference points to be included in the next integrated report." ;
+      skos:notation "Art.32 para.5 REDII"
+    ] .
+
+polianna:article_2022-001 polianna:hasMeasure [
+        rdf:type polianna:Measure ;
+        dc:title "National measures to increase deployment of renewable energy" ;
+        rdfs:label "Increase renewable energy deployment" ;
+        skos:notation "Art.32 para.3a REDII"
+    ] ,
+    [ rdf:type polianna:Measure ;
+      dc:title "Adjusting the share of renewable energy in the heating and cooling sector" ;
+      rdfs:label "Adjust heating and cooling sector share" ;
+      skos:notation "Art.32 para.3b REDII"
+    ] .
+
+polianna:article_2022-001 polianna:appliesTo [
+        rdf:type polianna:Location ;
+        dc:title "European Union member states" ;
+        rdfs:label "EU Member States" ;
+        skos:notation "MS"
+    ] .

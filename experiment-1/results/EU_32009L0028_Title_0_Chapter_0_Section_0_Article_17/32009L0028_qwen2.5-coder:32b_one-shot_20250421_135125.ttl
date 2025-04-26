@@ -1,0 +1,46 @@
+@prefix ex: <http://example.org/examples#> .
+@prefix pol: <http://example.org/polina#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Article1 pol:hasParagraph ex:Paragraph2,
+        ex:Paragraph3,
+        ex:Paragraph4,
+        ex:Paragraph5,
+        ex:Paragraph6,
+        ex:Paragraph7,
+        ex:Paragraph8,
+        ex:Paragraph9 .
+
+ex:Paragraph2 pol:appliesTo ex:BiofuelsAndBioliqids ;
+    pol:describesCriteria ex:SustainabilityCriteria2 ;
+    pol:effectiveFrom "2010-01-01"^^xsd:date .
+
+ex:Paragraph3 pol:appliesTo ex:BiofuelsAndBioliqids ;
+    pol:describesCriteria ex:SustainabilityCriteria3 ;
+    pol:effectiveFrom "2010-01-01"^^xsd:date .
+
+ex:Paragraph4 pol:appliesTo ex:BiofuelsAndBioliqids ;
+    pol:describesCriteria ex:SustainabilityCriteria4 ;
+    pol:effectiveFrom "2010-01-01"^^xsd:date .
+
+ex:Paragraph5 pol:appliesTo ex:BiofuelsAndBioliqids ;
+    pol:describesCriteria ex:SustainabilityCriteria5 ;
+    pol:effectiveFrom "2010-01-01"^^xsd:date .
+
+ex:Paragraph6 pol:appliesTo ex:AgriculturalRawMaterials ;
+    pol:describesCriteria ex:SustainabilityCriteria6 ;
+    pol:effectiveFrom "2010-01-01"^^xsd:date .
+
+ex:Paragraph7 pol:effectiveFrom "2012-01-01"^^xsd:date ;
+    pol:requiresReportingOn ex:DevelopmentIssuesReport,
+        ex:FoodAvailabilityImpactReport,
+        ex:SocialSustainabilityImpactReport,
+        ex:SustainabilityMeasuresReport .
+
+ex:Paragraph8 pol:allowsBiofuelsAndBioliqids ex:CompliantWithArticle1 ;
+    pol:appliesTo ex:MemberStates ;
+    pol:effectiveFrom "2010-01-01"^^xsd:date .
+
+ex:Paragraph9 pol:dueBy "2009-12-31"^^xsd:date ;
+    pol:requiresReportOn ex:SustainabilitySchemeForEnergyUsesOfBiomass .
+

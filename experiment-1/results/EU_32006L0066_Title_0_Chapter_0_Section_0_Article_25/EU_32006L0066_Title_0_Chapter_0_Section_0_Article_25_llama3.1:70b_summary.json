@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix poli: <https://w3id.org/poli#> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj>\n  a poli:Legislation ;\n  poli:title \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n  poli:celexNumber \"32006L0066\" .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  a poli:Article ;\n  poli:title \"article\u00a025\" ;\n  poli:text \"\"\"Penalties\n\nMember States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this Directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" ;\n  poli:hasLegislation <http://data.europa.eu/eli/dir/2006/66/oj> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:policyInstrument poli:Regulation .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:instrumentType poli:LegislativeAct .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:domain poli:Energy .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:subDomain poli:FuelQuality .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:policyType poli:RegulatoryPolicy .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:legalBasis <http://data.europa.eu/eli/dir/2006/66/oj> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:penaltyType poli:AdministrativePenalties .",
+    "original_output": "```\n@prefix poli: <https://w3id.org/poli#> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj>\n  a poli:Legislation ;\n  poli:title \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n  poli:celexNumber \"32006L0066\" .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  a poli:Article ;\n  poli:title \"article\u00a025\" ;\n  poli:text \"\"\"Penalties\n\nMember States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this Directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" ;\n  poli:hasLegislation <http://data.europa.eu/eli/dir/2006/66/oj> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:policyInstrument poli:Regulation .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:instrumentType poli:LegislativeAct .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:domain poli:Energy .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:subDomain poli:FuelQuality .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:policyType poli:RegulatoryPolicy .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:legalBasis <http://data.europa.eu/eli/dir/2006/66/oj> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:penaltyType poli:AdministrativePenalties .\n```",
+    "generation_time": 54.089531660079956,
+    "output": "```\n@prefix poli: <https://w3id.org/poli#> .\n@prefix eli: <http://data.europa.eu/eli/> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj>\n  a poli:Legislation ;\n  poli:title \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\" ;\n  poli:celexNumber \"32006L0066\" .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  a poli:Article ;\n  poli:title \"article\u00a025\" ;\n  poli:text \"\"\"Penalties\n\nMember States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this Directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\" ;\n  poli:hasLegislation <http://data.europa.eu/eli/dir/2006/66/oj> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:policyInstrument poli:Regulation .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:instrumentType poli:LegislativeAct .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:domain poli:Energy .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:subDomain poli:FuelQuality .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:policyType poli:RegulatoryPolicy .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:legalBasis <http://data.europa.eu/eli/dir/2006/66/oj> .\n\n<http://data.europa.eu/eli/dir/2006/66/oj/article_25>\n  poli:penaltyType poli:AdministrativePenalties .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+        "CELEX_Number": "32006L0066",
+        "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "llama3.1:70b",
+      "timestamp": "2025-04-21T05:05:42.926947"
+    },
+    "total_processing_time": 54.09963011741638,
+    "triple_count": 14
+  },
+  "one-shot": {
+    "is_valid": false,
+    "error": "at line 14 of <>:\nBad syntax (Prefix \"xsd:\" not bound) at ^ in:\n\"...b'uropa.eu/eli/dir/2006/66/oj\" ;\\n    dct:issued \"2006-10-25\"^^'^b'xsd:date .\\n\\n:EU_32006L0066_Title_0_Chapter_0_Section_0_Artic'...\"",
+    "extracted_content": "@prefix : <http://example.org/> .\n@prefix dc: <http://purl.org/dc/elements/1.1/> .\n@prefix dct: <http://purl.org/dc/terms/> .\n@prefix eurlex: <http://publications.europa.eu/resource/authority/> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n\n:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a eurlex:Article ;\n    dc:title \"article 25\"@en ;\n    dct:description \"\"\"Penalties\n    Member States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this Directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\"@en ;\n    skos:notation \"Article 25\"@en ;\n    eurlex:celexNumber \"32006L0066\" ;\n    eurlex:eli \"http://data.europa.eu/eli/dir/2006/66/oj\" ;\n    dct:issued \"2006-10-25\"^^xsd:date .\n\n:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance a eurlex:Time_Compliance ;\n    skos:notation \"26 September 2008\"@en ;\n    dct:description \"\"\"26 september 2008\"\"\"@en .\n\n:EU_32006L0066_Annotations a dct:BibliographicResource ;\n    dc:title \"C\" ;\n    skos:notation \"Annotators C\" .",
+    "original_output": "```turtle\n@prefix : <http://example.org/> .\n@prefix dc: <http://purl.org/dc/elements/1.1/> .\n@prefix dct: <http://purl.org/dc/terms/> .\n@prefix eurlex: <http://publications.europa.eu/resource/authority/> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n\n:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a eurlex:Article ;\n    dc:title \"article 25\"@en ;\n    dct:description \"\"\"Penalties\n    Member States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this Directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\"@en ;\n    skos:notation \"Article 25\"@en ;\n    eurlex:celexNumber \"32006L0066\" ;\n    eurlex:eli \"http://data.europa.eu/eli/dir/2006/66/oj\" ;\n    dct:issued \"2006-10-25\"^^xsd:date .\n\n:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance a eurlex:Time_Compliance ;\n    skos:notation \"26 September 2008\"@en ;\n    dct:description \"\"\"26 september 2008\"\"\"@en .\n\n:EU_32006L0066_Annotations a dct:BibliographicResource ;\n    dc:title \"C\" ;\n    skos:notation \"Annotators C\" .\n```",
+    "generation_time": 42.9141583442688,
+    "output": "```turtle\n@prefix : <http://example.org/> .\n@prefix dc: <http://purl.org/dc/elements/1.1/> .\n@prefix dct: <http://purl.org/dc/terms/> .\n@prefix eurlex: <http://publications.europa.eu/resource/authority/> .\n@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n\n:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a eurlex:Article ;\n    dc:title \"article 25\"@en ;\n    dct:description \"\"\"Penalties\n    Member States shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this Directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive. Member States shall notify those measures to the Commission by 26 September 2008 and shall inform it without delay of any subsequent amendment to them.\"\"\"@en ;\n    skos:notation \"Article 25\"@en ;\n    eurlex:celexNumber \"32006L0066\" ;\n    eurlex:eli \"http://data.europa.eu/eli/dir/2006/66/oj\" ;\n    dct:issued \"2006-10-25\"^^xsd:date .\n\n:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance a eurlex:Time_Compliance ;\n    skos:notation \"26 September 2008\"@en ;\n    dct:description \"\"\"26 september 2008\"\"\"@en .\n\n:EU_32006L0066_Annotations a dct:BibliographicResource ;\n    dc:title \"C\" ;\n    skos:notation \"Annotators C\" .\n```",
+    "success": false,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+        "CELEX_Number": "32006L0066",
+        "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "llama3.1:70b",
+      "timestamp": "2025-04-21T05:06:25.849154"
+    },
+    "total_processing_time": 42.91806125640869,
+    "triple_count": 0
+  },
+  "few-shot": {
+    "is_valid": false,
+    "error": "at line 1 of <>:\nBad syntax (Prefix \"pol:\" not bound) at ^ in:\n\"b''^b'pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a p'...\"",
+    "extracted_content": "pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:Article ;\n    pol:annotatedText \"Penalties\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeNotification_1 a pol:Time_Notification ;\n    pol:annotatedText \"26 September 2008\" .",
+    "original_output": "```turtle\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:Article ;\n    pol:annotatedText \"Penalties\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeNotification_1 a pol:Time_Notification ;\n    pol:annotatedText \"26 September 2008\" .\n```",
+    "generation_time": 15.889272451400757,
+    "output": "```turtle\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:Article ;\n    pol:annotatedText \"Penalties\" .\n\npol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeNotification_1 a pol:Time_Notification ;\n    pol:annotatedText \"26 September 2008\" .\n```",
+    "success": false,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+        "CELEX_Number": "32006L0066",
+        "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "llama3.1:70b",
+      "timestamp": "2025-04-21T05:06:41.740972"
+    },
+    "total_processing_time": 15.891765356063843,
+    "triple_count": 0
+  }
+}

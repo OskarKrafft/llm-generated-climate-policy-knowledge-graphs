@@ -1,0 +1,37 @@
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj/art_4> a pol:Article ;
+    eli:hasPart <http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p1>,
+        <http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p2>,
+        <http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p3> ;
+    eli:number "4" ;
+    eli:title "aggregates, energy products and the transmission frequency of national statistics" .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p1> a pol:Paragraph ;
+    eli:hasPart <http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p1/a>,
+        <http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p1/b>,
+        <http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p1/c> ;
+    eli:text "the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:" .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p1/a> a pol:Point ;
+    eli:text "annual, for the energy statistics in annex b" ;
+    pol:hasFrequency "annual" ;
+    pol:refersTo <http://data.europa.eu/eli/reg/2008/1099/oj/annex_b> .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p1/b> a pol:Point ;
+    eli:text "monthly, for the energy statistics in annex c" ;
+    pol:hasFrequency "monthly" ;
+    pol:refersTo <http://data.europa.eu/eli/reg/2008/1099/oj/annex_c> .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p1/c> a pol:Point ;
+    eli:text "short-term monthly, for the energy statistics in annex d" ;
+    pol:hasFrequency "short-term monthly" ;
+    pol:refersTo <http://data.europa.eu/eli/reg/2008/1099/oj/annex_d> .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p2> a pol:Paragraph ;
+    eli:text "applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology)." .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj/art_4/p3> a pol:Paragraph ;
+    eli:text "the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)." .
+

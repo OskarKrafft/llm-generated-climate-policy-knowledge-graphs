@@ -1,0 +1,78 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix poliannna: <https://polianna.ai/ontology/> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj>
+    a eli:LegalResource ;
+    dct:title "EU Regulation 32018R1999" ;
+    eli:date_publication "2021-03-15"^^xsd:date ;
+    foaf:maker [
+        a foaf:Organization ;
+        skos:altLabel "European Union"
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj/article26>
+    a poliannna:RegulatoryArticle ;
+    dct:title "Annual Reporting" ;
+    eli:date_publication "2021-03-15"^^xsd:date ;
+    skos:inScheme <http://data.europa.eu/eli/reg/2018/1999/oj> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj/article26/paragraph1>
+    a poliannna:RegulatoryParagraph ;
+    dct:description "Member States shall report to the Commission by 15 March each year." ;
+    skos:inScheme <http://data.europa.eu/eli/reg/2018/1999/oj/article26> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj/article26/paragraph2>
+    a poliannna:RegulatoryParagraph ;
+    dct:description "Member States shall report their approximated greenhouse gas inventories for the year x-1 by 31 July each year." ;
+    skos:inScheme <http://data.europa.eu/eli/reg/2018/1999/oj/article26> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj/article26/paragraph3>
+    a poliannna:RegulatoryParagraph ;
+    dct:description "Member States shall determine and report to the Commission final greenhouse gas inventory data by 15 March each year." ;
+    skos:inScheme <http://data.europa.eu/eli/reg/2018/1999/oj/article26> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj/article26/paragraph4>
+    a poliannna:RegulatoryParagraph ;
+    dct:description "Member States shall submit to the UNFCCC Secretariat national inventories containing the information submitted to the Commission on the final greenhouse gas inventory data." ;
+    skos:inScheme <http://data.europa.eu/eli/reg/2018/1999/oj/article26> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj/article26/paragraph5>
+    a poliannna:RegulatoryParagraph ;
+    dct:description "Member States shall report to the Commission the preliminary and final national inventory data for their LULUCF accounts." ;
+    skos:inScheme <http://data.europa.eu/eli/reg/2018/1999/oj/article26> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj/article26/paragraph6>
+    a poliannna:RegulatoryParagraph ;
+    dct:description "The Commission is empowered to adopt delegated acts to amend the list of greenhouse gases." ;
+    skos:inScheme <http://data.europa.eu/eli/reg/2018/1999/oj/article26> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj/article26/paragraph7>
+    a poliannna:RegulatoryParagraph ;
+    dct:description "The Commission shall adopt implementing acts to set out the structure and technical details for the Member States' submission of greenhouse gas inventories." ;
+    skos:inScheme <http://data.europa.eu/eli/reg/2018/1999/oj/article26> .
+
+<https://polianna.ai/data/Titel_0_Chapter_4_Section_2_Article_26>
+    a poliannna:RegulatoryProvision ;
+    dct:title "Annual Reporting" ;
+    foaf:maker [
+        a foaf:Organization ;
+        skos:altLabel "European Union"
+    ] ;
+    eli:date_publication "2021-03-15"^^xsd:date .
+
+<https://polianna.ai/data/CELEX:32018R1999>
+    a poliannna:RegulatoryAct ;
+    dct:title "EU Regulation 32018R1999" ;
+    foaf:maker [
+        a foaf:Organization ;
+        skos:altLabel "European Union"
+    ] .
+
+<https://polianna.ai/data/Titel_0_Chapter_4_Section_2_Article_26>
+    poliannna:hasRegulatoryAct <https://polianna.ai/data/CELEX:32018R1999> .

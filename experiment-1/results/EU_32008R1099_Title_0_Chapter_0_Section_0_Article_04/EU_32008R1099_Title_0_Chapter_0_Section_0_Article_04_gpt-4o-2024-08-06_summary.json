@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> a pol:PolicyArticle ;\n    pol:annotatedText \"aggregates, energy products and the transmission frequency of national statistics\" ;\n    pol:contains_instrument <http://eurovoc.europa.eu/5237> ;\n    pol:specifies_compliance_time [\n        a pol:Time_Compliance ;\n        pol:Compliance_date \"2008-12-31\"^^xsd:date\n    ] ;\n    pol:specifies_monitoring_time [\n        a pol:Time_Monitoring ;\n        pol:Monitoring_date \"2008-12-31\"^^xsd:date\n    ] ;\n    pol:addresses <http://eurovoc.europa.eu/2198> ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:hasArticle <https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> ;\n    pol:annotatedText \"the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d.\" ;\n    pol:annotatedText \"applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).\" ;\n    pol:annotatedText \"the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> a pol:PolicyArticle ;\n    pol:annotatedText \"aggregates, energy products and the transmission frequency of national statistics\" ;\n    pol:contains_instrument <http://eurovoc.europa.eu/5237> ;\n    pol:specifies_compliance_time [\n        a pol:Time_Compliance ;\n        pol:Compliance_date \"2008-12-31\"^^xsd:date\n    ] ;\n    pol:specifies_monitoring_time [\n        a pol:Time_Monitoring ;\n        pol:Monitoring_date \"2008-12-31\"^^xsd:date\n    ] ;\n    pol:addresses <http://eurovoc.europa.eu/2198> ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:hasArticle <https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> ;\n    pol:annotatedText \"the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d.\" ;\n    pol:annotatedText \"applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).\" ;\n    pol:annotatedText \"the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" .\n```\n",
+    "generation_time": 5.929456949234009,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> a pol:PolicyArticle ;\n    pol:annotatedText \"aggregates, energy products and the transmission frequency of national statistics\" ;\n    pol:contains_instrument <http://eurovoc.europa.eu/5237> ;\n    pol:specifies_compliance_time [\n        a pol:Time_Compliance ;\n        pol:Compliance_date \"2008-12-31\"^^xsd:date\n    ] ;\n    pol:specifies_monitoring_time [\n        a pol:Time_Monitoring ;\n        pol:Monitoring_date \"2008-12-31\"^^xsd:date\n    ] ;\n    pol:addresses <http://eurovoc.europa.eu/2198> ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:hasArticle <https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> ;\n    pol:annotatedText \"the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies: (a) annual, for the energy statistics in annex b; (b) monthly, for the energy statistics in annex c; (c) short-term monthly, for the energy statistics in annex d.\" ;\n    pol:annotatedText \"applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).\" ;\n    pol:annotatedText \"the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).\" .\n```\n",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-09T11:22:54.277597"
+    },
+    "total_processing_time": 5.935256004333496,
+    "triple_count": 15
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    pol:addresses <http://eurovoc.europa.eu/4060> ;\n    pol:authorises <http://eurovoc.europa.eu/2198> ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual, for the energy statistics in annex B\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"monthly, for the energy statistics in annex C\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex D\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    pol:addresses <http://eurovoc.europa.eu/4060> ;\n    pol:authorises <http://eurovoc.europa.eu/2198> ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual, for the energy statistics in annex B\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"monthly, for the energy statistics in annex C\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex D\" .\n```",
+    "generation_time": 4.703871965408325,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    pol:addresses <http://eurovoc.europa.eu/4060> ;\n    pol:authorises <http://eurovoc.europa.eu/2198> ;\n    pol:contains_instrument pol:RegulatoryInstr ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198> ;\n    pol:imposes_monitoring pol:Member_States ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual, for the energy statistics in annex B\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"monthly, for the energy statistics in annex C\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex D\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-09T11:22:58.986632"
+    },
+    "total_processing_time": 4.708345174789429,
+    "triple_count": 19
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual, for the energy statistics in annex B\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"monthly, for the energy statistics in annex C\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex D\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual, for the energy statistics in annex B\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"monthly, for the energy statistics in annex C\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex D\" .\n```",
+    "generation_time": 3.7851779460906982,
+    "success": true,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;\n    pol:addresses pol:Member_States ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2,\n        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual, for the energy statistics in annex B\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"monthly, for the energy statistics in annex C\" .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"short-term monthly, for the energy statistics in annex D\" .\n```",
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-09T11:23:02.777195"
+    },
+    "total_processing_time": 3.790649890899658,
+    "triple_count": 16
+  }
+}

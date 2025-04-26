@@ -1,0 +1,43 @@
+@prefix poli: <http://example.org/poliana#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_paragraph1 a poli:Paragraph ;
+    poli:isPartOfArticle poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04 ;
+    poli:text """
+each member state shall adopt a national renewable energy action plan. the national renewable energy action plans shall set out member states’ national targets for the share of energy from renewable sources consumed in transport, electricity and heating and cooling in 2020, taking into account the effects of other policy measures relating to energy efficiency on final consumption of energy, and adequate measures to be taken to achieve those national overall targets, including cooperation between local, regional and national authorities, planned statistical transfers or joint projects, national policies to develop existing biomass resources and mobilise new biomass resources for different uses, and the measures to be taken to fulfil the requirements of articles 13 to 19. by 30 june 2009, the commission shall adopt a template for the national renewable energy action plans. that template shall comprise the minimum requirements set out in annex vi. member states shall comply with that template in the presentation of their national renewable energy action plans.
+"""^^xsd:string .
+
+poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_paragraph2 a poli:Paragraph ;
+    poli:isPartOfArticle poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04 ;
+    poli:text """
+member states shall notify their national renewable energy action plans to the commission by 30 june 2010.
+"""^^xsd:string .
+
+poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_paragraph3 a poli:Paragraph ;
+    poli:isPartOfArticle poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04 ;
+    poli:text """
+each member state shall publish and notify to the commission, six months before its national renewable energy action plan is due, a forecast document indicating:
+(a) its estimated excess production of energy from renewable sources compared to the indicative trajectory which could be transferred to other member states in accordance with articles 6 to 11, as well as its estimated potential for joint projects, until 2020; and
+(b) its estimated demand for energy from renewable sources to be satisfied by means other than domestic production until 2020. that information may include elements relating to cost and benefits and financing. that forecast shall be updated in the reports of the member states as set out in article 22(1)(l) and (m).
+"""^^xsd:string .
+
+poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_paragraph4 a poli:Paragraph ;
+    poli:isPartOfArticle poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04 ;
+    poli:text """
+a member state whose share of energy from renewable sources fell below the indicative trajectory in the immediately preceding two-year period set out in part b of annex i, shall submit an amended national renewable energy action plan to the commission by 30 june of the following year, setting out adequate and proportionate measures to rejoin, within a reasonable timetable, the indicative trajectory in part b of annex i. the commission may, if the member state has not met the indicative trajectory by a limited margin, and taking due account of the current and future measures taken by the member state , decide that no amended plan is required.
+"""^^xsd:string .
+
+poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04_paragraph5 a poli:Paragraph ;
+    poli:isPartOfArticle poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04 ;
+    poli:text """
+the commission shall review the amended plans and, if necessary, propose additional measures to achieve the indicative trajectory.
+"""^^xsd:string .
+
+poli:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04 a poli:Article ;
+    poli:hasArticleNumber "4"^^xsd:int ;
+    poli:hasCELEXNumber "32009L0028"^^xsd:string ;
+    poli:hasELI <http://data.europa.eu/eli/dir/2009/28/oj> ;
+    poli:hasTitle "national renewable energy action plans"^^xsd:string ;
+    poli:isAnnotatedBy poli:A,
+        poli:B .
+

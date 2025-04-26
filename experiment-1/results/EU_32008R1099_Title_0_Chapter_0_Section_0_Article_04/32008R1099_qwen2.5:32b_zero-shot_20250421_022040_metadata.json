@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <https://poliana.example.org/ontology/> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n    a pol:Policy ;\n    dcterms:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    pol:celexNumber \"32008R1099\"^^xsd:string ;\n    pol:annotators (\"A\" \"C\") .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj/article4>\n    a pol:Article ;\n    dcterms:title \"Aggregates, Energy Products and the Transmission Frequency of National Statistics\" ;\n    pol:policy <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    pol:text \"\"\"1. The national statistics to be reported shall be as set out in the annexes. They shall be transmitted with the following frequencies:\n(a) annual, for the energy statistics in Annex B;\n(b) monthly, for the energy statistics in Annex C;\n(c) short-term monthly, for the energy statistics in Annex D.\n2. Applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in Annex A (clarifications of terminology).\n3. The data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).\"\"\" .",
+  "original_output": "```turtle\n@prefix pol: <https://poliana.example.org/ontology/> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n    a pol:Policy ;\n    dcterms:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    pol:celexNumber \"32008R1099\"^^xsd:string ;\n    pol:annotators (\"A\" \"C\") .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj/article4>\n    a pol:Article ;\n    dcterms:title \"Aggregates, Energy Products and the Transmission Frequency of National Statistics\" ;\n    pol:policy <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    pol:text \"\"\"1. The national statistics to be reported shall be as set out in the annexes. They shall be transmitted with the following frequencies:\n(a) annual, for the energy statistics in Annex B;\n(b) monthly, for the energy statistics in Annex C;\n(c) short-term monthly, for the energy statistics in Annex D.\n2. Applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in Annex A (clarifications of terminology).\n3. The data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).\"\"\" .\n``` .",
+  "generation_time": 22.47081446647644,
+  "output": "```turtle\n@prefix pol: <https://poliana.example.org/ontology/> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj>\n    a pol:Policy ;\n    dcterms:title \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04\" ;\n    pol:celexNumber \"32008R1099\"^^xsd:string ;\n    pol:annotators (\"A\" \"C\") .\n\n<http://data.europa.eu/eli/reg/2008/1099/oj/article4>\n    a pol:Article ;\n    dcterms:title \"Aggregates, Energy Products and the Transmission Frequency of National Statistics\" ;\n    pol:policy <http://data.europa.eu/eli/reg/2008/1099/oj> ;\n    pol:text \"\"\"1. The national statistics to be reported shall be as set out in the annexes. They shall be transmitted with the following frequencies:\n(a) annual, for the energy statistics in Annex B;\n(b) monthly, for the energy statistics in Annex C;\n(c) short-term monthly, for the energy statistics in Annex D.\n2. Applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in Annex A (clarifications of terminology).\n3. The data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).\"\"\" .\n``` .",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+      "CELEX_Number": "32008R1099",
+      "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T02:20:40.194634"
+  },
+  "triple_count": 12
+}

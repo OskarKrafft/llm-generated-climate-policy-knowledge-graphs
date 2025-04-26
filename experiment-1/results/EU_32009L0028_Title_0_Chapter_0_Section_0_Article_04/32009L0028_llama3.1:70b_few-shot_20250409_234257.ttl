@@ -1,0 +1,74 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/> .
+@prefix polann: <https://w3id.org/polann/> .
+
+<http://data.europa.eu/eli/dir/2009/28/oj>
+  dc:title "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_04" ;
+  eli:celexNumber "32009L0028" ;
+  polann:hasAnnotator "B", "A" .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4>
+  a polann:Article ;
+  dc:title "National Renewable Energy Action Plans" ;
+  eli:articleNumber "04" ;
+  polann:containsParagraph <http://data.europa.eu/eli/dir/2009/28/oj/article4/p1>,
+    <http://data.europa.eu/eli/dir/2009/28/oj/article4/p2>,
+    <http://data.europa.eu/eli/dir/2009/28/oj/article4/p3>,
+    <http://data.europa.eu/eli/dir/2009/28/oj/article4/p4>,
+    <http://data.europa.eu/eli/dir/2009/28/oj/article4/p5>,
+    <http://data.europa.eu/eli/dir/2009/28/oj/article4/p6> .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p1>
+  a polann:Paragraph ;
+  dc:description "Member States shall adopt a national renewable energy action plan. The national renewable energy action plans shall set out Member States' national targets for the share of energy from renewable sources consumed in transport, electricity and heating and cooling in 2020, taking into account the effects of other policy measures relating to energy efficiency on final consumption of energy, and adequate measures to be taken to achieve those national overall targets, including cooperation between local, regional and national authorities, planned statistical transfers or joint projects, national policies to develop existing biomass resources and mobilise new biomass resources for different uses, and the measures to be taken to fulfil the requirements of Articles 13 to 19. By 30 June 2009, the Commission shall adopt a template for the national renewable energy action plans. That template shall comprise the minimum requirements set out in Annex VI. Member States shall comply with that template in the presentation of their national renewable energy action plans." ;
+  polann:hasRequirement <http://data.europa.eu/eli/dir/2009/28/oj/article4/p1/r1> .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p1/r1>
+  a polann:Requirement ;
+  dc:description "Member States shall adopt a national renewable energy action plan." .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p2>
+  a polann:Paragraph ;
+  dc:description "Member States shall notify their national renewable energy action plans to the Commission by 30 June 2010." ;
+  polann:hasRequirement <http://data.europa.eu/eli/dir/2009/28/oj/article4/p2/r1> .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p2/r1>
+  a polann:Requirement ;
+  dc:description "Member States shall notify their national renewable energy action plans to the Commission by 30 June 2010." .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p3>
+  a polann:Paragraph ;
+  dc:description "Each Member State shall publish and notify to the Commission, six months before its national renewable energy action plan is due, a forecast document indicating: (a) its estimated excess production of energy from renewable sources compared to the indicative trajectory which could be transferred to other Member States in accordance with Articles 6 to 11, as well as its estimated potential for joint projects, until 2020; and (b) its estimated demand for energy from renewable sources to be satisfied by means other than domestic production until 2020. That information may include elements relating to cost and benefits and financing. That forecast shall be updated in the reports of the Member States as set out in Article 22(1)(l) and (m)." ;
+  polann:hasRequirement <http://data.europa.eu/eli/dir/2009/28/oj/article4/p3/r1> .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p3/r1>
+  a polann:Requirement ;
+  dc:description "Each Member State shall publish and notify to the Commission, six months before its national renewable energy action plan is due, a forecast document indicating: (a) its estimated excess production of energy from renewable sources compared to the indicative trajectory which could be transferred to other Member States in accordance with Articles 6 to 11, as well as its estimated potential for joint projects, until 2020; and (b) its estimated demand for energy from renewable sources to be satisfied by means other than domestic production until 2020." .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p4>
+  a polann:Paragraph ;
+  dc:description "A Member State which has adopted a national renewable energy action plan shall, in the event of a subsequent update of its greenhouse gas emissions projections under Decision No 280/2004/EC, or if it receives financial assistance from another Member State for the promotion and production of energy from renewable sources, adjust its national renewable energy action plan accordingly." ;
+  polann:hasRequirement <http://data.europa.eu/eli/dir/2009/28/oj/article4/p4/r1> .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p4/r1>
+  a polann:Requirement ;
+  dc:description "A Member State which has adopted a national renewable energy action plan shall, in the event of a subsequent update of its greenhouse gas emissions projections under Decision No 280/2004/EC, or if it receives financial assistance from another Member State for the promotion and production of energy from renewable sources, adjust its national renewable energy action plan accordingly." .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p5>
+  a polann:Paragraph ;
+  dc:description "The Commission shall evaluate whether the national renewable energy action plans comply with this Article and present the results of that evaluation to the Member States. In its evaluation, the Commission may request the assistance of independent experts." ;
+  polann:hasRequirement <http://data.europa.eu/eli/dir/2009/28/oj/article4/p5/r1> .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p5/r1>
+  a polann:Requirement ;
+  dc:description "The Commission shall evaluate whether the national renewable energy action plans comply with this Article and present the results of that evaluation to the Member States." .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p6>
+  a polann:Paragraph ;
+  dc:description "The Commission may request a Member State to modify its national renewable energy action plan if it does not comply with this Article. The Member State concerned shall inform the Commission of any modifications made." ;
+  polann:hasRequirement <http://data.europa.eu/eli/dir/2009/28/oj/article4/p6/r1> .
+
+<http://data.europa.eu/eli/dir/2009/28/oj/article4/p6/r1>
+  a polann:Requirement ;
+  dc:description "The Commission may request a Member State to modify its national renewable energy action plan if it does not comply with this Article." .

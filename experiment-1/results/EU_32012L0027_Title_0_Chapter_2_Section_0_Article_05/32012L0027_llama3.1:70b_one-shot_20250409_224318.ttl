@@ -1,0 +1,56 @@
+turtle
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix polianna: <https://w3id.org/poli/ontology/> .
+
+<https://w3id.org/poli/example/article5>
+  a polianna:Article ;
+  polianna:hasTitle "Article 5" ;
+  polianna:hasSubtitle "Exemplary role of central government buildings" ;
+  polianna:paragraph [
+    a polianna:Paragraph ;
+    rdfs:label "1" ;
+    polianna:text "Member States shall require that, as from 9 July 2012, all new buildings occupied and owned by public authorities be nearly zero-energy buildings. When implementing measures for the comprehensive renovation of central government buildings in accordance with the first subparagraph, Member States may choose to consider the building as a whole, including the building envelope, equipment, operation and maintenance." ;
+    polianna:hasRequirement [
+      a polianna:Requirement ;
+      rdfs:label "a" ;
+      polianna:text "buildings officially protected as part of a designated environment, or because of their special architectural or historical merit, in so far as compliance with certain minimum energy performance requirements would unacceptably alter their character or appearance"
+    ] , [
+      a polianna:Requirement ;
+      rdfs:label "b" ;
+      polianna:text "buildings owned by the armed forces or central government and serving national defence purposes, apart from single living quarters or office buildings for the armed forces and other staff employed by national defence authorities"
+    ] , [
+      a polianna:Requirement ;
+      rdfs:label "c" ;
+      polianna:text "buildings used as places of worship and for religious activities"
+    ]
+  ] , [
+    a polianna:Paragraph ;
+    rdfs:label "2" ;
+    polianna:text "Member States may decide not to set or apply the requirements referred to in paragraph 1 to the following categories of buildings."
+  ] , [
+    a polianna:Paragraph ;
+    rdfs:label "3" ;
+    polianna:text "If a Member State renovates more than 3 % of the total floor area of central government buildings in a given year, it may count the excess towards the annual renovation rate of any of the three previous or following years."
+  ] , [
+    a polianna:Paragraph ;
+    rdfs:label "4" ;
+    polianna:text "Member States may count towards the annual renovation rate of central government buildings new buildings occupied and owned as replacements for specific central government buildings demolished in any of the two previous years, or buildings that have been sold, demolished or taken out of use in any of the two previous years due to more intensive use of other buildings."
+  ] , [
+    a polianna:Paragraph ;
+    rdfs:label "5" ;
+    polianna:text "For the purposes of paragraph 1, by 31 December 2013, Member States shall establish and make publicly available an inventory of heated and/or cooled central government buildings with a total useful floor area over 500 m2 and, as of 9 July 2015, over 250 m2, excluding buildings exempted on the basis of paragraph 2."
+  ] , [
+    a polianna:Paragraph ;
+    rdfs:label "6" ;
+    polianna:text "Without prejudice to Article 7 of Directive 2010/31/EU, Member States may opt for an alternative approach to paragraphs 1 to 5 of this Article, whereby they take other cost-effective measures, including deep renovations and measures for behavioural change of occupants, to achieve, by 2020, an amount of energy savings in eligible buildings owned and occupied by their central government that is at least equivalent to that required in paragraph 1, reported on an annual basis."
+  ] , [
+    a polianna:Paragraph ;
+    rdfs:label "7" ;
+    polianna:text "Member States shall encourage public bodies, including at regional and local level, and social housing bodies governed by public law, with due regard for their respective competences and administrative set-up, to adopt an energy efficiency plan."
+  ] .
+
+.

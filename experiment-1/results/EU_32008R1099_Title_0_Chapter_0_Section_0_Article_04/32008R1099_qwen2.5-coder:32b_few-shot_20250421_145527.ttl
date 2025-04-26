@@ -1,0 +1,45 @@
+@prefix ex: <http://example.org/> .
+@prefix pol: <https://poliana.example.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Annex_A a pol:PolicyAnnex ;
+    ex:describes "clarifications of terminology"^^xsd:string .
+
+ex:Annex_B a pol:PolicyAnnex ;
+    ex:containsDataFrequency pol:AnnualFrequency .
+
+ex:Annex_C a pol:PolicyAnnex ;
+    ex:containsDataFrequency pol:MonthlyFrequency .
+
+ex:Annex_D a pol:PolicyAnnex ;
+    ex:containsDataFrequency pol:ShortTermMonthlyFrequency .
+
+ex:Article_4 a pol:PolicyArticle ;
+    ex:hasContent """aggregates, energy products and the transmission frequency of national statistics
+1.   the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:
+(a)
+annual, for the energy statistics in annex b;
+(b)
+monthly, for the energy statistics in annex c;
+(c)
+short-term monthly, for the energy statistics in annex d.
+2.   applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).
+3.   the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)."""^^xsd:string ;
+    ex:isPartOf ex:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .
+
+ex:A a pol:Annotator .
+
+ex:C a pol:Annotator .
+
+ex:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyDocument ;
+    ex:annotatedBy ( ex:A ex:C ) ;
+    ex:hasCELEXNumber "32008R1099"^^xsd:string ;
+    ex:hasELI <http://data.europa.eu/eli/reg/2008/1099/oj> .
+
+pol:AnnualFrequency a pol:DataTransmissionFrequency .
+
+pol:MonthlyFrequency a pol:DataTransmissionFrequency .
+
+pol:ShortTermMonthlyFrequency a pol:DataTransmissionFrequency .
+

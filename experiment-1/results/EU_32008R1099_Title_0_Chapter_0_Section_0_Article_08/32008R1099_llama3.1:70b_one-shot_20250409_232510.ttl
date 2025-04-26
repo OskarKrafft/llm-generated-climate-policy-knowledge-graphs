@@ -1,0 +1,28 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eli: <http://data.europa.eu/eli/> .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj>
+  rdf:type eli:Regulation ;
+  eli:title "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08" ;
+  eli:celexNumber "32008R1099" .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj#article-8>
+  rdf:type eli:Article ;
+  rdfs:label "Article 8" ;
+  eli:title "Annual nuclear statistics" .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj#article-8#paragraph-1>
+  rdf:type eli:Paragraph ;
+  rdfs:label "Article 8 - Paragraph 1" ;
+  eli:text """The Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.""" .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj#article-8#paragraph-2>
+  rdf:type eli:Paragraph ;
+  rdfs:label "Article 8 - Paragraph 2" ;
+  eli:text """The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).""" .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj>
+  dc:creator _:A, _:C .
+.

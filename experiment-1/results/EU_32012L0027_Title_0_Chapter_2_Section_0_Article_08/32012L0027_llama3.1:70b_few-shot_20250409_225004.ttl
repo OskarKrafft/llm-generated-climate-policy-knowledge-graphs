@@ -1,0 +1,49 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/dir/2012/27/oj>
+  dc:title "Energy audits and energy management systems"@en ;
+  dcat:landingPage <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0027> .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#article8>
+  dc:title "Energy audits and energy management systems"@en ;
+  skos:notation "Article 8" ;
+  foaf:maker <http://publications.europa.eu/resource/authority/corporate-body/EUROPEAN_UNION> .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#article8-paragraph1>
+  dc:description "Member States shall promote the availability to all final customers of high-quality energy audits which are cost-effective and: (a) carried out in an independent manner by qualified and/or accredited experts according to qualification criteria; or (b) implemented and supervised by independent authorities under national legislation."@en ;
+  skos:notation "Paragraph 1" .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#article8-paragraph1-subparagraphA>
+  dc:description "carried out in an independent manner by qualified and/or accredited experts according to qualification criteria"@en ;
+  skos:notation "Subparagraph A" .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#article8-paragraph1-subparagraphB>
+  dc:description "implemented and supervised by independent authorities under national legislation"@en ;
+  skos:notation "Subparagraph B" .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#article8-paragraph2>
+  dc:description "Member States shall develop programmes to encourage SMEs to undergo energy audits and the subsequent implementation of the recommendations from these audits."@en ;
+  skos:notation "Paragraph 2" .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#article8-paragraph3>
+  dc:description "Member States shall also develop programmes to raise awareness among households about the benefits of such audits through appropriate advice services."@en ;
+  skos:notation "Paragraph 3" .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#article8-paragraph4>
+  dc:description "Member States shall ensure that enterprises that are not SMEs are subject to an energy audit carried out in an independent and cost-effective manner by qualified and/or accredited experts or implemented and supervised by independent authorities under national legislation by 5 December 2015 and at least every four years from the date of the previous energy audit."@en ;
+  skos:notation "Paragraph 4" .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#article8-paragraph5>
+  dc:description "Energy audits shall be considered as fulfilling the requirements of paragraph 4 when they are carried out in an independent manner, on the basis of minimum criteria based on Annex VI, and implemented under voluntary agreements concluded between organisations of stakeholders and an appointed body and supervised by the Member State concerned, or other bodies to which the competent authorities have delegated the responsibility concerned, or by the Commission."@en ;
+  skos:notation "Paragraph 5" .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#article8-paragraph6>
+  dc:description "Enterprises that are not SMEs and that are implementing an energy or environmental management system — certified by an independent body according to the relevant European or international standards — shall be exempted from the requirements of paragraph 4, provided that Member States ensure that the management system concerned includes an energy audit on the basis of the minimum criteria based on Annex VI."@en ;
+  skos:notation "Paragraph 6" .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#article8-paragraph7>
+  dc:description "Energy audits may stand alone or be part of a broader environmental audit. Member States may require that an assessment of the technical and economic feasibility of connection to an existing or planned district heating or cooling network shall be part of the energy audit."@en ;
+  skos:notation "Paragraph 7" .

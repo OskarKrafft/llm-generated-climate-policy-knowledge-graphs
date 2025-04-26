@@ -1,0 +1,28 @@
+name: POLIANNA
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas>=2.2.0
+  - numpy>=2.0.0
+  - matplotlib>=3.9.0
+  - pandarallel>=1.6.0
+  - tqdm>=4.67.0
+  - ipykernel
+  - ipywidgets
+  - plotly>=6.0.0
+  - plotly-orca
+  - requests>=2.32.0
+  - rdflib>=7.1.0
+  - html5rdf
+  - owlrl
+  - pyshacl
+  - networkx>=3.2.0
+  - seaborn>=0.13.0
+  - nltk>=3.9.0
+  - pyvis>=0.2.0
+  - openai>=1.6.0
+  - pip:
+    - pygamma-agreement==0.5.9
+    - python-dotenv>=1.0.0

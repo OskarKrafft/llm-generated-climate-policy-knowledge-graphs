@@ -1,0 +1,48 @@
+@prefix poli: <http://example.org/poliana#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+poli:Article_17 rdf:type poli:Directive ;
+    poli:hasTitle "Article 17" ;
+    poli:hasContent """The content of the article is omitted for brevity, but would include the text provided above in a structured format based on the POLIANNA ontology.""" ;
+    poli:hasSection poli:Section_8 .
+    
+poli:Section_8 rdf:type poli:Directive_Section ;
+    poli:hasTitle "Section 8" ;
+    poli:hasContent """By 31 December 2014, the commission shall present a report, addressing, in particular, the following elements:""" ;
+    poli:hasSubsection poli:Subsection_8a , poli:Subsection_8b .
+
+poli:Subsection_8a rdf:type poli:Directive_Subsection ;
+    poli:hasTitle "Subsection 8(a)" ;
+    poli:hasContent """A review of the minimum greenhouse gas emission saving thresholds to apply from the dates referred to in the second subparagraph of article 17(2), on the basis of an impact assessment taking into account, in particular, technological developments, available technologies and the availability of first and second-generation bio-fuels with a high level of greenhouse gas emission saving.""" .
+
+poli:Subsection_8b rdf:type poli:Directive_Subsection ;
+    poli:hasTitle "Subsection 8(b)" ;
+    poli:hasContent """With respect to the target referred to in article 3(4), a review of:""" ;
+    poli:hasItem poli:Item_8bi , poli:Item_8bii .
+
+poli:Item_8bi rdf:type poli:Directive_Item ;
+    poli:hasTitle "Item 8(b)(i)" ;
+    poli:hasContent """The cost-efficiency of the measures to be implemented to achieve the target.""" .
+
+poli:Item_8bii rdf:type poli:Directive_Item ;
+    poli:hasTitle "Item 8(b)(ii)" ;
+    poli:hasContent """An assessment of the feasibility of reaching the target whilst ensuring the sustainability of biofuels production in the community and in third countries, and considering economic, environmental and social impacts, including indirect effects and impacts on biodiversity, as well as the commercial availability of second-generation biofuels.""" .
+
+poli:Section_9 rdf:type poli:Directive_Section ;
+    poli:hasTitle "Section 9" ;
+    poli:hasContent """In 2018, the commission shall present a renewable energy roadmap for the post-2020 period. That roadmap shall, if appropriate, be accompanied by proposals to the european parliament and the council for the period after 2020. The roadmap shall take into account the experience of the implementation of this directive and technological developments in energy from renewable sources.""" .
+
+poli:Section_10 rdf:type poli:Directive_Section ;
+    poli:hasTitle "Section 10" ;
+    poli:hasContent """In 2021, the commission shall present a report reviewing the application of this directive. That report shall, in particular, address the role of the following elements in having enabled member states to achieve the national targets defined in annex i on the best cost-benefit basis:""" ;
+    poli:hasSubsection poli:Subsection_10a , poli:Subsection_10b .
+
+poli:Subsection_10a rdf:type poli:Directive_Subsection ;
+    poli:hasTitle "Subsection 10(a)" ;
+    poli:hasContent """The process of preparing forecasts and national renewable energy action plans.""" .
+
+poli:Subsection_10b rdf:type poli:Directive_Subsection ;
+    poli:hasTitle "Subsection 10(b)" ;
+    poli:hasContent """The effectiveness of the cooperation mechanisms.""" .
+.

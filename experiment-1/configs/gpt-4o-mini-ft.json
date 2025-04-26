@@ -1,0 +1,8 @@
+{
+    "test_data": "test_data",
+    "output_dir": "experiment-1/results",
+    "model_type": "openai",
+    "model_name": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+    "strategies": ["zero-shot", "one-shot" ,"few-shot"],
+    "temperature": 0.0
+  }

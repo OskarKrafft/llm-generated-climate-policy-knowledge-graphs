@@ -1,0 +1,73 @@
+@prefix pol: <http://example.org/poliaffa/ontologies/POLIANNA#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:Criteria_Other a pol:RegulationCriteriaSubItem ;
+    pol:description "Other policy measures must comply with specified criteria including ambition levels, responsibility definition, transparent savings calculation, use of energy consumption expressions, monitoring, control systems with independent verification." ;
+    pol:regulatedBy pol:Criteria_10 ;
+    pol:title "Other Policy Measures Criteria" .
+
+pol:Criteria_Regulations a pol:RegulationCriteriaSubItem ;
+    pol:description "Regulatory policies must comply with specified criteria including ambition levels, responsibility definition, transparent savings calculation, use of energy consumption expressions, methods and principles for saving calculations, annual reporting, monitoring, control systems with independent verification." ;
+    pol:regulatedBy pol:Criteria_10 ;
+    pol:title "Regulations Criteria" .
+
+pol:Criteria_Taxes a pol:RegulationCriteriaSubItem ;
+    pol:description "Tax policies must comply with specified criteria including ambition levels, responsibility definition, transparent savings calculation, use of energy consumption expressions, monitoring, and data publication." ;
+    pol:regulatedBy pol:Criteria_10 ;
+    pol:title "Taxes Criteria" .
+
+pol:PolicyMeasure_Financing a pol:RegulationSubItem ;
+    pol:description "Financial tools or incentives leading to application of energy-efficient technology or techniques are included as policy measures." ;
+    pol:regulates pol:Requirement_7.3 ;
+    pol:title "Financing Schemes and Instruments" .
+
+pol:PolicyMeasure_Labeling a pol:RegulationSubItem ;
+    pol:description "Policies involving energy labeling schemes are considered with specified criteria for compliance." ;
+    pol:regulates pol:Requirement_7.3 ;
+    pol:title "Energy Labeling Schemes" .
+
+pol:PolicyMeasure_Norms a pol:RegulationSubItem ;
+    pol:description "Policies involving standards or norms aiming at improving energy efficiency of products, services, buildings, and vehicles are included as policy measures." ;
+    pol:regulates pol:Requirement_7.3 ;
+    pol:title "Standards and Norms" .
+
+pol:PolicyMeasure_Regulations a pol:RegulationSubItem ;
+    pol:description "Policies involving regulations or voluntary agreements leading to energy-efficient technology adoption are considered with specified criteria for compliance." ;
+    pol:regulates pol:Requirement_7.3 ;
+    pol:title "Regulations and Voluntary Agreements" .
+
+pol:PolicyMeasure_Taxes a pol:RegulationSubItem ;
+    pol:description "Policies involving taxes that reduce end-use energy consumption are considered with specified criteria for compliance." ;
+    pol:regulates pol:Requirement_7.3 ;
+    pol:title "Energy or CO2 Taxes" .
+
+pol:PolicyMeasure_Training a pol:RegulationSubItem ;
+    pol:description "Programs that lead to application of energy-efficient technology or techniques through training and education are included as policy measures." ;
+    pol:regulates pol:Requirement_7.3 ;
+    pol:title "Training and Education Programs" .
+
+pol:Requirement_7.1 a pol:RegulationItem ;
+    pol:description "Member states must implement obligation schemes leading to reductions in final or primary energy use by 2020 with specified percentage levels." ;
+    pol:regulates pol:Article_7 ;
+    pol:title "Energy Efficiency Obligation Schemes" .
+
+pol:Requirement_7.2 a pol:RegulationItem ;
+    pol:description "Percentage reduction targets for the period 2014 to 2020 are defined, including specific rates for each year." ;
+    pol:regulates pol:Article_7 ;
+    pol:title "Reduction Levels" .
+
+pol:Criteria_10 a pol:RegulationCriteria ;
+    pol:description "Defines criteria such as achieving ambition levels, responsibility definition, transparent savings calculation, use of energy consumption expressions, methods and principles for saving calculations, annual reporting, monitoring, control systems with independent verification." ;
+    pol:regulatedBy pol:Article_7 ;
+    pol:title "Criteria for Policy Measures" .
+
+pol:Article_7 a pol:Regulation ;
+    pol:dateIssued "2023-04-15"^^xsd:date ;
+    pol:description "This regulation outlines the requirements for energy efficiency obligation schemes and alternative policy measures to achieve the required level of ambition in reducing end-use energy consumption." ;
+    pol:title "Energy Efficiency Obligation Schemes and Alternative Policy Measures" .
+
+pol:Requirement_7.3 a pol:RegulationItem ;
+    pol:description "Member states may use alternative policy measures if they demonstrate equivalence in achieving required energy savings, monitoring, and verification." ;
+    pol:regulates pol:Article_7 ;
+    pol:title "Alternative Policy Measures" .
+

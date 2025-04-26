@@ -1,0 +1,50 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix poli: <https://w3id.org/poli/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/poli/example/eu-regulation-2018>
+    dc:title "Assessment of progress towards the energy union objectives"@en ;
+    poli:hasArticle [
+        dc:title "Article 26" ;
+        poli:articleNumber 26 ;
+        poli:hasParagraph [
+            dc:description "The Commission shall assess the overall impact of aviation on the global climate, including through non-CO2 emissions or effects." ;
+            poli:paragraphNumber 1 ;
+            ]
+        ] ;
+    poli:hasArticle [
+        dc:title "Article 27" ;
+        poli:articleNumber 27 ;
+        poli:hasParagraph [
+            dc:description "In the area of renewable energy, as part of its assessment referred to in paragraph 1, the Commission shall assess the progress made in the share of energy from renewable sources in the Union's gross final consumption." ;
+            poli:paragraphNumber 2 ;
+            ]
+        ] ;
+    poli:hasArticle [
+        dc:title "Article 28" ;
+        poli:articleNumber 28 ;
+        poli:hasParagraph [
+            dc:description "In the area of energy efficiency, as part of its assessment referred to in paragraph 1, the Commission shall assess progress towards collectively achieving a maximum energy consumption at Union level." ;
+            poli:paragraphNumber 3 ;
+            ]
+        ] ;
+    poli:hasArticle [
+        dc:title "Article 29" ;
+        poli:articleNumber 29 ;
+        poli:hasParagraph [
+            dc:description "In the area of the internal energy market, as part of its assessment referred to in paragraph 1, the Commission shall assess the progress made towards the level of electricity interconnectivity that the Member State aims for in 2030." ;
+            poli:paragraphNumber 4 ;
+            ]
+        ] ;
+    poli:hasArticle [
+        dc:title "Article 30" ;
+        poli:articleNumber 30 ;
+        poli:hasParagraph [
+            dc:description "By 31 October 2021 and every year thereafter, the Commission shall assess whether the Union and its Member States have made sufficient progress towards meeting the following requirements." ;
+            poli:paragraphNumber 5 ;
+            ]
+        ] .
+

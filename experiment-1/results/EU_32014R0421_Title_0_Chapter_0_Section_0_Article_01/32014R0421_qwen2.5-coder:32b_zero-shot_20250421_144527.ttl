@@ -1,0 +1,30 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01 a pol:Article ;
+    pol:hasTitle "article 1" ;
+    pol:amendsDocument <http://data.europa.eu/eli/dir/2003/87/oj> ;
+    pol:hasAmendmentDescription """
+directive 2003/87/ec is hereby amended as follows:
+(1)
+the following article is inserted:
+‘article 28a
+derogations applicable in advance of the implementation by 2020 of an international agreement applying a single global market-based measure
+1.   by way of derogation from articles 12(2a), 14(3) and article 16, member states shall consider the requirements set out in those provisions to be satisfied and shall take no action against aircraft operators in respect of:
+(a)
+all emissions from flights to and from aerodromes located in countries outside the european economic area (eea) in each calendar year from 1 january 2013 to 31 december 2016;
+(b)
+all emissions from flights between an aerodrome located in an outermost region within the meaning of article 349 of the treaty on the functioning of the european union (tfeu) and an aerodrome located in another region of the eea in each calendar year from 1 january 2013 to 31 december 2016;
+(c)
+the surrender of allowances, corresponding to verified 2013 emissions from flights between aerodromes located in states in the eea, taking place by 30 april 2015 instead of 30 april 2014, and verified 2013 emissions for those flights being reported by 31 march 2015 instead of 31 march 2014.
+for the purposes of this paragraph, flights which, but for this point, would fall within this activity, performed by a non-commercial aircraft operator operating flights with total annual emissions lower than 1 000 tonnes per year shall be excluded from the scope of application of this article.
+2.   the commission shall regularly, and at least once a year, inform the european parliament and the council of the progress of the international civil aviation organization (icao) negotiations as well as of its efforts to promote the international acceptance of market-based mechanisms among third countries. following the 2016 icao assembly, the commission shall report to the european parliament and to the council on actions to implement an international agreement on a global market-based measure from 2020, that will reduce greenhouse gas emissions from aviation in a non-discriminatory manner, including on information, with regard to the use of revenues, submitted by member states in accordance with article 17 of regulation (eu) no 525/2013.
+in its report, the commission shall consider, and, if appropriate, include proposals in reaction to, those developments on the appropriate scope for coverage of emissions from activity to and from aerodromes located in countries outside the eea from 1 january 2017 onwards. in its report, the commission shall also consider solutions to other issues that may arise in the application of paragraphs 1 to 4 of this article, while preserving the equal treatment of all aircraft operators on the same route.
+(5)  commission regulation (eu) no 606/2010 of 9 july 2010 on the approval of a simplified tool developed by the european organisation for air safety navigation (eurocontrol) to estimate the fuel consumption of certain small emitting aircraft operators (oj l 175, 10.7.2010, p. 25).’"
+    ;
+    pol:hasAmendmentDescription """
+(2)
+in annex i, in the column ‘activities’ of the table therein, under the heading ‘aviation’ the following point is added after point (j):
+‘(k)
+from 1 january 2013 to 31 december 2020, flights which, but for this point, would fall within this activity, performed by a non-commercial aircraft operator operating flights with total annual emissions lower than 1 000 tonnes per year.’."""
+    .

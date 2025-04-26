@@ -1,0 +1,110 @@
+turtle
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix padmin: <http://purl.org/net/po_admin/> .
+@prefix polianno: <http://purl.org/net/polianne/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<polianno:Article1> a owl:Ontology ;
+    skos:definition "European Union article defining various energy-related terms"@en ;
+    padmin:documentBaseURI <https://example.com/eu-article/> .
+
+<polianno:Term1> a skos:Concept ;
+    skos:prefLabel "Gas" ;
+    skos:definition "a fossil fuel"@en .
+
+<polianno:Term2> a skos:Concept ;
+    skos:prefLabel "Obligated Party"@en ;
+    skos:definition "an entity required to take certain actions"@en .
+
+<polianno:Term3> a skos:Concept ;
+    skos:prefLabel "Energy Efficiency Improvement"@en ;
+    skos:definition "a measure to reduce energy consumption"@en .
+
+<polianno:Term4> a skos:Concept ;
+    skos:prefLabel "Cogeneration"@en ;
+    skos:definition "the simultaneous production of heat and power"@en .
+
+<polianno:Term5> a skos:Concept ;
+    skos:prefLabel "Heat Pump"@en ;
+    skos:definition "a device that uses refrigeration to transfer heat"@en .
+
+<polianno:Term6> a skos:Concept ;
+    skos:prefLabel "Nearly Zero-Energy Building"@en ;
+    skos:definition "a building with very low energy consumption"@en .
+
+<polianno:Term7> a skos:Concept ;
+    skos:prefLabel "Building"@en ;
+    skos:definition "a structure with walls and a roof"@en .
+
+<polianno:Term8> a skos:Concept ;
+    skos:prefLabel "Energy Performance Contracting"@en ;
+    skos:definition "a contract to improve energy efficiency"@en .
+
+<polianno:Term9> a skos:Concept ;
+    skos:prefLabel "Distribution System Operator"@en ;
+    skos:definition "an entity responsible for managing an energy distribution system"@en .
+
+<polianno:Term10> a skos:Concept ;
+    skos:prefLabel "Energy Service Provider"@en ;
+    skos:definition "an entity that provides energy services"@en .
+
+<polianno:Term11> a skos:Concept ;
+    skos:prefLabel "Retail Energy Sales Company"@en ;
+    skos:definition "a company that sells energy to end-users"@en .
+
+<polianno:Term12> a skos:Concept ;
+    skos:prefLabel "Implementing Public Authority"@en ;
+    skos:definition "an entity responsible for implementing public policies"@en .
+
+<polianno:Term13> a skos:Concept ;
+    skos:prefLabel "Individual Action"@en ;
+    skos:definition "a single action taken by an individual"@en .
+
+<polianno:Term14> a skos:Concept ;
+    skos:prefLabel "Energy Management System"@en ;
+    skos:definition "a system for managing energy consumption"@en .
+
+<polianno:Term15> a skos:Concept ;
+    skos:prefLabel "Total Useful Floor Area"@en ;
+    skos:definition "the total area of floors in a building"@en .
+
+<polianno:Term16> a skos:Concept ;
+    skos:prefLabel "Fossil Fuel"@en ;
+    skos:definition "non-renewable carbon-based energy sources"@en .
+
+<polianno:Term17> a skos:Concept ;
+    skos:prefLabel "Starch-Rich Crops"@en ;
+    skos:definition "crops rich in starch"@en .
+
+<polianno:Term18> a skos:Concept ;
+    skos:prefLabel "Food and Feed Crops"@en ;
+    skos:definition "crops used for food and animal feed"@en .
+
+<polianno:Term19> a skos:Concept ;
+    skos:prefLabel "Ligno-Cellulosic Material"@en ;
+    skos:definition "materials composed of lignin and cellulose"@en .
+
+<polianno:Term20> a skos:Concept ;
+    skos:prefLabel "Residue"@en ;
+    skos:definition "remaining material after processing"@en .
+
+<polianno:Term21> a skos:Concept ;
+    skos:prefLabel "Primary Energy Consumption"@en ;
+    skos:definition "the total energy consumed by an entity"@en .
+
+<polianno:Term22> a skos:Concept ;
+    skos:prefLabel "Recycled Fuel"@en ;
+    skos:definition "fuel made from recycled materials"@en .
+
+<polianno:Term23> a skos:Concept ;
+    skos:prefLabel "Gasification"@en ;
+    skos:definition "the process of converting organic matter into gas"@en .
+
+<polianno:Term24> a skos:Concept ;
+    skos:prefLabel "Biogas"@en ;
+    skos:definition "gas produced from the anaerobic digestion of organic matter"@en .
+
+<polianno:Term25> a skos:Concept ;
+    skos:prefLabel "Energy Savings"@en ;
+    skos:definition "the reduction in energy consumption"@en .

@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix poli: <https://w3id.org/poli/#> .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj>
+  dc:title "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01" ;
+  skos:notation "32018L2001" ;
+  dcterms:identifier "http://data.europa.eu/eli/dir/2018/2001/oj" .
+
+<https://w3id.org/poli/EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01>
+  a poli:Policy ;
+  dc:title "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01" ;
+  skos:notation "Article 1" ;
+  dcterms:description "Subject matter This directive establishes a common framework for the promotion of energy from renewable sources. It sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. It also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. It also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels." ;
+  dc:creator "C" , "F" , "B" .

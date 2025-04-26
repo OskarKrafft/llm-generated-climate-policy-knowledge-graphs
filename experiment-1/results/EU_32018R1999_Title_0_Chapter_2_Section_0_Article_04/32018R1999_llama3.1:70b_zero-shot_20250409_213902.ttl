@@ -1,0 +1,74 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix poliannna: <https://raw.githubusercontent.com/EU-ON/poliana/master/poliana-vocab.ttl#> .
+
+<http://example.org/policy/EnergyUnionStrategy>
+  a poliannna:Policy ;
+  dct:title "Energy Union Strategy" ;
+
+  poliannna:hasDimension [
+    a poliannna:Dimension ;
+    skos:prefLabel "Decarbonisation"@en ;
+    poliannna:hasObjective [
+      a poliannna:Objective ;
+      skos:prefLabel "Increase the share of renewable energy to at least 32% of the EU's final consumption by 2030" ;
+      dct:description "Increasing the share of renewable energy in the EU's final consumption." ;
+    ] ;
+    poliannna:hasTarget [
+      a poliannna:Target ;
+      skos:prefLabel "At least 32% of the EU's final consumption to come from renewable energy by 2030" ;
+      dct:description "The target for renewable energy in the EU's final consumption." ;
+    ] ;
+  ] ;
+
+  poliannna:hasDimension [
+    a poliannna:Dimension ;
+    skos:prefLabel "Energy Efficiency"@en ;
+    poliannna:hasObjective [
+      a poliannna:Objective ;
+      skos:prefLabel "Increase energy efficiency to at least 32.5% by 2030" ;
+      dct:description "Increasing the energy efficiency in the EU." ;
+    ] ;
+    poliannna:hasTarget [
+      a poliannna:Target ;
+      skos:prefLabel "At least 32.5% energy efficiency improvement by 2030" ;
+      dct:description "The target for energy efficiency improvement in the EU." ;
+    ] ;
+  ] ;
+
+  poliannna:hasDimension [
+    a poliannna:Dimension ;
+    skos:prefLabel "Energy Security"@en ;
+    poliannna:hasObjective [
+      a poliannna:Objective ;
+      skos:prefLabel "Diversify energy sources and supply" ;
+      dct:description "Improving the diversification of energy sources and supply in the EU." ;
+    ] ;
+  ] ;
+
+  poliannna:hasDimension [
+    a poliannna:Dimension ;
+    skos:prefLabel "Internal Energy Market"@en ;
+    poliannna:hasObjective [
+      a poliannna:Objective ;
+      skos:prefLabel "Increase the level of electricity interconnectivity to at least 15% by 2030" ;
+      dct:description "Increasing the level of electricity interconnectivity in the EU." ;
+    ] ;
+    poliannna:hasTarget [
+      a poliannna:Target ;
+      skos:prefLabel "At least 15% electricity interconnectivity by 2030" ;
+      dct:description "The target for electricity interconnectivity in the EU." ;
+    ] ;
+  ] ;
+
+  poliannna:hasDimension [
+    a poliannna:Dimension ;
+    skos:prefLabel "Research, Innovation and Competitiveness"@en ;
+    poliannna:hasObjective [
+      a poliannna:Objective ;
+      skos:prefLabel "Increase funding for research and innovation in the energy sector" ;
+      dct:description "Increasing funding for research and innovation in the energy sector." ;
+    ] ;
+  ] .

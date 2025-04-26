@@ -1,0 +1,20 @@
+@prefix pol: <http://example.org/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2009/79/oj> a pol:Policy ;
+    pol:annotatedBy "B",
+        "F" ;
+    pol:celexNumber "32009R0079" ;
+    pol:eli "http://data.europa.eu/eli/reg/2009/79/oj" ;
+    pol:hasArticle [ a pol:RegulationEntryIntoForce ;
+            pol:annotatedText "This regulation shall enter into force on the 20th day following its publication in the Official Journal of the European Union." ;
+            pol:applicableDate "2011-02-24"^^xsd:date ;
+            pol:entryIntoForceDate "2009-xx-xxT20:00:00Z"^^xsd:dateTime ;
+            pol:exception [ a pol:RegulationException ;
+                    pol:annotatedText "Article 11(3) and Article 12 shall apply from the date of entry into force of this regulation." ;
+                    pol:applicableDate "2009-xx-xxT20:00:00Z"^^xsd:dateTime ],
+                [ a pol:RegulationException ;
+                    pol:annotatedText "Article 11(2) shall apply from the date set out therein." ;
+                    pol:applicableDate "" ] ] ;
+    pol:title "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16" .
+

@@ -1,0 +1,62 @@
+turtle
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix poli: <https://w3id.org/poli#> .
+
+<https://example.com/document-123>
+  dc:title "Renewable Energy Directive";
+  dcterms:description "A European Union directive on renewable energy.";
+  foaf:primaryTopic [
+    a poli:Legislation ;
+    dc:title "Directive (EU) 2018/2001" ;
+    dc:date "2018-12-11"
+  ] .
+
+<https://example.com/article-456>
+  a poli:Article;
+  dc:title "Article 25";
+  dcterms:description "Obligations of Member States regarding the use of energy from renewable sources.";
+  foaf:primaryTopic [
+    a poli:Policy ;
+    dc:title "Renewable Energy Obligation" ;
+    poli:hasProvision <https://example.com/provision-789>
+  ] .
+
+<https://example.com/provision-789>
+  a poli:Provision;
+  dc:title "Availability of fuels from renewable sources for transport";
+  dcterms:description "Member States shall ensure the availability of fuels from renewable sources for transport.";
+  poli:hasCondition [
+    a poli:Condition ;
+    dc:title "Sustainability criteria" ;
+    poli:hasText "Fuel suppliers shall enter information into the database."
+  ] .
+
+<https://example.com/condition-101>
+  a poli:Condition;
+  dc:title "Life-cycle greenhouse gas emissions";
+  dcterms:description "Member States shall require fuel suppliers to report life-cycle greenhouse gas emissions.";
+  poli:hasValue [
+    a poli:Value ;
+    dc:title "Greenhouse gas savings" ;
+    poli:valueType "percentage"
+  ] .
+
+<https://example.com/action-111>
+  a poli:Action;
+  dc:title "Commission review of the list of feedstock";
+  dcterms:description "The Commission shall review the list of feedstock every two years.";
+  foaf:agent [
+    a poli:Organization ;
+    dc:title "European Commission"
+  ] .
+
+<https://example.com/organization-121>
+  a poli:Organization;
+  dc:title "European Union";
+  dcterms:description "The European Union is the main governing body of the EU.";
+  foaf:member [
+    a poli:Country ;
+    dc:title "Member States"
+  ] .

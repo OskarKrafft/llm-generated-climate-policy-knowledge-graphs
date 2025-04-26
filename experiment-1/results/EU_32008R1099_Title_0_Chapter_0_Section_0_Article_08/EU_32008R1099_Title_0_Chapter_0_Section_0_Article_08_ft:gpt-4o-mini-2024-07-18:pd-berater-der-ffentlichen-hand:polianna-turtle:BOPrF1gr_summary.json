@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198>,\n        <http://eurovoc.europa.eu/4038> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual\" .",
+    "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198>,\n        <http://eurovoc.europa.eu/4038> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual\" .",
+    "generation_time": 3.1764769554138184,
+    "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198>,\n        <http://eurovoc.europa.eu/4038> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual\" .",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:42:50.596208"
+    },
+    "total_processing_time": 3.1872289180755615,
+    "triple_count": 10
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198>,\n        <http://eurovoc.europa.eu/4038> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198>,\n        <http://eurovoc.europa.eu/4038> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual\" .\n```",
+    "generation_time": 5.5195231437683105,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198>,\n        <http://eurovoc.europa.eu/4038> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual\" .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:42:56.126521"
+    },
+    "total_processing_time": 5.527230978012085,
+    "triple_count": 10
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198>,\n        <http://eurovoc.europa.eu/4038> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual\" .",
+    "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198>,\n        <http://eurovoc.europa.eu/4038> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual\" .\n```",
+    "generation_time": 3.475931167602539,
+    "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32008R1099 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198>,\n        <http://eurovoc.europa.eu/4038> ;\n    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .\n\npol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"annual\" .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:42:59.610548"
+    },
+    "total_processing_time": 3.4840140342712402,
+    "triple_count": 11
+  }
+}

@@ -1,0 +1,80 @@
+@prefix pol: <http://purl.org/polonto#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/EU-Directive-2018-2001-Article-25>
+    a pol:Article ;
+    dc:title "Article 25" ;
+    dcterms:description """ 
+        Article 25 of the EU Directive 2018/2001.
+    """ .
+
+<http://example.com/EU-Directive-2018-2001-Article-25-Paragraph-1>
+    a pol:Paragraph ;
+    dc:title "Paragraph 1" ;
+    dcterms:description """
+        By 31 December 2020, each Member State shall ensure that the share of energy from renewable sources in all forms of transport is at least 10% of the final consumption of energy in transport.
+    """ ;
+    pol:hasArticle <http://example.com/EU-Directive-2018-2001-Article-25> .
+
+<http://example.com/EU-Directive-2018-2001-Article-25-Paragraph-2>
+    a pol:Paragraph ;
+    dc:title "Paragraph 2" ;
+    dcterms:description """
+        The contribution of biofuels produced from feedstocks listed in part A of Annex IX shall be limited to no more than half of the share specified in paragraph 1.
+    """ ;
+    pol:hasArticle <http://example.com/EU-Directive-2018-2001-Article-25> .
+
+<http://example.com/EU-Directive-2018-2001-Article-25-Paragraph-3>
+    a pol:Paragraph ;
+    dc:title "Paragraph 3" ;
+    dcterms:description """
+        The contribution of biofuels produced from feedstocks listed in part B of Annex IX shall be limited to no more than half of the share specified in paragraph 1.
+    """ ;
+    pol:hasArticle <http://example.com/EU-Directive-2018-2001-Article-25> .
+
+<http://example.com/EU-Directive-2018-2001-Article-25-Paragraph-4>
+    a pol:Paragraph ;
+    dc:title "Paragraph 4" ;
+    dcterms:description """
+        The contribution of advanced biofuels shall be at least 0.2% of the share specified in paragraph 1.
+    """ ;
+    pol:hasArticle <http://example.com/EU-Directive-2018-2001-Article-25> .
+
+<http://example.com/EU-Directive-2018-2001-Article-26>
+    a pol:Article ;
+    dc:title "Article 26" ;
+    dcterms:description """
+        Article 26 of the EU Directive 2018/2001.
+    """ .
+
+<http://example.com/EU-Directive-2018-2001-Article-26-Paragraph-1>
+    a pol:Paragraph ;
+    dc:title "Paragraph 1" ;
+    dcterms:description """
+        By 31 December 2025, the Commission shall assess whether the obligation relating to advanced biofuels and biogas produced from feedstock listed in part A of Annex IX effectively stimulates innovation and ensures greenhouse gas emissions savings in the transport sector.
+    """ ;
+    pol:hasArticle <http://example.com/EU-Directive-2018-2001-Article-26> .
+
+<http://example.com/EU-Directive-2018-2001-Article-26-Paragraph-2>
+    a pol:Paragraph ;
+    dc:title "Paragraph 2" ;
+    dcterms:description """
+        The Commission shall, if appropriate, submit a proposal to amend the obligation relating to advanced biofuels and biogas produced from feedstock listed in part A of Annex IX.
+    """ ;
+    pol:hasArticle <http://example.com/EU-Directive-2018-2001-Article-26> .
+
+<http://example.com/EU-Directive-2018-2001>
+    a pol:Legislation ;
+    dc:title "EU Directive 2018/2001" ;
+    dcterms:description """
+        EU Directive 2018/2001 on the promotion of the use of energy from renewable sources.
+    """ .
+
+<http://example.com/EU-Directive-2018-2001-Article-25> pol:hasLegislation <http://example.com/EU-Directive-2018-2001> .
+<http://example.com/EU-Directive-2018-2001-Article-26> pol:hasLegislation <http://example.com/EU-Directive-2018-2001> .
+
+<http://example.com/EU-Directive-2018-2001-Article-25-Paragraph-1> owl:sameAs <http://example.com/EU-Directive-2018-2001-Article-26-Paragraph-2> .

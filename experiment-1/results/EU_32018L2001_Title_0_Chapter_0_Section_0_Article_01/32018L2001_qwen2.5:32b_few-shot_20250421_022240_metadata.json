@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pola: <http://purl.org/polissa/ontologia#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/dir/2018/2001/oj>\n    a pola:Directive ;\n    pola:title \"EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01\"^^xsd:string ;\n    pola:celexNumber \"32018L2001\"^^xsd:string ;\n    pola:annotator \"C\", \"F\", \"B\" ;\n    pola:text \"\"\"Article 1\nSubject matter\nThis Directive establishes a common framework for the promotion of energy from renewable sources. It sets a binding Union target for the overall share of energy from renewable sources in the Union's gross final consumption of energy in 2030. It also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between Member States, and between Member States and third countries, on guarantees of origin, on administrative procedures and on information and training. It also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\"\"\"^^xsd:string .",
+  "original_output": "```turtle\n@prefix pola: <http://purl.org/polissa/ontologia#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/dir/2018/2001/oj>\n    a pola:Directive ;\n    pola:title \"EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01\"^^xsd:string ;\n    pola:celexNumber \"32018L2001\"^^xsd:string ;\n    pola:annotator \"C\", \"F\", \"B\" ;\n    pola:text \"\"\"Article 1\nSubject matter\nThis Directive establishes a common framework for the promotion of energy from renewable sources. It sets a binding Union target for the overall share of energy from renewable sources in the Union's gross final consumption of energy in 2030. It also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between Member States, and between Member States and third countries, on guarantees of origin, on administrative procedures and on information and training. It also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\"\"\"^^xsd:string .\n```",
+  "generation_time": 19.204440593719482,
+  "output": "```turtle\n@prefix pola: <http://purl.org/polissa/ontologia#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/dir/2018/2001/oj>\n    a pola:Directive ;\n    pola:title \"EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01\"^^xsd:string ;\n    pola:celexNumber \"32018L2001\"^^xsd:string ;\n    pola:annotator \"C\", \"F\", \"B\" ;\n    pola:text \"\"\"Article 1\nSubject matter\nThis Directive establishes a common framework for the promotion of energy from renewable sources. It sets a binding Union target for the overall share of energy from renewable sources in the Union's gross final consumption of energy in 2030. It also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between Member States, and between Member States and third countries, on guarantees of origin, on administrative procedures and on information and training. It also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.\"\"\"^^xsd:string .\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01",
+      "CELEX_Number": "32018L2001",
+      "ELI": "http://data.europa.eu/eli/dir/2018/2001/oj",
+      "Annotators": [
+        "C",
+        "F",
+        "B"
+      ]
+    },
+    "prompt_strategy": "few-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T02:22:40.523708"
+  },
+  "triple_count": 7
+}

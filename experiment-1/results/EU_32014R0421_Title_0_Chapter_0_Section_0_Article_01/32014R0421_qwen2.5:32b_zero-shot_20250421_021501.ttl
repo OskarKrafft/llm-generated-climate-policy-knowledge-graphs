@@ -1,0 +1,32 @@
+@prefix pol: <https://w3id.org/pol#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/provision/Article_179_paragraph1> a pol:Provision ;
+    rdfs:label "Paragraph 1 of Article 179" ;
+    pol:hasContent """
+(1) In Annex I, in the column ‘activities’ of the table therein, under the heading ‘aviation’, the following point is added after point (j):
+‘(k)
+From 1 January 2013 to 31 December 2020, flights which, but for this point, would fall within this activity, performed by a non-commercial aircraft operator operating flights with total annual emissions lower than 1 000 tonnes per year.’.
+""" ;
+    pol:isPartOf <https://example.org/article/Article_179> .
+
+<https://example.org/provision/Article_179_paragraph2> a pol:Provision ;
+    rdfs:label "Paragraph 2 of Article 179" ;
+    pol:hasContent """
+(2)
+In Annex I, in the column ‘activities’ of the table therein, under the heading ‘aviation’ the following point is added after point (j):
+‘(k)
+From 1 January 2013 to 31 December 2020, flights which, but for this point, would fall within this activity, performed by a non-commercial aircraft operator operating flights with total annual emissions lower than 1 000 tonnes per year.’.
+""" ;
+    pol:isPartOf <https://example.org/article/Article_179> .
+
+<https://example.org/article/Article_179> a pol:Article ;
+    rdfs:label "Article 179" ;
+    pol:hasContent """
+(1) In Annex I, in the column ‘activities’ of the table therein, under the heading ‘aviation’, the following point is added after point (j):
+‘(k)
+From 1 January 2013 to 31 December 2020, flights which, but for this point, would fall within this activity, performed by a non-commercial aircraft operator operating flights with total annual emissions lower than 1 000 tonnes per year.’.
+""" ;
+    pol:hasProvision <https://example.org/provision/Article_179_paragraph1>,
+        <https://example.org/provision/Article_179_paragraph2> .
+

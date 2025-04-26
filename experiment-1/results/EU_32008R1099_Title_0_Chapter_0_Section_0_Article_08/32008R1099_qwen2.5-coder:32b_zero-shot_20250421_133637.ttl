@@ -1,0 +1,10 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:Article ;
+    pol:hasCELEXNumber "32008R1099" ;
+    pol:hasContent "the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)." ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2008/1099/oj> ;
+    pol:hasTitle "annual nuclear statistics" ;
+    pol:isAnnotatedBy ( pol:A pol:C ) .
+

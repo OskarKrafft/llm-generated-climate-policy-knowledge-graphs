@@ -1,0 +1,18 @@
+@prefix pol: <https://w3id.org/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/dir/2004/8/oj/article/10> a pol:Article ;
+    pol:annotator <https://example.org/ann/B>,
+        <https://example.org/ann/C> ;
+    pol:celexNumber "32004L0008"^^xsd:string ;
+    pol:eli "http://data.europa.eu/eli/dir/2004/8/oj" ;
+    pol:text """
+article 10
+member states' reporting
+1. member states shall, not later than 21 february 2006, publish a report with the results of the analysis and evaluations carried out in accordance with articles 5(3), 6(1), 9(1) and 9(2).
+2. member states shall not later than 21 february 2007 and thereafter every four years, following a request by the commission at least six months before the due date, publish a report with the result of the evaluation referred to in article 6(3).
+3. member states shall submit to the commission, for the first time before the end of december 2004 covering data for the year 2003, and thereafter on an annual basis, statistics on national electricity and heat production from cogeneration, in accordance with the methodology shown in annex ii.
+they shall also submit annual statistics on cogeneration capacities and fuels used for cogeneration. member states may also submit statistics on primary energy savings achieved by application of cogeneration, in accordance with the methodology shown in annex iii.
+""" ;
+    pol:title "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10" .
+

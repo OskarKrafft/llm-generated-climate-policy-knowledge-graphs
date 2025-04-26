@@ -1,0 +1,37 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26 a pol:PolicyArticle ;
+    pol:specifies_compliance_time pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_1,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_2,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_3,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_4,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_5,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_6 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-03-15"^^xsd:date ;
+    pol:annotatedText "by 15 march 2021, and every year thereafter (year x): report to the commission the information referred to in article 6(2) of directive 2009/119/ec and in point 3 of annex ix of directive 2013/30/eu" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-07-31"^^xsd:date ;
+    pol:annotatedText "by 31 july 2021, and every year thereafter (year x): report to the commission approximated greenhouse gas inventories for the year x-1" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-09-30"^^xsd:date ;
+    pol:annotatedText "by 30 september every year: the commission shall make available the union approximated greenhouse gas inventory compiled on the basis of member states' submissions" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-03-15"^^xsd:date ;
+    pol:annotatedText "from 2023: report final greenhouse gas inventory data by 15 march each year and preliminary data by 15 january each year, including required inventory details as per annex v" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_5 a pol:Time_Compliance ;
+    pol:Compliance_date "2027-01-15"^^xsd:date ;
+    pol:annotatedText "by 15 january 2027: report preliminary national inventory data for lulucf accounts for compliance reports" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeCompliance_6 a pol:Time_Compliance ;
+    pol:Compliance_date "2032-03-15"^^xsd:date ;
+    pol:annotatedText "by 15 march 2032: report final national inventory data for lulucf accounts for compliance reports" .

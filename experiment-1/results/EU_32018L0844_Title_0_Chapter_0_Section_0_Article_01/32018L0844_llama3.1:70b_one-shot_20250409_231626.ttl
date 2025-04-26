@@ -1,0 +1,35 @@
+turtle
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix polianno: <https://w3id.org/polianno#> .
+
+<https://w3id.org/polianno/example/eu-directive-2018-844>
+    dc:title "Directive (EU) 2018/844 of the European Parliament and of the Council"@en ;
+    dcat:dateModified "2020-05-15"^^xsd:date ;
+    skos:notation "eu-directive-2018-844"@en .
+
+<https://w3id.org/polianno/example/eu-article-19>
+    dc:title "Article 19 — Review"@en ;
+    polianno:partOf <https://w3id.org/polianno/example/eu-directive-2018-844> ;
+    dcat:dateModified "2020-05-15"^^xsd:date .
+
+<https://w3id.org/polianno/example/eu-article-19a>
+    dc:title "Article 19a — Feasibility study"@en ;
+    polianno:partOf <https://w3id.org/polianno/example/eu-directive-2018-844> ;
+    dcat:dateModified "2020-05-15"^^xsd:date .
+
+<https://w3id.org/polianno/example/eu-article-20>
+    dc:title "Article 20 — Information and training"@en ;
+    polianno:partOf <https://w3id.org/polianno/example/eu-directive-2018-844> ;
+    dcat:dateModified "2020-05-15"^^xsd:date .
+
+<https://w3id.org/polianno/example/eu-article-23>
+    dc:title "Article 23 — Exercise of the delegation"@en ;
+    polianno:partOf <https://w3id.org/polianno/example/eu-directive-2018-844> ;
+    dcat:dateModified "2020-05-15"^^xsd:date .
+
+<https://w3id.org/polianno/example/eu-article-26>
+    dc:title "Article 26 — Committee procedure"@en ;
+    polianno:partOf <https://w3id.org/polianno/example/eu-directive-2018-844> ;
+    dcat:dateModified "2020-05-15"^^xsd:date .

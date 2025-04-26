@@ -1,0 +1,79 @@
+@prefix poli: <http://purl.org/NET/polian#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/dir/2012/27/oj>
+  a poli:Policy ;
+  skos:notation "32012L0027" ;
+  skos:prefLabel "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08"@en .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#Article8>
+  a poli:PolicyArticle ;
+  skos:notation "Article8" ;
+  skos:prefLabel "Energy Audits and Energy Management Systems"@en ;
+  dc:description """
+    Member States shall promote the availability to all final customers of high quality energy audits which are cost-effective and:
+    (a) carried out in an independent manner by qualified and/or accredited experts according to qualification criteria; or
+    (b) implemented and supervised by independent authorities under national legislation.
+    The energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the Member State concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out.
+    For the purpose of guaranteeing the high quality of the energy audits and energy management systems, Member States shall establish transparent and non-discriminatory minimum criteria for energy audits based on Annex VI.
+    Energy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object.
+  """@en ;
+  poli:articleNumber "8" .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#Article8-1>
+  a poli:PolicyArticleParagraph ;
+  skos:notation "1" ;
+  dc:description """
+    Member States shall promote the availability to all final customers of high quality energy audits which are cost-effective and:
+    (a) carried out in an independent manner by qualified and/or accredited experts according to qualification criteria; or
+    (b) implemented and supervised by independent authorities under national legislation.
+  """@en .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#Article8-1-a>
+  a poli:PolicyArticleParagraphPoint ;
+  skos:notation "a" ;
+  dc:description """
+    carried out in an independent manner by qualified and/or accredited experts according to qualification criteria;
+  """@en .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#Article8-1-b>
+  a poli:PolicyArticleParagraphPoint ;
+  skos:notation "b" ;
+  dc:description """
+    implemented and supervised by independent authorities under national legislation.
+  """@en .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#Article8-2>
+  a poli:PolicyArticleParagraph ;
+  skos:notation "2" ;
+  dc:description """
+    Member States shall develop programmes to encourage SMEs to undergo energy audits and the subsequent implementation of the recommendations from these audits.
+  """@en .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#Article8-3>
+  a poli:PolicyArticleParagraph ;
+  skos:notation "3" ;
+  dc:description """
+    Member States shall also develop programmes to raise awareness among households about the benefits of such audits through appropriate advice services.
+  """@en .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#Article8-4>
+  a poli:PolicyArticleParagraph ;
+  skos:notation "4" ;
+  dc:description """
+    Member States shall ensure that enterprises that are not SMEs are subject to an energy audit carried out in an independent and cost-effective manner by qualified and/or accredited experts or implemented and supervised by independent authorities under national legislation by 5 December 2015 and at least every four years from the date of the previous energy audit.
+  """@en .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#Article8-5>
+  a poli:PolicyArticleParagraph ;
+  skos:notation "5" ;
+  dc:description """
+    Energy audits shall be considered as fulfilling the requirements of paragraph 4 when they are carried out in an independent manner, on the basis of minimum criteria based on Annex VI, and implemented under voluntary agreements concluded between organisations of stakeholders and an appointed body and supervised by the Member State concerned, or other bodies to which the competent authorities have delegated the responsibility concerned, or by the Commission.
+  """@en .
+
+<http://data.europa.eu/eli/dir/2012/27/oj#Article8-6>
+  a poli:PolicyArticleParagraph ;
+  skos:notation "6" ;
+  dc:description """
+    Energy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object.
+  """@en .

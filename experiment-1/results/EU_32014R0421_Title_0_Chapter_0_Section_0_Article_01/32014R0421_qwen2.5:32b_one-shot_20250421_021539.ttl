@@ -1,0 +1,54 @@
+@prefix pol: <http://example.org/poliana#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:Article_7a pol:hasContent """
+(1) Add Article 3d to the EU ETS Directive.
+""" ;
+    pol:hasTitle "Article 7a" .
+
+pol:Article_7b pol:hasContent """
+(2) Add Article 3g to the EU ETS Directive.
+""" ;
+    pol:hasTitle "Article 7b" .
+
+pol:subsection_1 pol:hasSectionNumber "1"^^xsd:string ;
+    pol:hasText """
+By way of derogation from article 3d, member states shall auction a number of aviation allowances reduced in proportion to the reduction in the total number of allowances issued.
+""" ;
+    pol:isPartOf pol:Article_3d .
+
+pol:subsection_1a pol:hasSectionNumber "1"^^xsd:string ;
+    pol:hasText """
+By way of derogation from article 3d, member states shall auction a number of aviation allowances reduced in proportion to the reduction in the total number of allowances issued.
+""" ;
+    pol:isPartOf pol:Article_3g .
+
+pol:subsection_2 pol:hasSectionNumber "2"^^xsd:string ;
+    pol:hasText """
+In annex i, in the column ‘activities’ of the table therein, under the heading ‘aviation’ the following point is added after point (j):
+‘(k)
+From 1 January 2013 to 31 December 2020, flights which, but for this point, would fall within this activity, performed by a non-commercial aircraft operator operating flights with total annual emissions lower than 1,000 tonnes per year.
+’
+""" ;
+    pol:isPartOf pol:Article_3d .
+
+pol:subsection_2a pol:hasSectionNumber "2"^^xsd:string ;
+    pol:hasText """
+In annex i, in the column ‘activities’ of the table therein, under the heading ‘aviation’ the following point is added after point (j):
+‘(k)
+From 1 January 2013 to 31 December 2020, flights which, but for this point, would fall within this activity, performed by a non-commercial aircraft operator operating flights with total annual emissions lower than 1,000 tonnes per year.
+’
+""" ;
+    pol:isPartOf pol:Article_3g .
+
+pol:Article_3d pol:hasContent """
+(1) Add Article 3d to the EU ETS Directive.
+""" ;
+    pol:hasSubsection pol:subsection_1,
+        pol:subsection_2 ;
+    pol:isPartOf pol:Article_7a .
+
+pol:Article_3g pol:hasSubsection pol:subsection_1a,
+        pol:subsection_2a ;
+    pol:isPartOf pol:Article_7b .
+

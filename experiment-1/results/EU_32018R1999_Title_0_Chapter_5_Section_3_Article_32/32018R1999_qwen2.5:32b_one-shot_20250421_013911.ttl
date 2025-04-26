@@ -1,0 +1,36 @@
+@prefix pol: <http://example.org/pollution#> .
+
+<http://example.org/article/EU2020能源效率指令第3条> a pol:Article ;
+    pol:hasSection <http://example.org/section/EU2020能源效率指令第3.1段>,
+        <http://example.org/section/EU2020能源效率指令第3.2段>,
+        <http://example.org/section/EU2020能源效率指令第3.3段>,
+        <http://example.org/section/EU2020能源效率指令第3.4段>,
+        <http://example.org/section/EU2020能源效率指令第3.5段>,
+        <http://example.org/section/EU2020能源效率指令第3.6段>,
+        <http://example.org/section/EU2020能源效率指令第3.7段>,
+        <http://example.org/section/EU2020能源效率指令第3.8段> .
+
+<http://example.org/section/EU2020能源效率指令第3.1段> a pol:Section ;
+    pol:content "当委员会根据第29(1)和(3)条进行的评估得出结论，到2022年、2025年和2027年，在实现联盟能效目标方面集体进展不足时，委员会应在国家层面提出措施并行使权力以确保达到2030年的联盟能源效率目标。" .
+
+<http://example.org/section/EU2020能源效率指令第3.2段> a pol:Section ;
+    pol:content "根据本条第1款所述的考虑，成员国应在其综合国家能源和气候进展报告中包含这些措施。" .
+
+<http://example.org/section/EU2020能源效率指令第3.3段> a pol:Section ;
+    pol:content "自2021年1月1日起，每个成员国的最终消费能源中来自可再生能源的比例不应低于其根据第（EU）2018/2001号指令第3(4)条设定的强制性国家总体目标所确定的基线比例。如果一个成员国未能维持其作为一年期测量的基线份额，相关成员国应在一年内采取足以弥补这一差距的额外措施，如：" .
+
+<http://example.org/section/EU2020能源效率指令第3.4段> a pol:Section ;
+    pol:content "履行补足基线缺口义务的成员国在整个发生缺口期间被视为遵守本款第一子句以及（EU）2018/2001号指令第3(4)条规定的义务。" .
+
+<http://example.org/section/EU2020能源效率指令第3.5段> a pol:Section ;
+    pol:content "根据第3款第一子句点(d)的规定，成员国可以使用其根据第2003/87/EC号指令获得的年度排放配额收入。" .
+
+<http://example.org/section/EU2020能源效率指令第3.6段> a pol:Section ;
+    pol:content "如果成员国的可再生能源份额低于根据文章4点(a)(2)所述的国家参考点，它应在下一次提交给委员会的综合报告中解释如何弥补与国家参考点之间的差距。" .
+
+<http://example.org/section/EU2020能源效率指令第3.7段> a pol:Section ;
+    pol:content "根据本条第3款提及的成员国应在其后续进度报告中详细说明已实施、采纳和计划采取的额外措施。" .
+
+<http://example.org/section/EU2020能源效率指令第3.8段> a pol:Section ;
+    pol:content "如果在互联互通领域，委员会根据第29(1)和(4)条进行评估，在2025年得出结论认为进展不足，则委员会应在2026年前与相关成员国合作，以解决所遇到的情况。" .
+

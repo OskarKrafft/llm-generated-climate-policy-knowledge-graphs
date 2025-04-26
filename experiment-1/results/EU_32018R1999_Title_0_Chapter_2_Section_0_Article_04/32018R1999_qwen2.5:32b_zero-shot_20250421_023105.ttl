@@ -1,0 +1,73 @@
+@prefix pol: <http://example.org/pollanna#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/article/EnergyUnionObjectives> a pol:Article ;
+    pol:hasSection <http://example.org/section/EnergyEfficiency>,
+        <http://example.org/section/EnergyResearchInnovation>,
+        <http://example.org/section/EnergySecurity>,
+        <http://example.org/section/InternalEnergyMarket>,
+        <http://example.org/section/RenewableEnergy> .
+
+<http://example.org/section/EnergyEfficiency> a pol:Section ;
+    pol:hasSubSection <http://example.org/subsection/NationalEnergySaving> .
+
+<http://example.org/section/EnergyResearchInnovation> a pol:Section ;
+    pol:hasSubSection <http://example.org/subsection/NationalObjectives>,
+        <http://example.org/subsection/RenewableEnergyTargets> .
+
+<http://example.org/section/EnergySecurity> a pol:Section ;
+    pol:hasSubSection <http://example.org/subsection/DiversificationOfEnergySources>,
+        <http://example.org/subsection/FlexibilityEnhancement>,
+        <http://example.org/subsection/SupplyResilience> .
+
+<http://example.org/section/InternalEnergyMarket> a pol:Section ;
+    pol:hasSubSection <http://example.org/subsection/ElectricityInterconnectivity>,
+        <http://example.org/subsection/SystemFlexibility>,
+        <http://example.org/subsection/TransmissionInfrastructureProjects> .
+
+<http://example.org/section/RenewableEnergy> a pol:Section ;
+    pol:hasSubSection <http://example.org/subsection/BuildingRenovationStrategies>,
+        <http://example.org/subsection/EnergySavingObligations>,
+        <http://example.org/subsection/PublicBuildingsRole> .
+
+<http://example.org/subsection/BuildingRenovationStrategies> a pol:SubSection ;
+    pol:hasObjective "Indicative milestones of the long-term strategy for the renovation of the national stock of residential and non-residential buildings"^^xsd:string .
+
+<http://example.org/subsection/DiversificationOfEnergySources> a pol:SubSection ;
+    pol:hasObjective "Increasing the diversification of energy sources and supply from third countries, the purpose of which may be to reduce energy import dependency"^^xsd:string ;
+    pol:hasTimeline "2030"^^xsd:date .
+
+<http://example.org/subsection/ElectricityInterconnectivity> a pol:SubSection ;
+    pol:hasObjective "The level of electricity interconnectivity that the member state aims for in 2030"^^xsd:string ;
+    pol:hasTimeline "2030"^^xsd:date .
+
+<http://example.org/subsection/EnergySavingObligations> a pol:SubSection ;
+    pol:hasObjective "The cumulative amount of end-use energy savings to be achieved over the period 2021-2030 under point (b) of article 7(1)"^^xsd:string .
+
+<http://example.org/subsection/FlexibilityEnhancement> a pol:SubSection ;
+    pol:hasObjective "Increasing the flexibility of the national energy system"^^xsd:string ;
+    pol:hasTimeline "2030"^^xsd:date .
+
+<http://example.org/subsection/NationalEnergySaving> a pol:SubSection ;
+    pol:hasObjective "National objectives for energy saving"^^xsd:string .
+
+<http://example.org/subsection/NationalObjectives> a pol:SubSection ;
+    pol:hasObjective "National objectives and targets for energy research, innovation"^^xsd:string .
+
+<http://example.org/subsection/PublicBuildingsRole> a pol:SubSection ;
+    pol:hasObjective "Total floor area to be renovated or equivalent annual energy savings to be achieved from 2021 to 2030 under article 5 of directive 2012/27/eu on the exemplary role of public bodies' buildings"^^xsd:string .
+
+<http://example.org/subsection/RenewableEnergyTargets> a pol:SubSection ;
+    pol:hasObjective "Renewable energy targets under the five dimensions of the energy union"^^xsd:string .
+
+<http://example.org/subsection/SupplyResilience> a pol:SubSection ;
+    pol:hasObjective "Addressing constrained or interrupted supply of an energy source, for the purpose of improving the resilience of regional and national energy systems"^^xsd:string ;
+    pol:hasTimeline "2030"^^xsd:date .
+
+<http://example.org/subsection/SystemFlexibility> a pol:SubSection ;
+    pol:hasObjective "National objectives related to other aspects of the internal energy market such as increasing system flexibility, in particular through policies and measures related to market-based price formation in compliance with applicable law"^^xsd:string ;
+    pol:hasTimeline "2030"^^xsd:date .
+
+<http://example.org/subsection/TransmissionInfrastructureProjects> a pol:SubSection ;
+    pol:hasObjective "Key electricity and gas transmission infrastructure projects, and, where relevant, modernisation projects, that are necessary for the achievement of objectives and targets under the five dimensions of the energy union"^^xsd:string .
+

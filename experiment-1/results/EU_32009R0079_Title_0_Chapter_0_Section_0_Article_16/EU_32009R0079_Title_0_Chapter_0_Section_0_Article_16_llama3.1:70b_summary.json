@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": false,
+    "error": "at line 1 of <>:\nBad syntax (expected directive or statement) at ^ in:\n\"b''^b'turtle\\n:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16'...\"",
+    "extracted_content": "turtle\n:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 \n    a :Policy ;\n    :CELEX_Number \"32009R0079\" ;\n    :ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    :hasAnnotator _:B, _:F .\n\n_:B\n    a :Person ;\n    :annotates :EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\n_:F\n    a :Person ;\n    :annotates :EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .",
+    "original_output": "```\nturtle\n:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 \n    a :Policy ;\n    :CELEX_Number \"32009R0079\" ;\n    :ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    :hasAnnotator _:B, _:F .\n\n_:B\n    a :Person ;\n    :annotates :EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\n_:F\n    a :Person ;\n    :annotates :EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n```",
+    "generation_time": 21.568062782287598,
+    "output": "```\nturtle\n:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 \n    a :Policy ;\n    :CELEX_Number \"32009R0079\" ;\n    :ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n    :hasAnnotator _:B, _:F .\n\n_:B\n    a :Person ;\n    :annotates :EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n\n_:F\n    a :Person ;\n    :annotates :EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .\n```",
+    "success": false,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "llama3.1:70b",
+      "timestamp": "2025-04-21T06:04:49.590345"
+    },
+    "total_processing_time": 21.571279048919678,
+    "triple_count": 0
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix poliannia: <http://purl.org/poliannia/> .\n@prefix dc: <http://purl.org/dc/elements/1.1/> .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a poliannia:Article ;\n  dc:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n  poliannia:CELEX_Number \"32009R0079\" ;\n  poliannia:ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n  dc:description \"\"\"\n    article\u00a016\n    entry into force\n    this regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\n    it shall apply from 24\u00a0february 2011, with the exception of article\u00a011(3) and article\u00a012, which shall apply from the date of entry into force of this regulation, and article\u00a011(2), which shall apply from the date set out therein.\n    this regulation shall be binding in its entirety and directly applicable in all member states.\n  \"\"\" ;\n  poliannia:annotatedText \"\"\"\n    this regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\n    it shall apply from 24\u00a0february 2011, with the exception of article\u00a011(3) and article\u00a012, which shall apply from the date of entry into force of this regulation, and article\u00a011(2), which shall apply from the date set out therein.\n    this regulation shall be binding in its entirety and directly applicable in all member states.\n  \"\"\" ;\n  poliannia:Annotator \"B\", \"F\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeEntryIntoForce a poliannia:Time_Entry_into_force ;\n  poliannia:annotatedText \"the 20th day following its publication in the official journal of the european union\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplication a poliannia:Time_Application ;\n  poliannia:annotatedText \"24 february 2011\", \"the date of entry into force of this regulation\", \"the date set out therein\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplication_2 a poliannia:Time_Application ;\n  poliannia:annotatedText \"24 february 2011\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplication_3 a poliannia:Time_Application ;\n  poliannia:annotatedText \"the date of entry into force of this regulation\", \"the date set out therein\" .",
+    "original_output": "```turtle\n@prefix poliannia: <http://purl.org/poliannia/> .\n@prefix dc: <http://purl.org/dc/elements/1.1/> .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a poliannia:Article ;\n  dc:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n  poliannia:CELEX_Number \"32009R0079\" ;\n  poliannia:ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n  dc:description \"\"\"\n    article\u00a016\n    entry into force\n    this regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\n    it shall apply from 24\u00a0february 2011, with the exception of article\u00a011(3) and article\u00a012, which shall apply from the date of entry into force of this regulation, and article\u00a011(2), which shall apply from the date set out therein.\n    this regulation shall be binding in its entirety and directly applicable in all member states.\n  \"\"\" ;\n  poliannia:annotatedText \"\"\"\n    this regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\n    it shall apply from 24\u00a0february 2011, with the exception of article\u00a011(3) and article\u00a012, which shall apply from the date of entry into force of this regulation, and article\u00a011(2), which shall apply from the date set out therein.\n    this regulation shall be binding in its entirety and directly applicable in all member states.\n  \"\"\" ;\n  poliannia:Annotator \"B\", \"F\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeEntryIntoForce a poliannia:Time_Entry_into_force ;\n  poliannia:annotatedText \"the 20th day following its publication in the official journal of the european union\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplication a poliannia:Time_Application ;\n  poliannia:annotatedText \"24 february 2011\", \"the date of entry into force of this regulation\", \"the date set out therein\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplication_2 a poliannia:Time_Application ;\n  poliannia:annotatedText \"24 february 2011\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplication_3 a poliannia:Time_Application ;\n  poliannia:annotatedText \"the date of entry into force of this regulation\", \"the date set out therein\" .\n```",
+    "generation_time": 69.82324123382568,
+    "output": "```turtle\n@prefix poliannia: <http://purl.org/poliannia/> .\n@prefix dc: <http://purl.org/dc/elements/1.1/> .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a poliannia:Article ;\n  dc:title \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n  poliannia:CELEX_Number \"32009R0079\" ;\n  poliannia:ELI <http://data.europa.eu/eli/reg/2009/79/oj> ;\n  dc:description \"\"\"\n    article\u00a016\n    entry into force\n    this regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\n    it shall apply from 24\u00a0february 2011, with the exception of article\u00a011(3) and article\u00a012, which shall apply from the date of entry into force of this regulation, and article\u00a011(2), which shall apply from the date set out therein.\n    this regulation shall be binding in its entirety and directly applicable in all member states.\n  \"\"\" ;\n  poliannia:annotatedText \"\"\"\n    this regulation shall enter into force on the 20th day following its publication in the official journal of the european union.\n    it shall apply from 24\u00a0february 2011, with the exception of article\u00a011(3) and article\u00a012, which shall apply from the date of entry into force of this regulation, and article\u00a011(2), which shall apply from the date set out therein.\n    this regulation shall be binding in its entirety and directly applicable in all member states.\n  \"\"\" ;\n  poliannia:Annotator \"B\", \"F\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeEntryIntoForce a poliannia:Time_Entry_into_force ;\n  poliannia:annotatedText \"the 20th day following its publication in the official journal of the european union\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplication a poliannia:Time_Application ;\n  poliannia:annotatedText \"24 february 2011\", \"the date of entry into force of this regulation\", \"the date set out therein\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplication_2 a poliannia:Time_Application ;\n  poliannia:annotatedText \"24 february 2011\" .\n\npoliannia:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplication_3 a poliannia:Time_Application ;\n  poliannia:annotatedText \"the date of entry into force of this regulation\", \"the date set out therein\" .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "llama3.1:70b",
+      "timestamp": "2025-04-21T06:05:59.418550"
+    },
+    "total_processing_time": 69.8297061920166,
+    "triple_count": 19
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix poli: <http://www.semanticweb.org/polina/ontologies/2019/5/POLINN#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a poli:Article ;\n    poli:hasTitle \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    poli:isPartOf <http://data.europa.eu/eli/reg/2009/79/oj> .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeEntryIntoForce a poli:Time_Entry_into_force ;\n    poli:annotatedText \"the 20th day following its publication in the official journal of the european union\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplicationStart a poli:Time_Application_start ;\n    poli:annotatedText \"24 february 2011\" .",
+    "original_output": "```turtle\n@prefix poli: <http://www.semanticweb.org/polina/ontologies/2019/5/POLINN#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a poli:Article ;\n    poli:hasTitle \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    poli:isPartOf <http://data.europa.eu/eli/reg/2009/79/oj> .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeEntryIntoForce a poli:Time_Entry_into_force ;\n    poli:annotatedText \"the 20th day following its publication in the official journal of the european union\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplicationStart a poli:Time_Application_start ;\n    poli:annotatedText \"24 february 2011\" .\n```",
+    "generation_time": 31.185548067092896,
+    "output": "```turtle\n@prefix poli: <http://www.semanticweb.org/polina/ontologies/2019/5/POLINN#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a poli:Article ;\n    poli:hasTitle \"EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16\" ;\n    poli:isPartOf <http://data.europa.eu/eli/reg/2009/79/oj> .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeEntryIntoForce a poli:Time_Entry_into_force ;\n    poli:annotatedText \"the 20th day following its publication in the official journal of the european union\" .\n\npoli:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeApplicationStart a poli:Time_Application_start ;\n    poli:annotatedText \"24 february 2011\" .\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "llama3.1:70b",
+      "timestamp": "2025-04-21T06:06:30.610310"
+    },
+    "total_processing_time": 31.191823720932007,
+    "triple_count": 7
+  }
+}

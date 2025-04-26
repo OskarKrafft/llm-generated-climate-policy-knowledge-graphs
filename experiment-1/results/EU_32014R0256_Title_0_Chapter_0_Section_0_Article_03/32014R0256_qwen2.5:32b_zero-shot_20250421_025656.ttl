@@ -1,0 +1,41 @@
+@prefix pol: <http://example.org/pol#> .
+
+pol:Article_3_Exemption a pol:Exemption ;
+    pol:article pol:EU_32014R0256_Article_3 ;
+    pol:description """
+Member states or their entities are exempted if they have already notified equivalent data to the Commission pursuant to other legal acts, or if a specific body prepares multi-annual investment plans at union level.
+""" ;
+    pol:title "Exemption from Notification Obligation" .
+
+pol:Article_3_Obligation a pol:Obligation ;
+    pol:article pol:EU_32014R0256_Article_3 ;
+    pol:description """
+Member states or entities delegated by them must compile all data and information required under this regulation starting from 1 January 2015, every two years. They shall notify the aggregated form of data and relevant project information to the Commission annually on July 31st.
+""" ;
+    pol:title "Notification Obligation" .
+
+pol:C a pol:Annotator ;
+    pol:annotates pol:EU_32014R0256 .
+
+pol:F a pol:Annotator ;
+    pol:annotates pol:EU_32014R0256 .
+
+pol:EU_32014R0256_Article_3 a pol:Article ;
+    pol:articleText """
+1. While keeping the collection and reporting burden proportionate, member states or the entities to which they delegate that task shall compile all the data and information required under this regulation as from 1 January 2015 and every two years thereafter.
+They shall notify the data and relevant project information specified in this regulation to the commission in 2015, that year being the first reporting year, and from then onwards every two years. That notification shall be made in aggregated form, except for data and relevant information relating to cross-border transmission projects.
+Member states or their delegated entities shall notify aggregated data and relevant project information by 31 July of the reporting year concerned.
+2. Member states or their delegated entities are exempted from the obligations set out in paragraph 1, provided that, and to the extent that, pursuant to energy sector-specific legal acts of the union or the Euratom treaty:
+(a) The member state concerned or its delegated entity has already notified to the commission data or information equivalent to that required under this regulation and has indicated the date of that notification and the specific legal act concerned; or
+(b) A specific body is entrusted with the preparation of a multi-annual investment plan in energy infrastructure at union level and, to that end, compiles data and information equivalent to that required under this regulation. In this case and for the purposes of this regulation, that specific body shall notify all the relevant data and information to the commission.
+""" ;
+    pol:policy pol:EU_32014R0256 ;
+    pol:title "Notification of Data" .
+
+pol:EU_32014R0256 a pol:Policy ;
+    pol:annotatedBy "C",
+        "F" ;
+    pol:celexNumber "32014R0256" ;
+    pol:eli "http://data.europa.eu/eli/reg/2014/256/oj" ;
+    pol:title "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03" .
+

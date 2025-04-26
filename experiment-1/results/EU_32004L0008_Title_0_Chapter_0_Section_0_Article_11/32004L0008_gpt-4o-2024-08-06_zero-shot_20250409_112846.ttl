@@ -1,0 +1,41 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://polianna-kg.org/Ontology#EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11> a pol:PolicyArticle ;
+    pol:annotatedText "Article 11: Commission Reporting" ;
+    pol:contains_monitoring_form <https://polianna-kg.org/Ontology#Form_monitoring> ;
+    pol:specifies_monitoring_time [
+        a pol:Time_Monitoring ;
+        pol:Monitoring_date "2008-02-21"^^xsd:date ;
+        pol:annotatedText "submit to the European Parliament and to the Council not later than 21 February 2008 and thereafter every four years"
+    ] ;
+    pol:addresses <http://eurovoc.europa.eu/2243>, <http://eurovoc.europa.eu/114> ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_objective <https://polianna-kg.org/Ontology#Objective> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#FrameworkPolicy> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#RegulatoryInstr> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#VoluntaryAgrmt> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#PublicInvestment> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#TaxIncentives> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#TradablePermit> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#Subsidies_Incentives> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#RD_D> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#Edu_Outreach> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#Form_sanctioning> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#Form_monitoring> ;
+    pol:contains_instrument <https://polianna-kg.org/Ontology#Objective> ;
+    pol:specifies_compliance_time [
+        a pol:Time_Compliance ;
+        pol:Compliance_date "2008-02-21"^^xsd:date ;
+        pol:annotatedText "submit to the European Parliament and to the Council not later than 21 February 2008 and thereafter every four years"
+    ] ;
+    pol:specifies_in_effect_time [
+        a pol:Time_InEffect ;
+        pol:In_effect_date "2004-02-21"^^xsd:date ;
+        pol:annotatedText "submit to the European Parliament and to the Council not later than 21 February 2008 and thereafter every four years"
+    ] ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/2243>, <http://eurovoc.europa.eu/114> ;
+    pol:imposes_monitoring <http://eurovoc.europa.eu/4038> ;
+    pol:establishes_authority <http://eurovoc.europa.eu/4038> ;
+    pol:hasArticle <https://polianna-kg.org/Ontology#EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11> .

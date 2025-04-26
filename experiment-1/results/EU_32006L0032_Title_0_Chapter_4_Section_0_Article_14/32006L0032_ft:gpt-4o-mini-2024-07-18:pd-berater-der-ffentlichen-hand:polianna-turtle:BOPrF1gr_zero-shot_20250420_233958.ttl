@@ -1,0 +1,54 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14 .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_1,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_2,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_3,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_4,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_5,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_6,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_7,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_8,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_9 .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "17 november 2006" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "30 june 2007" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "30 june 2011" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "30 june 2014" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "17 may 2008" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_6 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2008" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_7 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2012" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_8 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2015" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_9 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2008" .
+

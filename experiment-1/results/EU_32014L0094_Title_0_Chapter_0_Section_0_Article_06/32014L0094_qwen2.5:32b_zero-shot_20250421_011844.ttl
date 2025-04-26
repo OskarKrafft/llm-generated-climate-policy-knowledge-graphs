@@ -1,0 +1,63 @@
+@prefix poli: <http://example.org/poliana#> .
+
+poli:Paragraph_1 a poli:DirectiveParagraph ;
+    poli:hasContent """
+Member states shall ensure, by means of their national policy frameworks, that an appropriate number of LNG refuelling points are put in place for maritime and inland waterway transport at strategic locations along the TEN-T network, with a view to ensuring continuous availability of LNG refuelling infrastructure along these routes. The first set of such locations shall be identified no later than 18 months after entry into force of this Directive.
+""" ;
+    poli:isPartOf poli:Article_4 .
+
+poli:Paragraph_10 a poli:DirectiveParagraph ;
+    poli:hasContent """
+Without prejudice to Regulation (EU) No 1095/2010, the Union and its Member States shall promote cooperation with neighbouring countries and third countries for the development of transnational LNG refuelling infrastructure along the TEN-T network.
+""" ;
+    poli:isPartOf poli:Article_4 .
+
+poli:Paragraph_11 a poli:DirectiveParagraph ;
+    poli:hasContent """
+The Commission shall be assisted by the Committee established under Article 20 of Directive 2010/40/EU. That Committee shall be a committee within the meaning of Regulation (EU) No 182/2011.
+""" ;
+    poli:isPartOf poli:Article_4 .
+
+poli:Paragraph_2 a poli:DirectiveParagraph ;
+    poli:hasContent """
+Member states shall ensure, by means of their national policy frameworks, that an appropriate number of LNG refuelling points are put in place for inland waterway transport at strategic locations along the TEN-T network, with a view to ensuring continuous availability of LNG refuelling infrastructure along these routes. The first set of such locations shall be identified no later than 18 months after entry into force of this Directive.
+""" ;
+    poli:isPartOf poli:Article_4 .
+
+poli:Paragraph_4 a poli:DirectiveParagraph ;
+    poli:hasContent """
+Member states shall ensure, by means of their national policy frameworks, that an appropriate number of LNG refuelling points accessible to the public are put in place along the TEN-T network, with a view to ensuring continuous availability of LNG refuelling infrastructure along these routes.
+""" ;
+    poli:isPartOf poli:Article_4 .
+
+poli:Paragraph_6 a poli:DirectiveParagraph ;
+    poli:hasContent """
+Member states shall ensure that an appropriate LNG distribution system is available in their territory, including loading facilities for LNG tank vehicles, in order to supply the refuelling points referred to in paragraphs 1, 2 and 4. By way of derogation, neighbouring member states may, in the context of their national policy frameworks, form a pool for the purposes of fulfilling this requirement. Pooling agreements shall be the subject of the reporting obligations of the member states under this directive.
+""" ;
+    poli:isPartOf poli:Article_4 .
+
+poli:Paragraph_7 a poli:DirectiveParagraph ;
+    poli:hasContent """
+Member states shall ensure, by means of their national policy frameworks, that an appropriate number of CNG refuelling points accessible to the public are put in place by 31 December 2020, in order to ensure, in line with the sixth indent of Article 3(1), that CNG motor vehicles can circulate in urban/suburban agglomerations and other densely populated areas, and, where appropriate, within networks determined by the member states.
+""" ;
+    poli:isPartOf poli:Article_4 .
+
+poli:Paragraph_8 a poli:DirectiveParagraph ;
+    poli:hasContent """
+Member states shall ensure, by means of their national policy frameworks, that an appropriate number of CNG refuelling points accessible to the public are put in place by 31 December 2025, at least along the existing TEN-T core network, to ensure that CNG motor vehicles can circulate throughout the union.
+""" ;
+    poli:isPartOf poli:Article_4 .
+
+poli:Paragraph_9 a poli:DirectiveParagraph ;
+    poli:hasContent """
+Member states shall ensure that CNG refuelling points for motor vehicles deployed or renewed as from 18 November 2017 comply with the technical specifications set out in point 3.4 of Annex II.
+""" ;
+    poli:isPartOf poli:Article_4 .
+
+poli:Article_4 a poli:DirectiveArticle ;
+    poli:hasContent """
+6. Member states shall ensure that an appropriate LNG distribution system is available in their territory, including loading facilities for LNG tank vehicles, in order to supply the refuelling points referred to in paragraphs 1, 2 and 4. By way of derogation, neighbouring member states may, in the context of their national policy frameworks, form a pool for the purposes of fulfilling this requirement. Pooling agreements shall be the subject of the reporting obligations of the member states under this directive.
+""" ;
+    poli:hasDirective poli:directive_2014_94_EU ;
+    poli:hasTitle "Provisions on natural gas refuelling infrastructure" .
+

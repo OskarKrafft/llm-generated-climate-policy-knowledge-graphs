@@ -1,0 +1,39 @@
+turtle
+@prefix poli: <http://www.politico.com/ontology/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.com/celex/32013R0519>
+  a poli:Regulation ;
+  dcterms:title "Commission Regulation (EU) No 519/2013" ;
+  dcterms:description "Regulation amending Regulation (EU) No 1031/2010 in particular to determine the volumes of greenhouse gas emission allowances to be auctioned in 2013-2020." ;
+  poli:hasAmendment <http://example.com/celex/32013R0519/amendment> .
+
+<http://example.com/celex/32013R0519/amendment>
+  a poli:Article ;
+  dcterms:title "Derogation for aviation activities" ;
+  dcterms:description "Temporary derogation from the auctioning of allowances and free allocation of allowances to aircraft operators with total annual emissions lower than 25,000 tonnes CO2." .
+
+<http://example.com/celex/32013R0519/amendment>
+  poli:hasParagraph <http://example.com/celex/32013R0519/amendment/paragraph1> ;
+  poli:hasParagraph <http://example.com/celex/32013R0519/amendment/paragraph2> .
+
+<http://example.com/celex/32013R0519/amendment/paragraph1>
+  a poli:Paragraph ;
+  dcterms:description "Member States shall auction a number of aviation allowances reduced in proportion to the reduction in the total number of allowances issued." .
+
+<http://example.com/celex/32013R0519/amendment/paragraph2>
+  a poli:Paragraph ;
+  dcterms:description "The Commission shall regularly inform the European Parliament and the Council on the progress of ICAO negotiations and its efforts to promote international acceptance of market-based mechanisms." .
+
+<http://example.com/celex/32013R0519/amendment>
+  skos:broader <http://example.com/celex/32010R1031> ;
+  owl:sameAs <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:158:0001:0014:EN:PDF> .
+
+<http://example.com/celex/32013R0519/amendment>
+  poli:hasKeyword "aviation" ;
+  poli:hasKeyword "greenhouse gas emissions" ;
+  poli:hasKeyword "auctioning of allowances" .
+.

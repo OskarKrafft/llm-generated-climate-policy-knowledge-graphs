@@ -1,0 +1,68 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix polianna: <https://github.com/POLIANNIA-project/ontology/> .
+
+<> rdf:type owl:Ontology ;
+  rdfs:label "POLIANNA Ontology"@en .
+
+<#Article>
+    a                polianna:LegalDocument ;
+    rdfs:label       "EU Renewable Energy Directive Article" ;
+    dcterms:title    "Promotion of the use of energy from renewable sources" ;
+    skos:notation    "2009/28/EC" ;
+    dct:publisher    <https://eur-lex.europa.eu/> .
+
+<#Article7>
+    a                polianna:Article ;
+    rdfs:label       "Article 7: Sustainability criteria for biofuels and bioliquids"@en ;
+    skos:notation    "Art. 7" ;
+    dct:description  """The Commission shall report on requirements for a sustainability scheme for energy uses of biomass, other than biofuels and bioliquids, by 31 December 2009."""@en .
+
+<#Paragraph1>
+    a                polianna:Paragraph ;
+    rdfs:label       "Paragraph 1"@en ;
+    skos:notation    "Par. 1" ;
+    dct:description  """The Commission shall report on requirements for a sustainability scheme for energy uses of biomass, other than biofuels and bioliquids, by 31 December 2009."""@en .
+
+<#SustainabilityCriteria>
+    a                polianna:SustainabilityCriteria ;
+    rdfs:label       "Greenhouse gas emission saving criterion"@en ;
+    skos:notation    "GHG saving criterion" ;
+    dct:description  """The greenhouse gas emission saving from the use of biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall be at least 35 %."""@en .
+
+<#SustainabilityCriteriaGreenhouseGasEmissionSaving>
+    a                polianna:SustainabilityCriteria ;
+    rdfs:label       "Protection of biodiversity criterion"@en ;
+    skos:notation    "Biodiversity protection" ;
+    dct:description  """The biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall not be made from raw material obtained from land with high biodiversity value."""@en .
+
+<#SustainabilityCriteriaProtectionOfBiodiversity>
+    a                polianna:SustainabilityCriteria ;
+    rdfs:label       "Soil, water and air protection criterion"@en ;
+    skos:notation    "SWAP" ;
+    dct:description  """Agricultural raw materials cultivated in the Community and used for the production of biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall be obtained in accordance with the requirements and standards under the provisions referred to under the heading 'environment' in part A and in point 9 of Annex II to Council Regulation (EC) No 73/2009."""@en .
+
+<#SustainabilityCriteriaSoilWaterAndAirProtection>
+    a                polianna:SustainabilityCriteria ;
+    rdfs:label       "Waste and contaminated land criterion"@en ;
+    skos:notation    "WCL" ;
+    dct:description  """The Commission shall, every two years, report to the European Parliament and the Council on national measures taken to respect the sustainability criteria set out in paragraphs 2 to 5 and for soil, water and air protection."""@en .
+
+<#SustainabilityCriteriaWasteAndContaminatedLand>
+    a                polianna:SustainabilityCriteria ;
+    rdfs:label       "Social sustainability criterion"@en ;
+    skos:notation    "SS" ;
+    dct:description  """The Commission shall report to the European Parliament and the Council on the impact on social sustainability in the Community and in third countries of increased demand for biofuel, on the impact of Community biofuel policy on the availability of foodstuffs at affordable prices, in particular for people living in developing countries."""@en .
+
+<#Article7> polianna:hasParagraph <#Paragraph1> .
+<#SustainabilityCriteriaGreenhouseGasEmissionSaving> polianna:isPartOf <#Article7> .
+<#SustainabilityCriteriaProtectionOfBiodiversity> polianna:isPartOf <#Article7> .
+<#SustainabilityCriteriaSoilWaterAndAirProtection> polianna:isPartOf <#Article7> .
+<#SustainabilityCriteriaWasteAndContaminatedLand> polianna:isPartOf <#Article7> .
+<#SustainabilityCriteriaSocialSustainability> polianna:isPartOf <#Article7> .
+
+<https://eur-lex.europa.eu/> rdf:type polianna:Publisher ;
+    rdfs:label       "EUR-Lex" .
+
+.

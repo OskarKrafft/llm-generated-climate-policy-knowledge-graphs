@@ -1,0 +1,72 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 a eli:Article ;
+    eli:title "energy audits and energy management systems" ;
+    eli:number "8" ;
+    eli:has_celex_number "32012L0027" ;
+    eli:eli_id <http://data.europa.eu/eli/dir/2012/27/oj> ;
+    pol:annotated_by (pol:C pol:F) ;
+    pol:has_paragraph pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_1 ;
+    pol:has_paragraph pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_2 ;
+    pol:has_paragraph pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_3 ;
+    pol:has_paragraph pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_4 ;
+    pol:has_paragraph pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_5 ;
+    pol:has_paragraph pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_6 ;
+    pol:has_paragraph pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_7 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_1 a eli:Paragraph ;
+    eli:number "1" ;
+    pol:text """member states shall promote the availability to all final customers of high quality energy audits which are cost-effective and:
+(a)
+carried out in an independent manner by qualified and/or accredited experts according to qualification criteria; or
+(b)
+implemented and supervised by independent authorities under national legislation.
+the energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the member state concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out.
+for the purpose of guaranteeing the high quality of the energy audits and energy management systems, member states shall establish transparent and non-discriminatory minimum criteria for energy audits based on annex vi.
+energy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object.""" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_2 a eli:Paragraph ;
+    eli:number "2" ;
+    pol:text """member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits.
+on the basis of transparent and non-discriminatory criteria and without prejudice to union state aid law, member states may set up support schemes for smes, including if they have concluded voluntary agreements, to cover costs of an energy audit and of the implementation of highly cost-effective recommendations from the energy audits, if the proposed measures are implemented.
+member states shall bring to the attention of smes, including through their respective representative intermediary organisations, concrete examples of how energy management systems could help their businesses. the commission shall assist member states by supporting the exchange of best practices in this domain.""" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_3 a eli:Paragraph ;
+    eli:number "3" ;
+    pol:text """member states shall also develop programmes to raise awareness among households about the benefits of such audits through appropriate advice services.
+member states shall encourage training programmes for the qualification of energy auditors in order to facilitate sufficient availability of experts.""" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_4 a eli:Paragraph ;
+    eli:number "4" ;
+    pol:text """member states shall ensure that enterprises that are not smes are subject to an energy audit carried out in an independent and cost-effective manner by qualified and/or accredited experts according to qualification criteria; or
+implemented and supervised by independent authorities under national legislation.
+the energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the member state concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out.
+for the purpose of guaranteeing the high quality of the energy audits and energy management systems, member states shall establish transparent and non-discriminatory minimum criteria for energy audits based on annex vi.
+energy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object.""" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_5 a eli:Paragraph ;
+    eli:number "5" ;
+    pol:text """member states shall ensure that enterprises that are not smes are subject to an energy audit carried out in an independent and cost-effective manner by qualified and/or accredited experts according to qualification criteria; or
+implemented and supervised by independent authorities under national legislation.
+the energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the member state concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out.
+for the purpose of guaranteeing the high quality of the energy audits and energy management systems, member states shall establish transparent and non-discriminatory minimum criteria for energy audits based on annex vi.
+energy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object.""" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_6 a eli:Paragraph ;
+    eli:number "6" ;
+    pol:text """member states shall ensure that enterprises that are not smes are subject to an energy audit carried out in an independent and cost-effective manner by qualified and/or accredited experts according to qualification criteria; or
+implemented and supervised by independent authorities under national legislation.
+the energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the member state concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out.
+for the purpose of guaranteeing the high quality of the energy audits and energy management systems, member states shall establish transparent and non-discriminatory minimum criteria for energy audits based on annex vi.
+energy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object.""" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_Paragraph_7 a eli:Paragraph ;
+    eli:number "7" ;
+    pol:text """member states shall ensure that enterprises that are not smes are subject to an energy audit carried out in an independent and cost-effective manner by qualified and/or accredited experts according to qualification criteria; or
+implemented and supervised by independent authorities under national legislation.
+the energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the member state concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out.
+for the purpose of guaranteeing the high quality of the energy audits and energy management systems, member states shall establish transparent and non-discriminatory minimum criteria for energy audits based on annex vi.
+energy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object.""" .
+.

@@ -1,0 +1,14 @@
+turtle
+:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a poliannadata:Policy .
+:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:title "article 8 Annual Nuclear Statistics" .
+:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:celexNumber "32008R1099" .
+:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:description """
+The Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.
+The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).
+""" .
+:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:date "2008-10-22"^^xsd:date .
+:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:country "EU" .
+:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 dc:identifier "http://data.europa.eu/eli/reg/2008/1099/oj" .
+:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 poliannadata:source "Official Journal of the European Union, L 311, 21 November 2008, p. 1–55" .
+
+.

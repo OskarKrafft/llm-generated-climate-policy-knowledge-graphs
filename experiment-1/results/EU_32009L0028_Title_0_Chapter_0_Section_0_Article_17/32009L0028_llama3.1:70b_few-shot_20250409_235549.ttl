@@ -1,0 +1,55 @@
+@prefix pol: <http://www.w3.org/ns/pol#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://example.com/Article1> a pol:LegislativeAct ;
+  pol:title "Renewable Energy Directive" ;
+  pol:number "2009/28/EC" ;
+  pol:institution "European Parliament and of the Council" ;
+  dcterms:date <2010-01-01T00:00:00.000Z> .
+
+<http://example.com/Article1#Paragraph1> a pol:Paragraph ;
+  pol:text "This Article establishes the sustainability criteria for biofuels." ;
+  pol:isPartOf <http://example.com/Article1> .
+
+<http://example.com/Article1#Paragraph2> a pol:Paragraph ;
+  pol:text "Raw materials cultivated in the Community and used for the production of biofuels shall be obtained in accordance with the requirements and standards under the provisions referred to under the heading 'environment' in part A and in point 9 of Annex II to Council Regulation (EC) No 73/2009." ;
+  pol:isPartOf <http://example.com/Article1> .
+
+<http://example.com/Article1#Paragraph3> a pol:Paragraph ;
+  pol:text "The Commission shall report on requirements for a sustainability scheme for energy uses of biomass, other than biofuels and bioliquids." ;
+  pol:isPartOf <http://example.com/Article1> .
+
+<http://example.com/Article2> a pol:LegislativeAct ;
+  pol:title "Council Regulation (EC) No 73/2009" ;
+  pol:number "73/2009/EC" ;
+  pol:institution "Council of the European Union" ;
+  dcterms:date <2009-01-19T00:00:00.000Z> .
+
+<http://example.com/CouncilRegulation73_2009#AnnexII> a pol:Annex ;
+  pol:text "Minimum requirements for good agricultural and environmental condition." ;
+  pol:isPartOf <http://example.com/Article2> .
+
+<http://example.com/CouncilRegulation73_2009#Point9> a pol:Paragraph ;
+  pol:text "Cultivation of raw materials on land with high biodiversity value." ;
+  pol:isPartOf <http://example.com/CouncilRegulation73_2009#AnnexII> .
+
+<http://example.com/InternationalLabourOrganisation> a pol:Organization ;
+  pol:name "International Labour Organisation" .
+
+<http://example.com/ILOConventions> a pol:Document ;
+  pol:title "ILO Conventions" ;
+  pol:description "List of conventions ratified by countries." ;
+  pol:author <http://example.com/InternationalLabourOrganisation> .
+
+<http://example.com/CartagenaProtocolOnBiosafety> a pol:Document ;
+  pol:title "Cartagena Protocol on Biosafety" ;
+  pol:description "International agreement on biosafety." ;
+  pol:author <http://example.com/UnitedNations> .
+
+<http://example.com/ConventionOnInternationalTradeInEndangeredSpeciesOfWildFaunaAndFlora> a pol:Document ;
+  pol:title "Convention on International Trade in Endangered Species of Wild Fauna and Flora" ;
+  pol:description "International agreement on wildlife trade." ;
+  pol:author <http://example.com/UnitedNations> .
+
+<http://example.com/EuropeanParliamentAndCouncil> a pol:Organization ;
+  pol:name "European Parliament and Council" .

@@ -1,0 +1,86 @@
+@prefix pol: <http://example.org/polianna#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pol:Article a pol:Document ;
+    pol:hasDefinition pol:Building,
+        pol:Cogeneration,
+        pol:Distributor,
+        pol:Efficiency,
+        pol:Energy,
+        pol:FossilFuel,
+        pol:HeatPump,
+        pol:Improvement,
+        pol:ManagementSystem,
+        pol:NearlyZeroEnergyBuilding,
+        pol:PerformanceContracting,
+        pol:RetailCompany,
+        pol:Savings,
+        pol:Service,
+        pol:ServiceProvider,
+        pol:SystemOperator ;
+    pol:title "Definitions for Energy and Efficiency Terms" .
+
+pol:Building a pol:Object ;
+    rdfs:label "building" ;
+    rdfs:comment "A structure with walls and a roof, used for human occupancy or other purposes." .
+
+pol:Cogeneration a pol:Process ;
+    rdfs:label "cogeneration" ;
+    rdfs:comment "The simultaneous production of electricity and heat from a single fuel source, improving overall efficiency." .
+
+pol:Distributor a pol:Role ;
+    rdfs:label "energy distributor" ;
+    rdfs:comment "An entity responsible for delivering energy products or services to end-users." .
+
+pol:Efficiency a pol:Concept ;
+    rdfs:label "energy efficiency" ;
+    rdfs:comment "The ratio of useful energy output to the total energy input in a system or process." .
+
+pol:Energy a pol:Concept ;
+    rdfs:label "energy" ;
+    rdfs:comment "A form of power or resource derived from natural sources, used for various purposes including heating, lighting, and powering machinery." .
+
+pol:FossilFuel a pol:Resource ;
+    rdfs:label "fossil fuel" ;
+    rdfs:comment "Non-renewable carbon-based energy sources such as solid fuels, natural gas and oil." .
+
+pol:HeatPump a pol:Device ;
+    rdfs:label "heat pump" ;
+    rdfs:comment "A device that transfers heat from one location to another, typically used for heating or cooling buildings." .
+
+pol:Improvement a pol:Concept ;
+    rdfs:label "energy efficiency improvement" ;
+    rdfs:comment "An enhancement in the ratio of useful energy output to the total energy input in a system or process." .
+
+pol:ManagementSystem a pol:Concept ;
+    rdfs:label "energy management system" ;
+    rdfs:comment "A structured approach to managing an organization's energy use and improving its efficiency." .
+
+pol:NearlyZeroEnergyBuilding a pol:Object ;
+    rdfs:label "nearly zero-energy building" ;
+    rdfs:comment "A building that produces almost as much energy as it consumes over the course of a year through efficient design and renewable energy sources." .
+
+pol:PerformanceContracting a pol:Concept ;
+    rdfs:label "energy performance contracting" ;
+    rdfs:comment "An arrangement where an external party finances and implements energy efficiency improvements in exchange for a share of the resulting savings." .
+
+pol:RetailCompany a pol:Role ;
+    rdfs:label "retail energy sales company" ;
+    rdfs:comment "An entity engaged in selling energy products or services directly to end-users." .
+
+pol:Savings a pol:Concept ;
+    rdfs:label "energy savings" ;
+    rdfs:comment "Reduction in the amount of energy consumed, typically achieved through improvements in efficiency or conservation measures." .
+
+pol:Service a pol:Concept ;
+    rdfs:label "energy service" ;
+    rdfs:comment "A product or activity that provides energy-related benefits, such as heating, cooling, or lighting." .
+
+pol:ServiceProvider a pol:Role ;
+    rdfs:label "energy service provider" ;
+    rdfs:comment "A company that provides energy-related services, such as installation, maintenance, and optimization of energy systems." .
+
+pol:SystemOperator a pol:Role ;
+    rdfs:label "distribution system operator" ;
+    rdfs:comment "A role in the energy sector responsible for operating and maintaining the distribution network that delivers energy to consumers." .
+

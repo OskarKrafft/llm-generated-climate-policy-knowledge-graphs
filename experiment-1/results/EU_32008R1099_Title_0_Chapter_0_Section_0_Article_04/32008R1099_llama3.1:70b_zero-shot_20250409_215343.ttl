@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/> .
+@prefix poliann: <https://polianna.ai/ontology/> .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj>
+  dc:title "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04" ;
+  dcat:keyword "aggregates, energy products and the transmission frequency of national statistics" .
+
+<https://polianna.ai/article/EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04>
+  a poliann:Article ;
+  dc:title "article 4" ;
+  poliann:regulation <http://data.europa.eu/eli/reg/2008/1099/oj> ;
+  poliann:section "1. The national statistics to be reported shall be as set out in the annexes." ;
+  poliann:section "2. Applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in Annex A (Clarifications of terminology)." ;
+  poliann:section "3. The data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2)" .
+
+<https://polianna.ai/article/EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04/Section_1>
+  a poliann:Section ;
+  dc:description "The national statistics to be reported shall be as set out in the annexes." ;
+  poliann:article <https://polianna.ai/article/EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> .
+
+<https://polianna.ai/article/EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04/Section_2>
+  a poliann:Section ;
+  dc:description "Applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in Annex A (Clarifications of terminology)." ;
+  poliann:article <https://polianna.ai/article/EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> .
+
+<https://polianna.ai/article/EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04/Section_3>
+  a poliann:Section ;
+  dc:description "The data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2)" ;
+  poliann:article <https://polianna.ai/article/EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04> .

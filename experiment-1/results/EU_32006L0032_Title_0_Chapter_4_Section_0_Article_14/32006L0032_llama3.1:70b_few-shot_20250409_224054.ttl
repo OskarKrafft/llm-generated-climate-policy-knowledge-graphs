@@ -1,0 +1,76 @@
+@prefix poli: <http://purl.org/NET/polian#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/dir/2006/32/oj>
+  skos:notation "32006L0032" ;
+  skos:prefLabel "EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14" .
+
+<policy-metadata>
+  a poli:PolicyMetadata ;
+  poli:celexNumber "32006L0032" ;
+  poli:ELI "http://data.europa.eu/eli/dir/2006/32/oj" ;
+  poli:annotator ["C", "F"] .
+
+<#article-14>
+  a poli:PolicyArticle ;
+  skos:notation "article 14" ;
+  skos:prefLabel "Reports" .
+
+<policy-article-1>
+  a poli:PolicyParagraph ;
+  poli:text "Member States that already use, for whatever purpose, calculation methods for measuring energy savings similar to those described in Annex IV at the time of the entry into force of this Directive may submit information at the appropriate level of detail to the Commission. Such submissions shall take place as soon as possible, preferably not later than 17 November 2006. This information will enable the Commission to take due account of existing practices." ;
+  poli:section <#article-14> .
+
+<policy-article-2>
+  a poli:PolicyParagraph ;
+  poli:text "Member States shall submit to the Commission the following EEAPs:
+  —
+  A first EEAP not later than 30 June 2007;
+  —
+  A second EEAP not later than 30 June 2011;
+  —
+  A third EEAP not later than 30 June 2014.
+  All EEAPs shall describe the energy efficiency improvement measures planned to reach the targets set out in Article 4(1) and (2), as well as to comply with the provisions on the exemplary role of the public sector and provision of information and advice to final customers set out in Articles 5(1) and 7(2) respectively.
+  The second and third EEAPs shall:
+  —
+  include a thorough analysis and evaluation of the preceding EEAP;
+  —
+  include the final results with regard to the fulfilment of the energy savings targets set out in Article 4(1) and (2);
+  —
+  include plans for — and information on the anticipated effects of — additional measures which address any existing or expected shortfall vis-à-vis the target;
+  —
+  in accordance with Article 15(4), use and gradually increase the use of harmonised efficiency indicators and benchmarks, both for the evaluation of past measures and estimated effects of planned future measures;
+  —
+  be based on available data, supplemented with estimates." ;
+  poli:section <#article-14> .
+
+<policy-article-3>
+  a poli:PolicyParagraph ;
+  poli:text "Not later than 17 May 2008, the Commission shall publish a cost/benefit impact assessment examining the linkages between EU standards, regulations, policies and measures on end-use energy efficiency." ;
+  poli:section <#article-14> .
+
+<policy-article-4>
+  a poli:PolicyParagraph ;
+  poli:text "The EEAPs shall be assessed in accordance with the procedure referred to in Article 16(2):
+  —
+  The first EEAPs shall be reviewed before 1 January 2008;
+  —
+  The second EEAPs shall be reviewed before 1 January 2012;
+  —
+  The third EEAPs shall be reviewed before 1 January 2015." ;
+  poli:section <#article-14> .
+
+<policy-article-5>
+  a poli:PolicyParagraph ;
+  poli:text "On the basis of the EEAPs, the Commission shall assess the extent to which Member States have made progress towards achieving their national indicative energy savings targets. The Commission shall publish reports with its conclusions:
+  —
+  On the first EEAPs before 1 January 2008;
+  —
+  On the second EEAPs before 1 January 2012;
+  —
+  On the third EEAPs before 1 January 2015.
+  These reports shall include information on related action at Community level, including legislation currently in force and future legislation. The reports shall take into account the benchmarking system referred to in Article 15(4), identify best practices, identify cases where Member States and/or the Commission are not making enough progress, and may contain recommendations.
+  The second report shall be followed, as appropriate and where necessary, by proposals to the European Parliament and to the Council for additional measures including a possible extension of the period of application of the target;
+  —
+  In accordance with Article 15(4), use and gradually increase the use of harmonised efficiency indicators and benchmarks, both for the evaluation of past measures and estimated effects of planned future measures." ;
+  poli:section <#article-14> .

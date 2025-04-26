@@ -1,0 +1,28 @@
+@prefix polianna: <http://example.org/poliana#> .
+
+polianna:Article25 a polianna:DirectiveArticle ;
+    polianna:hasRequirement [ a polianna:Requirement ;
+            polianna:description "Each member state shall set an obligation on fuel suppliers to ensure that the share of renewable energy within the final consumption of energy in the transport sector is at least 14% by 2030 (minimum share)." ],
+        [ a polianna:Requirement ;
+            polianna:description "Member states may exempt or distinguish between different fuel suppliers and different energy carriers when setting the obligation on the fuel suppliers, ensuring that varying degrees of maturity and cost of different technologies are taken into account." ],
+        [ a polianna:Requirement ;
+            polianna:description "For calculation of the minimum share referred to in the first paragraph, member states shall take into account renewable liquid and gaseous transport fuels of non-biological origin also when they are used as intermediate products for production of conventional fuels." ],
+        [ a polianna:Requirement ;
+            polianna:description "Member states may exempt fuel suppliers supplying fuel in the form of electricity or renewable liquid and gaseous transport fuels of non-biological origin from the requirement to comply with the minimum share of advanced biofuels and biogas." ],
+        [ a polianna:Requirement ;
+            polianna:description "The contribution of advanced biofuels and biogas produced from feedstock listed in part A of Annex IX as share of final consumption of energy in the transport sector shall be at least 0.2% in 2022, at least 1% in 2025 and at least 3.5% in 2030." ],
+        [ a polianna:Requirement ;
+            polianna:description "When setting the obligation to ensure achievement of the share, member states may do so by means of measures targeting volumes, energy content or greenhouse gas emissions, provided that it is demonstrated that the minimum shares are achieved." ],
+        [ a polianna:Requirement ;
+            polianna:description "The greenhouse gas emissions savings from use of renewable liquid and gaseous transport fuels of non-biological origin shall be at least 70% from January 1, 2021." ],
+        [ a polianna:Requirement ;
+            polianna:description "By January 1, 2021, the Commission shall adopt a delegated act to supplement this directive by establishing appropriate minimum thresholds for greenhouse gas emissions savings of recycled carbon fuels through life-cycle assessment." ] ;
+    polianna:hasTitle "Mainstreaming Renewable Energy in the Transport Sector" ;
+    polianna:isPartOf <http://data.europa.eu/eli/dir/2018/2001/oj> .
+
+<http://data.europa.eu/eli/dir/2018/2001/oj> a polianna:Policy ;
+    polianna:annotatedBy "C",
+        "F" ;
+    polianna:hasCELEXNumber "32018L2001" ;
+    polianna:title "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25" .
+

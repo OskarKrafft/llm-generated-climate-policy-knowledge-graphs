@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix eli: <http://data.europa.eu/eli/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix poli: <http://www.polinnovations.com/ontologies/policy-ontology.owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj> dcterms:title "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09" .
+<http://data.europa.eu/eli/reg/2018/1999/oj> poli:CELEX_Number "32018R1999" .
+<http://data.europa.eu/eli/reg/2018/1999/oj> skos:notation "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09" .
+
+ EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_Annotator
+    poli:name "A", "C" ;
+    a poli:Annotators .
+
+EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_Time_Monitoring_1 
+    a poli:Time_Monitoring ;
+    poli:annotatedText "31 December 2018", "by 1 January 2028 and every ten years thereafter" .
+
+EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_Time_Monitoring_2 
+    a poli:Time_Monitoring ;
+    poli:annotatedText "six months before the deadline for submitting those integrated national energy and climate plans" .
+
+EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_Time_Monitoring_3 
+    a poli:Time_Monitoring ;
+    poli:annotatedText "2030" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj> dcterms:hasPart EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09 .
+EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09 
+    a poli:Policy_Article ;
+    dcterms:description "Draft integrated national energy and climate plans" ;
+    poli:number "9" ;
+    poli:hasTimeMonitoring EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_Time_Monitoring_1, 
+                                EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_Time_Monitoring_2,
+                                EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_Time_Monitoring_3 ;
+    poli:hasAnnotators EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_Annotator .
