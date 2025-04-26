@@ -2,6 +2,8 @@
 
 Welcome to the repository for my Master’s thesis. This project focuses on evaluating the capabilities of Large Language Models (LLMs) to automatically generate ontology-constrained knowledge graphs (KGs) from European Union (EU) climate policy articles. It integrates data preprocessing, ontology management, KG generation using multiple LLMs, and comprehensive evaluation against ground truths.
 
+*the main work was done in a private repository at my workplace, this is a public version of the code and data used for my thesis. The original repository is not publicly available.*
+
 ---
 
 ## Table of Contents
