@@ -67,7 +67,6 @@ my-thesis-repo/
 ├── validation_data/          # Data used for validation during fine-tuning
 ├── environment.yml           # Conda environment specification
 ├── combined_evaluation_results.csv # Aggregated results from all experiments
-├── secrets_config.env.template # Template for API keys (copy to secrets_config.env)
 ├── .gitignore
 └── README.md
 ```
