@@ -1,0 +1,35 @@
+@prefix celex: <http://publications.europa.eu/resource/authority/legal-base/> .
+@prefix eli: <http://data.europa.eu/eli/> .
+@prefix ns1: <skos:> .
+@prefix poliana: <http://example.org/poliana#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj/chapter_6/section_3/article_37> a poliana:PolicyArticle ;
+    eli:hasAnnotator <file:///home/okrafft/projects/LOLYLEG/A>,
+        <file:///home/okrafft/projects/LOLYLEG/C> ;
+    eli:title "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37" ;
+    poliana:hasParagraph [ a poliana:PolicyParagraph ;
+            poliana:paragraphNumber "2" ;
+            poliana:text "member states shall ensure that their competent inventory authorities have access to the information specified in annex xii to this regulation, make use of reporting systems established pursuant to article 20 of regulation (eu) no 517/2014 to improve the estimate of fluorinated gases in the national greenhouse gas inventories and are able to undertake the annual consistency checks referred to in points (i) and (j) of part 1 of annex v to this regulation." ],
+        [ a poliana:PolicyParagraph ;
+            poliana:paragraphNumber "4" ;
+            poliana:text "the commission shall perform an initial check of the accuracy of the preliminary greenhouse gas inventory data to be submitted by member states pursuant to article 26(3). it shall send the results of that check to member states within six weeks of the submission deadline. member states shall respond to any relevant questions raised by the initial check by 15 march, together with the final inventory submission for the year x-2." ],
+        [ a poliana:PolicyParagraph ;
+            poliana:paragraphNumber "5" ;
+            poliana:text "where a member state does not submit the inventory data required to compile the union inventory by 15 march, the commission may prepare estimates to complete the data submitted by the member state, in consultation and close cooperation with the member state concerned. the commission shall use, for that purpose, the guidelines applicable for preparing the national greenhouse gas inventories." ],
+        [ a poliana:PolicyParagraph ;
+            poliana:paragraphNumber "6" ;
+            poliana:text "the commission shall adopt implementing acts in accordance with the examination procedure referred to in article 290 of the treaty on the function of the union, laying down rules for the implementation of this regulation." ],
+        [ a poliana:PolicyParagraph ;
+            poliana:hasDeadline "2021-01-01"^^xsd:date ;
+            poliana:hasInstrument poliana:RegulatoryInstr ;
+            poliana:paragraphNumber "1" ;
+            poliana:text "by 1 january 2021, member states shall establish, operate and seek to continuously improve national inventory systems to estimate anthropogenic emissions by sources and removals by sinks of greenhouse gases listed in part 2 of annex v and to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of their greenhouse gas inventories." ],
+        [ a poliana:PolicyParagraph ;
+            poliana:paragraphNumber "3" ;
+            poliana:text "a union inventory system to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of national inventories with regard to the union greenhouse gas inventory is hereby established. the commission shall manage, maintain and seek to continuously improve that system which shall include the setting of a quality assurance and quality control programme, setting quality objectives and drafting an inventory quality assurance and quality control plan, procedures for completing emission estimates to compile the union inventory pursuant to paragraph 5 of this article and the reviews referred to in article 38." ] ;
+    celex:number "32018R1999" .
+
+poliana:RegulatoryInstr a ns1:Concept ;
+    ns1:prefLabel "Regulatory Instrument" .
+

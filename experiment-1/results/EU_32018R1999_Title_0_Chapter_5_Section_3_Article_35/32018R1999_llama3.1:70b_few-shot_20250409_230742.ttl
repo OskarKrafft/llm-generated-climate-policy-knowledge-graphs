@@ -1,0 +1,42 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix poli: <https://w3id.org/policy#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj>
+  dc:title "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35" ;
+  eli:celexNumber "32018R1999" ;
+  dcat:keyword "Energy Union Report" .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#Article35>
+  a poli:PolicyArticle ;
+  dc:title "State of the Energy Union Report" ;
+  skos:definition """
+    Article 35
+    State of the Energy Union Report
+
+    1.   By 31 October of every year, the Commission shall submit to the European Parliament and to the Council a state of the energy union report.
+
+    2.   The state of the energy union report shall include the following elements:
+      (a) the assessment carried out pursuant to Article 29;
+      (b) where appropriate, recommendations pursuant to Article 34;
+      (c) the report on the functioning of the carbon market referred to in Article 10(5) of Directive 2003/87/EC, including information on the application of that Directive in accordance with Article 21(2) thereof;
+      (d) biennially, from 2023, a report on Union bioenergy sustainability, containing the information specified in Annex X;
+      (e) biennially, a report on voluntary schemes in respect of which the Commission has adopted a decision pursuant to Article 30(4) of Directive (EU) 2018/2001, containing the information specified in Annex XI to this Regulation;
+      (f) an overall progress report on the application of Directive 2009/72/EC;
+      (g) an overall progress report on the application of Directive 2009/73/EC pursuant to Article 52 of that Directive;
+      (h) an overall progress report on energy efficiency obligation schemes and alternative policy measures as referred to in Articles 7a and 7b of Directive 2012/27/EU;
+      (i) biennially, an overall progress report on the renovation of the national stock of residential and non-residential buildings, both public and private, in line with the roadmaps set out in the long-term renovation strategies that each Member State shall establish in accordance with Article 2a of Directive 2010/31/EU;
+      (j) every four years, an overall progress report on Member States' increase in the number of nearly zero-energy buildings in accordance with Article 9(5) of Directive 2010/31/EU;
+      (k) an overall progress report on Member States' progress in creating a complete and operational energy market;
+      (l) actual fuel quality in the different Member States and geographical coverage of fuels with a maximum sulphur content of 10 mg/kg aiming to provide an overview of the fuels quality data in the different Member States as reported pursuant to Directive 98/70/EC;
+      (m) a progress report on competitiveness;
+      (n) Member States' progress towards phasing out energy subsidies, in particular for fossil fuels;
+      (o) other issues of relevance to the implementation of the Energy Union, including public and private support;
+      (p) by 31 October 2019 and every four years thereafter, an assessment of the implementation of Directive 2009/31/EC.
+    """ ;
+    poli:articleNumber "35" ;
+    eli:date_document "2018-11-21"^^xsd:date ;
+    dc:creator "A", "C" .

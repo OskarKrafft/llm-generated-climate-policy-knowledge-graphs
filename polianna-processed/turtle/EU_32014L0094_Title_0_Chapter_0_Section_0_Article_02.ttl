@@ -1,0 +1,42 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014L0094 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_02 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 2
+definitions
+for the purpose of this directive, the following definitions apply:
+(1)
+‘alternative fuels’ means fuels or power sources which serve, at least partly, as a substitute for fossil oil sources in the energy supply to transport and which have the potential to contribute to its decarbonisation and enhance the environmental performance of the transport sector. they include, inter alia:
+—
+electricity,
+—
+hydrogen,
+—
+biofuels as defined in point (i) of article 2 of directive 2009/28/ec,
+—
+synthetic and paraffinic fuels,
+—
+natural gas, including biomethane, in gaseous form (compressed natural gas (cng)) and liquefied form (liquefied natural gas (lng)), and
+—
+liquefied petroleum gas (lpg);
+(2)
+‘electric vehicle’ means a motor vehicle equipped with a powertrain containing at least one non-peripheral electric machine as energy converter with an electric rechargeable energy storage system, which can be recharged externally;
+(3)
+‘recharging point’ means an interface that is capable of charging one electric vehicle at a time or exchanging a battery of one electric vehicle at a time;
+(4)
+‘normal power recharging point’ means a recharging point that allows for a transfer of electricity to an electric vehicle with a power less than or equal to 22 kw, excluding devices with a power less than or equal to 3,7 kw, which are installed in private households or the primary purpose of which is not recharging electric vehicles, and which are not accessible to the public;
+(5)
+‘high power recharging point’ means a recharging point that allows for a transfer of electricity to an electric vehicle with a power of more than 22 kw;
+(6)
+‘shore-side electricity supply’ means the provision of shore-side electrical power through a standardised interface to seagoing ships or inland waterway vessels at berth;
+(7)
+‘recharging or refuelling point accessible to the public’ means a recharging or refuelling point to supply an alternative fuel which provides union-wide non-discriminatory access to users. non-discriminatory access may include different terms of authentication, use and payment;
+(8)
+‘refuelling point’ means a refuelling facility for the provision of any fuel with the exception of lng, through a fixed or a mobile installation;
+(9)
+‘refuelling point for lng’ means a refuelling facility for the provision of lng, consisting of either a fixed or mobile facility, offshore facility, or other system."""^^xsd:string .
+

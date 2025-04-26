@@ -1,0 +1,117 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_02 .
+
+pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:PublicInvt,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 2
+definitions
+for the purposes of this directive, the following definitions shall apply:
+(1)
+‘energy’ means all forms of energy products, combustible fuels, heat, renewable energy, electricity, or any other form of energy, as defined in article 2(d) of regulation (ec) no 1099/2008 of the european parliament and of the council of 22 october 2008 on energy statistics (21);
+(2)
+‘primary energy consumption’ means gross inland consumption, excluding non-energy uses;
+(3)
+‘final energy consumption’ means all energy supplied to industry, transport, households, services and agriculture. it excludes deliveries to the energy transformation sector and the energy industries themselves;
+(4)
+‘energy efficiency’ means the ratio of output of performance, service, goods or energy, to input of energy;
+(5)
+‘energy savings’ means an amount of saved energy determined by measuring and/or estimating consumption before and after implementation of an energy efficiency improvement measure, whilst ensuring normalisation for external conditions that affect energy consumption;
+(6)
+‘energy efficiency improvement’ means an increase in energy efficiency as a result of technological, behavioural and/or economic changes;
+(7)
+‘energy service’ means the physical benefit, utility or good derived from a combination of energy with energy-efficient technology or with action, which may include the operations, maintenance and control necessary to deliver the service, which is delivered on the basis of a contract and in normal circumstances has proven to result in verifiable and measurable or estimable energy efficiency improvement or primary energy savings;
+(8)
+‘public bodies’ means ‘contracting authorities’ as defined in directive 2004/18/ec of the european parliament and of the council of 31 march 2004 on the coordination of procedures for the award of public works contracts, public supply contracts and public service contracts (22);
+(9)
+‘central government’ means all administrative departments whose competence extends over the whole territory of a member state;
+(10)
+‘total useful floor area’ means the floor area of a building or part of a building, where energy is used to condition the indoor climate;
+(11)
+‘energy management system’ means a set of interrelated or interacting elements of a plan which sets an energy efficiency objective and a strategy to achieve that objective;
+(12)
+‘european standard’ means a standard adopted by the european committee for standardisation, the european committee for electrotechnical standardisation or the european telecommunications standards institute and made available for public use;
+(13)
+‘international standard’ means a standard adopted by the international standardisation organisation and made available to the public;
+(14)
+‘obligated party’ means an energy distributor or retail energy sales company that is bound by the national energy efficiency obligation schemes referred to in article 7;
+(15)
+‘entrusted party’ means a legal entity with delegated power from a government or other public body to develop, manage or operate a financing scheme on behalf of the government or other public body;
+(16)
+‘participating party’ means an enterprise or public body that has committed itself to reaching certain objectives under a voluntary agreement, or is covered by a national regulatory policy instrument;
+(17)
+‘implementing public authority’ means a body governed by public law which is responsible for the carrying out or monitoring of energy or carbon taxation, financial schemes and instruments, fiscal incentives, standards and norms, energy labelling schemes, training or education;
+(18)
+‘policy measure’ means a regulatory, financial, fiscal, voluntary or information provision instrument formally established and implemented in a member state to create a supportive framework, requirement or incentive for market actors to provide and purchase energy services and to undertake other energy efficiency improvement measures;
+(19)
+‘individual action’ means an action that leads to verifiable, and measurable or estimable, energy efficiency improvements and is undertaken as a result of a policy measure;
+(20)
+‘energy distributor’ means a natural or legal person, including a distribution system operator, responsible for transporting energy with a view to its delivery to final customers or to distribution stations that sell energy to final customers;
+(21)
+‘distribution system operator’ means ‘distribution system operator’ as defined in directive 2009/72/ec and directive 2009/73/ec respectively;
+(22)
+‘retail energy sales company’ means a natural or legal person who sells energy to final customers;
+(23)
+‘final customer’ means a natural or legal person who purchases energy for own end use;
+(24)
+‘energy service provider’ means a natural or legal person who delivers energy services or other energy efficiency improvement measures in a final customer’s facility or premises;
+(25)
+‘energy audit’ means a systematic procedure with the purpose of obtaining adequate knowledge of the existing energy consumption profile of a building or group of buildings, an industrial or commercial operation or installation or a private or public service, identifying and quantifying cost-effective energy savings opportunities, and reporting the findings;
+(26)
+‘small and medium-sized enterprises’ or ‘smes’ means enterprises as defined in title i of the annex to commission recommendation 2003/361/ec of 6 may 2003 concerning the definition of micro, small and medium-sized enterprises (23); the category of micro, small and medium-sized enterprises is made up of enterprises which employ fewer than 250 persons and which have an annual turnover not exceeding eur 50 million, and/or an annual balance sheet total not exceeding eur 43 million;
+(27)
+‘energy performance contracting’ means a contractual arrangement between the beneficiary and the provider of an energy efficiency improvement measure, verified and monitored during the whole term of the contract, where investments (work, supply or service) in that measure are paid for in relation to a contractually agreed level of energy efficiency improvement or other agreed energy performance criterion, such as financial savings;
+(28)
+‘smart metering system’ or ‘intelligent metering system’ means an electronic system that can measure energy consumption, providing more information than a conventional meter, and can transmit and receive data using a form of electronic communication;
+(29)
+‘transmission system operator’ means ‘transmission system operator’ as defined in directive 2009/72/ec and directive 2009/73/ec respectively;
+(30)
+‘cogeneration’ means the simultaneous generation in one process of thermal energy and electrical or mechanical energy;
+(31)
+‘economically justifiable demand’ means demand that does not exceed the needs for heating or cooling and which would otherwise be satisfied at market conditions by energy generation processes other than cogeneration;
+(32)
+‘useful heat’ means heat produced in a cogeneration process to satisfy economically justifiable demand for heating or cooling;
+(33)
+‘electricity from cogeneration’ means electricity generated in a process linked to the production of useful heat and calculated in accordance with the methodology laid down in annex i;
+(34)
+‘high-efficiency cogeneration’ means cogeneration meeting the criteria laid down in annex ii;
+(35)
+‘overall efficiency’ means the annual sum of electricity and mechanical energy production and useful heat output divided by the fuel input used for heat produced in a cogeneration process and gross electricity and mechanical energy production;
+(36)
+‘power-to-heat ratio’ means the ratio of electricity from cogeneration to useful heat when operating in full cogeneration mode using operational data of the specific unit;
+(37)
+‘cogeneration unit’ means a unit that is able to operate in cogeneration mode;
+(38)
+‘small-scale cogeneration unit’ means a cogeneration unit with installed capacity below 1 mwe;
+(39)
+‘micro-cogeneration unit’ means a cogeneration unit with a maximum capacity below 50 kwe;
+(40)
+‘plot ratio’ means the ratio of the building floor area to the land area in a given territory;
+(41)
+‘efficient district heating and cooling’ means a district heating or cooling system using at least 50 % renewable energy, 50 % waste heat, 75 % cogenerated heat or 50 % of a combination of such energy and heat;
+(42)
+‘efficient heating and cooling’ means a heating and cooling option that, compared to a baseline scenario reflecting a business-as-usual situation, measurably reduces the input of primary energy needed to supply one unit of delivered energy within a relevant system boundary in a cost-effective way, as assessed in the cost-benefit analysis referred to in this directive, taking into account the energy required for extraction, conversion, transport and distribution;
+(43)
+‘efficient individual heating and cooling’ means an individual heating and cooling supply option that, compared to efficient district heating and cooling, measurably reduces the input of non-renewable primary energy needed to supply one unit of delivered energy within a relevant system boundary or requires the same input of non-renewable primary energy but at a lower cost, taking into account the energy required for extraction, conversion, transport and distribution;
+(44)
+‘substantial refurbishment’ means a refurbishment whose cost exceeds 50 % of the investment cost for a new comparable unit;
+(45)
+‘aggregator’ means a demand service provider that combines multiple short-duration consumer loads for sale or auction in organised energy markets."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_02_TimeMonitoring_1 .
+
+pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_02_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "whole term of the contract" .
+

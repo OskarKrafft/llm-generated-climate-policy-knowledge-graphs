@@ -1,0 +1,178 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Article 73"
+      },
+      "is_about": {
+        "id": "Time_InEffect",
+        "annotatedText": "this directive shall enter into force on the twentieth day following that of its publication in the official journal of the european union."
+      },
+      "specifies_in_effect_time": {
+        "id": "In_effect_date",
+        "value": "2019-07-04"
+      },
+      "specifies_compliance_time": [
+        {
+          "id": "Compliance_date",
+          "value": "2021-01-01"
+        },
+        {
+          "id": "Compliance_date",
+          "value": "2020-01-01"
+        },
+        {
+          "id": "Compliance_date",
+          "value": "2020-10-26"
+        }
+      ],
+      "has_part": [
+        {
+          "id": "EU_32019L0944_Article_6_1",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_7_2_to_5",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_8_1",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_8_2_a_to_i_and_k",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_8_3_and_4",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_9_1_3_4_and_5",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_10_2_to_10",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Articles_25_27_30_35_37",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_38_1_3_and_4",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Articles_39_41_43_44_45",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_46_1",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_46_2_a_b_c_e_to_h",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_46_3_to_6",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Articles_47_to_50",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Articles_52_53_55_56_60_64_65",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_70_1_to_3_5b_6",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_70_5a",
+          "type": "LegalResourceSubdivision"
+        },
+        {
+          "id": "EU_32019L0944_Article_70_4",
+          "type": "LegalResourceSubdivision"
+        }
+      ]
+    }
+  ]
+}

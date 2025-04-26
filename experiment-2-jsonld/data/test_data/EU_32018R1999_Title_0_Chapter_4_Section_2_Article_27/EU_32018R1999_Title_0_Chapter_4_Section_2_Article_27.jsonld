@@ -1,0 +1,208 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2020-01-01"
+            },
+            "annotatedText": {
+                "value": "2020"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeCompliance_7",
+            "type": "Time_Compliance"
+        },
+        {
+            "annotatedText": {
+                "value": "30\u00a0april 2022"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeMonitoring_2",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "2020"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeMonitoring_4",
+            "type": "Time_Monitoring"
+        },
+        {
+            "In_effect_date": {
+                "type": "xsd:date",
+                "value": "2020-12-31"
+            },
+            "annotatedText": {
+                "value": "31\u00a0december 2020"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeInEffect_5",
+            "type": "Time_InEffect"
+        },
+        {
+            "annotatedText": {
+                "value": "2020"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeMonitoring_6",
+            "type": "Time_Monitoring"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2020-01-01"
+            },
+            "annotatedText": {
+                "value": "2020"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeCompliance_1",
+            "type": "Time_Compliance"
+        },
+        {
+            "contains_instrument": {
+                "id": "RegulatoryInstr"
+            },
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "contains_objective": {
+                "id": "Objective"
+            },
+            "fullText": "article 27\nreporting on the 2020 targets\nby 30\u00a0april 2022, each member state shall report to the commission on the achievement of its 2020 energy efficiency national target established pursuant to article 3(1) of directive 2012/27/eu by providing the information set out in part\u00a02 of annex ix to this regulation, and of the national overall targets for the share of energy from renewable sources in 2020 as set out in annex i to directive 2009/28/ec in the version in force on 31\u00a0december 2020 by providing the following information:\n(a)\nthe sectoral (electricity, heating and cooling, and transport) and overall shares of energy from renewable sources in 2020;\n(b)\nthe measures taken to achieve the 2020 national renewable energy targets, including measures related to support schemes, guarantees of origin and simplification of administrative procedures;\n(c)\nthe share of energy from biofuels and bioliquids produced from cereal and other starch-rich crops, sugars and oil crops in energy consumption in transport;\n(d)\nthe share of energy from biofuels and biogas for transport produced from feedstocks and of other fuels listed in part\u00a0a of annex ix to directive 2009/28/ec in the version in force on 31\u00a0december 2020 in energy consumption in transport.",
+            "grants_monitoring_authority": {
+                "id": "eurovoc:4038"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27",
+            "imposes_monitoring": {
+                "id": "Member_States"
+            },
+            "specifies_compliance_time": [
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeCompliance_1"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeCompliance_3"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeCompliance_7"
+                }
+            ],
+            "specifies_in_effect_time": [
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeInEffect_5"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeInEffect_8"
+                }
+            ],
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeMonitoring_2"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeMonitoring_4"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeMonitoring_6"
+                }
+            ],
+            "type": "PolicyArticle"
+        },
+        {
+            "hasArticle": {
+                "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27"
+            },
+            "id": "32018R1999",
+            "type": "PolicyDocument"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2020-01-01"
+            },
+            "annotatedText": {
+                "value": "2020"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeCompliance_3",
+            "type": "Time_Compliance"
+        },
+        {
+            "In_effect_date": {
+                "type": "xsd:date",
+                "value": "2020-12-31"
+            },
+            "annotatedText": {
+                "value": "31\u00a0december 2020"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_TimeInEffect_8",
+            "type": "Time_InEffect"
+        }
+    ]
+}

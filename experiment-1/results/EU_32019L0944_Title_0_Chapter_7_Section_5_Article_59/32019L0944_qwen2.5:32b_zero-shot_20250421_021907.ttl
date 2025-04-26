@@ -1,0 +1,34 @@
+@prefix pola: <http://purl.org/polia#> .
+
+<http://example.org/regulatoryAuthority> a pola:RegulatoryAuthority ;
+    pola:hasDuty [ a pola:Duty ;
+            pola:description "Imposing penalties for discriminatory behavior in favor of the vertically integrated undertaking" ;
+            pola:dutiesReference <http://example.org/discriminatoryBehaviorPenalties> ],
+        [ a pola:Duty ;
+            pola:description "Monitoring the implementation of congestion management rules and requesting amendments if necessary" ;
+            pola:dutiesReference <http://example.org/monitorCongestionRules> ],
+        [ a pola:Duty ;
+            pola:description "Acting as dispute settlement authority for any complaint submitted pursuant to Article 60(2)" ;
+            pola:dutiesReference <http://example.org/disputeSettlementAuthority> ],
+        [ a pola:Duty ;
+            pola:description "Carrying out inspections, including unannounced ones, on the premises of the vertically integrated undertaking and transmission system operator" ;
+            pola:dutiesReference <http://example.org/carriesOutInspections> ],
+        [ a pola:Duty ;
+            pola:description "Fixing or approving national methodologies for connection and access to networks" ;
+            pola:dutiesReference <http://example.org/methodologiesForNetworkAccess> ],
+        [ a pola:Duty ;
+            pola:description "Ensuring the calculation methodology and underlying costs for network tariffs are publicly available while preserving commercial confidentiality" ;
+            pola:dutiesReference <http://example.org/networkTariffsTransparency> ] ;
+    pola:hasPower [ a pola:Power ;
+            pola:description "Monitoring communications between the transmission system operator and the vertically integrated undertaking to ensure compliance with obligations" ;
+            pola:powersReference <http://example.org/monitorComms> ],
+        [ a pola:Power ;
+            pola:description "Requesting justification from the vertically integrated undertaking upon notification by the compliance officer" ;
+            pola:powersReference <http://example.org/requestJustification> ],
+        [ a pola:Power ;
+            pola:description "Assigning all or specific tasks of the transmission system operator to an independent system operator appointed pursuant to Article 44 in case of persistent breaches" ;
+            pola:powersReference <http://example.org/assignTasks> ],
+        [ a pola:Power ;
+            pola:description "Monitoring congestion management of national electricity systems including interconnectors" ;
+            pola:powersReference <http://example.org/congestionManagementMonitoring> ] .
+

@@ -1,0 +1,141 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@voca: https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "annotatedText": {
+                "value": "31 december 2023 until 31 december 2030"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_1",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "1 february 2019"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_2",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "1 september 2023"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_3",
+            "type": "Time_Monitoring"
+        },
+        {
+            "addresses": {
+                "id": "Member_States"
+            },
+            "authorises": {
+                "id": "eurovoc:4038"
+            },
+            "contains_instrument": {
+                "id": "RegulatoryInstr"
+            },
+            "contains_objective": {
+                "id": "Objective"
+            },
+            "grants_monitoring_authority": [
+                {
+                    "id": "eurovoc:2243"
+                },
+                {
+                    "id": "eurovoc:114"
+                }
+            ],
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+            "imposes_monitoring": {
+                "id": "Member_States"
+            },
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_1"
+                },
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_2"
+                },
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_3"
+                }
+            ],
+            "type": "PolicyArticle"
+        },
+        {
+            "hasArticle": {
+                "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26"
+            },
+            "id": "32018L2001",
+            "type": "PolicyDocument"
+        }
+    ]
+}

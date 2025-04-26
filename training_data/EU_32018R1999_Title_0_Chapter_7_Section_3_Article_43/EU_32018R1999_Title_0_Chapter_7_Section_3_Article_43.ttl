@@ -1,0 +1,32 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_43 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_43 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:authorises <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_in_effect_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_43_TimeInEffect_1,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_43_TimeInEffect_3 ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_43_TimeMonitoring_2 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_43_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2018-12-24"^^xsd:date ;
+    pol:annotatedText "24 december 2018" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_43_TimeInEffect_3 a pol:Time_InEffect ;
+    pol:annotatedText "day following the publication of the decision in the official journal of the european union or at a later date specified therein" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_43_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "not later than nine months before the end of the five-year period" .
+

@@ -1,0 +1,35 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_66 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_66 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 66
+derogations
+1.   member states which can demonstrate that there are substantial problems for the operation of their small connected systems and small isolated systems, may apply to the commission for derogations from the relevant provisions of articles 7 and 8 and of chapters iv, v and vi.
+small isolated systems and france, for the purpose of corsica, may also apply for a derogation from articles 4, 5 and 6.
+the commission shall inform the member states of such applications before taking a decision, taking into account respect for confidentiality.
+2.   derogations granted by the commission as referred to in paragraph 1 shall be limited in time and subject to conditions that aim to increase competition in and the integration of the internal market and to ensure that the derogations do not hamper the transition towards renewable energy, increased flexibility, energy storage, electromobility and demand response.
+for outermost regions within the meaning of article 349 tfeu, that cannot be interconnected with the union electricity markets, the derogation shall not be limited in time and shall be subject to conditions aimed to ensure that the derogation does not hamper the transition towards renewable energy.
+decisions to grant derogations shall be published in the official journal of the european union.
+3.   article 43 shall not apply to cyprus, luxembourg and malta. in addition, articles 6 and 35 shall not apply to malta and articles 44, 45, 46, 47, 48, 49, 50 and 52 shall not apply to cyprus.
+for the purposes of point (b) of article 43(1), the notion ‘undertaking performing any of the functions of generation or supply’ shall not include final customers who perform any of the functions of generation and/or supply of electricity, either directly or via undertakings over which they exercise control, either individually or jointly, provided that the final customers including their shares of the electricity produced in controlled undertakings are, on an annual average, net consumers of electricity and provided that the economic value of the electricity they sell to third parties is insignificant in proportion to their other business operations.
+4.   until 1 january 2025, or until a later date set out in a decision pursuant to paragraph 1 of this article, article 5 shall not apply to cyprus and corsica.
+5.   article 4 shall not apply to malta until 5 july 2027. that period may be extended for a further additional period, not exceeding eight years. the extension for a further additional period shall be made by means of a decision pursuant to paragraph 1."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_66_TimeInEffect_1,
+        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_66_TimeInEffect_2 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_66_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2025-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2025" .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_66_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2027-07-05"^^xsd:date ;
+    pol:annotatedText "5 july 2027" .
+

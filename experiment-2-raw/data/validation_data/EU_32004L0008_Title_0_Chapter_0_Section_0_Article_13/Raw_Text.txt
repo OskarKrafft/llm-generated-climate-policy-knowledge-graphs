@@ -1,0 +1,6 @@
+article 13
+review
+1. the threshold values used for calculation of electricity from cogeneration referred to in annex ii(a) shall be adapted to technical progress in accordance with the procedure referred to in article 14(2).
+2. the threshold values used for calculation of efficiency of cogeneration production and primary energy savings referred to in annex iii(a) shall be adapted to technical progress in accordance with the procedure referred to in article 14(2).
+3. the guidelines for determining the power to heat ratio referred to in annex ii(d) shall be adapted to technical progress in accordance with the procedure referred to in article 14(2).
+

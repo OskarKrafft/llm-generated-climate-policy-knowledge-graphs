@@ -1,0 +1,9 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_48 .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_48 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring .
+

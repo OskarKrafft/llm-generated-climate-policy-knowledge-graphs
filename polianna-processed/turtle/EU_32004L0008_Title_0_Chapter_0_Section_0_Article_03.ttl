@@ -1,0 +1,28 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32004L0008 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_03 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 3
+definitions
+for the purpose of this directive, the following definitions shall apply:
+(a) "cogeneration" shall mean the simultaneous generation in one process of thermal energy and electrical and/or mechanical energy;
+(b) "useful heat" shall mean heat produced in a cogeneration process to satisfy an economically justifiable demand for heat or cooling;
+(c) "economically justifiable demand" shall mean the demand that does not exceed the needs for heat or cooling and which would otherwise be satisfied at market conditions by energy generation processes other than cogeneration;
+(d) "electricity from cogeneration" shall mean electricity generated in a process linked to the production of useful heat and calculated in accordance with the methodology laid down in annex ii;
+(e) "back-up electricity" shall mean the electricity supplied through the electricity grid whenever the cogeneration process is disrupted, including maintenance periods, or out of order;
+(f) "top-up electricity" shall mean the electricity supplied through the electricity grid in cases where the electricity demand is greater than the electrical output of the cogeneration process;
+(g) "overall efficiency" shall mean the annual sum of electricity and mechanical energy production and useful heat output divided by the fuel input used for heat produced in a cogeneration process and gross electricity and mechanical energy production;
+(h) "efficiency" shall mean efficiency calculated on the basis of "net calorific values" of fuels (also referred to as "lower calorific values");
+(i) "high efficiency cogeneration" shall mean cogeneration meeting the criteria of annex iii;
+(j) "efficiency reference value for separate production" shall mean efficiency of the alternative separate productions of heat and electricity that the cogeneration process is intended to substitute;
+(k) "power to heat ratio" shall mean the ratio between electricity from cogeneration and useful heat when operating in full cogeneration mode using operational data of the specific unit;
+(l) "cogeneration unit" shall mean a unit that can operate in cogeneration mode;
+(m) "micro-cogeneration unit" shall mean a cogeneration unit with a maximum capacity below 50 kwe;
+(n) "small scale cogeneration" shall mean cogeneration units with an installed capacity below 1 mwe;
+(o) "cogeneration production" shall mean the sum of electricity and mechanical energy and useful heat from cogeneration.
+in addition, the relevant definitions in directive 2003/54/ec, and in directive 2001/77/ec shall apply."""^^xsd:string .
+

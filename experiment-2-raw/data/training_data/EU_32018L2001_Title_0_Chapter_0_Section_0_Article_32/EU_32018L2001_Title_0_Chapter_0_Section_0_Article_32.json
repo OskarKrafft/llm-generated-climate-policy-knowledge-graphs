@@ -1,0 +1,27 @@
+[
+  {
+    "s": "32018L2001",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "32018L2001",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  }
+]

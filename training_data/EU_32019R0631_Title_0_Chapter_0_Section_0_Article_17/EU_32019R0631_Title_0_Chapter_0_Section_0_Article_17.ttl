@@ -1,0 +1,26 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_17 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_17 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_in_effect_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_17_TimeInEffect_1 ;
+    pol:specifies_monitoring_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_17_TimeMonitoring_2 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_17_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2019-05-15"^^xsd:date ;
+    pol:annotatedText "from 15 may 2019" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_17_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "nine months before the end of the six-year period" .
+

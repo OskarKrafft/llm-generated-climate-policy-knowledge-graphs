@@ -1,0 +1,82 @@
+[
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_1"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_3"
+  },
+  {
+    "s": "TimeMonitoring_4",
+    "p": "annotatedText",
+    "o": "frequencies"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_4"
+  },
+  {
+    "s": "TimeInEffect_2",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "TimeInEffect_2",
+    "p": "annotatedText",
+    "o": "the beginning of the calendar year following the adoption of this regulation"
+  },
+  {
+    "s": "TimeInEffect_3",
+    "p": "annotatedText",
+    "o": "beginning of the calendar year"
+  },
+  {
+    "s": "32008R1099",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "imposes_monitoring",
+    "o": "Member_States"
+  },
+  {
+    "s": "32008R1099",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_2"
+  },
+  {
+    "s": "TimeMonitoring_4",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeInEffect_3",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "time reference and frequency"
+  }
+]

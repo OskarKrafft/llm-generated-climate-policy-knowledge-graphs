@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_16 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:fullText """article 16
+committee procedure
+1.   the commission shall be assisted by the climate change committee referred to in point (a) of article 44(1) of regulation (eu) 2018/1999 of the european parliament and of the council (21). that committee shall be a committee within the meaning of regulation (eu) no 182/2011.
+2.   where reference is made to this paragraph, article 5 of regulation (eu) no 182/2011 shall apply.
+3.   where the committee delivers no opinion, the commission shall not adopt the draft implementing act and the third subparagraph of article 5(4) of regulation (eu) no 182/2011 shall apply."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> .
+

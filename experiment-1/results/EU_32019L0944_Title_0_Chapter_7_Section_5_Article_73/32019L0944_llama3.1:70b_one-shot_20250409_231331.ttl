@@ -1,0 +1,28 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix poli: <https://w3id.org/poli/def/ontology/> .
+
+<http://data.europa.eu/eli/dir/2019/944/oj>
+    poli:dateOfTransposition "2020-07-24"^^xsd:date ;
+    poli:number "32019L0944" ;
+    poli:hasPart <https://w3id.org/poli/toc/EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73> .
+
+<https://w3id.org/poli/toc/EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73>
+    poli:Titel "EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73" ;
+    poli:ELI "http://data.europa.eu/eli/dir/2019/944/oj" .
+
+<https://w3id.org/poli/text/EU_32019L0944_Article_73>
+    a poli:Article ;
+    poli:text """article 73
+entry into force
+this directive shall enter into force on the twentieth day following that of its publication in the official journal of the european union.
+article 6(1), article 7 (2) to (5), article 8(1), points (a) to (i) and (k) of article 8(2) and article 8(3) and (4), article 9(1), (3), (4) and (5), article 10(2) to (10), articles 25, 27, 30, 35 and 37, article 38(1), (3) and (4), articles 39, 41, 43, 44 and 45, article 46(1), points (a), (b) and (c) and (e) to (h) of article 46(2), article 46(3) to (6), article 47 to 50, articles 52, 53, 55, 56, 60, 64 and 65 shall apply from 1 january 2021.
+points (1) to (3), (5)(b) and (6) of article 70 shall apply from 1 january 2021.
+point (5)(a) of article 70 shall apply from 1 january 2020.
+point (4) of article 70 shall apply from 26 october 2020.""" ;
+    poli:entryIntoForce "2020-07-24"^^xsd:date .
+
+<https://w3id.org/poli/toc/EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73>
+    poli:hasText <https://w3id.org/poli/text/EU_32019L0944_Article_73> .
+
+<http://data.europa.eu/eli/dir/2019/944/oj>
+    poli:Annotators "A", "B" .

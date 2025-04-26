@@ -1,0 +1,57 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_16 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr,
+        pol:TaxIncentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 16
+access to and operation of the grids
+1.   member states shall take the appropriate steps to develop transmission and distribution grid infrastructure, intelligent networks, storage facilities and the electricity system, in order to allow the secure operation of the electricity system as it accommodates the further development of electricity production from renewable energy sources, including interconnection between member states and between member states and third countries. member states shall also take appropriate steps to accelerate authorisation procedures for grid infrastructure and to coordinate approval of grid infrastructure with administrative and planning procedures.
+2.   subject to requirements relating to the maintenance of the reliability and safety of the grid, based on transparent and non-discriminatory criteria defined by the competent national authorities:
+(a)
+member states shall ensure that transmission system operators and distribution system operators in their territory guarantee the transmission and distribution of electricity produced from renewable energy sources;
+(b)
+member states shall also provide for either priority access or guaranteed access to the grid-system of electricity produced from renewable energy sources;
+(c)
+member states shall ensure that when dispatching electricity generating installations, transmission system operators shall give priority to generating installations using renewable energy sources in so far as the secure operation of the national electricity system permits and based on transparent and non-discriminatory criteria. member states shall ensure that appropriate grid and market-related operational measures are taken in order to minimise the curtailment of electricity produced from renewable energy sources. if significant measures are taken to curtail the renewable energy sources in order to guarantee the security of the national electricity system and security of energy supply, members states shall ensure that the responsible system operators report to the competent regulatory authority on those measures and indicate which corrective measures they intend to take in order to prevent inappropriate curtailments.
+3.   member states shall require transmission system operators and distribution system operators to set up and make public their standard rules relating to the bearing and sharing of costs of technical adaptations, such as grid connections and grid reinforcements, improved operation of the grid and rules on the non-discriminatory implementation of the grid codes, which are necessary in order to integrate new producers feeding electricity produced from renewable energy sources into the interconnected grid.
+those rules shall be based on objective, transparent and non-discriminatory criteria taking particular account of all the costs and benefits associated with the connection of those producers to the grid and of the particular circumstances of producers located in peripheral regions and in regions of low population density. those rules may provide for different types of connection.
+4.   where appropriate, member states may require transmission system operators and distribution system operators to bear, in full or in part, the costs referred to in paragraph 3. member states shall review and take the necessary measures to improve the frameworks and rules for the bearing and sharing of costs referred to in paragraph 3 by 30 june 2011 and every two years thereafter to ensure the integration of new producers as referred to in that paragraph.
+5.   member states shall require transmission system operators and distribution system operators to provide any new producer of energy from renewable sources wishing to be connected to the system with the comprehensive and necessary information required, including:
+(a)
+a comprehensive and detailed estimate of the costs associated with the connection;
+(b)
+a reasonable and precise timetable for receiving and processing the request for grid connection;
+(c)
+a reasonable indicative timetable for any proposed grid connection.
+member states may allow producers of electricity from renewable energy sources wishing to be connected to the grid to issue a call for tender for the connection work.
+6.   the sharing of costs referred in paragraph 3 shall be enforced by a mechanism based on objective, transparent and non-discriminatory criteria taking into account the benefits which initially and subsequently connected producers as well as transmission system operators and distribution system operators derive from the connections.
+7.   member states shall ensure that the charging of transmission and distribution tariffs does not discriminate against electricity from renewable energy sources, including in particular electricity from renewable energy sources produced in peripheral regions, such as island regions, and in regions of low population density. member states shall ensure that the charging of transmission and distribution tariffs does not discriminate against gas from renewable energy sources.
+8.   member states shall ensure that tariffs charged by transmission system operators and distribution system operators for the transmission and distribution of electricity from plants using renewable energy sources reflect realisable cost benefits resulting from the plant’s connection to the network. such cost benefits could arise from the direct use of the low-voltage grid.
+9.   where relevant, member states shall assess the need to extend existing gas network infrastructure to facilitate the integration of gas from renewable energy sources.
+10.   where relevant, member states shall require transmission system operators and distribution system operators in their territory to publish technical rules in line with article 6 of directive 2003/55/ec of the european parliament and of the council of 26 june 2003 concerning the common rules for the internal market in natural gas (21), in particular regarding network connection rules that include gas quality, gas odoration and gas pressure requirements. member states shall also require transmission and distribution system operators to publish the connection tariffs to connect renewable gas sources based on transparent and non-discriminatory criteria.
+11.   member states in their national renewable energy action plans shall assess the necessity to build new infrastructure for district heating and cooling produced from renewable energy sources in order to achieve the 2020 national target referred to in article 3(1). subject to that assessment, member states shall, where relevant, take steps with a view to developing a district heating infrastructure to accommodate the development of heating and cooling production from large biomass, solar and geothermal facilities."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_compliance_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2011-06-30"^^xsd:date ;
+    pol:annotatedText "30 june 2011" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:annotatedText "every two years" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+

@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "pol": "http://example.org/polinaa#"
+  },
+  "@id": "http://data.europa.eu/eli/reg/2019/631/oj/art_1",
+  "@type": "eli:Article",
+  "dct:title": "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01",
+  "eli:number": "1",
+  "pol:hasCELEXNumber": "32019R0631",
+  "dct:description": "This regulation establishes CO2 emissions performance requirements for new passenger cars and light commercial vehicles to contribute to the Union's greenhouse gas reduction targets and Paris Agreement objectives, ensuring internal market functioning.",
+  "pol:hasObjective": [
+    {
+      "@type": "pol:Objective",
+      "dct:title": "Contribution to achieving the Union's target of reducing its greenhouse gas emissions",
+      "pol:relatedTo": "http://data.europa.eu/eli/reg/2018/842"
+    },
+    {
+      "@type": "pol:Objective",
+      "dct:title": "Alignment with objectives of the Paris Agreement"
+    },
+    {
+      "@type": "pol:Objective",
+      "dct:title": "Ensuring proper functioning of the internal market"
+    }
+  ],
+  "pol:hasMeasure": [
+    {
+      "@type": "pol:Measure",
+      "dct:title": "EU fleet-wide target for new passenger cars and light commercial vehicles",
+      "pol:startDate": "2020-01-01",
+      "pol:endDate": "2024-12-31",
+      "pol:targetValue": [
+        {
+          "@type": "pol:TargetValue",
+          "dct:title": "Average emissions of new passenger cars",
+          "pol:value": "95 g CO2/km"
+        },
+        {
+          "@type": "pol:TargetValue",
+          "dct:title": "Average emissions of new light commercial vehicles",
+          "pol:value": "147 g CO2/km"
+        }
+      ],
+      "pol:measurementMethod": [
+        "http://data.europa.eu/eli/reg/ec/692/2008",
+        "http://data.europa.eu/eli/reg/eu/2017/1152",
+        "http://data.europa.eu/eli/reg/eu/2017/1153"
+      ]
+    },
+    {
+      "@type": "pol:Measure",
+      "dct:title": "Additional measures for CO2 reduction until 2024",
+      "pol:endDate": "2024-12-31",
+      "pol:valueReduction": "10 g CO2/km"
+    },
+    {
+      "@type": "pol:Measure",
+      "dct:title": "EU fleet-wide target for new passenger cars and light commercial vehicles from 2025",
+      "pol:startDate": "2025-01-01",
+      "pol:targetValueReduction": [
+        {
+          "@type": "pol:TargetValueReduction",
+          "dct:title": "Average emissions of new passenger cars",
+          "pol:valueReductionPercentage": "15%"
+        },
+        {
+          "@type": "pol:TargetValueReduction",
+          "dct:title": "Average emissions of new light commercial vehicles",
+          "pol:valueReductionPercentage": "15%"
+        }
+      ]
+    },
+    {
+      "@type": "pol:Measure",
+      "dct:title": "EU fleet-wide target for new passenger cars and light commercial vehicles from 2030",
+      "pol:startDate": "2030-01-01",
+      "pol:targetValueReduction": [
+        {
+          "@type": "pol:TargetValueReduction",
+          "dct:title": "Average emissions of new passenger cars",
+          "pol:valueReductionPercentage": "37.5%"
+        },
+        {
+          "@type": "pol:TargetValueReduction",
+          "dct:title": "Average emissions of new light commercial vehicles",
+          "pol:valueReductionPercentage": "31%"
+        }
+      ]
+    },
+    {
+      "@type": "pol:Measure",
+      "dct:title": "Zero- and low-emission vehicles' benchmark from 2025",
+      "pol:startDate": "2025-01-01",
+      "pol:valueBenchmark": [
+        {
+          "@type": "pol:BenchmarkValue",
+          "dct:title": "New passenger cars",
+          "pol:valuePercentage": "Not specified"
+        },
+        {
+          "@type": "pol:BenchmarkValue",
+          "dct:title": "Light commercial vehicles",
+          "pol:valuePercentage": "Not specified"
+        }
+      ]
+    },
+    {
+      "@type": "pol:Measure",
+      "dct:title": "Zero- and low-emission vehicles' benchmark from 2030",
+      "pol:startDate": "2030-01-01",
+      "pol:valueBenchmark": [
+        {
+          "@type": "pol:BenchmarkValue",
+          "dct:title": "New passenger cars",
+          "pol:valuePercentage": "Not specified"
+        },
+        {
+          "@type": "pol:BenchmarkValue",
+          "dct:title": "Light commercial vehicles",
+          "pol:valuePercentage": "Not specified"
+        }
+      ]
+    }
+  ],
+  "pol:annotatedBy": [
+    {
+      "@type": "pol:Annotation",
+      "dct:title": "Additional measures for CO2 reduction until 2024",
+      "dct:description": "These measures are part of the integrated approach to achieve the overall target set by this regulation."
+    },
+    {
+      "@type": "pol:Annotation",
+      "dct:title": "Measurement methods",
+      "dct:description": "The measurement methods specified in the references ensure consistency and reliability of data collection for CO2 emissions."
+    }
+  ]
+}

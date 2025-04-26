@@ -1,0 +1,51 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 8
+energy audits and energy management systems
+1.   member states shall promote the availability to all final customers of high quality energy audits which are cost-effective and:
+(a)
+carried out in an independent manner by qualified and/or accredited experts according to qualification criteria; or
+(b)
+implemented and supervised by independent authorities under national legislation.
+the energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the member state concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out.
+for the purpose of guaranteeing the high quality of the energy audits and energy management systems, member states shall establish transparent and non-discriminatory minimum criteria for energy audits based on annex vi.
+energy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object.
+2.   member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits.
+on the basis of transparent and non-discriminatory criteria and without prejudice to union state aid law, member states may set up support schemes for smes, including if they have concluded voluntary agreements, to cover costs of an energy audit and of the implementation of highly cost-effective recommendations from the energy audits, if the proposed measures are implemented.
+member states shall bring to the attention of smes, including through their respective representative intermediary organisations, concrete examples of how energy management systems could help their businesses. the commission shall assist member states by supporting the exchange of best practices in this domain.
+3.   member states shall also develop programmes to raise awareness among households about the benefits of such audits through appropriate advice services.
+member states shall encourage training programmes for the qualification of energy auditors in order to facilitate sufficient availability of experts.
+4.   member states shall ensure that enterprises that are not smes are subject to an energy audit carried out in an independent and cost-effective manner by qualified and/or accredited experts or implemented and supervised by independent authorities under national legislation by 5 december 2015 and at least every four years from the date of the previous energy audit.
+5.   energy audits shall be considered as fulfilling the requirements of paragraph 4 when they are carried out in an independent manner, on the basis of minimum criteria based on annex vi, and implemented under voluntary agreements concluded between organisations of stakeholders and an appointed body and supervised by the member state concerned, or other bodies to which the competent authorities have delegated the responsibility concerned, or by the commission.
+access of market participants offering energy services shall be based on transparent and non-discriminatory criteria.
+6.   enterprises that are not smes and that are implementing an energy or environmental management system - certified by an independent body according to the relevant european or international standards - shall be exempted from the requirements of paragraph 4, provided that member states ensure that the management system concerned includes an energy audit on the basis of the minimum criteria based on annex vi.
+7.   energy audits may stand alone or be part of a broader environmental audit. member states may require that an assessment of the technical and economic feasibility of connection to an existing or planned district heating or cooling network shall be part of the energy audit.
+without prejudice to union state aid law, member states may implement incentive and support schemes for the implementation of recommendations from energy audits and similar measures."""^^xsd:string ;
+    pol:grants_monitoring_authority pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_1,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_3 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "annual" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "5 december 2015" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "at least every four years" .
+

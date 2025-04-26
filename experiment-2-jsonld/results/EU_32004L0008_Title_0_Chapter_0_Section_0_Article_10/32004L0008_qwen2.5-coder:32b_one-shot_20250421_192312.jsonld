@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "eli": "http://data.europa.eu/eli/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "polianna": "http://example.org/polianna/"
+  },
+  "@id": "eli:dir/2004/8/oj#art_10",
+  "@type": "polianna:PolicyArticle",
+  "skos:prefLabel": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10",
+  "eli:has_part": [
+    {
+      "@id": "_:part1",
+      "@type": "polianna:ReportingRequirement",
+      "specifies_time": {
+        "@id": "_:time1",
+        "@type": "polianna:InEffectTime",
+        "Compliance_date": {
+          "@value": "2006-02-21",
+          "@type": "xsd:date"
+        }
+      },
+      "contains": [
+        {
+          "@id": "_:report1",
+          "@type": "polianna:Report",
+          "describes": [
+            {
+              "@id": "_:analysis1",
+              "@type": "polianna:Analysis",
+              "based_on": [
+                {
+                  "@id": "eli:dir/2004/8/oj#art_5(3)",
+                  "@type": "polianna:PolicyArticle"
+                },
+                {
+                  "@id": "eli:dir/2004/8/oj#art_6(1)",
+                  "@type": "polianna:PolicyArticle"
+                },
+                {
+                  "@id": "eli:dir/2004/8/oj#art_9(1)",
+                  "@type": "polianna:PolicyArticle"
+                },
+                {
+                  "@id": "eli:dir/2004/8/oj#art_9(2)",
+                  "@type": "polianna:PolicyArticle"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "_:part2",
+      "@type": "polianna:ReportingRequirement",
+      "specifies_time": [
+        {
+          "@id": "_:time2",
+          "@type": "polianna:InEffectTime",
+          "Compliance_date": {
+            "@value": "2007-02-21",
+            "@type": "xsd:date"
+          }
+        },
+        {
+          "@id": "_:time3",
+          "@type": "polianna:FrequentReportingTime",
+          "Frequency": "P4Y"
+        }
+      ],
+      "contains": [
+        {
+          "@id": "_:report2",
+          "@type": "polianna:Report",
+          "describes": [
+            {
+              "@id": "_:evaluation1",
+              "@type": "polianna:Evaluation",
+              "based_on": [
+                {
+                  "@id": "eli:dir/2004/8/oj#art_6(3)",
+                  "@type": "polianna:PolicyArticle"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "requested_by": {
+        "@id": "eli:eu:institution:commission",
+        "@type": "skos:Concept"
+      },
+      "request_deadline": {
+        "@value": "P6M",
+        "@type": "xsd:duration"
+      }
+    },
+    {
+      "@id": "_:part3",
+      "@type": "polianna:DataSubmissionRequirement",
+      "specifies_time": [
+        {
+          "@id": "_:time4",
+          "@type": "polianna:InEffectTime",
+          "Compliance_date": {
+            "@value": "2004-12-31",
+            "@type": "xsd:date"
+          }
+        },
+        {
+          "@id": "_:time5",
+          "@type": "polianna:FrequentReportingTime",
+          "Frequency": "P1Y"
+        }
+      ],
+      "contains": [
+        {
+          "@id": "_:data1",
+          "@type": "polianna:Data",
+          "describes": [
+            {
+              "@id": "_:production1",
+              "@type": "polianna:Production",
+              "of": "cogeneration",
+              "measured_in": "electricity and heat"
+            }
+          ],
+          "methodology": {
+            "@id": "eli:dir/2004/8/oj#annex_ii",
+            "@type": "polianna:Methodology"
+          },
+          "refers_to_year": "2004"
+        },
+        {
+          "@id": "_:data2",
+          "@type": "polianna:Data",
+          "describes": [
+            {
+              "@id": "_:capacity1",
+              "@type": "polianna:Capacity",
+              "of": "cogeneration"
+            }
+          ],
+          "methodology": {
+            "@id": "eli:dir/2004/8/oj#annex_ii",
+            "@type": "polianna:Methodology"
+          },
+          "refers_to_year": "2004"
+        }
+      ]
+    }
+  ]
+}

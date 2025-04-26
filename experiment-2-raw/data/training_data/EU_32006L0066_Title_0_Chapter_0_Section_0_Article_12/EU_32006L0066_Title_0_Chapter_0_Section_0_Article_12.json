@@ -1,0 +1,142 @@
+[
+  {
+    "s": "TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "each calendar year"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_4"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "Edu_Outreach"
+  },
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:6049"
+  },
+  {
+    "s": "32006L0066",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_1"
+  },
+  {
+    "s": "TimeCompliance_2",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "32006L0066",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "imposes_monitoring",
+    "o": "Member_States"
+  },
+  {
+    "s": "TimeCompliance_2",
+    "p": "Compliance_date",
+    "o": "2010-09-26"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_3"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "TimeMonitoring_4",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_2"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "Member_States"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "Compliance_date",
+    "o": "2009-09-26"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "annotatedText",
+    "o": "26\u00a0september 2009"
+  },
+  {
+    "s": "TimeCompliance_2",
+    "p": "annotatedText",
+    "o": "26\u00a0september 2010"
+  },
+  {
+    "s": "TimeMonitoring_4",
+    "p": "annotatedText",
+    "o": "within six months of the end of the calendar year"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:2243"
+  }
+]

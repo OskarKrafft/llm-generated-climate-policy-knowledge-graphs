@@ -1,0 +1,17 @@
+json
+[
+    {"subject": "Article", "predicate": "hasSuffix", "object": "10"},
+    {"subject": "Article_10", "predicate": "hasType", "object": "RegulatoryAuthorityDuties"},
+    {"subject": "Article_10", "predicate": "describes", "object": "Responsibilities of Regulatory Authorities"},
+    {"subject": "Article_10", "predicate": "includes", "object": "MonitoringAndEnforcement"},
+    {"subject": "Article_10", "predicate": "includes", "object": "NetworkCodeApproval"},
+    {"subject": "Article_10", "predicate": "includes", "object": "MethodologyFixing"},
+    {"subject": "Article_10", "predicate": "includes", "object": "TariffTransparency"},
+    {"subject": "Article_10", "predicate": "includes", "object": "CongestionManagementMonitoring"},
+    {"subject": "MonitoringAndEnforcement", "predicate": "hasDescription", "object": "Regulatory authorities shall monitor and enforce compliance with the provisions of this directive."},
+    {"subject": "NetworkCodeApproval", "predicate": "hasDescription", "object": "ACER is responsible for fixing and approving network codes and guidelines under chapter vii of regulation (EU) 2019/943, except where their coordinated nature requires otherwise."},
+    {"subject": "MethodologyFixing", "predicate": "hasDescription", "object": "Regulatory authorities shall fix or approve national methodologies for calculating or establishing terms and conditions for connection, access to networks, provision of ancillary services, and access to cross-border infrastructures."},
+    {"subject": "TariffTransparency", "predicate": "hasDescription", "object": "Regulatory authorities shall make publicly available the detailed methodology and underlying costs used for the calculation of network tariffs, while preserving confidentiality of commercially sensitive information."},
+    {"subject": "CongestionManagementMonitoring", "predicate": "hasDescription", "object": "Regulatory authorities shall monitor congestion management of national electricity systems including interconnectors and the implementation of congestion management rules."}
+]
+```

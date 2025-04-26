@@ -1,0 +1,14 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:addresses eurovoc:4038 ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:imposes_monitoring pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_nuclear_energy_sector ;
+    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:Monitoring_date "2009" ;
+    pol:annotatedText "reported and disseminated from 2009 onwards" .
+

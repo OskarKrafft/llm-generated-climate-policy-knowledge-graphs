@@ -1,0 +1,89 @@
+@prefix pola: <http://example.org/polia#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+pola:RegulatoryAuthority a pola:Entity ;
+    pola:hasDuty [ a pola:Duty ; 
+        pola:requiresAction [
+            a pola:Action ;
+            pola:description "impose penalties for discriminatory behaviour in favor of the vertically integrated undertaking"^^xsd:string ;
+        ] ;
+        pola:requiresAction [
+            a pola:Action ;
+            pola:description "monitor communications between transmission system operator and vertically integrated undertaking to ensure compliance with obligations"^^xsd:string ;
+        ] ;
+    ] .
+    
+pola:RegulatoryAuthority pola:hasDuty [ 
+    a pola:Duty ;
+    pola:requiresAction [
+        a pola:Action ;
+        pola:description "act as dispute settlement authority between vertically integrated undertaking and transmission system operator"^^xsd:string ;
+    ] ;
+] .
+
+pola:RegulatoryAuthority pola:hasDuty [ 
+    a pola:Duty ; 
+    pola:requiresAction [
+        a pola:Action ; 
+        pola:description "monitor commercial and financial relations including loans between vertically integrated undertaking and transmission system operator"^^xsd:string ;
+    ] ;
+] .
+
+pola:RegulatoryAuthority pola:hasDuty [ 
+    a pola:Duty ; 
+    pola:requiresAction [
+        a pola:Action ; 
+        pola:description "approve all commercial and financial agreements between vertically integrated undertaking and transmission system operator on market conditions"^^xsd:string ;
+    ] ;
+] .
+
+pola:RegulatoryAuthority pola:hasDuty [ 
+    a pola:Duty ;
+    pola:requiresAction [
+        a pola:Action ; 
+        pola:description "request justification from the vertically integrated undertaking when notified by compliance officer"^^xsd:string ;
+    ] ;
+] .
+
+pola:RegulatoryAuthority pola:hasDuty [ 
+    a pola:Duty ;
+    pola:requiresAction [
+        a pola:Action ; 
+        pola:description "carry out inspections, including unannounced ones, on the premises of vertically integrated undertaking and transmission system operator"^^xsd:string ;
+    ] ;
+] .
+
+pola:RegulatoryAuthority pola:hasDuty [ 
+    a pola:Duty ; 
+    pola:requiresAction [
+        a pola:Action ; 
+        pola:description "assign all or specific tasks of the transmission system operator to independent system operator in case of persistent breach"^^xsd:string ;
+    ] ;
+] .
+
+pola:RegulatoryAuthority pola:hasDuty [ 
+    a pola:Duty ; 
+    pola:requiresAction [
+        a pola:Action ; 
+        pola:description "monitor congestion management including interconnectors and implementation of congestion management rules"^^xsd:string ;
+    ] ;
+] .
+
+pola:RegulatoryAuthority pola:hasDuty [ 
+    a pola:Duty ; 
+    pola:requiresAction [
+        a pola:Action ; 
+        pola:description "make publicly available the detailed methodology and underlying costs used for calculation of network tariffs while preserving confidentiality"^^xsd:string ;
+    ] ;
+] .
+
+pola:RegulatoryAuthority pola:hasDuty [ 
+    a pola:Duty ; 
+    pola:requiresAction [
+        a pola:Action ; 
+        pola:description "fix or approve national methodologies used to calculate terms and conditions for connection, access tariffs, provision of ancillary services and cross-border infrastructures"^^xsd:string ;
+    ] ;
+] .
+
+.

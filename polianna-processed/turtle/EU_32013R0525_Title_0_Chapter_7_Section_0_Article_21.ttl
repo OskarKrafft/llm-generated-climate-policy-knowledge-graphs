@@ -1,0 +1,36 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_21 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_21 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 21
+reporting on progress
+1.   the commission shall annually assess, based on information reported under this regulation, and in consultation with the member states, the progress made by the union and its member states to meet the following, with a view to determining whether sufficient progress has been made:
+(a)
+commitments under article 4 of the unfccc and article 3 of the kyoto protocol as further set out in decisions adopted by the conference of the parties to the unfccc, or by the conference of the parties to the unfccc serving as the meeting of the parties to the kyoto protocol. such assessment shall be based on the information reported in accordance with articles 7, 8, 10 and 13 to 17;
+(b)
+obligations set out in article 3 of decision no 406/2009/ec. such assessment shall be based on the information reported in accordance with articles 7, 8, 13 and 14.
+2.   the commission shall biennially assess aviation’s overall impact on the global climate including through non-co2 emissions or effects, based on the emission data provided by member states pursuant to article 7, and improve that assessment by reference to scientific advancements and air traffic data, as appropriate.
+3.   by 31 october each year, the commission shall submit a report summarising the conclusions of the assessments provided for in paragraphs 1 and 2 to the european parliament and to the council."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring <http://eurovoc.europa.eu/4060>,
+        pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_21_TimeMonitoring_1,
+        pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_21_TimeMonitoring_2,
+        pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_21_TimeMonitoring_3 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_21_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "annually" .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_21_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "biennially" .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_21_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "31 october each year" .
+

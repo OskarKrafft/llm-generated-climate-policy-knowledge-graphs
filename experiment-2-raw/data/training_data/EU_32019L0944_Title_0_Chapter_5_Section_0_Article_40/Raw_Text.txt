@@ -1,0 +1,42 @@
+article 40
+tasks of transmission system operators
+1.   each transmission system operator shall be responsible for:
+(a)
+ensuring the long-term ability of the system to meet reasonable demands for the transmission of electricity, operating, maintaining and developing under economic conditions secure, reliable and efficient transmission system with due regard to the environment, in close cooperation with neighbouring transmission system operators and distribution system operators;
+(b)
+ensuring adequate means to meet its obligations;
+(c)
+contributing to security of supply through adequate transmission capacity and system reliability;
+(d)
+managing electricity flows on the system, taking into account exchanges with other interconnected systems. to that end, the transmission system operator shall be responsible for ensuring a secure, reliable and efficient electricity system and, in that context, for ensuring the availability of all necessary ancillary services, including those provided by demand response and energy storage facilities, insofar as such availability is independent from any other transmission systems with which its system is interconnected;
+(e)
+providing to the operator of other systems with which its system is interconnected sufficient information to ensure the secure and efficient operation, coordinated development and interoperability of the interconnected system;
+(f)
+ensuring non-discrimination as between system users or classes of system users, particularly in favour of its related undertakings;
+(g)
+providing system users with the information they need for efficient access to the system;
+(h)
+collecting congestion rents and payments under the inter-transmission system operator compensation mechanism, in accordance with article 49 of regulation (eu) 2019/943, granting and managing third-party access and giving reasoned explanations when it denies such access, which shall be monitored by the regulatory authorities; in carrying out their tasks under this article transmission system operators shall primarily facilitate market integration;
+(i)
+procuring ancillary services to ensure operational security;
+(j)
+adopting a framework for cooperation and coordination between the regional coordination centres;
+(k)
+participating in the establishment of the european and national resource adequacy assessments pursuant to chapter iv of regulation (eu) 2019/943;
+(l)
+the digitalisation of transmission systems;
+(m)
+data management, including the development of data management systems, cybersecurity and data protection, subject to the applicable rules, and without prejudice to the competence of other authorities.
+2.   member states may provide that one or several responsibilities listed in paragraph 1 of this article be assigned to a transmission system operator other than the one which owns the transmission system to which the responsibilities concerned would otherwise be applicable. the transmission system operator to which the tasks are assigned shall be certified under the ownership unbundling, the independent system operator or the independent transmission system operator model, and fulfil the requirements provided for in article 43, but shall not be required to own the transmission system it is responsible for.
+the transmission system operator which owns the transmission system shall fulfil the requirements provided for in chapter vi and be certified in accordance with article 43. this shall be without prejudice to the possibility for transmission system operators which are certified under the ownership unbundling, the independent system operator or the independent transmission system operator model to delegate, on their own initiative and under their supervision, certain tasks to other transmission system operators which are certified under the ownership unbundling, the independent system operator or the independent transmission system operator model where that delegation of tasks does not endanger the effective and independent decision-making rights of the delegating transmission system operator.
+3.   in performing the tasks referred to in paragraph 1, transmission system operators shall take into account the recommendations issued by the regional coordination centres.
+4.   in performing the task referred to in point (i) of paragraph 1, transmission system operators shall procure balancing services subject to the following:
+(a)
+transparent, non-discriminatory and market-based procedures;
+(b)
+the participation of all qualified electricity undertakings and market participants, including market participants offering energy from renewable sources, market participants engaged in demand response, operators of energy storage facilities and market participants engaged in aggregation.
+for the purpose of point (b) of the first subparagraph, regulatory authorities and transmission system operators shall, in close cooperation with all market participants, establish technical requirements for participation in those markets, on the basis of the technical characteristics of those markets.
+5.   paragraph 4 shall apply to the provision of non-frequency ancillary services by transmission system operators, unless the regulatory authority has assessed that the market-based provision of non-frequency ancillary services is economically not efficient and has granted a derogation. in particular, the regulatory framework shall ensure that transmission system operators are able to procure such services from providers of demand response or energy storage and shall promote the uptake of energy efficiency measures, where such services cost-effectively alleviate the need to upgrade or replace electricity capacity and support the efficient and secure operation of the transmission system.
+6.   transmission system operators, subject to approval by the regulatory authority, or the regulatory authority itself, shall, in a transparent and participatory process that includes all relevant system users and the distribution system operators, establish the specifications for the non-frequency ancillary services procured and, where appropriate, standardised market products for such services at least at national level. the specifications shall ensure the effective and non-discriminatory participation of all market participants, including market participants offering energy from renewable sources, market participants engaged in demand response, operators of energy storage facilities and market participants engaged in aggregation. transmission system operators shall exchange all necessary information and shall coordinate with distribution system operators in order to ensure the optimal utilisation of resources, to ensure the secure and efficient operation of the system and to facilitate market development. transmission system operators shall be adequately remunerated for the procurement of such services to allow them to recover at least the reasonable corresponding costs, including the necessary information and communication technology expenses and infrastructure costs.
+7.   the obligation to procure non-frequency ancillary services referred to in paragraph 5 does not apply to fully integrated network components.
+8.   member states or their designated competent authorities may allow transmission system operators to perform activities other than those provided for in this directive and in regulation (eu) 2019/943 where such activities are necessary for the transmission system operators to fulfil their obligations under this directive or regulation (eu) 2019/943, provided that the regulatory authority has assessed the necessity of such a derogation. this paragraph shall be without prejudice to the right of the transmission system operators to own, develop, manage or operate networks other than electricity networks where the member state or the designated competent authority has granted such a right.

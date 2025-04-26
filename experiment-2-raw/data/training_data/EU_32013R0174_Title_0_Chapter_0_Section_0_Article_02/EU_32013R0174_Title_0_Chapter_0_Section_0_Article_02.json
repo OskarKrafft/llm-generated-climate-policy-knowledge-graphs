@@ -1,0 +1,37 @@
+[
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32013R0174",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_1"
+  },
+  {
+    "s": "32013R0174",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "annotatedText",
+    "o": "twentieth day following that of its publication"
+  }
+]

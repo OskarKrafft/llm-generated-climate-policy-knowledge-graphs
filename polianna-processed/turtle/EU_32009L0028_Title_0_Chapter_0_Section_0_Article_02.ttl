@@ -1,0 +1,47 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_02 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:PublicInvt,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives ;
+    pol:fullText """article 2
+definitions
+for the purposes of this directive, the definitions in directive 2003/54/ec apply.
+the following definitions also apply:
+(a)
+‘energy from renewable sources’ means energy from renewable non-fossil sources, namely wind, solar, aerothermal, geothermal, hydrothermal and ocean energy, hydropower, biomass, landfill gas, sewage treatment plant gas and biogases;
+(b)
+‘aerothermal energy’ means energy stored in the form of heat in the ambient air;
+(c)
+‘geothermal energy’ means energy stored in the form of heat beneath the surface of solid earth;
+(d)
+‘hydrothermal energy’ means energy stored in the form of heat in surface water;
+(e)
+‘biomass’ means the biodegradable fraction of products, waste and residues from biological origin from agriculture (including vegetal and animal substances), forestry and related industries including fisheries and aquaculture, as well as the biodegradable fraction of industrial and municipal waste;
+(f)
+‘gross final consumption of energy’ means the energy commodities delivered for energy purposes to industry, transport, households, services including public services, agriculture, forestry and fisheries, including the consumption of electricity and heat by the energy branch for electricity and heat production and including losses of electricity and heat in distribution and transmission;
+(g)
+‘district heating’ or ‘district cooling’ means the distribution of thermal energy in the form of steam, hot water or chilled liquids, from a central source of production through a network to multiple buildings or sites, for the use of space or process heating or cooling;
+(h)
+‘bioliquids’ means liquid fuel for energy purposes other than for transport, including electricity and heating and cooling, produced from biomass;
+(i)
+‘biofuels’ means liquid or gaseous fuel for transport produced from biomass;
+(j)
+‘guarantee of origin’ means an electronic document which has the sole function of providing proof to a final customer that a given share or quantity of energy was produced from renewable sources as required by article 3(6) of directive 2003/54/ec;
+(k)
+‘support scheme’ means any instrument, scheme or mechanism applied by a member state or a group of member states, that promotes the use of energy from renewable sources by reducing the cost of that energy, increasing the price at which it can be sold, or increasing, by means of a renewable energy obligation or otherwise, the volume of such energy purchased. this includes, but is not restricted to, investment aid, tax exemptions or reductions, tax refunds, renewable energy obligation support schemes including those using green certificates, and direct price support schemes including feed-in tariffs and premium payments;
+(l)
+‘renewable energy obligation’ means a national support scheme requiring energy producers to include a given proportion of energy from renewable sources in their production, requiring energy suppliers to include a given proportion of energy from renewable sources in their supply, or requiring energy consumers to include a given proportion of energy from renewable sources in their consumption. this includes schemes under which such requirements may be fulfilled by using green certificates;
+(m)
+‘actual value’ means the greenhouse gas emission saving for some or all of the steps of a specific biofuel production process calculated in accordance with the methodology laid down in part c of annex v;
+(n)
+‘typical value’ means an estimate of the representative greenhouse gas emission saving for a particular biofuel production pathway;
+(o)
+‘default value’ means a value derived from a typical value by the application of pre-determined factors and that may, in circumstances specified in this directive, be used in place of an actual value."""^^xsd:string .
+

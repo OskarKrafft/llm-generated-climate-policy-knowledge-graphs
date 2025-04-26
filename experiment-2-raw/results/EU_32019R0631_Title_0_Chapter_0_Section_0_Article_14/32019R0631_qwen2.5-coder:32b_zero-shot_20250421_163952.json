@@ -1,0 +1,102 @@
+[
+  {
+    "Subject": "Article_14",
+    "Predicate": "type",
+    "Object": "Article"
+  },
+  {
+    "Subject": "Article_14",
+    "Predicate": "Suffix",
+    "Object": "adjustment of m0 and tm0 values"
+  },
+  {
+    "Subject": "Article_14",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_1"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "type",
+    "Object": "Paragraph"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "Suffix",
+    "Object": "the m0 and tm0 values referred to in parts a and b of annex i shall be adjusted as follows:"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Point_a"
+  },
+  {
+    "Subject": "Point_a",
+    "Predicate": "type",
+    "Object": "Point"
+  },
+  {
+    "Subject": "Point_a",
+    "Predicate": "Suffix",
+    "Object": "by 31 october 2020, the m0 value in point 4 of part a of annex i shall be adjusted to the average mass in running order of all new passenger cars registered in 2017, 2018, and 2019. that new m0 value shall apply from 1 january 2022 until 31 december 2024;"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Point_b"
+  },
+  {
+    "Subject": "Point_b",
+    "Predicate": "type",
+    "Object": "Point"
+  },
+  {
+    "Subject": "Point_b",
+    "Predicate": "Suffix",
+    "Object": "by 31 october 2022, the m0 value in point 4 of part b of annex i shall be adjusted to the average mass in running order of all new light commercial vehicles registered in 2019, 2020 and 2021. that new m0 value shall apply in 2024;"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Point_c"
+  },
+  {
+    "Subject": "Point_c",
+    "Predicate": "type",
+    "Object": "Point"
+  },
+  {
+    "Subject": "Point_c",
+    "Predicate": "Suffix",
+    "Object": "by 31 october 2022, the indicative tm0 value for 2025 shall be determined as the respective average test mass of all new passenger cars and new light commercial vehicles registered in 2021;"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Point_d"
+  },
+  {
+    "Subject": "Point_d",
+    "Predicate": "type",
+    "Object": "Point"
+  },
+  {
+    "Subject": "Point_d",
+    "Predicate": "Suffix",
+    "Object": "by 31 october 2024, and every second year thereafter, the tm0 value in point 6.2 of parts a and b of annex i shall be adjusted to the respective average test mass of all new passenger cars and new light commercial vehicles registered in the preceding two calendar years, starting with 2022 and 2023. the new tm0 values shall apply from 1 january of the calendar year following the date of the adjustment."
+  },
+  {
+    "Subject": "Article_14",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_2"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "type",
+    "Object": "Paragraph"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "Suffix",
+    "Object": "the commission is empowered to adopt delegated acts in accordance with article 17 in order to supplement this regulation by establishing the measures referred to in paragraph 1 of this article."
+  }
+]

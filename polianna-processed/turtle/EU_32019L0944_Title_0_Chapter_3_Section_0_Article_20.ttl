@@ -1,0 +1,32 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_20 .
+
+pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_20 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 20
+functionalities of smart metering systems
+where the deployment of smart metering systems is positively assessed as a result of the cost-benefit assessment referred to in article 19(2), or where smart metering systems are systematically deployed after 4 july 2019, member states shall deploy smart metering systems in accordance with european standards, annex ii and the following requirements:
+(a)
+the smart metering systems shall accurately measure actual electricity consumption and shall be capable of providing to final customers information on actual time of use. validated historical consumption data shall be made easily and securely available and visualised to final customers on request and at no additional cost. non-validated near real-time consumption data shall also be made easily and securely available to final customers at no additional cost, through a standardised interface or through remote access, in order to support automated energy efficiency programmes, demand response and other services;
+(b)
+the security of the smart metering systems and data communication shall comply with relevant union security rules, having due regard of the best available techniques for ensuring the highest level of cybersecurity protection while bearing in mind the costs and the principle of proportionality;
+(c)
+the privacy of final customers and the protection of their data shall comply with relevant union data protection and privacy rules;
+(d)
+meter operators shall ensure that the meters of active customers who feed electricity into the grid can account for electricity fed into the grid from the active customers' premises;
+(e)
+if final customers request it, data on the electricity they fed into the grid and their electricity consumption data shall be made available to them, in accordance with the implementing acts adopted pursuant to article 24, through a standardised communication interface or through remote access, or to a third party acting on their behalf, in an easily understandable format allowing them to compare offers on a like-for-like basis;
+(f)
+appropriate advice and information shall be given to final customers prior to or at the time of installation of smart meters, in particular concerning their full potential with regard to the management of meter reading and the monitoring of energy consumption, and concerning the collection and processing of personal data in accordance with the applicable union data protection rules;
+(g)
+smart metering systems shall enable final customers to be metered and settled at the same time resolution as the imbalance settlement period in the national market.
+for the purposes of point (e) of the first subparagraph, it shall be possible for final customers to retrieve their metering data or transmit them to another party at no additional cost and in accordance with their right to data portability under union data protection rules."""^^xsd:string .
+

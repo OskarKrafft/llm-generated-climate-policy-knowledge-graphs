@@ -1,0 +1,40 @@
+@prefix pol: <https://w3id.org/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#article_58>
+    a pol:PolicyArticle ;
+    pol:title "transitional provisions" ;
+    pol:celexNumber "32018R1999"^^xsd:string ;
+    pol:eliReference <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    pol:annotatedBy [
+        a foaf:Agent ;
+        foaf:name "A"
+    ] ;
+    pol:annotatedBy [
+        a foaf:Agent ;
+        foaf:name "C"
+    ] .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj#article_58>
+    pol:hasProvision [
+        a pol:Provision ;
+        pol:content "by way of derogation from article 57 of this regulation, article 7 and points (a) and (d) of article 17(1) of regulation (eu) no 525/2013 shall continue to apply to the reports containing the data required under those articles for the years 2018, 2019 and 2020."
+    ] ;
+    pol:hasProvision [
+        a pol:Provision ;
+        pol:content "article 11(3) of regulation (eu) no 525/2013 shall continue to apply as regards the second commitment period of the kyoto protocol."
+    ] ;
+    pol:hasProvision [
+        a pol:Provision ;
+        pol:content "article 19 of regulation (eu) no 525/2013 shall continue to apply to the reviews of the greenhouse gas inventory data for the years 2018, 2019 and 2020."
+    ] ;
+    pol:hasProvision [
+        a pol:Provision ;
+        pol:content "article 22 of regulation (eu) no 525/2013 shall continue to apply to the submission of the report required under that article."
+    ] ;
+    pol:hasProvision [
+        a pol:Provision ;
+        pol:content "for the purpose of coherence and legal certainty, nothing in this regulation prevents the application of the derogations pursuant to the relevant union sectoral law in the area of electricity and electricity risk preparedness."
+    ]
+.

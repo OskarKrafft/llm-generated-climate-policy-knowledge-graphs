@@ -1,0 +1,27 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32004L0008 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1,
+        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2 ;
+    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2006-02-21"^^xsd:date ;
+    pol:annotatedText "not later than 21 february 2006" .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2007-02-21"^^xsd:date ;
+    pol:annotatedText "not later than 21 february 2007 and thereafter every four years" .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "before the end of december 2004" .
+

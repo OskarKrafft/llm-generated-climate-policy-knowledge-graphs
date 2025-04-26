@@ -1,0 +1,107 @@
+[
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32009L0028",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "Edu_Outreach"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_2"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_3"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_1"
+  },
+  {
+    "s": "Article",
+    "p": "imposes_monitoring",
+    "o": "Member_States"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "FrameworkPolicy"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "31\u00a0december 2021"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "every two years"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RD_D"
+  },
+  {
+    "s": "TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "31\u00a0december 2011"
+  },
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "32009L0028",
+    "p": "type",
+    "o": "PolicyDocument"
+  }
+]

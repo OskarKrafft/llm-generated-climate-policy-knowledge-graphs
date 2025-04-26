@@ -1,0 +1,43 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59> a pol:PolicyArticle ;
+    pol:annotatedText "Article 59: Duties and powers of the regulatory authorities" ;
+    pol:contains_instrument <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/447917> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/114> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/128> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/2243> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/4060> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/2198> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/5237> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/5782> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/1459> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/1496> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/4279> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/2467> ;
+    pol:contains_instrument <http://eurovoc.europa.eu/c_59f9c651> ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:contains_objective pol:Objective ;
+    pol:addresses <http://eurovoc.europa.eu/114> ;
+    pol:addresses <http://eurovoc.europa.eu/128> ;
+    pol:addresses <http://eurovoc.europa.eu/2243> ;
+    pol:addresses <http://eurovoc.europa.eu/4038> ;
+    pol:addresses <http://eurovoc.europa.eu/4060> ;
+    pol:addresses <http://eurovoc.europa.eu/2198> ;
+    pol:authorises <http://eurovoc.europa.eu/114> ;
+    pol:authorises <http://eurovoc.europa.eu/128> ;
+    pol:authorises <http://eurovoc.europa.eu/2243> ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:authorises <http://eurovoc.europa.eu/4060> ;
+    pol:authorises <http://eurovoc.europa.eu/2198> ;
+    pol:specifies_compliance_time [ a pol:Time_Compliance ;
+        pol:Compliance_date "2023-12-31"^^xsd:date ;
+        pol:annotatedText "The regulatory authorities shall ensure compliance by 31 December 2023." ] ;
+    pol:specifies_in_effect_time [ a pol:Time_InEffect ;
+        pol:In_effect_date "2020-01-01"^^xsd:date ;
+        pol:annotatedText "This directive shall enter into force on 1 January 2020." ] ;
+    pol:specifies_monitoring_time [ a pol:Time_Monitoring ;
+        pol:Monitoring_date "2024-01-01"^^xsd:date ;
+        pol:annotatedText "Monitoring shall commence on 1 January 2024." ] .

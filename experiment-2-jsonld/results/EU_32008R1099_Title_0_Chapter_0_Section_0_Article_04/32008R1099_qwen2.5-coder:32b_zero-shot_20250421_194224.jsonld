@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "poliana": "http://data.europa.eu/polianna/",
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#"
+  },
+  "@type": "poliana:Article",
+  "dct:title": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+  "eli:number": "32008R1099",
+  "eli:uri": "http://data.europa.eu/eli/reg/2008/1099/oj",
+  "poliana:hasParagraph": [
+    {
+      "@type": "poliana:Paragraph",
+      "dct:description": "The national statistics to be reported shall be as set out in the annexes. They shall be transmitted with the following frequencies:",
+      "poliana:hasSubparagraph": [
+        {
+          "@type": "poliana:Subparagraph",
+          "dct:description": "Annual, for the energy statistics in Annex B."
+        },
+        {
+          "@type": "poliana:Subparagraph",
+          "dct:description": "Monthly, for the energy statistics in Annex C."
+        },
+        {
+          "@type": "poliana:Subparagraph",
+          "dct:description": "Short-term monthly, for the energy statistics in Annex D."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:description": "Applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in Annex A (clarifications of terminology)."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:description": "The data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2)."
+    }
+  ]
+}

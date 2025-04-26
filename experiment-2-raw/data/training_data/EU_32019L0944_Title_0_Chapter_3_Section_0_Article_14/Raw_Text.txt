@@ -1,0 +1,25 @@
+article 14
+comparison tools
+1.   member states shall ensure that at least household customers, and microenterprises with an expected yearly consumption of below 100 000 kwh, have access, free of charge, to at least one tool comparing the offers of suppliers, including offers for dynamic electricity price contracts. customers shall be informed of the availability of such tools in or together with their bills or by other means. the tools shall meet at least the following requirements:
+(a)
+they shall be independent from market participants and ensure that electricity undertakings are given equal treatment in search results;
+(b)
+they shall clearly disclose their owners and the natural or legal person operating and controlling the tools, as well as information on how the tools are financed;
+(c)
+they shall set out clear and objective criteria on which the comparison is to be based, including services, and disclose them;
+(d)
+they shall use plain and unambiguous language;
+(e)
+they shall provide accurate and up-to-date information and state the time of the last update;
+(f)
+they shall be accessible to persons with disabilities, by being perceivable, operable, understandable and robust;
+(g)
+they shall provide an effective procedure for reporting incorrect information on published offers; and
+(h)
+they shall perform comparisons, while limiting the personal data requested to that strictly necessary for the comparison.
+member states shall ensure that at least one tool covers the entire market. where multiple tools cover the market, those tools shall include, as complete as practicable, a range of electricity offers covering a significant part of the market and, where those tools do not completely cover the market, a clear statement to that effect, before displaying results.
+2.   the tools referred to in paragraph 1 may be operated by any entity, including private companies and public authorities or bodies.
+3.   member states shall appoint a competent authority to be responsible for issuing trust marks for comparison tools that meet the requirements set out in paragraph 1, and for ensuring that comparison tools bearing a trust mark continue to meet the requirements set out in paragraph 1. that authority shall be independent of any market participants and comparison tool operators.
+4.   member states may require comparison tools referred to in paragraph 1 to include comparative criteria relating to the nature of the services offered by the suppliers.
+5.   any tool comparing the offers of market participants shall be eligible to apply for a trust mark in accordance with this article on a voluntary and non-discriminatory basis.
+6.   by way of derogation from paragraphs 3 and 5, member states may choose not to provide for the issuance of trust marks to comparison tools if a public authority or body provides a comparison tool that meets the requirements set out in paragraph 1.

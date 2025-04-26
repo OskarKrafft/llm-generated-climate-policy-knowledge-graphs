@@ -1,0 +1,62 @@
+[
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "Subsidies_Incentives"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "Edu_Outreach"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32012L0027",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "FrameworkPolicy"
+  },
+  {
+    "s": "Article",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "32012L0027",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "PublicInvt"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "TaxIncentives"
+  },
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  }
+]

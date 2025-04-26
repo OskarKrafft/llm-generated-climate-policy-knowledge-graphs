@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@type": "poliana:Article",
+  "poliana:title": "Sustainability Criteria for Biofuels and Bioliquids",
+  "poliana:content": {
+    "@type": "rdfs:Literal",
+    "value": "This article outlines the sustainability criteria for biofuels and bioliquids, including provisions for third countries and member states, reporting requirements, and a framework for other energy uses of biomass."
+  },
+  "poliana:sections": [
+    {
+      "@type": "poliana:Section",
+      "poliana:title": "Scope and Application",
+      "poliana:content": {
+        "@type": "rdfs:Literal",
+        "value": "The sustainability criteria apply to biofuels and bioliquids produced within the Community, as well as those imported from third countries."
+      }
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:title": "Criteria for Biofuels and Bioliquids",
+      "poliana:content": {
+        "@type": "rdfs:Literal",
+        "value": "The criteria include greenhouse gas emissions, land use change, biodiversity protection, soil, water, and air quality."
+      },
+      "poliana:subsections": [
+        {
+          "@type": "poliana:Subsection",
+          "poliana:title": "Greenhouse Gas Emissions",
+          "poliana:content": {
+            "@type": "rdfs:Literal",
+            "value": "Biofuels and bioliquids must meet specific greenhouse gas emission reduction targets compared to fossil fuels."
+          }
+        },
+        {
+          "@type": "poliana:Subsection",
+          "poliana:title": "Land Use Change",
+          "poliana:content": {
+            "@type": "rdfs:Literal",
+            "value": "Criteria address the impact of biofuel production on land use change, including deforestation and conversion of natural habitats."
+          }
+        },
+        {
+          "@type": "poliana:Subsection",
+          "poliana:title": "Biodiversity Protection",
+          "poliana:content": {
+            "@type": "rdfs:Literal",
+            "value": "Measures are in place to protect biodiversity, including requirements for the conservation of natural habitats and species."
+          }
+        },
+        {
+          "@type": "poliana:Subsection",
+          "poliana:title": "Soil, Water, and Air Quality",
+          "poliana:content": {
+            "@type": "rdfs:Literal",
+            "value": "Criteria address the impact of biofuel production on soil, water, and air quality, including requirements for sustainable agricultural practices."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:title": "Third Countries and Member States",
+      "poliana:content": {
+        "@type": "rdfs:Literal",
+        "value": "The article includes provisions for third countries and member states that are significant sources of biofuels or raw materials, including reporting requirements."
+      }
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:title": "Reporting Requirements",
+      "poliana:content": {
+        "@type": "rdfs:Literal",
+        "value": "The Commission is required to report every two years on the impact of biofuel policy on food prices, land use rights, and other social sustainability issues."
+      }
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:title": "Other Energy Uses of Biomass",
+      "poliana:content": {
+        "@type": "rdfs:Literal",
+        "value": "The Commission is required to report on requirements for a sustainability scheme for other energy uses of biomass, such as heat and electricity."
+      }
+    }
+  ]
+}

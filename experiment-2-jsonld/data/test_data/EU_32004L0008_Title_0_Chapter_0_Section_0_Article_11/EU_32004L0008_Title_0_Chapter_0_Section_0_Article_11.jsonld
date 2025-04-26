@@ -1,0 +1,170 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "In_effect_date": {
+                "type": "xsd:date",
+                "value": "2003-10-13"
+            },
+            "annotatedText": {
+                "value": "13 october 2003"
+            },
+            "id": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_3",
+            "type": "Time_InEffect"
+        },
+        {
+            "annotatedText": {
+                "value": "not later than 21 february 2008"
+            },
+            "id": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "thereafter every four years"
+            },
+            "id": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_2",
+            "type": "Time_Monitoring"
+        },
+        {
+            "hasArticle": {
+                "id": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11"
+            },
+            "id": "32004L0008",
+            "type": "PolicyDocument"
+        },
+        {
+            "authorises": [
+                {
+                    "id": "eurovoc:114"
+                },
+                {
+                    "id": "eurovoc:2243"
+                },
+                {
+                    "id": "eurovoc:4038"
+                }
+            ],
+            "contains_instrument": [
+                {
+                    "id": "RegulatoryInstr"
+                },
+                {
+                    "id": "TradablePermit"
+                }
+            ],
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "contains_objective": {
+                "id": "Objective"
+            },
+            "fullText": "article 11\ncommission reporting\n1. on the basis of the reports submitted pursuant to article 10, the commission shall review the application of this directive and submit to the european parliament and to the council not later than 21 february 2008 and thereafter every four years, a progress report on the implementation of this directive.\nin particular, the report shall:\n(a) consider progress towards realising national potentials for high-efficiency cogeneration referred to in article 6;\n(b) assess the extent to which rules and procedures defining the framework conditions for cogeneration in the internal energy market are set on the basis of objective, transparent and non-discriminatory criteria taking due account of the benefits of cogeneration;\n(c) examine the experiences gained with the application and coexistence of different support mechanisms for cogeneration;\n(d) review efficiency reference values for separate production on the basis of the current technologies.\nif appropriate, the commission shall submit with the report further proposals to the european parliament and the council.\n2. when evaluating the progress referred to in paragraph 1(a), the commission shall consider to what extent the national potentials for high-efficiency cogeneration, referred to in article 6, have been or are foreseen to be realised taking into account member state measures, conditions, including climate conditions, and impacts of the internal energy market and implications of other community initiatives such as directive 2003/87/ec of the european parliament and of the council of 13 october 2003 establishing a scheme for greenhouse gas emission allowance trading within the community and amending council directive 96/61/ec(19).\nif appropriate, the commission shall submit further proposals to the european parliament and council, notably aiming at the establishment of an action plan for the development of high efficiency cogeneration in the community.\n3. when evaluating the scope for further harmonisation of calculation methods as referred to in article 4(1), the commission shall consider the impact of the coexistence of calculations as referred to in article 12, annex ii and annex iii, on the internal energy market also taking into account the experiences gained from national support mechanisms.\nif appropriate, the commission shall submit further proposals to the european parliament and council aiming at further harmonisation of the calculation methods.",
+            "grants_legislative_authority": [
+                {
+                    "id": "eurovoc:114"
+                },
+                {
+                    "id": "eurovoc:2243"
+                }
+            ],
+            "grants_monitoring_authority": [
+                {
+                    "id": "eurovoc:114"
+                },
+                {
+                    "id": "eurovoc:2243"
+                },
+                {
+                    "id": "eurovoc:4038"
+                }
+            ],
+            "id": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11",
+            "imposes_monitoring": {
+                "id": "Member_States"
+            },
+            "specifies_in_effect_time": {
+                "id": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_3"
+            },
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1"
+                },
+                {
+                    "id": "EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_2"
+                }
+            ],
+            "type": "PolicyArticle"
+        }
+    ]
+}

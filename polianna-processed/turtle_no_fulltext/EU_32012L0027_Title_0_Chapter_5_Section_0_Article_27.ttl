@@ -1,0 +1,28 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_27 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_27 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_in_effect_time pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_27_TimeInEffect_1,
+        pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_27_TimeInEffect_2,
+        pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_27_TimeInEffect_3 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_27_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2017-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2017" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_27_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2014-06-05"^^xsd:date ;
+    pol:annotatedText "5 june 2014" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_27_TimeInEffect_3 a pol:Time_InEffect ;
+    pol:In_effect_date "2014-06-05"^^xsd:date ;
+    pol:annotatedText "5 june 2014" .
+

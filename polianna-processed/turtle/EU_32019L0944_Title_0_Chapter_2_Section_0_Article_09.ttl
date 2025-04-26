@@ -1,0 +1,27 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_09 .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_09 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 9
+public service obligations
+1.   without prejudice to paragraph 2, member states shall ensure, on the basis of their institutional organisation and with due regard to the principle of subsidiarity, that electricity undertakings operate in accordance with the principles of this directive with a view to achieving a competitive, secure and environmentally sustainable market for electricity, and shall not discriminate between those undertakings as regards either rights or obligations.
+2.   having full regard to the relevant provisions of the tfeu, in particular article 106 thereof, member states may impose on undertakings operating in the electricity sector, in the general economic interest, public service obligations which may relate to security, including the security of supply, regularity, quality and price of supplies and environmental protection, including energy efficiency, energy from renewable sources and climate protection. such obligations shall be clearly defined, transparent, non-discriminatory and verifiable, and shall guarantee equality of access for electricity undertakings of the union to national consumers. public service obligations which concern the price setting for the supply of electricity shall comply with the requirements set out in article 5 of this directive.
+3.   where financial compensation, other forms of compensation and exclusive rights which a member state grants for the fulfilment of the obligations set out in paragraph 2 of this article or for the provision of universal service as set out in article 27 are provided, this shall be done in a non-discriminatory and transparent way.
+4.   member states shall, upon implementation of this directive, inform the commission of all measures adopted to fulfil universal service and public service obligations, including consumer protection and environmental protection, and their possible effect on national and international competition, whether or not such measures require a derogation from this directive. they shall subsequently inform the commission every two years of any changes to those measures, whether or not they require a derogation from this directive.
+5.   member states may decide not to apply articles 6, 7 and 8 of this directive insofar as their application would obstruct, in law or in fact, the performance of the obligations imposed on electricity undertakings in the general economic interest and insofar as the development of trade would not be affected to such an extent as would be contrary to the interests of the union. the interests of the union include, inter alia, competition with regard to customers in accordance with article 106 tfeu and this directive."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_09_TimeMonitoring_1 .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_09_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years" .
+

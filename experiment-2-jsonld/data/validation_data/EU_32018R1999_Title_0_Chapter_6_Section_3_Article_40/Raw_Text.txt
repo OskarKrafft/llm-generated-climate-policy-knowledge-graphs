@@ -1,0 +1,6 @@
+article 40
+establishment and operation of registries
+1.   the union and the member states shall set up and maintain registries to accurately account for the nationally determined contribution pursuant to article 4(13) of the paris agreement and for internationally transferred mitigation outcomes pursuant to article 6 of that agreement.
+2.   the union and the member states may maintain their registries in a consolidated system, together with one or more other member states.
+3.   the data in the registries referred to in paragraph 1 of this article shall be made available to the central administrator designated pursuant to article 20 of directive 2003/87/ec.
+4.   the commission shall adopt delegated acts in accordance with article 43 in order to supplement this regulation by setting up the registries referred to in paragraph 1 of this article and in order to give effect, by means of the registries of the union and of the member states, to the necessary technical implementation of relevant decisions of the unfccc or the paris agreement bodies, in accordance with paragraph 1 of this article.

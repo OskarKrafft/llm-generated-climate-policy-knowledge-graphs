@@ -1,0 +1,56 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj>
+  dc:title "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14" ;
+  eli:celexNumber "32019R0631" ;
+  eli:date_document <http://data.europa.eu/eli/date/2022-01-01> .
+
+<http://example.org/article/adjustment-of-m0-and-tm0-values>
+  dc:title "Adjustment of M0 and TM0 values"@en ;
+  skos:notation "14" ;
+  eli:date_publication <http://data.europa.eu/eli/date/2022-01-01> ;
+  owl:sameAs
+    <http://example.org/article/EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14>,
+    <http://data.europa.eu/eli/reg/2019/631/oj#article_14> .
+
+<http://example.org/article/EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14>
+  a eli:Article ;
+  dc:title "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14"@en ;
+  skos:notation "14" ;
+  owl:sameAs
+    <http://example.org/article/adjustment-of-m0-and-tm0-values>,
+    <http://data.europa.eu/eli/reg/2019/631/oj#article_14> .
+
+<http://example.org/article/adjustment-of-m0-and-tm0-values#part_1>
+  dc:description "The M0 and TM0 values referred to in parts A and B of Annex I shall be adjusted as follows:"@en ;
+  eli:type "paragraph" .
+
+<http://example.org/article/adjustment-of-m0-and-tm0-values#point_a>
+  dc:description "By 31 October 2020, the M0 value in point 4 of part A of Annex I shall be adjusted to the average mass in running order of all new passenger cars registered in 2017, 2018, and 2019. That new M0 value shall apply from 1 January 2022 until 31 December 2024."@en ;
+  eli:type "paragraph" .
+
+<http://example.org/article/adjustment-of-m0-and-tm0-values#point_b>
+  dc:description "By 31 October 2022, the M0 value in point 4 of part B of Annex I shall be adjusted to the average mass in running order of all new light commercial vehicles registered in 2019, 2020 and 2021. That new M0 value shall apply in 2024."@en ;
+  eli:type "paragraph" .
+
+<http://example.org/article/adjustment-of-m0-and-tm0-values#point_c>
+  dc:description "By 31 October 2022, the indicative TM0 value for 2025 shall be determined as the respective average test mass of all new passenger cars and new light commercial vehicles registered in 2021."@en ;
+  eli:type "paragraph" .
+
+<http://example.org/article/adjustment-of-m0-and-tm0-values#point_d>
+  dc:description "By 31 October 2024, and every second year thereafter, the TM0 value in point 6.2 of parts A and B of Annex I shall be adjusted to the respective average test mass of all new passenger cars and new light commercial vehicles registered in the preceding two calendar years, starting with 2022 and 2023. The new TM0 values shall apply from 1 January of the calendar year following the date of the adjustment."@en ;
+  eli:type "paragraph" .
+
+<http://example.org/article/EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14>
+  dc:contributor [
+    a foaf:Person ;
+    foaf:name "F"
+  ], [
+    a foaf:Person ;
+    foaf:name "B"
+  ] .

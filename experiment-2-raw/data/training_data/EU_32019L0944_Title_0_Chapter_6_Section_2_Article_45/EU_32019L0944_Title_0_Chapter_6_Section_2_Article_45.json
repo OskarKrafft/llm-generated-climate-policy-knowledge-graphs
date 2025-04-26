@@ -1,0 +1,47 @@
+[
+  {
+    "s": "TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "32019L0944",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "32019L0944",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "annual"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_1"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  }
+]

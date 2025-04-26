@@ -1,0 +1,4 @@
+article 22
+conventional meters
+1.   where final customers do not have smart meters, member states shall ensure that final customers are provided with individual conventional meters that accurately measure their actual consumption.
+2.   member states shall ensure that final customers are able to easily read their conventional meters, either directly or indirectly through an online interface or through another appropriate interface.

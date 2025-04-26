@@ -1,0 +1,11 @@
+article 4
+aggregates, energy products and the transmission frequency of national statistics
+1.   the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:
+(a)
+annual, for the energy statistics in annex b;
+(b)
+monthly, for the energy statistics in annex c;
+(c)
+short-term monthly, for the energy statistics in annex d.
+2.   applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).
+3.   the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).

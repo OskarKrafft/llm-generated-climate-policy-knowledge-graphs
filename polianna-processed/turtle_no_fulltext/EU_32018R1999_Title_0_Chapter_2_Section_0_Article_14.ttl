@@ -1,0 +1,37 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_1,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_2,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_3,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_4,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_5,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_6 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "30 june 2023" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2033" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "every 10 years thereafter" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "30 june 2024" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2034" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_6 a pol:Time_Monitoring ;
+    pol:annotatedText "every 10 years thereafter" .
+

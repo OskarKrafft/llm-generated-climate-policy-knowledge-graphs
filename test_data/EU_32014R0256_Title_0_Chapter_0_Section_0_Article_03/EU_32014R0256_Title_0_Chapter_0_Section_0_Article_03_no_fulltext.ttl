@@ -1,0 +1,32 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1,
+        pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2,
+        pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_3,
+        pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_4,
+        pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_5 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2015 and every two years thereafter" .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "2015" .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "reporting year" .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years" .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "31 july of the reporting year" .
+

@@ -1,0 +1,36 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:fullText """article 11
+timetable for application
+1.   with effect from 24 february 2011, national authorities shall refuse to grant:
+(a)
+ec type-approval or national type-approval in respect of new types of vehicle on grounds relating to hydrogen propulsion, where such vehicle does not comply with the requirements of this regulation or of its implementing measures; and
+(b)
+ec type-approval in respect of new types of hydrogen component or system, where such component or system does not comply with the requirements of this regulation or of its implementing measures.
+2.   with effect from 24 february 2012, national authorities shall:
+(a)
+on grounds relating to hydrogen propulsion, consider certificates of conformity for new vehicles to be no longer valid for the purposes of article 26 of directive 2007/46/ec, and prohibit the registration, sale and entry into service of such vehicles, where such vehicles do not comply with the requirements of this regulation or of its implementing measures; and
+(b)
+prohibit the sale and entry into service of new hydrogen components or systems, where such components or systems do not comply with the requirements of this regulation or of its implementing measures.
+3.   without prejudice to paragraphs 1 and 2, and subject to the entry into force of implementing measures adopted pursuant to article 12(1), if a manufacturer so requests, national authorities shall not:
+(a)
+on grounds relating to hydrogen propulsion, refuse to grant ec type-approval or national type-approval for new types of vehicle, or ec type-approval for new types of hydrogen component or system, where such vehicle, component or system complies with the requirements of this regulation and its implementing measures; or
+(b)
+prohibit the registration, sale and entry into service of new vehicles or the sale and entry into service of new hydrogen components or systems, where such vehicles, components or systems comply with the requirements of this regulation and its implementing measures."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_1,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_2 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2011-02-24"^^xsd:date ;
+    pol:annotatedText "24 february 2011" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2012-02-24"^^xsd:date ;
+    pol:annotatedText "24 february 2012" .
+

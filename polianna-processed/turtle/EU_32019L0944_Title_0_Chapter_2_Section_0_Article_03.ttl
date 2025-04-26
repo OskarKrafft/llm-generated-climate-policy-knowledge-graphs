@@ -1,0 +1,19 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_03 .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 3
+competitive, consumer-centred, flexible and non-discriminatory electricity markets
+1.   member states shall ensure that their national law does not unduly hamper cross-border trade in electricity, consumer participation, including through demand response, investments into, in particular, variable and flexible energy generation, energy storage, or the deployment of electromobility or new interconnectors between member states, and shall ensure that electricity prices reflect actual demand and supply.
+2.   when developing new interconnectors, member states shall take into account the electricity interconnection targets set out in point (1) of article 4(d) of regulation (eu) 2018/1999.
+3.   member states shall ensure that no undue barriers exist within the internal market for electricity as regards market entry, operation and exit, without prejudice to the competence that member states retain in relation to third countries.
+4.   member states shall ensure a level playing field where electricity undertakings are subject to transparent, proportionate and non-discriminatory rules, fees and treatment, in particular with respect to balancing responsibility, access to wholesale markets, access to data, switching processes and billing regimes and, where applicable, licensing.
+5.   member states shall ensure that market participants from third countries, when operating within the internal market for electricity, comply with applicable union and national law, including that concerning environmental and safety policy."""^^xsd:string .
+

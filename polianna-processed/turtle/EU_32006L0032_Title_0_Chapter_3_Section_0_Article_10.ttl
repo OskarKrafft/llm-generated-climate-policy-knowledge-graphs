@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_10 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TaxIncentives ;
+    pol:fullText """article 10
+energy efficient tariffs and other regulations for net-bound energy
+1.   member states shall ensure the removal of those incentives in transmission and distribution tariffs that unnecessarily increase the volume of distributed or transmitted energy. in this respect, in accordance with article 3(2) of directive 2003/54/ec and with article 3(2) of directive 2003/55/ec, member states may impose public service obligations relating to energy efficiency on undertakings operating in the electricity and gas sectors respectively.
+2.   member states may permit components of schemes and tariff structures with a social aim, provided that any disruptive effects on the transmission and distribution system are kept to the minimum necessary and are not disproportionate to the social aim."""^^xsd:string .
+

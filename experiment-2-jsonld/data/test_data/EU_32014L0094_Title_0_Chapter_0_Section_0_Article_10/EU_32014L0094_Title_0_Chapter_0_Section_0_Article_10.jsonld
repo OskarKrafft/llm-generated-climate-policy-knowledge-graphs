@@ -1,0 +1,225 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "hasArticle": {
+                "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10"
+            },
+            "id": "32014L0094",
+            "type": "PolicyDocument"
+        },
+        {
+            "In_effect_date": {
+                "type": "xsd:date",
+                "value": "2020-11-18"
+            },
+            "annotatedText": {
+                "value": "18 november 2020"
+            },
+            "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeInEffect_6",
+            "type": "Time_InEffect"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2019-11-18"
+            },
+            "annotatedText": {
+                "value": "18 november 2019"
+            },
+            "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1",
+            "type": "Time_Compliance"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2018-12-31"
+            },
+            "annotatedText": {
+                "value": "31\u00a0december\u00a02018"
+            },
+            "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_8",
+            "type": "Time_Compliance"
+        },
+        {
+            "annotatedText": {
+                "value": "18 november 2017"
+            },
+            "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "31\u00a0december\u00a02020"
+            },
+            "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_7",
+            "type": "Time_Monitoring"
+        },
+        {
+            "addresses": {
+                "id": "Member_States"
+            },
+            "authorises": {
+                "id": "eurovoc:4038"
+            },
+            "contains_instrument": [
+                {
+                    "id": "Edu_Outreach"
+                },
+                {
+                    "id": "FrameworkPolicy"
+                },
+                {
+                    "id": "RegulatoryInstr"
+                }
+            ],
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "contains_objective": {
+                "id": "Objective"
+            },
+            "fullText": "article\u00a010\nreporting and review\n1.\u00a0\u00a0\u00a0each member\u00a0state shall submit to the commission a report on the implementation of its national policy framework by 18 november 2019, and every three years thereafter. those reports shall cover the information listed in annex\u00a0i and shall, where appropriate, include a relevant justification regarding the level of attainment of the national targets and objectives referred to in article\u00a03(1).\n2.\u00a0\u00a0\u00a0by 18 november 2017, the commission shall submit to the european parliament and to the council a report on the assessment of the national policy frameworks and their coherence at union level, including an evaluation of the level of attainment of the national targets and objectives referred to in article\u00a03(1).\n3.\u00a0\u00a0\u00a0the commission shall submit a report on the application of this directive to the european parliament and to the council every three years with effect from 18 november 2020.\nthe commission report shall contain the following elements:\n\u2014\nan assessment of the actions taken by member\u00a0states,\n\u2014\nan assessment of the effects of this directive on the development of the market as regards alternative fuels infrastructure and its contribution to the market of alternative fuels for transport, as well as its impact on the economy and the environment,\n\u2014\ninformation on technical progress and the development of the market as regards alternative fuels in the transport sector and of the relevant infrastructure covered by this directive and of any other alternative fuel.\nthe commission may outline examples of best practices and make appropriate recommendations.\nthe commission report shall also assess the requirements and the dates set out in this directive in respect of the infrastructure build-up and implementation of specifications, taking into account the technical, economic and market developments of the respective alternative fuels, accompanied if appropriate by a legislative proposal.\n4.\u00a0\u00a0\u00a0the commission shall adopt guidelines concerning the reporting by the member\u00a0states of the elements listed in annex i.\n5.\u00a0\u00a0\u00a0by\u00a031\u00a0december\u00a02020, the commission shall review the implementation of this directive, and, as appropriate, submit a proposal to amend it by laying down new common technical specifications for alternative fuels infrastructure within the scope of this directive.\n6.\u00a0\u00a0\u00a0by\u00a031\u00a0december\u00a02018, the commission shall, if it considers it appropriate, adopt an action plan for the implementation of the strategy set out in the communication entitled \u2018clean power for transport: a european alternative fuels strategy\u2019 in order to achieve the broadest possible use of alternative fuels for transport, while ensuring technological neutrality, and to promote sustainable electric mobility throughout the union. to that end, it may take into account individual market needs and developments in the member\u00a0states.",
+            "grants_monitoring_authority": [
+                {
+                    "id": "eurovoc:114"
+                },
+                {
+                    "id": "eurovoc:2243"
+                },
+                {
+                    "id": "eurovoc:4038"
+                }
+            ],
+            "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+            "imposes_monitoring": [
+                {
+                    "id": "eurovoc:4038"
+                },
+                {
+                    "id": "Member_States"
+                }
+            ],
+            "specifies_compliance_time": [
+                {
+                    "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1"
+                },
+                {
+                    "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_8"
+                }
+            ],
+            "specifies_in_effect_time": {
+                "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeInEffect_6"
+            },
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2"
+                },
+                {
+                    "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3"
+                },
+                {
+                    "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4"
+                },
+                {
+                    "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_5"
+                },
+                {
+                    "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_7"
+                }
+            ],
+            "type": "PolicyArticle"
+        },
+        {
+            "annotatedText": {
+                "value": "every three years with effect from 18 november 2020"
+            },
+            "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "every three years"
+            },
+            "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_5",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "every three years thereafter"
+            },
+            "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2",
+            "type": "Time_Monitoring"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_1,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_2 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2011-02-24"^^xsd:date ;
+    pol:annotatedText "24 february 2011" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2012-02-24"^^xsd:date ;
+    pol:annotatedText "24 february 2012" .
+

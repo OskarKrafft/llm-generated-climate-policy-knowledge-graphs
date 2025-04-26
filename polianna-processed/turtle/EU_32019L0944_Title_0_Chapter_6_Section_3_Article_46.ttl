@@ -1,0 +1,50 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_46 .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_46 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 46
+assets, equipment, staff and identity
+1.   transmission system operators shall be equipped with all human, technical, physical and financial resources necessary for fulfilling their obligations under this directive and carrying out the activity of electricity transmission, in particular:
+(a)
+assets that are necessary for the activity of electricity transmission, including the transmission system, shall be owned by the transmission system operator;
+(b)
+personnel, necessary for the activity of electricity transmission, including the performance of all corporate tasks, shall be employed by the transmission system operator;
+(c)
+leasing of personnel and rendering of services, to and from other parts of the vertically integrated undertaking shall be prohibited. a transmission system operator may, however, render services to the vertically integrated undertaking, provided that:
+(i)
+the provision of those services does not discriminate between system users, is available to all system users on the same terms and conditions and does not restrict, distort or prevent competition in generation or supply; and
+(ii)
+the terms and conditions of the provision of those services are approved by the regulatory authority;
+(d)
+without prejudice to the decisions of the supervisory body under article 49, appropriate financial resources for future investment projects and/or for the replacement of existing assets shall be made available to the transmission system operator in due time by the vertically integrated undertaking after an appropriate request from the transmission system operator.
+2.   the activity of electricity transmission shall include at least the following tasks in addition to those listed in article 40:
+(a)
+the representation of the transmission system operator and contacts to third parties and the regulatory authorities;
+(b)
+the representation of the transmission system operator within the entso for electricity;
+(c)
+granting and managing third-party access on a non-discriminatory basis between system users or classes of system users;
+(d)
+the collection of all the transmission system related charges including access charges, energy for losses and ancillary services charges;
+(e)
+the operation, maintenance and development of a secure, efficient and economic transmission system;
+(f)
+investment planning ensuring the long-term ability of the system to meet reasonable demand and guaranteeing security of supply;
+(g)
+the setting up of appropriate joint ventures, including with one or more transmission system operators, power exchanges, and the other relevant actors pursuing the objectives to develop the creation of regional markets or to facilitate the liberalisation process; and
+(h)
+all corporate services, including legal services, accountancy and it services.
+3.   transmission system operators shall be organised in a legal form as referred to in annex i to directive (eu) 2017/1132 of the european parliament and of the council (26).
+4.   the transmission system operator shall not, in its corporate identity, communication, branding and premises, create confusion with respect to the separate identity of the vertically integrated undertaking or any part thereof.
+5.   the transmission system operator shall not share it systems or equipment, physical premises and security access systems with any part of the vertically integrated undertaking nor use the same consultants or external contractors for it systems or equipment, and security access systems.
+6.   the accounts of transmission system operators shall be audited by an auditor other than the one auditing the vertically integrated undertaking or any part thereof."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> .
+

@@ -1,0 +1,52 @@
+[
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "32019L0944",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "31\u00a0december 2025"
+  },
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_1"
+  },
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "32019L0944",
+    "p": "hasArticle",
+    "o": "Article"
+  }
+]

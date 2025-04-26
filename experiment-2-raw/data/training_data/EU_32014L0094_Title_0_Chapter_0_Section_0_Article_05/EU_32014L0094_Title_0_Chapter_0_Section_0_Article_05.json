@@ -1,0 +1,72 @@
+[
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_2"
+  },
+  {
+    "s": "TimeInEffect_2",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "annotatedText",
+    "o": "31\u00a0december\u00a02025"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_1"
+  },
+  {
+    "s": "32014L0094",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "32014L0094",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "Compliance_date",
+    "o": "2025-12-31"
+  },
+  {
+    "s": "TimeInEffect_2",
+    "p": "annotatedText",
+    "o": "24 months"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "FrameworkPolicy"
+  }
+]

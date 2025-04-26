@@ -1,0 +1,132 @@
+[
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "TimeCompliance_3",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "annotatedText",
+    "o": "31 october of the first year"
+  },
+  {
+    "s": "TimeCompliance_2",
+    "p": "Compliance_date",
+    "o": "2007-01-01"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_4"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "32019R0631",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_1"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "Compliance_date",
+    "o": "2025-10-31"
+  },
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "TimeCompliance_2",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "TimeCompliance_2",
+    "p": "annotatedText",
+    "o": "2007"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_3"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "32019R0631",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "TimeCompliance_4",
+    "p": "Compliance_date",
+    "o": "2025-01-01"
+  },
+  {
+    "s": "TimeCompliance_3",
+    "p": "annotatedText",
+    "o": "2025 to 2028"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_2"
+  },
+  {
+    "s": "TimeCompliance_4",
+    "p": "annotatedText",
+    "o": "1 january"
+  },
+  {
+    "s": "TimeCompliance_4",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "Subsidies_Incentives"
+  }
+]

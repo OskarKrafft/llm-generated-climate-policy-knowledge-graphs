@@ -1,0 +1,3 @@
+article 11
+removal of waste batteries and accumulators
+member states shall ensure that manufacturers design appliances in such a way that waste batteries and accumulators can be readily removed. appliances into which batteries and accumulators are incorporated shall be accompanied by instructions showing how they can be removed safely and, where appropriate, informing the end-user of the type of the incorporated batteries and accumulators. these provisions shall not apply where, for safety, performance, medical or data integrity reasons, continuity of power supply is necessary and requires a permanent connection between the appliance and the battery or accumulator.

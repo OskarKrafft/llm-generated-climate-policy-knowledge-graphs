@@ -1,0 +1,158 @@
+json
+[
+  {
+    "Subject": "Article_11",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_11",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_1"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasContent",
+    "Object": "on the basis of the reports submitted pursuant to article 10, the commission shall review the application of this directive and submit to the european parliament and to the council not later than 21 february 2008 and thereafter every four years, a progress report on the implementation of this directive."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Point_a"
+  },
+  {
+    "Subject": "Point_a",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Point_a",
+    "Predicate": "hasContent",
+    "Object": "consider progress towards realising national potentials for high-efficiency cogeneration referred to in article 6;"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Point_b"
+  },
+  {
+    "Subject": "Point_b",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Point_b",
+    "Predicate": "hasContent",
+    "Object": "assess the extent to which rules and procedures defining the framework conditions for cogeneration in the internal energy market are set on the basis of objective, transparent and non-discriminatory criteria taking due account of the benefits of cogeneration;"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Point_c"
+  },
+  {
+    "Subject": "Point_c",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Point_c",
+    "Predicate": "hasContent",
+    "Object": "examine the experiences gained with the application and coexistence of different support mechanisms for cogeneration;"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Point_d"
+  },
+  {
+    "Subject": "Point_d",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Point_d",
+    "Predicate": "hasContent",
+    "Object": "review efficiency reference values for separate production on the basis of the current technologies."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Further_Proposals"
+  },
+  {
+    "Subject": "Further_Proposals",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Further_Proposals",
+    "Predicate": "hasContent",
+    "Object": "if appropriate, the commission shall submit with the report further proposals to the european parliament and the council."
+  },
+  {
+    "Subject": "Article_11",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_2"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "hasContent",
+    "Object": "when evaluating the progress referred to in paragraph 1(a), the commission shall consider to what extent the national potentials for high-efficiency cogeneration, referred to in article 6, have been or are foreseen to be realised taking into account member state measures, conditions, including climate conditions, and impacts of the internal energy market and implications of other community initiatives such as directive 2003/87/ec of the european parliament and of the council of 13 october 2003 establishing a scheme for greenhouse gas emission allowance trading within the community and amending council directive 96/61/ec(19)."
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "hasPart",
+    "Object": "Further_Proposals_2"
+  },
+  {
+    "Subject": "Further_Proposals_2",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Further_Proposals_2",
+    "Predicate": "hasContent",
+    "Object": "if appropriate, the commission shall submit further proposals to the european parliament and council, notably aiming at the establishment of an action plan for the development of high efficiency cogeneration in the community."
+  },
+  {
+    "Subject": "Article_11",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_3"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "hasContent",
+    "Object": "when evaluating the scope for further harmonisation of calculation methods as referred to in article 4(1), the commission shall consider the impact of the coexistence of calculations as referred to in article 12, annex ii and annex iii, on the internal energy market also taking into account the experiences gained from national support mechanisms."
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "hasPart",
+    "Object": "Further_Proposals_3"
+  },
+  {
+    "Subject": "Further_Proposals_3",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Further_Proposals_3",
+    "Predicate": "hasContent",
+    "Object": "if appropriate, the commission shall submit with the report further proposals to the european parliament and the council."
+  }
+]

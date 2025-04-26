@@ -1,0 +1,99 @@
+jsonld
+{
+  "@context": {
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dct": "http://purl.org/dc/terms/",
+    "poliana": "https://w3id.org/poliana/ontology#"
+  },
+  "@type": "eli:Article",
+  "eli:title": "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14",
+  "eli:number": "14",
+  "dct:identifier": "32019R0631",
+  "eli:has_expression": {
+    "@type": "eli:Expression",
+    "eli:expression_date": "2019-06-30",
+    "eli:is_realized_by": [
+      {
+        "@type": "eli:OfficialJournal",
+        "eli:oj_number": "L 157",
+        "eli:oj_page_from": "48",
+        "eli:oj_date_pu: 2019-06-30"
+      }
+    ],
+    "dct:source": {
+      "@type": "eli:Legislation",
+      "eli:type": "regulation",
+      "eli:id_local": "631",
+      "eli:year": "2019",
+      "eli:identifier": "32019R0631"
+    }
+  },
+  "poliana:has_part": [
+    {
+      "@type": "poliana:PolicyPart",
+      "skos:prefLabel": "Adjustment of m0 and tm0 values",
+      "poliana:specifies_time": [
+        {
+          "@type": "poliana:Time_Compliance",
+          "poliana:Compliance_date": "2022-01-01"
+        },
+        {
+          "@type": "poliana:Time_Compliance",
+          "poliana:Compliance_date": "2024-01-01"
+        }
+      ],
+      "poliana:specifies_time": [
+        {
+          "@type": "poliana:Time_Monitoring",
+          "poliana:Monitoring_date": "2020-10-31"
+        },
+        {
+          "@type": "poliana:Time_Monitoring",
+          "poliana:Monitoring_date": "2022-10-31"
+        }
+      ],
+      "poliana:specifies_time": [
+        {
+          "@type": "poliana:Time_Characteristic",
+          "skos:prefLabel": "Application period for new m0 value of passenger cars",
+          "dct:description": "from 1 january 2022 until 31 december 2024"
+        },
+        {
+          "@type": "poliana:Time_Characteristic",
+          "skos:prefLabel": "Application period for new m0 value of light commercial vehicles",
+          "dct:description": "in 2024"
+        }
+      ],
+      "poliana:specifies_time": [
+        {
+          "@type": "poliana:Time_Characteristic",
+          "skos:prefLabel": "Adjustment frequency for tm0 values",
+          "dct:description": "by 31 october 2024, and every second year thereafter"
+        }
+      ],
+      "poliana:specifies_time": [
+        {
+          "@type": "poliana:Time_Characteristic",
+          "skos:prefLabel": "Application period for new tm0 values",
+          "dct:description": "from 1 january of the calendar year following the date of the adjustment"
+        }
+      ],
+      "poliana:specifies_instrument": [
+        {
+          "@type": "poliana:Instrument",
+          "skos:prefLabel": "Regulatory Instrument",
+          "dct:description": "Government imposes obligations/requirements on actors (e.g., mandatory standards, reporting on GHG emissions, etc.)."
+        }
+      ],
+      "poliana:specifies_instrument": [
+        {
+          "@type": "poliana:Instrument",
+          "skos:prefLabel": "Delegated Act",
+          "dct:description": "The commission is empowered to adopt delegated acts in accordance with article 17 in order to supplement this regulation by establishing the measures referred to in paragraph 1 of this article."
+        }
+      ]
+    }
+  ]
+}

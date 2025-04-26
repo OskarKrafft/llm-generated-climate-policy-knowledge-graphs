@@ -1,0 +1,28 @@
+@prefix poli: <https://w3id.org/poli/ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj>
+  a poli:Policy ;
+  dct:title "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58" ;
+  dcat:landingPage <http://data.europa.eu/eli/reg/2018/1999/oj> .
+
+<http://example.org/policy-metadata>
+  a poli:PolicyMetadata ;
+  dct:title "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58" ;
+  poli:celexNumber "32018R1999" ;
+  dcat:landingPage <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+  poli:annotators ("A", "C") .
+
+<http://example.org/article-58>
+  a poli:Article ;
+  dct:title "Transitional Provisions" ;
+  poli:text """
+By way of derogation from Article 57 of this Regulation, Article 7 and points (a) and (d) of Article 17(1) of Regulation (EU) No 525/2013 shall continue to apply to the reports containing the data required under those Articles for the years 2018, 2019 and 2020.
+Article 11(3) of Regulation (EU) No 525/2013 shall continue to apply as regards the second commitment period of the Kyoto Protocol.
+Article 19 of Regulation (EU) No 525/2013 shall continue to apply to the reviews of the greenhouse gas inventory data for the years 2018, 2019 and 2020.
+Article 22 of Regulation (EU) No 525/2013 shall continue to apply to the submission of the report required under that Article.
+For the purpose of coherence and legal certainty, nothing in this Regulation prevents the application of the derogations pursuant to the relevant Union sectoral law in the area of electricity and electricity risk preparedness.
+""" .
+
+<http://example.org/policy-metadata> poli:hasArticle <http://example.org/article-58> .

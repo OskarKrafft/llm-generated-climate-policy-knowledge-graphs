@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32004L0008 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_13 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_13 a pol:PolicyArticle ;
+    pol:fullText """article 13
+review
+1. the threshold values used for calculation of electricity from cogeneration referred to in annex ii(a) shall be adapted to technical progress in accordance with the procedure referred to in article 14(2).
+2. the threshold values used for calculation of efficiency of cogeneration production and primary energy savings referred to in annex iii(a) shall be adapted to technical progress in accordance with the procedure referred to in article 14(2).
+3. the guidelines for determining the power to heat ratio referred to in annex ii(d) shall be adapted to technical progress in accordance with the procedure referred to in article 14(2)."""^^xsd:string .
+

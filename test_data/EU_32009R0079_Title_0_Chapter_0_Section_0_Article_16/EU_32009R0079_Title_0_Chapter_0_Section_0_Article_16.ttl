@@ -1,0 +1,35 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:fullText """article 16
+entry into force
+this regulation shall enter into force on the 20th day following its publication in the official journal of the european union.
+it shall apply from 24 february 2011, with the exception of article 11(3) and article 12, which shall apply from the date of entry into force of this regulation, and article 11(2), which shall apply from the date set out therein.
+this regulation shall be binding in its entirety and directly applicable in all member states."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_4,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_5 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:annotatedText "20th day following its publication in the official journal of the european union" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:annotatedText "20th day following its publication" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3 a pol:Time_InEffect ;
+    pol:In_effect_date "2011-02-24"^^xsd:date ;
+    pol:annotatedText "24 february 2011" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_4 a pol:Time_InEffect ;
+    pol:annotatedText "date of entry into force" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_5 a pol:Time_InEffect ;
+    pol:annotatedText "date set out therein" .
+

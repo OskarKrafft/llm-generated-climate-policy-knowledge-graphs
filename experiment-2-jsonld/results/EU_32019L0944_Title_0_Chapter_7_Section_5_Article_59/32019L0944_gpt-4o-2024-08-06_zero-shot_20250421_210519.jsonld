@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Duties and Powers of the Regulatory Authorities"
+      },
+      "is_about": [
+        {
+          "id": "RegulatoryInstr",
+          "type": "skos:Concept"
+        },
+        {
+          "id": "PublicInvestment",
+          "type": "skos:Concept"
+        },
+        {
+          "id": "Subsidies_Incentives",
+          "type": "skos:Concept"
+        }
+      ],
+      "contains_instrument": [
+        {
+          "id": "RegulatoryInstr",
+          "type": "skos:Concept"
+        }
+      ],
+      "specifies_time": [
+        {
+          "id": "Time_Compliance",
+          "type": "TimeCharacteristic"
+        },
+        {
+          "id": "Time_Monitoring",
+          "type": "TimeCharacteristic"
+        }
+      ],
+      "grants_legislative_authority": {
+        "id": "eurovoc:4038",
+        "type": "Organization"
+      },
+      "imposes_monitoring": {
+        "id": "eurovoc:447917",
+        "type": "Organization"
+      },
+      "authorises": {
+        "id": "eurovoc:2243",
+        "type": "Organization"
+      },
+      "annotatedText": {
+        "value": "The regulatory authority shall have the following duties: fixing or approving, in accordance with transparent criteria, transmission or distribution tariffs or their methodologies, or both; ensuring the compliance of transmission system operators and distribution system operators and, where relevant, system owners, as well as the compliance of any electricity undertakings and other market participants, with their obligations under this directive, regulation (eu) 2019/943, the network codes and the guidelines adopted pursuant to articles 59, 60 and 61 of regulation (eu) 2019/943, and other relevant union law, including as regards cross-border issues, as well as with acer's decisions; in close coordination with the other regulatory authorities, ensuring the compliance of the entso for electricity and the eu dso entity with their obligations under this directive, regulation (eu) 2019/943, the network codes and guidelines adopted pursuant to articles 59, 60 and 61 of regulation (eu) 2019/943, and other relevant union law, including as regards cross-border issues, as well as with acer's decisions, and jointly identifying non-compliance of the entso for electricity and the eu dso entity with their respective obligations; where the regulatory authorities have not been able to reach an agreement within a period of four months after the start of consultations for the purpose of jointly identifying non-compliance, the matter shall be referred to the acer for a decision, pursuant to article 6(10) of regulation (eu) 2019/942; approving products and procurement process for non-frequency ancillary services; implementing the network codes and guidelines adopted pursuant to articles 59, 60 and 61 of regulation (eu) 2019/943 through national measures or, where so required, coordinated regional or union-wide measures; cooperating in regard to cross-border issues with the regulatory authority or authorities of the member states concerned and with acer, in particular through participation in the work of acer's board of regulators pursuant to article 21 of regulation (eu) 2019/942; complying with, and implementing, any relevant legally binding decisions of the commission and of acer; ensuring that transmission system operators make available interconnector capacities to the utmost extent pursuant to article 16 of regulation (eu) 2019/943; reporting annually on its activity and the fulfilment of its duties to the relevant authorities of the member states, the commission and acer, including on the steps taken and the results obtained as regards each of the tasks listed in this article; ensuring that there is no cross-subsidisation between transmission, distribution and supply activities or other electricity or non-electricity activities; monitoring investment plans of the transmission system operators and providing in its annual report an assessment of the investment plans of the transmission system operators as regards their consistency with the union-wide network development plan; such assessment may include recommendations to amend those investment plans; monitoring and assessing the performance of transmission system operators and distribution system operators in relation to the development of a smart grid that promotes energy efficiency and the integration of energy from renewable sources, based on a limited set of indicators, and publish a national report every two years, including recommendations; setting or approving standards and requirements for quality of service and quality of supply or contributing thereto together with other competent authorities and monitoring compliance with and reviewing the past performance of network security and reliability rules; monitoring the level of transparency, including of wholesale prices, and ensuring compliance of electricity undertakings with transparency obligations; monitoring the level and effectiveness of market opening and competition at wholesale and retail levels, including on electricity exchanges, prices for household customers including prepayment systems, the impact of dynamic electricity price contracts and of the use of smart metering systems, switching rates, disconnection rates, charges for maintenance services, the execution of maintenance services, the relationship between household and wholesale prices, the evolution of grid tariffs and levies, and complaints by household customers, as well as any distortion or restriction of competition, including by providing any relevant information, and bringing any relevant cases to the relevant competition authorities; monitoring the occurrence of restrictive contractual practices, including exclusivity clauses which may prevent customers from contracting simultaneously with more than one supplier or restrict their choice to do so, and, where appropriate, informing the national competition authorities of such practices; monitoring the time taken by transmission system operators and distribution system operators to make connections and repairs; helping to ensure, together with other relevant authorities, that the consumer protection measures are effective and enforced; publishing recommendations, at least annually, in relation to compliance of supply prices with article 5, and providing those recommendations to the competition authorities, where appropriate; ensuring non-discriminatory access to customer consumption data, the provision, for optional use, of an easily understandable harmonised format at national level for consumption data, and prompt access for all customers to such data pursuant to articles 23 and 24; monitoring the implementation of rules relating to the roles and responsibilities of transmission system operators, distribution system operators, suppliers, customers and other market participants pursuant to regulation (eu) 2019/943; monitoring investment in generation and storage capacities in relation to security of supply; monitoring technical cooperation between union and third-country transmission system operators; contributing to the compatibility of data exchange processes for the most important market processes at regional level; monitoring the availability of comparison tools that meet the requirements set out in article 14; monitoring the removal of unjustified obstacles to and restrictions on the development of consumption of self-generated electricity and citizen energy communities."
+      }
+    }
+  ]
+}

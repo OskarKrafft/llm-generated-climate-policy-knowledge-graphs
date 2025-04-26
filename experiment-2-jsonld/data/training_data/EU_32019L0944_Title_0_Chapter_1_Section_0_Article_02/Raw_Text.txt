@@ -1,0 +1,133 @@
+article 2
+definitions
+for the purposes of this directive, the following definitions apply:
+(1)
+‘customer’ means a wholesale or final customer of electricity;
+(2)
+‘wholesale customer’ means a natural or legal person who purchases electricity for the purpose of resale inside or outside the system where that person is established;
+(3)
+‘final customer’ means a customer who purchases electricity for own use;
+(4)
+‘household customer’ means a customer who purchases electricity for the customer's own household consumption, excluding commercial or professional activities;
+(5)
+‘non-household customer’ means a natural or legal person who purchases electricity that is not for own household use, including producers, industrial customers, small and medium-sized enterprises, businesses and wholesale customers;
+(6)
+‘microenterprise’ means an enterprise which employs fewer than 10 persons and whose annual turnover and/or annual balance sheet total does not exceed eur 2 million;
+(7)
+‘small enterprise’ means an enterprise which employs fewer than 50 persons and whose annual turnover and/or annual balance sheet total does not exceed eur 10 million;
+(8)
+‘active customer’ means a final customer, or a group of jointly acting final customers, who consumes or stores electricity generated within its premises located within confined boundaries or, where permitted by a member state, within other premises, or who sells self-generated electricity or participates in flexibility or energy efficiency schemes, provided that those activities do not constitute its primary commercial or professional activity;
+(9)
+‘electricity markets’ means markets for electricity, including over-the-counter markets and electricity exchanges, markets for the trading of energy, capacity, balancing and ancillary services in all timeframes, including forward, day-ahead and intraday markets;
+(10)
+‘market participant’ means market participant as defined in point (25) of article 2 of regulation (eu) 2019/943;
+(11)
+‘citizen energy community’ means a legal entity that:
+(a)
+is based on voluntary and open participation and is effectively controlled by members or shareholders that are natural persons, local authorities, including municipalities, or small enterprises;
+(b)
+has for its primary purpose to provide environmental, economic or social community benefits to its members or shareholders or to the local areas where it operates rather than to generate financial profits; and
+(c)
+may engage in generation, including from renewable sources, distribution, supply, consumption, aggregation, energy storage, energy efficiency services or charging services for electric vehicles or provide other energy services to its members or shareholders;
+(12)
+‘supply’ means the sale, including the resale, of electricity to customers;
+(13)
+‘electricity supply contract’ means a contract for the supply of electricity, but does not include electricity derivatives;
+(14)
+‘electricity derivative’ means a financial instrument specified in point (5), (6) or (7) of section c of annex i to directive 2014/65/eu of the european parliament and of the council (16), where that instrument relates to electricity;
+(15)
+‘dynamic electricity price contract’ means an electricity supply contract between a supplier and a final customer that reflects the price variation in the spot markets, including in the day-ahead and intraday markets, at intervals at least equal to the market settlement frequency;
+(16)
+‘contract termination fee’ means a charge or penalty imposed on customers by suppliers or market participants engaged in aggregation, for terminating an electricity supply or service contract;
+(17)
+‘switching-related fee’ means a charge or penalty for changing suppliers or market participants engaged in aggregation, including contract termination fees, that is directly or indirectly imposed on customers by suppliers, market participants engaged in aggregation or system operators;
+(18)
+‘aggregation’ means a function performed by a natural or legal person who combines multiple customer loads or generated electricity for sale, purchase or auction in any electricity market;
+(19)
+‘independent aggregator’ means a market participant engaged in aggregation who is not affiliated to the customer's supplier;
+(20)
+‘demand response’ means the change of electricity load by final customers from their normal or current consumption patterns in response to market signals, including in response to time-variable electricity prices or incentive payments, or in response to the acceptance of the final customer's bid to sell demand reduction or increase at a price in an organised market as defined in point (4) of article 2 of commission implementing regulation (eu) no 1348/2014 (17), whether alone or through aggregation;
+(21)
+‘billing information’ means the information provided on a final customer's bill, apart from a request for payment;
+(22)
+‘conventional meter’ means an analogue or electronic meter with no capability to both transmit and receive data;
+(23)
+‘smart metering system’ means an electronic system that is capable of measuring electricity fed into the grid or electricity consumed from the grid, providing more information than a conventional meter, and that is capable of transmitting and receiving data for information, monitoring and control purposes, using a form of electronic communication;
+(24)
+‘interoperability’ means, in the context of smart metering, the ability of two or more energy or communication networks, systems, devices, applications or components to interwork to exchange and use information in order to perform required functions;
+(25)
+‘imbalance settlement period’ means imbalance settlement period as defined in point (15) of article 2 of regulation (eu) 2019/943;
+(26)
+‘near real-time’ means, in the context of smart metering, a short time period, usually down to seconds or up to the imbalance settlement period in the national market;
+(27)
+‘best available techniques’ means, in the context of data protection and security in a smart metering environment, the most effective, advanced and practically suitable techniques for providing, in principle, the basis for complying with the union data protection and security rules;
+(28)
+‘distribution’ means the transport of electricity on high-voltage, medium-voltage and low-voltage distribution systems with a view to its delivery to customers, but does not include supply;
+(29)
+‘distribution system operator’ means a natural or legal person who is responsible for operating, ensuring the maintenance of and, if necessary, developing the distribution system in a given area and, where applicable, its interconnections with other systems, and for ensuring the long-term ability of the system to meet reasonable demands for the distribution of electricity;
+(30)
+‘energy efficiency’ means the ratio of output of performance, service, goods or energy, to input of energy;
+(31)
+‘energy from renewable sources’ or ‘renewable energy’ means energy from renewable non-fossil sources, namely wind, solar (solar thermal and solar photovoltaic) and geothermal energy, ambient energy, tide, wave and other ocean energy, hydropower, biomass, landfill gas, sewage treatment plant gas, and biogas;
+(32)
+‘distributed generation’ means generating installations connected to the distribution system;
+(33)
+‘recharging point’ means an interface that is capable of charging one electric vehicle at a time or exchanging the battery of one electric vehicle at a time;
+(34)
+‘transmission’ means the transport of electricity on the extra high-voltage and high-voltage interconnected system with a view to its delivery to final customers or to distributors, but does not include supply;
+(35)
+‘transmission system operator’ means a natural or legal person who is responsible for operating, ensuring the maintenance of and, if necessary, developing the transmission system in a given area and, where applicable, its interconnections with other systems, and for ensuring the long-term ability of the system to meet reasonable demands for the transmission of electricity;
+(36)
+‘system user’ means a natural or legal person who supplies to, or is supplied by, a transmission system or a distribution system;
+(37)
+‘generation’ means the production of electricity;
+(38)
+‘producer’ means a natural or legal person who generates electricity;
+(39)
+‘interconnector’ means equipment used to link electricity systems;
+(40)
+‘interconnected system’ means a number of transmission and distribution systems linked together by means of one or more interconnectors;
+(41)
+‘direct line’ means either an electricity line linking an isolated generation site with an isolated customer or an electricity line linking a producer and an electricity supply undertaking to supply directly their own premises, subsidiaries and customers;
+(42)
+‘small isolated system’ means any system that had consumption of less than 3 000 gwh in the year 1996, where less than 5 % of annual consumption is obtained through interconnection with other systems;
+(43)
+‘small connected system’ means any system that had consumption of less than 3 000 gwh in the year 1996, where more than 5 % of annual consumption is obtained through interconnection with other systems;
+(44)
+‘congestion’ means congestion as defined in point (4) of article 2 of regulation (eu) 2019/943;
+(45)
+‘balancing’ means balancing as defined in point (10) of article 2 of regulation (eu) 2019/943;
+(46)
+‘balancing energy’ means balancing energy as defined in point (11) of article 2 of regulation (eu) 2019/943;
+(47)
+‘balance responsible party’ means balance responsible party as defined in point (14) of article 2 of regulation (eu) 2019/943;
+(48)
+‘ancillary service’ means a service necessary for the operation of a transmission or distribution system, including balancing and non-frequency ancillary services, but not including congestion management;
+(49)
+‘non-frequency ancillary service’ means a service used by a transmission system operator or distribution system operator for steady state voltage control, fast reactive current injections, inertia for local grid stability, short-circuit current, black start capability and island operation capability;
+(50)
+‘regional coordination centre’ means a regional coordination centre established pursuant to article 35 of regulation (eu) 2019/943;
+(51)
+‘fully integrated network components’ means network components that are integrated in the transmission or distribution system, including storage facilities, and that are used for the sole purpose of ensuring a secure and reliable operation of the transmission or distribution system, and not for balancing or congestion management;
+(52)
+‘integrated electricity undertaking’ means a vertically integrated undertaking or a horizontally integrated undertaking;
+(53)
+‘vertically integrated undertaking’ means an electricity undertaking or a group of electricity undertakings where the same person or the same persons are entitled, directly or indirectly, to exercise control, and where the undertaking or group of undertakings performs at least one of the functions of transmission or distribution, and at least one of the functions of generation or supply;
+(54)
+‘horizontally integrated undertaking’ means an electricity undertaking performing at least one of the functions of generation for sale, or transmission, or distribution, or supply, and another non-electricity activity;
+(55)
+‘related undertaking’ means affiliated undertakings as defined in point (12) of article 2 of directive 2013/34/eu of the european parliament and of the council (18), and undertakings which belong to the same shareholders;
+(56)
+‘control’ means rights, contracts or other means which, either separately or in combination and having regard to the considerations of fact or law involved, confer the possibility of exercising decisive influence on an undertaking, in particular by:
+(a)
+ownership or the right to use all or part of the assets of an undertaking;
+(b)
+rights or contracts which confer decisive influence on the composition, voting or decisions of the organs of an undertaking;
+(57)
+‘electricity undertaking’ means a natural or legal person who carries out at least one of the following functions: generation, transmission, distribution, aggregation, demand response, energy storage, supply or purchase of electricity, and who is responsible for the commercial, technical or maintenance tasks related to those functions, but does not include final customers;
+(58)
+‘security’ means both security of supply and provision of electricity, and technical safety;
+(59)
+‘energy storage’ means, in the electricity system, deferring the final use of electricity to a moment later than when it was generated, or the conversion of electrical energy into a form of energy which can be stored, the storing of such energy, and the subsequent reconversion of such energy into electrical energy or use as another energy carrier;
+(60)
+‘energy storage facility’ means, in the electricity system, a facility where energy storage occurs.

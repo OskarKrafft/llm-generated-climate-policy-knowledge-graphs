@@ -1,0 +1,71 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_05 .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_05 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 5
+market-based supply prices
+1.   suppliers shall be free to determine the price at which they supply electricity to customers. member states shall take appropriate actions to ensure effective competition between suppliers.
+2.   member states shall ensure the protection of energy poor and vulnerable household customers pursuant to articles 28 and 29 by social policy or by other means than public interventions in the price setting for the supply of electricity.
+3.   by way of derogation from paragraphs 1 and 2, member states may apply public interventions in the price setting for the supply of electricity to energy poor or vulnerable household customers. such public interventions shall be subject to the conditions set out in paragraphs 4 and 5.
+4.   public interventions in the price setting for the supply of electricity shall:
+(a)
+pursue a general economic interest and not go beyond what is necessary to achieve that general economic interest;
+(b)
+be clearly defined, transparent, non-discriminatory and verifiable;
+(c)
+guarantee equal access for union electricity undertakings to customers;
+(d)
+be limited in time and proportionate as regards their beneficiaries;
+(e)
+not result in additional costs for market participants in a discriminatory way.
+5.   any member state applying public interventions in the price setting for the supply of electricity in accordance with paragraph 3 of this article shall also comply with point (d) of article 3(3) and with article 24 of regulation (eu) 2018/1999, regardless of whether the member state concerned has a significant number of households in energy poverty.
+6.   for the purpose of a transition period to establish effective competition for electricity supply contracts between suppliers, and to achieve fully effective market-based retail pricing of electricity in accordance with paragraph 1, member states may apply public interventions in the price setting for the supply of electricity to household customers and to microenterprises that do not benefit from public interventions pursuant to paragraph 3.
+7.   public interventions pursuant to paragraph 6 shall comply with the criteria set out in paragraph 4 and shall:
+(a)
+be accompanied by a set of measures to achieve effective competition and a methodology for assessing progress with regard to those measures;
+(b)
+be set using a methodology that ensures non-discriminatory treatment of suppliers;
+(c)
+be set at a price that is above cost, at a level where effective price competition can occur;
+(d)
+be designed to minimise any negative impact on the wholesale electricity market;
+(e)
+ensure that all beneficiaries of such public interventions have the possibility to choose competitive market offers and are directly informed at least every quarter of the availability of offers and savings in the competitive market, in particular of dynamic electricity price contracts, and shall ensure that they are provided with assistance to switch to a market-based offer;
+(f)
+ensure that, pursuant to articles 19 and 21, all beneficiaries of such public interventions are entitled to, and are offered to, have smart meters installed at no extra upfront cost to the customer, are directly informed of the possibility of installing smart meters and are provided with necessary assistance;
+(g)
+not lead to direct cross-subsidisation between customers supplied at free market prices and those supplied at regulated supply prices.
+8.   member states shall notify the measures taken in accordance with paragraphs 3 and 6 to the commission within one month after their adoption and may apply them immediately. the notification shall be accompanied by an explanation of why other instruments were not sufficient to achieve the objective pursued, of how the requirements set out in paragraphs 4 and 7 are fulfilled and of the effects of the notified measures on competition. the notification shall describe the scope of the beneficiaries, the duration of the measures and the number of household customers affected by the measures, and shall explain how the regulated prices have been determined.
+9.   by 1 january 2022 and 1 january 2025, member states shall submit reports to the commission on the implementation of this article, the necessity and proportionality of public interventions under this article, and an assessment of the progress towards achieving effective competition between suppliers and the transition to market-based prices. member states that apply regulated prices in accordance with paragraph 6 shall report on the compliance with the conditions set out in paragraph 7, including on compliance by suppliers that are required to apply such interventions, as well as on the impact of regulated prices on the finances of those suppliers.
+10.   by 31 december 2025, the commission shall review and submit a report to the european parliament and to the council on the implementation of this article for the purpose of achieving market-based retail pricing of electricity, together with or followed by a legislative proposal, if appropriate. that legislative proposal may include an end date for regulated prices."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_05_TimeMonitoring_1,
+        pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_05_TimeMonitoring_2,
+        pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_05_TimeMonitoring_3,
+        pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_05_TimeMonitoring_4 .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_05_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "within one month" .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_05_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2022" .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_05_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2025" .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_05_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "31 december 2025" .
+

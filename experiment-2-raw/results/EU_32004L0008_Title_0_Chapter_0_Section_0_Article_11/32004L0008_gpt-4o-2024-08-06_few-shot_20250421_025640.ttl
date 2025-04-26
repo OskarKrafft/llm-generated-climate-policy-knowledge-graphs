@@ -1,0 +1,18 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32004L0008 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:addresses eurovoc:114,
+        eurovoc:2243 ;
+    pol:authorises eurovoc:4038 ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "not later than 21 february 2008 and thereafter every four years" .
+

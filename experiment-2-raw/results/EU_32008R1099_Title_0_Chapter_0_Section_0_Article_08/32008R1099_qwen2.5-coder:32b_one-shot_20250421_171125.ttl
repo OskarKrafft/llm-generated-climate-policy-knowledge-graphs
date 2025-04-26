@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_Article_8 a <http://data.europa.eu/eli/reg/2008/1099/oj#Article> ;
+    pol:defines pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_Annual_Nuclear_Statistics ;
+    pol:hasAnnotators pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_A,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_C ;
+    pol:hasCELEXNumber pol:32008R1099 ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2008/1099/oj> ;
+    pol:hasTitle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_Annual_Nuclear_Statistics a <http://data.europa.eu/eli/reg/2008/1099/oj#Statistic_Set> ;
+    pol:avoidsDataDuplication pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_true ;
+    pol:considerationOfConfidentiality pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_true ;
+    pol:cooperatesWith pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_Nuclear_Energy_Sector_in_the_EU ;
+    pol:establishedAccordingTo pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_Regulatory_Procedure_with_Scrutiny ;
+    pol:keepsProductionCostsLow pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_true ;
+    pol:keepsReportingBurdenReasonable pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_true ;
+    pol:mayBeModifiedAccordingTo pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_Regulatory_Procedure_with_Scrutiny ;
+    pol:reportedBy pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_Eurostat ;
+    pol:reportedFromYear pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_2009 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_Regulatory_Procedure_with_Scrutiny a <http://data.europa.eu/eli/reg/2008/1099/oj#Procedure> .
+

@@ -1,0 +1,34 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26 a pol:PolicyArticle ;
+    pol:authorises eurovoc:4038 ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_legislative_authority eurovoc:4038 ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_1,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_2,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_3,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_4,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_5 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "15 March 2021, and every year thereafter" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "31 July 2021, and every year thereafter" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "15 March each year from 2023" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "15 April each year" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "15 January and 15 March in the years 2027 and 2032" .
+

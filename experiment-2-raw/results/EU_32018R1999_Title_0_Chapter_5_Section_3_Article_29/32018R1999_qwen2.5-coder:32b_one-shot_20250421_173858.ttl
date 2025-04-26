@@ -1,0 +1,50 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29 a dcmitype:Text ;
+    pol:hasPart pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph1,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph2,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph3,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph4,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph5,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph6,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph7 .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_AccountCircumstances a dcmitype:MethodStep .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_AssessProgress a dcmitype:MethodStep .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_CommissionAssessment pol:hasStep pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_AccountCircumstances,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_AssessProgress,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_ConsiderMilestone,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_UseModellingResults .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_ConsiderMilestone a dcmitype:MethodStep .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_IndicativeUnionTrajectory a dcmitype:Trajectory .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph1 a dcmitype:Paragraph ;
+    pol:describes pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_CommissionAssessment .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph2 a dcmitype:Paragraph ;
+    pol:describes pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_RenewableEnergyAssessment .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph3 a dcmitype:Paragraph ;
+    pol:describes pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_EnergyEfficiencyAssessment .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph4 a dcmitype:Paragraph ;
+    pol:describes pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_InternalEnergyMarketAssessment .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph5 a dcmitype:Paragraph ;
+    pol:describes pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_ProgressTowardsRequirements .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph6 a dcmitype:Paragraph ;
+    pol:describes pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_ConsiderCountrySpecificRecommendations .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Paragraph7 a dcmitype:Paragraph ;
+    pol:describes pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_ReportAssessment .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_RenewableEnergyAssessment pol:hasTrajectory pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_IndicativeUnionTrajectory .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_UseModellingResults a dcmitype:MethodStep .
+

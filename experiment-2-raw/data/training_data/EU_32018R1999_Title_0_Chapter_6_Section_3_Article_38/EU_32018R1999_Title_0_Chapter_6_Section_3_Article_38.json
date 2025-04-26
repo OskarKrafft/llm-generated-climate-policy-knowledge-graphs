@@ -1,0 +1,182 @@
+[
+  {
+    "s": "TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "2027"
+  },
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "four months following the date of publication of an implementing act adopted pursuant to paragraph 4 of this article"
+  },
+  {
+    "s": "TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeCompliance_4",
+    "p": "annotatedText",
+    "o": "two months following the compliance check date with regulation (eu) 2018/841 referred to in paragraph 5 of this article"
+  },
+  {
+    "s": "TimeMonitoring_6",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_4"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_5"
+  },
+  {
+    "s": "TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeCompliance_4",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_2"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_3"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_8"
+  },
+  {
+    "s": "TimeMonitoring_5",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeMonitoring_8",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_9"
+  },
+  {
+    "s": "TimeMonitoring_9",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeMonitoring_5",
+    "p": "annotatedText",
+    "o": "2021"
+  },
+  {
+    "s": "TimeMonitoring_8",
+    "p": "annotatedText",
+    "o": "2027 to 2030"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_7"
+  },
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "TimeMonitoring_9",
+    "p": "annotatedText",
+    "o": "a date falling one month following the date of the compliance check for the previous year"
+  },
+  {
+    "s": "TimeMonitoring_7",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "2032"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "32018R1999",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_6"
+  },
+  {
+    "s": "TimeMonitoring_6",
+    "p": "annotatedText",
+    "o": "2026"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "TimeMonitoring_7",
+    "p": "annotatedText",
+    "o": "2022 to 2025"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_1"
+  },
+  {
+    "s": "Article",
+    "p": "imposes_monitoring",
+    "o": "Member_States"
+  },
+  {
+    "s": "32018R1999",
+    "p": "type",
+    "o": "PolicyDocument"
+  }
+]

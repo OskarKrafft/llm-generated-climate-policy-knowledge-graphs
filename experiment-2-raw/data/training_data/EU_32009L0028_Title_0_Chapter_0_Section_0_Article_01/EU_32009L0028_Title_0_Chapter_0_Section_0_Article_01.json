@@ -1,0 +1,47 @@
+[
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "TradablePermit"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "Edu_Outreach"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "FrameworkPolicy"
+  },
+  {
+    "s": "Article",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "32009L0028",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "32009L0028",
+    "p": "hasArticle",
+    "o": "Article"
+  }
+]

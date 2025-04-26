@@ -1,0 +1,512 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://polianna-kg.org/Ontology#> .
+
+<https://polianna-kg.org/Ontology> rdf:type owl:Ontology ;
+                                    rdfs:comment """
+Ontology for representing EU policy articles based on the ELI ontology, Eurovoc,
+and the coding scheme of the POLIANNA paper. 
+Revised to adopt SKOS concepts for instrument types, 
+and to incorporate recommended best practices for article-level references.
+""" ;
+                                    rdfs:label "POLIANNA Ontology (Revised)" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://data.europa.eu/eli/ontology#has_part
+<http://data.europa.eu/eli/ontology#has_part> rdf:type owl:ObjectProperty .
+
+
+###  http://data.europa.eu/eli/ontology#is_about
+<http://data.europa.eu/eli/ontology#is_about> rdf:type owl:ObjectProperty ;
+                                              rdfs:domain <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                              rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                              rdfs:comment "A subject for this work. The use of Eurovoc (http://eurovoc.europa.eu) is encouraged to select values for this property. Member states are encouraged to align local values to Eurovoc." ;
+                                              rdfs:label "is about" .
+
+
+###  http://www.w3.org/2004/02/skos/core#broadMatch
+<http://www.w3.org/2004/02/skos/core#broadMatch> rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#closeMatch
+<http://www.w3.org/2004/02/skos/core#closeMatch> rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#exactMatch
+<http://www.w3.org/2004/02/skos/core#exactMatch> rdf:type owl:ObjectProperty ;
+                                                 rdfs:subPropertyOf <http://www.w3.org/2004/02/skos/core#closeMatch> .
+
+
+###  http://www.w3.org/2004/02/skos/core#narrowMatch
+<http://www.w3.org/2004/02/skos/core#narrowMatch> rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#relatedMatch
+<http://www.w3.org/2004/02/skos/core#relatedMatch> rdf:type owl:ObjectProperty .
+
+
+###  https://polianna-kg.org/Ontology#addresses
+pol:addresses rdf:type owl:ObjectProperty ;
+              rdfs:domain pol:PolicyArticle ;
+              rdfs:range <http://data.europa.eu/eli/ontology#Agent> ;
+              rdfs:comment "Links the article to the individual or entity that it applies to and who needs to ensure its implementation." .
+
+
+###  https://polianna-kg.org/Ontology#authorises
+pol:authorises rdf:type owl:ObjectProperty ;
+               rdfs:domain pol:PolicyArticle ;
+               rdfs:range <http://data.europa.eu/eli/ontology#Agent> ;
+               rdfs:comment "Links the article to the entity that is making/enforcing the rule or empowered to ensure its implementation (including sanctioning)." .
+
+
+###  https://polianna-kg.org/Ontology#contains_instrument
+pol:contains_instrument rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf <http://data.europa.eu/eli/ontology#is_about> ;
+                        rdfs:domain pol:PolicyArticle ;
+                        rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+                        rdfs:comment "Indicates which instrument-type concept(s) this article covers or establishes." ;
+                        rdfs:label "contains instrument" .
+
+
+###  https://polianna-kg.org/Ontology#contains_monitoring_form
+pol:contains_monitoring_form rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf <http://data.europa.eu/eli/ontology#is_about> ;
+                             rdfs:domain pol:PolicyArticle ;
+                             rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> .
+
+
+###  https://polianna-kg.org/Ontology#contains_objective
+pol:contains_objective rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf <http://data.europa.eu/eli/ontology#is_about> ;
+                       rdfs:domain pol:PolicyArticle ;
+                       rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> .
+
+
+###  https://polianna-kg.org/Ontology#contains_sanctioning_form
+pol:contains_sanctioning_form rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf <http://data.europa.eu/eli/ontology#is_about> ;
+                              rdfs:domain pol:PolicyArticle ;
+                              rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> .
+
+
+###  https://polianna-kg.org/Ontology#establishes_authority
+pol:establishes_authority rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf pol:authorises ;
+                          rdfs:domain pol:PolicyArticle ;
+                          rdfs:range <http://data.europa.eu/eli/ontology#Agent> ;
+                          rdfs:comment "Links the article to a newly established entity that is ensuring the policy’s implementation." .
+
+
+###  https://polianna-kg.org/Ontology#grants_legislative_authority
+pol:grants_legislative_authority rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf pol:authorises ;
+                                 rdfs:domain pol:PolicyArticle ;
+                                 rdfs:range <http://data.europa.eu/eli/ontology#Agent> ;
+                                 rdfs:comment "Links the article to the entity that is drafting or voting on legislation." .
+
+
+###  https://polianna-kg.org/Ontology#grants_monitoring_authority
+pol:grants_monitoring_authority rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf pol:authorises ;
+                                rdfs:domain pol:PolicyArticle ;
+                                rdfs:range <http://data.europa.eu/eli/ontology#Agent> ;
+                                rdfs:comment "Links the article to an entity responsible for monitoring the outcome of the policy, through report, review, or audit." .
+
+
+###  https://polianna-kg.org/Ontology#hasArticle
+pol:hasArticle rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf <http://data.europa.eu/eli/ontology#has_part> ;
+               rdfs:domain pol:PolicyDocument ;
+               rdfs:range pol:PolicyArticle ;
+               rdfs:comment "Links a PolicyDocument to its contained PolicyArticle(s)." ;
+               rdfs:label "has Article" .
+
+
+###  https://polianna-kg.org/Ontology#imposes_monitoring
+pol:imposes_monitoring rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf pol:addresses ;
+                       rdfs:domain pol:PolicyArticle ;
+                       rdfs:range <http://data.europa.eu/eli/ontology#Agent> ;
+                       rdfs:comment "Links the article to an entity monitored for the policy outcome (report, review, or audit)." .
+
+
+###  https://polianna-kg.org/Ontology#specifies_compliance_time
+pol:specifies_compliance_time rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf pol:specifies_time ;
+                              rdfs:domain pol:PolicyArticle ;
+                              rdfs:range pol:Time_Compliance .
+
+
+###  https://polianna-kg.org/Ontology#specifies_in_effect_time
+pol:specifies_in_effect_time rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf pol:specifies_time ;
+                             rdfs:domain pol:PolicyArticle ;
+                             rdfs:range pol:Time_InEffect .
+
+
+###  https://polianna-kg.org/Ontology#specifies_monitoring_time
+pol:specifies_monitoring_time rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf pol:specifies_time ;
+                              rdfs:domain pol:PolicyArticle ;
+                              rdfs:range pol:Time_Monitoring .
+
+
+###  https://polianna-kg.org/Ontology#specifies_time
+pol:specifies_time rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf <http://data.europa.eu/eli/ontology#is_about> ;
+                   rdfs:domain pol:PolicyArticle ;
+                   rdfs:range pol:TimeCharacteristic ;
+                   rdfs:comment "Indicates which time characteristics this article includes." ;
+                   rdfs:label "specifies time" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://polianna-kg.org/Ontology#Compliance_date
+pol:Compliance_date rdf:type owl:DatatypeProperty ;
+                    rdfs:domain pol:Time_Compliance ;
+                    rdfs:range xsd:date ;
+                    rdfs:label "Compliance date" .
+
+
+###  https://polianna-kg.org/Ontology#In_effect_date
+pol:In_effect_date rdf:type owl:DatatypeProperty ;
+                   rdfs:domain pol:Time_InEffect ;
+                   rdfs:range xsd:date ;
+                   rdfs:label "In effect date" .
+
+
+###  https://polianna-kg.org/Ontology#Monitoring_date
+pol:Monitoring_date rdf:type owl:DatatypeProperty ;
+                    rdfs:domain pol:Time_Monitoring ;
+                    rdfs:range xsd:date ;
+                    rdfs:label "Monitoring date" .
+
+
+###  https://polianna-kg.org/Ontology#annotatedText
+pol:annotatedText rdf:type owl:DatatypeProperty ;
+                  rdfs:domain pol:TimeCharacteristic ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "the text snipped from the article that includes the content for time characteristic." .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://data.europa.eu/eli/ontology#Agent
+<http://data.europa.eu/eli/ontology#Agent> rdf:type owl:Class ;
+                                           rdfs:comment "Individuals or groups (organizations) with legal recognition who can act intentionally." ;
+                                           rdfs:label "Agent" .
+
+
+###  http://data.europa.eu/eli/ontology#LegalResource
+<http://data.europa.eu/eli/ontology#LegalResource> rdf:type owl:Class ;
+                                                   rdfs:comment """
+A work in a legislative corpus. 
+It can represent a legal act or any component of a legal act, 
+like an article.  However, we define specialized classes below.
+""" .
+
+
+###  http://data.europa.eu/eli/ontology#LegalResourceSubdivision
+<http://data.europa.eu/eli/ontology#LegalResourceSubdivision> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <http://data.europa.eu/eli/ontology#LegalResource> ;
+                                                              rdfs:comment "A component of a legal act, like a chapter, article, paragraph, etc." .
+
+
+###  http://data.europa.eu/eli/ontology#Organization
+<http://data.europa.eu/eli/ontology#Organization> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://data.europa.eu/eli/ontology#Agent> ;
+                                                  rdfs:comment "An institution or group of people with legal recognition to act collectively." ;
+                                                  rdfs:label "Organization" .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> rdf:type owl:Class .
+
+
+###  https://polianna-kg.org/Ontology#PolicyArticle
+pol:PolicyArticle rdf:type owl:Class ;
+                  rdfs:subClassOf <http://data.europa.eu/eli/ontology#LegalResourceSubdivision> ;
+                  rdfs:comment "Represents an article (or subdivision) within a policy document." ;
+                  rdfs:label "Policy Article" .
+
+
+###  https://polianna-kg.org/Ontology#PolicyDocument
+pol:PolicyDocument rdf:type owl:Class ;
+                   rdfs:subClassOf <http://data.europa.eu/eli/ontology#LegalResource> ;
+                   rdfs:comment "Represents an entire legislative act or policy document." ;
+                   rdfs:label "Policy Document" .
+
+
+###  https://polianna-kg.org/Ontology#TimeCharacteristic
+pol:TimeCharacteristic rdf:type owl:Class ;
+                       rdfs:comment "Mentions of policy duration, monitoring times, compliance times, etc." ;
+                       rdfs:label "Time Characteristic" .
+
+
+###  https://polianna-kg.org/Ontology#Time_Compliance
+pol:Time_Compliance rdf:type owl:Class ;
+                    rdfs:subClassOf pol:TimeCharacteristic ;
+                    rdfs:comment "Deadline or timeframe for compliance." ;
+                    rdfs:label "Compliance Time" .
+
+
+###  https://polianna-kg.org/Ontology#Time_InEffect
+pol:Time_InEffect rdf:type owl:Class ;
+                  rdfs:subClassOf pol:TimeCharacteristic ;
+                  rdfs:comment "Start date or effective date of the policy." ;
+                  rdfs:label "In-effect Time" .
+
+
+###  https://polianna-kg.org/Ontology#Time_Monitoring
+pol:Time_Monitoring rdf:type owl:Class ;
+                    rdfs:subClassOf pol:TimeCharacteristic ;
+                    rdfs:comment "Deadlines and frequencies related to monitoring." ;
+                    rdfs:label "Monitoring Time" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://eurovoc.europa.eu/c_59f9c651
+<http://eurovoc.europa.eu/c_59f9c651> rdf:type owl:NamedIndividual ;
+                                      rdfs:label "EU strategy" .
+
+
+###  http://eurovoc.europa.eu/114
+<http://eurovoc.europa.eu/114> rdf:type owl:NamedIndividual ,
+                                        <http://data.europa.eu/eli/ontology#Organization> ;
+                               rdfs:comment "Intergovernmental institution representing Member State governments at ministerial level, adopting EU laws (with Parliament)." ;
+                               rdfs:label "Council of the European Union"@en .
+
+
+###  http://eurovoc.europa.eu/128
+<http://eurovoc.europa.eu/128> rdf:type owl:NamedIndividual ,
+                                        <http://data.europa.eu/eli/ontology#Organization> ;
+                               rdfs:comment "Defines the general political directions and priorities of the EU but does not exercise legislative functions." ;
+                               rdfs:label "European Council"@en .
+
+
+###  http://eurovoc.europa.eu/1459
+<http://eurovoc.europa.eu/1459> rdf:type owl:NamedIndividual ;
+                                rdfs:label "financial instrument" .
+
+
+###  http://eurovoc.europa.eu/1496
+<http://eurovoc.europa.eu/1496> rdf:type owl:NamedIndividual ;
+                                rdfs:label "public investment" .
+
+
+###  http://eurovoc.europa.eu/2198
+<http://eurovoc.europa.eu/2198> rdf:type owl:NamedIndividual ,
+                                         <http://data.europa.eu/eli/ontology#Organization> ;
+                                rdfs:comment "statistical office of the European Union" ;
+                                rdfs:label "Eurostat" .
+
+
+###  http://eurovoc.europa.eu/2243
+<http://eurovoc.europa.eu/2243> rdf:type owl:NamedIndividual ,
+                                         <http://data.europa.eu/eli/ontology#Organization> ;
+                                rdfs:comment "The origins of the European Parliament lie in the Common Assembly of the European Coal and Steel Community (ECSC), which became the common assembly of the three supranational European communities that existed until 1957." ;
+                                rdfs:label "European Parliament" .
+
+
+###  http://eurovoc.europa.eu/2467
+<http://eurovoc.europa.eu/2467> rdf:type owl:NamedIndividual ;
+                                rdfs:label "education policy" .
+
+
+###  http://eurovoc.europa.eu/4038
+<http://eurovoc.europa.eu/4038> rdf:type owl:NamedIndividual ,
+                                         <http://data.europa.eu/eli/ontology#Organization> ;
+                                rdfs:comment "Executive branch of the EU, proposes legislation, enforces EU laws, and directs administrative operations." ;
+                                rdfs:label "European Commission"@en .
+
+
+###  http://eurovoc.europa.eu/4060
+<http://eurovoc.europa.eu/4060> rdf:type owl:NamedIndividual ,
+                                         <http://data.europa.eu/eli/ontology#Organization> ;
+                                rdfs:comment "Objective of a reform project of the treaties for the creation of a European Union." ;
+                                rdfs:label "European Union" .
+
+
+###  http://eurovoc.europa.eu/4279
+<http://eurovoc.europa.eu/4279> rdf:type owl:NamedIndividual ;
+                                rdfs:label "tax incentive" .
+
+
+###  http://eurovoc.europa.eu/447917
+<http://eurovoc.europa.eu/447917> rdf:type owl:NamedIndividual ,
+                                           <http://data.europa.eu/eli/ontology#Organization> ;
+                                  rdfs:label "European Union Agency for the Cooperation of Energy Regulators (ACER)" .
+
+
+###  http://eurovoc.europa.eu/5237
+<http://eurovoc.europa.eu/5237> rdf:type owl:NamedIndividual ;
+                                rdfs:label "research and development" .
+
+
+###  http://eurovoc.europa.eu/5782
+<http://eurovoc.europa.eu/5782> rdf:type owl:NamedIndividual ;
+                                rdfs:label "tradeable emission permit" .
+
+
+###  https://polianna-kg.org/Ontology#Edu_Outreach
+pol:Edu_Outreach rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://eurovoc.europa.eu/2467> ;
+                 rdfs:comment "Policies and measures designed to increase knowledge, awareness, and training among relevant stakeholders or users, including information campaigns, training programs, labelling schemes." ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaInstrumentScheme ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Education and Outreach"@en .
+
+
+###  https://polianna-kg.org/Ontology#Form_monitoring
+pol:Form_monitoring rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    rdfs:comment "Provisions relating to monitoring (reporting, reviews, auditing, certification schemes)." ;
+                    rdfs:label "Monitoring Form" ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaComplianceScheme .
+
+
+###  https://polianna-kg.org/Ontology#Form_sanctioning
+pol:Form_sanctioning rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     rdfs:comment "Sanctioning provisions and measures." ;
+                     rdfs:label "Sanctioning Form" ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaComplianceScheme .
+
+
+###  https://polianna-kg.org/Ontology#FrameworkPolicy
+pol:FrameworkPolicy rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://eurovoc.europa.eu/c_59f9c651> ;
+                    rdfs:comment "Refers to the processes undertaken to develop and implement policies. This generally covers strategic policies that are intended to guide the development of further policies by, for example, defining long-term goals." ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaInstrumentScheme ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Framework Policy"@en .
+
+
+###  https://polianna-kg.org/Ontology#Member_States
+pol:Member_States rdf:type owl:NamedIndividual ,
+                           <http://data.europa.eu/eli/ontology#Organization> ;
+                  rdfs:label "Member States" .
+
+
+###  https://polianna-kg.org/Ontology#Objective
+pol:Objective rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              rdfs:comment "Quantitative or qualitative policy targets/intentions." ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaComplianceScheme .
+
+
+###  https://polianna-kg.org/Ontology#PoliannaComplianceScheme
+pol:PoliannaComplianceScheme rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                             rdfs:comment "A scheme listing the elements about compliance with a policy or regulation." ;
+                             rdfs:label "POLIANNA Compliance Scheme" .
+
+
+###  https://polianna-kg.org/Ontology#PoliannaInstrumentScheme
+pol:PoliannaInstrumentScheme rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                             rdfs:comment "A scheme listing the types of policy instruments recognized by the POLIANNA coding." ;
+                             rdfs:label "POLIANNA Instrument Scheme"@en .
+
+
+###  https://polianna-kg.org/Ontology#PublicInvestment
+pol:PublicInvestment rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#exactMatch> <http://eurovoc.europa.eu/1496> ;
+                     rdfs:comment "Policies and measures guiding investment by public bodies. These include government procurement programs (e.g. the installation of solar PV on government buildings) and infrastructure investment (e.g. EV charging infrastructure)." ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaInstrumentScheme ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Public Investment"@en .
+
+
+###  https://polianna-kg.org/Ontology#RD_D
+pol:RD_D rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://eurovoc.europa.eu/5237> ;
+         rdfs:comment "Policies for government investing directly in or facilitating technology research, development, demonstration and deployment." ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaInstrumentScheme ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Research, Development & Demonstration (RD&D)"@en .
+
+
+###  https://polianna-kg.org/Ontology#RegulatoryInstr
+pol:RegulatoryInstr rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    rdfs:comment "Government imposes obligations/requirements on actors (e.g., mandatory standards, reporting on GHG emissions, etc.)." ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaInstrumentScheme ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Regulatory Instrument"@en .
+
+
+###  https://polianna-kg.org/Ontology#Subsidies_Incentives
+pol:Subsidies_Incentives rdf:type owl:NamedIndividual ,
+                                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+                         <http://www.w3.org/2004/02/skos/core#broadMatch> <http://eurovoc.europa.eu/1459> ;
+                         rdfs:comment "Stimulate activities/behaviors through subsidies, rebates, grants, etc." ;
+                         <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaInstrumentScheme ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Subsidies and Direct Incentives"@en .
+
+
+###  https://polianna-kg.org/Ontology#TaxIncentives
+pol:TaxIncentives rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#exactMatch> <http://eurovoc.europa.eu/4279> ;
+                  rdfs:comment "Policies to encourage or stimulate certain activities or behaviours through tax exemptions, tax reductions or tax credits on the purchase or installation of certain goods and services." ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaInstrumentScheme ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Tax Incentives"@en .
+
+
+###  https://polianna-kg.org/Ontology#TradablePermit
+pol:TradablePermit rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#closeMatch> <http://eurovoc.europa.eu/5782> ;
+                   rdfs:comment "Refers to GHG emissions trading schemes or white certificate systems related to energy efficiency or energy savings obligations. In the former, industries must hold permits to cover their GHG emissions; if they emit more than the amount of permits they hold, they must purchase permits to make up the shortfall, creating an incentive to reduce energy use." ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaInstrumentScheme ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Tradable Permit"@en .
+
+
+###  https://polianna-kg.org/Ontology#VoluntaryAgrmt
+pol:VoluntaryAgrmt rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   rdfs:comment "Refers to measures that are undertaken voluntarily by government agencies or industry bodies, based on a formalized agreement. There are incentives and benefits to undertaking the action, but generally few legal penalties in case of noncompliance. The scope of the action tends to be agreed upon in concert with the relevant actors; for example, agreements to report RD&D activities or non-binding commitments to cooperation between actors." ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> pol:PoliannaInstrumentScheme ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Voluntary Agreement"@en .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

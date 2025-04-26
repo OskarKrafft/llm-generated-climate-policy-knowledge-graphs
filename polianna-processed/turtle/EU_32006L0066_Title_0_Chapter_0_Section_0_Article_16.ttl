@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_16 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:VoluntaryAgrmt ;
+    pol:fullText """article 16
+financing
+1.   member states shall ensure that producers, or third parties acting on their behalf, finance any net costs arising from:
+(a)
+the collection, treatment and recycling of all waste portable batteries and accumulators collected in accordance with article 8(1) and (2); and
+(b)
+the collection, treatment and recycling of all waste industrial and automotive batteries and accumulators collected in accordance with articles 8(3) and (4).
+2.   member states shall ensure that the implementation of paragraph 1 avoids any double charging of producers in the case of batteries or accumulators collected under schemes set up in accordance with directive 2000/53/ec or directive 2002/96/ec.
+3.   member states shall oblige producers, or third parties acting on their behalf, to finance any net costs arising from public information campaigns on the collection, treatment and recycling of all waste portable batteries and accumulators.
+4.   the costs of collection, treatment and recycling shall not be shown separately to end-users at the time of sale of new portable batteries and accumulators.
+5.   producers and users of industrial and automotive batteries and accumulators may conclude agreements stipulating financing arrangements other than the ones referred to in paragraph 1.
+6.   this article shall apply to all waste batteries and accumulators, irrespective of the date of their placing on the market."""^^xsd:string .
+

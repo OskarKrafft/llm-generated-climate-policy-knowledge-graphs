@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_37 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_37 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:fullText """article 37
+repeal
+directive 2009/28/ec, as amended by the directives listed in part a of annex x, is repealed with effect from 1 july 2021, without prejudice to the obligations of the member states relating to the time-limits for the transposition into national law of the directives set out in part b of annex x and without prejudice to the obligations of member states in 2020 as laid down in article 3(1) and set out in part a of annex i to directive 2009/28/ec.
+references to the repealed directive shall be construed as references to this directive and shall be read in accordance with the correlation table set out in annex xi."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_37_TimeCompliance_2 ;
+    pol:specifies_in_effect_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_37_TimeInEffect_1 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_37_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_37_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2021-07-01"^^xsd:date ;
+    pol:annotatedText "1 july 2021" .
+

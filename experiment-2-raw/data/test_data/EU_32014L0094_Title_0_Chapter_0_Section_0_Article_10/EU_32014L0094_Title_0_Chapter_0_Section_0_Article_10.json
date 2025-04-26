@@ -1,0 +1,212 @@
+[
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1",
+    "p": "annotatedText",
+    "o": "18 november 2019"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_5"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeInEffect_6",
+    "p": "annotatedText",
+    "o": "18 november 2020"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "18 november 2017"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_7"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "contains_instrument",
+    "o": "FrameworkPolicy"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_5",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeInEffect_6",
+    "p": "In_effect_date",
+    "o": "2020-11-18"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_8",
+    "p": "annotatedText",
+    "o": "31\u00a0december\u00a02018"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "32014L0094",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "imposes_monitoring",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "specifies_compliance_time",
+    "o": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_8"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "contains_instrument",
+    "o": "Edu_Outreach"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4",
+    "p": "annotatedText",
+    "o": "every three years with effect from 18 november 2020"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "every three years thereafter"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_7",
+    "p": "annotatedText",
+    "o": "31\u00a0december\u00a02020"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "imposes_monitoring",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "specifies_compliance_time",
+    "o": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1"
+  },
+  {
+    "s": "32014L0094",
+    "p": "hasArticle",
+    "o": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_8",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1",
+    "p": "Compliance_date",
+    "o": "2019-11-18"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_5",
+    "p": "annotatedText",
+    "o": "every three years"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_7",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeInEffect_6",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_8",
+    "p": "Compliance_date",
+    "o": "2018-12-31"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10",
+    "p": "specifies_in_effect_time",
+    "o": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeInEffect_6"
+  },
+  {
+    "s": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_4",
+    "p": "type",
+    "o": "Time_Monitoring"
+  }
+]

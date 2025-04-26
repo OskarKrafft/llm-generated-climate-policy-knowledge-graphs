@@ -1,0 +1,24 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32008R1099 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_07 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_07 a pol:PolicyArticle ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_in_effect_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_07_TimeInEffect_2,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_07_TimeInEffect_3 ;
+    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_07_TimeMonitoring_1,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_07_TimeMonitoring_4 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_07_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:annotatedText "the beginning of the calendar year following the adoption of this regulation" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_07_TimeInEffect_3 a pol:Time_InEffect ;
+    pol:annotatedText "beginning of the calendar year" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_07_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "time reference and frequency" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_07_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "frequencies" .
+

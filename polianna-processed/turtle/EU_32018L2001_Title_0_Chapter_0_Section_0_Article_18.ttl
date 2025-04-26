@@ -1,0 +1,19 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_18 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_18 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:fullText """article 18
+information and training
+1.   member states shall ensure that information on support measures is made available to all relevant actors, such as consumers including low-income, vulnerable consumers, renewables self-consumers, renewable energy communities, builders, installers, architects, suppliers of heating, cooling and electricity equipment and systems, and suppliers of vehicles compatible with the use of renewable energy and of intelligent transport systems.
+2.   member states shall ensure that information on the net benefits, cost and energy efficiency of equipment and systems for the use of heating, cooling and electricity from renewable sources is made available either by the supplier of the equipment or system or by the competent authorities.
+3.   member states shall ensure that certification schemes or equivalent qualification schemes are available for installers of small-scale biomass boilers and stoves, solar photovoltaic and solar thermal systems, shallow geothermal systems and heat pumps. those schemes may take into account existing schemes and structures as appropriate, and shall be based on the criteria laid down in annex iv. each member state shall recognise the certification awarded by other member states in accordance with those criteria.
+4.   member states shall make information on certification schemes or equivalent qualification schemes as referred to in paragraph 3 available to the public. member states may also make the list of installers who are qualified or certified in accordance with paragraph 3 available to the public.
+5.   member states shall ensure that guidance is made available to all relevant actors, in particular to planners and architects so that they are able properly to consider the optimal combination of energy from renewable sources, of high-efficiency technologies, and of district heating and cooling when planning, designing, building and renovating industrial, commercial or residential areas.
+6.   member states, where appropriate with the participation of local and regional authorities, shall develop suitable information, awareness-raising, guidance or training programmes in order to inform citizens of how to exercise their rights as active customers, and of the benefits and practicalities, including technical and financial aspects, of developing and using energy from renewable sources, including by renewables self-consumption or in the framework of renewable energy communities."""^^xsd:string .
+

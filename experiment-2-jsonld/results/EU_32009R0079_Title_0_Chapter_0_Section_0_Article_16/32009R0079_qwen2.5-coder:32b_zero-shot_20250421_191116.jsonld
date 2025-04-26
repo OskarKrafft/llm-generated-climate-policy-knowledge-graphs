@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "poliana": "http://data.europa.eu/polianna/ontology#"
+  },
+  "@type": "eli:LegalResource",
+  "dct:title": {
+    "@value": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+    "@language": "en"
+  },
+  "eli:hasIdentifier": [
+    {
+      "@type": "eli:Identifier",
+      "eli:schemeName": "CELEX",
+      "eli:keyValue": "32009R0079"
+    }
+  ],
+  "eli:isRealizedBy": [
+    {
+      "@type": "eli:Expression",
+      "dct:source": {
+        "@id": "http://data.europa.eu/eli/reg/2009/79/oj"
+      },
+      "eli:hasPart": [
+        {
+          "@type": "eli:Article",
+          "eli:number": "16",
+          "eli:expressionDate": "2009-01-01",
+          "dct:description": {
+            "@value": "This regulation shall enter into force on the 20th day following its publication in the official journal of the European Union. It shall apply from 24 February 2011, with the exception of Article 11(3) and Article 12, which shall apply from the date of entry into force of this regulation, and Article 11(2), which shall apply from the date set out therein. This regulation shall be binding in its entirety and directly applicable in all Member States.",
+            "@language": "en"
+          }
+        }
+      ]
+    }
+  ],
+  "poliana:annotatedBy": [
+    {
+      "@type": "poliana:Annotator",
+      "dct:title": "B"
+    },
+    {
+      "@type": "poliana:Annotator",
+      "dct:title": "F"
+    }
+  ]
+}

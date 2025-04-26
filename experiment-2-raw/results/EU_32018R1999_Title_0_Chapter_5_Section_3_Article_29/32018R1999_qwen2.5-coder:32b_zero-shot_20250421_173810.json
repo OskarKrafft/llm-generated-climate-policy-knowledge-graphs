@@ -1,0 +1,164 @@
+json
+[
+    {
+        "Subject": "Article_29",
+        "Predicate": "type",
+        "Object": "Article"
+    },
+    {
+        "Subject": "Article_29",
+        "Predicate": "Suffix",
+        "Object": "assessment_of_progress"
+    },
+    {
+        "Subject": "Article_29",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_1"
+    },
+    {
+        "Subject": "Paragraph_1",
+        "Predicate": "type",
+        "Object": "Paragraph"
+    },
+    {
+        "Subject": "Paragraph_1",
+        "Predicate": "Suffix",
+        "Object": "by_31_october_2021_and_every_two_years_thereafter"
+    },
+    {
+        "Subject": "Paragraph_1",
+        "Predicate": "hasPart",
+        "Object": "Point_a"
+    },
+    {
+        "Subject": "Point_a",
+        "Predicate": "type",
+        "Object": "Point"
+    },
+    {
+        "Subject": "Point_a",
+        "Predicate": "Suffix",
+        "Object": "progress_made_at_union_level"
+    },
+    {
+        "Subject": "Paragraph_1",
+        "Predicate": "hasPart",
+        "Object": "Point_b"
+    },
+    {
+        "Subject": "Point_b",
+        "Predicate": "type",
+        "Object": "Point"
+    },
+    {
+        "Subject": "Point_b",
+        "Predicate": "Suffix",
+        "Object": "progress_made_by_each_member_state"
+    },
+    {
+        "Subject": "Paragraph_1",
+        "Predicate": "hasPart",
+        "Object": "Point_c"
+    },
+    {
+        "Subject": "Point_c",
+        "Predicate": "type",
+        "Object": "Point"
+    },
+    {
+        "Subject": "Point_c",
+        "Predicate": "Suffix",
+        "Object": "overall_impact_of_aviation_on_the_global_climate"
+    },
+    {
+        "Subject": "Paragraph_1",
+        "Predicate": "hasPart",
+        "Object": "Point_d"
+    },
+    {
+        "Subject": "Point_d",
+        "Predicate": "type",
+        "Object": "Point"
+    },
+    {
+        "Subject": "Point_d",
+        "Predicate": "Suffix",
+        "Object": "overall_impact_of_policies_and_measures_on_union_climate_and_energy_policy_measures"
+    },
+    {
+        "Subject": "Paragraph_1",
+        "Predicate": "hasPart",
+        "Object": "Point_e"
+    },
+    {
+        "Subject": "Point_e",
+        "Predicate": "type",
+        "Object": "Point"
+    },
+    {
+        "Subject": "Point_e",
+        "Predicate": "Suffix",
+        "Object": "overall_impact_of_policies_and_measures_on_eu_ets"
+    },
+    {
+        "Subject": "Article_29",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_2"
+    },
+    {
+        "Subject": "Paragraph_2",
+        "Predicate": "type",
+        "Object": "Paragraph"
+    },
+    {
+        "Subject": "Paragraph_2",
+        "Predicate": "Suffix",
+        "Object": "renewable_energy_progress"
+    },
+    {
+        "Subject": "Article_29",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_3"
+    },
+    {
+        "Subject": "Paragraph_3",
+        "Predicate": "type",
+        "Object": "Paragraph"
+    },
+    {
+        "Subject": "Paragraph_3",
+        "Predicate": "Suffix",
+        "Object": "obligations_and_objectives_progress"
+    },
+    {
+        "Subject": "Article_29",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_4"
+    },
+    {
+        "Subject": "Paragraph_4",
+        "Predicate": "type",
+        "Object": "Paragraph"
+    },
+    {
+        "Subject": "Paragraph_4",
+        "Predicate": "Suffix",
+        "Object": "consider_latest_recommendations"
+    },
+    {
+        "Subject": "Article_29",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_5"
+    },
+    {
+        "Subject": "Paragraph_5",
+        "Predicate": "type",
+        "Object": "Paragraph"
+    },
+    {
+        "Subject": "Paragraph_5",
+        "Predicate": "Suffix",
+        "Object": "report_on_assessment"
+    }
+]
+```

@@ -1,0 +1,156 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "annotatedText": {
+                "value": "every two years"
+            },
+            "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_4",
+            "type": "Time_Monitoring"
+        },
+        {
+            "contains_instrument": [
+                {
+                    "id": "FrameworkPolicy"
+                },
+                {
+                    "id": "RegulatoryInstr"
+                }
+            ],
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "fullText": "article 3\nnotification of data\n1.\u00a0\u00a0\u00a0while keeping the collection and reporting burden proportionate, member states or the entities to which they delegate that task shall compile all the data and information required under this regulation as from 1 january 2015 and every two years thereafter.\nthey shall notify the data and relevant project information specified in this regulation to the commission in 2015, that year being the first reporting year, and from then onwards every two years. that notification shall be made in aggregated form, except for data and relevant information relating to cross-border transmission projects.\nmember states or their delegated entities shall notify aggregated data and relevant project information by 31 july of the reporting year concerned.\n2.\u00a0\u00a0\u00a0member states or their delegated entities are exempted from the obligations set out in paragraph 1, provided that, and to the extent that, pursuant to energy sector-specific legal acts of the union or the euratom treaty:\n(a)\nthe member state concerned or its delegated entity has already notified to the commission data or information equivalent to that required under this regulation and has indicated the date of that notification and the specific legal act concerned; or\n(b)\na specific body is entrusted with the preparation of a multi-annual investment plan in energy infrastructure at union level and, to that end, compiles data and information equivalent to that required under this regulation. in this case and for the purposes of this regulation, that specific body shall notify all the relevant data and information to the commission.",
+            "grants_monitoring_authority": {
+                "id": "eurovoc:4038"
+            },
+            "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+            "imposes_monitoring": {
+                "id": "Member_States"
+            },
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1"
+                },
+                {
+                    "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2"
+                },
+                {
+                    "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_3"
+                },
+                {
+                    "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_4"
+                },
+                {
+                    "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_5"
+                }
+            ],
+            "type": "PolicyArticle"
+        },
+        {
+            "hasArticle": {
+                "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03"
+            },
+            "id": "32014R0256",
+            "type": "PolicyDocument"
+        },
+        {
+            "annotatedText": {
+                "value": "2015"
+            },
+            "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "reporting year"
+            },
+            "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_3",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "1 january 2015 and every two years thereafter"
+            },
+            "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "31 july of the reporting year"
+            },
+            "id": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_5",
+            "type": "Time_Monitoring"
+        }
+    ]
+}

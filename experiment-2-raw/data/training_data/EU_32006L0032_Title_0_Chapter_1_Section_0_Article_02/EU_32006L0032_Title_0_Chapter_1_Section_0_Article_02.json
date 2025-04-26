@@ -1,0 +1,57 @@
+[
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_1"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "annotatedText",
+    "o": "13\u00a0october 2003"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "TradablePermit"
+  },
+  {
+    "s": "32006L0032",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "In_effect_date",
+    "o": "2003-10-13"
+  },
+  {
+    "s": "32006L0032",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  }
+]

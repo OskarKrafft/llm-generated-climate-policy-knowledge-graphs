@@ -1,0 +1,4 @@
+article 9
+procedures for completing emission estimates to compile the union inventory
+1.   the commission shall perform an initial check of the data submitted by member states pursuant to article 7(1) for accuracy. it shall send the results of that check to member states within six weeks of the submission deadline. member states shall respond to any relevant questions raised by the initial check by 15 march, together with the final inventory submission for the year x-2.
+2.   where a member state does not submit the inventory data required to compile the union inventory by 15 march, the commission may prepare estimates to complete the data submitted by the member state, in consultation and close cooperation with the member state concerned. the commission shall use, for this purpose, the guidelines applicable for preparing the national greenhouse gas inventories.

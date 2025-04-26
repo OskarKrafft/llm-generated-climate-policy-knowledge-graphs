@@ -1,0 +1,27 @@
+[
+  {
+    "s": "32004L0008",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "32004L0008",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "FrameworkPolicy"
+  }
+]

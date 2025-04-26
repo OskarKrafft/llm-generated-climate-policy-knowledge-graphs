@@ -1,0 +1,39 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_05 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_05 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 5
+content of the notification
+1.   with regard to investment projects of the types listed in the annex, the notification provided for in article 3 shall indicate, where appropriate:
+(a)
+the volume of the capacity planned or under construction;
+(b)
+the type and main characteristics of infrastructure or capacity planned or under construction, including the location of cross-border transmission projects, if applicable;
+(c)
+the probable year of commissioning;
+(d)
+the type of energy sources used;
+(e)
+the installations capable of responding to security of supply crises, such as equipment enabling reverse flows or fuel switching; and
+(f)
+the equipment of carbon capture systems or retrofitting mechanisms for carbon capture and storage.
+2.   with regard to any proposed decommissioning of capacities, the notification provided for in article 3 shall indicate:
+(a)
+the character and the capacity of the infrastructure concerned; and
+(b)
+the probable year of decommissioning.
+3.   any notification under article 3 shall include where appropriate:
+(a)
+the total volume of installed production, transmission and storage capacities which are in place at the beginning of the reporting year concerned or whose operation is interrupted for a period exceeding three years; and
+(b)
+relevant information concerning delays and/or obstacles to the implementation of an investment project, where member states, their delegated entities or the specific body concerned possess that information."""^^xsd:string ;
+    pol:grants_monitoring_authority pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_05_TimeMonitoring_1 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_05_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "reporting year" .
+

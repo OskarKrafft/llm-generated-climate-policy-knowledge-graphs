@@ -1,0 +1,26 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_4_Section_0_Article_31 .
+
+pol:EU_32019L0944_Title_0_Chapter_4_Section_0_Article_31 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TaxIncentives,
+        pol:TradablePermit ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 31
+tasks of distribution system operators
+1.   the distribution system operator shall be responsible for ensuring the long-term ability of the system to meet reasonable demands for the distribution of electricity, for operating, maintaining and developing under economic conditions a secure, reliable and efficient electricity distribution system in its area with due regard for the environment and energy efficiency.
+2.   in any event, the distribution system operator shall not discriminate between system users or classes of system users, particularly in favour of its related undertakings.
+3.   the distribution system operator shall provide system users with the information they need for efficient access to, including use of, the system.
+4.   a member state may require the distribution system operator, when dispatching generating installations, to give priority to generating installations using renewable sources or using high-efficiency cogeneration, in accordance with article 12 of regulation (eu) 2019/943.
+5.   each distribution system operator shall act as a neutral market facilitator in procuring the energy it uses to cover energy losses in its system in accordance with transparent, non-discriminatory and market-based procedures, where it has such a function.
+6.   where a distribution system operator is responsible for the procurement of products and services necessary for the efficient, reliable and secure operation of the distribution system, rules adopted by the distribution system operator for that purpose shall be objective, transparent and non-discriminatory, and shall be developed in coordination with transmission system operators and other relevant market participants. the terms and conditions, including rules and tariffs, where applicable, for the provision of such products and services to distribution system operators shall be established in accordance with article 59(7) in a non-discriminatory and cost-reflective way and shall be published.
+7.   in performing the tasks referred to in paragraph 6, the distribution system operator shall procure the non-frequency ancillary services needed for its system in accordance with transparent, non-discriminatory and market-based procedures, unless the regulatory authority has assessed that the market-based provision of non-frequency ancillary services is economically not efficient and has granted a derogation. the obligation to procure non-frequency ancillary services does not apply to fully integrated network components.
+8.   the procurement of the products and services referred to in paragraph 6 shall ensure the effective participation of all qualified market participants, including market participants offering energy from renewable sources, market participants engaged in demand response, operators of energy storage facilities and market participants engaged in aggregation, in particular by requiring regulatory authorities and distribution system operators in close cooperation with all market participants, as well as transmission system operators, to establish the technical requirements for participation in those markets on the basis of the technical characteristics of those markets and the capabilities of all market participants.
+9.   distribution system operators shall cooperate with transmission system operators for the effective participation of market participants connected to their grid in retail, wholesale and balancing markets. delivery of balancing services stemming from resources located in the distribution system shall be agreed with the relevant transmission system operator in accordance with article 57 of regulation (eu) 2019/943 and article 182 of commission regulation (eu) 2017/1485 (24).
+10.   member states or their designated competent authorities may allow distribution system operators to perform activities other than those provided for in this directive and in regulation (eu) 2019/943, where such activities are necessary for the distribution system operators to fulfil their obligations under this directive or regulation (eu) 2019/943, provided that the regulatory authority has assessed the necessity of such a derogation. this paragraph shall be without prejudice to the right of the distribution system operators to own, develop, manage or operate networks other than electricity networks where the member state or the designated competent authority has granted such a right."""^^xsd:string .
+

@@ -1,0 +1,22 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18 a pol:PolicyArticle ;
+    pol:addresses eurovoc:4060,
+        pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:imposes_monitoring pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_EconomicOperators ;
+    pol:specifies_compliance_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeCompliance_1 ;
+    pol:specifies_monitoring_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_1 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeCompliance_1 pol:Compliance_date "2012-12-31"^^xsd:date .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_1 pol:Monitoring_date "2010",
+        "2012" .
+

@@ -1,0 +1,100 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14 .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 14
+reports
+1.   member states that already use, for whatever purpose, calculation methods for measuring energy savings similar to those described in annex iv at the time of the entry into force of this directive may submit information at the appropriate level of detail to the commission. such submissions shall take place as soon as possible, preferably not later than 17 november 2006. this information will enable the commission to take due account of existing practices.
+2.   member states shall submit to the commission the following eeaps:
+—
+a first eeap not later than 30 june 2007;
+—
+a second eeap not later than 30 june 2011;
+—
+a third eeap not later than 30 june 2014.
+all eeaps shall describe the energy efficiency improvement measures planned to reach the targets set out in article 4(1) and (2), as well as to comply with the provisions on the exemplary role of the public sector and provision of information and advice to final customers set out in articles 5(1) and 7(2) respectively.
+the second and third eeaps shall:
+—
+include a thorough analysis and evaluation of the preceding eeap;
+—
+include the final results with regard to the fulfilment of the energy savings targets set out in article 4(1) and (2);
+—
+include plans for — and information on the anticipated effects of — additional measures which address any existing or expected shortfall vis-à-vis the target;
+—
+in accordance with article 15(4), use and gradually increase the use of harmonised efficiency indicators and benchmarks, both for the evaluation of past measures and estimated effects of planned future measures;
+—
+be based on available data, supplemented with estimates.
+3.   not later than 17 may 2008, the commission shall publish a cost/benefit impact assessment examining the linkages between eu standards, regulations, policies and measures on end‐use energy efficiency.
+4.   the eeaps shall be assessed in accordance with the procedure referred to in article 16(2):
+—
+the first eeaps shall be reviewed before 1 january 2008;
+—
+the second eeaps shall be reviewed before 1 january 2012;
+—
+the third eeaps shall be reviewed before 1 january 2015.
+5.   on the basis of the eeaps, the commission shall assess the extent to which member states have made progress towards achieving their national indicative energy savings targets. the commission shall publish reports with its conclusions:
+—
+on the first eeaps before 1 january 2008;
+—
+on the second eeaps before 1 january 2012;
+—
+on the third eeaps before 1 january 2015.
+these reports shall include information on related action at community level, including legislation currently in force and future legislation. the reports shall take into account the benchmarking system referred to in article 15(4), identify best practices, identify cases where member states and/or the commission are not making enough progress, and may contain recommendations.
+the second report shall be followed, as appropriate and where necessary, by proposals to the european parliament and to the council for additional measures including a possible extension of the period of application of targets. if the report concludes that insufficient progress has been made towards achieving the national indicative targets, these proposals shall address the level and nature of the targets."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_1,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_10,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_11,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_2,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_3,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_4,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_5,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_6,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_7,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_8,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_9 .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "17 november 2006" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_10 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2012" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_11 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2015" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "not later than 30 june 2007" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "not later than 30 june 2011" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "not later than 30 june 2014" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "not later than 17 may 2008" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_6 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2008" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_7 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2012" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_8 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2015" .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_TimeMonitoring_9 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2008" .
+

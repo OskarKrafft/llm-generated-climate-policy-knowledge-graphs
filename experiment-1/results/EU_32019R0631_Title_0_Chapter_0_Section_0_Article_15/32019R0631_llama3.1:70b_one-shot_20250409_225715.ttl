@@ -1,0 +1,48 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix poliana: <http://purl.org/net/poliana/> .
+
+<http://example.org/document/EURegulation2019>
+    a                        dct:Standard ;
+    dct:title                "EU Regulation 2019" ;
+    dct:description         "Regulation on CO2 emission standards for new passenger cars and light commercial vehicles in the EU" ;
+    dct:issued               "2019-04-17T00:00:00"^^xsd:dateTime ;
+    poliana:hasLegislativeText <http://example.org/document/EURegulation2019/LegislativeText> .
+
+<http://example.org/document/EURegulation2019/LegislativeText>
+    a                        dct:Text ;
+    dct:description         "The text of the EU Regulation 2019" ;
+    poliana:hasArticle       <http://example.org/document/EURegulation2019/Article1> .
+
+<http://example.org/document/EURegulation2019/Article1>
+    a                        poliana:Article ;
+    dct:title                "Review and reporting" ;
+    dct:description         "The Commission shall review and report on the implementation of this Regulation." ;
+    poliana:hasParagraph     <http://example.org/document/EURegulation2019/Article1/Paragraph1> .
+
+<http://example.org/document/EURegulation2019/Article1/Paragraph1>
+    a                        poliana:Paragraph ;
+    dct:description         "The Commission shall review and report on the implementation of this Regulation by 2027." ;
+    poliana:hasSentence      <http://example.org/document/EURegulation2019/Article1/Paragraph1/Sentence1> .
+
+<http://example.org/document/EURegulation2019/Article1/Paragraph1/Sentence1>
+    a                        poliana:Sentence ;
+    dct:description         "The Commission shall review and report on the implementation of this Regulation by 2027." ;
+    poliana:hasProvision     <http://example.org/document/EURegulation2019/Article1/Paragraph1/Sentence1/Provision1> .
+
+<http://example.org/document/EURegulation2019/Article1/Paragraph1/Sentence1/Provision1>
+    a                        poliana:Provision ;
+    dct:description         "The Commission shall review the real-world representativeness of the CO2 emission and fuel or energy consumption values determined pursuant to Regulation (EC) No 715/2007." ;
+    poliana:hasCondition     <http://example.org/document/EURegulation2019/Article1/Paragraph1/Sentence1/Provision1/Condition1> .
+
+<http://example.org/document/EURegulation2019/Article1/Paragraph1/Sentence1/Provision1/Condition1>
+    a                        poliana:Condition ;
+    dct:description         "The review shall consider, inter alia, the real-world representativeness of the CO2 emission and fuel or energy consumption values determined pursuant to Regulation (EC) No 715/2007." .
+
+<http://example.org/document/EURegulation2019>
+    poliana:hasLegislativeText <http://example.org/document/EURegulation2019/LegislativeText> .

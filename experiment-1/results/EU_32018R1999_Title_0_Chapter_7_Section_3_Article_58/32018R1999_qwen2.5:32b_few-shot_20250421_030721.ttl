@@ -1,0 +1,16 @@
+@prefix pola: <http://purl.org/polanna/ontology#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj>
+    a pola:Policy ;
+    dct:title "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58" ;
+    dct:identifier "32018R1999" ;
+    pola:annotatedText """
+by way of derogation from article 57 of this regulation, article 7 and points (a) and (d) of article 17(1) of regulation (eu) no 525/2013 shall continue to apply to the reports containing the data required under those articles for the years 2018, 2019 and 2020.
+article 11(3) of regulation (eu) no 525/2013 shall continue to apply as regards the second commitment period of the kyoto protocol.
+article 19 of regulation (eu) no 525/2013 shall continue to apply to the reviews of the greenhouse gas inventory data for the years 2018, 2019 and 2020.
+article 22 of regulation (eu) no 525/2013 shall continue to apply to the submission of the report required under that article.
+for the purpose of coherence and legal certainty, nothing in this regulation prevents the application of the derogations pursuant to the relevant union sectoral law in the area of electricity and electricity risk preparedness.""" ;
+    pola:annotator "A", "C" .
+
+.

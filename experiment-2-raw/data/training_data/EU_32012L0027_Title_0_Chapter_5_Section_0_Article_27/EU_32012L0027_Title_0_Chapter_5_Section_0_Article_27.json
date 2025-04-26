@@ -1,0 +1,102 @@
+[
+  {
+    "s": "TimeInEffect_2",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "TimeInEffect_3",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "Member_States"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_1"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "annotatedText",
+    "o": "1 january 2017"
+  },
+  {
+    "s": "TimeInEffect_2",
+    "p": "annotatedText",
+    "o": "5 june 2014"
+  },
+  {
+    "s": "TimeInEffect_3",
+    "p": "In_effect_date",
+    "o": "2014-06-05"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "TimeInEffect_3",
+    "p": "annotatedText",
+    "o": "5 june 2014"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32012L0027",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "32012L0027",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "TimeInEffect_2",
+    "p": "In_effect_date",
+    "o": "2014-06-05"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "In_effect_date",
+    "o": "2017-01-01"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_3"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_2"
+  }
+]

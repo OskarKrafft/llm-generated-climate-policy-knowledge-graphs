@@ -1,0 +1,83 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_compliance_time\",\n        \"o\": \"Time_Compliance_1\"\n    },\n    {\n        \"s\": \"Time_Compliance_1\",\n        \"p\": \"Compliance_date\",\n        \"o\": \"2022-04-30\"\n    },\n    {\n        \"s\": \"Time_Compliance_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"by 30 April 2022, each Member State shall report to the Commission on the achievement of its 2020 energy efficiency national target\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"Member_States\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective_1\"\n    },\n    {\n        \"s\": \"Objective_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"the achievement of its 2020 energy efficiency national target established pursuant to Article 3(1) of Directive 2012/27/EU\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective_2\"\n    },\n    {\n        \"s\": \"Objective_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"the national overall targets for the share of energy from renewable sources in 2020 as set out in Annex I to Directive 2009/28/EC\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_monitoring_form\",\n        \"o\": \"Form_monitoring\"\n    },\n    {\n        \"s\": \"Form_monitoring\",\n        \"p\": \"annotatedText\",\n        \"o\": \"by providing the information set out in Part 2 of Annex IX to this Regulation\"\n    }\n]",
+    "original_output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_compliance_time\",\n        \"o\": \"Time_Compliance_1\"\n    },\n    {\n        \"s\": \"Time_Compliance_1\",\n        \"p\": \"Compliance_date\",\n        \"o\": \"2022-04-30\"\n    },\n    {\n        \"s\": \"Time_Compliance_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"by 30 April 2022, each Member State shall report to the Commission on the achievement of its 2020 energy efficiency national target\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"Member_States\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective_1\"\n    },\n    {\n        \"s\": \"Objective_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"the achievement of its 2020 energy efficiency national target established pursuant to Article 3(1) of Directive 2012/27/EU\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective_2\"\n    },\n    {\n        \"s\": \"Objective_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"the national overall targets for the share of energy from renewable sources in 2020 as set out in Annex I to Directive 2009/28/EC\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_monitoring_form\",\n        \"o\": \"Form_monitoring\"\n    },\n    {\n        \"s\": \"Form_monitoring\",\n        \"p\": \"annotatedText\",\n        \"o\": \"by providing the information set out in Part 2 of Annex IX to this Regulation\"\n    }\n]\n```",
+    "generation_time": 4.21755313873291,
+    "output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_compliance_time\",\n        \"o\": \"Time_Compliance_1\"\n    },\n    {\n        \"s\": \"Time_Compliance_1\",\n        \"p\": \"Compliance_date\",\n        \"o\": \"2022-04-30\"\n    },\n    {\n        \"s\": \"Time_Compliance_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"by 30 April 2022, each Member State shall report to the Commission on the achievement of its 2020 energy efficiency national target\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"Member_States\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective_1\"\n    },\n    {\n        \"s\": \"Objective_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"the achievement of its 2020 energy efficiency national target established pursuant to Article 3(1) of Directive 2012/27/EU\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective_2\"\n    },\n    {\n        \"s\": \"Objective_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"the national overall targets for the share of energy from renewable sources in 2020 as set out in Annex I to Directive 2009/28/EC\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_monitoring_form\",\n        \"o\": \"Form_monitoring\"\n    },\n    {\n        \"s\": \"Form_monitoring\",\n        \"p\": \"annotatedText\",\n        \"o\": \"by providing the information set out in Part 2 of Annex IX to this Regulation\"\n    }\n]\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27",
+        "CELEX_Number": "32018R1999",
+        "ELI": "http://data.europa.eu/eli/reg/2018/1999/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "raw",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-21T02:53:06.303844",
+      "reconstructed_from_raw": true
+    },
+    "total_processing_time": 4.222465991973877,
+    "triple_count": 12
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "[\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_compliance_time\",\n    \"o\": \"TimeCompliance_1\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Compliance\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"Compliance_date\",\n    \"o\": \"2022-04-30\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"30 april 2022\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_objective\",\n    \"o\": \"Objective\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_instrument\",\n    \"o\": \"RegulatoryInstr\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"imposes_monitoring\",\n    \"o\": \"Member_States\"\n  }\n]",
+    "original_output": "```json\n[\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_compliance_time\",\n    \"o\": \"TimeCompliance_1\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Compliance\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"Compliance_date\",\n    \"o\": \"2022-04-30\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"30 april 2022\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_objective\",\n    \"o\": \"Objective\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_instrument\",\n    \"o\": \"RegulatoryInstr\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"imposes_monitoring\",\n    \"o\": \"Member_States\"\n  }\n]\n```",
+    "generation_time": 3.2439680099487305,
+    "output": "```json\n[\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_compliance_time\",\n    \"o\": \"TimeCompliance_1\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Compliance\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"Compliance_date\",\n    \"o\": \"2022-04-30\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"30 april 2022\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_objective\",\n    \"o\": \"Objective\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_instrument\",\n    \"o\": \"RegulatoryInstr\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"imposes_monitoring\",\n    \"o\": \"Member_States\"\n  }\n]\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27",
+        "CELEX_Number": "32018R1999",
+        "ELI": "http://data.europa.eu/eli/reg/2018/1999/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "raw",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-21T02:53:09.553226",
+      "reconstructed_from_raw": true
+    },
+    "total_processing_time": 3.2493510246276855,
+    "triple_count": 13
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "[\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_compliance_time\",\n    \"o\": \"TimeCompliance_1\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Compliance\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"Compliance_date\",\n    \"o\": \"2022-04-30\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"by 30 april 2022\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"grants_monitoring_authority\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_objective\",\n    \"o\": \"Objective\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_instrument\",\n    \"o\": \"RegulatoryInstr\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  }\n]",
+    "original_output": "```json\n[\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_compliance_time\",\n    \"o\": \"TimeCompliance_1\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Compliance\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"Compliance_date\",\n    \"o\": \"2022-04-30\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"by 30 april 2022\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"grants_monitoring_authority\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_objective\",\n    \"o\": \"Objective\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_instrument\",\n    \"o\": \"RegulatoryInstr\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  }\n]\n```",
+    "generation_time": 3.682309865951538,
+    "output": "```json\n[\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32018R1999\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_compliance_time\",\n    \"o\": \"TimeCompliance_1\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Compliance\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"Compliance_date\",\n    \"o\": \"2022-04-30\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"by 30 april 2022\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"grants_monitoring_authority\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_objective\",\n    \"o\": \"Objective\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_instrument\",\n    \"o\": \"RegulatoryInstr\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  }\n]\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27",
+        "CELEX_Number": "32018R1999",
+        "ELI": "http://data.europa.eu/eli/reg/2018/1999/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "raw",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-21T02:53:13.241078",
+      "reconstructed_from_raw": true
+    },
+    "total_processing_time": 3.687756061553955,
+    "triple_count": 13
+  }
+}

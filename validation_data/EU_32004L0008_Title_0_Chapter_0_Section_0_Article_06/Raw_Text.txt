@@ -1,0 +1,9 @@
+article 6
+national potentials for high-efficiency cogeneration
+1. member states shall establish an analysis of the national potential for the application of high-efficiency cogeneration, including high-efficiency micro-cogeneration.
+2. the analysis shall:
+- be based on well-documented scientific data and comply with the criteria listed in annex iv,
+- identify all potential for useful heating and cooling demands, suitable for application of high-efficiency cogeneration, as well as the availability of fuels and other energy resources to be utilised in cogeneration,
+- include a separate analysis of barriers, which may prevent the realisation of the national potential for high-efficiency cogeneration. in particular, this analysis shall consider barriers relating to the prices and costs of and access to fuels, barriers in relation to grid system issues, barriers in relation to administrative procedures, and barriers relating to the lack of internalisation of the external costs in energy prices.
+3. member states shall for the first time not later than 21 february 2007 and thereafter every four years, following a request by the commission at least six months before the due date, evaluate progress towards increasing the share of high-efficiency cogeneration.
+

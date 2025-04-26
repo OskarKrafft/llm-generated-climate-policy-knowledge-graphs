@@ -1,0 +1,21 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73> a pol:PolicyArticle ;
+    pol:annotatedText "This directive shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union." ;
+    pol:specifies_in_effect_time <https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_InEffectTime> ;
+    pol:specifies_compliance_time <https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_ComplianceTime_2021> ,
+                                   <https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_ComplianceTime_2020> ,
+                                   <https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_ComplianceTime_2020_October> .
+
+<https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_InEffectTime> a pol:Time_InEffect ;
+    pol:In_effect_date "2020-07-04"^^xsd:date .
+
+<https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_ComplianceTime_2021> a pol:Time_Compliance ;
+    pol:Compliance_date "2021-01-01"^^xsd:date .
+
+<https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_ComplianceTime_2020> a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date .
+
+<https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_ComplianceTime_2020_October> a pol:Time_Compliance ;
+    pol:Compliance_date "2020-10-26"^^xsd:date .

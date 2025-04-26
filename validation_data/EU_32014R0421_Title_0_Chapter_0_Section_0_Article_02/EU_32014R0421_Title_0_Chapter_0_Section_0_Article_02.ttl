@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0421 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_02 .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:specifies_in_effect_time pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_02_TimeInEffect_1,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_02_TimeInEffect_2,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_02_TimeInEffect_3 .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_02_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:annotatedText "on the date of its publication in the official journal of the european union" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_02_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2014-04-30"^^xsd:date ;
+    pol:annotatedText "from 30 april 2014" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_02_TimeInEffect_3 a pol:Time_InEffect ;
+    pol:In_effect_date "2014-04-30"^^xsd:date ;
+    pol:annotatedText "30 april 2014" .
+

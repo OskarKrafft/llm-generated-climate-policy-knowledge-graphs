@@ -1,0 +1,4 @@
+article 52
+amendment to council directive 2009/119/ec
+in article 6 of directive 2009/119/ec, paragraph 2 is replaced by the following:
+‘2.   by 15 march each year, each member state shall send the commission a summary copy of the stock register referred to in paragraph 1 showing at least the quantities and nature of the emergency stocks included in the register on the last day of the preceding calendar year.’.

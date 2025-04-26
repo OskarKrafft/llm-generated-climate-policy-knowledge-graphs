@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Promotion of Efficiency in Heating and Cooling"
+      },
+      "specifies_compliance_time": {
+        "id": "Time_Compliance",
+        "Compliance_date": "2015-12-31"
+      },
+      "specifies_monitoring_time": {
+        "id": "Time_Monitoring",
+        "Monitoring_date": "2013-12-31"
+      },
+      "contains_instrument": [
+        {
+          "id": "RegulatoryInstr",
+          "prefLabel": "Regulatory Instrument"
+        },
+        {
+          "id": "PublicInvestment",
+          "prefLabel": "Public Investment"
+        }
+      ],
+      "contains_objective": {
+        "id": "Objective",
+        "prefLabel": "High-efficiency cogeneration and efficient district heating and cooling"
+      },
+      "grants_monitoring_authority": {
+        "id": "eurovoc:4038",
+        "label": "European Commission"
+      },
+      "addresses": {
+        "id": "Member_States",
+        "label": "Member States"
+      },
+      "annotatedText": {
+        "value": "By 31 December 2015, Member States shall carry out and notify to the Commission a comprehensive assessment of the potential for the application of high-efficiency cogeneration and efficient district heating and cooling, containing the information set out in Annex VIII."
+      }
+    }
+  ]
+}

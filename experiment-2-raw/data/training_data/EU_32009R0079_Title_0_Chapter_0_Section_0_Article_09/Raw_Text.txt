@@ -1,0 +1,3 @@
+article 9
+requirements for hydrogen components, other than containers, designed to use compressed (gaseous) hydrogen
+hydrogen components, other than containers, designed to use compressed (gaseous) hydrogen shall be tested in accordance with the test procedures set out in annex v with regard to their type.

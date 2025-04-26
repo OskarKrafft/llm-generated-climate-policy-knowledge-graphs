@@ -1,0 +1,53 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eli: <http://data.europa.eu/eli/> .
+@prefix poliana: <https://example.com/poliana/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/okrafft/projects/LOLYLEG/eli/reg/2018/1999/oj/art_14> a poliana:Article ;
+    eli:has_part <file:///home/okrafft/projects/LOLYLEG/#paragraph_1>,
+        <file:///home/okrafft/projects/LOLYLEG/#paragraph_2>,
+        <file:///home/okrafft/projects/LOLYLEG/#paragraph_3>,
+        <file:///home/okrafft/projects/LOLYLEG/#paragraph_4> ;
+    dct:identifier "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14" ;
+    dct:title "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14" ;
+    skos:subject poliana:IntegratedNationalEnergyAndClimatePlan,
+        poliana:TimeCompliance ;
+    poliana:specifies_instrument <file:///home/okrafft/projects/LOLYLEG/eli/reg/2018/1999/oj> .
+
+<file:///home/okrafft/projects/LOLYLEG/#paragraph_1> a poliana:Paragraph ;
+    dct:description "By 30 June 2023, and subsequently by 1 January 2033 and every 10 years thereafter, each member state shall submit to the commission a draft update of the latest notified integrated national energy and climate plan or shall provide the commission with reasons justifying why the plan does not require updating." ;
+    poliana:specifies_time <file:///home/okrafft/projects/LOLYLEG/#time_1>,
+        <file:///home/okrafft/projects/LOLYLEG/#time_2> .
+
+<file:///home/okrafft/projects/LOLYLEG/#paragraph_2> a poliana:Paragraph ;
+    dct:description "By 30 June 2024, and subsequently by 1 January 2034 and every 10 years thereafter, each member state shall submit to the commission an update of its latest notified integrated national energy and climate plan, unless they have provided reasons why the plan does not require updating pursuant to paragraph 1." ;
+    poliana:specifies_time <file:///home/okrafft/projects/LOLYLEG/#time_3>,
+        <file:///home/okrafft/projects/LOLYLEG/#time_4> .
+
+<file:///home/okrafft/projects/LOLYLEG/#paragraph_3> a poliana:Paragraph ;
+    dct:description "In the update referred to in paragraph 2, each member state shall modify its national objective, target or contribution with regard to any of the quantified union objectives, targets or contributions set out in point (a)(1) of article 4 in order to increase the level of ambition compared to the latest notified integrated national energy and climate plan." .
+
+<file:///home/okrafft/projects/LOLYLEG/#paragraph_4> a poliana:Paragraph ;
+    dct:description "Each member state shall ensure that its updated integrated national energy and climate plan is in line with the long-term strategy referred to in Article 12 of Regulation (EU) 2018/1999." .
+
+<file:///home/okrafft/projects/LOLYLEG/#time_1> a poliana:Time_Compliance ;
+    poliana:Compliance_date "2023-06-30"^^xsd:date .
+
+<file:///home/okrafft/projects/LOLYLEG/#time_2> a poliana:Time_Compliance ;
+    poliana:Compliance_date "2033-01-01"^^xsd:date .
+
+<file:///home/okrafft/projects/LOLYLEG/#time_3> a poliana:Time_Compliance ;
+    poliana:Compliance_date "2024-06-30"^^xsd:date .
+
+<file:///home/okrafft/projects/LOLYLEG/#time_4> a poliana:Time_Compliance ;
+    poliana:Compliance_date "2034-01-01"^^xsd:date .
+
+<file:///home/okrafft/projects/LOLYLEG/eli/reg/2018/1999/oj> a poliana:RegulatoryInstrument .
+
+poliana:IntegratedNationalEnergyAndClimatePlan a skos:Concept ;
+    skos:prefLabel "Integrated National Energy and Climate Plan" .
+
+poliana:TimeCompliance a skos:Concept ;
+    skos:prefLabel "Submission Dates for Updates" .
+

@@ -1,0 +1,80 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32019L0944 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02020\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-10-26\"^^xsd:date ;\n    pol:annotatedText \"26\u00a0october 2020\" .",
+    "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32019L0944 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02020\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-10-26\"^^xsd:date ;\n    pol:annotatedText \"26\u00a0october 2020\" .",
+    "generation_time": 6.959697246551514,
+    "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32019L0944 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02020\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-10-26\"^^xsd:date ;\n    pol:annotatedText \"26\u00a0october 2020\" .",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73",
+        "CELEX_Number": "32019L0944",
+        "ELI": "http://data.europa.eu/eli/dir/2019/944/oj",
+        "Annotators": [
+          "A",
+          "B"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:34:43.973530"
+    },
+    "total_processing_time": 6.972378969192505,
+    "triple_count": 19
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32019L0944 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-20\"^^xsd:date ;\n    pol:annotatedText \"twentieth day following that of its publication in the official journal of the european union\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02020\" .",
+    "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32019L0944 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-20\"^^xsd:date ;\n    pol:annotatedText \"twentieth day following that of its publication in the official journal of the european union\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02020\" .",
+    "generation_time": 6.69544792175293,
+    "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32019L0944 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-20\"^^xsd:date ;\n    pol:annotatedText \"twentieth day following that of its publication in the official journal of the european union\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02020\" .",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73",
+        "CELEX_Number": "32019L0944",
+        "ELI": "http://data.europa.eu/eli/dir/2019/944/oj",
+        "Annotators": [
+          "A",
+          "B"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:34:50.680335"
+    },
+    "total_processing_time": 6.703230857849121,
+    "triple_count": 19
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32019L0944 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-20\"^^xsd:date ;\n    pol:annotatedText \"twentieth day following that of its publication in the official journal of the european union\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02020\" .",
+    "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32019L0944 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-20\"^^xsd:date ;\n    pol:annotatedText \"twentieth day following that of its publication in the official journal of the european union\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02020\" .",
+    "generation_time": 6.814502239227295,
+    "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:32019L0944 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73 a pol:PolicyArticle ;\n    pol:specifies_in_effect_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3,\n        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_1 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-20\"^^xsd:date ;\n    pol:annotatedText \"twentieth day following that of its publication in the official journal of the european union\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_2 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_3 a pol:Time_InEffect ;\n    pol:In_effect_date \"2021-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02021\" .\n\npol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_TimeInEffect_4 a pol:Time_InEffect ;\n    pol:In_effect_date \"2020-01-01\"^^xsd:date ;\n    pol:annotatedText \"1\u00a0january\u00a02020\" .",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73",
+        "CELEX_Number": "32019L0944",
+        "ELI": "http://data.europa.eu/eli/dir/2019/944/oj",
+        "Annotators": [
+          "A",
+          "B"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "ttl",
+      "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+      "timestamp": "2025-04-20T23:34:57.504436"
+    },
+    "total_processing_time": 6.8251869678497314,
+    "triple_count": 19
+  }
+}

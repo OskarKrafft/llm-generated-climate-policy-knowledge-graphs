@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_02 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:fullText """article 2
+scope
+this regulation shall apply to:
+1.
+hydrogen-powered vehicles of categories m and n, as defined in section a of annex ii to directive 2007/46/ec, including impact protection and the electric safety of such vehicles;
+2.
+hydrogen components designed for motor vehicles of categories m and n, as listed in annex i;
+3.
+hydrogen systems designed for motor vehicles of categories m and n, including new forms of hydrogen storage or usage."""^^xsd:string .
+

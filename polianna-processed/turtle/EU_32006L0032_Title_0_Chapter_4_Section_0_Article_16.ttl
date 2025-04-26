@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_16 .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:fullText """article 16
+committee
+1.   the commission shall be assisted by a committee.
+2.   where reference is made to this paragraph, articles 5 and 7 of decision 1999/468/ec shall apply, having regard to the provisions of article 8 thereof.
+the period laid down in article 5(6) of decision 1999/468/ec shall be set at three months.
+3.   the committee shall adopt its rules of procedure."""^^xsd:string .
+

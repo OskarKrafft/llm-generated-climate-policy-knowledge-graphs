@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@type": "poliana:Article",
+  "poliana:title": "Sustainability Criteria for Biofuels and Bioliquids",
+  "poliana:paragraphs": [
+    {
+      "@type": "poliana:Paragraph",
+      "rdfs:label": "1",
+      "poliana:text": "Below are the sustainability criteria for biofuels and bioliquids."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "rdfs:label": "2",
+      "poliana:text": "Biofuels and bioliquids must meet specific greenhouse gas emission reduction targets, with stricter requirements for fuels produced after 31 December 2017."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "rdfs:label": "3",
+      "poliana:text": "Criteria include limitations on the use of land with high biodiversity value and carbon stock, such as primary forests, peatlands, and wetlands."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "rdfs:label": "4",
+      "poliana:text": "Adequate measures must be taken to ensure that biofuel production does not lead to deforestation or forest degradation."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "rdfs:label": "5",
+      "poliana:text": "Biofuels and bioliquids produced from agricultural raw materials cultivated in the Community must comply with specific environmental standards."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "rdfs:label": "6",
+      "poliana:text": "The Commission shall report every two years on measures taken to respect sustainability criteria and their impact on food availability and prices, among other issues."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "rdfs:label": "7",
+      "poliana:text": "Member States must not refuse to take into account biofuels and bioliquids that comply with the sustainability criteria for other reasons."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "rdfs:label": "8",
+      "poliana:text": "The Commission shall report on requirements for a sustainability scheme for energy uses of biomass, other than biofuels and bioliquids, by 31 December 2009."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Article 1: Subject Matter and Objectives"
+      },
+      "is_about": [
+        {
+          "id": "Objective",
+          "type": "skos:Concept",
+          "prefLabel": "CO2 Emissions Performance Requirements"
+        },
+        {
+          "id": "eurovoc:4060",
+          "type": "Organization",
+          "label": {
+            "value": "European Union"
+          }
+        }
+      ],
+      "contains_objective": [
+        {
+          "id": "Objective_2020",
+          "type": "skos:Concept",
+          "prefLabel": "2020 CO2 Emissions Target",
+          "comment": {
+            "value": "EU fleet-wide target of 95 g CO2/km for new passenger cars and 147 g CO2/km for new light commercial vehicles."
+          }
+        },
+        {
+          "id": "Objective_2025",
+          "type": "skos:Concept",
+          "prefLabel": "2025 CO2 Emissions Target",
+          "comment": {
+            "value": "15% reduction of the 2021 target for new passenger cars and light commercial vehicles."
+          }
+        },
+        {
+          "id": "Objective_2030",
+          "type": "skos:Concept",
+          "prefLabel": "2030 CO2 Emissions Target",
+          "comment": {
+            "value": "37.5% reduction for passenger cars and 31% reduction for light commercial vehicles from the 2021 target."
+          }
+        }
+      ],
+      "specifies_time": [
+        {
+          "id": "Time_InEffect_2020",
+          "type": "Time_InEffect",
+          "In_effect_date": "2020-01-01"
+        },
+        {
+          "id": "Time_InEffect_2025",
+          "type": "Time_InEffect",
+          "In_effect_date": "2025-01-01"
+        },
+        {
+          "id": "Time_InEffect_2030",
+          "type": "Time_InEffect",
+          "In_effect_date": "2030-01-01"
+        }
+      ],
+      "annotatedText": {
+        "value": "This regulation establishes CO2 emissions performance requirements for new passenger cars and for new light commercial vehicles in order to contribute to achieving the Union's target of reducing its greenhouse gas emissions, as laid down in Regulation (EU) 2018/842, and the objectives of the Paris Agreement and to ensure the proper functioning of the internal market."
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_19 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_19 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States .
+

@@ -1,0 +1,13 @@
+article 23
+data management
+1.   when laying down the rules regarding the management and exchange of data, member states or, where a member state has so provided, the designated competent authorities shall specify the rules on the access to data of the final customer by eligible parties in accordance with this article and the applicable union legal framework. for the purpose of this directive, data shall be understood to include metering and consumption data as well as data required for customer switching, demand response and other services.
+2.   member states shall organise the management of data in order to ensure efficient and secure data access and exchange, as well as data protection and data security.
+independently of the data management model applied in each member state, the parties responsible for data management shall provide access to the data of the final customer to any eligible party, in accordance with paragraph 1. eligible parties shall have the requested data at their disposal in a non-discriminatory manner and simultaneously. access to data shall be easy and the relevant procedures for obtaining access to data shall be made publicly available.
+3.   the rules on access to data and data storage for the purpose of this directive shall comply with the relevant union law.
+the processing of personal data within the framework of this directive shall be carried out in accordance with regulation (eu) 2016/679.
+4.   member states or, where a member state has so provided, the designated competent authorities, shall authorise and certify or, where applicable, supervise the parties responsible for the data management, in order to ensure that they comply with the requirements of this directive.
+without prejudice to the tasks of the data protection officers under regulation (eu) 2016/679, member states may decide to require that parties responsible for the data management appoint compliance officers who are to be responsible for monitoring the implementation of measures taken by those parties to ensure non-discriminatory access to data and compliance with the requirements of this directive.
+member states may appoint compliance officers or bodies referred to in point (d) of article 35(2) of this directive to fulfil the obligations under this paragraph.
+5.   no additional costs shall be charged to final customers for access to their data or for a request to make their data available.
+member states shall be responsible for setting the relevant charges for access to data by eligible parties.
+member states or, where a member state has so provided, the designated competent authorities shall ensure that any charges imposed by regulated entities that provide data services are reasonable and duly justified.

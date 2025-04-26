@@ -1,0 +1,83 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2015-01-01\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"as from 1 january 2015 and every two years thereafter\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"eurovoc:4060\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"Member_States\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_2\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2015-07-31\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"by 31 july of the reporting year concerned\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"grants_monitoring_authority\",\n        \"o\": \"eurovoc:4038\"\n    }\n]",
+    "original_output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2015-01-01\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"as from 1 january 2015 and every two years thereafter\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"eurovoc:4060\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"Member_States\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_2\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2015-07-31\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"by 31 july of the reporting year concerned\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"grants_monitoring_authority\",\n        \"o\": \"eurovoc:4038\"\n    }\n]\n```",
+    "generation_time": 3.360121965408325,
+    "output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2015-01-01\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"as from 1 january 2015 and every two years thereafter\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"eurovoc:4060\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"Member_States\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_2\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2015-07-31\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"by 31 july of the reporting year concerned\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"grants_monitoring_authority\",\n        \"o\": \"eurovoc:4038\"\n    }\n]\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+        "CELEX_Number": "32014R0256",
+        "ELI": "http://data.europa.eu/eli/reg/2014/256/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "raw",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-21T02:50:43.942330",
+      "reconstructed_from_raw": true
+    },
+    "total_processing_time": 3.3651719093322754,
+    "triple_count": 10
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "[\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_1\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"1 january 2015 and every two years thereafter\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_2\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"31 july of the reporting year concerned\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_instrument\",\n    \"o\": \"RegulatoryInstr\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  }\n]",
+    "original_output": "```json\n[\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_1\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"1 january 2015 and every two years thereafter\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_2\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"31 july of the reporting year concerned\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_instrument\",\n    \"o\": \"RegulatoryInstr\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  }\n]\n```",
+    "generation_time": 3.8877878189086914,
+    "output": "```json\n[\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_1\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"1 january 2015 and every two years thereafter\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_2\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"31 july of the reporting year concerned\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_instrument\",\n    \"o\": \"RegulatoryInstr\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  }\n]\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+        "CELEX_Number": "32014R0256",
+        "ELI": "http://data.europa.eu/eli/reg/2014/256/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "raw",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-21T02:50:47.835583",
+      "reconstructed_from_raw": true
+    },
+    "total_processing_time": 3.8935961723327637,
+    "triple_count": 13
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "[\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"imposes_monitoring\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"grants_monitoring_authority\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_1\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"1 january 2015 and every two years thereafter\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_2\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"31 july of the reporting year concerned\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  }\n]",
+    "original_output": "```json\n[\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"imposes_monitoring\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"grants_monitoring_authority\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_1\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"1 january 2015 and every two years thereafter\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_2\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"31 july of the reporting year concerned\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  }\n]\n```",
+    "generation_time": 3.778513193130493,
+    "output": "```json\n[\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"32014R0256\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"imposes_monitoring\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"grants_monitoring_authority\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_1\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"1 january 2015 and every two years thereafter\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_monitoring_time\",\n    \"o\": \"TimeMonitoring_2\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_Monitoring\"\n  },\n  {\n    \"s\": \"TimeMonitoring_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"31 july of the reporting year concerned\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_monitoring_form\",\n    \"o\": \"Form_monitoring\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  }\n]\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+        "CELEX_Number": "32014R0256",
+        "ELI": "http://data.europa.eu/eli/reg/2014/256/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "raw",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-21T02:50:51.619795",
+      "reconstructed_from_raw": true
+    },
+    "total_processing_time": 3.7867960929870605,
+    "triple_count": 14
+  }
+}

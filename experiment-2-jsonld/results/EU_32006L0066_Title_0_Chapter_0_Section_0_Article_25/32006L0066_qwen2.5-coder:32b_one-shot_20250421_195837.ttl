@@ -1,0 +1,10 @@
+@prefix eli: <http://data.europa.eu/eli/> .
+
+<http://data.europa.eu/eli/dir/2006/66/oj#article_25> a eli:Article ;
+    eli:has_part <file:///home/okrafft/projects/LOLYLEG/#section1> ;
+    eli:number "25" ;
+    eli:title "penalties" .
+
+<file:///home/okrafft/projects/LOLYLEG/#section1> a eli:Section ;
+    eli:text "Member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive." .
+

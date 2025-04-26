@@ -1,0 +1,11 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_4_Section_0_Article_21 .
+
+pol:EU_32012L0027_Title_0_Chapter_4_Section_0_Article_21 a pol:PolicyArticle ;
+    pol:fullText """article 21
+conversion factors
+for the purpose of comparison of energy savings and conversion to a comparable unit, the conversion factors set out in annex iv shall apply unless the use of other conversion factors can be justified."""^^xsd:string .
+

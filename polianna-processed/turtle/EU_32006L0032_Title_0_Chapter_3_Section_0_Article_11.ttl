@@ -1,0 +1,18 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_11 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:PublicInvt,
+        pol:Subsidies_Incentives ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 11
+funds and funding mechanisms
+1.   without prejudice to articles 87 and 88 of the treaty, member states may establish a fund or funds to subsidise the delivery of energy efficiency improvement programmes and other energy efficiency improvement measures and to promote the development of a market for energy efficiency improvement measures. such measures shall include the promotion of energy auditing, financial instruments for energy savings and, where appropriate, improved metering and informative billing. the funds shall also target end-use sectors with higher transaction costs and higher risks.
+2.   if established, the funds may provide for grants, loans, financial guarantees and/or other types of financing that guarantee results.
+3.   the funds shall be open to all providers of energy efficiency improvement measures, such as escos, independent energy advisors, energy distributors, distribution system operators, retail energy sales companies and installers. member states may decide to open the funds to all final customers. tendering or equivalent methods which ensure complete transparency shall be carried out in full compliance with applicable public procurement regulations. member states shall ensure that such funds complement, and do not compete with, commercially-financed energy efficiency improvement measures."""^^xsd:string .
+

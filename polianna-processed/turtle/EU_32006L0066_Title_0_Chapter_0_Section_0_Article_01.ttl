@@ -1,0 +1,18 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 1
+subject-matter
+this directive establishes:
+(1)
+rules regarding the placing on the market of batteries and accumulators and, in particular, a prohibition on the placing on the market of batteries and accumulators containing hazardous substances; and
+(2)
+specific rules for the collection, treatment, recycling and disposal of waste batteries and accumulators to supplement relevant community legislation on waste and to promote a high level of collection and recycling of waste batteries and accumulators.
+it seeks to improve the environmental performance of batteries and accumulators and of the activities of all economic operators involved in the life cycle of batteries and accumulators, e.g. producers, distributors and end-users and, in particular, those operators directly involved in the treatment and recycling of waste batteries and accumulators."""^^xsd:string .
+

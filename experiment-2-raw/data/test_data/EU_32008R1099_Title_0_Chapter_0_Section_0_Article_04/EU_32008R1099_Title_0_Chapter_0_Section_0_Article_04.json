@@ -1,0 +1,72 @@
+[
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "annual"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "monthly"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "short-term monthly"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "32008R1099",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "32008R1099",
+    "p": "hasArticle",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "poliana": "http://data.europa.eu/polianna/",
+    "eli": "http://data.europa.eu/eli/",
+    "celex": "http://publications.europa.eu/resource/authority/legal-text-type/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "poliana:LegalAct",
+  "poliana:title": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+  "poliana:celexNumber": "32012L0027",
+  "eli:hasIdentifier": {
+    "@type": "eli:Identifier",
+    "eli:schemeName": "CELEX",
+    "eli:keyValue": "32012L0027"
+  },
+  "poliana:eli": "http://data.europa.eu/eli/dir/2012/27/oj",
+  "poliana:annotators": ["C", "F"],
+  "poliana:hasArticle": {
+    "@type": "poliana:Article",
+    "poliana:number": "8",
+    "poliana:title": "energy audits and energy management systems",
+    "poliana:paragraphs": [
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "1",
+        "poliana:text": "member states shall promote the availability to all final customers of high quality energy audits which are cost-effective and:\n(a)\ncarried out in an independent manner by qualified and/or accredited experts according to qualification criteria; or\n(b)\nimplemented and supervised by independent authorities under national legislation.\nthe energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the member state concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out.\nfor the purpose of guaranteeing the high quality of the energy audits and energy management systems, member states shall establish transparent and non-discriminatory minimum criteria for energy audits based on annex vi.\nenergy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "2",
+        "poliana:text": "member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits.\non the basis of transparent and non-discriminatory criteria and without prejudice to union state aid law, member states may set up support schemes for smes, including if they have concluded voluntary agreements, to cover costs of an energy audit and of the implementation of highly cost-effective recommendations from the energy audits, if the proposed measures are implemented.\nmember states shall bring to the attention of smes, including through their respective representative intermediary organisations, concrete examples of how energy management systems could help their businesses. the commission shall assist member states by supporting the exchange of best practices in this domain."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "3",
+        "poliana:text": "member states shall also develop programmes to raise awareness among households about the benefits of such audits through appropriate advice services.\nmember states shall encourage training programmes for the qualification of energy auditors in order to facilitate sufficient availability of experts."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "4",
+        "poliana:text": "member states shall ensure that enterprises that are not smes are subject to an energy audit carried out in an independent and cost-effective manner by qualified and/or accredited experts or implemented and supervised by independent authorities under national legislation by 5 december 2015 and at least every four years from the date of the previous energy audit."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "5",
+        "poliana:text": "energy audits shall be considered as fulfilling the requirements of paragraph 4 when they are carried out in an independent manner, on the basis of minimum criteria based on annex vi, and implemented under voluntary agreements concluded between organisations of stakeholders and an appointed body and supervised by the member state concerned, or other bodies to which the competent authorities have delegated the responsibility concerned, or by the commission.\naccess of market participants offering energy services shall be based on transparent and non-discriminatory criteria."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "6",
+        "poliana:text": "enterprises that are not smes and that are implementing an energy or environmental management system - certified by an independent body according to the relevant european or international standards - shall be exempted from the requirements of paragraph 4, provided that member states ensure that the management system concerned includes an energy audit on the basis of the minimum criteria based on annex vi."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "7",
+        "poliana:text": "the energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the member state concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out.\nfor the purpose of guaranteeing the high quality of the energy audits and energy management systems, member states shall establish transparent and non-discriminatory minimum criteria for energy audits based on annex vi.\nenergy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "8",
+        "poliana:text": "enterprises that are not smes and that are implementing an energy or environmental management system - certified by an independent body according to the relevant european or international standards - shall be exempted from the requirements of paragraph 4, provided that member states ensure that the management system concerned includes an energy audit on the basis of the minimum criteria based on annex vi."
+      }
+    ]
+  }
+}

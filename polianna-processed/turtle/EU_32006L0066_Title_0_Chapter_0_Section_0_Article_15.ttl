@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_15 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_15 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:fullText """article 15
+exports
+1.   treatment and recycling may be undertaken outside the member state concerned or outside the community, provided that the shipment of waste batteries and accumulators is in compliance with council regulation (eec) no 259/93 of 1 february 1993 on the supervision and control of shipments of waste within, into and out of the european community (22).
+2.   waste batteries and accumulators exported out of the community in accordance with regulation (eec) no 259/93, council regulation (ec) no 1420/1999 of 29 april 1999 establishing common rules and procedures to apply to shipments to certain non-oecd countries of certain types of waste (23) and commission regulation (ec) no 1547/1999 of 12 july 1999 determining the control procedures under council regulation (eec) no 259/93 to apply to shipments of certain types of waste to certain countries to which oecd decision c(92)39 final does not apply (24) shall count towards the fulfilment of the obligations and efficiencies laid down in annex iii to this directive only if there is sound evidence that the recycling operation took place under conditions equivalent to the requirements of this directive.
+3.   detailed rules for the implementation of this article shall be laid down in accordance with the procedure referred to in article 24(2)."""^^xsd:string .
+

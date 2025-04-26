@@ -1,0 +1,38 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_10 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:fullText """article 10
+billing information
+1.   where final customers do not have smart meters as referred to in directives 2009/72/ec and 2009/73/ec, member states shall ensure, by 31 december 2014, that billing information is accurate and based on actual consumption, in accordance with point 1.1 of annex vii, for all the sectors covered by this directive, including energy distributors, distribution system operators and retail energy sales companies, where this is technically possible and economically justified.
+this obligation may be fulfilled by a system of regular self-reading by the final customers whereby they communicate readings from their meter to the energy supplier. only when the final customer has not provided a meter reading for a given billing interval shall billing be based on estimated consumption or a flat rate.
+2.   meters installed in accordance with directives 2009/72/ec and 2009/73/ec shall enable accurate billing information based on actual consumption. member states shall ensure that final customers have the possibility of easy access to complementary information on historical consumption allowing detailed self-checks.
+complementary information on historical consumption shall include:
+(a)
+cumulative data for at least the three previous years or the period since the start of the supply contract if this is shorter. the data shall correspond to the intervals for which frequent billing information has been produced; and
+(b)
+detailed data according to the time of use for any day, week, month and year. these data shall be made available to the final customer via the internet or the meter interface for the period of at least the previous 24 months or the period since the start of the supply contract if this is shorter.
+3.   independently of whether smart meters have been installed or not, member states:
+(a)
+shall require that, to the extent that information on the energy billing and historical consumption of final customers is available, it be made available, at the request of the final customer, to an energy service provider designated by the final customer;
+(b)
+shall ensure that final customers are offered the option of electronic billing information and bills and that they receive, on request, a clear and understandable explanation of how their bill was derived, especially where bills are not based on actual consumption;
+(c)
+shall ensure that appropriate information is made available with the bill to provide final customers with a comprehensive account of current energy costs, in accordance with annex vii;
+(d)
+may lay down that, at the request of the final customer, the information contained in these bills shall not be considered to constitute a request for payment. in such cases, member states shall ensure that suppliers of energy sources offer flexible arrangements for actual payments;
+(e)
+shall require that information and estimates for energy costs are provided to consumers on demand in a timely manner and in an easily understandable format enabling consumers to compare deals on a like-for-like basis."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_10_TimeCompliance_1 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_10_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2014-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2014" .
+

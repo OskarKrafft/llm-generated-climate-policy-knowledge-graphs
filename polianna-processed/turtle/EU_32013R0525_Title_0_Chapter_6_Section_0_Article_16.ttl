@@ -1,0 +1,24 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_6_Section_0_Article_16 .
+
+pol:EU_32013R0525_Title_0_Chapter_6_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 16
+reporting on financial and technology support provided to developing countries
+1.   member states shall cooperate with the commission to allow timely coherent reporting by the union and its member states on support provided to developing countries in accordance with the relevant provisions of the unfccc, as applicable, including any common format agreed under the unfccc, and to ensure annual reporting by 30 september.
+2.   where relevant or applicable under the unfccc, member states shall endeavour to provide information on financial flows based on the so-called ‘rio markers’ for climate change mitigation-related support and climate change adaptation-related support introduced by the oecd development assistance committee and methodological information concerning the implementation of the climate change rio markers methodology.
+3.   where information is reported on private financial flows mobilised, it shall include information on the definitions and methodologies used to determine any figures.
+4.   in accordance with decisions adopted by the bodies of the unfccc or the kyoto protocol or of agreements deriving from them or succeeding them, information on support provided shall include information on support for mitigation, adaptation, capacity-building and technology transfer and, if possible, information as to whether financial resources are new and additional."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4060>,
+        pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_6_Section_0_Article_16_TimeMonitoring_1 .
+
+pol:EU_32013R0525_Title_0_Chapter_6_Section_0_Article_16_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "30 september" .
+

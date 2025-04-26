@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32004L0008 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 1
+purpose
+the purpose of this directive is to increase energy efficiency and improve security of supply by creating a framework for promotion and development of high efficiency cogeneration of heat and power based on useful heat demand and primary energy savings in the internal energy market, taking into account the specific national circumstances especially concerning climatic and economic conditions."""^^xsd:string .
+

@@ -1,0 +1,32 @@
+[
+  {
+    "s": "32004L0008",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "32004L0008",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "TaxIncentives"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  }
+]

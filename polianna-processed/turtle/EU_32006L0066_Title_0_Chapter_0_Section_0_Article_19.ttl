@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_19 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_19 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:fullText """article 19
+participation
+1.   member states shall ensure that all economic operators and all competent public authorities may participate in the collection, treatment and recycling schemes referred to in articles 8 and 12.
+2.   these schemes shall also apply to batteries and accumulators imported from third countries under non-discriminatory conditions and shall be designed to avoid barriers to trade or distortions of competition."""^^xsd:string .
+

@@ -1,0 +1,17 @@
+[
+  {
+    "s": "32009R0079",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "32009R0079",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  }
+]

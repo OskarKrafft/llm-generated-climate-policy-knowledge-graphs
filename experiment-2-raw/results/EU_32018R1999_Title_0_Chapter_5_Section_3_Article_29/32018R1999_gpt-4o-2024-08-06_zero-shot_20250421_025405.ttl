@@ -1,0 +1,44 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29 a pol:PolicyArticle ;
+    pol:contains_objective pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_1,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_10,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_11,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_2,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_3,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_4,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_5,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_6,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_7,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_8,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_9 ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_TimeMonitoring_1 .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_1 pol:annotatedText "the progress made at union level towards meeting the objectives of the energy union, including for the first ten-year period the union's 2030 targets for energy and climate" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_10 pol:annotatedText "obligations set out in Article 4 of Regulation (EU) 2018/842 and in Article 4 of Regulation (EU) 2018/841" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_11 pol:annotatedText "the objectives set out in the integrated national energy and climate plan with a view to achieving the energy union objectives" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_2 pol:annotatedText "the progress made by each member state towards meeting its objectives, targets and contributions and implementing the policies and measures set out in its integrated national energy and climate plan" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_3 pol:annotatedText "the overall impact of aviation on the global climate, including through non-CO2 emissions or effects" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_4 pol:annotatedText "the overall impact of the policies and measures of the integrated national energy and climate plans on the operation of the union climate and energy policy measures" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_5 pol:annotatedText "the overall impact of the policies and measures included in the integrated national energy and climate plans on the operation of the European Union's emission trading system (EU ETS) and on the supply-demand balance of allowances in the European carbon market" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_6 pol:annotatedText "the progress made in the share of energy from renewable sources in the union's gross final consumption" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_7 pol:annotatedText "progress towards collectively achieving a maximum energy consumption at union level of 1,273 Mtoe of primary energy and 956 Mtoe of final energy in 2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_8 pol:annotatedText "the progress made towards the level of electricity interconnectivity that the member state aims for in 2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_Objective_9 pol:annotatedText "whether the union and its member states have made sufficient progress towards meeting commitments under Article 4 of the UNFCCC and under Article 3 of the Paris Agreement" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29_TimeMonitoring_1 pol:Monitoring_date "2021-10-31"^^xsd:date ;
+    pol:annotatedText "by 31 October 2021 and every two years thereafter" .
+

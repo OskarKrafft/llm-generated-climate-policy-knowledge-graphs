@@ -1,0 +1,3 @@
+article 6
+requirements for hydrogen containers designed to use liquid hydrogen
+hydrogen containers designed to use liquid hydrogen shall be tested in accordance with the test procedures set out in annex ii.

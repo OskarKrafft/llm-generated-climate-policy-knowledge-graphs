@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32014L0094_Title_0_Chapter_0_Section_0_Article_06",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Article 6: Natural Gas Supply for Transport"
+      },
+      "is_about": [
+        {
+          "id": "TradablePermit",
+          "type": "skos:Concept"
+        },
+        {
+          "id": "PublicInvestment",
+          "type": "skos:Concept"
+        }
+      ],
+      "contains_instrument": [
+        {
+          "id": "RegulatoryInstr",
+          "type": "skos:Concept"
+        }
+      ],
+      "specifies_compliance_time": [
+        {
+          "id": "Time_Compliance",
+          "Compliance_date": "2025-12-31"
+        },
+        {
+          "id": "Time_Compliance",
+          "Compliance_date": "2030-12-31"
+        },
+        {
+          "id": "Time_Compliance",
+          "Compliance_date": "2020-12-31"
+        }
+      ],
+      "specifies_in_effect_time": {
+        "id": "Time_InEffect",
+        "In_effect_date": "2017-11-18"
+      },
+      "grants_legislative_authority": {
+        "id": "eurovoc:4038",
+        "type": "Organization"
+      },
+      "grants_monitoring_authority": {
+        "id": "eurovoc:4038",
+        "type": "Organization"
+      },
+      "annotatedText": "Member states shall ensure, by means of their national policy frameworks, that an appropriate number of refuelling points for LNG are put in place at maritime ports, to enable LNG inland waterway vessels or seagoing ships to circulate throughout the TEN-T core network by 31 December 2025. Member states shall cooperate with neighbouring member states where necessary to ensure adequate coverage of the TEN-T core network."
+    },
+    {
+      "id": "Member_States",
+      "type": "Organization",
+      "label": {
+        "value": "Member States"
+      }
+    },
+    {
+      "id": "eurovoc:4038",
+      "type": "Organization",
+      "label": {
+        "value": "European Commission"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_08 .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 8
+authorisation procedure for new capacity
+1.   for the construction of new generating capacity, member states shall adopt an authorisation procedure, which shall be conducted in accordance with objective, transparent and non-discriminatory criteria.
+2.   member states shall lay down the criteria for the grant of authorisations for the construction of generating capacity in their territory. in determining appropriate criteria, member states shall consider:
+(a)
+the safety and security of the electricity system, installations and associated equipment;
+(b)
+the protection of public health and safety;
+(c)
+the protection of the environment;
+(d)
+land use and siting;
+(e)
+the use of public ground;
+(f)
+energy efficiency;
+(g)
+the nature of the primary sources;
+(h)
+the characteristics particular to the applicant, such as technical, economic and financial capabilities;
+(i)
+compliance with measures adopted pursuant to article 9;
+(j)
+the contribution of generating capacity to meeting the overall union target of at least a 32 % share of energy from renewable sources in the union's gross final consumption of energy in 2030 referred to in article 3(1) of directive (eu) 2018/2001 of the european parliament and of the council (19);
+(k)
+the contribution of generating capacity to reducing emissions; and
+(l)
+the alternatives to the construction of new generating capacity, such as demand response solutions and energy storage.
+3.   member states shall ensure that specific, simplified and streamlined authorisation procedures exist for small decentralised and/or distributed generation, which take into account their limited size and potential impact.
+member states may set guidelines for that specific authorisation procedure. regulatory authorities or other competent national authorities, including planning authorities, shall review those guidelines and may recommend amendments thereto.
+where member states have established particular land use permit procedures applying to major new infrastructure projects in generation capacity, member states shall, where appropriate, include the construction of new generation capacity within the scope of those procedures and shall implement them in a non-discriminatory manner and within an appropriate time frame.
+4.   the authorisation procedures and criteria shall be made public. applicants shall be informed of the reasons for any refusal to grant an authorisation. those reasons shall be objective, non-discriminatory, well-founded and duly substantiated. appeal procedures shall be made available to applicants."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_compliance_time pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+

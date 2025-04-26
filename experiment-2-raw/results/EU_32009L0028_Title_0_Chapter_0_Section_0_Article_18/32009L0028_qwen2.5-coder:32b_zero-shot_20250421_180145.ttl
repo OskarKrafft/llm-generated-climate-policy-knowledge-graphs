@@ -1,0 +1,34 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Article_18 a dcterms:Text ;
+    pol:hasSectionNumber pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_18 ;
+    pol:hasTitle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_verification_of_compliance_with_the_sustainability_criteria_for_biofuels_and_bioliquids .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Article_18_Paragraph_1 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Below_is_the_content_of_Paragraph_1.> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Article_18_Paragraph_2 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Below_is_the_content_of_Paragraph_2.> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Article_18_Paragraph_3 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Below_is_the_content_of_Paragraph_3.> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Article_18_Paragraph_4 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Below_is_the_content_of_Paragraph_4.> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Article_18_Paragraph_5 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Below_is_the_content_of_Paragraph_5.> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Article_18_Paragraph_6 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Below_is_the_content_of_Paragraph_6.> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Article_18_Paragraph_7 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Below_is_the_content_of_Paragraph_7.> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Article_18_Paragraph_8 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Below_is_the_content_of_Paragraph_8.> .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Article_18_Paragraph_9 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_Below_is_the_content_of_Paragraph_9.> .
+

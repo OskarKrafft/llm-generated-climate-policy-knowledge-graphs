@@ -1,0 +1,33 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_05 .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_05 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4060> ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 5
+national inventory systems
+1.   member states shall establish, operate and seek to continuously improve national inventory systems, in accordance with unfccc requirements on national systems, to estimate anthropogenic emissions by sources and removals by sinks of greenhouse gases listed in annex i to this regulation and to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of their greenhouse gas inventories.
+2.   member states shall ensure that their competent inventory authorities have access to:
+(a)
+data and methods reported for activities and installations under directive 2003/87/ec for the purpose of preparing national greenhouse gas inventories in order to ensure consistency of the reported greenhouse gas emissions under the union’s emissions trading scheme and in the national greenhouse gas inventories;
+(b)
+where relevant, data collected through the reporting systems on fluorinated gases in the various sectors, set up pursuant to article 6(4) of regulation (ec) no 842/2006 for the purpose of preparing national greenhouse gas inventories;
+(c)
+where relevant, emissions, underlying data and methodologies reported by facilities under regulation (ec) no 166/2006 for the purpose of preparing national greenhouse gas inventories;
+(d)
+data reported under regulation (ec) no 1099/2008.
+3.   member states shall ensure that their competent inventory authorities, where relevant:
+(a)
+make use of reporting systems established pursuant to article 6(4) of regulation (ec) no 842/2006 to improve the estimation of fluorinated gases in the national greenhouse gas inventories;
+(b)
+are able to undertake the annual consistency checks referred to in points (l) and (m) of article 7(1).
+4.   the commission shall adopt implementing acts to set out rules on the structure, format and submission process of the information relating to national inventory systems and to requirements on the establishment, operation and functioning of national inventory systems in accordance with relevant decisions adopted by the bodies of the unfccc or the kyoto protocol or of agreements deriving from them or succeeding them. those implementing acts shall be adopted in accordance with the examination procedure referred to in article 26(2)."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/4038> .
+

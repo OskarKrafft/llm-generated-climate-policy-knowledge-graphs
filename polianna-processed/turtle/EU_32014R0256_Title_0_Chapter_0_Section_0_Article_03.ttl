@@ -1,0 +1,43 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 3
+notification of data
+1.   while keeping the collection and reporting burden proportionate, member states or the entities to which they delegate that task shall compile all the data and information required under this regulation as from 1 january 2015 and every two years thereafter.
+they shall notify the data and relevant project information specified in this regulation to the commission in 2015, that year being the first reporting year, and from then onwards every two years. that notification shall be made in aggregated form, except for data and relevant information relating to cross-border transmission projects.
+member states or their delegated entities shall notify aggregated data and relevant project information by 31 july of the reporting year concerned.
+2.   member states or their delegated entities are exempted from the obligations set out in paragraph 1, provided that, and to the extent that, pursuant to energy sector-specific legal acts of the union or the euratom treaty:
+(a)
+the member state concerned or its delegated entity has already notified to the commission data or information equivalent to that required under this regulation and has indicated the date of that notification and the specific legal act concerned; or
+(b)
+a specific body is entrusted with the preparation of a multi-annual investment plan in energy infrastructure at union level and, to that end, compiles data and information equivalent to that required under this regulation. in this case and for the purposes of this regulation, that specific body shall notify all the relevant data and information to the commission."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1,
+        pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2,
+        pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_3,
+        pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_4,
+        pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_5 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2015 and every two years thereafter" .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "2015" .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "reporting year" .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years" .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "31 july of the reporting year" .
+

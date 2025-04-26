@@ -1,0 +1,28 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:specifies_compliance_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_1,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_3,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_4 ;
+    pol:specifies_in_effect_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeInEffect_2 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:annotatedText "calendar year 2020" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "2021" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:annotatedText "from 2025" .
+

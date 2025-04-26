@@ -1,0 +1,48 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01 a pol:LegalActArticle ;
+    pol:complementedBy [ pol:additionalMeasureDateRange "2020-01-01/2024-12-31"^^pol:YearMonthDayInterval ;
+            pol:reductionAmount 10.0 ;
+            pol:unit pol:gCO2PerKm ] ;
+    pol:hasSubjectMatterAndObjectives [ pol:contributesTo pol:ParisAgreementObjectives,
+                pol:UnionGreenhouseGasEmissionsReductionTarget ;
+            pol:ensuresProperFunctioningOf pol:InternalMarket ] ;
+    pol:setsFleetWideTarget [ pol:co2EmissionsLimit 95.0 ;
+            pol:targetDate "2020-01-01"^^xsd:date ;
+            pol:unit pol:gCO2PerKm ;
+            pol:vehicleType pol:PassengerCar ],
+        [ pol:co2EmissionsLimit 147.0 ;
+            pol:targetDate "2020-01-01"^^xsd:date ;
+            pol:unit pol:gCO2PerKm ;
+            pol:vehicleType pol:LightCommercialVehicle ],
+        [ pol:reductionPercentage 15.0 ;
+            pol:referenceYear 2021 ;
+            pol:targetDate "2025-01-01"^^xsd:date ;
+            pol:vehicleType pol:PassengerCar ],
+        [ pol:reductionPercentage 15.0 ;
+            pol:referenceYear 2021 ;
+            pol:targetDate "2025-01-01"^^xsd:date ;
+            pol:vehicleType pol:LightCommercialVehicle ],
+        [ pol:reductionPercentage 37.5 ;
+            pol:referenceYear 2021 ;
+            pol:targetDate "2030-01-01"^^xsd:date ;
+            pol:vehicleType pol:PassengerCar ],
+        [ pol:reductionPercentage 31.0 ;
+            pol:referenceYear 2021 ;
+            pol:targetDate "2030-01-01"^^xsd:date ;
+            pol:vehicleType pol:LightCommercialVehicle ] ;
+    pol:setsZeroAndLowEmissionVehiclesBenchmark [ pol:benchmarkDate "2025-01-01"^^xsd:date ;
+            pol:percentageShare 15.0 ;
+            pol:vehicleType pol:LightCommercialVehicle ],
+        [ pol:benchmarkDate "2030-01-01"^^xsd:date ;
+            pol:percentageShare 35.0 ;
+            pol:vehicleType pol:PassengerCar ],
+        [ pol:benchmarkDate "2030-01-01"^^xsd:date ;
+            pol:percentageShare 30.0 ;
+            pol:vehicleType pol:LightCommercialVehicle ],
+        [ pol:benchmarkDate "2025-01-01"^^xsd:date ;
+            pol:percentageShare 15.0 ;
+            pol:vehicleType pol:PassengerCar ] ;
+    pol:title "article 1" .
+

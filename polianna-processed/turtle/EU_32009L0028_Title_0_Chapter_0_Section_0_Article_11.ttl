@@ -1,0 +1,33 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_11 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:TradablePermit,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 11
+joint support schemes
+1.   without prejudice to the obligations of member states under article 3, two or more member states may decide, on a voluntary basis, to join or partly coordinate their national support schemes. in such cases, a certain amount of energy from renewable sources produced in the territory of one participating member state may count towards the national overall target of another participating member state if the member states concerned:
+(a)
+make a statistical transfer of specified amounts of energy from renewable sources from one member state to another member state in accordance with article 6; or
+(b)
+set up a distribution rule agreed by participating member states that allocates amounts of energy from renewable sources between the participating member states. such a rule shall be notified to the commission no later than three months after the end of the first year in which it takes effect.
+2.   within three months of the end of each year each member state having made a notification under paragraph 1(b) shall issue a letter of notification stating the total amount of electricity or heating or cooling from renewable energy sources produced during the year which is to be the subject of the distribution rule.
+3.   for the purposes of measuring compliance with the requirements of this directive concerning national overall targets, the amount of electricity or heating or cooling from renewable energy sources notified in accordance with paragraph 2 shall be reallocated between the concerned member states in accordance with the notified distribution rule."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_resources pol:Member_States ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_2 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "no later than three months after the end of the first year" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "within three months of the end of each year" .
+

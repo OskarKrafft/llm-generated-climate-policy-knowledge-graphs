@@ -1,0 +1,25 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_06 .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_06 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 6
+union inventory system
+1.   a union inventory system to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of national inventories with regard to the union greenhouse gas inventory is hereby established. the commission shall administer, maintain and seek to continuously improve that system, which shall include:
+(a)
+a quality assurance and quality control programme, which shall include setting quality objectives and drafting an inventory quality assurance and quality control plan. the commission shall assist member states in implementing their quality assurance and quality control programmes;
+(b)
+a procedure to estimate, in consultation with the member state concerned, any data missing from its national inventory;
+(c)
+the reviews of member states’ greenhouse gas inventories referred to in article 19.
+2.   the commission shall be empowered to adopt delegated acts in accordance with article 25 concerning the substantive requirements for a union inventory system in order to fulfil the obligations pursuant to decision 19/cmp.1. the commission shall not adopt provisions pursuant to paragraph 1 that are more onerous for member states to comply with than provisions of acts adopted pursuant to article 3(3) and article 4(2) of decision no 280/2004/ec."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States .
+

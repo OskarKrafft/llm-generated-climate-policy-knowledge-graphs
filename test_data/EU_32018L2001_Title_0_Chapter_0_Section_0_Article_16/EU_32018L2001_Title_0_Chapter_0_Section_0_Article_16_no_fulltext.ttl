@@ -1,0 +1,44 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_5,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_6,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_7 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:annotatedText "not exceed two years" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-05-23"^^xsd:date ;
+    pol:annotatedText "two-year period may be extended by up to one year" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:annotatedText "not exceed one year" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-05-23"^^xsd:date ;
+    pol:annotatedText "may be extended by up to one year" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_5 a pol:Time_Compliance ;
+    pol:annotatedText "not exceed one year" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_6 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-05-23"^^xsd:date ;
+    pol:annotatedText "may be extended by up to one year" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeCompliance_7 a pol:Time_Compliance ;
+    pol:annotatedText "six months of receipt of a notification" .
+

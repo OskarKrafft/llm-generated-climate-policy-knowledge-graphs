@@ -1,0 +1,31 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_10 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 10
+effects of joint projects between member states
+1.   within three months of the end of each year falling within the period referred to in point (d) of article 9(3), the member state that made the notification under article 9 shall issue a letter of notification stating:
+(a)
+the total amount of electricity or heating or cooling produced from renewable sources during that year by the installation which was the subject of the notification under article 9; and
+(b)
+the amount of electricity or heating or cooling produced from renewable sources during that year by that installation which is to count towards the renewable energy share of another member state in accordance with the terms of the notification.
+2.   the notifying member state shall submit the letter of notification to the member state in whose favour the notification was made and to the commission.
+3.   for the purposes of this directive, the amount of electricity or heating or cooling from renewable sources notified in accordance with point (b) of paragraph 1 shall be:
+(a)
+deducted from the amount of electricity or heating or cooling from renewable sources that is taken into account in calculating the renewable energy share of the member state issuing the letter of notification pursuant to paragraph 1; and
+(b)
+added to the amount of electricity or heating or cooling from renewable sources that is taken into account in calculating the renewable energy share of the member state receiving the letter of notification pursuant to paragraph 2."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_resources pol:Member_States ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "three months of the end of each year" .
+

@@ -1,0 +1,20 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:imposes_monitoring eurovoc:4060 ;
+    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,
+        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2,
+        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 pol:Monitoring_date "2006-02-21"^^xsd:date ;
+    pol:annotatedText "not later than 21 february 2006" .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 pol:Monitoring_date "2007-02-21"^^xsd:date ;
+    pol:annotatedText "not later than 21 february 2007 and thereafter every four years" .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_3 pol:Monitoring_date "2004-12-31"^^xsd:date ;
+    pol:annotatedText "for the first time before the end of december 2004" .
+

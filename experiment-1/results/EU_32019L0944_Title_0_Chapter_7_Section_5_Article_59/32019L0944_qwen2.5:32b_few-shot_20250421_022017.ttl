@@ -1,0 +1,32 @@
+@prefix pol: <http://example.org/pollution#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+pol:Article12 a pol:LegalArticle ;
+    pol:hasContent "The regulatory authorities shall monitor congestion management of national electricity systems including interconnectors, and the implementation of congestion management rules. To that end, transmission system operators or market operators shall submit their congestion management rules, including capacity allocation, to the regulatory authorities. Regulatory authorities may request amendments to those rules."@en ;
+    pol:hasProvision pol:Provision1, pol:Provision2 .
+
+pol:Provision1 a pol:LegalProvision ;
+    pol:isPartOf pol:Article12 ;
+    pol:hasContent "The regulatory authorities shall monitor congestion management of national electricity systems including interconnectors, and the implementation of congestion management rules."@en .
+
+pol:Provision2 a pol:LegalProvision ;
+    pol:isPartOf pol:Article12 ;
+    pol:hasContent "To that end, transmission system operators or market operators shall submit their congestion management rules, including capacity allocation, to the regulatory authorities. Regulatory authorities may request amendments to those rules."@en .
+
+pol:TransmissionSystemOperator a pol:RegulatedEntity ;
+    pol:submitsRulesTo pol:RegulatoryAuthority ;
+    pol:hasRole pol:CongestionManagementSubmitter .
+
+pol:MarketOperator a pol:RegulatedEntity ;
+    pol:submitsRulesTo pol:RegulatoryAuthority ;
+    pol:hasRole pol:CongestionManagementSubmitter .
+
+pol:RegulatoryAuthority a pol:Regulator ;
+    pol:monitors pol:TransmissionSystemOperator, pol:MarketOperator ;
+    pol:canRequestAmendmentsOf pol:CongestionManagementRules .
+
+pol:CongestionManagementRules a pol:LegalDocument ;
+    pol:isSubjectToReviewBy pol:RegulatoryAuthority .
+
+.

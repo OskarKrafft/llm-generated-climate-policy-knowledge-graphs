@@ -1,0 +1,29 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_4_Section_0_Article_19 .
+
+pol:EU_32012L0027_Title_0_Chapter_4_Section_0_Article_19 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:PublicInvt,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 19
+other measures to promote energy efficiency
+1.   member states shall evaluate and if necessary take appropriate measures to remove regulatory and non-regulatory barriers to energy efficiency, without prejudice to the basic principles of the property and tenancy law of the member states, in particular as regards:
+(a)
+the split of incentives between the owner and the tenant of a building or among owners, with a view to ensuring that these parties are not deterred from making efficiency-improving investments that they would otherwise have made by the fact that they will not individually obtain the full benefits or by the absence of rules for dividing the costs and benefits between them, including national rules and measures regulating decision- making processes in multi-owner properties;
+(b)
+legal and regulatory provisions, and administrative practices, regarding public purchasing and annual budgeting and accounting, with a view to ensuring that individual public bodies are not deterred from making investments in improving energy efficiency and minimising expected life-cycle costs and from using energy performance contracting and other third-party financing mechanisms on a long-term contractual basis.
+such measures to remove barriers may include providing incentives, repealing or amending legal or regulatory provisions, or adopting guidelines and interpretative communications, or simplifying administrative procedures. the measures may be combined with the provision of education, training and specific information and technical assistance on energy efficiency.
+2.   the evaluation of barriers and measures referred to in paragraph 1 shall be notified to the commission in the first national energy efficiency action plan referred to in article 24(2). the commission shall encourage the sharing of national best practices in this regard."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> .
+

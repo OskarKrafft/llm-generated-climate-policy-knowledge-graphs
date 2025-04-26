@@ -1,0 +1,32 @@
+[
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_1"
+  },
+  {
+    "s": "32009L0028",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "32009L0028",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "annotatedText",
+    "o": "20th day following its publication"
+  }
+]

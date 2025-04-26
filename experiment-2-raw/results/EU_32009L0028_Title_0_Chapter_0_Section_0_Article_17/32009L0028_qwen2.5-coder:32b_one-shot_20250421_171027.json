@@ -1,0 +1,9 @@
+json
+[
+    {"subject": "Article", "predicate": "hasSuffix", "object": "14_9_2"},
+    {"subject": "Article_14_9_2", "predicate": "hasType", "object": "sustainability_criteria"},
+    {"subject": "Article_14_9_2", "predicate": "hasContent", "object": "agricultural raw materials cultivated in the community and used for the production of biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall be obtained in accordance with the requirements and standards under the provisions referred to under the heading 'environment' in part a and in point 9 of annex ii to council regulation (ec) no 73/2009 of 19 january 2009 establishing common rules for direct support schemes for farmers under the common agricultural policy and establishing certain support schemes for farmers (22) and in accordance with the minimum requirements for good agricultural and environmental condition defined pursuant to article 6(1) of that regulation."},
+    {"subject": "Article_14_9_2", "predicate": "hasReference", "object": "Council_Regulation_(EC)_No_73/2009"},
+    {"subject": "Article_14_9_2", "predicate": "hasDate", "object": "2009-01-19"}
+]
+```

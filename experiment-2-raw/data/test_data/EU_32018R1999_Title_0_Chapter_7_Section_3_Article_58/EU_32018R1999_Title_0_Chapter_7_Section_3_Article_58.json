@@ -1,0 +1,117 @@
+[
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_5",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "2020"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_6",
+    "p": "annotatedText",
+    "o": "2020"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "2018"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_6"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_5"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_4",
+    "p": "annotatedText",
+    "o": "2018"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_6",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "2019"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "32018R1999",
+    "p": "hasArticle",
+    "o": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_5",
+    "p": "annotatedText",
+    "o": "2019"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_4",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32018R1999",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_4"
+  }
+]

@@ -1,0 +1,34 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22 a pol:PolicyArticle ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RD_D,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_1,
+        pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_2,
+        pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_3,
+        pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_4,
+        pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_5 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "every three years" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "period until 26 september 2012" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "nine months after the end of the three-year period concerned" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "26 june 2013" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "nine months after receiving the reports" .
+

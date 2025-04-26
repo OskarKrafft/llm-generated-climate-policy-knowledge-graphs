@@ -1,0 +1,9 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_32 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_32 a pol:PolicyArticle ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> .
+

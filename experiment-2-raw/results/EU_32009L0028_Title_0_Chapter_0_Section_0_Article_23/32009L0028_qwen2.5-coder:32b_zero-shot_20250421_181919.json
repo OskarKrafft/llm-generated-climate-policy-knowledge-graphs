@@ -1,0 +1,108 @@
+json
+[
+    {
+        "Subject": "Article_23",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_23",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_1"
+    },
+    {
+        "Subject": "Article_23",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_2"
+    },
+    {
+        "Subject": "Article_23",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_3"
+    },
+    {
+        "Subject": "Article_23",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_4"
+    },
+    {
+        "Subject": "Article_23",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_5"
+    },
+    {
+        "Subject": "Article_23",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_6"
+    },
+    {
+        "Subject": "Article_23",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_7"
+    },
+    {
+        "Subject": "Article_23",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_8"
+    },
+    {
+        "Subject": "Article_23",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_9"
+    },
+    {
+        "Subject": "Article_23",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_10"
+    },
+    {
+        "Subject": "Paragraph_1",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_2",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_3",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_4",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_5",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_6",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_7",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_8",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_9",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_10",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    }
+]

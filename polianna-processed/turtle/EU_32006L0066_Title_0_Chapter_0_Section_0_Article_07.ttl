@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_07 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_07 a pol:PolicyArticle ;
+    pol:authorises pol:Member_States ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 7
+overarching objective
+member states shall, having regard to the environmental impact of transport, take necessary measures to maximise the separate collection of waste batteries and accumulators and to minimise the disposal of batteries and accumulators as mixed municipal waste in order to achieve a high level of recycling for all waste batteries and accumulators."""^^xsd:string .
+

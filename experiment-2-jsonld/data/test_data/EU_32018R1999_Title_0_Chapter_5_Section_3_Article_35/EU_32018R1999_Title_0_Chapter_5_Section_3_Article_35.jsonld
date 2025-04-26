@@ -1,0 +1,196 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "annotatedText": {
+                "value": "every four years"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_6",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "biennially"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_4",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "biennially, from 2023"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_2",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "biennially"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_3",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "31\u00a0october 2019 and every four years thereafter"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_7",
+            "type": "Time_Monitoring"
+        },
+        {
+            "addresses": {
+                "id": "eurovoc:4038"
+            },
+            "authorises": {
+                "id": "eurovoc:4038"
+            },
+            "contains_instrument": [
+                {
+                    "id": "FrameworkPolicy"
+                },
+                {
+                    "id": "RegulatoryInstr"
+                },
+                {
+                    "id": "Subsidies_Incentives"
+                },
+                {
+                    "id": "VoluntaryAgrmt"
+                }
+            ],
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "contains_objective": {
+                "id": "Objective"
+            },
+            "fullText": "article 35\nstate of the energy union report\n1.\u00a0\u00a0\u00a0by 31 october of every year, the commission shall submit to the european parliament and to the council a state of the energy union report.\n2.\u00a0\u00a0\u00a0the state of the energy union report shall include the following elements:\n(a)\nthe assessment carried out pursuant to article 29;\n(b)\nwhere appropriate, recommendations pursuant to article 34;\n(c)\nthe report on the functioning of the carbon market referred to in article 10(5) of directive 2003/87/ec, including information on the application of that directive in accordance with article 21(2) thereof;\n(d)\nbiennially, from 2023, a report on union bioenergy sustainability, containing the information specified in annex x;\n(e)\nbiennially, a report on voluntary schemes in respect of which the commission has adopted a decision pursuant to article 30(4) of directive (eu) 2018/2001, containing the information specified in annex xi to this regulation;\n(f)\nan overall progress report on the application of directive 2009/72/ec;\n(g)\nan overall progress report on the application of directive 2009/73/ec pursuant to article 52 of that directive;\n(h)\nan overall progress report on energy efficiency obligation schemes and alternative policy measures as referred to in articles 7a and 7b of directive 2012/27/eu;\n(i)\nbiennially, an overall progress report on the renovation of the national stock of residential and non-residential buildings, both public and private, in line with the roadmaps set out in the long-term renovation strategies that each member state shall establish in accordance with article 2a of directive 2010/31/eu;\n(j)\nevery four years, an overall progress report on member states' increase in the number of nearly zero-energy buildings in accordance with article 9(5) of directive\u00a02010/31/eu;\n(k)\nan overall progress report on member states' progress in creating a complete and operational energy market;\n(l)\nactual fuel quality in the different member states and geographical coverage of fuels with a maximum sulphur content of 10 mg/kg aiming to provide an overview of the fuels quality data in the different member states as reported pursuant to directive\u00a098/70/ec;\n(m)\na progress report on competitiveness;\n(n)\nmember states' progress towards phasing out energy subsidies, in particular for fossil fuels;\n(o)\nother issues of relevance to the implementation of the energy union, including public and private support;\n(p)\nby 31\u00a0october 2019 and every four years thereafter, an assessment of the implementation of directive 2009/31/ec.",
+            "grants_monitoring_authority": [
+                {
+                    "id": "eurovoc:114"
+                },
+                {
+                    "id": "eurovoc:2243"
+                }
+            ],
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+            "imposes_monitoring": {
+                "id": "Member_States"
+            },
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_1"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_2"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_3"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_4"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_5"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_6"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_7"
+                }
+            ],
+            "type": "PolicyArticle"
+        },
+        {
+            "annotatedText": {
+                "value": "31 october of every year"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_1",
+            "type": "Time_Monitoring"
+        },
+        {
+            "hasArticle": {
+                "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35"
+            },
+            "id": "32018R1999",
+            "type": "PolicyDocument"
+        },
+        {
+            "annotatedText": {
+                "value": "progress report"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_5",
+            "type": "Time_Monitoring"
+        }
+    ]
+}

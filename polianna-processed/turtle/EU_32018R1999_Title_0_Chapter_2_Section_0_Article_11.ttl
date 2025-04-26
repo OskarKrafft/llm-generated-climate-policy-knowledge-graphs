@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_11 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 11
+multilevel climate and energy dialogue
+each member state shall establish a multilevel climate and energy dialogue pursuant to national rules, in which local authorities, civil society organisations, business community, investors and other relevant stakeholders and the general public are able actively to engage and discuss the different scenarios envisaged for energy and climate policies, including for the long term, and review progress, unless it already has a structure which serves the same purpose. integrated national energy and climate plans may be discussed within the framework of such a dialogue."""^^xsd:string .
+

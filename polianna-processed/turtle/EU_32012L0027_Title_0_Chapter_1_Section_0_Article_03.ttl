@@ -1,0 +1,60 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_03 .
+
+pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 3
+energy efficiency targets
+1.   each member state shall set an indicative national energy efficiency target, based on either primary or final energy consumption, primary or final energy savings, or energy intensity. member states shall notify those targets to the commission in accordance with article 24(1) and annex xiv part 1. when doing so, they shall also express those targets in terms of an absolute level of primary energy consumption and final energy consumption in 2020 and shall explain how, and on the basis of which data, this has been calculated.
+when setting those targets, member states shall take into account:
+(a)
+that the union’s 2020 energy consumption has to be no more than 1 474 mtoe of primary energy or no more than 1 078 mtoe of final energy;
+(b)
+the measures provided for in this directive;
+(c)
+the measures adopted to reach the national energy saving targets adopted pursuant to article 4(1) of directive 2006/32/ec; and
+(d)
+other measures to promote energy efficiency within member states and at union level.
+when setting those targets, member states may also take into account national circumstances affecting primary energy consumption, such as:
+(a)
+remaining cost-effective energy-saving potential;
+(b)
+gdp evolution and forecast;
+(c)
+changes of energy imports and exports;
+(d)
+development of all sources of renewable energies, nuclear energy, carbon capture and storage; and
+(e)
+early action.
+2.   by 30 june 2014, the commission shall assess progress achieved and whether the union is likely to achieve energy consumption of no more than 1 474 mtoe of primary energy and/or no more than 1 078 mtoe of final energy in 2020.
+3.   in carrying out the review referred to in paragraph 2, the commission shall:
+(a)
+sum the national indicative energy efficiency targets reported by member states;
+(b)
+assess whether the sum of those targets can be considered a reliable guide to whether the union as a whole is on track, taking into account the evaluation of the first annual report in accordance with article 24(1), and the evaluation of the national energy efficiency action plans in accordance with article 24(2);
+(c)
+take into account complementary analysis arising from:
+(i)
+an assessment of progress in energy consumption, and in energy consumption in relation to economic activity, at union level, including progress in the efficiency of energy supply in member states that have based their national indicative targets on final energy consumption or final energy savings, including progress due to these member states’ compliance with chapter iii of this directive;
+(ii)
+results from modelling exercises in relation to future trends in energy consumption at union level;
+(d)
+compare the results under points (a) to (c) with the quantity of energy consumption that would be needed to achieve energy consumption of no more than 1 474 mtoe of primary energy and/or no more than 1 078 mtoe of final energy in 2020."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_03_TimeCompliance_1 ;
+    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_03_TimeMonitoring_2 .
+
+pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_03_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+
+pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_03_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "30 june 2014" .
+

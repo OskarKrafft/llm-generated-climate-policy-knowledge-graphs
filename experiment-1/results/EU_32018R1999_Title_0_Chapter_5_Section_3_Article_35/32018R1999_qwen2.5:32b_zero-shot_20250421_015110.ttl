@@ -1,0 +1,70 @@
+@prefix pol: <http://example.org/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35 a pol:Policy ;
+    pol:CELEXNumber "32018R1999"^^xsd:string ;
+    pol:ELI "http://data.europa.eu/eli/reg/2018/1999/oj"^^xsd:anyURI ;
+    pol:annotator pol:A,
+        pol:C ;
+    pol:title "state of the energy union report" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol1 a pol:PolicyArticlePart ;
+    pol:articleNumber "1" ;
+    pol:text "by 31 october of every year, the commission shall submit to the european parliament and to the council a state of the energy union report." .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2 a pol:PolicyArticlePart ;
+    pol:articleNumber "2" ;
+    pol:text "the state of the energy union report shall include the following elements:" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2a a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(a)" ;
+    pol:text "the assessment carried out pursuant to article 29" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2b a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(b)" ;
+    pol:text "where appropriate, recommendations pursuant to article 34" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2c a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(c)" ;
+    pol:text "the report on the functioning of the carbon market referred to in article 10(5) of directive 2003/87/ec, including information on the application of that directive in accordance with article 21(2) thereof" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2d a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(d)" ;
+    pol:text "biennially, from 2023, a report on union bioenergy sustainability, containing the information specified in annex x" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2e a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(e)" ;
+    pol:text "biennially, a report on voluntary schemes in respect of which the commission has adopted a decision pursuant to article 30(4) of directive (eu) 2018/2001, containing the information specified in annex xi to this regulation" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2f a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(f)" ;
+    pol:text "an overall progress report on the application of directive 2009/72/ec" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2g a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(g)" ;
+    pol:text "an overall progress report on the application of directive 2009/73/ec pursuant to article 52 of that directive" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2h a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(h)" ;
+    pol:text "an overall progress report on energy efficiency obligation schemes and alternative policy measures as referred to in articles 7a and 7b of directive 2012/27/eu" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2i a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(i)" ;
+    pol:text "biennially, from 2023, a report on union bioenergy sustainability, containing the information specified in annex x" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2j a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(j)" ;
+    pol:text "an overall progress report on the application of directive 2009/72/ec" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2k a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(k)" ;
+    pol:text "an overall progress report on the application of directive 2009/73/ec pursuant to article 52 of that directive" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_pol2l a pol:PolicyArticleSubpart ;
+    pol:subarticleLetter "(l)" ;
+    pol:text "an overall progress report on energy efficiency obligation schemes and alternative policy measures as referred to in articles 7a and 7b of directive 2012/27/eu" .
+
+pol:A a pol:Annotator .
+
+pol:C a pol:Annotator .
+

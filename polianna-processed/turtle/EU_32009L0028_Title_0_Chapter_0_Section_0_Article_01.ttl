@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 1
+subject matter and scope
+this directive establishes a common framework for the promotion of energy from renewable sources. it sets mandatory national targets for the overall share of energy from renewable sources in gross final consumption of energy and for the share of energy from renewable sources in transport. it lays down rules relating to statistical transfers between member states, joint projects between member states and with third countries, guarantees of origin, administrative procedures, information and training, and access to the electricity grid for energy from renewable sources. it establishes sustainability criteria for biofuels and bioliquids."""^^xsd:string .
+

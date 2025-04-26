@@ -1,0 +1,56 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_57 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_57 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 57
+designation and independence of regulatory authorities
+1.   each member state shall designate a single regulatory authority at national level.
+2.   paragraph 1 shall be without prejudice to the designation of other regulatory authorities at regional level within member states, provided that there is one senior representative for representation and contact purposes at union level within acer's board of regulators in accordance with article 21(1) of regulation (eu) 2019/942.
+3.   by way of derogation from paragraph 1, a member state may designate regulatory authorities for small systems in a geographically separate region whose consumption, in 2008, accounted for less than 3 % of the total consumption of the member state of which it is part. that derogation shall be without prejudice to the appointment of one senior representative for representation and contact purposes at union level within acer's board of regulators in accordance with article 21(1) of regulation (eu) 2019/942.
+4.   member states shall guarantee the independence of the regulatory authority and shall ensure that it exercises its powers impartially and transparently. for that purpose, member states shall ensure that, when carrying out the regulatory tasks conferred upon it by this directive and related legislation, the regulatory authority:
+(a)
+is legally distinct and functionally independent from other public or private entities;
+(b)
+ensures that its staff and the persons responsible for its management:
+(i)
+act independently from any market interest; and
+(ii)
+do not seek or take direct instructions from any government or other public or private entity when carrying out the regulatory tasks. that requirement is without prejudice to close cooperation, as appropriate, with other relevant national authorities or to general policy guidelines issued by the government not related to the regulatory powers and duties under article 59.
+5.   in order to protect the independence of the regulatory authority, member states shall in particular ensure that:
+(a)
+the regulatory authority can take autonomous decisions, independently from any political body;
+(b)
+the regulatory authority has all the necessary human and financial resources it needs to carry out its duties and exercise its powers in an effective and efficient manner;
+(c)
+the regulatory authority has a separate annual budget allocation and autonomy in the implementation of the allocated budget;
+(d)
+the members of the board of the regulatory authority or, in the absence of a board, the regulatory authority's top management are appointed for a fixed term of five up to seven years, renewable once;
+(e)
+the members of the board of the regulatory authority or, in the absence of a board, the regulatory authority's top management are appointed based on objective, transparent and published criteria, in an independent and impartial procedure, which ensures that the candidates have the necessary skills and experience for the relevant position in the regulatory authority;
+(f)
+conflict of interest provisions are in place and confidentiality obligations extend beyond the end of the mandate of the members of the board of the regulatory authority or, in the absence of a board, the end of the mandate of the regulatory authority's top management;
+(g)
+the members of the board of the regulatory authority or, in the absence of a board, the regulatory authority's top management can be dismissed only based on transparent criteria in place.
+in regard to point (d) of the first subparagraph, member states shall ensure an appropriate rotation scheme for the board or the top management. the members of the board or, in the absence of a board, members of the top management may be relieved from office during their term only if they no longer fulfil the conditions set out in this article or have been guilty of misconduct under national law.
+6.   member states may provide for the ex post control of the regulatory authorities' annual accounts by an independent auditor.
+7.   by 5 july 2022 and every four years thereafter, the commission shall submit a report to the european parliament and the council on the compliance of national authorities with the principle of independence set out in this article."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_monitoring_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_57_TimeMonitoring_1,
+        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_57_TimeMonitoring_2 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_57_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "5 july 2022" .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_57_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "every four years" .
+

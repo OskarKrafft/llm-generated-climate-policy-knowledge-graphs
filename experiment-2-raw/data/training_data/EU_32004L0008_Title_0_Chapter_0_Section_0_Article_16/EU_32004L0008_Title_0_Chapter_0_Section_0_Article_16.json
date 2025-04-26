@@ -1,0 +1,47 @@
+[
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32004L0008",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "annotatedText",
+    "o": "11 february 2004"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_1"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "32004L0008",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "In_effect_date",
+    "o": "2004-02-11"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "type",
+    "o": "Time_InEffect"
+  }
+]

@@ -1,0 +1,13 @@
+article 8
+effects of joint projects between member states
+1.   within three months of the end of each year falling within the period specified under article 7(3)(d), the member state that made the notification under article 7 shall issue a letter of notification stating:
+(a)
+the total amount of electricity or heating or cooling produced during the year from renewable energy sources by the installation which was the subject of the notification under article 7; and
+(b)
+the amount of electricity or heating or cooling produced during the year from renewable energy sources by that installation which is to count towards the national overall target of another member state in accordance with the terms of the notification.
+2.   the notifying member state shall send the letter of notification to the member state in whose favour the notification was made and to the commission.
+3.   for the purposes of measuring target compliance with the requirements of this directive concerning national overall targets, the amount of electricity or heating or cooling from renewable energy sources notified in accordance with paragraph 1(b) shall be:
+(a)
+deducted from the amount of electricity or heating or cooling from renewable energy sources that is taken into account, in measuring compliance by the member state issuing the letter of notification under paragraph 1; and
+(b)
+added to the amount of electricity or heating or cooling from renewable energy sources that is taken into account, in measuring compliance by the member state receiving the letter of notification in accordance with paragraph 2.

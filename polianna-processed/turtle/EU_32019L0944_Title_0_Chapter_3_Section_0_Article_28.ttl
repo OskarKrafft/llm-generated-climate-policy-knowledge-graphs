@@ -1,0 +1,18 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_28 .
+
+pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_28 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 28
+vulnerable customers
+1.   member states shall take appropriate measures to protect customers and shall ensure, in particular, that there are adequate safeguards to protect vulnerable customers. in this context, each member state shall define the concept of vulnerable customers which may refer to energy poverty and, inter alia, to the prohibition of disconnection of electricity to such customers in critical times. the concept of vulnerable customers may include income levels, the share of energy expenditure of disposable income, the energy efficiency of homes, critical dependence on electrical equipment for health reasons, age or other criteria. member states shall ensure that rights and obligations linked to vulnerable customers are applied. in particular, they shall take measures to protect customers in remote areas. they shall ensure high levels of consumer protection, particularly with respect to transparency regarding contractual terms and conditions, general information and dispute settlement mechanisms.
+2.   member states shall take appropriate measures, such as providing benefits by means of their social security systems to ensure the necessary supply to vulnerable customers, or providing for support for energy efficiency improvements, to address energy poverty where identified pursuant to point (d) of article 3(3) of regulation (eu) 2018/1999, including in the broader context of poverty. such measures shall not impede the effective opening of the market set out in article 4 or market functioning and shall be notified to the commission, where relevant, in accordance with article 9(4). such notifications may also include measures taken within the general social security system."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> .
+

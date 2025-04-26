@@ -1,0 +1,21 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_57 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_57 a pol:PolicyArticle ;
+    pol:fullText """article 57
+repeal
+regulation (eu) no 525/2013 shall be repealed with effect from 1 january 2021, subject to the transitional provisions laid down in article 58 of this regulation, with the exception of article 26(1) of regulation (eu) no 525/2013 which shall be repealed with effect from 24 december 2018. references to the repealed regulation shall be construed as references to this regulation and shall be read in accordance with the correlation table in annex xiii."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_57_TimeInEffect_1,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_57_TimeInEffect_2 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_57_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2021" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_57_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2018-12-24"^^xsd:date ;
+    pol:annotatedText "24 december 2018" .
+

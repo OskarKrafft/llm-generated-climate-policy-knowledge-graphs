@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014L0094 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 1
+subject matter
+this directive establishes a common framework of measures for the deployment of alternative fuels infrastructure in the union in order to minimise dependence on oil and to mitigate the environmental impact of transport. this directive sets out minimum requirements for the building-up of alternative fuels infrastructure, including recharging points for electric vehicles and refuelling points for natural gas (lng and cng) and hydrogen, to be implemented by means of member states' national policy frameworks, as well as common technical specifications for such recharging and refuelling points, and user information requirements."""^^xsd:string .
+

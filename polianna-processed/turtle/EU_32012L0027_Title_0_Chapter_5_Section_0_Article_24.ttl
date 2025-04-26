@@ -1,0 +1,77 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4060>,
+        pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 24
+review and monitoring of implementation
+1.   by 30 april each year as from 2013, member states shall report on the progress achieved towards national energy efficiency targets, in accordance with part 1 of annex xiv. the report may form part of the national reform programmes referred to in council recommendation 2010/410/eu of 13 july 2010 on broad guidelines for the economic policies of the member states and of the union (28).
+2.   by 30 april 2014, and every three years thereafter, member states shall submit national energy efficiency action plans. the national energy efficiency action plans shall cover significant energy efficiency improvement measures and expected and/ or achieved energy savings, including those in the supply, transmission and distribution of energy as well as energy end-use, in view of achieving the national energy efficiency targets referred to in article 3(1). the national energy efficiency action plans shall be complemented with updated estimates of expected overall primary energy consumption in 2020, as well as estimated levels of primary energy consumption in the sectors indicated in part 1 of annex xiv.
+the commission shall, by 31 december 2012, provide a template as guidance for the national energy efficiency action plans. that template shall be adopted in accordance with the advisory procedure referred to in article 26(2). the national energy efficiency action plans shall in any case include the information specified in annex xiv.
+3.   the commission shall evaluate the annual reports and the national energy efficiency action plans and assess the extent to which member states have made progress towards the achievement of the national energy efficiency targets required by article 3(1) and towards the implementation of this directive. the commission shall send its assessment to the european parliament and the council. based on its assessment of the reports and the national energy efficiency action plans, the commission may issue recommendations to member states.
+4.   the commission shall monitor the impact of implementing this directive on directives 2003/87/ec, 2009/28/ec and 2010/31/eu and decision no 406/2009/ec, and on industry sectors, in particular those that are exposed to a significant risk of carbon leakage as determined in decision 2010/2/eu.
+5.   the commission shall review the continued need for the possibility of exemptions set out in article 14(6) for the first time in the assessment of the first national energy efficiency action plan and every three years thereafter. where the review shows that any of the criteria for these exemptions can no longer be justified taking into account the availability of heat load and the real operating conditions of the exempted installations, the commission shall propose appropriate measures.
+6.   member states shall submit to the commission before 30 april each year statistics on national electricity and heat production from high and low efficiency cogeneration, in accordance with the methodology shown in annex i, in relation to total heat and electricity production. they shall also submit annual statistics on cogeneration heat and electricity capacities and fuels for cogeneration, and on district heating and cooling production and capacities, in relation to total heat and electricity production and capacities. member states shall submit statistics on primary energy savings achieved by application of cogeneration in accordance with the methodology shown in annex ii.
+7.   by 30 june 2014 the commission shall submit the assessment referred to in article 3(2) to the european parliament and to the council, accompanied, if necessary, by proposals for further measures.
+8.   the commission shall review the effectiveness of the implementation of article 6 by 5 december 2015, taking into account the requirements laid down in directive 2004/18/ec and shall submit a report to the european parliament and the council. that report shall be accompanied, if appropriate, by proposals for further measures.
+9.   by 30 june 2016, the commission shall submit a report to the european parliament and the council on the implementation of article 7. that report shall be accompanied, if appropriate, by a legislative proposal for one or more of the following purposes:
+(a)
+to change the final date laid down in article 7(1);
+(b)
+to review the requirements laid down in article 7(1), (2) and (3);
+(c)
+to establish additional common requirements, in particular as regards the matters referred to in article 7(7).
+10.   by 30 june 2018, the commission shall assess the progress made by member states in removing the regulatory and non-regulatory barriers referred to in article 19(1). this assessment shall be followed, if appropriate, by proposals for further measures.
+11.   the commission shall make the reports referred to in paragraphs 1 and 2 publicly available."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeCompliance_2,
+        pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeCompliance_4 ;
+    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_1,
+        pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_3,
+        pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_5,
+        pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_6,
+        pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_7,
+        pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_8,
+        pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_9 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2014-04-30"^^xsd:date ;
+    pol:annotatedText "30 april 2014, and every three years thereafter" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2012-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2012" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "30 april each year as from 2013" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "2020" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "30 april each year" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_6 a pol:Time_Monitoring ;
+    pol:annotatedText "30 june 2014" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_7 a pol:Time_Monitoring ;
+    pol:annotatedText "5 december 2015" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_8 a pol:Time_Monitoring ;
+    pol:annotatedText "30 june 2016" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_24_TimeMonitoring_9 a pol:Time_Monitoring ;
+    pol:annotatedText "30 june 2018" .
+

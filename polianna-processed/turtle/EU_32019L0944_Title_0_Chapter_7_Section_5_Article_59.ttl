@@ -1,0 +1,149 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038>,
+        <http://eurovoc.europa.eu/447917> ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:fullText """article 59
+duties and powers of the regulatory authorities
+1.   the regulatory authority shall have the following duties:
+(a)
+fixing or approving, in accordance with transparent criteria, transmission or distribution tariffs or their methodologies, or both;
+(b)
+ensuring the compliance of transmission system operators and distribution system operators and, where relevant, system owners, as well as the compliance of any electricity undertakings and other market participants, with their obligations under this directive, regulation (eu) 2019/943, the network codes and the guidelines adopted pursuant to articles 59, 60 and 61 of regulation (eu) 2019/943, and other relevant union law, including as regards cross-border issues, as well as with acer's decisions;
+(c)
+in close coordination with the other regulatory authorities, ensuring the compliance of the entso for electricity and the eu dso entity with their obligations under this directive, regulation (eu) 2019/943, the network codes and guidelines adopted pursuant to articles 59, 60 and 61 of regulation (eu) 2019/943, and other relevant union law, including as regards cross-border issues, as well as with acer's decisions, and jointly identifying non-compliance of the entso for electricity and the eu dso entity with their respective obligations; where the regulatory authorities have not been able to reach an agreement within a period of four months after the start of consultations for the purpose of jointly identifying non-compliance, the matter shall be referred to the acer for a decision, pursuant to article 6(10) of regulation (eu) 2019/942;
+(d)
+approving products and procurement process for non-frequency ancillary services;
+(e)
+implementing the network codes and guidelines adopted pursuant to articles 59, 60 and 61 of regulation (eu) 2019/943 through national measures or, where so required, coordinated regional or union-wide measures;
+(f)
+cooperating in regard to cross-border issues with the regulatory authority or authorities of the member states concerned and with acer, in particular through participation in the work of acer's board of regulators pursuant to article 21 of regulation (eu) 2019/942;
+(g)
+complying with, and implementing, any relevant legally binding decisions of the commission and of acer;
+(h)
+ensuring that transmission system operators make available interconnector capacities to the utmost extent pursuant to article 16 of regulation (eu) 2019/943;
+(i)
+reporting annually on its activity and the fulfilment of its duties to the relevant authorities of the member states, the commission and acer, including on the steps taken and the results obtained as regards each of the tasks listed in this article;
+(j)
+ensuring that there is no cross-subsidisation between transmission, distribution and supply activities or other electricity or non-electricity activities;
+(k)
+monitoring investment plans of the transmission system operators and providing in its annual report an assessment of the investment plans of the transmission system operators as regards their consistency with the union-wide network development plan; such assessment may include recommendations to amend those investment plans;
+(l)
+monitoring and assessing the performance of transmission system operators and distribution system operators in relation to the development of a smart grid that promotes energy efficiency and the integration of energy from renewable sources, based on a limited set of indicators, and publish a national report every two years, including recommendations;
+(m)
+setting or approving standards and requirements for quality of service and quality of supply or contributing thereto together with other competent authorities and monitoring compliance with and reviewing the past performance of network security and reliability rules;
+(n)
+monitoring the level of transparency, including of wholesale prices, and ensuring compliance of electricity undertakings with transparency obligations;
+(o)
+monitoring the level and effectiveness of market opening and competition at wholesale and retail levels, including on electricity exchanges, prices for household customers including prepayment systems, the impact of dynamic electricity price contracts and of the use of smart metering systems, switching rates, disconnection rates, charges for maintenance services, the execution of maintenance services, the relationship between household and wholesale prices, the evolution of grid tariffs and levies, and complaints by household customers, as well as any distortion or restriction of competition, including by providing any relevant information, and bringing any relevant cases to the relevant competition authorities;
+(p)
+monitoring the occurrence of restrictive contractual practices, including exclusivity clauses which may prevent customers from contracting simultaneously with more than one supplier or restrict their choice to do so, and, where appropriate, informing the national competition authorities of such practices;
+(q)
+monitoring the time taken by transmission system operators and distribution system operators to make connections and repairs;
+(r)
+helping to ensure, together with other relevant authorities, that the consumer protection measures are effective and enforced;
+(s)
+publishing recommendations, at least annually, in relation to compliance of supply prices with article 5, and providing those recommendations to the competition authorities, where appropriate;
+(t)
+ensuring non-discriminatory access to customer consumption data, the provision, for optional use, of an easily understandable harmonised format at national level for consumption data, and prompt access for all customers to such data pursuant to articles 23 and 24;
+(u)
+monitoring the implementation of rules relating to the roles and responsibilities of transmission system operators, distribution system operators, suppliers, customers and other market participants pursuant to regulation (eu) 2019/943;
+(v)
+monitoring investment in generation and storage capacities in relation to security of supply;
+(w)
+monitoring technical cooperation between union and third-country transmission system operators;
+(x)
+contributing to the compatibility of data exchange processes for the most important market processes at regional level;
+(y)
+monitoring the availability of comparison tools that meet the requirements set out in article 14;
+(z)
+monitoring the removal of unjustified obstacles to and restrictions on the development of consumption of self-generated electricity and citizen energy communities.
+2.   where a member state has so provided, the monitoring duties set out in paragraph 1 may be carried out by other authorities than the regulatory authority. in such a case, the information resulting from such monitoring shall be made available to the regulatory authority as soon as possible.
+while preserving their independence, without prejudice to their own specific competence and consistent with the principles of better regulation, the regulatory authority shall, as appropriate, consult transmission system operators and, as appropriate, closely cooperate with other relevant national authorities when carrying out the duties set out in paragraph 1.
+any approvals given by a regulatory authority or acer under this directive are without prejudice to any duly justified future use of its powers by the regulatory authority under this article or to any penalties imposed by other relevant authorities or the commission.
+3.   member states shall ensure that regulatory authorities are granted the powers enabling them to carry out the duties referred to in this article in an efficient and expeditious manner. for this purpose, the regulatory authority shall have at least the following powers:
+(a)
+to issue binding decisions on electricity undertakings;
+(b)
+to carry out investigations into the functioning of the electricity markets, and to decide upon and impose any necessary and proportionate measures to promote effective competition and ensure the proper functioning of the market. where appropriate, the regulatory authority shall also have the power to cooperate with the national competition authority and the financial market regulators or the commission in conducting an investigation relating to competition law;
+(c)
+to require any information from electricity undertakings relevant for the fulfilment of its tasks, including the justification for any refusal to grant third-party access, and any information on measures necessary to reinforce the network;
+(d)
+to impose effective, proportionate and dissuasive penalties on electricity undertakings not complying with their obligations under this directive, regulation (eu) 2019/943 or any relevant legally binding decisions of the regulatory authority or of acer, or to propose that a competent court impose such penalties, including the power to impose or propose the imposition of penalties of up to 10 % of the annual turnover of the transmission system operator on the transmission system operator or of up to 10 % of the annual turnover of the vertically integrated undertaking on the vertically integrated undertaking, as the case may be, for non-compliance with their respective obligations pursuant to this directive; and
+(e)
+appropriate rights of investigation and relevant powers of instruction for dispute settlement under article 60(2) and (3).
+4.   the regulatory authority located in the member state in which the entso for electricity or the eu dso entity has its seat shall have the power to impose effective, proportionate and dissuasive penalties on those entities where they do not comply with their obligations under this directive, regulation (eu) 2019/943 or any relevant legally binding decisions of the regulatory authority or of acer, or to propose that a competent court impose such penalties.
+5.   in addition to the duties conferred upon it under paragraphs 1 and 3 of this article, when an independent system operator has been designated under article 44, the regulatory authority shall:
+(a)
+monitor the transmission system owner's and the independent system operator's compliance with their obligations under this article, and issue penalties for non-compliance in accordance with point (d) of paragraph 3;
+(b)
+monitor the relations and communications between the independent system operator and the transmission system owner so as to ensure compliance of the independent system operator with its obligations, and in particular approve contracts and act as a dispute settlement authority between the independent system operator and the transmission system owner with respect to any complaint submitted by either party pursuant to article 60(2);
+(c)
+without prejudice to the procedure under point (c) of article 44(2), for the first ten-year network development plan, approve the investments planning and the multi-annual network development plan submitted at least every two years by the independent system operator;
+(d)
+ensure that network access tariffs collected by the independent system operator include remuneration for the network owner or network owners, which provides for adequate remuneration of the network assets and of any new investments made therein, provided they are economically and efficiently incurred;
+(e)
+have the powers to carry out inspections, including unannounced inspections, at the premises of transmission system owner and independent system operator; and
+(f)
+monitor the use of congestion charges collected by the independent system operator in accordance with article 19(2) of regulation (eu) 2019/943.
+6.   in addition to the duties and powers conferred on it under paragraphs 1 and 3 of this article, when a transmission system operator has been designated in accordance with section 3 of chapter vi, the regulatory authority shall be granted at least the following duties and powers:
+(a)
+to impose penalties in accordance with point (d) of paragraph 3 for discriminatory behaviour in favour of the vertically integrated undertaking;
+(b)
+to monitor communications between the transmission system operator and the vertically integrated undertaking so as to ensure compliance of the transmission system operator with its obligations;
+(c)
+to act as dispute settlement authority between the vertically integrated undertaking and the transmission system operator with respect to any complaint submitted pursuant to article 60(2);
+(d)
+to monitor commercial and financial relations including loans between the vertically integrated undertaking and the transmission system operator;
+(e)
+to approve all commercial and financial agreements between the vertically integrated undertaking and the transmission system operator on the condition that they comply with market conditions;
+(f)
+to request a justification from the vertically integrated undertaking when notified by the compliance officer in accordance with article 50(4), such justification including, in particular, evidence demonstrating that no discriminatory behaviour to the advantage of the vertically integrated undertaking has occurred;
+(g)
+to carry out inspections, including unannounced ones, on the premises of the vertically integrated undertaking and the transmission system operator; and
+(h)
+to assign all or specific tasks of the transmission system operator to an independent system operator appointed in accordance with article 44 in the case of a persistent breach by the transmission system operator of its obligations under this directive, in particular in the case of repeated discriminatory behaviour to the benefit of the vertically integrated undertaking.
+7.   the regulatory authorities, except where acer is competent to fix and approve the terms and conditions or methodologies for the implementation of network codes and guidelines under chapter vii of regulation (eu) 2019/943 pursuant to article 5(2) of regulation (eu) 2019/942 because of their coordinated nature, shall be responsible for fixing or approving sufficiently in advance of their entry into force at least the national methodologies used to calculate or establish the terms and conditions for:
+(a)
+connection and access to national networks, including transmission and distribution tariffs or their methodologies, those tariffs or methodologies shall allow the necessary investments in the networks to be carried out in a manner allowing those investments to ensure the viability of the networks;
+(b)
+the provision of ancillary services which shall be performed in the most economic manner possible and provide appropriate incentives for network users to balance their input and off-takes, such ancillary services shall be provided in a fair and non-discriminatory manner and be based on objective criteria; and
+(c)
+access to cross-border infrastructures, including the procedures for the allocation of capacity and congestion management.
+8.   the methodologies or the terms and conditions referred to in paragraph 7 shall be published.
+9.   with a view to increasing transparency in the market and providing all interested parties with all necessary information and decisions or proposals for decisions concerning transmission and distribution tariffs as referred in article 60(3), regulatory authorities shall make publicly available the detailed methodology and underlying costs used for the calculation of the relevant network tariffs, while preserving the confidentiality of commercially sensitive information.
+10.   the regulatory authorities shall monitor congestion management of national electricity systems including interconnectors, and the implementation of congestion management rules. to that end, transmission system operators or market operators shall submit their congestion management rules, including capacity allocation, to the regulatory authorities. regulatory authorities may request amendments to those rules."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/4038>,
+        <http://eurovoc.europa.eu/447917> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038>,
+        <http://eurovoc.europa.eu/447917> ;
+    pol:specifies_monitoring_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59_TimeMonitoring_1,
+        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59_TimeMonitoring_2,
+        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59_TimeMonitoring_3,
+        pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59_TimeMonitoring_4 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "annually" .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "annual" .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years" .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "at least every two years" .
+

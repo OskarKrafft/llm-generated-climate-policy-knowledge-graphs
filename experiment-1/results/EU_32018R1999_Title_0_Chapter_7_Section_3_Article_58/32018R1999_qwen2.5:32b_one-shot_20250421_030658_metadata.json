@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <http://example.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2018/1999/oj> \n    a pol:PolicyDocument ;\n    pol:title \"EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58\" ;\n    pol:celexNumber \"32018R1999\"^^xsd:string ;\n    pol:annotatedText \"\"\"\narticle 58\ntransitional provisions\nby way of derogation from article 57 of this regulation, article 7 and points (a) and (d) of article\u00a017(1) of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reports containing the data required under those articles for the years 2018, 2019 and 2020.\narticle 11(3) of regulation (eu) no 525/2013 shall continue to apply as regards the second commitment period of the kyoto protocol.\narticle 19 of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reviews of the greenhouse gas inventory data for the years 2018, 2019 and 2020.\narticle 22 of regulation (eu) no 525/2013 shall continue to apply to the submission of the report required under that article.\nfor the purpose of coherence and legal certainty, nothing in this regulation prevents the application of the derogations pursuant to the relevant union sectoral law in the area of electricity and electricity risk preparedness.\n\"\"\"^^xsd:string ;\n    pol:annotator \"A\" , \"C\" .",
+  "original_output": "```turtle\n@prefix pol: <http://example.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2018/1999/oj> \n    a pol:PolicyDocument ;\n    pol:title \"EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58\" ;\n    pol:celexNumber \"32018R1999\"^^xsd:string ;\n    pol:annotatedText \"\"\"\narticle 58\ntransitional provisions\nby way of derogation from article 57 of this regulation, article 7 and points (a) and (d) of article\u00a017(1) of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reports containing the data required under those articles for the years 2018, 2019 and 2020.\narticle 11(3) of regulation (eu) no 525/2013 shall continue to apply as regards the second commitment period of the kyoto protocol.\narticle 19 of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reviews of the greenhouse gas inventory data for the years 2018, 2019 and 2020.\narticle 22 of regulation (eu) no 525/2013 shall continue to apply to the submission of the report required under that article.\nfor the purpose of coherence and legal certainty, nothing in this regulation prevents the application of the derogations pursuant to the relevant union sectoral law in the area of electricity and electricity risk preparedness.\n\"\"\"^^xsd:string ;\n    pol:annotator \"A\" , \"C\" .\n```",
+  "generation_time": 24.200464725494385,
+  "output": "```turtle\n@prefix pol: <http://example.org/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://data.europa.eu/eli/reg/2018/1999/oj> \n    a pol:PolicyDocument ;\n    pol:title \"EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58\" ;\n    pol:celexNumber \"32018R1999\"^^xsd:string ;\n    pol:annotatedText \"\"\"\narticle 58\ntransitional provisions\nby way of derogation from article 57 of this regulation, article 7 and points (a) and (d) of article\u00a017(1) of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reports containing the data required under those articles for the years 2018, 2019 and 2020.\narticle 11(3) of regulation (eu) no 525/2013 shall continue to apply as regards the second commitment period of the kyoto protocol.\narticle 19 of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reviews of the greenhouse gas inventory data for the years 2018, 2019 and 2020.\narticle 22 of regulation (eu) no 525/2013 shall continue to apply to the submission of the report required under that article.\nfor the purpose of coherence and legal certainty, nothing in this regulation prevents the application of the derogations pursuant to the relevant union sectoral law in the area of electricity and electricity risk preparedness.\n\"\"\"^^xsd:string ;\n    pol:annotator \"A\" , \"C\" .\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+      "CELEX_Number": "32018R1999",
+      "ELI": "http://data.europa.eu/eli/reg/2018/1999/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5:32b",
+    "timestamp": "2025-04-21T03:06:58.170930"
+  },
+  "triple_count": 6
+}

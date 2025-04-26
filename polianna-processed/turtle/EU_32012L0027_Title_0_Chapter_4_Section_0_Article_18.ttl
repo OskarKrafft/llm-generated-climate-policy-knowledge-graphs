@@ -1,0 +1,48 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_4_Section_0_Article_18 .
+
+pol:EU_32012L0027_Title_0_Chapter_4_Section_0_Article_18 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:PublicInvt,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 18
+energy services
+1.   member states shall promote the energy services market and access for smes to this market by:
+(a)
+disseminating clear and easily accessible information on:
+(i)
+available energy service contracts and clauses that should be included in such contracts to guarantee energy savings and final customers’ rights;
+(ii)
+financial instruments, incentives, grants and loans to support energy efficiency service projects;
+(b)
+encouraging the development of quality labels, inter alia, by trade associations;
+(c)
+making publicly available and regularly updating a list of available energy service providers who are qualified and/or certified and their qualifications and/or certifications in accordance with article 16, or providing an interface where energy service providers can provide information;
+(d)
+supporting the public sector in taking up energy service offers, in particular for building refurbishment, by:
+(i)
+providing model contracts for energy performance contracting which include at least the items listed in annex xiii;
+(ii)
+providing information on best practices for energy performance contracting, including, if available, cost-benefit analysis using a life-cycle approach;
+(e)
+providing a qualitative review in the framework of the national energy efficiency action plan regarding the current and future development of the energy services market.
+2.   member states shall support the proper functioning of the energy services market, where appropriate, by:
+(a)
+identifying and publicising point(s) of contact where final customers can obtain the information referred to in paragraph 1;
+(b)
+taking, if necessary, measures to remove the regulatory and non-regulatory barriers that impede the uptake of energy performance contracting and other energy efficiency service models for the identification and/or implementation of energy saving measures;
+(c)
+considering putting in place or assigning the role of an independent mechanism, such as an ombudsman, to ensure the efficient handling of complaints and out-of-court settlement of disputes arising from energy service contracts;
+(d)
+enabling independent market intermediaries to play a role in stimulating market development on the demand and supply sides.
+3.   member states shall ensure that energy distributors, distribution system operators and retail energy sales companies refrain from any activities that may impede the demand for and delivery of energy services or other energy efficiency improvement measures, or hinder the development of markets for such services or measures, including foreclosing the market for competitors or abusing dominant positions."""^^xsd:string .
+

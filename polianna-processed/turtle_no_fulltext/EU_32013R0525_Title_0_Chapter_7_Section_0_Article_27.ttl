@@ -1,0 +1,18 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_27 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_27 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_resources pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_27_TimeMonitoring_1 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_27_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "december 2016" .
+

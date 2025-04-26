@@ -1,0 +1,29 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_64 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_64 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 64
+record keeping
+1.   member states shall require suppliers to keep at the disposal of the national authorities, including the regulatory authority, the national competition authorities and the commission, for the fulfilment of their tasks, for at least five years, the relevant data relating to all transactions in electricity supply contracts and electricity derivatives with wholesale customers and transmission system operators.
+2.   the data shall include details on the characteristics of the relevant transactions such as duration, delivery and settlement rules, the quantity, the dates and times of execution and the transaction prices and means of identifying the wholesale customer concerned, as well as specified details of all unsettled electricity supply contracts and electricity derivatives.
+3.   the regulatory authority may decide to make available to market participants elements of that information provided that commercially sensitive information on individual market players or individual transactions is not released. this paragraph shall not apply to information about financial instruments which fall within the scope of directive 2014/65/eu.
+4.   this article shall not create additional obligations towards the authorities referred to in paragraph 1 for entities falling within the scope of directive 2014/65/eu.
+5.   in the event that the authorities referred to in paragraph 1 need access to data kept by entities falling within the scope of directive 2014/65/eu, the authorities responsible under that directive shall provide them with the required data.
+
+chapter viii
+
+
+
+final provisions"""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_monitoring_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_64_TimeMonitoring_1 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_64_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "for at least five years" .
+

@@ -1,0 +1,42 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_24 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_24 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 24
+role of the european environment agency
+the european environment agency shall assist the commission in its work to comply with articles 6 to 9, 12 to 19, 21 and 22 in accordance with its annual work programme. this shall include assistance with:
+(a)
+compiling the union greenhouse gas inventory and preparing the union greenhouse gas inventory report;
+(b)
+performing quality assurance and quality control procedures to prepare the union greenhouse gas inventory;
+(c)
+preparing estimates for data not reported in the national greenhouse gas inventories;
+(d)
+conducting the reviews;
+(e)
+compiling the union approximated greenhouse gas inventory;
+(f)
+compiling the information reported by member states on policies and measures and projections;
+(g)
+performing quality assurance and quality control procedures on the information reported by member states on projections and policies and measures;
+(h)
+preparing estimates for data on projections not reported by the member states;
+(i)
+compiling data as required for the annual report to the european parliament and the council prepared by the commission;
+(j)
+disseminating information collected under this regulation, including maintaining and updating a database on member states’ mitigation policies and measures and the european climate adaptation platform relating to impacts, vulnerabilities and adaptation to climate change.
+chapter 10
+
+delegation"""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States .
+

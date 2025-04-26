@@ -1,0 +1,34 @@
+@prefix : <http://example.org/> .
+@prefix poli: <https://w3id.org/poli/ontologies/polinn> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 a poli:Policy ;
+    skos:notation "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58" ;
+    skos:closeMatch <http://data.europa.eu/eli/reg/2018/1999/oj> .
+
+:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeDerogation_1 a poli:Time_Derogation ;
+    poli:derogatesFrom :Article_57_EU_32018R1999 ;
+    poli:annotatedText "article 57 of this regulation" .
+
+:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeDerogation_2 a poli:Time_Derogation ;
+    poli:derogatesFrom :Article_7_Regulation_EU_No_525/2013 ;
+    poli:annotatedText "article 7 of regulation (eu) no 525/2013" .
+
+:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeDerogation_3 a poli:Time_Derogation ;
+    poli:derogatesFrom :Article_17_Regulation_EU_No_525/2013 ;
+    poli:annotatedText "points (a) and (d) of article 17(1) of regulation (eu) no 525/2013" .
+
+:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeDerogation_4 a poli:Time_Derogation ;
+    poli:derogatesFrom :Article_11_Regulation_EU_No_525/2013 ;
+    poli:annotatedText "article 11(3) of regulation (eu) no 525/2013" .
+
+:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeDerogation_5 a poli:Time_Derogation ;
+    poli:derogatesFrom :Article_19_Regulation_EU_No_525/2013 ;
+    poli:annotatedText "article 19 of regulation (eu) no 525/2013" .
+
+:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeDerogation_6 a poli:Time_Derogation ;
+    poli:derogatesFrom :Article_22_Regulation_EU_No_525/2013 ;
+    poli:annotatedText "article 22 of regulation (eu) no 525/2013" .
+
+:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_DerogationYear a poli:Derogation_Year ;
+    poli:year "2018", "2019", "2020" .

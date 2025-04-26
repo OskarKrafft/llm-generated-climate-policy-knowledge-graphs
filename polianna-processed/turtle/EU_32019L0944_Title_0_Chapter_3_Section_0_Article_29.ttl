@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_29 .
+
+pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_29 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:fullText """article 29
+energy poverty
+when assessing the number of households in energy poverty pursuant to point (d) of article 3(3) of regulation (eu) 2018/1999, member states shall establish and publish a set of criteria, which may include low income, high expenditure of disposable income on energy and poor energy efficiency.
+the commission shall provide guidance on the definition of ‘significant number of households in energy poverty’ in this context and in the context of article 5(5), starting from the premise that any proportion of households in energy poverty can be considered to be significant."""^^xsd:string .
+

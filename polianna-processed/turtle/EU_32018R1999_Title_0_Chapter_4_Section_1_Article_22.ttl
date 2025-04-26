@@ -1,0 +1,28 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_22 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_22 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 22
+integrated reporting on energy security
+member states shall include in the integrated national energy and climate progress reports information on the implementation of:
+(a)
+national objectives for the diversification of energy sources and supply;
+(b)
+where applicable, national objectives with regard to reducing energy import dependency from third countries;
+(c)
+national objectives for the development of the ability to cope with constrained or interrupted supply of an energy source, including gas and electricity;
+(d)
+national objectives with regard to increasing the flexibility of the national energy system, in particular by means of deploying domestic energy sources, demand response and energy storage;
+(e)
+implemented, adopted and planned policies and measures to achieve the objectives referred to in points (a) to (d);
+(f)
+regional cooperation in implementing the objectives and policies referred to in points (a) to (d);
+(g)
+without prejudice to articles 107 and 108 tfeu, financing measures, including union support and the use of union funds, in this area at national level, where applicable."""^^xsd:string ;
+    pol:imposes_monitoring pol:Member_States .
+

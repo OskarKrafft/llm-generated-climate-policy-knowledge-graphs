@@ -1,0 +1,57 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32008R1099 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 6
+quality assessment and reports
+1.   member states shall ensure the quality of the data transmitted.
+2.   every reasonable effort shall be undertaken to ensure coherence between energy data declared in accordance with annex b and data declared in accordance with commission decision 2005/166/ec of 10 february 2005 laying down the rules for implementing decision no 280/2004/ec of the european parliament and of the council concerning a mechanism for monitoring community greenhouse gas emissions and for implementing the kyoto protocol (12).
+3.   for the purposes of this regulation, the following quality assessment dimensions shall apply to the data to be transmitted:
+(a)
+‘relevance’ shall refer to the degree to which statistics meet current and potential needs of the users;
+(b)
+‘accuracy’ shall refer to the closeness of estimates to the unknown true values;
+(c)
+‘timeliness’ shall refer to the delay between the availability of the information and the event or phenomenon it describes;
+(d)
+‘punctuality’ shall refer to the delay between the date of the release of the data and the target date when it should have been delivered;
+(e)
+‘accessibility’ and ‘clarity’ shall refer to the conditions and modalities by which users can obtain, use and interpret data;
+(f)
+‘comparability’ shall refer to the measurement of the impact of differences in applied statistical concepts and measurement tools and procedures where statistics are compared between geographical areas, sectoral domains or over time;
+(g)
+‘coherence’ shall refer to the adequacy of the data to be reliably combined in different ways and for various uses.
+4.   every five years, member states shall provide the commission (eurostat) with a report on the quality of the data transmitted as well as on any methodological changes that have been made.
+5.   within six months of receipt of a request from the commission (eurostat), and in order to allow it to assess the quality of the data transmitted, member states shall send to the commission (eurostat) a report containing any relevant information concerning the implementation of this regulation."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/2198>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06_TimeCompliance_2,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06_TimeCompliance_5 ;
+    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06_TimeMonitoring_1,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06_TimeMonitoring_3,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06_TimeMonitoring_4 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:annotatedText "target date" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06_TimeCompliance_5 a pol:Time_Compliance ;
+    pol:annotatedText "within six months" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "date of the release of the data" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "every five years" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_06_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "within six months of receipt of a request from the commission (eurostat)" .
+

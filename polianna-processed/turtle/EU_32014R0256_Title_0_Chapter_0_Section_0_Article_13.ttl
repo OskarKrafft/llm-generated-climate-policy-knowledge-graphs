@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_13 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_13 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:fullText """article 13
+entry into force
+this regulation shall enter into force on the twentieth day following that of its publication in the official journal of the european union.
+this regulation shall be binding in its entirety and directly applicable in all member states."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_13_TimeInEffect_1 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_13_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:annotatedText "twentieth day following that of its publication in the official journal of the european union" .
+

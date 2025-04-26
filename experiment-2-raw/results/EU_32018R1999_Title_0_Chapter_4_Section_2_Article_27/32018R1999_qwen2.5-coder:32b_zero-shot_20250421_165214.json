@@ -1,0 +1,59 @@
+json
+[
+  {
+    "Subject": "Article_27",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/polianna/ontology#Article"
+  },
+  {
+    "Subject": "Article_27",
+    "Predicate": "hasTitle",
+    "Object": "reporting on the 2020 targets"
+  },
+  {
+    "Subject": "Article_27",
+    "Predicate": "hasReportingDeadline",
+    "Object": "30 april 2022"
+  },
+  {
+    "Subject": "Article_27",
+    "Predicate": "requiresReportTo",
+    "Object": "the commission"
+  },
+  {
+    "Subject": "Article_27",
+    "Predicate": "concernsTarget",
+    "Object": "its 2020 energy efficiency national target established pursuant to article 3(1) of directive 2012/27/eu"
+  },
+  {
+    "Subject": "Article_27",
+    "Predicate": "requiresInformationFrom",
+    "Object": "part 2 of annex ix to this regulation"
+  },
+  {
+    "Subject": "Article_27",
+    "Predicate": "concernsTarget",
+    "Object": "the national overall targets for the share of energy from renewable sources in 2020 as set out in annex i to directive 2009/28/ec in the version in force on 31 december 2020"
+  },
+  {
+    "Subject": "Article_27",
+    "Predicate": "requiresInformationOn",
+    "Object": "the sectoral (electricity, heating and cooling, and transport) and overall shares of energy from renewable sources in 2020"
+  },
+  {
+    "Subject": "Article_27",
+    "Predicate": "requiresInformationOn",
+    "Object": "the measures taken to achieve the 2020 national renewable energy targets, including measures related to support schemes, guarantees of origin and simplification of administrative procedures"
+  },
+  {
+    "Subject": "Article_27",
+    "Predicate": "requiresInformationOn",
+    "Object": "the share of energy from biofuels and bioliquids produced from cereal and other starch-rich crops, sugars and oil crops in energy consumption in transport"
+  },
+  {
+    "Subject": "Article_27",
+    "Predicate": "requiresInformationOn",
+    "Object": "the share of energy from biofuels and biogas for transport produced from feedstocks and of other fuels listed in part a of annex ix to directive 2009/28/ec in the version in force on 31 december 2020 in energy consumption in transport"
+  }
+]
+```

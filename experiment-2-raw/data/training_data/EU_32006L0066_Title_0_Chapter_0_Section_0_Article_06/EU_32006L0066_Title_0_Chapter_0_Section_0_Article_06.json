@@ -1,0 +1,32 @@
+[
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "Member_States"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "32006L0066",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "32006L0066",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  }
+]

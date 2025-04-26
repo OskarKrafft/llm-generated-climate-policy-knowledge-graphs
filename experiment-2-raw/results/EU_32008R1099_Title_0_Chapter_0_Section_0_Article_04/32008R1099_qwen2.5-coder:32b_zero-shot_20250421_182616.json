@@ -1,0 +1,73 @@
+json
+[
+  {
+    "Subject": "Article",
+    "Predicate": "hasTitle",
+    "Object": "aggregates, energy products and the transmission frequency of national statistics"
+  },
+  {
+    "Subject": "Article",
+    "Predicate": "hasSuffix",
+    "Object": "4"
+  },
+  {
+    "Subject": "Article",
+    "Predicate": "hasPart",
+    "Object": "1"
+  },
+  {
+    "Subject": "Article/1",
+    "Predicate": "hasContent",
+    "Object": "the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:"
+  },
+  {
+    "Subject": "Article/1/a",
+    "Predicate": "hasFrequency",
+    "Object": "annual"
+  },
+  {
+    "Subject": "Article/1/a",
+    "Predicate": "appliesTo",
+    "Object": "energy statistics in annex b"
+  },
+  {
+    "Subject": "Article/1/b",
+    "Predicate": "hasFrequency",
+    "Object": "monthly"
+  },
+  {
+    "Subject": "Article/1/b",
+    "Predicate": "appliesTo",
+    "Object": "energy statistics in annex c"
+  },
+  {
+    "Subject": "Article/1/c",
+    "Predicate": "hasFrequency",
+    "Object": "short-term monthly"
+  },
+  {
+    "Subject": "Article/1/c",
+    "Predicate": "appliesTo",
+    "Object": "energy statistics in annex d"
+  },
+  {
+    "Subject": "Article",
+    "Predicate": "hasPart",
+    "Object": "2"
+  },
+  {
+    "Subject": "Article/2",
+    "Predicate": "hasContent",
+    "Object": "applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology)."
+  },
+  {
+    "Subject": "Article",
+    "Predicate": "hasPart",
+    "Object": "3"
+  },
+  {
+    "Subject": "Article/3",
+    "Predicate": "hasContent",
+    "Object": "the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)."
+  }
+]

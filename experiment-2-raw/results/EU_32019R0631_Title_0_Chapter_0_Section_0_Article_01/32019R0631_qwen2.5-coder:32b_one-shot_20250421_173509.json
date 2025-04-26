@@ -1,0 +1,294 @@
+```json
+[
+    {
+        "Subject": "Article",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/reg/2019/631/oj#Article_01"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasTitle",
+        "Object": "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasCELEXNumber",
+        "Object": "32019R0631"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasELI",
+        "Object": "http://data.europa.eu/eli/reg/2019/631/oj"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasAnnotators",
+        "Object": "[\"F\", \"B\"]"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "establishes",
+        "Object": "CO2 emissions performance requirements for new passenger cars and for new light commercial vehicles"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "contributesTo",
+        "Object": "achieving the union's target of reducing its greenhouse gas emissions"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "regulation (EU) 2018/842"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "contributesTo",
+        "Object": "the objectives of the Paris agreement"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "ensures",
+        "Object": "the proper functioning of the internal market"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsTargetDate",
+        "Object": "1 January 2020"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForPassengerCars",
+        "Object": "95 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForLightCommercialVehicles",
+        "Object": "147 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "measuredUntilDate",
+        "Object": "31 December 2020"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "regulation (EC) No 692/2008"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "implementing regulations (EU) 2017/1152 and (EU) 2017/1153"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "measuredFrom",
+        "Object": "1 January 2021"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "regulation (EU) 2017/1151"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "complementedByAdditionalMeasuresUntilDate",
+        "Object": "31 December 2024"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "additionalMeasuresReduction",
+        "Object": "10 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "the commission's communication of 7 February 2007 entitled 'results of the review of the community strategy to reduce co2 emissions from passenger cars and light-commercial vehicles'"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsTargetDate",
+        "Object": "1 January 2025"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForPassengerCarsReduction",
+        "Object": "15%"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "point 6.1.1 of part a of annex i"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForLightCommercialVehiclesReduction",
+        "Object": "15%"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "point 6.1.1 of part a of annex i"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsTargetDate",
+        "Object": "1 January 2025"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsZeroEmissionBenchmarkForPassengerCars",
+        "Object": "95 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsZeroEmissionBenchmarkForLightCommercialVehicles",
+        "Object": "147 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsTargetDate",
+        "Object": "1 January 2025"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForPassengerCarsReduction",
+        "Object": "15%"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "point 6.1.1 of part a of annex i"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForLightCommercialVehiclesReduction",
+        "Object": "15%"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "point 6.1.1 of part a of annex i"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsTargetDate",
+        "Object": "1 January 2025"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsZeroEmissionBenchmarkForPassengerCars",
+        "Object": "95 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsZeroEmissionBenchmarkForLightCommercialVehicles",
+        "Object": "147 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsTargetDate",
+        "Object": "1 January 2025"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForPassengerCarsReduction",
+        "Object": "15%"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "point 6.1.1 of part a of annex i"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForLightCommercialVehiclesReduction",
+        "Object": "15%"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "point 6.1.1 of part a of annex i"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsTargetDate",
+        "Object": "1 January 2025"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsZeroEmissionBenchmarkForPassengerCars",
+        "Object": "95 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsZeroEmissionBenchmarkForLightCommercialVehicles",
+        "Object": "147 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsTargetDate",
+        "Object": "1 January 2025"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForPassengerCarsReduction",
+        "Object": "15%"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "point 6.1.1 of part a of annex i"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForLightCommercialVehiclesReduction",
+        "Object": "15%"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "point 6.1.1 of part a of annex i"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsTargetDate",
+        "Object": "1 January 2025"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsZeroEmissionBenchmarkForPassengerCars",
+        "Object": "95 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsZeroEmissionBenchmarkForLightCommercialVehicles",
+        "Object": "147 g CO2/km"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsTargetDate",
+        "Object": "1 January 2025"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForPassengerCarsReduction",
+        "Object": "15%"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "point 6.1.1 of part a of annex i"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "setsEUFleetWideTargetForLightCommercialVehiclesReduction",
+        "Object": "15%"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "references",
+        "Object": "point 6.1.1 of part a of annex i"
+    }
+]
+<|im_start|>:

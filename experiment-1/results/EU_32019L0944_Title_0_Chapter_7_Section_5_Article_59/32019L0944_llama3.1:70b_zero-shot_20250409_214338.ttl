@@ -1,0 +1,42 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix polianna: <https://raw.githubusercontent.com/opengovfoundation/poliana/master/src/main/resources/vocab/> .
+
+<https://example.com/article1>
+    a polianna:Article ;
+    dct:title "Regulatory Authorities' Duties and Powers"@en ;
+    skos:narrower <https://example.com/paragraph1>, <https://example.com/paragraph2> .
+
+<https://example.com/paragraph1>
+    a polianna:Paragraph ;
+    dct:description "Regulatory authorities shall monitor..."@en ;
+    prov:wasDerivedFrom <https://example.com/article1> .
+
+<https://example.com/paragraph2>
+    a polianna:Paragraph ;
+    dct:description "In addition to the duties and powers conferred on it under paragraphs 1 and 3 of this Article, when a transmission system operator has been designated in accordance with Section 3 of Chapter VI..."@en ;
+    prov:wasDerivedFrom <https://example.com/article1> .
+
+<https://example.com/point7>
+    a polianna:Point ;
+    dct:description "The regulatory authorities... shall be responsible for fixing or approving sufficiently in advance of their entry into force at least the national methodologies used to calculate or establish the terms and conditions for:"@en ;
+    prov:wasDerivedFrom <https://example.com/paragraph1> .
+
+<https://example.com/subpointA>
+    a polianna:SubPoint ;
+    dct:description "connection and access to national networks, including transmission and distribution tariffs or their methodologies"@en ;
+    skos:narrower <https://example.com/subsubpointI>, <https://example.com/subsubpointII> ;
+    prov:wasDerivedFrom <https://example.com/point7> .
+
+<https://example.com/subsubpointI>
+    a polianna:SubSubPoint ;
+    dct:description "those tariffs or methodologies shall allow the necessary investments in the networks to be carried out in a manner allowing those investments to ensure the viability of the networks"@en ;
+    prov:wasDerivedFrom <https://example.com/subpointA> .
+
+<https://example.com/subsubpointII>
+    a polianna:SubSubPoint ;
+    dct:description "such ancillary services shall be provided in a fair and non-discriminatory manner and be based on objective criteria"@en ;
+    prov:wasDerivedFrom <https://example.com/subpointA> .
+
+<https://example.com/article1> prov:endedAtTime "2023-03-01T00:00:00"^^xsd:dateTime .

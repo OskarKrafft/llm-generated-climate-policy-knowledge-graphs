@@ -1,0 +1,394 @@
+jsonld
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "poliana:setOfDefinitions",
+      "@type": "poliana:DefinitionSet",
+      "rdfs:label": "Article Definitions",
+      "poliana:hasDefinition": [
+        {
+          "@id": "poliana:setOfDefinitions/set1/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set1/definition1",
+          "poliana:term": "setOfDefinitions/set1/definition1",
+          "poliana:description": "Below is a set of definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set1/definition2",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set1/definition2",
+          "poliana:term": "setOfDefinitions/set1/definition2",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set1/definition3",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set1/definition3",
+          "poliana:term": "setOfDefinitions/set1/definition3",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set2/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set2/definition1",
+          "poliana:term": "setOfDefinitions/set2/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set2/definition2",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set2/definition2",
+          "poliana:term": "setOfDefinitions/set2/definition2",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set3/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set3/definition1",
+          "poliana:term": "setOfDefinitions/set3/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set4/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set4/definition1",
+          "poliana:term": "setOfDefinitions/set4/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set5/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set5/definition1",
+          "poliana:term": "setOfDefinitions/set5/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set6/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set6/definition1",
+          "poliana:term": "setOfDefinitions/set6/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set7/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set7/definition1",
+          "poliana:term": "setOfDefinitions/set7/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set8/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set8/definition1",
+          "poliana:term": "setOfDefinitions/set8/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set9/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set9/definition1",
+          "poliana:term": "setOfDefinitions/set9/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set10/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set10/definition1",
+          "poliana:term": "setOfDefinitions/set10/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set11/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set11/definition1",
+          "poliana:term": "setOfDefinitions/set11/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set12/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set12/definition1",
+          "poliana:term": "setOfDefinitions/set12/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set13/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set13/definition1",
+          "poliana:term": "setOfDefinitions/set13/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set14/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set14/definition1",
+          "poliana:term": "setOfDefinitions/set14/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set15/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set15/definition1",
+          "poliana:term": "setOfDefinitions/set15/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set16/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set16/definition1",
+          "poliana:term": "setOfDefinitions/set16/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set17/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set17/definition1",
+          "poliana:term": "setOfDefinitions/set17/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set18/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set18/definition1",
+          "poliana:term": "setOfDefinitions/set18/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set19/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set19/definition1",
+          "poliana:term": "setOfDefinitions/set19/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set20/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set20/definition1",
+          "poliana:term": "setOfDefinitions/set20/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set21/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set21/definition1",
+          "poliana:term": "setOfDefinitions/set21/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set22/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set22/definition1",
+          "poliana:term": "setOfDefinitions/set22/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set23/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set23/definition1",
+          "poliana:term": "setOfDefinitions/set23/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set24/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set24/definition1",
+          "poliana:term": "setOfDefinitions/set24/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set25/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set25/definition1",
+          "poliana:term": "setOfDefinitions/set25/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set26/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set26/definition1",
+          "poliana:term": "setOfDefinitions/set26/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set27/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set27/definition1",
+          "poliana:term": "setOfDefinitions/set27/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set28/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set28/definition1",
+          "poliana:term": "setOfDefinitions/set28/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set29/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set29/definition1",
+          "poliana:term": "setOfDefinitions/set29/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set30/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set30/definition1",
+          "poliana:term": "setOfDefinitions/set30/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set31/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set31/definition1",
+          "poliana:term": "setOfDefinitions/set31/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set32/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set32/definition1",
+          "poliana:term": "setOfDefinitions/set32/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set33/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set33/definition1",
+          "poliana:term": "setOfDefinitions/set33/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set34/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set34/definition1",
+          "poliana:term": "setOfDefinitions/set34/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set35/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set35/definition1",
+          "poliana:term": "setOfDefinitions/set35/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set36/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set36/definition1",
+          "poliana:term": "setOfDefinitions/set36/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set37/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set37/definition1",
+          "poliana:term": "setOfDefinitions/set37/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set38/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set38/definition1",
+          "poliana:term": "setOfDefinitions/set38/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set39/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set39/definition1",
+          "poliana:term": "setOfDefinitions/set39/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set40/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set40/definition1",
+          "poliana:term": "setOfDefinitions/set40/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set41/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set41/definition1",
+          "poliana:term": "setOfDefinitions/set41/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set42/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set42/definition1",
+          "poliana:term": "setOfDefinitions/set42/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set43/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set43/definition1",
+          "poliana:term": "setOfDefinitions/set43/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set44/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set44/definition1",
+          "poliana:term": "setOfDefinitions/set44/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set45/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set45/definition1",
+          "poliana:term": "setOfDefinitions/set45/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set46/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set46/definition1",
+          "poliana:term": "setOfDefinitions/set46/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set47/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set47/definition1",
+          "poliana:term": "setOfDefinitions/set47/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set48/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set48/definition1",
+          "poliana:term": "setOfDefinitions/set48/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set49/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set49/definition1",
+          "poliana:term": "setOfDefinitions/set49/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        },
+        {
+          "@id": "poliana:setOfDefinitions/set50/definition1",
+          "@type": "poliana:Definition",
+          "rdfs:label": "setOfDefinitions/set50/definition1",
+          "poliana:term": "setOfDefinitions/set50/definition1",
+          "poliana:description": "Below are the definitions from an article."
+        }
+<|im_start|><|im_start|>
+<|im_start|>It looks like you've provided a structured format for what appears to be a set of definitions, possibly for a knowledge base or ontology. Each entry is identified by a unique ID (e.g., `setOfDefinitions/set1/definition1`), and includes fields for type (`@type`), label (`rdfs:label`), term (`poliana:term`), and description (`poliana:description`). 
+
+If you need help with something specific related to this data, such as:
+
+- Parsing or processing the data in a programming language.
+- Converting it into another format (e.g., JSON, CSV).
+- Adding more entries or modifying existing ones.
+- Integrating it into an application or database.
+
+Please let me know how I can assist you!

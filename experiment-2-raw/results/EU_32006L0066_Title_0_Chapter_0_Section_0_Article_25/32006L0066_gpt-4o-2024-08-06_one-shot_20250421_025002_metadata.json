@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "[\n  {\n    \"s\": \"32006L0066\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32006L0066\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_sanctioning_form\",\n    \"o\": \"Form_sanctioning\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_compliance_time\",\n    \"o\": \"TimeCompliance_1\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Compliance\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"Compliance_date\",\n    \"o\": \"2008-09-26\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"26 september 2008\"\n  }\n]",
+  "original_output": "```json\n[\n  {\n    \"s\": \"32006L0066\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32006L0066\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_sanctioning_form\",\n    \"o\": \"Form_sanctioning\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_compliance_time\",\n    \"o\": \"TimeCompliance_1\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Compliance\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"Compliance_date\",\n    \"o\": \"2008-09-26\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"26 september 2008\"\n  }\n]\n```",
+  "generation_time": 2.6154661178588867,
+  "output": "```json\n[\n  {\n    \"s\": \"32006L0066\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32006L0066\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"contains_sanctioning_form\",\n    \"o\": \"Form_sanctioning\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"authorises\",\n    \"o\": \"eurovoc:4038\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_compliance_time\",\n    \"o\": \"TimeCompliance_1\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_Compliance\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"Compliance_date\",\n    \"o\": \"2008-09-26\"\n  },\n  {\n    \"s\": \"TimeCompliance_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"26 september 2008\"\n  }\n]\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+      "CELEX_Number": "32006L0066",
+      "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "raw",
+    "model": "gpt-4o-2024-08-06",
+    "timestamp": "2025-04-21T02:50:02.324202",
+    "reconstructed_from_raw": true
+  },
+  "triple_count": 10
+}

@@ -1,0 +1,15 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_1_Section_0_Article_02 .
+
+pol:EU_32018R1999_Title_0_Chapter_1_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises eurovoc:4038 ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:contains_sanctioning_form pol:Form_sanctioning .
+

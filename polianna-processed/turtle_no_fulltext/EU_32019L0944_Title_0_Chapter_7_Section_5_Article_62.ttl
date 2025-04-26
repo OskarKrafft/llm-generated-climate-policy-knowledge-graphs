@@ -1,0 +1,19 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_62 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_62 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/447917> ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TaxIncentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/447917> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/447917> ;
+    pol:specifies_monitoring_time pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_62_TimeMonitoring_1 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_62_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "within a period of four months" .
+

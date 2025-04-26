@@ -1,0 +1,22 @@
+[
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "FrameworkPolicy"
+  },
+  {
+    "s": "32019L0944",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "32019L0944",
+    "p": "hasArticle",
+    "o": "Article"
+  }
+]

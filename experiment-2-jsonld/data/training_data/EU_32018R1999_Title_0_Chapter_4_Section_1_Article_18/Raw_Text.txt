@@ -1,0 +1,10 @@
+article 18
+integrated reporting on greenhouse gas policies and measures and on projections
+1.   by 15 march 2021, and every two years thereafter, member states shall report to the commission information on:
+(a)
+their national policies and measures or group of measures as set out in annex vi; and
+(b)
+their national projections of anthropogenic greenhouse gas emissions by sources and removals by sinks, organised by gas or group of gases (hydrofluorocarbons and perfluorocarbons) listed in part 2 of annex v. national projections shall take into consideration any policies and measures adopted at union level and shall include the information set out in annex vii.
+2.   member states shall report the most up-to-date projections available. where a member state does not submit complete projection estimates by 15 march every second year, and the commission has established that gaps in the estimates cannot be filled by that member state once identified through the commission's quality assurance or quality control procedures, the commission may prepare estimates as required to compile union projections, in consultation with the member state concerned.
+3.   a member state shall communicate to the commission any substantial changes to the information reported pursuant to paragraph 1 during the first year of the reporting period, by 15 march of the year following the previous report.
+4.   member states shall make available to the public, in electronic form, their national projections pursuant to paragraph 1 and any relevant assessment of the costs and effects of national policies and measures on the implementation of union policies relevant for limiting greenhouse gas emissions along with any relevant underpinning technical reports. those projections and assessments should include descriptions of the models and methodological approaches used, definitions and underlying assumptions.

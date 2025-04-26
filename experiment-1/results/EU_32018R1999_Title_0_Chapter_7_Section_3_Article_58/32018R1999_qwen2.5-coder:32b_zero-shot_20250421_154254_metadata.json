@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 a pol:Article ;\n    pol:hasTitle \"article 58\" ;\n    pol:hasContent \"\"\"transitional provisions\nby way of derogation from article 57 of this regulation, article 7 and points (a) and (d) of article\u00a017(1) of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reports containing the data required under those articles for the years 2018, 2019 and 2020.\narticle 11(3) of regulation (eu) no 525/2013 shall continue to apply as regards the second commitment period of the kyoto protocol.\narticle 19 of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reviews of the greenhouse gas inventory data for the years 2018, 2019 and 2020.\narticle 22 of regulation (eu) no 525/2013 shall continue to apply to the submission of the report required under that article.\nfor the purpose of coherence and legal certainty, nothing in this regulation prevents the application of the derogations pursuant to the relevant union sectoral law in the area of electricity and electricity risk preparedness.\"\"\" ;\n    pol:hasCELEXNumber \"32018R1999\" ;\n    pol:hasELI <http://data.europa.eu/eli/reg/2018/1999/oj> .",
+  "original_output": "```turtle\n@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 a pol:Article ;\n    pol:hasTitle \"article 58\" ;\n    pol:hasContent \"\"\"transitional provisions\nby way of derogation from article 57 of this regulation, article 7 and points (a) and (d) of article\u00a017(1) of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reports containing the data required under those articles for the years 2018, 2019 and 2020.\narticle 11(3) of regulation (eu) no 525/2013 shall continue to apply as regards the second commitment period of the kyoto protocol.\narticle 19 of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reviews of the greenhouse gas inventory data for the years 2018, 2019 and 2020.\narticle 22 of regulation (eu) no 525/2013 shall continue to apply to the submission of the report required under that article.\nfor the purpose of coherence and legal certainty, nothing in this regulation prevents the application of the derogations pursuant to the relevant union sectoral law in the area of electricity and electricity risk preparedness.\"\"\" ;\n    pol:hasCELEXNumber \"32018R1999\" ;\n    pol:hasELI <http://data.europa.eu/eli/reg/2018/1999/oj> .\n```",
+  "generation_time": 19.516184329986572,
+  "output": "```turtle\n@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 a pol:Article ;\n    pol:hasTitle \"article 58\" ;\n    pol:hasContent \"\"\"transitional provisions\nby way of derogation from article 57 of this regulation, article 7 and points (a) and (d) of article\u00a017(1) of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reports containing the data required under those articles for the years 2018, 2019 and 2020.\narticle 11(3) of regulation (eu) no 525/2013 shall continue to apply as regards the second commitment period of the kyoto protocol.\narticle 19 of regulation\u00a0(eu) no 525/2013 shall continue to apply to the reviews of the greenhouse gas inventory data for the years 2018, 2019 and 2020.\narticle 22 of regulation (eu) no 525/2013 shall continue to apply to the submission of the report required under that article.\nfor the purpose of coherence and legal certainty, nothing in this regulation prevents the application of the derogations pursuant to the relevant union sectoral law in the area of electricity and electricity risk preparedness.\"\"\" ;\n    pol:hasCELEXNumber \"32018R1999\" ;\n    pol:hasELI <http://data.europa.eu/eli/reg/2018/1999/oj> .\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+      "CELEX_Number": "32018R1999",
+      "ELI": "http://data.europa.eu/eli/reg/2018/1999/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "qwen2.5-coder:32b",
+    "timestamp": "2025-04-21T15:42:54.352060"
+  },
+  "triple_count": 5
+}

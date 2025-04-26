@@ -1,0 +1,15 @@
+article 4
+specific emissions targets
+1.   the manufacturer shall ensure that its average specific emissions of co2 do not exceed the following specific emissions targets:
+(a)
+for the calendar year 2020, the specific emissions target determined in accordance with points 1 and 2 of part a of annex i in the case of passenger cars, or points 1 and 2 of part b of annex i in the case of light commercial vehicles, or where a manufacturer is granted a derogation under article 10, in accordance with that derogation;
+(b)
+for each calendar year from 2021 until 2024, the specific emissions targets determined in accordance with points 3 and 4 of part a or b of annex i, as appropriate, or, where a manufacturer is granted a derogation under article 10, in accordance with that derogation and point 5 of part a or b of annex i;
+(c)
+for each calendar year, starting from 2025, the specific emissions targets determined in accordance with point 6.3 of part a or b of annex i, or, where a manufacturer is granted a derogation under article 10, in accordance with that derogation.
+2.   in the case of light commercial vehicles, where the specific emissions of co2 of the completed vehicle are not available, the manufacturer of the base vehicle shall use the specific emissions of co2 of the base vehicle for determining its average specific emissions of co2.
+3.   for the purposes of determining each manufacturer's average specific emissions of co2, the following percentages of each manufacturer's new passenger cars registered in the relevant year shall be taken into account:
+—
+95 % in 2020,
+—
+100 % from 2021 onwards.

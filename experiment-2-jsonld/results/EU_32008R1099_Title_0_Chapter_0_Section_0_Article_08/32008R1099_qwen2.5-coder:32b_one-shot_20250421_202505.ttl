@@ -1,0 +1,7 @@
+@prefix eli: <http://data.europa.eu/eli/> .
+
+<file:///home/okrafft/projects/LOLYLEG/eli/reg/2008/1099/oj> a <file:///home/okrafft/projects/LOLYLEG/PolicyArticle> ;
+    eli:has_part <file:///home/okrafft/projects/LOLYLEG/#article8> .
+
+<file:///home/okrafft/projects/LOLYLEG/#article8> a <file:///home/okrafft/projects/LOLYLEG/PolicyArticleSection> .
+

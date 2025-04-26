@@ -1,0 +1,21 @@
+@prefix poli: <http://example.org/poliana#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj>
+    poli:hasArticle EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 ;
+    poli:celexNumber "32019R0631"^^xsd:string ;
+    poli:annotatedBy "F" , "B" .
+
+EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14
+    poli:articleNumber "14"^^xsd:int ;
+    poli:title "Adjustment of M0 and Tm0 Values"^^xsd:string ;
+    poli:content """
+Article 14
+Adjustment of M0 and tm0 values
+1. The M0 and tm0 values referred to in parts a and b of annex i shall be adjusted as follows:
+   (a) by 31 October 2020, the m0 value in point 4 of part a of annex i shall be adjusted to the average mass in running order of all new passenger cars registered in 2017, 2018, and 2019. That new M0 value shall apply from 1 January 2022 until 31 December 2024;
+   (b) by 31 October 2022, the m0 value in point 4 of part b of annex i shall be adjusted to the average mass in running order of all new light commercial vehicles registered in 2019, 2020 and 2021. That new M0 value shall apply in 2024;
+   (c) by 31 October 2022, the indicative Tm0 value for 2025 shall be determined as the respective average test mass of all new passenger cars and new light commercial vehicles registered in 2021;
+   (d) by 31 October 2024, and every second year thereafter, the tm0 value in point 6.2 of parts a and b of annex i shall be adjusted to the respective average test mass of all new passenger cars and new light commercial vehicles registered in the preceding two calendar years, starting with 2022 and 2023. The new Tm0 values shall apply from 1 January of the calendar year following the date of the adjustment.
+2. The Commission is empowered to adopt delegated acts in accordance with Article 17 in order to supplement this Regulation by establishing the measures referred to in paragraph 1 of this article."""
+    .

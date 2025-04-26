@@ -1,0 +1,197 @@
+[
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "authorises",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "every two years"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_1"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "2012"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_6"
+  },
+  {
+    "s": "32009L0028",
+    "p": "hasArticle",
+    "o": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeCompliance_5",
+    "p": "Compliance_date",
+    "o": "2018-01-01"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_4",
+    "p": "annotatedText",
+    "o": "31\u00a0december 2014"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_2"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeCompliance_3",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "32009L0028",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "specifies_compliance_time",
+    "o": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeCompliance_3"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "imposes_monitoring",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "contains_sanctioning_form",
+    "o": "Form_sanctioning"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeCompliance_5",
+    "p": "annotatedText",
+    "o": "2018"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_6",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_6",
+    "p": "annotatedText",
+    "o": "2021"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeCompliance_3",
+    "p": "annotatedText",
+    "o": "31\u00a0december 2010"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "specifies_compliance_time",
+    "o": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeCompliance_5"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_4",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "authorises",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "contains_instrument",
+    "o": "FrameworkPolicy"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeCompliance_3",
+    "p": "Compliance_date",
+    "o": "2010-12-31"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "contains_instrument",
+    "o": "PublicInvt"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeMonitoring_4"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_23_TimeCompliance_5",
+    "p": "type",
+    "o": "Time_Compliance"
+  }
+]

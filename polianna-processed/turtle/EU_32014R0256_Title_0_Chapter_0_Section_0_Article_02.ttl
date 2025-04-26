@@ -1,0 +1,65 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_02 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4060>,
+        pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:fullText """article 2
+definitions
+for the purpose of this regulation, the following definitions apply:
+(1)
+‘infrastructure’ means any type of installations or part of an installation relating to production, transmission and storage, including interconnections between the union and third countries;
+(2)
+‘investment projects’ means projects aiming at:
+(i)
+building new infrastructure;
+(ii)
+transforming, modernising, increasing or reducing the capacity of existing infrastructure;
+(iii)
+partial or total decommissioning of existing infrastructure;
+(3)
+‘final investment decision’ means the decision taken at the level of an undertaking to definitively earmark funds for the investment phase of a project;
+(4)
+‘investment phase’ means the phase during which construction or decommissioning takes place and capital costs are incurred; it excludes the planning phase;
+(5)
+‘planning phase’ means the phase during which project implementation is prepared and which includes, where appropriate, a feasibility assessment, preparatory and technical studies, obtaining licences and authorisations and incurring capital costs;
+(6)
+‘investment projects under construction’ means investment projects for which construction has started and capital costs have been incurred;
+(7)
+‘decommissioning’ means the phase where an infrastructure is permanently taken out of operation;
+(8)
+‘production’ means the generation of electricity and the processing of fuels, including bio-fuels;
+(9)
+‘transmission’ means the transport of energy sources or products or carbon dioxide, through a network, in particular:
+(i)
+through pipelines, other than an upstream pipeline network and other than the part of pipelines primarily used in the context of local distribution; or
+(ii)
+through extra-high-voltage and high-voltage interconnected systems and other than the systems primarily used in the context of local distribution;
+(10)
+‘capture’ means the process of capturing carbon dioxide from industrial installations for storage;
+(11)
+‘storage’ means the stocking on a permanent or temporary basis of energy or energy sources in above-ground or underground infrastructure or geological sites or containment of carbon dioxide in underground geological formations;
+(12)
+‘undertaking’ means any natural or legal private or public person, deciding or implementing investment projects;
+(13)
+‘energy sources’ means:
+(i)
+primary energy sources, such as oil, natural gas or coal;
+(ii)
+transformed energy sources, such as electricity;
+(iii)
+renewable energy sources including hydroelectricity, biomass, biogas, wind, solar, tidal, wave and geothermal energy; and
+(iv)
+energy products, such as refined oil products and bio-fuels;
+(14)
+‘specific body’ means a body entrusted by any energy sector-specific legal act of the union with the preparation and adoption of union-wide multi-annual network development and investment plans in energy infrastructure, such as the european network of transmission system operators for electricity (‘entso-e’) referred to in article 4 of regulation (ec) no 714/2009 of the european parliament and of the council (9) and the european network for transmission system operators for gas (‘entso-g’) referred to in article 4 of regulation (ec) no 715/2009 of the european parliament and of the council (10);
+(15)
+‘aggregated data’ means data aggregated at the level of one or more member states."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> .
+

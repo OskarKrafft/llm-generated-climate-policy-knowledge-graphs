@@ -1,0 +1,33 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32008R1099 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 4
+aggregates, energy products and the transmission frequency of national statistics
+1.   the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:
+(a)
+annual, for the energy statistics in annex b;
+(b)
+monthly, for the energy statistics in annex c;
+(c)
+short-term monthly, for the energy statistics in annex d.
+2.   applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex a (clarifications of terminology).
+3.   the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)."""^^xsd:string ;
+    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "annual" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "monthly" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "short-term monthly" .
+

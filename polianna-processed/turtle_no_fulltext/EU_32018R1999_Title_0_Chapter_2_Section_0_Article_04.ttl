@@ -1,0 +1,127 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RD_D,
+        pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:specifies_compliance_time pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_10,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_11,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_12,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_13,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_14,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_15,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_16,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_19,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_2,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_21,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_23,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_3,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_4,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_5,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_6,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_7,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_8,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_9 ;
+    pol:specifies_in_effect_time pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeInEffect_1,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeInEffect_17,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeInEffect_18,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeInEffect_20,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeInEffect_22 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_10 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_11 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_12 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_13 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_14 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_15 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_16 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_19 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2022-01-01"^^xsd:date ;
+    pol:annotatedText "2022" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_21 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_23 a pol:Time_Compliance ;
+    pol:Compliance_date "2050-01-01"^^xsd:date ;
+    pol:annotatedText "2050" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_5 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-01-01"^^xsd:date ;
+    pol:annotatedText "2025" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_6 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_7 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_8 a pol:Time_Compliance ;
+    pol:Compliance_date "2027-01-01"^^xsd:date ;
+    pol:annotatedText "2027" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeCompliance_9 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "2021" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeInEffect_17 a pol:Time_InEffect ;
+    pol:In_effect_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "2021" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeInEffect_18 a pol:Time_InEffect ;
+    pol:In_effect_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "2021" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeInEffect_20 a pol:Time_InEffect ;
+    pol:In_effect_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "2021" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeInEffect_22 a pol:Time_InEffect ;
+    pol:annotatedText "from 2021 onwards" .
+

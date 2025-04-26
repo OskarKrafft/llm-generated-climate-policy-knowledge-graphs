@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_09 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_09 a pol:PolicyArticle ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:TaxIncentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 9
+economic instruments
+member states may use economic instruments to promote the collection of waste batteries and accumulators or to promote the use of batteries and accumulators containing less polluting substances, for instance by adopting differential tax rates. if they do so, they shall notify the measures related to the implementation of those instruments to the commission."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> .
+

@@ -1,0 +1,152 @@
+[
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_2",
+    "p": "annotatedText",
+    "o": "from 31\u00a0december 2023 until 31\u00a0december 2030"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_5",
+    "p": "annotatedText",
+    "o": "1\u00a0september 2023"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_2",
+    "p": "In_effect_date",
+    "o": "2023-12-31"
+  },
+  {
+    "s": "32018L2001",
+    "p": "hasArticle",
+    "o": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_1",
+    "p": "annotatedText",
+    "o": "2020"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "specifies_compliance_time",
+    "o": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_4"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_1",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "specifies_in_effect_time",
+    "o": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_2"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "1\u00a0february 2019"
+  },
+  {
+    "s": "32018L2001",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "specifies_compliance_time",
+    "o": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_1"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_4",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_3"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_4",
+    "p": "Compliance_date",
+    "o": "2019-02-01"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_5",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_2",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_1",
+    "p": "Compliance_date",
+    "o": "2020-01-01"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_5"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_4",
+    "p": "annotatedText",
+    "o": "1\u00a0february 2019"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "s": "TimeInEffect_2",
+    "p": "annotatedText",
+    "o": "24\u00a0february 2012"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "annotatedText",
+    "o": "24\u00a0february 2011"
+  },
+  {
+    "s": "32009R0079",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "TimeInEffect_2",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "32009R0079",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "TimeInEffect_1",
+    "p": "In_effect_date",
+    "o": "2011-02-24"
+  },
+  {
+    "s": "TimeInEffect_2",
+    "p": "In_effect_date",
+    "o": "2012-02-24"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_1"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_in_effect_time",
+    "o": "TimeInEffect_2"
+  }
+]

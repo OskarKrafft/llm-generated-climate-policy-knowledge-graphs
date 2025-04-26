@@ -1,0 +1,24 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_Article_14 a <http://data.europa.eu/eli/reg/2019/631/oj#Article> ;
+    pol:hasAnnotator pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_B,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_F ;
+    pol:hasCELEXNumber pol:32019R0631 ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2019/631/oj> ;
+    pol:hasTitle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_Article_14_Paragraph_1a a <http://data.europa.eu/eli/reg/2019/631/oj#Paragraph> ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_by_31 october_2020,_the_m0_value_in_point_4_of_part_a_of_annex_i_shall_be_adjusted_to_the_average_mass_in_running_order_of_all_new_passenger_cars_registered_in_2017,_2018,_and_2019._that_new_m0_value_shall_apply_from_1 january_2022_until_31 december_2024> .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_Article_14_Paragraph_1b a <http://data.europa.eu/eli/reg/2019/631/oj#Paragraph> ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_by_31 october_2022,_the_m0_value_in_point_4_of_part_b_of_annex_i_shall_be_adjusted_to_the_average_mass_in_running_order_of_all_new_light_commercial_vehicles_registered_in_2019,_2020_and_2021._that_new_m0_value_shall_apply_in 2024> .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_Article_14_Paragraph_1c a <http://data.europa.eu/eli/reg/2019/631/oj#Paragraph> ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_by_31 october_2022,_the_indicative_tm0_value_for_2025_shall_be_determined_as_the_respective_average_test_mass_of_all_new_passenger_cars_and_new_light_commercial_vehicles_registered_in_2021> .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_Article_14_Paragraph_1d a <http://data.europa.eu/eli/reg/2019/631/oj#Paragraph> ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_by_31 october_2024,_and_every_second_year_thereafter,_the_tm0_value_in_point_6.2_of_parts_a_and_b_of_annex_i_shall_be_adjusted_to_the_respective_average_test_mass_of_all_new_passenger_cars_and_new_light_commercial_vehicles_registered_in_the_preceding_two_calendar_years,_starting_with_2022_and_2023._the_new_tm0_values_shall_apply_from_1_january_of_the_calendar_year_following_the_date_of_the_adjustment> .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_Article_14_Paragraph_2 a <http://data.europa.eu/eli/reg/2019/631/oj#Paragraph> ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_the_commission_is_authorised_to_adopt_delegated_acts_in_accordance_with_Article ____of_Regulation_(EU)_No 1025/2012_for_the_purposes_of_specifying_the_technical_specifications_referred_to_in_point_4_of_Annex_I> .
+

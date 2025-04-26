@@ -1,0 +1,52 @@
+article 4
+national objectives, targets and contributions for the five dimensions of the energy union
+each member state shall set out in its integrated national energy and climate plan the following main objectives, targets and contributions, as specified in point 2 of section a of annex i:
+(a)
+as regards the dimension ‘decarbonisation’:
+(1)
+with respect to greenhouse gas emissions and removals and with a view to contributing to the achievement of the economy wide union greenhouse gas emission reduction target:
+(i)
+the member state's binding national target for greenhouse gas emissions and the annual binding national limits pursuant to regulation (eu) 2018/842;
+(ii)
+the member state's commitments pursuant to regulation (eu) 2018/841;
+(iii)
+where applicable to meet the objectives and targets of the energy union and the long-term union greenhouse gas emissions commitments consistent with the paris agreement, other objectives and targets, including sector targets and adaptation goals.
+(2)
+with respect to renewable energy:
+with a view to achieving the union's binding target of at least 32 % renewable energy in 2030 as referred to in article 3 of directive (eu) 2018/2001, a contribution to that target in terms of the member state's share of energy from renewable sources in gross final consumption of energy in 2030, with an indicative trajectory for that contribution from 2021 onwards. by 2022, the indicative trajectory shall reach a reference point of at least 18 % of the total increase in the share of energy from renewable sources between that member state's binding 2020 national target, and its contribution to the 2030 target. by 2025, the indicative trajectory shall reach a reference point of at least 43 % of the total increase in the share of energy from renewable sources between that member state's binding 2020 national target and its contribution to the 2030 target. by 2027, the indicative trajectory shall reach a reference point of at least 65 % of the total increase in the share of energy from renewable sources between that member state's binding 2020 national target and its contribution to the 2030 target.
+by 2030, the indicative trajectory shall reach at least the member state's planned contribution. if a member state expects to surpass its binding 2020 national target, its indicative trajectory may start at the level it is projected to achieve. the member states' indicative trajectories, taken together, shall add up to the union reference points in 2022, 2025 and 2027 and to the union's binding target of at least 32 % renewable energy in 2030. separately from its contribution to the union target and its indicative trajectory for the purposes of this regulation, a member state shall be free to indicate higher ambitions for national policy purposes;
+(b)
+as regards the dimension ‘energy efficiency’:
+(1)
+the indicative national energy efficiency contribution to achieving the union's energy efficiency targets of at least 32,5 % in 2030 as referred to in article 1(1) and article 3(5) of directive 2012/27/eu, based on either primary or final energy consumption, primary or final energy savings, or energy intensity.
+member states shall express their contribution in terms of absolute level of primary energy consumption and final energy consumption in 2020, and in terms of absolute level of primary energy consumption and final energy consumption in 2030, with an indicative trajectory for that contribution from 2021 onwards. they shall explain their underlying methodology and the conversion factors used;
+(2)
+the cumulative amount of end-use energy savings to be achieved over the period 2021-2030 under point (b) of article 7(1) on the energy saving obligations pursuant to directive 2012/27/eu;
+(3)
+the indicative milestones of the long-term strategy for the renovation of the national stock of residential and non-residential buildings, both public and private, the roadmap with domestically established measurable progress indicators, an evidence-based estimate of expected energy savings and wider benefits, and the contributions to the union's energy efficiency targets pursuant to directive 2012/27/eu in accordance with article 2a of directive 2010/31/eu;
+(4)
+the total floor area to be renovated or equivalent annual energy savings to be achieved from 2021 to 2030 under article 5 of directive 2012/27/eu on the exemplary role of public bodies' buildings;
+(c)
+as regards the dimension ‘energy security’:
+(1)
+national objectives with regard to:
+—
+increasing the diversification of energy sources and supply from third countries, the purpose of which may be to reduce energy import dependency,
+—
+increasing the flexibility of the national energy system, and
+—
+addressing constrained or interrupted supply of an energy source, for the purpose of improving the resilience of regional and national energy systems, including a timeframe for when the objectives should be met;
+(d)
+as regards the dimension ‘internal energy market’:
+(1)
+the level of electricity interconnectivity that the member state aims for in 2030 in consideration of the electricity interconnection target for 2030 of at least 15 %, with a strategy with the level from 2021 onwards defined in close cooperation with the member states affected, taking into account the 2020 interconnection target of 10 % and the indicators of the urgency of action based on price differential in the wholesale market, nominal transmission capacity of interconnectors in relation to peak load and to installed renewable generation capacity as set out in point 2.4.1 of section a of part i of annex i. each new interconnector shall be subject to a socioeconomic and environmental cost-benefit analysis and implemented only if the potential benefits outweigh the costs;
+(2)
+key electricity and gas transmission infrastructure projects, and, where relevant, modernisation projects, that are necessary for the achievement of objectives and targets under the five dimensions of the energy union;
+(3)
+national objectives related to other aspects of the internal energy market such as: increasing system flexibility, in particular through policies and measures related to market-based price formation in compliance with applicable law; market integration and coupling, aiming to increase the tradeable capacity of existing interconnectors, smart grids, aggregation, demand response, storage, distributed generation, mechanisms for dispatching, re-dispatching and curtailment and real-time price signals, including a timeframe for when the objectives should be met, and other national objectives related to the internal energy market as set out in point 2.4.3 of section a of part 1 of annex i;
+(e)
+as regards the dimension ‘research, innovation and competitiveness’:
+(1)
+national objectives and funding targets for public and, where available, private research and innovation relating to the energy union, including, where appropriate, a timeframe for when the objectives should be met; reflecting the priorities of the energy union strategy and, where relevant, of the set-plan. in setting out its objectives, targets and contributions, the member state may build upon existing national strategies or plans that are compatible with union law;
+(2)
+where available, national 2050 objectives related to the promotion of clean energy technologies.

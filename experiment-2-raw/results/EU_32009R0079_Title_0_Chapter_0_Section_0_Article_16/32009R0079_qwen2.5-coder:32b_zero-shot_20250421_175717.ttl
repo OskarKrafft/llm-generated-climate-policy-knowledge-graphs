@@ -1,0 +1,9 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Article_16 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_it_shall_apply_from_24 february_2011,_with_the_exception_of_article 11(3)_and_article 12,_which_shall_apply_from_the_date_of_entry_into_force_of_this_regulation,_and_article 11(2),_which_shall_apply_from_the_date_set_out_therein.>,
+        <https://polianna-kg.org/Ontology#EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_this_regulation_shall_be_binding_in_its_entirety_and_directly_applicable_in_all_member_states.>,
+        <https://polianna-kg.org/Ontology#EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_this_regulation_shall_enter_into_force_on_the_20th_day_following_its_publication_in_the_official_journal_of_the_european_union.> ;
+    pol:hasTitle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_entry_into_force .
+

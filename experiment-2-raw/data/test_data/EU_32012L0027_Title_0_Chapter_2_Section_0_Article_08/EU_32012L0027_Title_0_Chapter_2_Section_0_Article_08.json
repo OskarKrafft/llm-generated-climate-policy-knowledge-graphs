@@ -1,0 +1,112 @@
+[
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_3"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "contains_instrument",
+    "o": "VoluntaryAgrmt"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "grants_monitoring_authority",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "authorises",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "annual"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "contains_instrument",
+    "o": "Subsidies_Incentives"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "at least every four years"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "32012L0027",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "32012L0027",
+    "p": "hasArticle",
+    "o": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_1"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+    "p": "contains_instrument",
+    "o": "Edu_Outreach"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "5 december 2015"
+  }
+]

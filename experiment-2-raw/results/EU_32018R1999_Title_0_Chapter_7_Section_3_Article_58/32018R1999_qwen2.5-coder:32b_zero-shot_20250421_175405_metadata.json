@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "[\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"type\",\n    \"Object\": \"TransitionalProvisions\"\n  },\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"derogatesFrom\",\n    \"Object\": \"Article_57\"\n  },\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"Reports2018-2020\"\n  },\n  {\n    \"Subject\": \"Reports2018-2020\",\n    \"Predicate\": \"containsDataRequiredUnder\",\n    \"Object\": \"Article_57, Article_7, Points_a_and_d_of_Article_17(1)_of_Regulation_525/2013\"\n  },\n  {\n    \"Subject\": \"Article_11(3)_of_Regulation_525/2013\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"SecondCommitmentPeriodOfKyotoProtocol\"\n  },\n  {\n    \"Subject\": \"Article_19_of_Regulation_525/2013\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"ReviewsOfGreenhouseGasInventoryData2018-2020\"\n  },\n  {\n    \"Subject\": \"Article_22_of_Regulation_525/2013\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"SubmissionOfReportRequiredUnderThatArticle\"\n  },\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"allowsApplicationOf\",\n    \"Object\": \"DerogationsPursuantToRelevantUnionSectoralLawInAreaOfElectricityAndElectricityRiskPreparedness\"\n  }\n]",
+  "original_output": "```json\n[\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"type\",\n    \"Object\": \"TransitionalProvisions\"\n  },\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"derogatesFrom\",\n    \"Object\": \"Article_57\"\n  },\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"Reports2018-2020\"\n  },\n  {\n    \"Subject\": \"Reports2018-2020\",\n    \"Predicate\": \"containsDataRequiredUnder\",\n    \"Object\": \"Article_57, Article_7, Points_a_and_d_of_Article_17(1)_of_Regulation_525/2013\"\n  },\n  {\n    \"Subject\": \"Article_11(3)_of_Regulation_525/2013\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"SecondCommitmentPeriodOfKyotoProtocol\"\n  },\n  {\n    \"Subject\": \"Article_19_of_Regulation_525/2013\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"ReviewsOfGreenhouseGasInventoryData2018-2020\"\n  },\n  {\n    \"Subject\": \"Article_22_of_Regulation_525/2013\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"SubmissionOfReportRequiredUnderThatArticle\"\n  },\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"allowsApplicationOf\",\n    \"Object\": \"DerogationsPursuantToRelevantUnionSectoralLawInAreaOfElectricityAndElectricityRiskPreparedness\"\n  }\n]\n```",
+  "generation_time": 19.40955376625061,
+  "output": "```json\n[\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"type\",\n    \"Object\": \"TransitionalProvisions\"\n  },\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"derogatesFrom\",\n    \"Object\": \"Article_57\"\n  },\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"Reports2018-2020\"\n  },\n  {\n    \"Subject\": \"Reports2018-2020\",\n    \"Predicate\": \"containsDataRequiredUnder\",\n    \"Object\": \"Article_57, Article_7, Points_a_and_d_of_Article_17(1)_of_Regulation_525/2013\"\n  },\n  {\n    \"Subject\": \"Article_11(3)_of_Regulation_525/2013\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"SecondCommitmentPeriodOfKyotoProtocol\"\n  },\n  {\n    \"Subject\": \"Article_19_of_Regulation_525/2013\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"ReviewsOfGreenhouseGasInventoryData2018-2020\"\n  },\n  {\n    \"Subject\": \"Article_22_of_Regulation_525/2013\",\n    \"Predicate\": \"appliesTo\",\n    \"Object\": \"SubmissionOfReportRequiredUnderThatArticle\"\n  },\n  {\n    \"Subject\": \"Article_58\",\n    \"Predicate\": \"allowsApplicationOf\",\n    \"Object\": \"DerogationsPursuantToRelevantUnionSectoralLawInAreaOfElectricityAndElectricityRiskPreparedness\"\n  }\n]\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+      "CELEX_Number": "32018R1999",
+      "ELI": "http://data.europa.eu/eli/reg/2018/1999/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "raw",
+    "model": "qwen2.5-coder:32b",
+    "timestamp": "2025-04-21T17:54:05.389310",
+    "reconstructed_from_raw": true
+  },
+  "triple_count": 8
+}

@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_4_Section_0_Article_30 .
+
+pol:EU_32019L0944_Title_0_Chapter_4_Section_0_Article_30 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:fullText """article 30
+designation of distribution system operators
+member states shall designate or shall require undertakings that own or are responsible for distribution systems to designate one or more distribution system operators for a period of time to be determined by the member states, having regard to considerations of efficiency and economic balance."""^^xsd:string .
+

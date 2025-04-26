@@ -1,0 +1,31 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_51 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_51 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 51
+amendments to directive 2009/73/ec
+directive 2009/73/ec is amended as follows:
+(1)
+article 5 is deleted;
+(2)
+article 52 is replaced by the following:
+‘article 52
+reporting
+the commission shall monitor and review the application of this directive and submit an overall progress report to the european parliament and to the council as an annex to the state of the energy union report referred to in article 35 of regulation (eu) 2018/1999 of the european parliament and of the council (*1).
+
+(*1)  regulation (eu) 2018/1999 of the european parliament and of the council of 11 december 2018 on the governance of the energy union and climate action, amending regulations (ec) no 663/2009 and (ec) no 715/2009 of the european parliament and of the council, directives 94/22/ec, 98/70/ec, 2009/31/ec, 2009/73/ec, 2010/31/eu, 2012/27/eu and 2013/30/eu of the european parliament and of the council, council directives 2009/119/ec and (eu) 2015/652 and repealing regulation (eu) no 525/2013 of the european parliament and of the council (oj l 328, 21.12.2018, p. 1).’.\""""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_in_effect_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_51_TimeInEffect_1 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_51_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2018-12-11"^^xsd:date ;
+    pol:annotatedText "11 december 2018" .
+

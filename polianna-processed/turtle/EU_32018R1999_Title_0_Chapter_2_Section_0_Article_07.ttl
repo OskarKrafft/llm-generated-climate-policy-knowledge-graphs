@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_07 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_07 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:PublicInvt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 7
+national policies and measures for each of the five dimensions of the energy union
+member states shall describe, in accordance with annex i, in their integrated national energy and climate plan, the main existing and planned policies and measures to achieve in particular the objectives set out in the national plan, including, where applicable, measures providing for regional cooperation and appropriate financing at national and regional level, including mobilisation of union programmes and instruments.
+member states shall provide a general overview of the investment needed to achieve the objectives, targets and contributions set out in the national plan, as well as a general assessment on the sources of that investment."""^^xsd:string .
+

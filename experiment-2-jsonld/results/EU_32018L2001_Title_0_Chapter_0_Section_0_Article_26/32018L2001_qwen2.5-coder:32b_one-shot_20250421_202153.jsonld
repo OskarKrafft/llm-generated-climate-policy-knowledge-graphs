@@ -1,0 +1,167 @@
+jsonld
+{
+  "@context": {
+    "eli": "http://data.europa.eu/eli/",
+    "poliana": "https://example.org/poliana#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "http://data.europa.eu/eli/dir/2018/2001/oj/art_26",
+  "@type": "poliana:Article",
+  "eli:title": "specific rules for biofuels, bioliquids and biomass fuels produced from food and feed crops",
+  "poliana:number": "26",
+  "poliana:content": [
+    {
+      "@id": "_:rule1",
+      "@type": "poliana:Rule",
+      "poliana:text": "for the calculation of a member state's gross final consumption of energy from renewable sources referred to in article 7 and the minimum share referred to in the first subparagraph of article 25(1), the share of biofuels and bioliquids, as well as of biomass fuels consumed in transport, where produced from food and feed crops, shall be no more than one percentage point higher than the share of such fuels in the final consumption of energy in the road and rail transport sectors in 2020 in that member state, with a maximum of 7 % of final consumption of energy in the road and rail transport sectors in that member state.",
+      "poliana:condition": [
+        {
+          "@id": "_:condition1",
+          "@type": "poliana:Condition",
+          "poliana:text": "where that share is below 1 % in a member state, it may be increased to a maximum of 2 % of the final consumption of energy in the road and rail transport sectors."
+        },
+        {
+          "@id": "_:condition2",
+          "@type": "poliana:Condition",
+          "poliana:text": "member states may set a lower limit and may distinguish, for the purposes of article 29(1), between different biofuels, bioliquids and biomass fuels produced from food and feed crops, taking into account best available evidence on indirect land-use change impact."
+        },
+        {
+          "@id": "_:condition3",
+          "@type": "poliana:Condition",
+          "poliana:text": "member states may, for example, set a lower limit for the share of biofuels, bioliquids and biomass fuels produced from oil crops."
+        }
+      ],
+      "poliana:consequence": [
+        {
+          "@id": "_:consequence1",
+          "@type": "poliana:Consequence",
+          "poliana:text": "where the share of biofuels and bioliquids, as well as of biomass fuels consumed in transport, produced from food and feed crops in a member state is limited to a share lower than 7 % or a member state decides to limit the share further, that member state may reduce the minimum share referred to in the first subparagraph of article 25(1) accordingly, by a maximum of 7 percentage points."
+        }
+      ]
+    },
+    {
+      "@id": "_:rule2",
+      "@type": "poliana:Rule",
+      "poliana:text": "for the calculation of a member state's gross final consumption of energy from renewable sources referred to in article 7 and the minimum share referred to in the first subparagraph of article 25(1), the share of high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed shall not exceed the level of consumption of such fuels in that member state in 2019, unless they are certified to be low indirect land-use change-risk biofuels, bioliquids or biomass fuels pursuant to this paragraph.",
+      "poliana:condition": [
+        {
+          "@id": "_:condition4",
+          "@type": "poliana:Condition",
+          "poliana:text": "from 31 december 2023 until 31 december 2030 at the latest, that limit shall gradually decrease to 0 %."
+        }
+      ],
+      "poliana:obligation": [
+        {
+          "@id": "_:obligation1",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall submit to the european parliament and to the council a report on the status of worldwide production expansion of the relevant food and feed crops."
+        },
+        {
+          "@id": "_:obligation2",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation3",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation4",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation5",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation6",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation7",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation8",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation9",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation10",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation11",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation12",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation13",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation14",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation15",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation16",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation17",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation18",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation19",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        },
+        {
+          "@id": "_:obligation20",
+          "@type": "poliana:Obligation",
+          "poliana:text": "by 1 february 2019, the commission shall adopt measures to ensure that high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed do not exceed the level of consumption of such fuels in 2019 unless they are certified to be low indirect land-use change-risk."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "@id": "https://example.com/reference/1",
+      "@type": "CreativeWork",
+      "name": "Example Reference Document"
+    }
+  ]
+}
+```
+
+This JSON-LD document describes a research project focused on the impact of renewable energy sources on local economies. It includes details about the project's title, description, funding source, researchers involved, and references to related documents. The structure is designed to be easily parsed by machines while remaining human-readable.

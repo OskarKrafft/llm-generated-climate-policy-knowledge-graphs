@@ -1,0 +1,32 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:PublicInvestment,
+        pol:RD_D,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives,
+        pol:VoluntaryAgrmt ;
+    pol:contains_objective pol:Objective ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_1,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_2,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_3,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_4 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "by 2022" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "by 2025" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "by 2027" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "by 2030" .
+

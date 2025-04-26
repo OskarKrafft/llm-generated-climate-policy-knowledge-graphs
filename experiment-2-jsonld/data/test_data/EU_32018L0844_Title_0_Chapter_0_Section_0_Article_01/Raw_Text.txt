@@ -1,0 +1,226 @@
+article 1
+amendments to directive 2010/31/eu
+directive 2010/31/eu is amended as follows:
+(1)
+article 2 is amended as follows:
+(a)
+point 3 is replaced by the following:
+‘3.
+“technical building system” means technical equipment for space heating, space cooling, ventilation, domestic hot water, built-in lighting, building automation and control, on-site electricity generation, or a combination thereof, including those systems using energy from renewable sources, of a building or building unit;’;
+(b)
+the following point is inserted:
+‘3a.
+“building automation and control system” means a system comprising all products, software and engineering services that can support energy efficient, economical and safe operation of technical building systems through automatic controls and by facilitating the manual management of those technical building systems;’;
+(c)
+the following points are inserted:
+‘15a.
+“heating system” means a combination of the components required to provide a form of indoor air treatment, by which the temperature is increased;
+15b.
+“heat generator” means the part of a heating system that generates useful heat using one or more of the following processes:
+(a)
+the combustion of fuels in, for example, a boiler;
+(b)
+the joule effect, taking place in the heating elements of an electric resistance heating system;
+(c)
+capturing heat from ambient air, ventilation exhaust air, or a water or ground heat source using a heat pump;
+15c.
+“energy performance contracting” means energy performance contracting as defined in point (27) of article 2 of directive 2012/27/eu of the european parliament and of the council (*1);
+(*1)  directive 2012/27/eu of the european parliament and of the council of 25 october 2012 on energy efficiency, amending directives 2009/125/ec and 2010/30/eu and repealing directives 2004/8/ec and 2006/32/ec (oj l 315, 14.11.2012, p. 1).’;"
+
+                        
+(d)
+the following point is added:
+‘20.
+“micro isolated system” means micro isolated system as defined in point 27 of article 2 of directive 2009/72/ec of the european parliament and of the council (*2).
+(*2)  directive 2009/72/ec of the european parliament and of the council of 13 july 2009 concerning common rules for the internal market in electricity and repealing directive 2003/54/ec (oj l 211, 14.8.2009, p. 55).’."
+
+                        
+(2)
+the following article is inserted:
+‘article 2a
+long-term renovation strategy
+1.   each member state shall establish a long-term renovation strategy to support the renovation of the national stock of residential and non-residential buildings, both public and private, into a highly energy efficient and decarbonised building stock by 2050, facilitating the cost-effective transformation of existing buildings into nearly zero-energy buildings. each long-term renovation strategy shall be submitted in accordance with the applicable planning and reporting obligations and shall encompass:
+(a)
+an overview of the national building stock, based, as appropriate, on statistical sampling and expected share of renovated buildings in 2020;
+(b)
+the identification of cost-effective approaches to renovation relevant to the building type and climatic zone, considering potential relevant trigger points, where applicable, in the life-cycle of the building;
+(c)
+policies and actions to stimulate cost-effective deep renovation of buildings, including staged deep renovation, and to support targeted cost-effective measures and renovation for example by introducing an optional scheme for building renovation passports;
+(d)
+an overview of policies and actions to target the worst performing segments of the national building stock, split-incentive dilemmas and market failures, and an outline of relevant national actions that contribute to the alleviation of energy poverty;
+(e)
+policies and actions to target all public buildings;
+(f)
+an overview of national initiatives to promote smart technologies and well-connected buildings and communities, as well as skills and education in the construction and energy efficiency sectors; and
+(g)
+an evidence-based estimate of expected energy savings and wider benefits, such as those related to health, safety and air quality.
+2.   in its long-term renovation strategy, each member state shall set out a roadmap with measures and domestically established measurable progress indicators, with a view to the long-term 2050 goal of reducing greenhouse gas emissions in the union by 80-95 % compared to 1990, in order to ensure a highly energy efficient and decarbonised national building stock and in order to facilitate the cost-effective transformation of existing buildings into nearly zero-energy buildings. the roadmap shall include indicative milestones for 2030, 2040 and 2050, and specify how they contribute to achieving the union’s energy efficiency targets in accordance with directive 2012/27/eu.
+3.   to support the mobilisation of investments into the renovation needed to achieve the goals referred to in paragraph 1, member states shall facilitate access to appropriate mechanisms for:
+(a)
+the aggregation of projects, including by investment platforms or groups, and by consortia of small and medium-sized enterprises, to enable investor access as well as packaged solutions for potential clients;
+(b)
+the reduction of the perceived risk of energy efficiency operations for investors and the private sector;
+(c)
+the use of public funding to leverage additional private-sector investment or address specific market failures;
+(d)
+guiding investments into an energy efficient public building stock, in line with eurostat guidance; and
+(e)
+accessible and transparent advisory tools, such as one-stop-shops for consumers and energy advisory services, on relevant energy efficiency renovations and financing instruments.
+4.   the commission shall collect and disseminate, at least to public authorities, best practices on successful public and private financing schemes for energy efficiency renovation as well as information on schemes for the aggregation of small-scale energy efficiency renovation projects. the commission shall identify and disseminate best practices on financial incentives to renovate from a consumer perspective taking into account cost-efficiency differences between member states.
+5.   to support the development of its long-term renovation strategy, each member state shall carry out a public consultation on its long-term renovation strategy prior to submitting it to the commission. each member state shall annex a summary of the results of its public consultation to its long-term renovation strategy.
+each member state shall establish the modalities for consultation in an inclusive way during the implementation of its long-term renovation strategy.
+6.   each member state shall annex the details of the implementation of its most recent long-term renovation strategy to its long-term renovation strategy, including on the planned policies and actions.
+7.   each member state may use its long-term renovation strategy to address fire safety and risks related to intense seismic activity affecting energy efficiency renovations and the lifetime of buildings.’.
+(3)
+article 6 is replaced by the following:
+‘article 6
+new buildings
+1.   member states shall take the necessary measures to ensure that new buildings meet the minimum energy performance requirements laid down in accordance with article 4.
+2.   member states shall ensure that, before construction of new buildings starts, the technical, environmental and economic feasibility of high-efficiency alternative systems, if available, is taken into account.’.
+(4)
+in article 7, the fifth paragraph is replaced by the following:
+‘member states shall encourage, in relation to buildings undergoing major renovation, high-efficiency alternative systems, in so far as this is technically, functionally and economically feasible, and shall address the issues of healthy indoor climate conditions, fire safety and risks related to intense seismic activity.’.
+(5)
+article 8 is replaced by the following:
+‘article 8
+technical building systems, electromobility and smart readiness indicator
+1.   member states shall, for the purpose of optimising the energy use of technical building systems, set system requirements in respect of the overall energy performance, the proper installation, and the appropriate dimensioning, adjustment and control of the technical building systems which are installed in existing buildings. member states may also apply these system requirements to new buildings.
+system requirements shall be set for new, replacement and upgrading of technical building systems and shall be applied in so far as they are technically, economically and functionally feasible.
+member states shall require new buildings, where technically and economically feasible, to be equipped with self-regulating devices for the separate regulation of the temperature in each room or, where justified, in a designated heated zone of the building unit. in existing buildings, the installation of such self-regulating devices shall be required when heat generators are replaced, where technically and economically feasible.
+2.   with regard to new non-residential buildings and non-residential buildings undergoing major renovation, with more than ten parking spaces, member states shall ensure the installation of at least one recharging point within the meaning of directive 2014/94/eu of the european parliament and of the council (*3) and ducting infrastructure, namely conduits for electric cables, for at least one in every five parking spaces to enable the installation at a later stage of recharging points for electric vehicles where:
+(a)
+the car park is located inside the building, and, for major renovations, renovation measures include the car park or the electrical infrastructure of the building; or
+(b)
+the car park is physically adjacent to the building, and, for major renovations, renovation measures include the car park or the electrical infrastructure of the car park.
+the commission shall report to the european parliament and the council by 1 january 2023 on the potential contribution of a union building policy to the promotion of electromobility and shall, if appropriate, propose measures in that regard.
+3.   member states shall lay down requirements for the installation of a minimum number of recharging points for all non-residential buildings with more than twenty parking spaces, by 1 january 2025.
+4.   member states may decide not to lay down or apply the requirements referred to in paragraphs 2 and 3 to buildings owned and occupied by small and medium-sized enterprises as defined in title i of the annex to commission recommendation 2003/361/ec (*4).
+5.   with regard to new residential buildings and residential buildings undergoing major renovation, with more than ten parking spaces, member states shall ensure the installation of ducting infrastructure, namely conduits for electric cables, for every parking space to enable the installation, at a later stage, of recharging points for electric vehicles, where:
+(a)
+the car park is located inside the building, and, for major renovations, renovation measures include the car park or the electric infrastructure of the building; or
+(b)
+the car park is physically adjacent to the building, and, for major renovations, renovation measures include the car park or the electrical infrastructure of the car park.
+6.   member states may decide not to apply paragraphs 2, 3 and 5 to specific categories of buildings where:
+(a)
+with regard to paragraphs 2 and 5, building permit applications or equivalent applications have been submitted by 10 march 2021;
+(b)
+the ducting infrastructure required would rely on micro isolated systems or the buildings are situated in the outermost regions within the meaning of article 349 tfeu, if this would lead to substantial problems for the operation of the local energy system and would endanger the stability of the local grid;
+(c)
+the cost of the recharging and ducting installations exceeds 7 % of the total cost of the major renovation of the building;
+(d)
+a public building is already covered by comparable requirements according to the transposition of directive 2014/94/eu.
+7.   member states shall provide for measures in order to simplify the deployment of recharging points in new and existing residential and non-residential buildings and address possible regulatory barriers, including permitting and approval procedures, without prejudice to the property and tenancy law of the member states.
+8.   member states shall consider the need for coherent policies for buildings, soft and green mobility and urban planning.
+9.   member states shall ensure that, when a technical building system is installed, replaced or upgraded, the overall energy performance of the altered part, and where relevant, of the complete altered system, is assessed. the results shall be documented and passed on to the building owner, so that they remain available and can be used for the verification of compliance with the minimum requirements laid down pursuant to paragraph 1 of this article and the issue of energy performance certificates. without prejudice to article 12, member states shall decide whether to require the issuing of a new energy performance certificate.
+10.   the commission shall, by 31 december 2019, adopt a delegated act in accordance with article 23, supplementing this directive by establishing an optional common union scheme for rating the smart readiness of buildings. the rating shall be based on an assessment of the capabilities of a building or building unit to adapt its operation to the needs of the occupant and the grid and to improve its energy efficiency and overall performance.
+in accordance with annex ia, the optional common union scheme for rating the smart readiness of buildings shall:
+(a)
+establish the definition of the smart readiness indicator; and
+(b)
+establish a methodology by which it is to be calculated.
+11.   the commission shall, by 31 december 2019, and after having consulted the relevant stakeholders, adopt an implementing act detailing the technical modalities for the effective implementation of the scheme referred to in paragraph 10 of this article, including a timeline for a non-committal test-phase at national level, and clarifying the complementary relation of the scheme to the energy performance certificates referred to in article 11.
+that implementing act shall be adopted in accordance with the examination procedure referred to in article 26(3).
+(*3)  directive 2014/94/eu of the european parliament and of the council of 22 october 2014 on the deployment of alternative fuels infrastructure (oj l 307, 28.10.2014, p. 1)."
+
+                        
+(*4)  commission recommendation of 6 may 2003 concerning the definition of micro, small and medium-sized enterprises (oj l 124, 20.5.2003, p. 36).’."
+
+                        
+(6)
+in article 10, paragraph 6 is replaced by the following:
+‘6.   member states shall link their financial measures for energy efficiency improvements in the renovation of buildings to the targeted or achieved energy savings, as determined by one or more of the following criteria:
+(a)
+the energy performance of the equipment or material used for the renovation; in which case, the equipment or material used for the renovation is to be installed by an installer with the relevant level of certification or qualification;
+(b)
+standard values for calculation of energy savings in buildings;
+(c)
+the improvement achieved due to such renovation by comparing energy performance certificates issued before and after renovation;
+(d)
+the results of an energy audit;
+(e)
+the results of another relevant, transparent and proportionate method that shows the improvement in energy performance.
+6a.   databases for energy performance certificates shall allow data to be gathered on the measured or calculated energy consumption of the buildings covered, including at least public buildings for which an energy performance certificate, as referred to in article 13, has been issued in accordance with article 12.
+6b.   at least aggregated anonymised data compliant with union and national data protection requirements shall be made available on request for statistical and research purposes and to the building owner.’.
+(7)
+articles 14 and 15 are replaced by the following:
+‘article 14
+inspection of heating systems
+1.   member states shall lay down the necessary measures to establish regular inspections of the accessible parts of heating systems or of systems for combined space heating and ventilation, with an effective rated output of over 70 kw, such as the heat generator, control system and circulation pump(s) used for heating buildings. the inspection shall include an assessment of the efficiency and sizing of the heat generator compared with the heating requirements of the building and, where relevant, consider the capabilities of the heating system or of the system for combined space heating and ventilation to optimise its performance under typical or average operating conditions.
+where no changes have been made to the heating system or to the system for combined space heating and ventilation or to the heating requirements of the building following an inspection carried out pursuant to this paragraph, member states may choose not to require the assessment of the heat generator sizing to be repeated.
+2.   technical building systems that are explicitly covered by an agreed energy performance criterion or a contractual arrangement specifying an agreed level of energy efficiency improvement, such as energy performance contracting, or that are operated by a utility or network operator and therefore subject to performance monitoring measures on the system side, shall be exempt from the requirements laid down in paragraph 1, provided that the overall impact of such an approach is equivalent to that resulting from paragraph 1.
+3.   as an alternative to paragraph 1 and provided that the overall impact is equivalent to that resulting from paragraph 1, member states may opt to take measures to ensure the provision of advice to users concerning the replacement of heat generators, other modifications to the heating system or to the system for combined space heating and ventilation and alternative solutions to assess the efficiency and appropriate size of those systems.
+before applying the alternative measures referred to in the first subparagraph of this paragraph, each member state shall, by means of submitting a report to the commission, document the equivalence of the impact of those measures to the impact of the measures referred to in paragraph 1.
+such a report shall be submitted in accordance with the applicable planning and reporting obligations.
+4.   member states shall lay down requirements to ensure that, where technically and economically feasible, non-residential buildings with an effective rated output for heating systems or systems for combined space heating and ventilation of over 290 kw are equipped with building automation and control systems by 2025.
+the building automation and control systems shall be capable of:
+(a)
+continuously monitoring, logging, analysing and allowing for adjusting energy use;
+(b)
+benchmarking the building’s energy efficiency, detecting losses in efficiency of technical building systems, and informing the person responsible for the facilities or technical building management about opportunities for energy efficiency improvement; and
+(c)
+allowing communication with connected technical building systems and other appliances inside the building, and being interoperable with technical building systems across different types of proprietary technologies, devices and manufacturers.
+5.   member states may lay down requirements to ensure that residential buildings are equipped with:
+(a)
+the functionality of continuous electronic monitoring that measures systems’ efficiency and informs building owners or managers when it has fallen significantly and when system servicing is necessary; and
+(b)
+effective control functionalities to ensure optimum generation, distribution, storage and use of energy.
+6.   buildings that comply with paragraph 4 or 5 shall be exempt from the requirements laid down in paragraph 1.
+article 15
+inspection of air-conditioning systems
+1.   member states shall lay down the necessary measures to establish regular inspections of the accessible parts of air-conditioning systems or of systems for combined air-conditioning and ventilation, with an effective rated output of over 70 kw. the inspection shall include an assessment of the efficiency and sizing of the air-conditioning system compared with the cooling requirements of the building and, where relevant, consider the capabilities of the air-conditioning system or of the system for combined air-conditioning and ventilation to optimise its performance under typical or average operating conditions.
+where no changes have been made to the air-conditioning system or to the system for combined air-conditioning and ventilation or to the cooling requirements of the building following an inspection carried out pursuant to this paragraph, member states may choose not to require the assessment of the sizing of the air-conditioning system to be repeated.
+member states that maintain more stringent requirements pursuant to article 1(3) shall be exempt from the obligation to notify them to the commission.
+2.   technical building systems that are explicitly covered by an agreed energy performance criterion or a contractual arrangement specifying an agreed level of energy efficiency improvement, such as energy performance contracting, or that are operated by a utility or network operator and therefore subject to performance monitoring measures on the system side, shall be exempt from the requirements laid down in paragraph 1, provided that the overall impact of such an approach is equivalent to that resulting from paragraph 1.
+3.   as an alternative to paragraph 1 and provided that the overall impact is equivalent to that resulting from paragraph 1, member states may opt to take measures to ensure the provision of advice to users concerning the replacement of air-conditioning systems or systems for combined air-conditioning and ventilation, other modifications to the air-conditioning system or system for combined air-conditioning and ventilation and alternative solutions to assess the efficiency and appropriate size of those systems.
+before applying the alternative measures referred to in the first subparagraph of this paragraph, each member state shall, by means of submitting a report to the commission, document the equivalence of the impact of those measures to the impact of the measures referred to in paragraph 1.
+such a report shall be submitted in accordance with the applicable planning and reporting obligations.
+4.   member states shall lay down requirements to ensure that, where technically and economically feasible, non-residential buildings with an effective rated output for systems for air-conditioning or systems for combined air-conditioning and ventilation of over 290 kw are equipped with building automation and control systems by 2025.
+the building automation and control systems shall be capable of:
+(a)
+continuously monitoring, logging, analysing and allowing for adjusting energy use;
+(b)
+benchmarking the building’s energy efficiency, detecting losses in efficiency of technical building systems, and informing the person responsible for the facilities or technical building management about opportunities for energy efficiency improvement; and
+(c)
+allowing communication with connected technical building systems and other appliances inside the building, and being interoperable with technical building systems across different types of proprietary technologies, devices and manufacturers.
+5.   member states may lay down requirements to ensure that residential buildings are equipped with:
+(a)
+the functionality of continuous electronic monitoring that measures systems’ efficiency and informs building owners or managers when it has fallen significantly and when system servicing is necessary, and
+(b)
+effective control functionalities to ensure optimum generation, distribution, storage and use of energy.
+6.   buildings that comply with paragraph 4 or 5 shall be exempt from the requirements laid down in paragraph 1.’.
+(8)
+article 19 is replaced by the following:
+‘article 19
+review
+the commission, assisted by the committee established by article 26, shall review this directive by 1 january 2026 at the latest, in the light of the experience gained and progress made during its application, and, if necessary, make proposals.
+as part of that review, the commission shall examine in what manner member states could apply integrated district or neighbourhood approaches in union building and energy efficiency policy, while ensuring that each building meets the minimum energy performance requirements, for example by means of overall renovation schemes applying to a number of buildings in a spatial context instead of a single building.
+the commission shall, in particular, assess the need for further improvement of energy performance certificates in accordance with article 11.’.
+(9)
+the following article is inserted:
+‘article 19a
+feasibility study
+the commission shall, before 2020, conclude a feasibility study, clarifying the possibilities and timeline to introduce the inspection of stand-alone ventilation systems and an optional building renovation passport that is complementary to the energy performance certificates, in order to provide a long-term, step-by-step renovation roadmap for a specific building based on quality criteria, following an energy audit, and outlining relevant measures and renovations that could improve the energy performance.’.
+(10)
+in article 20(2), the first subparagraph is replaced by the following:
+‘2.   member states shall in particular provide information to the owners or tenants of buildings on energy performance certificates, including their purpose and objectives, on cost-effective measures and, where appropriate, financial instruments, to improve the energy performance of the building, and on replacing fossil fuel boilers with more sustainable alternatives. member states shall provide the information through accessible and transparent advisory tools such as renovation advice and one-stop-shops.’.
+(11)
+article 23 is replaced by the following:
+‘article 23
+exercise of the delegation
+1.   the power to adopt delegated acts is conferred on the commission subject to the conditions laid down in this article.
+2.   the power to adopt delegated acts referred to in articles 5, 8 and 22 shall be conferred on the commission for a period of five years from 9 july 2018. the commission shall draw up a report in respect of the delegation of power not later than nine months before the end of the five-year period. the delegation of power shall be tacitly extended for periods of an identical duration, unless the european parliament or the council opposes such extension not later than three months before the end of each period.
+3.   the delegation of power referred to in articles 5, 8 and 22 may be revoked at any time by the european parliament or by the council. a decision to revoke shall put an end to the delegation of the power specified in that decision. it shall take effect the day following the publication of the decision in the official journal of the european union or at a later date specified therein. it shall not affect the validity of any delegated acts already in force.
+4.   before adopting a delegated act, the commission shall consult experts designated by each member state in accordance with the principles laid down in the interinstitutional agreement of 13 april 2016 on better law-making.
+5.   as soon as it adopts a delegated act, the commission shall notify it simultaneously to the european parliament and to the council.
+6.   a delegated act adopted pursuant to article 5, 8 or 22 shall enter into force only if no objection has been expressed either by the european parliament or the council within a period of two months of notification of that act to the european parliament and the council or if, before the expiry of that period, the european parliament and the council have both informed the commission that they will not object. that period shall be extended by two months at the initiative of the european parliament or of the council.’.
+(12)
+articles 24 and 25 are deleted.
+(13)
+article 26 is replaced by the following:
+‘article 26
+committee procedure
+1.   the commission shall be assisted by a committee. that committee shall be a committee within the meaning of regulation (eu) no 182/2011.
+2.   where reference is made to this paragraph, article 4 of regulation (eu) no 182/2011 shall apply.
+3.   where reference is made to this paragraph, article 5 of regulation (eu) no 182/2011 shall apply.’.
+(14)
+the annexes are amended in accordance with the annex to this directive.

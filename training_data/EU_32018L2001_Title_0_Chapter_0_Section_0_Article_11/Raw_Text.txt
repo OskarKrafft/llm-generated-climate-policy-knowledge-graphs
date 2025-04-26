@@ -1,0 +1,42 @@
+article 11
+joint projects between member states and third countries
+1.   one or more member states may cooperate with one or more third countries on all types of joint projects with regard to the production of electricity from renewable sources. such cooperation may involve private operators and shall take place in full respect of international law.
+2.   electricity from renewable sources produced in a third country shall be taken into account for the purposes of calculating the renewable energy shares of the member states only where the following conditions are met:
+(a)
+the electricity is consumed in the union, which is deemed to be met where:
+(i)
+an equivalent amount of electricity to the electricity accounted for has been firmly nominated to the allocated interconnection capacity by all responsible transmission system operators in the country of origin, the country of destination and, if relevant, each third country of transit;
+(ii)
+an equivalent amount of electricity to the electricity accounted for has been firmly registered in the schedule of balance by the responsible transmission system operator on the union side of an interconnector; and
+(iii)
+the nominated capacity and the production of electricity from renewable sources by the installation referred to in point (b) refer to the same period of time;
+(b)
+the electricity is produced by an installation that became operational after 25 june 2009 or by the increased capacity of an installation that was refurbished after that date, under a joint project as referred to in paragraph 1;
+(c)
+the amount of electricity produced and exported has not received support from a support scheme of a third country other than investment aid granted to the installation; and
+(d)
+the electricity has been produced in accordance with international law, in a third country that is a signatory to the council of europe convention for the protection of human rights and fundamental freedoms, or other international conventions or treaties on human rights.
+3.   for the purposes of paragraph 4, member states may apply to the commission for account to be taken of electricity from renewable sources produced and consumed in a third country, in the context of the construction of an interconnector with a very long lead-time between a member state and a third country where the following conditions are met:
+(a)
+construction of the interconnector started by 31 december 2026;
+(b)
+it is not possible for the interconnector to become operational by 31 december 2030;
+(c)
+it is possible for the interconnector to become operational by 31 december 2032;
+(d)
+after it becomes operational, the interconnector will be used for the export to the union, in accordance with paragraph 2, of electricity from renewable sources;
+(e)
+the application relates to a joint project that fulfils the criteria set out in points (b) and (c) of paragraph 2 and that will use the interconnector after it becomes operational, and to a quantity of electricity that is no greater than the quantity that will be exported to the union after the interconnector becomes operational.
+4.   the proportion or amount of electricity produced by any installation in the territory of a third country, which is to be regarded as counting towards the renewable energy share of one or more member states for the purposes of this directive, shall be notified to the commission. when more than one member state is concerned, the distribution between member states of that proportion or amount shall be notified to the commission. the proportion or amount shall not exceed the proportion or amount actually exported to, and consumed in, the union, shall correspond to the amount referred to in point (a)(i) and (ii) of paragraph 2 and shall meet the conditions set out in point (a) of that paragraph. the notification shall be made by each member state towards whose overall national target the proportion or amount of electricity is to count.
+5.   the notification referred to in paragraph 4 shall:
+(a)
+describe the proposed installation or identify the refurbished installation;
+(b)
+specify the proportion or amount of electricity produced from the installation which is to be regarded as counting towards the renewable energy share of a member state as well as, subject to confidentiality requirements, the corresponding financial arrangements;
+(c)
+specify the period, in whole calendar years, during which the electricity is to be regarded as counting towards the renewable energy share of the member state; and
+(d)
+include a written acknowledgement of points (b) and (c) by the third country in whose territory the installation is to become operational and an indication of the proportion or amount of electricity produced by the installation which will be used domestically by that third country.
+6.   the duration of a joint project as referred to in this article may extend beyond 2030.
+7.   a notification made under this article shall be varied or withdrawn only where there is a joint agreement between the member state making the notification and the third country that has acknowledged the joint project in accordance with point (d) of paragraph 5.
+8.   member states and the union shall encourage the relevant bodies of the energy community to take, in conformity with the energy community treaty, the measures necessary to allow the contracting parties to apply the provisions on cooperation between member states laid down in this directive.

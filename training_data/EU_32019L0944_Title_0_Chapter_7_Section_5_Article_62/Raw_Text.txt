@@ -1,0 +1,25 @@
+article 62
+duties and powers of regulatory authorities with respect to regional coordination centres
+1.   the regional regulatory authorities of the system operation region in which a regional coordination centre is established shall, in close coordination with each other:
+(a)
+approve the proposal for the establishment of regional coordination centres in accordance with article 35(1) of regulation (eu) 2019/943;
+(b)
+approve the costs related to the activities of the regional coordination centres, which are to be borne by the transmission system operators and to be taken into account in the calculation of tariffs, provided that they are reasonable and appropriate;
+(c)
+approve the cooperative decision-making process;
+(d)
+ensure that the regional coordination centres are equipped with all the necessary human, technical, physical and financial resources for fulfilling their obligations under this directive and carrying out their tasks independently and impartially;
+(e)
+propose jointly with other regulatory authorities of a system operation region possible additional tasks and additional powers to be assigned to the regional coordination centres by the member states of the system operation region;
+(f)
+ensure compliance with the obligations under this directive and other relevant union law, in particular as regards cross-border issues, and jointly identify non-compliance of the regional coordination centres with their respective obligations; where the regulatory authorities have not been able to reach an agreement within a period of four months after the start of consultations for the purpose of jointly identifying non-compliance, the matter shall be referred to acer for a decision, pursuant to article 6(10) of regulation (eu) 2019/942;
+(g)
+monitor the performance of system coordination and report annually to acer in this respect in accordance with article 46 of regulation (eu) 2019/943.
+2.   member states shall ensure that regulatory authorities are granted the powers enabling them to carry out the duties referred to in paragraph 1 in an efficient and expeditious manner. for this purpose, the regulatory authorities shall have at least the following powers:
+(a)
+to request information from the regional coordination centres;
+(b)
+to carry out inspections, including unannounced inspections, at the premises of the regional coordination centres;
+(c)
+to issue joint binding decisions on the regional coordination centres.
+3.   the regulatory authority located in the member state in which a regional coordination centre has its seat shall have the power to impose effective, proportionate and dissuasive penalties on the regional coordination centre where it does not comply with its obligations under this directive, regulation (eu) 2019/943 or any relevant legally binding decisions of the regulatory authority or of acer, or shall have the power to propose that a competent court impose such penalties.

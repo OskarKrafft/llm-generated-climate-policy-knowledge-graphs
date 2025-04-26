@@ -1,0 +1,41 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_06 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_06 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TradablePermit,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 6
+energy distributors, distribution system operators and retail energy sales companies
+1.   member states shall ensure that energy distributors, distribution system operators and/or retail energy sales companies:
+(a)
+provide on request, but not more than once a year, aggregated statistical information on their final customers to the authorities or agencies referred to in article 4(4) or to another designated body, provided that the latter in turn transmits to the former the information received. this information must be sufficient to properly design and implement energy efficiency improvement programmes, and to promote and monitor energy services and other energy efficiency improvement measures. it may include historical information and must include current information on end-user consumption, including, where applicable, load profiles, customer segmentation and geographical location of customers, while preserving the integrity and confidentiality of information that is either of private character or commercially sensitive, in compliance with applicable community legislation;
+(b)
+refrain from any activities that might impede the demand for and delivery of energy services and other energy efficiency improvement measures, or hinder the development of markets for energy services and other energy efficiency improvement measures. the member state concerned shall take the necessary measures to bring such activities to an end where they occur.
+2.   member states shall:
+(a)
+choose one or more of the following requirements to be complied with by energy distributors, distribution system operators and/or retail energy sales companies, directly and/or indirectly through other providers of energy services or energy efficiency improvement measures:
+(i)
+ensure the offer to their final customers, and the promotion, of competitively priced energy services; or
+(ii)
+ensure the availability to their final customers, and the promotion, of competitively-priced energy audits conducted in an independent manner and/or energy efficiency improvement measures, in accordance with article 9(2) and article 12; or
+(iii)
+contribute to the funds and funding mechanisms referred to in article 11. the level of such contributions shall as a minimum correspond to the estimated costs of offering any of the activities referred to in this paragraph and shall be agreed with the authorities or agencies referred to in article 4(4); and/or
+(b)
+ensure that voluntary agreements and/or other market-oriented schemes, such as white certificates, with an effect equivalent to one or more of the requirements referred to in point (a) exist or are set up. voluntary agreements shall be assessed, supervised and followed up by the member state in order to ensure that they have in practice an effect equivalent to one or more of the requirements referred to in point (a).
+to that end, the voluntary agreements shall have clear and unambiguous objectives, and monitoring and reporting requirements linked to procedures that can lead to revised and/or additional measures when the objectives are not achieved or are not likely to be achieved. with a view to ensuring transparency, the voluntary agreements shall be made available to the public and published prior to application to the extent that applicable confidentiality provisions allow, and contain an invitation for stakeholders to comment.
+3.   member states shall ensure that there are sufficient incentives, equal competition and level playing fields for market actors other than energy distributors, distribution system operators and retail energy sales companies, such as escos, installers, energy advisors and energy consultants, to independently offer and implement the energy services, energy audits and energy efficiency improvement measures described in paragraph 2(a)(i) and (ii).
+4.   under paragraphs 2 and 3, member states may place responsibilities on distribution system operators only if this is consistent with the requirements relating to the unbundling of accounts laid down in article 19(3) of directive 2003/54/ec and in article 17(3) of directive 2003/55/ec.
+5.   the implementation of this article shall be without prejudice to derogations or exemptions granted under directives 2003/54/ec and 2003/55/ec."""^^xsd:string ;
+    pol:grants_monitoring_authority pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_06_TimeMonitoring_1 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_06_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "not more than once a year" .
+

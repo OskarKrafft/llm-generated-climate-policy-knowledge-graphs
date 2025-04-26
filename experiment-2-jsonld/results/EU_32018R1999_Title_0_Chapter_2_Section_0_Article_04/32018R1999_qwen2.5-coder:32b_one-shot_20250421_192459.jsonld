@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "dct": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@type": "poliana:Article",
+  "dct:title": "National Objectives and Targets for the Energy Union",
+  "dct:description": "This article outlines the national objectives and targets that Member States must set out in their Integrated National Energy and Climate Plans (INECPs) under the Energy Union framework.",
+  "poliana:hasSection": [
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Energy Security",
+      "poliana:hasObjective": [
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Increase diversification of energy sources and supply from third countries",
+          "dct:description": "To reduce energy import dependency."
+        },
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Increase flexibility of the national energy system"
+        },
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Address constrained or interrupted supply of an energy source",
+          "dct:description": "To improve the resilience of regional and national energy systems."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Internal Energy Market",
+      "poliana:hasObjective": [
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Achieve level of electricity interconnectivity in 2030",
+          "dct:description": "At least 15% with a strategy from 2021 onwards."
+        },
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Key electricity and gas transmission infrastructure projects"
+        },
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Increase system flexibility through market-based price formation"
+        },
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Market integration and coupling to increase tradeable capacity of existing interconnectors"
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Research, Innovation and Competitiveness",
+      "poliana:hasObjective": [
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Set national objectives and funding targets for public and private research and innovation"
+        },
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Promote clean energy technologies by 2050"
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Energy Efficiency",
+      "poliana:hasObjective": [
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Achieve energy efficiency targets based on primary or final energy consumption"
+        },
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Cumulative amount of end-use energy savings over 2021-2030"
+        },
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Long-term strategy for the renovation of national building stock"
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Renewable Energy",
+      "poliana:hasObjective": [
+        {
+          "@type": "poliana:Objective",
+          "dct:title": "Achieve national renewable energy targets"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32014L0094",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "32014L0094",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "contains_objective",
+    "o": "Objective"
+  }
+]

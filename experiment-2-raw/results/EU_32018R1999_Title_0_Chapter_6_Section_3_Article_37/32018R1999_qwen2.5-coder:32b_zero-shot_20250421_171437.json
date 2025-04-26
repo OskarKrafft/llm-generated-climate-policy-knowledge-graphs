@@ -1,0 +1,118 @@
+json
+[
+  {
+    "Subject": "Article_37",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_37",
+    "Predicate": "hasTitle",
+    "Object": "union and national inventory systems"
+  },
+  {
+    "Subject": "Article_37",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_1"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasContent",
+    "Object": "by 1 january 2021, member states shall establish, operate and seek to continuously improve national inventory systems to estimate anthropogenic emissions by sources and removals by sinks of greenhouse gases listed in part 2 of annex v and to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of their greenhouse gas inventories."
+  },
+  {
+    "Subject": "Article_37",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_2"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "hasContent",
+    "Object": "member states shall ensure that their competent inventory authorities have access to the information specified in annex xii to this regulation, make use of reporting systems established pursuant to article 20 of regulation (eu) no 517/2014 to improve the estimate of fluorinated gases in the national greenhouse gas inventories and are able to undertake the annual consistency checks referred to in points (i) and (j) of part 1 of annex v to this regulation."
+  },
+  {
+    "Subject": "Article_37",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_3"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "hasContent",
+    "Object": "a union inventory system to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of national inventories with regard to the union greenhouse gas inventory is hereby established. the commission shall manage, maintain and seek to continuously improve that system which shall include the setting of a quality assurance and quality control programme, setting quality objectives and drafting an inventory quality assurance and quality control plan, procedures for completing emission estimates to compile the union inventory pursuant to paragraph 5 of this article and the reviews referred to in article 38."
+  },
+  {
+    "Subject": "Article_37",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_4"
+  },
+  {
+    "Subject": "Paragraph_4",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_4",
+    "Predicate": "hasContent",
+    "Object": "the commission shall perform an initial check of the accuracy of the preliminary greenhouse gas inventory data to be submitted by member states pursuant to article 26(3). it shall send the results of that check to member states within six weeks of the submission deadline. member states shall respond to any relevant questions raised by the initial check by 15 march, together with the final inventory submission for the year x-2."
+  },
+  {
+    "Subject": "Article_37",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_5"
+  },
+  {
+    "Subject": "Paragraph_5",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_5",
+    "Predicate": "hasContent",
+    "Object": "where a member state does not submit the inventory data required to compile the union inventory by 15 march, the commission may prepare estimates to complete the data submitted by the member state, in consultation and close cooperation with the member state concerned. the commission shall use, for that purpose, the guidelines applicable for preparing the national greenhouse gas inventories."
+  },
+  {
+    "Subject": "Article_37",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_6"
+  },
+  {
+    "Subject": "Paragraph_6",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_6",
+    "Predicate": "hasContent",
+    "Object": "the commission, assisted by the climate change committee referred to in point (a) of article 44(1), shall adopt implementing acts in order to set out rules on the structure, format and submission process of the information relating to national inventory systems and requirements on the establishment, operation and functioning of national inventory systems.\nin proposing such implementing acts, the commission shall take into account any relevant decisions adopted by the bodies of the unfccc.\nthe implementing acts shall be adopted in accordance with the regulatory procedure referred to in article 10(3) of regulation (eu) no 182/2011."
+  },
+  {
+    "Subject": "Article_37",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_7"
+  },
+  {
+    "Subject": "Paragraph_7",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_7",
+    "Predicate": "hasContent",
+    "Object": "the commission shall adopt delegated acts in accordance with the regulatory procedure referred to in article 10(2) of regulation (eu) no 182/2011, for the purpose of specifying the procedures for completing emission estimates to compile the union inventory.\nthe power to adopt delegated acts is conferred on the commission subject to the conditions laid down in article 290 of the treaty on the functioning of the european union."
+  }
+]

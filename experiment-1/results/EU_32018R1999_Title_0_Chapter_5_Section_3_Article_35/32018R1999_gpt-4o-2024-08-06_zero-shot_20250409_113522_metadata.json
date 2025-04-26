@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "graph": "[a rdfg:Graph;rdflib:storage [a rdflib:Store;rdfs:label 'Memory']].",
+  "error": null,
+  "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35> a pol:PolicyArticle ;\n    pol:annotatedText \"State of the Energy Union Report\" ;\n    pol:specifies_monitoring_time [\n        a pol:Time_Monitoring ;\n        pol:Monitoring_date \"2023-10-31\"^^xsd:date ;\n        pol:annotatedText \"by 31 October of every year, the Commission shall submit to the European Parliament and to the Council a State of the Energy Union report.\"\n    ] ;\n    pol:contains_instrument <http://eurovoc.europa.eu/5237> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:addresses <http://eurovoc.europa.eu/2243>, <http://eurovoc.europa.eu/114> ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:hasArticle <http://data.europa.eu/eli/reg/2018/1999/oj> .",
+  "original_output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35> a pol:PolicyArticle ;\n    pol:annotatedText \"State of the Energy Union Report\" ;\n    pol:specifies_monitoring_time [\n        a pol:Time_Monitoring ;\n        pol:Monitoring_date \"2023-10-31\"^^xsd:date ;\n        pol:annotatedText \"by 31 October of every year, the Commission shall submit to the European Parliament and to the Council a State of the Energy Union report.\"\n    ] ;\n    pol:contains_instrument <http://eurovoc.europa.eu/5237> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:addresses <http://eurovoc.europa.eu/2243>, <http://eurovoc.europa.eu/114> ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:hasArticle <http://data.europa.eu/eli/reg/2018/1999/oj> .\n```",
+  "generation_time": 5.007996320724487,
+  "success": true,
+  "output": "```turtle\n@prefix pol: <https://polianna-kg.org/Ontology#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35> a pol:PolicyArticle ;\n    pol:annotatedText \"State of the Energy Union Report\" ;\n    pol:specifies_monitoring_time [\n        a pol:Time_Monitoring ;\n        pol:Monitoring_date \"2023-10-31\"^^xsd:date ;\n        pol:annotatedText \"by 31 October of every year, the Commission shall submit to the European Parliament and to the Council a State of the Energy Union report.\"\n    ] ;\n    pol:contains_instrument <http://eurovoc.europa.eu/5237> ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:contains_objective pol:Objective ;\n    pol:addresses <http://eurovoc.europa.eu/2243>, <http://eurovoc.europa.eu/114> ;\n    pol:authorises <http://eurovoc.europa.eu/4038> ;\n    pol:hasArticle <http://data.europa.eu/eli/reg/2018/1999/oj> .\n```",
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+      "CELEX_Number": "32018R1999",
+      "ELI": "http://data.europa.eu/eli/reg/2018/1999/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "gpt-4o-2024-08-06",
+    "timestamp": "2025-04-09T11:35:22.482771"
+  }
+}

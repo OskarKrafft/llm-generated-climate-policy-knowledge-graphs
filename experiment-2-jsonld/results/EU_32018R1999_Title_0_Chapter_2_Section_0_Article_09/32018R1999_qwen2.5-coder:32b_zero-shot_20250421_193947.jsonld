@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "poliana": "https://w3id.org/poliana/ontology#"
+  },
+  "@type": "poliana:LegalResource",
+  "dct:title": "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09",
+  "eli:number": "32018R1999",
+  "eli:hasExpression": {
+    "@type": "eli:LegalExpression",
+    "eli:expressionDate": "2018-12-31",
+    "dct:source": "http://data.europa.eu/eli/reg/2018/1999/oj"
+  },
+  "poliana:hasProvision": [
+    {
+      "@type": "poliana:Provision",
+      "dct:description": "By 31 December 2018, and subsequently by 1 January 2028 and every ten years thereafter, each member state shall prepare and submit to the commission a draft of the integrated national energy and climate plan in accordance with article 3(1) and annex i.",
+      "poliana:hasRequirement": {
+        "@type": "poliana:Requirement",
+        "dct:description": "Each member state prepares and submits a draft of the integrated national energy and climate plan."
+      }
+    },
+    {
+      "@type": "poliana:Provision",
+      "dct:description": "The commission shall assess the draft integrated national energy and climate plans and may issue country-specific recommendations to member states in accordance with article 34 no later than six months before the deadline for submitting those integrated national energy and climate plans.",
+      "poliana:hasRequirement": {
+        "@type": "poliana:Requirement",
+        "dct:description": "The commission assesses draft plans and may issue recommendations."
+      }
+    },
+    {
+      "@type": "poliana:Provision",
+      "dct:description": "Each member state shall take due account of any recommendations from the commission in its integrated national energy and climate plan. If the member state concerned does not address a recommendation or a substantial part thereof, that member state shall provide and make public its reasons.",
+      "poliana:hasRequirement": {
+        "@type": "poliana:Requirement",
+        "dct:description": "Member states take account of recommendations and provide reasons if they do not address them."
+      }
+    },
+    {
+      "@type": "poliana:Provision",
+      "dct:description": "In the context of the public consultation as referred to in article 10, each member state shall make available to the public its draft integrated national energy and climate plan.",
+      "poliana:hasRequirement": {
+        "@type": "poliana:Requirement",
+        "dct:description": "Member states make their draft plans publicly available for consultation."
+      }
+    }
+  ]
+}

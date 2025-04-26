@@ -1,0 +1,49 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_23 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_23 a pol:PolicyArticle ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 23
+integrated reporting on the internal energy market
+1.   member states shall include in their integrated national energy and climate progress reports information on the implementation of the following objectives and measures:
+(a)
+the level of electricity interconnectivity that the member state aims for in 2030 in consideration of the electricity interconnection target for 2030 of at least 15 % and the indicators set out in point 2.4.1 of section a of part i of annex i, as well as measures for the implementation of the strategy for the achievement of this level, including those relating to the granting of authorisations;
+(b)
+key electricity and gas transmission infrastructure projects that are necessary for the achievement of objectives and targets under the five dimensions of the energy union;
+(c)
+where applicable, main infrastructure projects envisaged other than projects of common interest, including infrastructure projects involving third countries, and, to the extent feasible, a general assessment of their compatibility with, and contribution to, the aims and targets of the energy union;
+(d)
+national objectives related to other aspects of the internal energy market such as increasing system flexibility, market integration and coupling, aiming to increase the tradeable capacity of existing interconnectors, smart grids, aggregation, demand response, storage, distributed generation, mechanisms for dispatching, re-dispatching and curtailment, real-time price signals;
+(e)
+where applicable, national objectives and measures related to the non-discriminatory participation of renewable energy, demand response and storage, including via aggregation, in all energy markets;
+(f)
+where applicable, national objectives and measures with regard to ensuring that consumers participate in the energy system and benefits from self-generation and new technologies, including smart meters;
+(g)
+measures with regard to ensuring electricity system adequacy;
+(h)
+implemented, adopted and planned policies and measures to achieve the objectives referred to in points (a) to (g);
+(i)
+regional cooperation in implementing the objectives and policies referred to in points (a) to (h);
+(j)
+without prejudice to articles 107 and 108 tfeu, financing measures at national level, including union support and the use of union funds, in the area of the internal energy market, including for the electricity interconnection target, where applicable;
+(k)
+measures to increase the flexibility of the energy system with regard to renewable energy production, including the roll-out of intraday market coupling and cross-border balancing markets.
+2.   the information provided by member states under paragraph 1 shall be consistent with and as appropriate be based on the report by the national regulators referred to in point (e) of article 37(1) of directive 2009/72/ec and point (e) of article 41(1) of directive 2009/73/ec."""^^xsd:string ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_23_TimeCompliance_1,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_23_TimeCompliance_2 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_23_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_23_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+

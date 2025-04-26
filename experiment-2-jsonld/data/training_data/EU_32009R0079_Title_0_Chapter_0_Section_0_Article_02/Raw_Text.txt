@@ -1,0 +1,9 @@
+article 2
+scope
+this regulation shall apply to:
+1.
+hydrogen-powered vehicles of categories m and n, as defined in section a of annex ii to directive 2007/46/ec, including impact protection and the electric safety of such vehicles;
+2.
+hydrogen components designed for motor vehicles of categories m and n, as listed in annex i;
+3.
+hydrogen systems designed for motor vehicles of categories m and n, including new forms of hydrogen storage or usage.

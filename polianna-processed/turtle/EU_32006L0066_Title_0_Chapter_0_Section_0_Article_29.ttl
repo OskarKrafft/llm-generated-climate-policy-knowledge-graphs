@@ -1,0 +1,19 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_29 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_29 a pol:PolicyArticle ;
+    pol:fullText """article 29
+entry into force
+this directive shall enter into force on the day of its publication in the official journal of the european union."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_29_TimeInEffect_1,
+        pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_29_TimeInEffect_2 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_29_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:annotatedText "day of its publication in the official journal of the european union" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_29_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:annotatedText "day of its publication" .
+

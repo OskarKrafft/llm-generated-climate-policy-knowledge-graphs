@@ -1,0 +1,43 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RD_D,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_compliance_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15_TimeCompliance_2,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15_TimeCompliance_3,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15_TimeCompliance_4 ;
+    pol:specifies_monitoring_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15_TimeMonitoring_1,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15_TimeMonitoring_5 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:annotatedText "2035 and 2040 onwards" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2027-01-01"^^xsd:date ;
+    pol:annotatedText "2027" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "2023" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_15_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "31 december 2020" .
+

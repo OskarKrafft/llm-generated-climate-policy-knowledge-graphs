@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "poliana": "http://data.europa.eu/poli/ontology/poliana#",
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#"
+  },
+  "@type": "poliana:LegalActArticle",
+  "dct:title": "verification of compliance with the sustainability criteria for biofuels and bioliquids",
+  "eli:number": "18",
+  "eli:isChildOf": {
+    "@id": "http://data.europa.eu/eli/dir/2009/28/oj"
+  },
+  "poliana:hasParagraph": [
+    {
+      "@type": "poliana:LegalActParagraph",
+      "dct:description": "where biofuels and bioliquids are to be taken into account for the purposes referred to in points (a), (b) and (c) of article 17(1), a member state shall ensure that the sustainability criteria set out in article 17(2) to (5) are met.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:LegalActPoint",
+          "dct:description": "a member state shall ensure that the sustainability criteria set out in article 17(2) to (5) are met."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:LegalActParagraph",
+      "dct:description": "for the purposes of ensuring compliance with the sustainability criteria, a member state may require an economic operator to provide proof or data obtained in accordance with one or more of the following methods:",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:LegalActPoint",
+          "dct:description": "an independent audit carried out by a body accredited in accordance with article 30."
+        },
+        {
+          "@type": "poliana:LegalActPoint",
+          "dct:description": "a voluntary national or international scheme setting standards for the production of biomass products, provided that such schemes meet adequate standards of reliability, transparency and independent auditing."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:LegalActParagraph",
+      "dct:description": "the commission shall adopt decisions under paragraph 4 only if the agreement or scheme in question meets adequate standards of reliability, transparency and independent auditing.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:LegalActPoint",
+          "dct:description": "in the case of schemes to measure greenhouse gas emission saving, such schemes shall also comply with the methodological requirements in annex v."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:LegalActParagraph",
+      "dct:description": "decisions under paragraph 4 shall be adopted in accordance with the advisory procedure referred to in article 25(3). such decisions shall be valid for a period of no more than five years."
+    },
+    {
+      "@type": "poliana:LegalActParagraph",
+      "dct:description": "when an economic operator provides proof or data obtained in accordance with an agreement or scheme that has been the subject of a decision pursuant to paragraph 4, to the extent covered by that decision, a member state shall not require the supplier to provide further evidence of compliance with the sustainability criteria set out in article 17(2) to (5) nor information on measures referred to in the second subparagraph of paragraph 3 of this article."
+    },
+    {
+      "@type": "poliana:LegalActParagraph",
+      "dct:description": "at the request of a member state or on its own initiative the commission shall examine the application of article 17 in relation to a source of biofuel or bioliquid and, within six months of receipt of a request and in accordance with the advisory procedure referred to in article 25(3), decide whether the member state concerned may take biofuel or bioliquid from that source into account for the purposes referred to in points (a), (b) and (c) of article 17(1)."
+    },
+    {
+      "@type": "poliana:LegalActParagraph",
+      "dct:description": "by 31 december 2012, the commission shall report to the european parliament and to the council on:",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:LegalActPoint",
+          "dct:description": "the effectiveness of the system in place for the provision of information on sustainability criteria;"
+        },
+        {
+          "@type": "poliana:LegalActPoint",
+          "dct:description": "whether it is feasible and appropriate to introduce mandatory requirements in relation to air, soil or water protection, taking into account the latest scientific evidence and the community’s international obligations."
+        }
+      ]
+    }
+  ]
+}

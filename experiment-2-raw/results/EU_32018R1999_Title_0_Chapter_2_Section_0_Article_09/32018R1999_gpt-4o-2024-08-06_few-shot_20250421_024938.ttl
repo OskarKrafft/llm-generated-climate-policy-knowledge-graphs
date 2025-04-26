@@ -1,0 +1,24 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises eurovoc:4038 ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_TimeCompliance_1 ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_TimeMonitoring_1 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2018-12-31"^^xsd:date ;
+    pol:annotatedText "31 December 2018, and subsequently by 1 January 2028 and every ten years thereafter" .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "no later than six months before the deadline for submitting those integrated national energy and climate plans" .
+

@@ -1,0 +1,31 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32008R1099 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_10 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 10
+implementing measures
+1.   the following measures necessary for implementation of this regulation, designed to amend non-essential elements of this regulation, inter alia, by supplementing it, shall be adopted in accordance with the regulatory procedure with scrutiny referred to in article 11(2):
+(a)
+modifications to the list of data sources (article 3(3));
+(b)
+modifications to the national statistics and to the applicable clarifications or definitions (article 4(3));
+(c)
+modifications to the transmission arrangements (article 5(3));
+(d)
+establishment of and modifications to the annual nuclear statistics (article 8(2));
+(e)
+modifications to the renewable energy statistics (article 9(2));
+(f)
+establishment of and modifications to the final energy consumption statistics (article 9(3)).
+2.   additional exemptions or derogations (article 5(4)) shall be granted in accordance with the regulatory procedure referred to in article 11(3).
+3.   consideration is to be given to the principle that additional costs and the reporting burden remain within reasonable limits."""^^xsd:string ;
+    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "annual" .
+

@@ -1,0 +1,137 @@
+[
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "15 march each year"
+  },
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "imposes_monitoring",
+    "o": "Member_States"
+  },
+  {
+    "s": "32013R0525",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "15 january each year"
+  },
+  {
+    "s": "TimeMonitoring_5",
+    "p": "annotatedText",
+    "o": "15 april each year"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_5"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_2"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_3"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "32013R0525",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_1"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "TradablePermit"
+  },
+  {
+    "s": "TimeMonitoring_4",
+    "p": "annotatedText",
+    "o": "15 april each year"
+  },
+  {
+    "s": "TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeMonitoring_4",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "15 january and final data by 15 march of the second year after the end of each accounting period"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "Article",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_4"
+  },
+  {
+    "s": "TimeMonitoring_5",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  }
+]

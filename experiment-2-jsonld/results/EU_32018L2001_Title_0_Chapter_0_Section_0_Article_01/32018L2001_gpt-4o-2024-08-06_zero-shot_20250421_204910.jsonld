@@ -1,0 +1,130 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Article 1"
+      },
+      "is_about": [
+        {
+          "id": "eurovoc:4060",
+          "label": {
+            "value": "European Union"
+          }
+        },
+        {
+          "id": "eurovoc:5237",
+          "label": {
+            "value": "research and development"
+          }
+        }
+      ],
+      "contains_objective": {
+        "id": "Objective",
+        "label": {
+          "value": "Binding Union target for renewable energy share in 2030"
+        }
+      },
+      "contains_instrument": [
+        {
+          "id": "Subsidies_Incentives",
+          "label": {
+            "value": "Subsidies and Direct Incentives"
+          }
+        },
+        {
+          "id": "RegulatoryInstr",
+          "label": {
+            "value": "Regulatory Instrument"
+          }
+        }
+      ],
+      "annotatedText": {
+        "value": "This directive establishes a common framework for the promotion of energy from renewable sources. It sets a binding Union target for the overall share of energy from renewable sources in the Union's gross final consumption of energy in 2030. It also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between Member States, and between Member States and third countries, on guarantees of origin, on administrative procedures and on information and training. It also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels."
+      }
+    },
+    {
+      "id": "32018L2001",
+      "type": "PolicyDocument",
+      "label": {
+        "value": "Directive (EU) 2018/2001"
+      },
+      "hasArticle": {
+        "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01"
+      },
+      "eli": "http://data.europa.eu/eli/dir/2018/2001/oj"
+    }
+  ]
+}

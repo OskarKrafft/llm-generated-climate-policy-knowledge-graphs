@@ -1,0 +1,425 @@
+json
+[
+  {
+    "Subject": "Article_26",
+    "Predicate": "hasTitle",
+    "Object": "annual reporting"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "hasReportingDate",
+    "Object": "15 march 2021"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "hasReportingFrequency",
+    "Object": "every year thereafter (year x)"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportFrom",
+    "Object": "member states"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportTo",
+    "Object": "the commission"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "includesInformationFrom",
+    "Object": "article 6(2) of directive 2009/119/ec"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "includesInformationFrom",
+    "Object": "point 3 of annex ix of directive 2013/30/eu"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "followsProcedureOf",
+    "Object": "article 25 of that directive"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "hasReportingDate",
+    "Object": "31 july 2021"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOf",
+    "Object": "their approximated greenhouse gas inventories for the year x-1"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "compiledBy",
+    "Object": "the commission"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "basedOn",
+    "Object": "member states' approximated greenhouse gas inventories or, if a member state has not communicated its approximated inventories by that date, on the basis of its own estimates"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "madeAvailableTo",
+    "Object": "the public"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "availableByDate",
+    "Object": "30 september every year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "fromYear",
+    "Object": "2023"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "determineAndReportTo",
+    "Object": "the commission final greenhouse gas inventory data by 15 march each year (year x)"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportPreliminaryDataBy",
+    "Object": "15 january each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "includeInformationOf",
+    "Object": "the greenhouse gases and the inventory information listed in annex v"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludes",
+    "Object": "a complete and up-to-date national inventory report"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "makeInformationAvailableTo",
+    "Object": "the climate change committee referred to in point (a) of article 44(1)"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "availableWithinTimeframeOf",
+    "Object": "within three months of receiving the reports"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "submitToUnfcccSecretariat",
+    "Object": "national inventories containing the information submitted to the commission on the final greenhouse gas inventory data in accordance with paragraph 3 by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "compiledByCommissionAndMemberStates",
+    "Object": "a union greenhouse gas inventory and prepare a report"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "submitReportToUnfcccSecretariat",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesDataOf",
+    "Object": "the final greenhouse gas inventory data"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportFrom",
+    "Object": "member states"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportToUnfcccSecretariatByDate",
+    "Object": "15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataForYear",
+    "Object": "the years specified in the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexI",
+    "Object": "annex i of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexV",
+    "Object": "annex v of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataForYear",
+    "Object": "the years specified in the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexVI",
+    "Object": "annex vi of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexVII",
+    "Object": "annex vii of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexVIII",
+    "Object": "annex viii of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexIX",
+    "Object": "annex ix of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexX",
+    "Object": "annex x of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXI",
+    "Object": "annex xi of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXII",
+    "Object": "annex xii of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXIII",
+    "Object": "annex xiii of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXIV",
+    "Object": "annex xiv of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXV",
+    "Object": "annex xv of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXVI",
+    "Object": "annex xvi of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXVII",
+    "Object": "annex xvii of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXVIII",
+    "Object": "annex xviii of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXIX",
+    "Object": "annex xix of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXX",
+    "Object": "annex xx of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXXI",
+    "Object": "annex xxi of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXXII",
+    "Object": "annex xxii of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXXIII",
+    "Object": "annex xxiii of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXXIV",
+    "Object": "annex xxiv of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXXV",
+    "Object": "annex xxv of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXXVI",
+    "Object": "annex xxvi of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXXVII",
+    "Object": "annex xxvii of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXXVIII",
+    "Object": "annex xxviii of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXXIX",
+    "Object": "annex xxix of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "reportIncludesInformationFromAnnexXXX",
+    "Object": "annex xxx of the Kyoto Protocol"
+  },
+  {
+    "Subject": "Article_26",
+    "Predicate": "requiresReportOfLulucfDataByDate",
+    "Object": "by 15 april each year"
+  }
+<|im_start|> 自动生成的这些信息看起来有些冗余，是否可以简化？
+<|im_start|>
+<|im_start|>
+<|im_start|><|im_start|>
+<|im_start|>是的，这些信息确实显得冗余。如果目的是说明Article 26要求每年报告特定类型的数据（例如LULUCF数据），那么可以简化为以下形式：
+
+"根据Article 26的要求，成员国需每年提交包含特定类型数据（如LULUCF数据）的报告。"
+
+这样既保留了关键信息，又避免了不必要的重复。如果需要具体说明哪些附录中的信息是相关的，可以在简化的描述中加入这些细节，但不需要为每个附录单独列出要求。例如：
+
+"根据Article 26的要求，成员国需每年提交包含特定类型数据（如LULUCF数据）的报告，相关数据应依据附录I至XXX的规定进行收集和报告。"
+
+这样既简洁又清晰地传达了所需的信息。

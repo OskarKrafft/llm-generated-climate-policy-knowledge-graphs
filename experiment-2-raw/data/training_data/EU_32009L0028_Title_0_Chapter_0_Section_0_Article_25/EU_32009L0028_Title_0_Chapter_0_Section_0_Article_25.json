@@ -1,0 +1,27 @@
+[
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32009L0028",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "32009L0028",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "eurovoc:6049"
+  }
+]

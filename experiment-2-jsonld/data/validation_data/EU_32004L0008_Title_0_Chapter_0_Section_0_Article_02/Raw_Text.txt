@@ -1,0 +1,4 @@
+article 2
+scope
+this directive shall apply to cogeneration as defined in article 3 and cogeneration technologies listed in annex i.
+

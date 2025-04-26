@@ -1,0 +1,29 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_1,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_3 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "annual" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "5 december 2015" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "at least every four years" .
+

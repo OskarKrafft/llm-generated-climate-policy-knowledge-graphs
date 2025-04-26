@@ -1,0 +1,97 @@
+@prefix poli: <http://example.org/poliana#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+poli:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35 poli:hasCELEXNumber "32018R1999" ;
+    poli:hasELI <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    poli:isAnnotatedBy poli:A ;
+    poli:isAnnotatedBy poli:C .
+
+poli:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35 a poli:Article ;
+    poli:hasSection "state of the energy union report" ;
+    poli:containsElement [
+        a poli:ReportingRequirement ;
+        poli:hasText "by 31 october of every year, the commission shall submit to the european parliament and to the council a state of the energy union report." ;
+        poli:requiresSubmissionByDate "2023-10-31"^^xsd:date .
+    ] .
+
+poli:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35 a poli:Article ;
+    poli:hasSection "state of the energy union report elements" ;
+    poli:containsElement [
+        a poli:ReportingRequirement ;
+        poli:hasText "the assessment carried out pursuant to article 29." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "where appropriate, recommendations pursuant to article 34." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "the report on the functioning of the carbon market referred to in article 10(5) of directive 2003/87/ec, including information on the application of that directive in accordance with article 21(2) thereof." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "biennially, from 2023, a report on union bioenergy sustainability, containing the information specified in annex x." ;
+        poli:isBiannual true ;
+        poli:startYear "2023"^^xsd:gYear .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "biennially, a report on voluntary schemes in respect of which the commission has adopted a decision pursuant to article 30(4) of directive (eu) 2018/2001, containing the information specified in annex xi to this regulation." ;
+        poli:isBiannual true .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "an overall progress report on the application of directive 2009/72/ec." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "an overall progress report on the application of directive 2009/73/ec pursuant to article 52 of that directive." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "an overall progress report on energy efficiency obligation schemes and alternative policy measures as referred to in articles 7a and 7b of directive 2012/27/eu." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "biennially, an overall progress report on the renovation of the national stock of residential and non-residential buildings, both public and private, in line with the roadmaps set out in the long-term renovation strategies that each member state shall establish in accordance with article 2a of directive 2010/31/eu." ;
+        poli:isBiannual true .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "every four years, an overall progress report on member states' increase in the number of nearly zero-energy buildings in accordance with article 9(5) of directive 2010/31/eu." ;
+        poli:intervalInYears "4"^^xsd:integer .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "an overall progress report on member states' progress in creating a complete and operational energy market." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "actual fuel quality in the different member states and geographical coverage of fuels with a maximum sulphur content of 10 mg/kg, as referred to in article 13(4) of Directive 2009/30/EC." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "the assessment carried out pursuant to Article 6a(1)." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "where appropriate, recommendations pursuant to Article 7(2)." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "biennially, from 2023, a report on Union bioenergy sustainability, containing the information specified in Annex X." ;
+        poli:startYear "2023"^^xsd:gYear .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "biennially, a report on voluntary schemes for which the Commission has adopted a decision pursuant to Article 7(4) of Directive (EU) 2018/2001, containing the information specified in Annex XI." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "an overall progress report on the implementation of Directive 2009/72/EC by Member States and third countries, pursuant to Article 52 thereof." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "every four years, an overview of progress in each Member State made towards creating a competitive and integrated European electricity market, as referred to in Article 19(4)." ;
+        poli:intervalInYears "4"^^xsd:integer .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "every four years, an overview of progress in each Member State made towards creating a competitive and integrated European gas market, as referred to in Article 19a(3)." ;
+        poli:intervalInYears "4"^^xsd:integer .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "every four years, an overview of progress made towards creating a competitive and integrated European electricity market." ;
+        poli:intervalInYears "4"^^xsd:integer .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "an assessment of the impact of Directive 2012/27/EU on energy efficiency improvement, in particular as regards Article 6 thereof." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "a review of progress made towards the achievement of Union-wide energy efficiency objectives set out in Directive 2012/27/EU." .
+    ] , [
+        a poli:ReportingRequirement ;
+        poli:hasText "an assessment of the impact of the application of Directive 2012/27/EU on energy efficiency improvement, in particular as regards Article 6 thereof." .
+    ] .

@@ -1,0 +1,11 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_14 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_14 a pol:PolicyArticle ;
+    pol:fullText """article 14
+amendments to directive 2007/46/ec
+annexes iv, vi and xi to directive 2007/46/ec shall be amended in accordance with annex vii to this regulation."""^^xsd:string .
+

@@ -1,0 +1,20 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_04 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_04 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_1,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_2 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "30 april 2014" .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "every three years thereafter" .
+

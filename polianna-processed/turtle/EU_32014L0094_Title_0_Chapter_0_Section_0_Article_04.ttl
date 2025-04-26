@@ -1,0 +1,52 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014L0094 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_04 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 4
+electricity supply for transport
+1.   member states shall ensure, by means of their national policy frameworks, that an appropriate number of recharging points accessible to the public are put in place by 31 december 2020, in order to ensure that electric vehicles can circulate at least in urban/suburban agglomerations and other densely populated areas, and, where appropriate, within networks determined by the member states. the number of such recharging points shall be established taking into consideration, inter alia, the number of electric vehicles estimated to be registered by the end of 2020, as indicated in their national policy frameworks, as well as best practices and recommendations issued by the commission. particular needs related to the installation of recharging points accessible to the public at public transport stations shall be taken into account, where appropriate.
+2.   the commission shall assess the application of the requirements in paragraph 1 and, as appropriate, submit a proposal to amend this directive, taking into account the development of the market for electric vehicles, in order to ensure that an additional number of recharging points accessible to the public are put in place in each member state by 31 december 2025, at least on the ten-t core network, in urban/suburban agglomerations and other densely populated areas.
+3.   member states shall also take measures within their national policy frameworks to encourage and facilitate the deployment of recharging points not accessible to the public.
+4.   member states shall ensure that normal power recharging points for electric vehicles, excluding wireless or inductive units, deployed or renewed as from 18 november 2017, comply at least with the technical specifications set out in point 1.1 of annex ii and with specific safety requirements in force at national level.
+member states shall ensure that high power recharging points for electric vehicles, excluding wireless or inductive units, deployed or renewed as from 18 november 2017, comply at least with the technical specifications set out in point 1.2 of annex ii.
+5.   member states shall ensure that the need for shore-side electricity supply for inland waterway vessels and seagoing ships in maritime and inland ports is assessed in their national policy frameworks. such shore-side electricity supply shall be installed as a priority in ports of the ten-t core network, and in other ports, by 31 december 2025, unless there is no demand and the costs are disproportionate to the benefits, including environmental benefits.
+6.   member states shall ensure that shore-side electricity supply installations for maritime transport, deployed or renewed as from 18 november 2017, comply with the technical specifications set out in point 1.7 of annex ii.
+7.   the recharging of electric vehicles at recharging points accessible to the public shall, if technically feasible and economically reasonable, make use of intelligent metering systems as defined in point (28) of article 2 of directive 2012/27/eu and shall comply with the requirements laid down in article 9(2) of that directive.
+8.   member states shall ensure that operators of recharging points accessible to the public are free to purchase electricity from any union electricity supplier, subject to the supplier's agreement. the operators of recharging points shall be allowed to provide electric vehicle recharging services to customers on a contractual basis, including in the name and on behalf of other service providers.
+9.   all recharging points accessible to the public shall also provide for the possibility for electric vehicle users to recharge on an ad hoc basis without entering into a contract with the electricity supplier or operator concerned.
+10.   member states shall ensure that prices charged by the operators of recharging points accessible to the public are reasonable, easily and clearly comparable, transparent and non-discriminatory.
+11.   member states shall ensure that distribution system operators cooperate on a non-discriminatory basis with any person establishing or operating recharging points accessible to the public.
+12.   member states shall ensure that the legal framework permits the electricity supply for a recharging point to be the subject of a contract with a supplier other than the entity supplying electricity to the household or premises where such a recharging point is located.
+13.   without prejudice to regulation (eu) no 1025/2012, the union shall pursue the development by the appropriate standardisation organisations of european standards containing detailed technical specifications for wireless recharging points and battery swapping for motor vehicles, and for recharging points for l-category motor vehicles and electric buses.
+14.   the commission shall be empowered to adopt delegated acts in accordance with article 8 to:
+(a)
+supplement this article and points 1.3, 1.4, 1.5, 1.6 and 1.8 of annex ii in order to require compliance of the infrastructures to be deployed or renewed with the technical specifications contained in the european standards to be developed pursuant to paragraph 13 of this article, where the relevant esos have recommended only one technical solution with technical specifications as described in a relevant european standard;
+(b)
+update the references to the standards referred to in the technical specifications set out in point 1 of annex ii where those standards are replaced by new versions thereof adopted by the relevant standardisation organisations.
+it is of particular importance that the commission follow its usual practice and carry out consultations with experts, including member states' experts, before adopting those delegated acts.
+those delegated acts shall provide for transitional periods of at least 24 months before the technical specifications contained therein, or amendments thereof, become binding on the infrastructure to be deployed or renewed."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_1,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_2,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_3 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2020" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2025" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2025" .
+

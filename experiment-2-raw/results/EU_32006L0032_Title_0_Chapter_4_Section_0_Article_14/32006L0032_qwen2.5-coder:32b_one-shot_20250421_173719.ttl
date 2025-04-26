@@ -1,0 +1,42 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14 a <http://data.europa.eu/eli/dir/2006/32/oj> ;
+    pol:hasPart pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14_Section_1,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14_Section_2,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14_Section_3,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14_Section_4,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14_Section_5 .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14_Section_1 a pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Section ;
+    pol:describes pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Submission_of_information_on_calculation_methods ;
+    pol:hasDeadline pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_2006-11-17 .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14_Section_2 a pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Section ;
+    pol:basedOnData pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Available_data_with_estimates ;
+    pol:hasDeadline pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_2007-06-30,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_2011-06-30,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_2014-06-30 ;
+    pol:requiresAnalysis pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Thorough_analysis_and_evaluation_of_preceding_EEAP ;
+    pol:requiresPlanning pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Additional_measures_for_shortfall ;
+    pol:requiresReporting pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Final_results_on_energy_savings_targets ;
+    pol:requiresSubmissionOf pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_EEAPs ;
+    pol:usesIndicators pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Harmonised_efficiency_indicators_and_benchmarks .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14_Section_3 a pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Section ;
+    pol:hasDeadline pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_2008-05-17 ;
+    pol:requiresPublication <https://polianna-kg.org/Ontology#EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Cost/benefit_impact_assessment> .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14_Section_4 a pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Section ;
+    pol:hasDeadline pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_2008-01-01,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_2011-01-01,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_2014-01-01 ;
+    pol:requiresReview pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_First_EEAPs,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Second_EEAPs,
+        pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Third_EEAPs .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Article_14_Section_5 a pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Section ;
+    pol:hasDeadline pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_2008-01-01 ;
+    pol:requiresPublication pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Reports_on_progress .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_EEAPs pol:describes pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14_Energy_efficiency_improvement_measures .
+

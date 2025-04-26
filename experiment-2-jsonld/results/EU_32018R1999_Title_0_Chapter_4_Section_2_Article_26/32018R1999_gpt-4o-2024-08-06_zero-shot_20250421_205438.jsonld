@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Article 26: Annual Reporting"
+      },
+      "specifies_time": [
+        {
+          "id": "_:time1",
+          "type": "Time_Monitoring",
+          "annotatedText": "by 15 March 2021, and every year thereafter (year x)"
+        },
+        {
+          "id": "_:time2",
+          "type": "Time_Monitoring",
+          "annotatedText": "by 31 July 2021, and every year thereafter (year x)"
+        },
+        {
+          "id": "_:time3",
+          "type": "Time_Monitoring",
+          "annotatedText": "from 2023, by 15 March each year (year x)"
+        },
+        {
+          "id": "_:time4",
+          "type": "Time_Monitoring",
+          "annotatedText": "by 15 April each year"
+        },
+        {
+          "id": "_:time5",
+          "type": "Time_Monitoring",
+          "annotatedText": "by 15 January and 15 March respectively in the years 2027 and 2032"
+        }
+      ],
+      "contains_instrument": [
+        {
+          "id": "RegulatoryInstr",
+          "type": "skos:Concept"
+        }
+      ],
+      "grants_monitoring_authority": {
+        "id": "eurovoc:4038",
+        "type": "Organization"
+      },
+      "addresses": {
+        "id": "Member_States",
+        "type": "Organization"
+      },
+      "imposes_monitoring": {
+        "id": "eurovoc:4038",
+        "type": "Organization"
+      },
+      "grants_legislative_authority": {
+        "id": "eurovoc:2243",
+        "type": "Organization"
+      }
+    }
+  ]
+}

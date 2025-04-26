@@ -1,0 +1,69 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_03 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 3
+definitions
+1.   for the purposes of this regulation, the following definitions apply:
+(a)
+‘average specific emissions of co2’ means, in relation to a manufacturer, the average of the specific emissions of co2 of all new passenger cars or of all new light commercial vehicles of which it is the manufacturer;
+(b)
+‘certificate of conformity’ means the certificate of conformity referred to in article 18 of directive 2007/46/ec;
+(c)
+‘completed vehicle’ means a light commercial vehicle where type-approval is granted following completion of a process of multi-stage type-approval in accordance with directive 2007/46/ec;
+(d)
+‘complete vehicle’ means any light commercial vehicle which does not need to be completed in order to meet the relevant technical requirements of directive 2007/46/ec;
+(e)
+‘base vehicle’ means any light commercial vehicle which is used at the initial stage of a multi-stage type-approval process;
+(f)
+‘manufacturer’ means the person or body responsible to the approval authority for all aspects of the ec type-approval procedure in accordance with directive 2007/46/ec and for ensuring conformity of production;
+(g)
+‘mass in running order’ or ‘m’ means the mass of the passenger car or light commercial vehicle with bodywork in running order as stated in the certificate of conformity and defined in point 2.6 of annex i to directive 2007/46/ec;
+(h)
+‘specific emissions of co2’ means the co2 emissions of a passenger car or a light commercial vehicle measured in accordance with regulation (ec) no 715/2007 and its implementing regulations and specified as the co2 mass emissions (combined) in the certificate of conformity of the vehicle. for passenger cars or light commercial vehicles which are not type-approved in accordance with regulation (ec) no 715/2007, ‘specific emissions of co2’ means the co2 emissions measured pursuant to regulation (ec) no 715/2007, notably in accordance with the same measurement procedure as specified in regulation (ec) no 692/2008 until 31 december 2020, and from 1 january 2021 in regulation (eu) 2017/1151, or in accordance with procedures adopted by the commission to establish the co2 emissions for such vehicles;
+(i)
+‘footprint’ means the average track width multiplied by the wheelbase as stated in the certificate of conformity and defined in points 2.1 and 2.3 of annex i to directive 2007/46/ec;
+(j)
+‘specific emissions target’ means, in relation to a manufacturer, the annual target determined in accordance with annex i or, if the manufacturer is granted a derogation in accordance with article 10, the specific emissions target determined according to that derogation;
+(k)
+‘eu fleet-wide target’ means the average co2 emissions of all new passenger cars or all new light commercial vehicles to be achieved in a given period;
+(l)
+‘test mass’ or ‘tm’ means the test mass of a passenger car or light commercial vehicle as stated in the certificate of conformity and as defined in point 3.2.25 of annex xxi to regulation (eu) 2017/1151;
+(m)
+‘zero- and low-emission vehicle’ means a passenger car or a light commercial vehicle with tailpipe emissions from zero up to 50 g co2/km, as determined in accordance with regulation (eu) 2017/1151;
+(n)
+‘payload’ means the difference between the technically permissible maximum laden mass pursuant to annex ii to directive 2007/46/ec and the mass of the vehicle.
+2.   for the purposes of this regulation, ‘a group of connected manufacturers’ means a manufacturer and its connected undertakings. in relation to a manufacturer, ‘connected undertakings’ means:
+(a)
+undertakings in which the manufacturer has, directly or indirectly:
+(i)
+the power to exercise more than half the voting rights; or
+(ii)
+the power to appoint more than half the members of the supervisory board, board of management or bodies legally representing the undertaking; or
+(iii)
+the right to manage the undertaking's affairs;
+(b)
+undertakings which directly or indirectly have, over the manufacturer, the rights or powers referred to in point (a);
+(c)
+undertakings in which an undertaking referred to in point (b) has, directly or indirectly, the rights or powers referred to in point (a);
+(d)
+undertakings in which the manufacturer together with one or more of the undertakings referred to in point (a), (b) or (c), or in which two or more of the latter undertakings, jointly have the rights or powers referred to in point (a);
+(e)
+undertakings in which the rights or the powers referred to in point (a) are jointly held by the manufacturer or one or more of its connected undertakings referred to in points (a) to (d) and one or more third parties."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_1 ;
+    pol:specifies_in_effect_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_03_TimeInEffect_2 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2020" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_03_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2021" .
+

@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_22 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_22 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:PublicInvt,
+        pol:RegulatoryInstr,
+        pol:TaxIncentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority pol:Member_States .
+

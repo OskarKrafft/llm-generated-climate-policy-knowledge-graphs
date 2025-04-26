@@ -1,0 +1,6 @@
+article 8
+electricity grid system and tariff issues
+1. for the purpose of ensuring the transmission and distribution of electricity produced from high-efficiency cogeneration the provisions of article 7(1), (2) and (5) of directive 2001/77/ec as well as the relevant provisions of directive 2003/54/ec shall apply.
+2. until the cogeneration producer is an eligible customer under national legislation within the meaning of article 21(1) of directive 2003/54/ec, member states should take the necessary measures to ensure that the tariffs for the purchase of electricity to back-up or top-up electricity generation are set on the basis of published tariffs and terms and conditions.
+3. subject to notification to the commission, member states may particularly facilitate access to the grid system of electricity produced from high-efficiency cogeneration from small scale and micro cogeneration units.
+

@@ -1,0 +1,11 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_28 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_28 a pol:PolicyArticle ;
+    pol:fullText """article 28
+repeal
+decision no 280/2004/ec is hereby repealed. references to the repealed decision shall be construed as references to this regulation and shall be read in accordance with the correlation table in annex iv."""^^xsd:string .
+

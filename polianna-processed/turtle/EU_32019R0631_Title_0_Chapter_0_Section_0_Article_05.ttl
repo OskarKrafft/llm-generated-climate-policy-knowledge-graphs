@@ -1,0 +1,41 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_05 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_05 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:fullText """article 5
+super-credits
+in calculating the average specific emissions of co2, each new passenger car with specific emissions of co2 of less than 50 g co2/km shall be counted as:
+—
+2 passenger cars in 2020,
+—
+1,67 passenger cars in 2021,
+—
+1,33 passenger cars in 2022,
+—
+1 passenger car from 2023,
+for the year in which it is registered in the period from 2020 to 2022, subject to a cap of 7,5 g co2/km over that period for each manufacturer, as calculated in accordance with article 5 of implementing regulation (eu) 2017/1153."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_05_TimeCompliance_1,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_05_TimeCompliance_2,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_05_TimeCompliance_3,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_05_TimeCompliance_4 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_05_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_05_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "2021" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_05_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2022-01-01"^^xsd:date ;
+    pol:annotatedText "2022" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_05_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2023-01-01"^^xsd:date ;
+    pol:annotatedText "2023" .
+

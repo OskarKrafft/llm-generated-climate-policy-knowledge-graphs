@@ -1,0 +1,32 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_15 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_15 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:fullText """article 15
+penalties for non-compliance
+1.   member states shall lay down the provisions on penalties applicable for infringement by manufacturers of the provisions of this regulation and its implementing measures and shall take all measures necessary to ensure that they are implemented. the penalties provided for shall be effective, proportionate and dissuasive. by 24 august 2010, member states shall notify those provisions to the commission, and shall notify it without delay of any subsequent amendment affecting them.
+2.   the types of infringement which are subject to a penalty shall include at least the following:
+(a)
+making false declarations during an approval procedure or a procedure leading to a recall;
+(b)
+falsifying test results for type-approval or in-use compliance;
+(c)
+withholding data or technical specifications which could lead to recall or withdrawal of type-approval;
+(d)
+refusal to provide access to information;
+(e)
+use of defeat devices."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_15_TimeMonitoring_1 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_15_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "24 august 2010" .
+

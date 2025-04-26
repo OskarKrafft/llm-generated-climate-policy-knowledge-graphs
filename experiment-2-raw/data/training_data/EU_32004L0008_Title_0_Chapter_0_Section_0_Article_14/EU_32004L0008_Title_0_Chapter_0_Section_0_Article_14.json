@@ -1,0 +1,27 @@
+[
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32004L0008",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:6049"
+  },
+  {
+    "s": "32004L0008",
+    "p": "hasArticle",
+    "o": "Article"
+  }
+]

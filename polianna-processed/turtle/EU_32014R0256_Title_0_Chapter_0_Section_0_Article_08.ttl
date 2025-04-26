@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_08 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 8
+data processing
+the commission shall be responsible for developing, hosting, managing and maintaining the it resources needed to receive, store and carry out any processing of the data or information on energy infrastructure which is notified to it pursuant to this regulation.
+the commission shall also ensure that the it resources referred to in the first paragraph guarantee the confidentiality of the data or information which is notified to it pursuant to this regulation."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> .
+

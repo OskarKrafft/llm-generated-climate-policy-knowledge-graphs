@@ -1,0 +1,83 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35 .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038> ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 35
+state of the energy union report
+1.   by 31 october of every year, the commission shall submit to the european parliament and to the council a state of the energy union report.
+2.   the state of the energy union report shall include the following elements:
+(a)
+the assessment carried out pursuant to article 29;
+(b)
+where appropriate, recommendations pursuant to article 34;
+(c)
+the report on the functioning of the carbon market referred to in article 10(5) of directive 2003/87/ec, including information on the application of that directive in accordance with article 21(2) thereof;
+(d)
+biennially, from 2023, a report on union bioenergy sustainability, containing the information specified in annex x;
+(e)
+biennially, a report on voluntary schemes in respect of which the commission has adopted a decision pursuant to article 30(4) of directive (eu) 2018/2001, containing the information specified in annex xi to this regulation;
+(f)
+an overall progress report on the application of directive 2009/72/ec;
+(g)
+an overall progress report on the application of directive 2009/73/ec pursuant to article 52 of that directive;
+(h)
+an overall progress report on energy efficiency obligation schemes and alternative policy measures as referred to in articles 7a and 7b of directive 2012/27/eu;
+(i)
+biennially, an overall progress report on the renovation of the national stock of residential and non-residential buildings, both public and private, in line with the roadmaps set out in the long-term renovation strategies that each member state shall establish in accordance with article 2a of directive 2010/31/eu;
+(j)
+every four years, an overall progress report on member states' increase in the number of nearly zero-energy buildings in accordance with article 9(5) of directive 2010/31/eu;
+(k)
+an overall progress report on member states' progress in creating a complete and operational energy market;
+(l)
+actual fuel quality in the different member states and geographical coverage of fuels with a maximum sulphur content of 10 mg/kg aiming to provide an overview of the fuels quality data in the different member states as reported pursuant to directive 98/70/ec;
+(m)
+a progress report on competitiveness;
+(n)
+member states' progress towards phasing out energy subsidies, in particular for fossil fuels;
+(o)
+other issues of relevance to the implementation of the energy union, including public and private support;
+(p)
+by 31 october 2019 and every four years thereafter, an assessment of the implementation of directive 2009/31/ec."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_1,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_2,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_3,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_4,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_5,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_6,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_7 .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "31 october of every year" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "biennially, from 2023" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "biennially" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "biennially" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "progress report" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_6 a pol:Time_Monitoring ;
+    pol:annotatedText "every four years" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_7 a pol:Time_Monitoring ;
+    pol:annotatedText "31 october 2019 and every four years thereafter" .
+

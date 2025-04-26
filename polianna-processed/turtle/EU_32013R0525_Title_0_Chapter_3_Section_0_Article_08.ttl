@@ -1,0 +1,29 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_08 .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 8
+approximated greenhouse gas inventories
+1.   by 31 july each year (year x), member states shall, where possible, submit to the commission approximated greenhouse gas inventories for the year x-1. the commission shall, on the basis of the member states’ approximated greenhouse gas inventories or, if a member state has not communicated its approximated inventories by that date, on the basis of its own estimates, annually compile a union approximated greenhouse gas inventory. the commission shall make this information available to the public each year by 30 september.
+2.   the commission shall adopt implementing acts to set out the structure, format and submission process for member states’ approximated greenhouse gas inventories pursuant to paragraph 1. those implementing acts shall be adopted in accordance with the examination procedure referred to in article 26(2)."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_08_TimeMonitoring_1,
+        pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_08_TimeMonitoring_2,
+        pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_08_TimeMonitoring_3 .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "31 july each year" .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_08_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "annually" .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_08_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "30 september" .
+

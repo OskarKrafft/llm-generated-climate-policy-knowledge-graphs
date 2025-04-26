@@ -1,0 +1,13 @@
+article 10
+effects of joint projects between member states
+1.   within three months of the end of each year falling within the period referred to in point (d) of article 9(3), the member state that made the notification under article 9 shall issue a letter of notification stating:
+(a)
+the total amount of electricity or heating or cooling produced from renewable sources during that year by the installation which was the subject of the notification under article 9; and
+(b)
+the amount of electricity or heating or cooling produced from renewable sources during that year by that installation which is to count towards the renewable energy share of another member state in accordance with the terms of the notification.
+2.   the notifying member state shall submit the letter of notification to the member state in whose favour the notification was made and to the commission.
+3.   for the purposes of this directive, the amount of electricity or heating or cooling from renewable sources notified in accordance with point (b) of paragraph 1 shall be:
+(a)
+deducted from the amount of electricity or heating or cooling from renewable sources that is taken into account in calculating the renewable energy share of the member state issuing the letter of notification pursuant to paragraph 1; and
+(b)
+added to the amount of electricity or heating or cooling from renewable sources that is taken into account in calculating the renewable energy share of the member state receiving the letter of notification pursuant to paragraph 2.

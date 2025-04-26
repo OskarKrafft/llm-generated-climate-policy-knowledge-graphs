@@ -1,0 +1,4 @@
+article 7
+requirements for hydrogen components, other than containers, designed to use liquid hydrogen
+1.   hydrogen components, other than containers, designed to use liquid hydrogen shall be tested in accordance with the test procedures set out in annex iii with regard to their type.
+2.   pressure relief devices shall be designed so as to ensure that the pressure in the inner tank or in any other hydrogen component does not exceed a permissible value. the values shall be set in proportion to the maximum allowable working pressure (mawp) of the hydrogen system. a safety system for heat exchangers shall be provided for the detection of their failure.

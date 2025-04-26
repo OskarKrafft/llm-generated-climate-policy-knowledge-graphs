@@ -1,0 +1,14 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_22 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_22 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 22
+delegated acts
+1.   the commission shall be empowered to adopt delegated acts in accordance with article 23 to review the harmonised efficiency reference values referred to in the second subparagraph of article 14(10).
+2.   the commission shall be empowered to adopt delegated acts in accordance with article 23 to adapt to technical progress the values, calculation methods, default primary energy coefficient and requirements in annexes i, ii, iii, iv, v, vii, viii, ix, x and xii."""^^xsd:string .
+

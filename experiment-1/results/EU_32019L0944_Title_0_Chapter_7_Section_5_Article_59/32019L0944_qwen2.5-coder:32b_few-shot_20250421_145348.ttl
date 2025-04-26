@@ -1,0 +1,45 @@
+@prefix pol: <http://example.org/polianna#> .
+
+pol:Article_7 a pol:LegalArticle ;
+    pol:containsSection pol:Section_7_1,
+        pol:Section_7_10,
+        pol:Section_7_2,
+        pol:Section_7_3,
+        pol:Section_7_4,
+        pol:Section_7_5,
+        pol:Section_7_6,
+        pol:Section_7_7,
+        pol:Section_7_8,
+        pol:Section_7_9 ;
+    pol:hasTitle "Duties and Powers of Regulatory Authorities" .
+
+pol:Section_7_1 a pol:LegalSection ;
+    pol:hasContent "Regulatory authorities, except where ACER is competent to fix and approve the terms and conditions or methodologies for the implementation of network codes and guidelines under chapter vii of regulation (EU) 2019/943 pursuant to article 5(2) of regulation (EU) 2019/942 because of their coordinated nature, shall be responsible for fixing or approving sufficiently in advance of their entry into force at least the national methodologies used to calculate or establish the terms and conditions for:" .
+
+pol:Section_7_10 a pol:LegalSection ;
+    pol:hasContent "to assign all or specific tasks of the transmission system operator to an independent system operator appointed in accordance with article 44 in the case of a persistent breach by the transmission system operator of its obligations under this directive, in particular in the case of repeated discriminatory behaviour to the benefit of the vertically integrated undertaking." .
+
+pol:Section_7_2 a pol:LegalSection ;
+    pol:hasContent "connection and access to national networks, including transmission and distribution tariffs or their methodologies, those tariffs or methodologies shall allow the necessary investments in the networks to be carried out in a manner allowing those investments to ensure the viability of the networks;" .
+
+pol:Section_7_3 a pol:LegalSection ;
+    pol:hasContent "the provision of ancillary services which shall be performed in the most economic manner possible and provide appropriate incentives for network users to balance their input and off-takes, such ancillary services shall be provided in a fair and non-discriminatory manner and be based on objective criteria;" .
+
+pol:Section_7_4 a pol:LegalSection ;
+    pol:hasContent "access to cross-border infrastructures, including the procedures for the allocation of capacity and congestion management." .
+
+pol:Section_7_5 a pol:LegalSection ;
+    pol:hasContent "The methodologies or the terms and conditions referred to in paragraph 7 shall be published." .
+
+pol:Section_7_6 a pol:LegalSection ;
+    pol:hasContent "With a view to increasing transparency in the market and providing all interested parties with all necessary information and decisions or proposals for decisions concerning transmission and distribution tariffs as referred in article 60(3), regulatory authorities shall make publicly available the detailed methodology and underlying costs used for the calculation of the relevant network tariffs, while preserving the confidentiality of commercially sensitive information." .
+
+pol:Section_7_7 a pol:LegalSection ;
+    pol:hasContent "The regulatory authorities shall monitor congestion management of national electricity systems including interconnectors, and the implementation of congestion management rules. To that end, transmission system operators or market operators shall submit their congestion management rules, including capacity allocation, to the regulatory authorities." .
+
+pol:Section_7_8 a pol:LegalSection ;
+    pol:hasContent "Regulatory authorities may request amendments to those rules." .
+
+pol:Section_7_9 a pol:LegalSection ;
+    pol:hasContent "In addition to the duties and powers conferred on it under paragraphs 1 and 3 of this article, when a transmission system operator has been designated in accordance with section 3 of chapter vi, the regulatory authority shall be granted at least the following duties and powers:" .
+

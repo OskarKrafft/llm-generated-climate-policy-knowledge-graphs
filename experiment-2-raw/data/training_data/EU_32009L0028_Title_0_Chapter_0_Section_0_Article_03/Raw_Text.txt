@@ -1,0 +1,20 @@
+article 3
+mandatory national overall targets and measures for the use of energy from renewable sources
+1.   each member state shall ensure that the share of energy from renewable sources, calculated in accordance with articles 5 to 11, in gross final consumption of energy in 2020 is at least its national overall target for the share of energy from renewable sources in that year, as set out in the third column of the table in part a of annex i. such mandatory national overall targets are consistent with a target of at least a 20 % share of energy from renewable sources in the community’s gross final consumption of energy in 2020. in order to achieve the targets laid down in this article more easily, each member state shall promote and encourage energy efficiency and energy saving.
+2.   member states shall introduce measures effectively designed to ensure that the share of energy from renewable sources equals or exceeds that shown in the indicative trajectory set out in part b of annex i.
+3.   in order to reach the targets set in paragraphs 1 and 2 of this article member states may, inter alia, apply the following measures:
+(a)
+support schemes;
+(b)
+measures of cooperation between different member states and with third countries for achieving their national overall targets in accordance with articles 5 to 11.
+without prejudice to articles 87 and 88 of the treaty, member states shall have the right to decide, in accordance with articles 5 to 11 of this directive, to which extent they support energy from renewable sources which is produced in a different member state.
+4.   each member state shall ensure that the share of energy from renewable sources in all forms of transport in 2020 is at least 10 % of the final consumption of energy in transport in that member state.
+for the purposes of this paragraph, the following provisions shall apply:
+(a)
+for the calculation of the denominator, that is the total amount of energy consumed in transport for the purposes of the first subparagraph, only petrol, diesel, biofuels consumed in road and rail transport, and electricity shall be taken into account;
+(b)
+for the calculation of the numerator, that is the amount of energy from renewable sources consumed in transport for the purposes of the first subparagraph, all types of energy from renewable sources consumed in all forms of transport shall be taken into account;
+(c)
+for the calculation of the contribution from electricity produced from renewable sources and consumed in all types of electric vehicles for the purpose of points (a) and (b), member states may choose to use either the average share of electricity from renewable energy sources in the community or the share of electricity from renewable energy sources in their own country as measured two years before the year in question. furthermore, for the calculation of the electricity from renewable energy sources consumed by electric road vehicles, that consumption shall be considered to be 2,5 times the energy content of the input of electricity from renewable energy sources.
+by 31 december 2011, the commission shall present, if appropriate, a proposal permitting, subject to certain conditions, the whole amount of the electricity originating from renewable sources used to power all types of electric vehicles to be considered.
+by 31 december 2011, the commission shall also present, if appropriate, a proposal for a methodology for calculating the contribution of hydrogen originating from renewable sources in the total fuel mix.

@@ -1,0 +1,12 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_07 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_07 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy ;
+    pol:contains_objective pol:Objective .
+

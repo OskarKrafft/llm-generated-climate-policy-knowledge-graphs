@@ -1,0 +1,43 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 4
+specific emissions targets
+1.   the manufacturer shall ensure that its average specific emissions of co2 do not exceed the following specific emissions targets:
+(a)
+for the calendar year 2020, the specific emissions target determined in accordance with points 1 and 2 of part a of annex i in the case of passenger cars, or points 1 and 2 of part b of annex i in the case of light commercial vehicles, or where a manufacturer is granted a derogation under article 10, in accordance with that derogation;
+(b)
+for each calendar year from 2021 until 2024, the specific emissions targets determined in accordance with points 3 and 4 of part a or b of annex i, as appropriate, or, where a manufacturer is granted a derogation under article 10, in accordance with that derogation and point 5 of part a or b of annex i;
+(c)
+for each calendar year, starting from 2025, the specific emissions targets determined in accordance with point 6.3 of part a or b of annex i, or, where a manufacturer is granted a derogation under article 10, in accordance with that derogation.
+2.   in the case of light commercial vehicles, where the specific emissions of co2 of the completed vehicle are not available, the manufacturer of the base vehicle shall use the specific emissions of co2 of the base vehicle for determining its average specific emissions of co2.
+3.   for the purposes of determining each manufacturer's average specific emissions of co2, the following percentages of each manufacturer's new passenger cars registered in the relevant year shall be taken into account:
+—
+95 % in 2020,
+—
+100 % from 2021 onwards."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_1,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_3,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_4 ;
+    pol:specifies_in_effect_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeInEffect_2 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:annotatedText "calendar year 2020" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "2020" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "2021" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_04_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:annotatedText "from 2025" .
+

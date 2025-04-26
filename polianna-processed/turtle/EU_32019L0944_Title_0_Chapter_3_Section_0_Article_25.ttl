@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_25 .
+
+pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_25 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:fullText """article 25
+single points of contact
+member states shall ensure the provision of single points of contact, to provide customers with all necessary information concerning their rights, the applicable law and dispute settlement mechanisms available to them in the event of a dispute. such single points of contact may be part of general consumer information points."""^^xsd:string .
+

@@ -1,0 +1,50 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix poliana: <https://w3id.org/polifonia/voc/> .
+
+_:Article rdf:type poliana:Article ;
+  rdfs:label "EU Article" ;
+  poliana:articleText """The regulatory authorities shall monitor congestion management of national electricity systems including interconnectors, and the implementation of congestion management rules.""" ;
+
+_:Task1 rdf:type poliana:RegulatoryTask ;
+  rdfs:label "Monitoring Congestion Management" ;
+  poliana:taskDescription """Monitor congestion management of national electricity systems including interconnectors.""" .
+
+_:Authority rdf:type poliana:RegulatoryAuthority ;
+  rdfs:label "National Regulatory Authority" ;
+  poliana:authorityName """National Electricity Regulatory Authority""" .
+
+_:Task2 rdf:type poliana:RegulatoryTask ;
+  rdfs:label "Fixing or Approving Methodologies" ;
+  poliana:taskDescription """Fix or approve sufficiently in advance of their entry into force at least the national methodologies used to calculate or establish the terms and conditions for connection and access to national networks.""" .
+
+_:Methodology rdf:type poliana:RegulatoryMethodology ;
+  rdfs:label "Connection and Access Methodology" ;
+  poliana:methodologyDescription """Methodology for calculating or establishing terms and conditions for connection and access to national networks, including transmission and distribution tariffs or their methodologies.""" .
+
+_:Task3 rdf:type poliana:RegulatoryTask ;
+  rdfs:label "Publishing Methodologies" ;
+  poliana:taskDescription """Publish the methodologies or the terms and conditions referred to in paragraph 7.""" .
+
+_:Publication rdf:type poliana:RegulatoryPublication ;
+  rdfs:label "Methodology Publication" ;
+  poliana:publicationName """Publication of National Electricity Connection and Access Methodology""" .
+
+_:Task4 rdf:type poliana:RegulatoryTask ;
+  rdfs:label "Monitoring Congestion Management Rules" ;
+  poliana:taskDescription """Monitor the implementation of congestion management rules, including capacity allocation.""" .
+
+_:CongestionManagementRule rdf:type poliana:RegulatoryRule ;
+  rdfs:label "Capacity Allocation Rule" ;
+  poliana:ruleDescription """Rule for allocating capacity in national electricity systems, including interconnectors.""" .
+
+_:Article poliana:hasTask _:Task1, _:Task2, _:Task3, _:Task4 .
+_:Authority poliana:performsTask _:Task1, _:Task2, _:Task3, _:Task4 .
+_:Methodology poliana:isUsedIn _:Task2 .
+_:Publication poliana:presents _:Methodology .
+_:CongestionManagementRule poliana:isImplementedBy _:Task4 .
+
+. 

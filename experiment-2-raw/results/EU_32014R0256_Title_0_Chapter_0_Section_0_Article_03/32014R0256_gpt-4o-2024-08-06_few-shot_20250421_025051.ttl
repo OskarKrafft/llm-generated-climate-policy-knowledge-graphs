@@ -1,0 +1,21 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises eurovoc:4038 ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1,
+        pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2015 and every two years thereafter" .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "31 july of the reporting year concerned" .
+

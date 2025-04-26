@@ -1,0 +1,37 @@
+@prefix pol: <http://example.org/poliana#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 a pol:Policy ;
+    dcterms:title "Article 14: Adjustment of M0 and TM0 Values" ;
+    pol:hasCELEXNumber "32019R0631" ;
+    pol:hasELI "<http://data.europa.eu/eli/reg/2019/631/oj>" ;
+    pol:annotatedBy "F", "B" .
+
+pol:M0Adjustment_1 a pol:Provision ;
+    dcterms:title "M0 Adjustment for Passenger Cars" ;
+    pol:specifiedIn pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 ;
+    pol:adjustmentDeadline "2020-10-31"^^xsd:date ;
+    pol:newM0ValueStartsOn "2022-01-01"^^xsd:date ;
+    pol:newM0ValueEndsOn "2024-12-31"^^xsd:date .
+
+pol:M0Adjustment_2 a pol:Provision ;
+    dcterms:title "M0 Adjustment for Light Commercial Vehicles" ;
+    pol:specifiedIn pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 ;
+    pol:adjustmentDeadline "2022-10-31"^^xsd:date ;
+    pol:newM0ValueStartsOn "2024-01-01"^^xsd:date .
+
+pol:TM0Adjustment_Indicative a pol:Provision ;
+    dcterms:title "Indicative TM0 Adjustment for 2025" ;
+    pol:specifiedIn pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 ;
+    pol:adjustmentDeadline "2022-10-31"^^xsd:date .
+
+pol:TM0Adjustment_Periodic a pol:Provision ;
+    dcterms:title "Periodic TM0 Adjustment" ;
+    pol:specifiedIn pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 ;
+    pol:firstAdjustmentDeadline "2024-10-31"^^xsd:date ;
+    pol:subsequentAdjustmentsFrequency "P2Y"^^xsd:duration .
+
+pol:CommissionEmpowerment a pol:Provision ;
+    dcterms:title "Commission Empowerment to Adopt Delegated Acts" ;
+    pol:specifiedIn pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 .

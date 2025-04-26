@@ -1,0 +1,5 @@
+article 24
+interoperability requirements and procedures for access to data
+1.   in order to promote competition in the retail market and to avoid excessive administrative costs for the eligible parties, member states shall facilitate the full interoperability of energy services within the union.
+2.   the commission shall adopt, by means of implementing acts, interoperability requirements and non-discriminatory and transparent procedures for access to data referred to in article 23(1). those implementing acts shall be adopted in accordance with the advisory procedure referred to in article 68(2).
+3.   member states shall ensure that electricity undertakings apply the interoperability requirements and procedures for access to data referred to in paragraph 2. those requirements and procedures shall be based on existing national practices.

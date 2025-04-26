@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "poliana": "http://data.europa.eu/polianna/",
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "poliana:LegalActArticle",
+  "dct:title": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28",
+  "eli:number": "32018L2001",
+  "eli:hasEli": {
+    "@id": "http://data.europa.eu/eli/dir/2018/2001/oj"
+  },
+  "poliana:annotators": [
+    {"@value": "C"},
+    {"@value": "F"}
+  ],
+  "dct:description": "other provisions on renewable energy in the transport sector",
+  "poliana:paragraphs": [
+    {
+      "@type": "poliana:Paragraph",
+      "dct:title": "1.",
+      "dct:description": "with a view to minimising the risk of single consignments being claimed more than once in the union, member states and the commission shall strengthen cooperation among national systems and between national systems and voluntary schemes and verifiers established pursuant to article 30, including, where appropriate, the exchange of data. where the competent authority of one member state suspects or detects a fraud, it shall, where appropriate, inform the other member states."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:title": "2.",
+      "dct:description": "the commission shall ensure that a union database is put in place to enable the tracing of liquid and gaseous transport fuels that are eligible for being counted towards the numerator referred to in point (b) of article 27(1) or that are taken into account for the purposes referred to in points (a), (b), and (c) of the first subparagraph of article 29(1). member states shall require the relevant economic operators to enter into that database information on the transactions made and the sustainability characteristics of those fuels, including their life-cycle greenhouse gas emissions, starting from their point of production to the fuel supplier that places the fuel on the market. a member state may set up a national database that is linked to the union database ensuring that information entered is instantly transferred between the databases.\nfuel suppliers shall enter the information necessary to verify compliance with the requirements laid down in the first and fourth subparagraphs of article 25(1) into the relevant database."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:title": "3.",
+      "dct:description": "by 31 december 2021, member states shall take measures to ensure the availability of fuels from renewable sources for transport including with regard to publicly accessible high-power recharging points and other refuelling infrastructure as provided for in their national policy frameworks in accordance with directive 2014/94/eu."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:title": "4.",
+      "dct:description": "by 31 december 2025, in the context of the biennial assessment of progress made pursuant to regulation (eu) 2018/1999, the commission shall assess whether the obligation relating to advanced biofuels and biogas produced from feedstock listed in part a of annex ix laid down in the fourth subparagraph of article 25(1) effectively stimulates innovation and ensures greenhouse gas emissions savings in the transport sector. the commission shall analyse in that assessment whether the application of this article effectively avoids double accounting of renewable energy.\nthe commission shall, if appropriate, submit a proposal to amend the obligation relating to advanced biofuels and biogas produced from feedstock listed in part a of annex ix laid down in the fourth subparagraph of article 25(1)."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:title": "5.",
+      "dct:description": "by 31 december 2025, in the context of the biennial assessment of progress made pursuant to regulation (eu) 2018/1999, the commission shall assess whether the obligation relating to advanced biofuels and biogas produced from feedstock listed in part a of annex ix laid down in the fourth subparagraph of article 25(1) effectively stimulates innovation and ensures greenhouse gas emissions savings in the transport sector. the commission shall analyse in that assessment whether the application of this article effectively avoids double accounting of renewable energy.\nthe commission shall, if appropriate, submit a proposal to amend the obligation relating to advanced biofuels and biogas produced from feedstock listed in part a of annex ix laid down in the fourth subparagraph of article 25(1)."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:title": "6.",
+      "dct:description": "by 31 december 2025, in the context of the biennial assessment of progress made pursuant to regulation (eu) 2018/1999, the commission shall assess whether the obligation relating to advanced biofuels and biogas produced from feedstock listed in part a of annex ix laid down in the fourth subparagraph of article 25(1) effectively stimulates innovation and ensures greenhouse gas emissions savings in the transport sector. the commission shall analyse in that assessment whether the application of this article effectively avoids double accounting of renewable energy.\nthe commission shall, if appropriate, submit a proposal to amend the obligation relating to advanced biofuels and biogas produced from feedstock listed in part a of annex ix laid down in the fourth subparagraph of article 25(1)."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:title": "7.",
+      "dct:description": "by 31 december 2025, in the context of the biennial assessment of progress made pursuant to regulation (eu) 2018/1999, the commission shall assess whether the obligation relating to advanced biofuels and biogas produced from feedstock listed in part a of annex ix laid down in the fourth subparagraph of article 25(1) effectively stimulates innovation and ensures greenhouse gas emissions savings in the transport sector. the commission shall analyse in that assessment whether the application of this article effectively avoids double accounting of renewable energy.\nthe commission shall, if appropriate, submit a proposal to amend the obligation relating to advanced biofuels and biogas produced from feedstock listed in part a of annex ix laid down in the fourth subparagraph of article 25(1)."
+    }
+  ]
+}

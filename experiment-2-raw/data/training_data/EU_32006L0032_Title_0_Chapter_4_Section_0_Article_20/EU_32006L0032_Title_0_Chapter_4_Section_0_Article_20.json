@@ -1,0 +1,22 @@
+[
+  {
+    "s": "32006L0032",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "32006L0032",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  }
+]

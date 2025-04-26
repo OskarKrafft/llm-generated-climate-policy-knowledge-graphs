@@ -1,0 +1,9 @@
+article 21
+labelling
+1.   member states shall ensure that all batteries, accumulators and battery packs are appropriately marked with the symbol shown in annex ii.
+2.   member states shall ensure that the capacity of all portable and automotive batteries and accumulators is indicated on them in a visible, legible and indelible form by 26 september 2009. detailed rules for the implementation of this requirement, including harmonised methods for the determination of capacity and appropriate use, shall be laid down in accordance with the procedure referred to in article 24(2) no later than 26 march 2009.
+3.   batteries, accumulators and button cells containing more than 0,0005 % mercury, more than 0,002 % cadmium or more than 0,004 % lead, shall be marked with the chemical symbol for the metal concerned: hg, cd or pb. the symbol indicating the heavy metal content shall be printed beneath the symbol shown in annex ii and shall cover an area of at least one-quarter the size of that symbol.
+4.   the symbol shown in annex ii shall cover at least 3 % of the area of the largest side of the battery, accumulator or battery pack, up to a maximum size of 5 × 5 cm. in the case of cylindrical cells, the symbol shall cover at least 1,5 % of the surface area of the battery or accumulator and shall have a maximum size of 5 × 5 cm.
+5.   where the size of the battery, accumulator or battery pack is such that the symbol would be smaller than 0,5 × 0,5 cm, the battery, accumulator or battery pack need not be marked but a symbol measuring at least 1 × 1 cm shall be printed on the packaging.
+6.   symbols shall be printed visibly, legibly and indelibly.
+7.   exemptions from the labelling requirements of this article may be granted in accordance with the procedure referred to in article 24(2).

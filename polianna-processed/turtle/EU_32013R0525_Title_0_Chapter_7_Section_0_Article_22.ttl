@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_22 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_22 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 22
+report on the additional period for fulfilling commitments under the kyoto protocol
+the union and each member state shall submit a report to the unfccc secretariat on the additional period for fulfilling commitments referred to in paragraph 3 of decision 13/cmp.1 upon the expiry of that period.
+chapter 9
+
+cooperation and support"""^^xsd:string ;
+    pol:imposes_monitoring <http://eurovoc.europa.eu/4060>,
+        pol:Member_States .
+

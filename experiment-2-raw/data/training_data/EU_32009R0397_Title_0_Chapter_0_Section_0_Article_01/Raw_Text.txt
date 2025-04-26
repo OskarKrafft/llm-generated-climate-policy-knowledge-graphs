@@ -1,0 +1,21 @@
+article 1
+article 7 of regulation (ec) no 1080/2006 is hereby amended as follows:
+1.
+the following paragraph shall be inserted:
+‘1a.   in each member state, expenditure on energy efficiency improvements and on the use of renewable energy in existing housing shall be eligible up to an amount of 4 % of the total erdf allocation.
+member states shall define categories of eligible housing in national rules, in conformity with article 56(4) of regulation (ec) no 1083/2006, in order to support social cohesion.’;
+2.
+the introductory phrase of paragraph 2 shall be replaced by the following:
+‘2.   expenditure on housing, except for energy efficiency and the use of renewable energy as set out in paragraph 1a, shall be eligible only for those member states that acceded to the european union on or after 1 may 2004, where the following conditions are met:’;
+3.
+the following paragraph shall be added:
+‘4.   in the case of grants the following costs shall be expenditure eligible for a contribution from the erdf, provided that they are incurred in accordance with national rules, including accountancy rules, and under the specific conditions provided for below:
+(i)
+indirect costs, declared on a flat-rate basis, of up to 20 % of the direct costs of an operation;
+(ii)
+flat-rate costs calculated by application of standard scales of unit cost as defined by the member state;
+(iii)
+lump sums to cover all or part of the costs of an operation.
+the options referred to in points (i), (ii) and (iii) may be combined only where each of them covers a different category of eligible costs or where they are used for different projects within the same operation.
+the costs referred to in points (i), (ii) and (iii) shall be established in advance on the basis of a fair, equitable and verifiable calculation.
+the lump sum referred to in point (iii) shall not exceed eur 50 000.’.

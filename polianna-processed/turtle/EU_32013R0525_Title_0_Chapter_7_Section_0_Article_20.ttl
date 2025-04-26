@@ -1,0 +1,26 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_20 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_20 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 20
+addressing the effects of recalculations
+1.   when the comprehensive review of inventory data relating to the year 2020 has been completed pursuant to article 19, the commission shall calculate, in accordance with the formula set out in annex ii, the sum of the effects of the recalculated greenhouse gas emissions for each member state.
+2.   without prejudice to article 27(2) of this regulation, the commission shall use, inter alia, the sum referred to in paragraph 1 of this article when proposing the targets for emission reductions or limitations for each member state for the period after 2020 pursuant to article 14 of decision no 406/2009/ec.
+3.   the commission shall forthwith publish the results of calculations made pursuant to paragraph 1.
+chapter 8
+
+reporting on progress towards union and international commitments"""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_20_TimeMonitoring_1 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_20_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "2020" .
+

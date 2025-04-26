@@ -1,0 +1,37 @@
+[
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "Subsidies_Incentives"
+  },
+  {
+    "s": "32006L0032",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "TaxIncentives"
+  },
+  {
+    "s": "32006L0032",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "PublicInvt"
+  },
+  {
+    "s": "Article",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  }
+]

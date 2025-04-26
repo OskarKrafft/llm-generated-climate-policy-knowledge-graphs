@@ -1,0 +1,12 @@
+{
+  "test_data": "experiment-2-raw/data/test_data",
+  "output_dir": "experiment-2-raw/results/test_results",
+  "model_type": "ollama",
+  "model_name": "llama3.3:latest",
+  "strategies": ["zero-shot", "one-shot", "few-shot"],
+  "output_format": "raw",
+  "prompt_dir": "experiment-2-raw/prompts/",
+  "ontology_path": "ontology/ontology_v17_no_fulltext.ttl",
+  "temperature": 0.0,
+  "limit": 1
+}

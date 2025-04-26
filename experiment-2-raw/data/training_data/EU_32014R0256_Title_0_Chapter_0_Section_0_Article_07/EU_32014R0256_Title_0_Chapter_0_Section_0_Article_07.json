@@ -1,0 +1,47 @@
+[
+  {
+    "s": "TimeCompliance_1",
+    "p": "annotatedText",
+    "o": "10 june 2014"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "Compliance_date",
+    "o": "2014-06-10"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "Article",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "32014R0256",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_1"
+  },
+  {
+    "s": "32014R0256",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  }
+]

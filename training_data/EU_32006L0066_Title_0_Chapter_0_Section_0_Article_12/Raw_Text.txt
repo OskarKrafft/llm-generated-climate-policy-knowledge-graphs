@@ -1,0 +1,19 @@
+article 12
+treatment and recycling
+1.   member states shall ensure that, no later than 26 september 2009:
+(a)
+producers or third parties set up schemes using best available techniques, in terms of the protection of health and the environment, to provide for the treatment and recycling of waste batteries and accumulators; and
+(b)
+all identifiable batteries and accumulators collected in accordance with article 8 of this directive or with directive 2002/96/ec undergo treatment and recycling through schemes that comply, as a minimum, with community legislation, in particular as regards health, safety and waste management.
+however, member states may, in accordance with the treaty, dispose of collected portable batteries or accumulators containing cadmium, mercury or lead in landfills or underground storage when no viable end market is available. member states may also, in accordance with the treaty, dispose of collected portable batteries or accumulators containing cadmium, mercury or lead in landfills or underground storage as part of a strategy to phase out heavy metals which, on the basis of a detailed assessment of the environmental, economic, and social impacts, shows that this disposal option should be preferred over recycling.
+member states shall make public this assessment and notify draft measures to the commission in accordance with directive 98/34/ec of the european parliament and of the council of 22 june 1998 laying down a procedure for the provision of information in the field of technical standards and regulations and of rules on information society services (20).
+2.   treatment shall meet the minimum requirements set out in annex iii, part a.
+3.   where batteries or accumulators are collected together with waste electrical and electronic equipment on the basis of directive 2002/96/ec, batteries or accumulators shall be removed from the collected waste electrical and electronic equipment.
+4.   recycling processes shall, no later than 26 september 2010, meet the recycling efficiencies and associated provisions set out in annex iii, part b.
+5.   member states shall report on the levels of recycling achieved in each calendar year concerned and whether the efficiencies referred to in annex iii, part b have been met. they shall submit the information to the commission within six months of the end of the calendar year concerned.
+6.   annex iii may be adapted or supplemented to take account of technical or scientific progress in accordance with the procedure referred to in article 24(2). in particular:
+(a)
+detailed rules regarding the calculation of recycling efficiencies shall be added no later than 26 march 2010; and
+(b)
+the minimum recycling efficiencies shall be evaluated regularly and adapted to best available techniques and in the light of the developments referred to in paragraph 1, second subparagraph.
+7.   before proposing any amendment to annex iii the commission shall consult relevant stakeholders, in particular producers, collectors, recyclers, treatment operators, environmental organisations, consumer organisations and employee associations. it shall inform the committee referred to in article 24(1) of the outcome of this consultation.

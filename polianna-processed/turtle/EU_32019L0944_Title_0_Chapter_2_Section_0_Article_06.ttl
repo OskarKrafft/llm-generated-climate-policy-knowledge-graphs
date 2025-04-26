@@ -1,0 +1,24 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_06 .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_06 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:TaxIncentives ;
+    pol:fullText """article 6
+third-party access
+1.   member states shall ensure the implementation of a system of third-party access to the transmission and distribution systems based on published tariffs, applicable to all customers and applied objectively and without discrimination between system users. member states shall ensure that those tariffs, or the methodologies underlying their calculation, are approved in accordance with article 59 prior to their entry into force and that those tariffs, and the methodologies — where only methodologies are approved — are published prior to their entry into force.
+2.   the transmission or distribution system operator may refuse access where it lacks the necessary capacity. duly substantiated reasons shall be given for such refusal, in particular having regard to article 9, and based on objective and technically and economically justified criteria. member states or, where member states have so provided, the regulatory authorities of those member states, shall ensure that those criteria are consistently applied and that the system user who has been refused access can make use of a dispute settlement procedure. the regulatory authorities shall also ensure, where appropriate and when refusal of access takes place, that the transmission system operator or distribution system operator provides relevant information on measures that would be necessary to reinforce the network. such information shall be provided in all cases when access for recharging points has been denied. the party requesting such information may be charged a reasonable fee reflecting the cost of providing such information.
+3.   this article shall also apply to citizen energy communities that manage distribution networks."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_06_TimeCompliance_1,
+        pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_06_TimeCompliance_2 .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_06_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:annotatedText "prior to their entry into force" .
+
+pol:EU_32019L0944_Title_0_Chapter_2_Section_0_Article_06_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:annotatedText "prior to their entry into force" .
+

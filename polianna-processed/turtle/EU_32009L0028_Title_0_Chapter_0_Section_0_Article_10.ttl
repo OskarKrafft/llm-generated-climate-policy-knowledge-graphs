@@ -1,0 +1,28 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_10 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 10
+effects of joint projects between member states and third countries
+1.   within three months of the end of each year falling within the period specified under article 9(5)(c), the member state having made the notification under article 9 shall issue a letter of notification stating:
+(a)
+the total amount of electricity produced during that year from renewable energy sources by the installation which was the subject of the notification under article 9;
+(b)
+the amount of electricity produced during the year from renewable energy sources by that installation which is to count towards its national overall target in accordance with the terms of the notification under article 9; and
+(c)
+proof of compliance with the conditions set out in article 9(2).
+2.   the member state shall send the letter of notification to the third country which has acknowledged the project in accordance with article 9(5)(d) and to the commission.
+3.   for the purposes of measuring target compliance with the requirements of this directive concerning national overall targets, the amount of electricity produced from renewable energy sources notified in accordance with paragraph 1(b) shall be added to the amount of energy from renewable sources that is taken into account, in measuring compliance by the member state issuing the letter of notification."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "within three months of the end of each year" .
+

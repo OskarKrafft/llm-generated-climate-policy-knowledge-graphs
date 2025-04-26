@@ -1,0 +1,70 @@
+@prefix ex: <http://example.org/> .
+@prefix pol: <http://purl.org/net/poliaa/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:AdditionalMeasures_2024 a pol:PerformanceRequirement ;
+    pol:appliesTo ex:Fleet ;
+    pol:hasReductionMeasure "10 g CO2/km" ;
+    pol:validUntil "2024-12-31" .
+
+ex:Article_1 a pol:PolicyArticle ;
+    pol:hasObjective "to contribute to achieving the union's target of reducing its greenhouse gas emissions, as laid down in regulation (eu) 2018/842, and the objectives of the paris agreement and to ensure the proper functioning of the internal market" ;
+    pol:hasSubjectMatter "CO2 emissions performance requirements for new passenger cars and light commercial vehicles" ;
+    pol:isPartOf ex:EU_32019R0631 .
+
+ex:FleetWideTarget_2020_LightCommercialVehicles a pol:PerformanceRequirement ;
+    pol:appliesTo ex:LightCommercialVehicles ;
+    pol:hasFleetWideTarget "147 g CO2/km" ;
+    pol:validFrom "2020-01-01" .
+
+ex:FleetWideTarget_2020_PassengerCars a pol:PerformanceRequirement ;
+    pol:appliesTo ex:PassengerCars ;
+    pol:hasFleetWideTarget "95 g CO2/km" ;
+    pol:validFrom "2020-01-01" .
+
+ex:FleetWideTarget_2025_LightCommercialVehicles a pol:PerformanceRequirement ;
+    pol:appliesTo ex:LightCommercialVehicles ;
+    pol:hasFleetWideTargetReduction "15%" ;
+    pol:validFrom "2025-01-01" .
+
+ex:FleetWideTarget_2025_PassengerCars a pol:PerformanceRequirement ;
+    pol:appliesTo ex:PassengerCars ;
+    pol:hasFleetWideTargetReduction "15%" ;
+    pol:validFrom "2025-01-01" .
+
+ex:FleetWideTarget_2030_LightCommercialVehicles a pol:PerformanceRequirement ;
+    pol:appliesTo ex:LightCommercialVehicles ;
+    pol:hasFleetWideTargetReduction "31%" ;
+    pol:validFrom "2030-01-01" .
+
+ex:FleetWideTarget_2030_PassengerCars a pol:PerformanceRequirement ;
+    pol:appliesTo ex:PassengerCars ;
+    pol:hasFleetWideTargetReduction "37.5%" ;
+    pol:validFrom "2030-01-01" .
+
+ex:ZeroLowEmissionBenchmark_2025_LightCommercialVehicles a pol:BenchmarkRequirement ;
+    pol:appliesTo ex:LightCommercialVehicles ;
+    pol:hasBenchmark "15% share of zero- and low-emission vehicles" ;
+    pol:validFrom "2025-01-01" .
+
+ex:ZeroLowEmissionBenchmark_2025_PassengerCars a pol:BenchmarkRequirement ;
+    pol:appliesTo ex:PassengerCars ;
+    pol:hasBenchmark "15% share of zero- and low-emission vehicles" ;
+    pol:validFrom "2025-01-01" .
+
+ex:ZeroLowEmissionBenchmark_2030_LightCommercialVehicles a pol:BenchmarkRequirement ;
+    pol:appliesTo ex:LightCommercialVehicles ;
+    pol:hasBenchmark "30% share of zero- and low-emission vehicles" ;
+    pol:validFrom "2030-01-01" .
+
+ex:ZeroLowEmissionBenchmark_2030_PassengerCars a pol:BenchmarkRequirement ;
+    pol:appliesTo ex:PassengerCars ;
+    pol:hasBenchmark "35% share of zero- and low-emission vehicles" ;
+    pol:validFrom "2030-01-01" .
+
+ex:EU_32019R0631 a pol:PolicyDocument ;
+    pol:annotatedBy ( ex:F ex:B ) ;
+    pol:hasCELEXNumber "32019R0631" ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2019/631/oj> ;
+    pol:title "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01" .
+

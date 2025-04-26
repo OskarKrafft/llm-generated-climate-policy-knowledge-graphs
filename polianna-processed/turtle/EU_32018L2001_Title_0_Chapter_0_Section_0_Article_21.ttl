@@ -1,0 +1,62 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_21 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_21 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:PublicInvt,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 21
+renewables self-consumers
+1.   member states shall ensure that consumers are entitled to become renewables self-consumers, subject to this article.
+2.   member states shall ensure that renewables self-consumers, individually or through aggregators, are entitled:
+(a)
+to generate renewable energy, including for their own consumption, store and sell their excess production of renewable electricity, including through renewables power purchase agreements, electricity suppliers and peer-to-peer trading arrangements, without being subject:
+(i)
+in relation to the electricity that they consume from or feed into the grid, to discriminatory or disproportionate procedures and charges, and to network charges that are not cost-reflective;
+(ii)
+in relation to their self-generated electricity from renewable sources remaining within their premises, to discriminatory or disproportionate procedures, and to any charges or fees;
+(b)
+to install and operate electricity storage systems combined with installations generating renewable electricity for self-consumption without liability for any double charge, including network charges, for stored electricity remaining within their premises;
+(c)
+to maintain their rights and obligations as final consumers;
+(d)
+to receive remuneration, including, where applicable, through support schemes, for the self-generated renewable electricity that they feed into the grid, which reflects the market value of that electricity and which may take into account its long-term value to the grid, the environment and society.
+3.   member states may apply non-discriminatory and proportionate charges and fees to renewables self-consumers, in relation to their self-generated renewable electricity remaining within their premises in one or more of the following cases:
+(a)
+if the self-generated renewable electricity is effectively supported via support schemes, only to the extent that the economic viability of the project and the incentive effect of such support are not undermined;
+(b)
+from 1 december 2026, if the overall share of self-consumption installations exceeds 8 % of the total installed electricity capacity of a member state, and if it is demonstrated, by means of a cost-benefit analysis performed by the national regulatory authority of that member state, which is conducted by way of an open, transparent and participatory process, that the provision laid down in point (a)(ii) of paragraph 2 either results in a significant disproportionate burden on the long-term financial sustainability of the electric system, or creates an incentive exceeding what is objectively needed to achieve cost-effective deployment of renewable energy, and that such burden or incentive cannot be minimised by taking other reasonable actions; or
+(c)
+if the self-generated renewable electricity is produced in installations with a total installed electrical capacity of more than 30 kw.
+4.   member states shall ensure that renewables self-consumers located in the same building, including multi-apartment blocks, are entitled to engage jointly in activities referred to in paragraph 2 and that they are permitted to arrange sharing of renewable energy that is produced on their site or sites between themselves, without prejudice to the network charges and other relevant charges, fees, levies and taxes applicable to each renewables self-consumer. member states may differentiate between individual renewables self-consumers and jointly acting renewables self-consumers. any such differentiation shall be proportionate and duly justified.
+5.   the renewables self-consumer's installation may be owned by a third party or managed by a third party for installation, operation, including metering and maintenance, provided that the third party remains subject to the renewables self-consumer's instructions. the third party itself shall not be considered to be a renewables self-consumer.
+6.   member states shall put in place an enabling framework to promote and facilitate the development of renewables self-consumption based on an assessment of the existing unjustified barriers to, and of the potential of, renewables self-consumption in their territories and energy networks. that enabling framework shall, inter alia:
+(a)
+address accessibility of renewables self-consumption to all final customers, including those in low-income or vulnerable households;
+(b)
+address unjustified barriers to the financing of projects in the market and measures to facilitate access to finance;
+(c)
+address other unjustified regulatory barriers to renewables self-consumption, including for tenants;
+(d)
+address incentives to building owners to create opportunities for renewables self-consumption, including for tenants;
+(e)
+grant renewables self-consumers, for self-generated renewable electricity that they feed into the grid, non-discriminatory access to relevant existing support schemes as well as to all electricity market segments;
+(f)
+ensure that renewables self-consumers contribute in an adequate and balanced way to the overall cost sharing of the system when electricity is fed into the grid.
+member states shall include a summary of the policies and measures under the enabling framework and an assessment of their implementation respectively in their integrated national energy and climate plans and progress reports pursuant to regulation (eu) 2018/1999.
+7.   this article shall apply without prejudice to articles 107 and 108 tfeu."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_21_TimeInEffect_1 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_21_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2026-12-01"^^xsd:date ;
+    pol:annotatedText "from 1 december 2026" .
+

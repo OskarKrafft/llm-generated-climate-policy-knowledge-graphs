@@ -1,0 +1,26 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_1_Section_0_Article_02 .
+
+pol:EU_32006L0032_Title_0_Chapter_1_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:TradablePermit ;
+    pol:fullText """article 2
+scope
+this directive shall apply to:
+(a)
+providers of energy efficiency improvement measures, energy distributors, distribution system operators and retail energy sales companies. however, member states may exclude small distributors, small distribution system operators and small retail energy sales companies from the application of articles 6 and 13;
+(b)
+final customers. however, this directive shall not apply to those undertakings involved in categories of activities listed in annex i to directive 2003/87/ec of the european parliament and of the council of 13 october 2003 establishing a scheme for greenhouse gas emission allowance trading within the community (13);
+(c)
+the armed forces, only to the extent that its application does not cause any conflict with the nature and primary aim of the activities of the armed forces and with the exception of material used exclusively for military purposes."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_in_effect_time pol:EU_32006L0032_Title_0_Chapter_1_Section_0_Article_02_TimeInEffect_1 .
+
+pol:EU_32006L0032_Title_0_Chapter_1_Section_0_Article_02_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2003-10-13"^^xsd:date ;
+    pol:annotatedText "13 october 2003" .
+

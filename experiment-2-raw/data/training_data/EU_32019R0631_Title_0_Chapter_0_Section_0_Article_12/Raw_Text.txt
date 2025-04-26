@@ -1,0 +1,20 @@
+article 12
+real-world co2 emissions and fuel or energy consumption
+1.   the commission shall monitor and assess the real-world representativeness of the co2 emissions and fuel or energy consumption values determined pursuant to regulation (ec) no 715/2007.
+furthermore, the commission shall regularly collect data on the real-world co2 emissions and fuel or energy consumption of passenger cars and light commercial vehicles using on-board fuel and/or energy consumption monitoring devices, starting with new passenger cars and new light commercial vehicles registered in 2021.
+the commission shall ensure that the public is informed of how that real-world representativeness evolves over time.
+2.   for the purpose referred to in paragraph 1, starting from 1 january 2021, the commission shall ensure that the following parameters relating to real-world co2 emissions and fuel or energy consumption of passenger cars and light commercial vehicles are made available at regular intervals to it, from manufacturers, national authorities or through direct data transfer from vehicles, as the case may be:
+(a)
+vehicle identification number;
+(b)
+fuel and/or electric energy consumed;
+(c)
+total distance travelled;
+(d)
+for externally chargeable hybrid electric vehicles, the fuel and electric energy consumed and the distance travelled distributed over the different driving modes;
+(e)
+other parameters necessary to ensure that the obligations set out in paragraph 1 can be met.
+the commission shall process the data received under the first subparagraph to create anonymised and aggregated datasets, including per manufacturer, for the purposes of paragraph 1. the vehicle identification numbers shall be used only for the purpose of that data processing and shall not be retained longer than needed for that purpose.
+3.   in order to prevent the real-world emissions gap from growing, the commission shall, no later than 1 june 2023, assess how fuel and energy consumption data may be used to ensure that the vehicle co2 emissions and fuel or energy consumption values determined pursuant to regulation (ec) no 715/2007 remain representative of real-world emissions over time for each manufacturer.
+the commission shall monitor and report annually on how the gap referred to in the first subparagraph evolves over the period 2021 to 2026 and shall, with the view to preventing an increase in that gap, assess, in 2027, the feasibility of a mechanism to adjust the manufacturer's average specific emissions of co2 as of 2030, and, if appropriate, submit a legislative proposal to put such a mechanism in place.
+4.   the commission shall adopt, by means of implementing acts, the detailed procedure for collecting and processing the data referred to in paragraph 2 of this article. those implementing acts shall be adopted in accordance with the examination procedure referred to in article 16(2).

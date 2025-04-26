@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_3_Section_0_Article_16 .
+
+pol:EU_32018R1999_Title_0_Chapter_3_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 16
+strategic plan for methane
+given the high global warming potential and relatively short atmospheric lifetime of methane, the commission shall analyse the implications for implementing policies and measures for the purpose of reducing the short- and middle-term impact of methane emissions on union greenhouse gas emissions. taking into account the circular economy objectives as appropriate, the commission shall consider policy options for rapidly addressing methane emissions and shall put forward a union strategic plan for methane as an integral part of the union's long-term strategy referred to in article 15."""^^xsd:string .
+

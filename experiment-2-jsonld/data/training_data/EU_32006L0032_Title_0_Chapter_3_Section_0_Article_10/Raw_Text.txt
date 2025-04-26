@@ -1,0 +1,4 @@
+article 10
+energy efficient tariffs and other regulations for net-bound energy
+1.   member states shall ensure the removal of those incentives in transmission and distribution tariffs that unnecessarily increase the volume of distributed or transmitted energy. in this respect, in accordance with article 3(2) of directive 2003/54/ec and with article 3(2) of directive 2003/55/ec, member states may impose public service obligations relating to energy efficiency on undertakings operating in the electricity and gas sectors respectively.
+2.   member states may permit components of schemes and tariff structures with a social aim, provided that any disruptive effects on the transmission and distribution system are kept to the minimum necessary and are not disproportionate to the social aim.

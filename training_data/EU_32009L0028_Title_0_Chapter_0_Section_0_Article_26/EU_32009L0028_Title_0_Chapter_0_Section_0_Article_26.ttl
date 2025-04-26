@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_26 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_26 a pol:PolicyArticle ;
+    pol:specifies_in_effect_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_1,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_2,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_3 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2010-04-01"^^xsd:date ;
+    pol:annotatedText "1 april 2010" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2010-04-01"^^xsd:date ;
+    pol:annotatedText "1 april 2010" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_3 a pol:Time_InEffect ;
+    pol:In_effect_date "2012-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2012" .
+

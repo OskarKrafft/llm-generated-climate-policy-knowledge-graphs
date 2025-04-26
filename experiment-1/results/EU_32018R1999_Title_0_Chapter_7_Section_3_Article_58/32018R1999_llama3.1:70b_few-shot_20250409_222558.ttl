@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://example.com/policy>
+    dc:title "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58" ;
+    eli:celexNumber "32018R1999" ;
+    eli:eli "http://data.europa.eu/eli/reg/2018/1999/oj" .
+
+<http://example.com/article>
+    a <http://purl.org/ontology/bibo/Article> ;
+    dc:title "article 58" ;
+    skos:notation "58" ;
+    dcat:landingPage <http://data.europa.eu/eli/reg/2018/1999/oj> .
+
+<http://example.com/article>
+    owl:sameAs <http://example.com/policy> .
+
+<http://example.com/annotation1>
+    a prov:Activity ;
+    dc:title "Annotation 1" ;
+    prov:wasAssociatedWith <http://example.com/A> ;
+    prov:used <http://example.com/article> .
+
+<http://example.com/annotation2>
+    a prov:Activity ;
+    dc:title "Annotation 2" ;
+    prov:wasAssociatedWith <http://example.com/C> ;
+    prov:used <http://example.com/article> .

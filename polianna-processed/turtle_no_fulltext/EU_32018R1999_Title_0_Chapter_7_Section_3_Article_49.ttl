@@ -1,0 +1,7 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_49 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_49 a pol:PolicyArticle .
+

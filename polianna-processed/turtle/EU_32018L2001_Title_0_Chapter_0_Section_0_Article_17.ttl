@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_17 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_17 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 17
+simple-notification procedure for grid connections
+1.   member states shall establish a simple-notification procedure for grid connections whereby installations or aggregated production units of renewables self-consumers and demonstration projects, with an electrical capacity of 10,8 kw or less, or equivalent for connections other than three-phase connections, are to be connected to the grid following a notification to the distribution system operator.
+the distribution system operator may, within a limited period following the notification, reject the requested grid connection or propose an alternative grid connection point on justified grounds of safety concerns or technical incompatibility of the system components. in the case of a positive decision by the distribution system operator, or in the absence of a decision by the distribution system operator within one month following the notification, the installation or aggregated production unit may be connected.
+2.   member states may allow a simple-notification procedure for installations or aggregated production units with an electrical capacity of above 10,8 kw and up to 50 kw, provided that grid stability, grid reliability and grid safety are maintained."""^^xsd:string .
+

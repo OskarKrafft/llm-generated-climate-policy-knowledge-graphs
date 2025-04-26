@@ -1,0 +1,54 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_10 .
+
+pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TaxIncentives ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 10
+basic contractual rights
+1.   member states shall ensure that all final customers are entitled to have their electricity provided by a supplier, subject to the supplier's agreement, regardless of the member state in which the supplier is registered, provided that the supplier follows the applicable trading and balancing rules. in that regard, member states shall take all measures necessary to ensure that administrative procedures do not discriminate against suppliers already registered in another member state.
+2.   without prejudice to union rules on consumer protection, in particular directive 2011/83/eu of the european parliament and of the council (20) and council directive 93/13/eec (21), member states shall ensure that final customers have the rights provided for in paragraphs 3 to 12 of this article.
+3.   final customers shall have the right to a contract with their supplier that specifies:
+(a)
+the identity and address of the supplier;
+(b)
+the services provided, the service quality levels offered, as well as the time for the initial connection;
+(c)
+the types of maintenance service offered;
+(d)
+the means by which up-to-date information on all applicable tariffs, maintenance charges and bundled products or services may be obtained;
+(e)
+the duration of the contract, the conditions for renewal and termination of the contract and services, including products or services that are bundled with those services, and whether terminating the contract without charge is permitted;
+(f)
+any compensation and the refund arrangements which apply if contracted service quality levels are not met, including inaccurate or delayed billing;
+(g)
+the method of initiating an out-of-court dispute settlement procedure in accordance with article 26;
+(h)
+information relating to consumer rights, including information on complaint handling and all of the information referred to in this paragraph, that is clearly communicated on the bill or the electricity undertaking's web site.
+conditions shall be fair and well known in advance. in any case, this information shall be provided prior to the conclusion or confirmation of the contract. where contracts are concluded through intermediaries, the information relating to the matters set out in this paragraph shall also be provided prior to the conclusion of the contract.
+final customers shall be provided with a summary of the key contractual conditions in a prominent manner and in concise and simple language.
+4.   final customers shall be given adequate notice of any intention to modify contractual conditions and shall be informed about their right to terminate the contract when the notice is given. suppliers shall notify their final customers, in a transparent and comprehensible manner, directly of any adjustment in the supply price and of the reasons and preconditions for the adjustment and its scope, at an appropriate time no later than two weeks, or no later than one month in the case of household customers, before the adjustment comes into effect. member states shall ensure that final customers are free to terminate contracts if they do not accept the new contractual conditions or adjustments in the supply price notified to them by their supplier.
+5.   suppliers shall provide final customers with transparent information on applicable prices and tariffs and on standard terms and conditions, in respect of access to and use of electricity services.
+6.   suppliers shall offer final customers a wide choice of payment methods. such payment methods shall not unduly discriminate between customers. any difference in charges related to payment methods or prepayment systems shall be objective, non-discriminatory and proportionate and shall not exceed the direct costs borne by the payee for the use of a specific payment method or a prepayment system, in line with article 62 of directive (eu) 2015/2366 of the european parliament and of the council (22).
+7.   pursuant to paragraph 6, household customers who have access to prepayment systems shall not be placed at a disadvantage by the prepayment systems.
+8.   suppliers shall offer final customers fair and transparent general terms and conditions, which shall be provided in plain and unambiguous language and shall not include non-contractual barriers to the exercise of customers' rights, such as excessive contractual documentation. customers shall be protected against unfair or misleading selling methods.
+9.   final customers shall have the right to a good standard of service and complaint handling by their suppliers. suppliers shall handle complaints in a simple, fair and prompt manner.
+10.   when accessing universal service under the provisions adopted by member states pursuant to article 27, final customers shall be informed about their rights regarding universal service.
+11.   suppliers shall provide household customers with adequate information on alternative measures to disconnection sufficiently in advance of any planned disconnection. such alternative measures may refer to sources of support to avoid disconnection, prepayment systems, energy audits, energy consultancy services, alternative payment plans, debt management advice or disconnection moratoria and not constitute an extra cost to the customers facing disconnection.
+12.   suppliers shall provide final customers with a final closure account after any switch of supplier no later than six weeks after such a switch has taken place."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_compliance_time pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_10_TimeCompliance_1,
+        pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_10_TimeCompliance_2 .
+
+pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_10_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:annotatedText "two weeks, or no later than one month in the case of household customers, before the adjustment comes into effect" .
+
+pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_10_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:annotatedText "six weeks after such a switch has taken place" .
+

@@ -1,0 +1,82 @@
+[
+  {
+    "s": "TimeCompliance_1",
+    "p": "Compliance_date",
+    "o": "2025-10-31"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "Edu_Outreach"
+  },
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "TimeCompliance_2",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_2"
+  },
+  {
+    "s": "32019R0631",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "TimeCompliance_2",
+    "p": "Compliance_date",
+    "o": "2022-10-31"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "annotatedText",
+    "o": "31 october of each year"
+  },
+  {
+    "s": "TimeCompliance_2",
+    "p": "annotatedText",
+    "o": "31\u00a0october 2022"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_1"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "32019R0631",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "Article",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  }
+]

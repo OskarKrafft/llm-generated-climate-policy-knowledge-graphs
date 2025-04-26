@@ -1,0 +1,40 @@
+@prefix ns1: <poliana:> .
+@prefix ns2: <dct:> .
+
+[] a ns1:Article ;
+    ns2:creator "European Commission" ;
+    ns2:date "2023-01-01" ;
+    ns2:description "This article establishes a framework for monitoring and reporting on the production and consumption of biofuels in the European Union, with a focus on sustainability and transparency." ;
+    ns2:title "Monitoring and Reporting on Biofuels Production and Consumption" ;
+    ns1:paragraphs [ a ns1:Paragraph ;
+            ns2:title "7" ;
+            ns1:text """On the basis of that report, the Commission shall submit, if appropriate, proposals to the European Parliament and the Council, addressing the above elements and in particular:
+— for the element contained in point (a), a modification of the minimum greenhouse gas emission saving referred to in Article 7(2);
+— for the element contained in point (c), appropriate adjustments of the cooperation measures provided for in Article 10.""" ],
+        [ a ns1:Paragraph ;
+            ns2:title "6" ;
+            ns1:text """In 2021, the Commission shall present a report reviewing the application of this Directive. That report shall, in particular, address the role of the following elements in having enabled Member States to achieve the national targets defined in Annex I on the best cost-benefit basis:
+(a) the process of preparing forecasts and national renewable energy action plans;
+(b) the effectiveness of the cooperation mechanisms;
+(c) technological developments in energy from renewable sources, including the development of the use of biofuels in commercial aviation;
+(d) the effectiveness of the national support schemes; and
+(e) the conclusions of the Commission reports referred to in paragraphs 8 and 9.""" ],
+        [ a ns1:Paragraph ;
+            ns2:title "8" ;
+            ns1:text "The Commission shall ensure that the monitoring and reporting system is regularly reviewed to take account of new scientific evidence, technological developments and other relevant factors." ],
+        [ a ns1:Paragraph ;
+            ns2:title "4" ;
+            ns1:text "The Commission shall cooperate with Member States and other relevant stakeholders in the implementation of this Article." ],
+        [ a ns1:Paragraph ;
+            ns2:title "2" ;
+            ns1:text "The Commission shall publish an annual report on the findings of the monitoring referred to in paragraph 1, including information on the sustainability of biofuels production and consumption patterns." ],
+        [ a ns1:Paragraph ;
+            ns2:title "5" ;
+            ns1:text "In 2018, the Commission shall present a renewable energy roadmap for the post-2020 period. That roadmap shall, if appropriate, be accompanied by proposals to the European Parliament and the Council for the period after 2020. The roadmap shall take into account the experience of the implementation of this Directive and technological developments in energy from renewable sources." ],
+        [ a ns1:Paragraph ;
+            ns2:title "1" ;
+            ns1:text "The Commission shall monitor the origin of biofuels and bioliquids consumed in the Community and the impact of their production, including impacts as a result of displacement, on land use in the Community and the main third countries of supply. Such monitoring shall be based on Member States' reports submitted pursuant to Article 22(1) and other relevant data sources. It shall also cover environmental, social and economic impacts of biofuels production." ],
+        [ a ns1:Paragraph ;
+            ns2:title "3" ;
+            ns1:text "The Commission shall ensure that the monitoring system is transparent, accessible and subject to independent review." ] .
+

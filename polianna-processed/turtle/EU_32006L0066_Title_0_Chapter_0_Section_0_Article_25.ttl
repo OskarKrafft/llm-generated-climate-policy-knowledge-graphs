@@ -1,0 +1,26 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25 a pol:PolicyArticle ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:fullText """article 25
+penalties
+member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member states shall notify those measures to the commission by 26 september 2008 and shall inform it without delay of any subsequent amendment to them."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_2 ;
+    pol:specifies_monitoring_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeMonitoring_1 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2008-09-26"^^xsd:date ;
+    pol:annotatedText "26 september 2008" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "26 september 2008" .
+

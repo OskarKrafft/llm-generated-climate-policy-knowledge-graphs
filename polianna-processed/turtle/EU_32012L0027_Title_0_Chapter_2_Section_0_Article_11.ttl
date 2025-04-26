@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_11 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:fullText """article 11
+cost of access to metering and billing information
+1.   member states shall ensure that final customers receive all their bills and billing information for energy consumption free of charge and that final customers also have access to their consumption data in an appropriate way and free of charge.
+2.   notwithstanding paragraph 1, the distribution of costs of billing information for the individual consumption of heating and cooling in multi-apartment and multi-purpose buildings pursuant to article 9(3) shall be carried out on a non-profit basis. costs resulting from the assignment of this task to a third party, such as a service provider or the local energy supplier, covering the measuring, allocation and accounting for actual individual consumption in such buildings, may be passed onto the final customers to the extent that such costs are reasonable."""^^xsd:string .
+

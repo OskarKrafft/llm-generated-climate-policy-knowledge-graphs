@@ -1,0 +1,45 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_11 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 11
+eco-innovation
+1.   upon application by a supplier or a manufacturer, co2 savings achieved through the use of innovative technologies or a combination of innovative technologies (‘innovative technology packages’) shall be considered.
+such technologies shall be taken into consideration only if the methodology used to assess them is capable of producing verifiable, repeatable and comparable results.
+the total contribution of those technologies to reducing the average specific emissions of co2 of a manufacturer may be up to 7 g co2/km.
+the commission is empowered to adopt delegated acts in accordance with article 17 in order to amend this regulation by adjusting the cap referred to in the third subparagraph of this paragraph with effect from 2025 onwards to take into account technological developments while ensuring a balanced proportion of the level of that cap in relation to the average specific emissions of co2 of manufacturers.
+2.   the commission shall adopt, by means of implementing acts, detailed provisions for a procedure to approve the innovative technologies or innovative technology packages referred to in paragraph 1 of this article. those implementing acts shall be adopted in accordance with the examination procedure referred to in article 16(2). those detailed provisions shall be based on the following criteria for innovative technologies:
+(a)
+the supplier or manufacturer must be accountable for the co2 savings achieved through the use of the innovative technologies;
+(b)
+the innovative technologies must make a verified contribution to co2 reduction;
+(c)
+the innovative technologies must not be covered by the standard test cycle co2 measurement;
+(d)
+the innovative technologies must not:
+(i)
+be covered by mandatory provisions due to complementary additional measures complying with the 10 g co2/km reduction referred to in article 1(3); or
+(ii)
+be mandatory under other provisions of union law.
+with effect from 1 january 2025, the criterion referred to in point (d)(i) of the first subparagraph shall not apply with regard to efficiency improvements for air conditioning systems.
+3.   a supplier or a manufacturer that applies for a measure to be approved as an innovative technology or innovative technology package shall submit a report, including a verification report undertaken by an independent and certified body, to the commission. in the event of a possible interaction of the measure with another innovative technology or innovative technology package already approved, that report shall mention that interaction and the verification report shall evaluate to what extent that interaction modifies the reduction achieved by each measure.
+4.   the commission shall attest the reduction achieved on the basis of the criteria set out in paragraph 2."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_compliance_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_11_TimeCompliance_1 ;
+    pol:specifies_in_effect_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_2 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_11_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-01-01"^^xsd:date ;
+    pol:annotatedText "2025" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2025-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2025" .
+

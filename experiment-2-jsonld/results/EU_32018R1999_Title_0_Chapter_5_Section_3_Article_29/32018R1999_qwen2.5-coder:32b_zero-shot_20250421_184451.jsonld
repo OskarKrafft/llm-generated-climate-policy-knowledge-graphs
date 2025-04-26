@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "poliana": "https://w3id.org/poliana/ontology#"
+  },
+  "@type": "poliana:LegalResource",
+  "dct:title": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_29",
+  "eli:hasIdentifier": {
+    "@type": "eli:Identifier",
+    "eli:value": "32018R1999"
+  },
+  "eli:isExpressedAs": [
+    {
+      "@type": "eli:Expression",
+      "dct:format": "text/html",
+      "eli:hasLocator": {
+        "@type": "eli:Locator",
+        "eli:value": "http://data.europa.eu/eli/reg/2018/1999/oj"
+      }
+    }
+  ],
+  "poliana:annotatedBy": [
+    {
+      "@type": "poliana:Annotator",
+      "dct:title": "A"
+    },
+    {
+      "@type": "poliana:Annotator",
+      "dct:title": "C"
+    }
+  ],
+  "poliana:hasArticle": {
+    "@type": "poliana:LegalArticle",
+    "dct:title": "article 29",
+    "dct:description": "assessment of progress",
+    "poliana:hasParagraph": [
+      {
+        "@type": "poliana:LegalParagraph",
+        "dct:title": "1.",
+        "dct:description": "by 31 october 2021 and every two years thereafter, the commission shall assess, in particular on the basis of the integrated national energy and climate progress reports, of other information reported under this regulation, of the indicators and of european statistics and data where available:",
+        "poliana:hasPoint": [
+          {
+            "@type": "poliana:LegalPoint",
+            "dct:title": "(a)",
+            "dct:description": "the progress made at union level towards meeting the objectives of the energy union, including for the first ten-year period the union's 2030 targets for energy and climate, in particular for the purpose of avoiding any gaps to the union's 2030 targets for renewable energy and energy efficiency;"
+          },
+          {
+            "@type": "poliana:LegalPoint",
+            "dct:title": "(b)",
+            "dct:description": "the progress made by each member state towards meeting its objectives, targets and contributions and implementing the policies and measures set out in its integrated national energy and climate plan;"
+          },
+          {
+            "@type": "poliana:LegalPoint",
+            "dct:title": "(c)",
+            "dct:description": "the overall impact of aviation on the global climate, including through non-co2 emissions or effects, based on the emission data provided by member states pursuant to article 26, and improve that assessment by reference to scientific advancements and air traffic data, as appropriate;"
+          },
+          {
+            "@type": "poliana:LegalPoint",
+            "dct:title": "(d)",
+            "dct:description": "the overall impact of the policies and measures of the integrated national energy and climate plans on the operation of the union climate and energy policy measures;"
+          },
+          {
+            "@type": "poliana:LegalPoint",
+            "dct:title": "(e)",
+            "dct:description": "the commission shall report on its assessment in accordance with this article as part of the state of the energy union report referred to in article 35."
+          }
+        ]
+      },
+      {
+        "@type": "poliana:LegalParagraph",
+        "dct:title": "2.",
+        "dct:description": "in particular for the first ten-year period with a view to fulfilling the 2030 targets for energy and climate."
+      },
+      {
+        "@type": "poliana:LegalParagraph",
+        "dct:title": "5.",
+        "dct:description": "in its assessment the commission should take into consideration the latest country-specific recommendations issued in the context of the european semester."
+      }
+    ]
+  }
+}

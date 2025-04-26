@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_18 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_18 a pol:PolicyArticle ;
+    pol:specifies_in_effect_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_18_TimeInEffect_1 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_18_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2020-01-01"^^xsd:date ;
+    pol:annotatedText "from 1 january 2020" .
+

@@ -1,0 +1,111 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0421 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr,
+        pol:TradablePermit,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 1
+directive 2003/87/ec is hereby amended as follows:
+(1)
+the following article is inserted:
+‘article 28a
+derogations applicable in advance of the implementation by 2020 of an international agreement applying a single global market-based measure
+1.   by way of derogation from articles 12(2a), 14(3) and article 16, member states shall consider the requirements set out in those provisions to be satisfied and shall take no action against aircraft operators in respect of:
+(a)
+all emissions from flights to and from aerodromes located in countries outside the european economic area (eea) in each calendar year from 1 january 2013 to 31 december 2016;
+(b)
+all emissions from flights between an aerodrome located in an outermost region within the meaning of article 349 of the treaty on the functioning of the european union (tfeu) and an aerodrome located in another region of the eea in each calendar year from 1 january 2013 to 31 december 2016;
+(c)
+the surrender of allowances, corresponding to verified 2013 emissions from flights between aerodromes located in states in the eea, taking place by 30 april 2015 instead of 30 april 2014, and verified 2013 emissions for those flights being reported by 31 march 2015 instead of 31 march 2014.
+for the purposes of articles 11a, 12 and 14, the verified emissions from flights other than those referred to in the first subparagraph shall be considered to be the verified emissions of the aircraft operator.
+2.   by way of derogation from article 3e(5) and article 3f, an aircraft operator benefitting from the derogations provided for in points (a) and (b) of paragraph 1 of this article shall be issued a number of free allowances reduced in proportion to the reduction of the surrender obligation provided for in those points.
+by way of derogation from article 3f(8), allowances that are not allocated, as a result of the application of the first subparagraph of this paragraph, shall be cancelled.
+as regards activity in the period from 1 january 2013 to 31 december 2016, member states shall publish the number of free aviation allowances allocated to each aircraft operator by 1 august 2014.
+3.   by way of derogation from article 3d, member states shall auction a number of aviation allowances reduced in proportion to the reduction in the total number of allowances issued.
+4.   by way of derogation from article 3d(3), the number of allowances to be auctioned by each member state in respect of the period from 1 january 2013 to 31 december 2016 shall be reduced to correspond to its share of attributed aviation emissions from flights which are not subject to the derogations provided for in points (a) and (b) of paragraph 1 of this article.
+5.   by way of derogation from article 3g, aircraft operators shall not be required to submit monitoring plans setting out measures to monitor and report emissions in respect of flights which are subject to the derogations provided for in points (a) and (b) of paragraph 1 of this article.
+6.   by way of derogation from articles 3g, 12, 15 and 18a, where an aircraft operator has total annual emissions lower than 25 000 tonnes co2, its emissions shall be considered to be verified emissions if determined by using the small emitters tool approved under commission regulation (eu) no 606/2010 (5) and populated by eurocontrol with data from its ets support facility. member states may implement simplified procedures for non-commercial aircraft operators as long as such procedures provide no less accuracy than the small emitters tool provides.
+7.   for the purposes of this article, flights between aerodromes located in states of the eea and countries that acceded to the union in 2013 shall be considered to be flights between aerodromes located in states of the eea.
+8.   the commission shall regularly, and at least once a year, inform the european parliament and the council of the progress of the international civil aviation organization (icao) negotiations as well as of its efforts to promote the international acceptance of market-based mechanisms among third countries. following the 2016 icao assembly, the commission shall report to the european parliament and to the council on actions to implement an international agreement on a global market-based measure from 2020, that will reduce greenhouse gas emissions from aviation in a non-discriminatory manner, including on information, with regard to the use of revenues, submitted by member states in accordance with article 17 of regulation (eu) no 525/2013.
+in its report, the commission shall consider, and, if appropriate, include proposals in reaction to, those developments on the appropriate scope for coverage of emissions from activity to and from aerodromes located in countries outside the eea from 1 january 2017 onwards. in its report, the commission shall also consider solutions to other issues that may arise in the application of paragraphs 1 to 4 of this article, while preserving the equal treatment of all aircraft operators on the same route.
+
+(5)  commission regulation (eu) no 606/2010 of 9 july 2010 on the approval of a simplified tool developed by the european organisation for air safety navigation (eurocontrol) to estimate the fuel consumption of certain small emitting aircraft operators (oj l 175, 10.7.2010, p. 25).’"
+
+						
+(2)
+in annex i, in the column ‘activities’ of the table therein, under the heading ‘aviation’ the following point is added after point (j):
+‘(k)
+from 1 january 2013 to 31 december 2020, flights which, but for this point, would fall within this activity, performed by a non-commercial aircraft operator operating flights with total annual emissions lower than 1 000 tonnes per year.’."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeCompliance_11,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeCompliance_14 ;
+    pol:specifies_in_effect_time pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeInEffect_12,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeInEffect_13 ;
+    pol:specifies_monitoring_time pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_1,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_10,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_2,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_3,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_4,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_5,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_6,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_7,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_8,
+        pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_9 .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeCompliance_11 a pol:Time_Compliance ;
+    pol:annotatedText "from 2020" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeCompliance_14 a pol:Time_Compliance ;
+    pol:Compliance_date "2013-01-01"^^xsd:date ;
+    pol:annotatedText "from 1 january 2013 to 31 december 2020" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeInEffect_12 a pol:Time_InEffect ;
+    pol:In_effect_date "2017-01-01"^^xsd:date ;
+    pol:annotatedText "from 1 january 2017 onwards" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeInEffect_13 a pol:Time_InEffect ;
+    pol:In_effect_date "2017-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2017 onwards" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2013 to 31 december 2016" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_10 a pol:Time_Monitoring ;
+    pol:annotatedText "at least once a year" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2013 to 31 december 2016" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "30 april 2015" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "31 march 2015" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "from 1 january 2013 to 31 december 2016" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_6 a pol:Time_Monitoring ;
+    pol:annotatedText "by 1 august 2014" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_7 a pol:Time_Monitoring ;
+    pol:annotatedText "1 august 2014" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_8 a pol:Time_Monitoring ;
+    pol:annotatedText "regularly, and at least once a year" .
+
+pol:EU_32014R0421_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_9 a pol:Time_Monitoring ;
+    pol:annotatedText "regularly" .
+

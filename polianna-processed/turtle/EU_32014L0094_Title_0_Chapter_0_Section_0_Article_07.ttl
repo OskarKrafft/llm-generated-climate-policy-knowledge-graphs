@@ -1,0 +1,41 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014L0094 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_07 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_07 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 7
+user information
+1.   without prejudice to directive 2009/30/ec, member states shall ensure that relevant, consistent and clear information is made available as regards those motor vehicles which can be regularly fuelled with individual fuels placed on the market, or recharged by recharging points. such information shall be made available in motor vehicle manuals, at refuelling and recharging points, on motor vehicles and in motor vehicle dealerships in their territory. this requirement shall apply to all motor vehicles, and their motor vehicle manuals, placed on the market after 18 november 2016.
+2.   the supply of information referred to in paragraph 1 shall be based on the labelling provisions regarding fuel compliance under standards of the esos setting the technical specifications of fuels. where such standards refer to a graphical expression, including a colour coding scheme, the graphical expression shall be simple and easy to understand, and it shall be placed in a clearly visible manner:
+(a)
+on corresponding pumps and their nozzles at all refuelling points, as from the date on which fuels are placed on the market;
+(b)
+on or in the immediate proximity of all fuel tanks' filling caps of motor vehicles recommended and compatible with that fuel and in motor vehicle manuals, when such motor vehicles are placed on the market after 18 november 2016.
+3.   where appropriate, and in particular for natural gas and hydrogen, when fuel prices are displayed at a fuel station, a comparison between the relevant unit prices shall be displayed for information purposes. the display of this information shall not mislead or confuse the user.
+in order to increase consumer awareness and provide for fuel price transparency in a consistent way across the union, the commission shall be empowered to adopt, by means of implementing acts, a common methodology for alternative fuels unit price comparison.
+4.   where eso standards setting technical specifications of a fuel do not include labelling provisions for compliance with the standards in question, where the labelling provisions do not refer to a graphical expression including colour coding schemes, or where the labelling provisions are not suitable for attaining the objectives of this directive, the commission may, for the purposes of the uniform implementation of paragraphs 1 and 2, mandate esos to develop compatibility labelling specifications, or may adopt implementing acts determining the graphical expression, including a colour coding scheme, of compatibility for fuels introduced in the union market which reach the level of 1 % of the total volume of sales, in the assessment of the commission, in more than one member state.
+5.   if labelling provisions of the respective eso standards are updated, if implementing acts regarding the labelling are adopted or if new eso standards for alternative fuels are developed as necessary, the corresponding labelling requirements shall apply to all refuelling and recharging points and motor vehicles registered on the territory of the member states as of 24 months after their respective updating or adoption.
+6.   the implementing acts referred to in this article shall be adopted in accordance with the examination procedure referred to in article 9(2).
+7.   member states shall ensure that, when available, the data indicating the geographic location of the refuelling and recharging points accessible to the public of alternative fuels covered by this directive are accessible on an open and non-discriminatory basis to all users. for recharging points, such data, when available, may include information on real-time accessibility as well as historical and real-time charging information."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_07_TimeCompliance_3 ;
+    pol:specifies_in_effect_time pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_07_TimeInEffect_1,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_07_TimeInEffect_2 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_07_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:annotatedText "24 months after their respective updating or adoption" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_07_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2016-11-18"^^xsd:date ;
+    pol:annotatedText "18 november 2016" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_07_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2016-11-18"^^xsd:date ;
+    pol:annotatedText "18 november 2016" .
+

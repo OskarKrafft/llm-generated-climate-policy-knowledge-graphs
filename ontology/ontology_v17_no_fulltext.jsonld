@@ -1,0 +1,737 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "comment": {
+                "value": "Deadline or timeframe for compliance."
+            },
+            "id": "Time_Compliance",
+            "label": {
+                "value": "Compliance Time"
+            },
+            "subClassOf": "TimeCharacteristic",
+            "type": "owl:Class"
+        },
+        {
+            "id": "Member_States",
+            "label": {
+                "value": "Member States"
+            },
+            "type": [
+                "owl:NamedIndividual",
+                "Organization"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Quantitative or qualitative policy targets/intentions."
+            },
+            "id": "Objective",
+            "inScheme": "PoliannaComplianceScheme",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "domain": "PolicyArticle",
+            "id": "specifies_in_effect_time",
+            "range": "Time_InEffect",
+            "subPropertyOf": "specifies_time",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "id": "xsd:date",
+            "type": "rdfs:Datatype"
+        },
+        {
+            "id": "skos:narrowMatch",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "comment": {
+                "value": "A component of a legal act, like a chapter, article, paragraph, etc."
+            },
+            "id": "eli:LegalResourceSubdivision",
+            "subClassOf": "eli:LegalResource",
+            "type": "owl:Class"
+        },
+        {
+            "comment": {
+                "value": "Links the article to the entity that is drafting or voting on legislation."
+            },
+            "domain": "PolicyArticle",
+            "id": "grants_legislative_authority",
+            "range": "eli:Agent",
+            "subPropertyOf": "authorises",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "closeMatch": "eurovoc:5782",
+            "comment": {
+                "value": "Refers to GHG emissions trading schemes or white certificate systems related to energy efficiency or energy savings obligations. In the former, industries must hold permits to cover their GHG emissions; if they emit more than the amount of permits they hold, they must purchase permits to make up the shortfall, creating an incentive to reduce energy use."
+            },
+            "id": "TradablePermit",
+            "inScheme": "PoliannaInstrumentScheme",
+            "prefLabel": "Tradable Permit",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Policies and measures guiding investment by public bodies. These include government procurement programs (e.g. the installation of solar PV on government buildings) and infrastructure investment (e.g. EV charging infrastructure)."
+            },
+            "exactMatch": "eurovoc:1496",
+            "id": "PublicInvestment",
+            "inScheme": "PoliannaInstrumentScheme",
+            "prefLabel": "Public Investment",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "id": "skos:inScheme",
+            "type": "owl:AnnotationProperty"
+        },
+        {
+            "comment": {
+                "value": "statistical office of the European Union"
+            },
+            "id": "eurovoc:2198",
+            "label": {
+                "value": "Eurostat"
+            },
+            "type": [
+                "owl:NamedIndividual",
+                "Organization"
+            ]
+        },
+        {
+            "domain": "Time_Monitoring",
+            "id": "Monitoring_date",
+            "label": {
+                "value": "Monitoring date"
+            },
+            "range": "xsd:date",
+            "type": "owl:DatatypeProperty"
+        },
+        {
+            "comment": {
+                "value": "Policies for government investing directly in or facilitating technology research, development, demonstration and deployment."
+            },
+            "id": "RD_D",
+            "inScheme": "PoliannaInstrumentScheme",
+            "narrowMatch": "eurovoc:5237",
+            "prefLabel": "Research, Development & Demonstration (RD&D)",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "comment": {
+                "value": "An institution or group of people with legal recognition to act collectively."
+            },
+            "id": "eli:Organization",
+            "label": {
+                "value": "Organization"
+            },
+            "subClassOf": "eli:Agent",
+            "type": "owl:Class"
+        },
+        {
+            "comment": {
+                "value": "Policies and measures designed to increase knowledge, awareness, and training among relevant stakeholders or users, including information campaigns, training programs, labelling schemes."
+            },
+            "id": "Edu_Outreach",
+            "inScheme": "PoliannaInstrumentScheme",
+            "prefLabel": "Education and Outreach",
+            "relatedMatch": "eurovoc:2467",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "id": "eurovoc:1496",
+            "label": {
+                "value": "public investment"
+            },
+            "type": "owl:NamedIndividual"
+        },
+        {
+            "comment": {
+                "value": "Links the article to an entity monitored for the policy outcome (report, review, or audit)."
+            },
+            "domain": "PolicyArticle",
+            "id": "imposes_monitoring",
+            "range": "eli:Agent",
+            "subPropertyOf": "addresses",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "comment": {
+                "value": "\nA work in a legislative corpus. \nIt can represent a legal act or any component of a legal act, \nlike an article.  However, we define specialized classes below.\n"
+            },
+            "id": "eli:LegalResource",
+            "type": "owl:Class"
+        },
+        {
+            "comment": {
+                "value": "Refers to the processes undertaken to develop and implement policies. This generally covers strategic policies that are intended to guide the development of further policies by, for example, defining long-term goals."
+            },
+            "id": "FrameworkPolicy",
+            "inScheme": "PoliannaInstrumentScheme",
+            "prefLabel": "Framework Policy",
+            "relatedMatch": "eurovoc:c_59f9c651",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Mentions of policy duration, monitoring times, compliance times, etc."
+            },
+            "id": "TimeCharacteristic",
+            "label": {
+                "value": "Time Characteristic"
+            },
+            "type": "owl:Class"
+        },
+        {
+            "id": "skos:closeMatch",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "domain": "Time_InEffect",
+            "id": "In_effect_date",
+            "label": {
+                "value": "In effect date"
+            },
+            "range": "xsd:date",
+            "type": "owl:DatatypeProperty"
+        },
+        {
+            "id": "skos:broadMatch",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "id": "eurovoc:2467",
+            "label": {
+                "value": "education policy"
+            },
+            "type": "owl:NamedIndividual"
+        },
+        {
+            "domain": "PolicyArticle",
+            "id": "specifies_monitoring_time",
+            "range": "Time_Monitoring",
+            "subPropertyOf": "specifies_time",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "id": "eurovoc:5782",
+            "label": {
+                "value": "tradeable emission permit"
+            },
+            "type": "owl:NamedIndividual"
+        },
+        {
+            "comment": {
+                "value": "A scheme listing the elements about compliance with a policy or regulation."
+            },
+            "id": "PoliannaComplianceScheme",
+            "label": {
+                "value": "POLIANNA Compliance Scheme"
+            },
+            "type": [
+                "owl:NamedIndividual",
+                "skos:ConceptScheme"
+            ]
+        },
+        {
+            "comment": {
+                "value": "A subject for this work. The use of Eurovoc (http://eurovoc.europa.eu) is encouraged to select values for this property. Member states are encouraged to align local values to Eurovoc."
+            },
+            "domain": "eli:LegalResource",
+            "id": "eli:is_about",
+            "label": {
+                "value": "is about"
+            },
+            "range": "skos:Concept",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "id": "eurovoc:5237",
+            "label": {
+                "value": "research and development"
+            },
+            "type": "owl:NamedIndividual"
+        },
+        {
+            "comment": {
+                "value": "Individuals or groups (organizations) with legal recognition who can act intentionally."
+            },
+            "id": "eli:Agent",
+            "label": {
+                "value": "Agent"
+            },
+            "type": "owl:Class"
+        },
+        {
+            "id": "eurovoc:c_59f9c651",
+            "label": {
+                "value": "EU strategy"
+            },
+            "type": "owl:NamedIndividual"
+        },
+        {
+            "comment": {
+                "value": "Refers to measures that are undertaken voluntarily by government agencies or industry bodies, based on a formalized agreement. There are incentives and benefits to undertaking the action, but generally few legal penalties in case of noncompliance. The scope of the action tends to be agreed upon in concert with the relevant actors; for example, agreements to report RD&D activities or non-binding commitments to cooperation between actors."
+            },
+            "id": "VoluntaryAgrmt",
+            "inScheme": "PoliannaInstrumentScheme",
+            "prefLabel": "Voluntary Agreement",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Links the article to a newly established entity that is ensuring the policy\u2019s implementation."
+            },
+            "domain": "PolicyArticle",
+            "id": "establishes_authority",
+            "range": "eli:Agent",
+            "subPropertyOf": "authorises",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "comment": {
+                "value": "Provisions relating to monitoring (reporting, reviews, auditing, certification schemes)."
+            },
+            "id": "Form_monitoring",
+            "inScheme": "PoliannaComplianceScheme",
+            "label": {
+                "value": "Monitoring Form"
+            },
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Links the article to the entity that is making/enforcing the rule or empowered to ensure its implementation (including sanctioning)."
+            },
+            "domain": "PolicyArticle",
+            "id": "authorises",
+            "range": "eli:Agent",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "comment": {
+                "value": "A scheme listing the types of policy instruments recognized by the POLIANNA coding."
+            },
+            "id": "PoliannaInstrumentScheme",
+            "label": "POLIANNA Instrument Scheme",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:ConceptScheme"
+            ]
+        },
+        {
+            "domain": "PolicyArticle",
+            "id": "contains_sanctioning_form",
+            "range": "skos:Concept",
+            "subPropertyOf": "eli:is_about",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "broadMatch": "eurovoc:1459",
+            "comment": {
+                "value": "Stimulate activities/behaviors through subsidies, rebates, grants, etc."
+            },
+            "id": "Subsidies_Incentives",
+            "inScheme": "PoliannaInstrumentScheme",
+            "prefLabel": "Subsidies and Direct Incentives",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Links a PolicyDocument to its contained PolicyArticle(s)."
+            },
+            "domain": "PolicyDocument",
+            "id": "hasArticle",
+            "label": {
+                "value": "has Article"
+            },
+            "range": "PolicyArticle",
+            "subPropertyOf": "eli:has_part",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "comment": {
+                "value": "the text snipped from the article that includes the content for time characteristic."
+            },
+            "domain": "TimeCharacteristic",
+            "id": "annotatedText",
+            "range": "xsd:string",
+            "type": "owl:DatatypeProperty"
+        },
+        {
+            "comment": {
+                "value": "\nOntology for representing EU policy articles based on the ELI ontology, Eurovoc,\nand the coding scheme of the POLIANNA paper. \nRevised to adopt SKOS concepts for instrument types, \nand to incorporate recommended best practices for article-level references.\n"
+            },
+            "id": "",
+            "label": {
+                "value": "POLIANNA Ontology (Revised)"
+            },
+            "type": "owl:Ontology"
+        },
+        {
+            "comment": {
+                "value": "Intergovernmental institution representing Member State governments at ministerial level, adopting EU laws (with Parliament)."
+            },
+            "id": "eurovoc:114",
+            "label": "Council of the European Union",
+            "type": [
+                "owl:NamedIndividual",
+                "Organization"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Links the article to the individual or entity that it applies to and who needs to ensure its implementation."
+            },
+            "domain": "PolicyArticle",
+            "id": "addresses",
+            "range": "eli:Agent",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "id": "eurovoc:447917",
+            "label": {
+                "value": "European Union Agency for the Cooperation of Energy Regulators (ACER)"
+            },
+            "type": [
+                "owl:NamedIndividual",
+                "Organization"
+            ]
+        },
+        {
+            "id": "skos:ConceptScheme",
+            "type": "owl:Class"
+        },
+        {
+            "comment": {
+                "value": "Start date or effective date of the policy."
+            },
+            "id": "Time_InEffect",
+            "label": {
+                "value": "In-effect Time"
+            },
+            "subClassOf": "TimeCharacteristic",
+            "type": "owl:Class"
+        },
+        {
+            "comment": {
+                "value": "Links the article to an entity responsible for monitoring the outcome of the policy, through report, review, or audit."
+            },
+            "domain": "PolicyArticle",
+            "id": "grants_monitoring_authority",
+            "range": "eli:Agent",
+            "subPropertyOf": "authorises",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "comment": {
+                "value": "Defines the general political directions and priorities of the EU but does not exercise legislative functions."
+            },
+            "id": "eurovoc:128",
+            "label": "European Council",
+            "type": [
+                "owl:NamedIndividual",
+                "Organization"
+            ]
+        },
+        {
+            "comment": {
+                "value": "The origins of the European Parliament lie in the Common Assembly of the European Coal and Steel Community (ECSC), which became the common assembly of the three supranational European communities that existed until 1957."
+            },
+            "id": "eurovoc:2243",
+            "label": {
+                "value": "European Parliament"
+            },
+            "type": [
+                "owl:NamedIndividual",
+                "Organization"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Executive branch of the EU, proposes legislation, enforces EU laws, and directs administrative operations."
+            },
+            "id": "eurovoc:4038",
+            "label": "European Commission",
+            "type": [
+                "owl:NamedIndividual",
+                "Organization"
+            ]
+        },
+        {
+            "id": "skos:exactMatch",
+            "subPropertyOf": "skos:closeMatch",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "comment": {
+                "value": "Represents an entire legislative act or policy document."
+            },
+            "id": "PolicyDocument",
+            "label": {
+                "value": "Policy Document"
+            },
+            "subClassOf": "eli:LegalResource",
+            "type": "owl:Class"
+        },
+        {
+            "comment": {
+                "value": "Represents an article (or subdivision) within a policy document."
+            },
+            "id": "PolicyArticle",
+            "label": {
+                "value": "Policy Article"
+            },
+            "subClassOf": "eli:LegalResourceSubdivision",
+            "type": "owl:Class"
+        },
+        {
+            "id": "skos:prefLabel",
+            "type": "owl:AnnotationProperty"
+        },
+        {
+            "id": "eurovoc:1459",
+            "label": {
+                "value": "financial instrument"
+            },
+            "type": "owl:NamedIndividual"
+        },
+        {
+            "id": "skos:relatedMatch",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "domain": "PolicyArticle",
+            "id": "contains_objective",
+            "range": "skos:Concept",
+            "subPropertyOf": "eli:is_about",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "domain": "PolicyArticle",
+            "id": "contains_monitoring_form",
+            "range": "skos:Concept",
+            "subPropertyOf": "eli:is_about",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "id": "skos:Concept",
+            "type": "owl:Class"
+        },
+        {
+            "comment": {
+                "value": "Sanctioning provisions and measures."
+            },
+            "id": "Form_sanctioning",
+            "inScheme": "PoliannaComplianceScheme",
+            "label": {
+                "value": "Sanctioning Form"
+            },
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Objective of a reform project of the treaties for the creation of a European Union."
+            },
+            "id": "eurovoc:4060",
+            "label": {
+                "value": "European Union"
+            },
+            "type": [
+                "owl:NamedIndividual",
+                "Organization"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Indicates which instrument-type concept(s) this article covers or establishes."
+            },
+            "domain": "PolicyArticle",
+            "id": "contains_instrument",
+            "label": {
+                "value": "contains instrument"
+            },
+            "range": "skos:Concept",
+            "subPropertyOf": "eli:is_about",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "comment": {
+                "value": "Policies to encourage or stimulate certain activities or behaviours through tax exemptions, tax reductions or tax credits on the purchase or installation of certain goods and services."
+            },
+            "exactMatch": "eurovoc:4279",
+            "id": "TaxIncentives",
+            "inScheme": "PoliannaInstrumentScheme",
+            "prefLabel": "Tax Incentives",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "id": "eurovoc:4279",
+            "label": {
+                "value": "tax incentive"
+            },
+            "type": "owl:NamedIndividual"
+        },
+        {
+            "domain": "PolicyArticle",
+            "id": "specifies_compliance_time",
+            "range": "Time_Compliance",
+            "subPropertyOf": "specifies_time",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "comment": {
+                "value": "Indicates which time characteristics this article includes."
+            },
+            "domain": "PolicyArticle",
+            "id": "specifies_time",
+            "label": {
+                "value": "specifies time"
+            },
+            "range": "TimeCharacteristic",
+            "subPropertyOf": "eli:is_about",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "domain": "Time_Compliance",
+            "id": "Compliance_date",
+            "label": {
+                "value": "Compliance date"
+            },
+            "range": "xsd:date",
+            "type": "owl:DatatypeProperty"
+        },
+        {
+            "id": "eli:has_part",
+            "type": "owl:ObjectProperty"
+        },
+        {
+            "comment": {
+                "value": "Government imposes obligations/requirements on actors (e.g., mandatory standards, reporting on GHG emissions, etc.)."
+            },
+            "id": "RegulatoryInstr",
+            "inScheme": "PoliannaInstrumentScheme",
+            "prefLabel": "Regulatory Instrument",
+            "type": [
+                "owl:NamedIndividual",
+                "skos:Concept"
+            ]
+        },
+        {
+            "comment": {
+                "value": "Deadlines and frequencies related to monitoring."
+            },
+            "id": "Time_Monitoring",
+            "label": {
+                "value": "Monitoring Time"
+            },
+            "subClassOf": "TimeCharacteristic",
+            "type": "owl:Class"
+        }
+    ]
+}

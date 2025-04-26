@@ -1,0 +1,53 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_51 .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_51 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/447917> ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr,
+        pol:TaxIncentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 51
+network development and powers to make investment decisions
+1.   at least every two years, transmission system operators shall submit to the regulatory authority a ten-year network development plan based on existing and forecast supply and demand after having consulted all the relevant stakeholders. that network development plan shall contain efficient measures in order to guarantee the adequacy of the system and the security of supply. the transmission system operator shall publish the ten-year network development plan on its website.
+2.   the ten-year network development plan shall in particular:
+(a)
+indicate to market participants the main transmission infrastructure that needs to be built or upgraded over the next ten years;
+(b)
+contain all the investments already decided and identify new investments which have to be executed in the next three years; and
+(c)
+provide for a time frame for all investment projects.
+3.   when elaborating the ten-year network development plan, the transmission system operator shall fully take into account the potential for the use of demand response, energy storage facilities or other resources as alternatives to system expansion, as well as expected consumption, trade with other countries and investment plans for union-wide and regional networks.
+4.   the regulatory authority shall consult all actual or potential system users on the ten-year network development plan in an open and transparent manner. persons or undertakings claiming to be potential system users may be required to substantiate such claims. the regulatory authority shall publish the result of the consultation process, in particular possible needs for investments.
+5.   the regulatory authority shall examine whether the ten-year network development plan covers all investment needs identified during the consultation process, and whether it is consistent with the non-binding union-wide ten-year network development plan (‘union-wide network development plan’) referred to in point (b) of article 30(1) of regulation (eu) 2019/943. if any doubt arises as to the consistency with the union-wide network development plan, the regulatory authority shall consult acer. the regulatory authority may require the transmission system operator to amend its ten-year network development plan.
+the competent national authorities shall examine the consistency of the ten-year network development plan with the national energy and climate plan submitted in accordance with regulation (eu) 2018/1999.
+6.   the regulatory authority shall monitor and evaluate the implementation of the ten-year network development plan.
+7.   in circumstances where the transmission system operator, other than for overriding reasons beyond its control, does not execute an investment, which, under the ten-year network development plan, was to be executed in the following three years, member states shall ensure that the regulatory authority is required to take at least one of the following measures to ensure that the investment in question is made if such investment is still relevant on the basis of the most recent ten-year network development plan:
+(a)
+to require the transmission system operator to execute the investments in question;
+(b)
+to organise a tender procedure open to any investors for the investment in question; or
+(c)
+to oblige the transmission system operator to accept a capital increase to finance the necessary investments and allow independent investors to participate in the capital.
+8.   where the regulatory authority has made use of its powers under point (b) of paragraph 7, it may oblige the transmission system operator to agree to one or more of the following:
+(a)
+financing by any third party;
+(b)
+construction by any third party;
+(c)
+building the new assets concerned itself;
+(d)
+operating the new asset concerned itself.
+the transmission system operator shall provide the investors with all information needed to realise the investment, shall connect new assets to the transmission network and shall generally make its best efforts to facilitate the implementation of the investment project.
+the relevant financial arrangements shall be subject to approval by the regulatory authority.
+9.   where the regulatory authority has made use of its powers under paragraph 7, the relevant tariff regulations shall cover the costs of the investments in question."""^^xsd:string ;
+    pol:specifies_monitoring_time pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_51_TimeMonitoring_1 .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_51_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years" .
+

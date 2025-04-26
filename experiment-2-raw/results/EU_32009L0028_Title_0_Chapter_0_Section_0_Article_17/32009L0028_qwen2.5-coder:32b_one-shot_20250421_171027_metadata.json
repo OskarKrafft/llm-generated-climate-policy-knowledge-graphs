@@ -1,0 +1,24 @@
+{
+  "is_valid": false,
+  "error": "JSON decoding failed: Expecting value: line 1 column 1 (char 0)",
+  "extracted_content": "json\n[\n    {\"subject\": \"Article\", \"predicate\": \"hasSuffix\", \"object\": \"14_9_2\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasType\", \"object\": \"sustainability_criteria\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasContent\", \"object\": \"agricultural raw materials cultivated in the community and used for the production of biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall be obtained in accordance with the requirements and standards under the provisions referred to under the heading 'environment' in part a and in point 9 of annex ii to council regulation (ec) no 73/2009 of 19 january 2009 establishing common rules for direct support schemes for farmers under the common agricultural policy and establishing certain support schemes for farmers (22) and in accordance with the minimum requirements for good agricultural and environmental condition defined pursuant to article 6(1) of that regulation.\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasReference\", \"object\": \"Council_Regulation_(EC)_No_73/2009\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasDate\", \"object\": \"2009-01-19\"}\n]\n```",
+  "original_output": "json\n[\n    {\"subject\": \"Article\", \"predicate\": \"hasSuffix\", \"object\": \"14_9_2\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasType\", \"object\": \"sustainability_criteria\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasContent\", \"object\": \"agricultural raw materials cultivated in the community and used for the production of biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall be obtained in accordance with the requirements and standards under the provisions referred to under the heading 'environment' in part a and in point 9 of annex ii to council regulation (ec) no 73/2009 of 19 january 2009 establishing common rules for direct support schemes for farmers under the common agricultural policy and establishing certain support schemes for farmers (22) and in accordance with the minimum requirements for good agricultural and environmental condition defined pursuant to article 6(1) of that regulation.\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasReference\", \"object\": \"Council_Regulation_(EC)_No_73/2009\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasDate\", \"object\": \"2009-01-19\"}\n]\n```",
+  "generation_time": 19.940972328186035,
+  "output": "json\n[\n    {\"subject\": \"Article\", \"predicate\": \"hasSuffix\", \"object\": \"14_9_2\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasType\", \"object\": \"sustainability_criteria\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasContent\", \"object\": \"agricultural raw materials cultivated in the community and used for the production of biofuels and bioliquids taken into account for the purposes referred to in points (a), (b) and (c) of paragraph 1 shall be obtained in accordance with the requirements and standards under the provisions referred to under the heading 'environment' in part a and in point 9 of annex ii to council regulation (ec) no 73/2009 of 19 january 2009 establishing common rules for direct support schemes for farmers under the common agricultural policy and establishing certain support schemes for farmers (22) and in accordance with the minimum requirements for good agricultural and environmental condition defined pursuant to article 6(1) of that regulation.\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasReference\", \"object\": \"Council_Regulation_(EC)_No_73/2009\"},\n    {\"subject\": \"Article_14_9_2\", \"predicate\": \"hasDate\", \"object\": \"2009-01-19\"}\n]\n```",
+  "success": false,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_17",
+      "CELEX_Number": "32009L0028",
+      "ELI": "http://data.europa.eu/eli/dir/2009/28/oj",
+      "Annotators": [
+        "A",
+        "B"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "raw",
+    "model": "qwen2.5-coder:32b",
+    "timestamp": "2025-04-21T17:10:27.247531"
+  }
+}

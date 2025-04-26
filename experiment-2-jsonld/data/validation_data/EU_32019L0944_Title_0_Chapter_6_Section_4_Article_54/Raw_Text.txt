@@ -1,0 +1,22 @@
+article 54
+ownership of energy storage facilities by transmission system operators
+1.   transmission system operators shall not own, develop, manage or operate energy storage facilities.
+2.   by way of derogation from paragraph 1, member states may allow transmission system operators to own, develop, manage or operate energy storage facilities, where they are fully integrated network components and the regulatory authority has granted its approval, or where all of the following conditions are fulfilled:
+(a)
+other parties, following an open, transparent and non-discriminatory tendering procedure that is subject to review and approval by the regulatory authority, have not been awarded a right to own, develop, manage or operate such facilities, or could not deliver those services at a reasonable cost and in a timely manner;
+(b)
+such facilities or non-frequency ancillary services are necessary for the transmission system operators to fulfil their obligations under this directive for the efficient, reliable and secure operation of the transmission system and they are not used to buy or sell electricity in the electricity markets; and
+(c)
+the regulatory authority has assessed the necessity of such a derogation, has carried out an ex ante review of the applicability of a tendering procedure, including the conditions of the tendering procedure, and has granted its approval.
+the regulatory authority may draw up guidelines or procurement clauses to help transmission system operators ensure a fair tendering procedure.
+3.   the decision to grant a derogation shall be notified to the commission and acer together with relevant information about the request and the reasons for granting the derogation.
+4.   the regulatory authorities shall perform, at regular intervals or at least every five years, a public consultation on the existing energy storage facilities in order to assess the potential availability and interest of other parties in investing in such facilities. where the public consultation, as assessed by the regulatory authority, indicates that other parties are able to own, develop, operate or manage such facilities in a cost-effective manner, the regulatory authority shall ensure that transmission system operators' activities in this regard are phased-out within 18 months. as part of the conditions of that procedure, regulatory authorities may allow the transmission system operators to receive reasonable compensation, in particular to recover the residual value of their investment in the energy storage facilities.
+5.   paragraph 4 shall not apply to fully integrated network components or for the usual depreciation period of new battery storage facilities with a final investment decision until 2024, provided that such battery storage facilities are:
+(a)
+connected to the grid at the latest two years thereafter;
+(b)
+integrated into the transmission system;
+(c)
+used only for the reactive instantaneous restoration of network security in the case of network contingencies where such restoration measure starts immediately and ends when regular re-dispatch can solve the issue; and
+(d)
+not used to buy or sell electricity in the electricity markets, including balancing.

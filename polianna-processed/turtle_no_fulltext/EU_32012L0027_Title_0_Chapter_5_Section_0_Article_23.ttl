@@ -1,0 +1,28 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_23 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_23 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:imposes_monitoring <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_in_effect_time pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_23_TimeInEffect_1 ;
+    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_23_TimeMonitoring_2,
+        pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_23_TimeMonitoring_3 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_23_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:annotatedText "day following the publication of the decision" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_23_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "within a period of two months" .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_23_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "two months" .
+

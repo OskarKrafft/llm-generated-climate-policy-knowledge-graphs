@@ -1,0 +1,63 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014L0094 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_03 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 3
+national policy frameworks
+1.   each member state shall adopt a national policy framework for the development of the market as regards alternative fuels in the transport sector and the deployment of the relevant infrastructure. it shall contain at least the following elements:
+—
+an assessment of the current state and future development of the market as regards alternative fuels in the transport sector, including in light of their possible simultaneous and combined use, and of the development of alternative fuels infrastructure, considering, where relevant, cross-border continuity,
+—
+national targets and objectives, pursuant to articles 4(1), 4(3), 4(5), 6(1), 6(2), 6(3), 6(4), 6(6), 6(7), 6(8) and, where applicable, article 5(1), for the deployment of alternative fuels infrastructure. those national targets and objectives shall be established and may be revised on the basis of an assessment of national, regional or union-wide demand, while ensuring compliance with the minimum infrastructure requirements set out in this directive,
+—
+measures necessary to ensure that the national targets and the objectives contained in the national policy framework are reached,
+—
+measures that can promote the deployment of alternative fuels infrastructure in public transport services,
+—
+designation of the urban/suburban agglomerations, of other densely populated areas and of networks which, subject to market needs, are to be equipped with recharging points accessible to the public in accordance with article 4(1),
+—
+designation of the urban/suburban agglomerations, of other densely populated areas and of networks which, subject to market needs, are to be equipped with cng refuelling points in accordance with article 6(7),
+—
+an assessment of the need to install refuelling points for lng in ports outside the ten-t core network,
+—
+consideration of the need to install electricity supply at airports for use by stationary airplanes.
+2.   member states shall ensure that national policy frameworks take into account the needs of the different transport modes existing on their territory, including those for which limited alternatives to fossil fuels are available.
+3.   national policy frameworks shall take into account, as appropriate, the interests of regional and local authorities, as well as those of the stakeholders concerned.
+4.   where necessary, member states shall cooperate, by means of consultations or joint policy frameworks, to ensure that the measures required to achieve the objectives of this directive are coherent and coordinated.
+5.   support measures for alternative fuels infrastructure shall be implemented in compliance with the state aid rules contained in the tfeu.
+6.   national policy frameworks shall be in line with the union's environmental and climate-protection legislation in force.
+7.   member states shall notify their national policy frameworks to the commission by 18 november 2016.
+8.   based on the national policy frameworks, the commission shall publish and regularly update information on the national targets and the objectives submitted by each member state regarding:
+—
+the number of recharging points accessible to the public,
+—
+refuelling points for lng at maritime and inland ports,
+—
+refuelling points for lng accessible to the public for motor vehicles,
+—
+cng refuelling points accessible to the public for motor vehicles.
+where applicable, information regarding the following shall also be published:
+—
+hydrogen refuelling points accessible to the public,
+—
+infrastructure for shore-side electricity supply in maritime and inland ports,
+—
+infrastructure for electricity supply for stationary airplanes.
+9.   the commission shall assist member states in the reporting on the national policy frameworks by means of the guidelines referred to in article 10(4), shall assess the coherence of the national policy frameworks at union level and shall assist member states in the cooperation process provided for in paragraph 4 of this article."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_1 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2016-11-18"^^xsd:date ;
+    pol:annotatedText "18 november 2016" .
+

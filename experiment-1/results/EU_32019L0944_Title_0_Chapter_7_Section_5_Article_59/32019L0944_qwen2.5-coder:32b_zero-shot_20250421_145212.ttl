@@ -1,0 +1,153 @@
+@prefix pol: <http://example.org/polianna#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pol:Article pol:hasSection pol:Section1,
+        pol:Section10,
+        pol:Section2,
+        pol:Section3,
+        pol:Section4,
+        pol:Section5,
+        pol:Section6,
+        pol:Section7,
+        pol:Section8,
+        pol:Section9 .
+
+pol:Duty1 rdfs:label "Below this article into valid RDF/Turtle using the POLIANNA ontology." .
+
+pol:Duty10 rdfs:label "Follow the naming conventions from the system instructions." .
+
+pol:Duty11 rdfs:label "Put your complete RDF in a single code fence labeled 'turtle'." .
+
+pol:Duty12 rdfs:label "No text outside that fence." .
+
+pol:Duty13 rdfs:label "End with a period on the last triple." .
+
+pol:Duty14 rdfs:label "DO NOT include any binary string markers like , , or similar." .
+
+pol:Duty15 rdfs:label "Make sure the output is clean, with no escape characters or artifacts." .
+
+pol:Duty16 rdfs:label "Make sure rdflib can parse it." .
+
+pol:Duty17 rdfs:label "Convert this article into valid RDF/Turtle using the POLIANNA ontology." .
+
+pol:Duty18 rdfs:label "Follow the naming conventions from the system instructions." .
+
+pol:Duty19 rdfs:label "Put your complete RDF in a single code fence labeled 'turtle'." .
+
+pol:Duty2 rdfs:label "Follow the naming conventions from the system instructions." .
+
+pol:Duty20 rdfs:label "No text outside that fence." .
+
+pol:Duty21 rdfs:label "End with a period on the last triple." .
+
+pol:Duty22 rdfs:label "DO NOT include any binary string markers like , , or similar." .
+
+pol:Duty23 rdfs:label "Make sure the output is clean, with no escape characters or artifacts." .
+
+pol:Duty24 rdfs:label "Make sure rdflib can parse it." .
+
+pol:Duty25 rdfs:label "Convert this article into valid RDF/Turtle using the POLIANNA ontology." .
+
+pol:Duty26 rdfs:label "Follow the naming conventions from the system instructions." .
+
+pol:Duty27 rdfs:label "Put your complete RDF in a single code fence labeled 'turtle'." .
+
+pol:Duty28 rdfs:label "No text outside that fence." .
+
+pol:Duty29 rdfs:label "End with a period on the last triple." .
+
+pol:Duty3 rdfs:label "Put your complete RDF in a single code fence labeled 'turtle'." .
+
+pol:Duty30 rdfs:label "DO NOT include any binary string markers like , , or similar." .
+
+pol:Duty31 rdfs:label "Make sure the output is clean, with no escape characters or artifacts." .
+
+pol:Duty32 rdfs:label "Make sure rdflib can parse it." .
+
+pol:Duty33 rdfs:label "Convert this article into valid RDF/Turtle using the POLIANNA ontology." .
+
+pol:Duty34 rdfs:label "Follow the naming conventions from the system instructions." .
+
+pol:Duty35 rdfs:label "Put your complete RDF in a single code fence labeled 'turtle'." .
+
+pol:Duty36 rdfs:label "No text outside that fence." .
+
+pol:Duty37 rdfs:label "End with a period on the last triple." .
+
+pol:Duty38 rdfs:label "DO NOT include any binary string markers like , , or similar." .
+
+pol:Duty39 rdfs:label "Make sure the output is clean, with no escape characters or artifacts." .
+
+pol:Duty4 rdfs:label "No text outside that fence." .
+
+pol:Duty40 rdfs:label "Make sure rdflib can parse it." .
+
+pol:Duty41 rdfs:label "Convert this article into valid RDF/Turtle using the POLIANNA ontology." .
+
+pol:Duty42 rdfs:label "Follow the naming conventions from the system instructions." .
+
+pol:Duty43 rdfs:label "Put your complete RDF in a single code fence labeled 'turtle'." .
+
+pol:Duty5 rdfs:label "End with a period on the last triple." .
+
+pol:Duty6 rdfs:label "DO NOT include any binary string markers like , , or similar." .
+
+pol:Duty7 rdfs:label "Make sure the output is clean, with no escape characters or artifacts." .
+
+pol:Duty8 rdfs:label "Make sure rdflib can parse it." .
+
+pol:Duty9 rdfs:label "Convert this article into valid RDF/Turtle using the POLIANNA ontology." .
+
+pol:Section1 pol:describes pol:Duty1,
+        pol:Duty2,
+        pol:Duty3,
+        pol:Duty4,
+        pol:Duty5,
+        pol:Duty6,
+        pol:Duty7 .
+
+pol:Section10 pol:describes pol:Duty43 .
+
+pol:Section2 pol:describes pol:Duty10,
+        pol:Duty11,
+        pol:Duty12,
+        pol:Duty13,
+        pol:Duty8,
+        pol:Duty9 .
+
+pol:Section3 pol:describes pol:Duty14,
+        pol:Duty15,
+        pol:Duty16,
+        pol:Duty17,
+        pol:Duty18,
+        pol:Duty19 .
+
+pol:Section4 pol:describes pol:Duty20,
+        pol:Duty21,
+        pol:Duty22,
+        pol:Duty23,
+        pol:Duty24,
+        pol:Duty25 .
+
+pol:Section5 pol:describes pol:Duty26,
+        pol:Duty27,
+        pol:Duty28,
+        pol:Duty29,
+        pol:Duty30,
+        pol:Duty31 .
+
+pol:Section6 pol:describes pol:Duty32,
+        pol:Duty33,
+        pol:Duty34,
+        pol:Duty35,
+        pol:Duty36,
+        pol:Duty37 .
+
+pol:Section7 pol:describes pol:Duty38,
+        pol:Duty39,
+        pol:Duty40 .
+
+pol:Section8 pol:describes pol:Duty41 .
+
+pol:Section9 pol:describes pol:Duty42 .
+

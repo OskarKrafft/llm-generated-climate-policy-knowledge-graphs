@@ -1,0 +1,70 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_22 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_22 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:RD_D,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 22
+reporting by the member states
+1.   each member state shall submit a report to the commission on progress in the promotion and use of energy from renewable sources by 31 december 2011, and every two years thereafter. the sixth report, to be submitted by 31 december 2021, shall be the last report required.
+the report shall detail, in particular:
+(a)
+the sectoral (electricity, heating and cooling, and transport) and overall shares of energy from renewable sources in the preceding two calendar years and the measures taken or planned at national level to promote the growth of energy from renewable sources taking into account the indicative trajectory in part b of annex i, in accordance with article 5;
+(b)
+the introduction and functioning of support schemes and other measures to promote energy from renewable sources, and any developments in the measures used with respect to those set out in the member state’s national renewable energy action plan, and information on how supported electricity is allocated to final customers for purposes of article 3(6) of directive 2003/54/ec;
+(c)
+how, where applicable, the member state has structured its support schemes to take into account renewable energy applications that give additional benefits in relation to other, comparable applications, but may also have higher costs, including biofuels made from wastes, residues, non-food cellulosic material, and ligno-cellulosic material;
+(d)
+the functioning of the system of guarantees of origin for electricity and heating and cooling from renewable energy sources and the measures taken to ensure the reliability and protection against fraud of the system;
+(e)
+progress made in evaluating and improving administrative procedures to remove regulatory and non-regulatory barriers to the development of energy from renewable sources;
+(f)
+measures taken to ensure the transmission and distribution of electricity produced from renewable energy sources, and to improve the framework or rules for bearing and sharing of costs referred to in article 16(3);
+(g)
+developments in the availability and use of biomass resources for energy purposes;
+(h)
+changes in commodity prices and land use within the member state associated with its increased use of biomass and other forms of energy from renewable sources;
+(i)
+the development and share of biofuels made from wastes, residues, non-food cellulosic material, and ligno-cellulosic material;
+(j)
+the estimated impact of the production of biofuels and bioliquids on biodiversity, water resources, water quality and soil quality within the member state;
+(k)
+the estimated net greenhouse gas emission saving due to the use of energy from renewable sources;
+(l)
+the estimated excess production of energy from renewable sources compared to the indicative trajectory which could be transferred to other member states, as well as the estimated potential for joint projects, until 2020;
+(m)
+the estimated demand for energy from renewable sources to be satisfied by means other than domestic production until 2020; and
+(n)
+information on how the share of biodegradable waste in waste used for producing energy has been estimated, and what steps have been taken to improve and verify such estimates.
+2.   in estimating net greenhouse gas emission saving from the use of biofuels, the member state may, for the purpose of the reports referred to in paragraph 1, use the typical values given in part a and part b of annex v.
+3.   in its first report, the member state shall outline whether it intends to:
+(a)
+establish a single administrative body responsible for processing authorisation, certification and licensing applications for renewable energy installations and providing assistance to applicants;
+(b)
+provide for automatic approval of planning and permit applications for renewable energy installations where the authorising body has not responded within the set time limits; or
+(c)
+indicate geographical locations suitable for exploitation of energy from renewable sources in land-use planning and for the establishment of district heating and cooling.
+4.   in each report the member state may correct the data of the previous reports."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_1,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_2,
+        pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_3 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "31 december 2011" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years" .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "31 december 2021" .
+

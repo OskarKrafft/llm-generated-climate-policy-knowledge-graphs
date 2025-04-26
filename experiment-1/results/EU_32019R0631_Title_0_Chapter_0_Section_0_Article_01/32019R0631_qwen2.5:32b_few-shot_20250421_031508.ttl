@@ -1,0 +1,57 @@
+@prefix pol: <http://example.org/pollution#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://data.europa.eu/eli/reg/2019/631/oj>
+  a pol:Regulation;
+  pol:title "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01";
+  pol:celexNumber "32019R0631"^^xsd:string;
+  pol:eliURL <http://data.europa.eu/eli/reg/2019/631/oj>;
+  pol:annotatedBy "F", "B".
+
+pol:Article_1
+  a pol:RegulationText;
+  pol:hasSubjectMatter "establishes co2 emissions performance requirements for new passenger cars and for new light commercial vehicles";
+  pol:hasObjective "contribute to achieving the union's target of reducing its greenhouse gas emissions, as laid down in regulation (eu) 2018/842, and the objectives of the paris agreement and to ensure the proper functioning of the internal market.".
+
+pol:FleetTarget_2020
+  a pol:RegulationText;
+  pol:hasDate "2020-01-01"^^xsd:date;
+  pol:hasFleetAverageCO2Emission "95 g co2/km";
+  pol:appliesToVehicleType "new passenger cars".
+
+pol:FleetTarget_2020_LCV
+  a pol:RegulationText;
+  pol:hasDate "2020-01-01"^^xsd:date;
+  pol:hasFleetAverageCO2Emission "147 g co2/km";
+  pol:appliesToVehicleType "new light commercial vehicles".
+
+pol:AdditionalMeasures
+  a pol:RegulationText;
+  pol:hasDateRange ["2025-01-01"^^xsd:date, "2024-12-31"^^xsd:date];
+  pol:requiresReduction "10 g co2/km".
+
+pol:FleetTarget_2025
+  a pol:RegulationText;
+  pol:hasDate "2025-01-01"^^xsd:date;
+  pol:requiresPercentageReductionPassengerCars "15%";
+  pol:requiresPercentageReductionLCVs "15%".
+
+pol:FleetTarget_2030
+  a pol:RegulationText;
+  pol:hasDate "2030-01-01"^^xsd:date;
+  pol:requiresPercentageReductionPassengerCars "37.5%";
+  pol:requiresPercentageReductionLCVs "31%".
+
+pol:ZeroLowEmissionBenchmark_2025
+  a pol:RegulationText;
+  pol:hasDate "2025-01-01"^^xsd:date;
+  pol:requiresZeroAndLowEmissionSharePassengerCars "15%";
+  pol:requiresZeroAndLowEmissionShareLCVs "15%".
+
+pol:ZeroLowEmissionBenchmark_2030
+  a pol:RegulationText;
+  pol:hasDate "2030-01-01"^^xsd:date;
+  pol:requiresZeroAndLowEmissionSharePassengerCars "35%";
+  pol:requiresZeroAndLowEmissionShareLCVs "30%".
+
+.

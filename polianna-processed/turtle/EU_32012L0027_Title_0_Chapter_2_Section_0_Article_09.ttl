@@ -1,0 +1,46 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_09 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_09 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 9
+metering
+1.   member states shall ensure that, in so far as it is technically possible, financially reasonable and proportionate in relation to the potential energy savings, final customers for electricity, natural gas, district heating, district cooling and domestic hot water are provided with competitively priced individual meters that accurately reflect the final customer’s actual energy consumption and that provide information on actual time of use.
+such a competitively priced individual meter shall always be provided when:
+(a)
+an existing meter is replaced, unless this is technically impossible or not cost-effective in relation to the estimated potential savings in the long term;
+(b)
+a new connection is made in a new building or a building undergoes major renovations, as set out in directive 2010/31/eu.
+2.   where, and to the extent that, member states implement intelligent metering systems and roll out smart meters for natural gas and/or electricity in accordance with directives 2009/72/ec and 2009/73/ec:
+(a)
+they shall ensure that the metering systems provide to final customers information on actual time of use and that the objectives of energy efficiency and benefits for final customers are fully taken into account when establishing the minimum functionalities of the meters and the obligations imposed on market participants;
+(b)
+they shall ensure the security of the smart meters and data communication, and the privacy of final customers, in compliance with relevant union data protection and privacy legislation;
+(c)
+in the case of electricity and at the request of the final customer, they shall require meter operators to ensure that the meter or meters can account for electricity put into the grid from the final customer’s premises;
+(d)
+they shall ensure that if final customers request it, metering data on their electricity input and off-take is made available to them or to a third party acting on behalf of the final customer in an easily understandable format that they can use to compare deals on a like-for-like basis;
+(e)
+they shall require that appropriate advice and information be given to customers at the time of installation of smart meters, in particular about their full potential with regard to meter reading management and the monitoring of energy consumption.
+3.   where heating and cooling or hot water are supplied to a building from a district heating network or from a central source servicing multiple buildings, a heat or hot water meter shall be installed at the heating exchanger or point of delivery.
+in multi-apartment and multi-purpose buildings with a central heating/cooling source or supplied from a district heating network or from a central source serving multiple buildings, individual consumption meters shall also be installed by 31 december 2016 to measure the consumption of heat or cooling or hot water for each unit where technically feasible and cost-efficient. where the use of individual meters is not technically feasible or not cost-efficient, to measure heating, individual heat cost allocators shall be used for measuring heat consumption at each radiator, unless it is shown by the member state in question that the installation of such heat cost allocators would not be cost-efficient. in those cases, alternative cost-efficient methods of heat consumption measurement may be considered.
+where multi-apartment buildings are supplied from district heating or cooling, or where own common heating or cooling systems for such buildings are prevalent, member states may introduce transparent rules on the allocation of the cost of thermal or hot water consumption in such buildings to ensure transparency and accuracy of accounting for individual consumption. where appropriate, such rules shall include guidelines on the way to allocate costs for heat and/or hot water that is used as follows:
+(a)
+hot water for domestic needs;
+(b)
+heat radiated from the building installation and for the purpose of heating the common areas (where staircases and corridors are equipped with radiators);
+(c)
+for the purpose of heating apartments."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_09_TimeCompliance_1 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_09_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2016-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2016" .
+

@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_12 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_12 a pol:PolicyArticle ;
+    pol:fullText """article 12
+repeal
+regulation (ec) no 736/96 shall be repealed from 9 april 2014."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_12_TimeInEffect_1 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_12_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2014-04-09"^^xsd:date ;
+    pol:annotatedText "9 april 2014" .
+

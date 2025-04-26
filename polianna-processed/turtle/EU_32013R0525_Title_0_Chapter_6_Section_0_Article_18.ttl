@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_6_Section_0_Article_18 .
+
+pol:EU_32013R0525_Title_0_Chapter_6_Section_0_Article_18 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 18
+biennial reports and national communications
+1.   the union and the member states shall submit biennial reports in accordance with decision 2/cp.17 of the conference of the parties to the unfccc (decision 2/cp.17), or subsequent relevant decisions adopted by the bodies of the unfccc, and national communications in accordance with article 12 of the unfccc to the unfccc secretariat.
+2.   member states shall provide the commission with copies of the national communications and biennial reports submitted to the unfccc secretariat."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring <http://eurovoc.europa.eu/4060>,
+        pol:Member_States .
+

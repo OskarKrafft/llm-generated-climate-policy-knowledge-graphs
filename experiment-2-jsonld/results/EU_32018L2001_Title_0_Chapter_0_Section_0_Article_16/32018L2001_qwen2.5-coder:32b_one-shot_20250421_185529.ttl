@@ -1,0 +1,47 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix poliana: <https://w3id.org/poliana/ontology#> .
+
+[] a eli:Article ;
+    eli:hasExpression [ a eli:LegalResource ;
+            eli:expressionDate "2018-12-31" ;
+            eli:isVersionOf <http://data.europa.eu/eli/dir/2018/2001/oj> ;
+            poliana:hasParagraph [ a poliana:Paragraph ;
+                    eli:number "2" ;
+                    dct:description "The contact points must provide transparent guidance, all necessary information, and involve other authorities as appropriate. Applicants can submit documents in digital form." ],
+                [ a poliana:Paragraph ;
+                    eli:number "1" ;
+                    dct:description "Member states shall set up or designate one or more contact points. Those contact points shall, upon request by the applicant, guide through and facilitate the entire administrative permit application and granting process. The applicant shall not be required to contact more than one contact point for the entire process. The permit-granting process shall cover the relevant administrative permits to build, repower and operate plants for the production of energy from renewable sources and assets necessary for their connection to the grid." ],
+                [ a poliana:Paragraph ;
+                    eli:number "5" ;
+                    dct:description "For installations with an electrical capacity of less than 150 kW, the permit-granting process must not exceed one year, with a possible one-year extension in extraordinary circumstances." ],
+                [ a poliana:Paragraph ;
+                    eli:number "6" ;
+                    dct:description "Member states must provide easy access to simple procedures for dispute resolution concerning the permit-granting process and issuance of permits, including alternative dispute resolution mechanisms where applicable." ],
+                [ a poliana:Paragraph ;
+                    eli:number "3" ;
+                    dct:description "Contact points must make available a manual of procedures for developers of renewable energy projects, including small-scale and self-consumption projects. Online information should clearly indicate the relevant contact point." ],
+                [ a poliana:Paragraph ;
+                    eli:number "4" ;
+                    dct:description "The permit-granting process for power plants must not exceed two years, with a possible one-year extension in extraordinary circumstances." ] ] ;
+    eli:number "16" ;
+    dct:title "organisation and duration of the permit-granting process" ;
+    poliana:hasAnnotation [ a poliana:Annotation ;
+            dct:description "Contact points must make available a manual of procedures for developers of renewable energy projects, including small-scale and self-consumption projects. Online information should clearly indicate the relevant contact point." ;
+            poliana:annotatesParagraph "3" ],
+        [ a poliana:Annotation ;
+            dct:description "Member states must provide easy access to simple procedures for dispute resolution concerning the permit-granting process and issuance of permits, including alternative dispute resolution mechanisms where applicable." ;
+            poliana:annotatesParagraph "6" ],
+        [ a poliana:Annotation ;
+            dct:description "This article establishes the requirements for member states to set up or designate contact points to guide applicants through the administrative permit application and granting process for renewable energy plants." ;
+            poliana:annotatesParagraph "1" ],
+        [ a poliana:Annotation ;
+            dct:description "The permit-granting process for power plants must not exceed two years, with a possible one-year extension in extraordinary circumstances." ;
+            poliana:annotatesParagraph "4" ],
+        [ a poliana:Annotation ;
+            dct:description "The contact point must provide transparent guidance, necessary information, and involve other authorities as appropriate. Applicants can submit documents in digital form." ;
+            poliana:annotatesParagraph "2" ],
+        [ a poliana:Annotation ;
+            dct:description "For installations with an electrical capacity of less than 150 kW, the permit-granting process must not exceed one year, with a possible one-year extension in extraordinary circumstances." ;
+            poliana:annotatesParagraph "5" ] .
+

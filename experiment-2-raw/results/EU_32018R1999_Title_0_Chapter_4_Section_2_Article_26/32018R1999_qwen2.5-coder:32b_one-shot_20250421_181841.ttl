@@ -1,0 +1,47 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Article26 a pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Reporting ;
+    pol:Suffix pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_1a,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_1b,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_2,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_3,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_4,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_5,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_6 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Article26_1a pol:reportContent <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Information_from_Article_6(2)_of_Directive_2009/119/EC> ;
+    pol:reportsTo pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Commission .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Article26_1b pol:reportContent <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Information_from_Point_3_of_Annex_IX_of_Directive_2013/30/EU> ;
+    pol:reportsTo pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Commission .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Article26_2 pol:availabilityDate pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_30_September_every_year ;
+    pol:availableToPublic pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Yes ;
+    pol:compiledBy pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Commission ;
+    pol:reportContent pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Approximated_Greenhouse_Gas_Inventories_for_Year_X-1 ;
+    pol:reportsTo pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Commission .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Article26_3 pol:availabilityTimeframe pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Within_three_months_of_receiving_the_reports ;
+    pol:includesInventoryInformation pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Annex_V ;
+    pol:informationAvailableTo pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Climate_Change_Committee ;
+    pol:reportContent pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Final_Greenhouse_Gas_Inventory_Data_and_Preliminary_Data ;
+    pol:reportContentFinalData pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Complete_and_Up-to-Date_National_Inventory_Report ;
+    pol:reportDateFinalData pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_15_March_each_year_\(Year_X\) ;
+    pol:reportDatePreliminaryData pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_15_January_each_year ;
+    pol:reportsTo pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Commission .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Article26_4 pol:compiledBy pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Commission ;
+    pol:preparedWith pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Member_States ;
+    pol:reportContent pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Union_Greenhouse_Gas_Inventory_and_Report ;
+    pol:submissionContent pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_National_Inventories_for_Final_Greenhouse_Gas_Inventory_Data ;
+    pol:submissionDate pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_15_April_each_year ;
+    pol:submittedTo pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_UNFCCC_Secretariat .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Article26_5 pol:reportContent pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_LULUCF_Inventories_for_Years_1990-2008 ;
+    pol:reportDate pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_By_31_December_2009 ;
+    pol:reportsTo pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Commission .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Article26_6 pol:adoptedBy pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Commission ;
+    pol:delegatedActAdopted pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Yes ;
+    pol:withinPeriod pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_Within_18_months_from_the_date_of_entry_into_force_of_this_Regulation .
+

@@ -1,0 +1,20 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_Article_27 a <http://data.europa.eu/eli/reg/2018/1999/oj#Article> ;
+    pol:hasAnnotators pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_A,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_C ;
+    pol:hasCELEXNumber pol:32018R1999 ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    pol:hasTitle pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27 ;
+    pol:informationSource pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_AnnexIX_Part2,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_AnnexI_Directive2009_28_EC_Version31December2020 ;
+    pol:reportingDeadline pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_2022-04-30 ;
+    pol:reportsOn pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_EnergyEfficiencyNationalTarget,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_RenewableEnergyTargets ;
+    pol:requiresInformationOn pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_BiofuelsAndBioliquidsShareTransport,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_BiofuelsBiogasForTransportShare,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_MeasuresAchievingNationalTargets,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_OverallShareRenewableSources,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_SectoralSharesRenewableSources ;
+    pol:requiresReportingBy pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_27_MemberState .
+

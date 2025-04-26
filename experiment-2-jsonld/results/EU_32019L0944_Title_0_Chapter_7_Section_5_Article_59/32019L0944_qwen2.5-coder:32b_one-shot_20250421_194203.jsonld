@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "schema": "http://schema.org/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@type": "poliana:LegalArticle",
+  "schema:name": "Article on Regulatory Authorities' Duties and Powers",
+  "schema:description": "This article outlines the duties and powers of regulatory authorities as specified in the given text.",
+  "poliana:hasSection": [
+    {
+      "@type": "poliana:Section",
+      "schema:title": "General Duties and Powers",
+      "schema:description": "Duties and powers of regulatory authorities in general.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Ensure compliance with competition law, consumer protection laws, and other relevant regulations."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Monitor the performance of transmission system operators (TSOs) and distribution system operators (DSOs)."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Approve network codes and guidelines as per Chapter VII of Regulation (EU) 2019/943."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "schema:title": "Specific Duties for Independent System Operators (ISOs)",
+      "schema:description": "Duties and powers specific to ISOs.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Approve investments planning and multi-annual network development plans."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Ensure adequate remuneration for network owners and new investments."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Monitor the use of congestion charges collected by ISOs."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "schema:title": "Specific Duties for TSOs with Vertically Integrated Undertakings (VIUs)",
+      "schema:description": "Duties and powers specific to TSOs when they are vertically integrated.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Impose penalties for discriminatory behavior in favor of the VIU."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Monitor communications between TSOs and VIUs to ensure compliance with obligations."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Approve commercial and financial agreements between TSOs and VIUs under market conditions."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "schema:title": "Methodologies for Tariffs and Ancillary Services",
+      "schema:description": "Responsibilities related to methodologies for tariffs and ancillary services.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Fix or approve national methodologies for connection, access, transmission, distribution tariffs, and their methodologies."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Ensure ancillary services are provided in the most economic manner with appropriate incentives."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "schema:title": "Transparency and Congestion Management",
+      "schema:description": "Responsibilities related to transparency and congestion management.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Make publicly available detailed methodologies and underlying costs for network tariffs."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Monitor congestion management of national electricity systems including interconnectors."
+        }
+      ]
+    }
+  ]
+}

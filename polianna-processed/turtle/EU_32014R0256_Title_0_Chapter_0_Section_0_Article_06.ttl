@@ -1,0 +1,18 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_06 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_06 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 6
+quality and publicity of data
+1.   member states, their delegated entities or, where appropriate, the specific bodies shall aim to ensure the quality, relevance, accuracy, clarity, timeliness and coherence of the data and information which they notify to the commission.
+where specific bodies make the notification, the data and information notified may be accompanied by appropriate comments from member states.
+2.   the commission may publish aggregated data and information forwarded pursuant to this regulation, in particular in analyses referred to in article 10(3), provided that no details concerning individual undertakings and installations are disclosed or can be inferred.
+3.   member states, their delegated entities, or the commission shall each preserve the confidentiality of commercially-sensitive data or information in their possession."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038>,
+        pol:Member_States .
+

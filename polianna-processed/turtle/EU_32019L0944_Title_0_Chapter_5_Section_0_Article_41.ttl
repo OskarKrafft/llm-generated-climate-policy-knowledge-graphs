@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_5_Section_0_Article_41 .
+
+pol:EU_32019L0944_Title_0_Chapter_5_Section_0_Article_41 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 41
+confidentiality and transparency requirements for transmission system operators and transmission system owners
+1.   without prejudice to article 55 or another legal duty to disclose information, each transmission system operator and each transmission system owner shall preserve the confidentiality of commercially sensitive information obtained in the course of carrying out its activities, and shall prevent information about its own activities which may be commercially advantageous from being disclosed in a discriminatory manner. in particular it shall not disclose any commercially sensitive information to the remaining parts of the undertaking, unless such disclosure is necessary for carrying out a business transaction. in order to ensure the full respect of the rules on information unbundling, member states shall ensure that the transmission system owner and the remaining part of the undertaking do not use joint services, such as joint legal services, apart from purely administrative or it functions.
+2.   transmission system operators shall not, in the context of sales or purchases of electricity by related undertakings, misuse commercially sensitive information obtained from third parties in the context of providing or negotiating access to the system.
+3.   information necessary for effective competition and the efficient functioning of the market shall be made public. that obligation shall be without prejudice to preserving the confidentiality of commercially sensitive information."""^^xsd:string .
+

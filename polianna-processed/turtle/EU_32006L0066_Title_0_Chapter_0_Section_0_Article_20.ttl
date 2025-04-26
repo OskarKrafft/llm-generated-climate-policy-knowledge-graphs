@@ -1,0 +1,25 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_20 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_20 a pol:PolicyArticle ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach ;
+    pol:fullText """article 20
+information for end-users
+1.   member states shall ensure, in particular through information campaigns, that end-users are fully informed of:
+(a)
+the potential effects on the environment and human health of the substances used in batteries and accumulators;
+(b)
+the desirability of not disposing of waste batteries and accumulators as unsorted municipal waste and of participating in their separate collection so as to facilitate treatment and recycling;
+(c)
+the collection and recycling schemes available to them;
+(d)
+their role in contributing to the recycling of waste batteries and accumulators;
+(e)
+the meaning of the symbol of the crossed-out wheeled bin shown in annex ii and the chemical symbols hg, cd and pb.
+2.   member states may require economic operators to provide some or all of the information referred to in paragraph 1.
+3.   where member states require distributors to take back waste portable batteries and accumulators pursuant to article 8, they shall ensure that such distributors inform end-users about the possibility of discarding waste portable batteries or accumulators at their sales points."""^^xsd:string .
+

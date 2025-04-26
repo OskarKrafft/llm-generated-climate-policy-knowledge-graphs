@@ -1,0 +1,12 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32013R0174 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0174_Title_0_Chapter_0_Section_0_Article_02 .
+
+pol:EU_32013R0174_Title_0_Chapter_0_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:specifies_in_effect_time pol:EU_32013R0174_Title_0_Chapter_0_Section_0_Article_02_TimeInEffect_1 .
+
+pol:EU_32013R0174_Title_0_Chapter_0_Section_0_Article_02_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:annotatedText "twentieth day following that of its publication" .
+

@@ -1,0 +1,36 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:grants_legislative_authority eurovoc:4038 ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:imposes_monitoring eurovoc:4060,
+        <polianna:Member_States> ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_1,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_2,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_3,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_4,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_5,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_6,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_7,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_8 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_1 pol:Monitoring_date "2021-03-15"^^xsd:date .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_2 pol:Monitoring_date "2021-07-31"^^xsd:date .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_3 pol:Monitoring_date "2023-03-15"^^xsd:date .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_4 pol:Monitoring_date "2023-01-15"^^xsd:date .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_5 pol:Monitoring_date "2027-01-15"^^xsd:date .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_6 pol:Monitoring_date "2027-03-15"^^xsd:date .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_7 pol:Monitoring_date "2032-01-15"^^xsd:date .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_2_Article_26_TimeMonitoring_8 pol:Monitoring_date "2032-03-15"^^xsd:date .
+

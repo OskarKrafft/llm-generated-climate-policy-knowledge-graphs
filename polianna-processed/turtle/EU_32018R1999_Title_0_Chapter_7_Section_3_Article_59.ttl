@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_59 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_59 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:fullText """article 59
+entry into force
+this regulation shall enter into force on the third day following that of its publication in the official journal of the european union.
+article 40, article 53(2), (3) and (4), point (a) of article 54(3), article 54(4), and article 55 shall apply from 1 january 2021.
+this regulation shall be binding in its entirety and directly applicable in all member states."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_59_TimeInEffect_1,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_59_TimeInEffect_2 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_59_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:annotatedText "third day following that of its publication in the official journal of the european union" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_59_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2021" .
+

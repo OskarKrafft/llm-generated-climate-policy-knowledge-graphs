@@ -1,0 +1,83 @@
+json
+[
+    {
+        "Subject": "Article_14",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_14",
+        "Predicate": "hasPart",
+        "Object": "Article_14_Suffix_1"
+    },
+    {
+        "Subject": "Article_14_Suffix_1",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_14_Suffix_1",
+        "Predicate": "hasContent",
+        "Object": "member states that already use, for whatever purpose, calculation methods for measuring energy savings similar to those described in annex iv at the time of the entry into force of this directive may submit information at the appropriate level of detail to the commission. such submissions shall take place as soon as possible, preferably not later than 17 november 2006. this information will enable the commission to take due account of existing practices."
+    },
+    {
+        "Subject": "Article_14",
+        "Predicate": "hasPart",
+        "Object": "Article_14_Suffix_2"
+    },
+    {
+        "Subject": "Article_14_Suffix_2",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_14_Suffix_2",
+        "Predicate": "hasContent",
+        "Object": "member states shall submit to the commission the following eeaps: — a first eeap not later than 30 june 2007; — a second eeap not later than 30 june 2011; — a third eeap not later than 30 june 2014. all eeaps shall describe the energy efficiency improvement measures planned to reach the targets set out in article 4(1) and (2), as well as to comply with the provisions on the exemplary role of the public sector and provision of information and advice to final customers set out in articles 5(1) and 7(2) respectively. the second and third eeaps shall: — include a thorough analysis and evaluation of the preceding eeap; — include the final results with regard to the fulfilment of the energy savings targets set out in article 4(1) and (2); — include plans for — and information on the anticipated effects of — additional measures which address any existing or expected shortfall vis-à-vis the target; — in accordance with article 15(4), use and gradually increase the use of harmonised efficiency indicators and benchmarks, both for the evaluation of past measures and estimated effects of planned future measures; — be based on available data, supplemented with estimates."
+    },
+    {
+        "Subject": "Article_14",
+        "Predicate": "hasPart",
+        "Object": "Article_14_Suffix_3"
+    },
+    {
+        "Subject": "Article_14_Suffix_3",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_14_Suffix_3",
+        "Predicate": "hasContent",
+        "Object": "not later than 17 may 2008, the commission shall publish a cost/benefit impact assessment examining the linkages between eu standards, regulations, policies and measures on end‐use energy efficiency."
+    },
+    {
+        "Subject": "Article_14",
+        "Predicate": "hasPart",
+        "Object": "Article_14_Suffix_4"
+    },
+    {
+        "Subject": "Article_14_Suffix_4",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_14_Suffix_4",
+        "Predicate": "hasContent",
+        "Object": "the eeaps shall be assessed in accordance with the procedure referred to in article 16(2): — the first eeaps shall be reviewed before 1 january 2008; — the second eeaps shall be reviewed before 1 january 2012; — the third eeaps shall be reviewed before 1 january 2015."
+    },
+    {
+        "Subject": "Article_14",
+        "Predicate": "hasPart",
+        "Object": "Article_14_Suffix_5"
+    },
+    {
+        "Subject": "Article_14_Suffix_5",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_14_Suffix_5",
+        "Predicate": "hasContent",
+        "Object": "on the basis of the assessments referred to in paragraph 4, the commission shall adopt guidelines for the implementation of this directive. those guidelines shall include: — criteria and methods for assessing the energy performance of buildings; — requirements for the calculation of primary and final energy consumption; — requirements for the verification of compliance with the minimum energy performance requirements laid down by member states in accordance with article 4(1); — requirements for the provision of information to building owners or occupiers on the energy performance of buildings; — criteria and methods for assessing the energy performance of building elements, components and systems; — criteria and methods for assessing the energy performance of new and existing heating and cooling systems; — criteria and methods for assessing the energy performance of windows, doors and other openings; — requirements for the provision of information to manufacturers or suppliers on the energy performance of building products."
+    }
+]

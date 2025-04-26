@@ -1,0 +1,47 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14 .
+
+pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 14
+reporting on projections
+1.   by 15 march 2015, and every two years thereafter, member states shall report to the commission national projections of anthropogenic greenhouse gas emissions by sources and removals by sinks, organised by gas or group of gases (hfcs and pfcs) listed in annex i and by sector. those projections shall include quantitative estimates for a sequence of four future years ending with 0 or 5 immediately following the reporting year. national projections shall take into consideration any policies and measures adopted at union level and shall include:
+(a)
+projections without measures where available, projections with measures, and, where available, projections with additional measures;
+(b)
+total greenhouse gas projections and separate estimates for the projected greenhouse gas emissions for the emission sources covered by directive 2003/87/ec and by decision no 406/2009/ec;
+(c)
+the impact of policies and measures identified pursuant to article 13. where such policies and measures are not included, this shall be clearly stated and explained;
+(d)
+results of the sensitivity analysis performed for the projections;
+(e)
+all relevant references to the assessment and the technical reports that underpin the projections referred to in paragraph 4.
+2.   member states shall communicate to the commission any substantial changes to the information reported pursuant to this article during the first year of the reporting period, by 15 march of the year following the previous report.
+3.   member states shall report the most up-to-date projections available. where a member state does not submit complete projection estimates by 15 march every second year, and the commission has established that gaps in the estimates cannot be filled by that member state once identified through the commission’s qa or qc procedures, the commission may prepare estimates as required to compile union projections, in consultation with the member state concerned.
+4.   member states shall make available to the public, in electronic form, their national projections of greenhouse gas emissions by sources and removals by sinks along with relevant technical reports that underpin those projections. those projections should include descriptions of the models and methodological approaches used, definitions and underlying assumptions."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14_TimeMonitoring_1,
+        pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14_TimeMonitoring_2,
+        pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14_TimeMonitoring_3,
+        pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14_TimeMonitoring_4,
+        pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14_TimeMonitoring_5 .
+
+pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "15 march 2015" .
+
+pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years" .
+
+pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "first year of the reporting period" .
+
+pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "15 march of the year following the previous report" .
+
+pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_14_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "15 march every second year" .
+

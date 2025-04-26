@@ -1,0 +1,56 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_50 .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_50 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr,
+        pol:TaxIncentives,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 50
+compliance programme and compliance officer
+1.   member states shall ensure that transmission system operators establish and implement a compliance programme which sets out the measures taken in order to ensure that discriminatory conduct is excluded, and ensure that the compliance with that programme is adequately monitored. the compliance programme shall set out the specific obligations of employees to meet those objectives. it shall be subject to approval by the regulatory authority. without prejudice to the powers of the regulatory authority, compliance with the programme shall be independently monitored by a compliance officer.
+2.   the compliance officer shall be appointed by the supervisory body, subject to approval by the regulatory authority. the regulatory authority may refuse the approval of the compliance officer only for reasons of lack of independence or professional capacity. the compliance officer may be a natural or legal person. article 48(2) to (8) shall apply to the compliance officer.
+3.   the compliance officer shall be in charge of:
+(a)
+monitoring the implementation of the compliance programme;
+(b)
+elaborating an annual report, setting out the measures taken in order to implement the compliance programme and submitting it to the regulatory authority;
+(c)
+reporting to the supervisory body and issuing recommendations on the compliance programme and its implementation;
+(d)
+notifying the regulatory authority on any substantial breaches with regard to the implementation of the compliance programme; and
+(e)
+reporting to the regulatory authority on any commercial and financial relations between the vertically integrated undertaking and the transmission system operator.
+4.   the compliance officer shall submit the proposed decisions on the investment plan or on individual investments in the network to the regulatory authority. this shall occur at the latest when the management and/or the competent administrative body of the transmission system operator submits them to the supervisory body.
+5.   where the vertically integrated undertaking, in the general assembly or through the vote of the members of the supervisory body it has appointed, has prevented the adoption of a decision with the effect of preventing or delaying investments, which under the ten-year network development plan was to be executed in the following three years, the compliance officer shall report this to the regulatory authority, which then shall act in accordance with article 51.
+6.   the conditions governing the mandate or the employment conditions of the compliance officer, including the duration of its mandate, shall be subject to approval by the regulatory authority. those conditions shall ensure the independence of the compliance officer, including by providing all the resources necessary for fulfilling the compliance officer's duties. during his or her mandate, the compliance officer shall have no other professional position, responsibility or interest, directly or indirectly, in or with any part of the vertically integrated undertaking or with its controlling shareholders.
+7.   the compliance officer shall report regularly, either orally or in writing, to the regulatory authority and shall have the right to report regularly, either orally or in writing, to the supervisory body of the transmission system operator.
+8.   the compliance officer may attend all meetings of the management or administrative bodies of the transmission system operator, and those of the supervisory body and the general assembly. the compliance officer shall attend all meetings that address the following matters:
+(a)
+conditions for access to the network, as laid down in regulation (eu) 2019/943, in particular regarding tariffs, third-party access services, capacity allocation and congestion management, transparency, ancillary services and secondary markets;
+(b)
+projects undertaken in order to operate, maintain and develop the transmission system, including interconnection and connection investments;
+(c)
+energy purchases or sales necessary for the operation of the transmission system.
+9.   the compliance officer shall monitor the compliance of the transmission system operator with article 41.
+10.   the compliance officer shall have access to all relevant data and to the offices of the transmission system operator and to all the information necessary for the fulfilment of his task.
+11.   the compliance officer shall have access to the offices of the transmission system operator without prior announcement.
+12.   after prior approval by the regulatory authority, the supervisory body may dismiss the compliance officer. it shall dismiss the compliance officer for reasons of lack of independence or professional capacity upon request of the regulatory authority."""^^xsd:string ;
+    pol:specifies_monitoring_time pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_50_TimeMonitoring_1,
+        pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_50_TimeMonitoring_2,
+        pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_50_TimeMonitoring_3 .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_50_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "annual" .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_50_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "regularly" .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_50_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "regularly" .
+

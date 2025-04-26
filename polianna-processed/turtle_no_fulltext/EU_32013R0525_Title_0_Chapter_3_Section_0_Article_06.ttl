@@ -1,0 +1,14 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_06 .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_06 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States .
+

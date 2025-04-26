@@ -1,0 +1,18 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_06 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_06 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TradablePermit,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_monitoring_authority pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_06_TimeMonitoring_1 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_06_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "not more than once a year" .
+

@@ -1,0 +1,12 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_09 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_09 a pol:PolicyArticle ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:TaxIncentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> .
+

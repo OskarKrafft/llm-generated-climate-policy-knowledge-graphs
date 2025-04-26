@@ -1,0 +1,33 @@
+@prefix pol: <http://example.org/pollution#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+pol:Article_ReviewAndReport a pol:RegulatoryRequirement ;
+    pol:hasTitle "Article Review and Report" ;
+    pol:hasContent "The commission shall review and report on various aspects related to CO2 emissions, deployment of zero- and low-emission vehicles, impact assessments, etc."^^xsd:string ;
+    pol:hasReviewDate "2027-12-31"^^xsd:date .
+
+pol:Commission a pol:Actor ;
+    pol:responsibleFor pol:Article_ReviewAndReport .
+
+pol:Directive_Review a pol:RegulatoryRequirement ;
+    pol:hasTitle "Directive Review and Report" ;
+    pol:hasContent "The commission shall review directive 1999/94/ec to provide consumers with accurate information on fuel consumption, CO2 emissions, etc."^^xsd:string ;
+    pol:hasReviewDate "2020-12-31"^^xsd:date .
+
+pol:Commission a pol:Actor ;
+    pol:responsibleFor pol:Directive_Review .
+
+pol:ImplementingActs a pol:RegulatoryRequirement ;
+    pol:hasTitle "Implementing Acts Determination" ;
+    pol:hasContent "The commission shall determine the correlation parameters necessary for reflecting any change in the regulatory test procedure."^^xsd:string .
+
+pol:Commission a pol:Actor ;
+    pol:responsibleFor pol:ImplementingActs .
+
+pol:DelegatedActs a pol:RegulatoryRequirement ;
+    pol:hasTitle "Adoption of Delegated Acts" ;
+    pol:hasContent "The commission is empowered to adopt delegated acts in order to amend this regulation by adapting the formulae set out in annex i."^^xsd:string .
+
+pol:Commission a pol:Actor ;
+    pol:responsibleFor pol:DelegatedActs .
+.

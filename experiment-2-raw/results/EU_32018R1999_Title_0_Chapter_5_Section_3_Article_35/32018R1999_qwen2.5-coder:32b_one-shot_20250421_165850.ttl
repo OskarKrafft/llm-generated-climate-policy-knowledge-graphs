@@ -1,0 +1,22 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Article_35 a <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    pol:hasAnnotators pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_A,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_C ;
+    pol:hasCELEXNumber pol:32018R1999 ;
+    pol:hasSubmissionDate pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_31_october_of_every_year ;
+    pol:hasTitle pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35 ;
+    pol:includesElement pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_a_progress_report_on_competitiveness,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_actual_fuel_quality_in_the_different_member_states_and_geographical_coverage_of_fuels_with_a_maximum_sulphur_content_of_10_mg/kg_aiming_to_provide_an_overview_of_the_fuels_quality_data_in_the_different_member_states_as_reported_pursuant_to_directive 98/70/ec>,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_an_overall_progress_report_on_energy_efficiency_obligation_schemes_and_alternative_policy_measures_as_referred_to_in_articles_7a_and_7b_of_directive_2012/27/eu>,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_an_overall_progress_report_on_member_states'_progress_in_creating_a_complete_and_operational_energy_market>,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_an_overall_progress_report_on_the_application_of_directive_2009/72/ec>,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_an_overall_progress_report_on_the_application_of_directive_2009/73/ec_pursuant_to_article_52_of_that_directive>,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_biennially,_a_report_on_voluntary_schemes_in_respect_of_which_the_commission_has_adopted_a_decision_pursuant_to_article_30(4)_of_directive_(eu)_2018/2001,_containing_the_information_specified_in_annex_xi_to_this_regulation>,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_biennially,_an_overall_progress_report_on_the_renovation_of_the_national_stock_of_residential_and_non-residential_buildings,_both_public_and_private,_in_line_with_the_roadmaps_set_out_in_the_long-term_renovation_strategies_that_each_member_state_shall_establish_in_accordance_with_article_2a_of_directive_2010/31/eu>,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_biennially,_from_2023,_a_report_on_union_bioenergy_sustainability,_containing_the_information_specified_in_annex_x>,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_every_four_years,_an_overall_progress_report_on_member_states'_increase_in_the_number_of_nearly_zero-energy_buildings_in_accordance_with_article_9(5)_of_directive 2010/31/eu>,
+        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_the_assessment_carried_out_pursuant_to_article_29,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_the_report_on_the_functioning_of_the_carbon_market_referred_to_in_article_10(5)_of_directive_2003/87/ec,_including_information_on_the_application_of_that_directive_in_accordance_with_article_21(2)_thereof>,
+        <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_where_appropriate,_recommendations_pursuant_to_article_34> .
+

@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_instrument\",\n        \"o\": \"RegulatoryInstr\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_monitoring_form\",\n        \"o\": \"Form_monitoring\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"nuclear_energy_sector\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"type\",\n        \"o\": \"Time_Monitoring\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2009\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"reported and disseminated from 2009 onwards\"\n    }\n]",
+  "original_output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_instrument\",\n        \"o\": \"RegulatoryInstr\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_monitoring_form\",\n        \"o\": \"Form_monitoring\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"nuclear_energy_sector\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"type\",\n        \"o\": \"Time_Monitoring\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2009\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"reported and disseminated from 2009 onwards\"\n    }\n]\n```",
+  "generation_time": 4.086449146270752,
+  "output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_instrument\",\n        \"o\": \"RegulatoryInstr\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_monitoring_form\",\n        \"o\": \"Form_monitoring\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"nuclear_energy_sector\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"type\",\n        \"o\": \"Time_Monitoring\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2009\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"reported and disseminated from 2009 onwards\"\n    }\n]\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+      "CELEX_Number": "32008R1099",
+      "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "raw",
+    "model": "gpt-4o-2024-08-06",
+    "timestamp": "2025-04-21T03:00:32.128455",
+    "reconstructed_from_raw": true
+  },
+  "triple_count": 9
+}

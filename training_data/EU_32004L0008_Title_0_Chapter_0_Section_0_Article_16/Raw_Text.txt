@@ -1,0 +1,5 @@
+article 16
+amendment to directive 92/42/eec
+the following indent shall be added to article 3(1) of directive 92/42/eec:
+"- cogeneration units as defined in directive 2004/8/ec of the european parliament and of the council of 11 february 2004 on the promotion of cogeneration based on useful heat demand in the internal energy market(20)."
+

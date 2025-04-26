@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "[\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_1\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"In_effect_date\",\n    \"o\": \"2011-02-24\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"24 February 2011\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_2\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"20th day following its publication in the Official Journal of the European Union\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  }\n]",
+  "original_output": "```json\n[\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_1\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"In_effect_date\",\n    \"o\": \"2011-02-24\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"24 February 2011\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_2\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"20th day following its publication in the Official Journal of the European Union\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  }\n]\n```",
+  "generation_time": 3.739210844039917,
+  "output": "```json\n[\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_1\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"In_effect_date\",\n    \"o\": \"2011-02-24\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"24 February 2011\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_2\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"20th day following its publication in the Official Journal of the European Union\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  }\n]\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+      "CELEX_Number": "32009R0079",
+      "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+      "Annotators": [
+        "B",
+        "F"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "raw",
+    "model": "gpt-4o-2024-08-06",
+    "timestamp": "2025-04-21T02:54:44.744006",
+    "reconstructed_from_raw": true
+  },
+  "triple_count": 11
+}

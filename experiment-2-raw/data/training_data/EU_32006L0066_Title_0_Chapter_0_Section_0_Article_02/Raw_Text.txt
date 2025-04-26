@@ -1,0 +1,8 @@
+article 2
+scope
+1.   this directive shall apply to all types of batteries and accumulators, regardless of their shape, volume, weight, material composition or use. it shall apply without prejudice to directives 2000/53/ec and 2002/96/ec.
+2.   this directive shall not apply to batteries and accumulators used in:
+(a)
+equipment connected with the protection of member states' essential security interests, arms, munitions and war material, with the exclusion of products that are not intended for specifically military purposes;
+(b)
+equipment designed to be sent into space.

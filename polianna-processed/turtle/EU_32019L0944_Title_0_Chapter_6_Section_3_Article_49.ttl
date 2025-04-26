@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_49 .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_3_Article_49 a pol:PolicyArticle ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:fullText """article 49
+supervisory body
+1.   the transmission system operator shall have a supervisory body which shall be in charge of taking decisions which may have a significant impact on the value of the assets of the shareholders within the transmission system operator, in particular decisions regarding the approval of the annual and longer-term financial plans, the level of indebtedness of the transmission system operator and the amount of dividends distributed to shareholders. the decisions falling under the remit of the supervisory body shall exclude those that are related to the day-to-day activities of the transmission system operator and management of the network, and to activities necessary for the preparation of the ten-year network development plan developed pursuant to article 51.
+2.   the supervisory body shall be composed of members representing the vertically integrated undertaking, members representing third-party shareholders and, where the relevant national law so provides, members representing other interested parties such as employees of the transmission system operator.
+3.   the first subparagraph of article 48(2) and article 48(3) to (7) shall apply to at least half of the members of the supervisory body minus one.
+point (b) of the second subparagraph of article 48(2) shall apply to all the members of the supervisory body."""^^xsd:string .
+

@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_14 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_14 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:specifies_compliance_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_14_TimeCompliance_1 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_14_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2012-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2012" .
+

@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Article 14: Adjustment of m0 and tm0 values"
+      },
+      "is_about": [
+        {
+          "id": "Time_Compliance",
+          "annotatedText": "by 31 October 2020, the m0 value in point 4 of part a of annex i shall be adjusted to the average mass in running order of all new passenger cars registered in 2017, 2018, and 2019. that new m0 value shall apply from 1 January 2022 until 31 December 2024"
+        },
+        {
+          "id": "Time_Compliance",
+          "annotatedText": "by 31 October 2022, the m0 value in point 4 of part b of annex i shall be adjusted to the average mass in running order of all new light commercial vehicles registered in 2019, 2020 and 2021. that new m0 value shall apply in 2024"
+        },
+        {
+          "id": "Time_Compliance",
+          "annotatedText": "by 31 October 2022, the indicative tm0 value for 2025 shall be determined as the respective average test mass of all new passenger cars and new light commercial vehicles registered in 2021"
+        },
+        {
+          "id": "Time_Compliance",
+          "annotatedText": "by 31 October 2024, and every second year thereafter, the tm0 value in point 6.2 of parts a and b of annex i shall be adjusted to the respective average test mass of all new passenger cars and new light commercial vehicles registered in the preceding two calendar years, starting with 2022 and 2023. the new tm0 values shall apply from 1 January of the calendar year following the date of the adjustment"
+        }
+      ],
+      "grants_legislative_authority": {
+        "id": "eurovoc:4038",
+        "label": "European Commission"
+      }
+    }
+  ]
+}

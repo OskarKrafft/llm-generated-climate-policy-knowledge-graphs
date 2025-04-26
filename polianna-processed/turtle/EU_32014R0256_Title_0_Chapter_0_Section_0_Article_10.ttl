@@ -1,0 +1,30 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_10 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 10
+monitoring and reporting
+1.   on the basis of data and information forwarded and, if appropriate, of any other data sources including data purchased by the commission, and taking into account relevant analyses such as the multi-annual network development plans for gas and for electricity, the commission shall forward to the european parliament, to the council and to the european economic and social committee and shall publish every two years a cross-sector analysis of the structural evolution and perspectives of the union’s energy system. that analysis shall aim in particular at:
+(a)
+identifying potential future gaps between the demand and supply of energy that are of significance for the union’s energy policy, including for the functioning of the internal energy market, with an emphasis on potential future deficiencies and flaws in the production and transmission infrastructure;
+(b)
+identifying investment obstacles and promoting best practices to address them; and
+(c)
+increasing transparency for market participants and potential market entrants.
+on the basis of this data and information, the commission may also provide any specific analysis deemed necessary or appropriate.
+2.   in preparing the analyses referred to in paragraph 1, the commission may be assisted by experts from member states and/or any other experts, professional associations with specific competence in the area concerned.
+the commission shall provide all member states with an opportunity to comment on the draft analyses.
+3.   the commission shall discuss the analyses with interested parties, such as entso-e, entso-g, the gas coordination group, the electricity coordination group and the oil coordination group."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038>,
+        pol:Member_States .
+

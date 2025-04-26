@@ -1,0 +1,16 @@
+article 52
+designation and certification of transmission system operators
+1.   before an undertaking is approved and designated as transmission system operator, it shall be certified in accordance with the procedures laid down in paragraphs 4, 5 and 6 of this article and in article 51 of regulation (eu) 2019/943.
+2.   undertakings which have been certified by the regulatory authority as having complied with the requirements of article 43 pursuant to the certification procedure below, shall be approved and designated as transmission system operators by member states. the designation of transmission system operators shall be notified to the commission and published in the official journal of the european union.
+3.   transmission system operators shall notify to the regulatory authority any planned transaction which may require a reassessment of their compliance with the requirements of article 43.
+4.   regulatory authorities shall monitor the continuing compliance of transmission system operators with the requirements of article 43. they shall open a certification procedure to ensure such compliance:
+(a)
+upon notification by the transmission system operator pursuant to paragraph 3;
+(b)
+on their own initiative where they have knowledge that a planned change in rights or influence over transmission system owners or transmission system operators may lead to an infringement of article 43, or where they have reason to believe that such an infringement may have occurred; or
+(c)
+upon a reasoned request from the commission.
+5.   the regulatory authorities shall adopt a decision on the certification of a transmission system operator within four months of the date of the notification by the transmission system operator or from the date of the commission request. after expiry of that period, the certification shall be deemed to be granted. the explicit or tacit decision of the regulatory authority shall become effective only after conclusion of the procedure set out in paragraph 6.
+6.   the explicit or tacit decision on the certification of a transmission system operator shall be notified without delay to the commission by the regulatory authority, together with all the relevant information with respect to that decision. the commission shall act in accordance with the procedure laid down in article 51 of regulation (eu) 2019/943.
+7.   the regulatory authorities and the commission may request from transmission system operators and undertakings performing any of the functions of generation or supply any information relevant for the fulfilment of their tasks under this article.
+8.   regulatory authorities and the commission shall preserve the confidentiality of commercially sensitive information.

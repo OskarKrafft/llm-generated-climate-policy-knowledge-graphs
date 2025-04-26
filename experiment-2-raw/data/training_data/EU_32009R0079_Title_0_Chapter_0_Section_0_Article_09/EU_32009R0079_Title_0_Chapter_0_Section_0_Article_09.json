@@ -1,0 +1,22 @@
+[
+  {
+    "s": "32009R0079",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "Article",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "32009R0079",
+    "p": "hasArticle",
+    "o": "Article"
+  }
+]

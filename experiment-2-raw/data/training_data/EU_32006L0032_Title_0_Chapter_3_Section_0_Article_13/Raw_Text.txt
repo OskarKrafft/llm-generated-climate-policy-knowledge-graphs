@@ -1,0 +1,14 @@
+article 13
+metering and informative billing of energy consumption
+1.   member states shall ensure that, in so far as it is technically possible, financially reasonable and proportionate in relation to the potential energy savings, final customers for electricity, natural gas, district heating and/or cooling and domestic hot water are provided with competitively priced individual meters that accurately reflect the final customer's actual energy consumption and that provide information on actual time of use.
+when an existing meter is replaced, such competitively priced individual meters shall always be provided, unless this is technically impossible or not cost-effective in relation to the estimated potential savings in the long term. when a new connection is made in a new building or a building undergoes major renovations, as set out in directive 2002/91/ec, such competitively priced individual meters shall always be provided.
+2.   member states shall ensure that, where appropriate, billing performed by energy distributors, distribution system operators and retail energy sales companies is based on actual energy consumption, and is presented in clear and understandable terms. appropriate information shall be made available with the bill to provide final customers with a comprehensive account of current energy costs. billing on the basis of actual consumption shall be performed frequently enough to enable customers to regulate their own energy consumption.
+3.   member states shall ensure that, where appropriate, the following information is made available to final customers in clear and understandable terms by energy distributors, distribution system operators or retail energy sales companies in or with their bills, contracts, transactions, and/or receipts at distribution stations:
+(a)
+current actual prices and actual consumption of energy;
+(b)
+comparisons of the final customer's current energy consumption with consumption for the same period in the previous year, preferably in graphic form;
+(c)
+wherever possible and useful, comparisons with an average normalised or benchmarked user of energy in the same user category;
+(d)
+contact information for consumers’ organisations, energy agencies or similar bodies, including website addresses, from which information may be obtained on available energy efficiency improvement measures, comparative end-user profiles and/or objective technical specifications for energy-using equipment.

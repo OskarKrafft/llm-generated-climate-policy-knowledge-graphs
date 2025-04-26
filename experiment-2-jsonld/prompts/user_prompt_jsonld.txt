@@ -1,0 +1,16 @@
+Below is the policy metadata in JSON form:
+{policy_info}
+
+Below is the raw article text:
+{article_text}
+
+Task:
+- Convert this article into valid JSON-LD using the POLIANNA ontology.
+- Follow the naming conventions from the system instructions.
+- Put your complete JSON-LD in a single code fence labeled 'jsonld'.
+- No text outside that fence.
+- DO NOT include any binary string markers like b'', b''^b', or similar.
+- Make sure the output is clean, with no escape characters or artifacts.
+- Make sure it is valid JSON-LD that can be parsed by standard JSON tools.
+
+Begin now.

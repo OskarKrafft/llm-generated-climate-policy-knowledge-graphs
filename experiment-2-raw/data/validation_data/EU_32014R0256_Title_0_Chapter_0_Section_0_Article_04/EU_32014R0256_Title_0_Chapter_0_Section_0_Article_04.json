@@ -1,0 +1,67 @@
+[
+  {
+    "s": "Article",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "annotatedText",
+    "o": "1 june of each reporting year"
+  },
+  {
+    "s": "Article",
+    "p": "grants_monitoring_authority",
+    "o": "Member_States"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "type",
+    "o": "Time_Compliance"
+  },
+  {
+    "s": "TimeCompliance_1",
+    "p": "Compliance_date",
+    "o": "2025-06-01"
+  },
+  {
+    "s": "TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32014R0256",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_compliance_time",
+    "o": "TimeCompliance_1"
+  },
+  {
+    "s": "Article",
+    "p": "specifies_monitoring_time",
+    "o": "TimeMonitoring_2"
+  },
+  {
+    "s": "TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "reporting year"
+  },
+  {
+    "s": "32014R0256",
+    "p": "type",
+    "o": "PolicyDocument"
+  }
+]

@@ -1,0 +1,530 @@
+jsonld
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "poliana": "http://example.org/poliana#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@id": "http://example.org/articles/article-verification-system",
+  "@type": "poliana:Article",
+  "dct:title": "Verification System for Biofuels and Bioliquids Compliance with Sustainability Criteria",
+  "dct:description": "This article outlines the verification system for ensuring that biofuels and bioliquids comply with sustainability criteria as set forth in the directive.",
+  "poliana:hasSection": [
+    {
+      "@id": "#section1",
+      "@type": "poliana:Section",
+      "rdfs:label": "Verification of Compliance with Sustainability Criteria",
+      "dct:description": "Details on how economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#section2",
+      "@type": "poliana:Section",
+      "rdfs:label": "International Agreements and Schemes",
+      "dct:description": "Provisions for recognizing international agreements and schemes that demonstrate compliance with sustainability criteria.",
+      "poliana:hasSubSection": [
+        {
+          "@id": "#subsection2a",
+          "@type": "poliana:SubSection",
+          "rdfs:label": "Bilateral or Multilateral Agreements",
+          "dct:description": "Criteria for concluding agreements with third countries on sustainability criteria."
+        },
+        {
+          "@id": "#subsection2,
+          @type": "poliana:SubSection",
+          "rdfs:label": "Voluntary National or International Schemes",
+          "dct:description": "Recognition of schemes setting standards for biomass production, greenhouse gas emissions, and land use."
+        }
+      ]
+    },
+    {
+      "@id": "#section3",
+      "@type": "poliana:Section",
+      "rdfs:label": "Decision Making Process",
+      "dct:description": "Procedures for the commission to adopt decisions on recognized agreements or schemes.",
+      "poliana:hasSubSection": [
+        {
+          "@id": "#subsection3a",
+          "@type": "poliana:SubSection",
+          "rdfs:label": "Criteria for Adoption of Decisions",
+          "dct:description": "Standards of reliability, transparency, and independent auditing required for agreements or schemes."
+        },
+        {
+          "@id": "#subsection3,
+          @type": "poliana:SubSection",
+          "rdfs:label": "Advisory Procedure",
+          "dct:description": "Use of the advisory procedure as outlined in article 25(3) for decision making."
+        }
+      ]
+    },
+    {
+      "@id": "#section4",
+      "@type": "poliana:Section",
+      "rdfs:label": "Examination and Decision Process",
+      "dct:description": "Procedures for examining the application of article 17 in relation to specific sources of biofuel or bioliquid.",
+      "poliana:hasSubSection": [
+        {
+          "@id": "#subsection4a",
+          "@type": "poliana:SubSection",
+          "rdfs:label": "Request and Examination Process",
+          "dct:description": "Process for member states to request examination of article 17 application."
+        },
+        {
+          "@id": "#subsection4,
+          @type": "poliana:SubSection",
+          "rdfs:label": "Decision on Compliance",
+          "dct:description": "Commission's decision on whether a source may be taken into account for the purposes of article 17(1)."
+        }
+      ]
+    },
+    {
+      "@id": "#section5",
+      "@type": "poliana:Section",
+      "rdfs:label": "Reporting and Review",
+      "dct:description": "Provisions for reporting on the effectiveness of the system and potential introduction of mandatory requirements.",
+      "poliana:hasSubSection": [
+        {
+          "@id": "#subsection5a",
+          "@type": "poliana:SubSection",
+          "rdfs:label": "Effectiveness Report",
+          "dct:description": "Commission's report on the effectiveness of the system for providing information on sustainability criteria."
+        },
+        {
+          "@id": "#subsection5,
+          @type": "poliana:SubSection",
+          "rdfs:label": "Feasibility and Appropriateness Review",
+          "dct:description": "Review of feasibility and appropriateness of introducing mandatory requirements for air, soil, or water protection."
+        }
+      ]
+    }
+  ],
+  "poliana:hasRegulation": {
+    "@id": "http://example.org/regulations/directive-on-renewable-energy",
+    "@type": "poliana:Regulation",
+    "dct:title": "Directive on Renewable Energy"
+  },
+  "poliana:hasPolicy": [
+    {
+      "@id": "#policy1",
+      "@type": "poliana:Policy",
+      "rdfs:label": "Verification of Compliance with Sustainability Criteria",
+      "dct:description": "Economic operators must verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#policy2",
+      "@type": "poliana:Policy",
+      "rdfs:label": "Recognition of International Agreements and Schemes",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria."
+    },
+    {
+      "@id": "#policy3",
+      "@type": "poliana:Policy",
+      "rdfs:label": "Decision Making Process",
+      "dct:description": "Commission adopts decisions on recognized agreements or schemes based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#policy4",
+      "@type": "poliana:Policy",
+      "rdfs:label": "Examination and Decision Process",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid and decides on compliance."
+    },
+    {
+      "@id": "#policy5",
+      "@type": "poliana:Policy",
+      "rdfs:label": "Reporting and Review",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasProcedure": [
+    {
+      "@id": "#procedure1",
+      "@type": "poliana:Procedure",
+      "rdfs:label": "Verification Procedure",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#procedure2",
+      "@type": "poliana:Procedure",
+      "rdfs:label": "Recognition Procedure",
+      "dct:description": "Commission recognizes international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#procedure3",
+      "@type": "poliana:Procedure",
+      "rdfs:label": "Examination Procedure",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#procedure4",
+      "@type": "poliana:Procedure",
+      "rdfs:label": "Reporting Procedure",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasRequirement": [
+    {
+      "@id": "#requirement1",
+      "@type": "poliana:Requirement",
+      "rdfs:label": "Verification Requirement",
+      "dct:description": "Economic operators must verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#requirement2",
+      "@type": "poliana:Requirement",
+      "rdfs:label": "Recognition Requirement",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#requirement3",
+      "@type": "poliana:Requirement",
+      "rdfs:label": "Examination Requirement",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#requirement4",
+      "@type": "poliana:Requirement",
+      "rdfs:label": "Reporting Requirement",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasStandard": [
+    {
+      "@id": "#standard1",
+      "@type": "poliana:Standard",
+      "rdfs:label": "Verification Standard",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#standard2",
+      "@type": "poliana:Standard",
+      "rdfs:label": "Recognition Standard",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#standard3",
+      "@type": "poliana:Standard",
+      "rdfs:label": "Examination Standard",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#standard4",
+      "@type": "poliana:Standard",
+      "rdfs:label": "Reporting Standard",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasGuideline": [
+    {
+      "@id": "#guideline1",
+      "@type": "poliana:Guideline",
+      "rdfs:label": "Verification Guideline",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#guideline2",
+      "@type": "poliana:Guideline",
+      "rdfs:label": "Recognition Guideline",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#guideline3",
+      "@type": "poliana:Guideline",
+      "rdfs:label": "Examination Guideline",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#guideline4",
+      "@type": "poliana:Guideline",
+      "rdfs:label": "Reporting Guideline",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasBestPractice": [
+    {
+      "@id": "#bestpractice1",
+      "@type": "poliana:BestPractice",
+      "rdfs:label": "Verification Best Practice",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#bestpractice2",
+      "@type": "poliana:BestPractice",
+      "rdfs:label": "Recognition Best Practice",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#bestpractice3",
+      "@type": "poliana:BestPractice",
+      "rdfs:label": "Examination Best Practice",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#bestpractice4",
+      "@type": "poliana:BestPractice",
+      "rdfs:label": "Reporting Best Practice",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasIndicator": [
+    {
+      "@id": "#indicator1",
+      "@type": "poliana:Indicator",
+      "rdfs:label": "Verification Indicator",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#indicator2",
+      "@type": "poliana:Indicator",
+      "rdfs:label": "Recognition Indicator",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#indicator3",
+      "@type": "poliana:Indicator",
+      "rdfs:label": "Examination Indicator",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#indicator4",
+      "@type": "poliana:Indicator",
+      "rdfs:label": "Reporting Indicator",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasMetric": [
+    {
+      "@id": "#metric1",
+      "@type": "poliana:Metric",
+      "rdfs:label": "Verification Metric",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#metric2",
+      "@type": "poliana:Metric",
+      "rdfs:label": "Recognition Metric",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#metric3",
+      "@type": "poliana:Metric",
+      "rdfs:label": "Examination Metric",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#metric4",
+      "@type": "poliana:Metric",
+      "rdfs:label": "Reporting Metric",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasKPI": [
+    {
+      "@id": "#kpi1",
+      "@type": "poliana:KPI",
+      "rdfs:label": "Verification KPI",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#kpi2",
+      "@type": "poliana:KPI",
+      "rdfs:label": "Recognition KPI",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#kpi3",
+      "@type": "poliana:KPI",
+      "rdfs:label": "Examination KPI",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#kpi4",
+      "@type": "poliana:KPI",
+      "rdfs:label": "Reporting KPI",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasBenchmark": [
+    {
+      "@id": "#benchmark1",
+      "@type": "poliana:Benchmark",
+      "rdfs:label": "Verification Benchmark",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#benchmark2",
+      "@type": "poliana:Benchmark",
+      "rdfs:label": "Recognition Benchmark",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#benchmark3",
+      "@type": "poliana:Benchmark",
+      "rdfs:label": "Examination Benchmark",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#benchmark4",
+      "@type": "poliana:Benchmark",
+      "rdfs:label": "Reporting Benchmark",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasTarget": [
+    {
+      "@id": "#target1",
+      "@type": "poliana:Target",
+      "rdfs:label": "Verification Target",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#target2",
+      "@type": "poliana:Target",
+      "rdfs:label": "Recognition Target",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#target3",
+      "@type": "poliana:Target",
+      "rdfs:label": "Examination Target",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#target4",
+      "@type": "poliana:Target",
+      "rdfs:label": "Reporting Target",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasGoal": [
+    {
+      "@id": "#goal1",
+      "@type": "poliana:Goal",
+      "rdfs:label": "Verification Goal",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#goal2",
+      "@type": "poliana:Goal",
+      "rdfs:label": "Recognition Goal",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#goal3",
+      "@type": "poliana:Goal",
+      "rdfs:label": "Examination Goal",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#goal4",
+      "@type": "poliana:Goal",
+      "rdfs:label": "Reporting Goal",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasObjective": [
+    {
+      "@id": "#objective1",
+      "@type": "poliana:Objective",
+      "rdfs:label": "Verification Objective",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#objective2",
+      "@type": "poliana:Objective",
+      "rdfs:label": "Recognition Objective",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#objective3",
+      "@type": "poliana:Objective",
+      "rdfs:label": "Examination Objective",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#objective4",
+      "@type": "poliana:Objective",
+      "rdfs:label": "Reporting Objective",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasStrategy": [
+    {
+      "@id": "#strategy1",
+      "@type": "poliana:Strategy",
+      "rdfs:label": "Verification Strategy",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#strategy2",
+      "@type": "poliana:Strategy",
+      "rdfs:label": "Recognition Strategy",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#strategy3",
+      "@type": "poliana:Strategy",
+      "rdfs:label": "Examination Strategy",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#strategy4",
+      "@type": "poliana:Strategy",
+      "rdfs:label": "Reporting Strategy",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasPlan": [
+    {
+      "@id": "#plan1",
+      "@type": "poliana:Plan",
+      "rdfs:label": "Verification Plan",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#plan2",
+      "@type": "poliana:Plan",
+      "rdfs:label": "Recognition Plan",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#plan3",
+      "@type": "poliana:Plan",
+      "rdfs:label": "Examination Plan",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#plan4",
+      "@type": "poliana:Plan",
+      "rdfs:label": "Reporting Plan",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ],
+  "poliana:hasAction": [
+    {
+      "@id": "#action1",
+      "@type": "poliana:Action",
+      "rdfs:label": "Verification Action",
+      "dct:description": "Economic operators verify compliance with sustainability criteria using mass balance systems or other methods."
+    },
+    {
+      "@id": "#action2",
+      "@type": "poliana:Action",
+      "rdfs:label": "Recognition Action",
+      "dct:description": "Commission may recognize international agreements and schemes that demonstrate compliance with sustainability criteria based on standards of reliability, transparency, and independent auditing."
+    },
+    {
+      "@id": "#action3",
+      "@type": "poliana:Action",
+      "rdfs:label": "Examination Action",
+      "dct:description": "Commission examines the application of article 17 in relation to specific sources of biofuel or bioliquid using the advisory procedure as outlined in article 25(3)."
+    },
+    {
+      "@id": "#action4",
+      "@type": "poliana:Action",
+      "rdfs:label": "Reporting Action",
+      "dct:description": "Commission reports on the effectiveness of the system for providing information on sustainability criteria and reviews feasibility and appropriateness of introducing mandatory requirements."
+    }
+  ]
+}
+It seems like you've created a detailed JSON structure with various elements related to different aspects of a process or project, such as verification, recognition, examination, and reporting. Each element has its own unique identifier, type, label, and description. This kind of structured data can be very useful for organizing information in a way that is easily accessible and manageable.
+
+If you have any specific questions about this structure or need further modifications, feel free to ask! For example, are you looking to add more details to each element, connect these elements in some way, or use this structure in a particular application?

@@ -1,0 +1,30 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:VoluntaryAgrmt ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeMonitoring_1,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeMonitoring_2,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeMonitoring_3,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeMonitoring_4 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "two years for power plants" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "one year for installations with an electrical capacity of less than 150 kw" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "one year for repowering of existing renewable energy plants" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_16_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "six months for grid connections for repowering projects" .
+

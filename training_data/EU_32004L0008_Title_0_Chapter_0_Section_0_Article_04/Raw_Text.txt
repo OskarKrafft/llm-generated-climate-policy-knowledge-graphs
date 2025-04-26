@@ -1,0 +1,9 @@
+article 4
+efficiency criteria of cogeneration
+1. for the purpose of determining the efficiency of cogeneration in accordance with annex iii, the commission shall, in accordance with the procedure referred to in article 14(2), not later than 21 february 2006, establish harmonised efficiency reference values for separate production of electricity and heat. these harmonised efficiency reference values shall consist of a matrix of values differentiated by relevant factors, including year of construction and types of fuel, and must be based on a well-documented analysis taking, inter alia, into account data from operational use under realistic conditions, cross-border exchange of electricity, fuel mix and climate conditions as well as applied cogeneration technologies in accordance with the principles in annex iii.
+2. the commission shall, in accordance with the procedure referred to in article 14(2), review the harmonised efficiency reference values for separate production of electricity and heat referred to in paragraph 1, for the first time on 21 february 2011, and every four years thereafter, to take account of technological developments and changes in the distribution of energy sources.
+3. member states implementing this directive before the establishment by the commission of harmonised efficiency reference values for separate production of electricity and heat referred to in paragraph 1, should, until the date referred to in paragraph 1, adopt their national efficiency reference values for separate production of heat and electricity to be used for the calculation of primary energy savings from cogeneration in accordance with the methodology set out in annex iii.
+
+
+
+comission (actor) --> shall_review --> the harmonised efficiency reference values for separate production of electricity and heat referred to in paragraph 1 (instrument)

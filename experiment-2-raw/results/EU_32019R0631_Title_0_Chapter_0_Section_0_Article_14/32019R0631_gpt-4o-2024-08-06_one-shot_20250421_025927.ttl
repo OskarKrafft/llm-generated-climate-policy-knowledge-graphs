@@ -1,0 +1,38 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 a pol:PolicyArticle ;
+    pol:authorises eurovoc:4038 ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:specifies_monitoring_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_1,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_2,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_3,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_4,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_5,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_6,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_7 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "31 october 2020" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january 2022" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "31 december 2024" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "31 october 2022" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "2024" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_6 a pol:Time_Monitoring ;
+    pol:annotatedText "31 october 2024" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_7 a pol:Time_Monitoring ;
+    pol:annotatedText "1 january" .
+

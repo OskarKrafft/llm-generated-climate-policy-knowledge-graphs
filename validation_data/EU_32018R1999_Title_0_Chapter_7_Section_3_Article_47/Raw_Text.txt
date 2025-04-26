@@ -1,0 +1,14 @@
+article 47
+amendments to directive 98/70/ec
+directive 98/70/ec is amended as follows:
+(1)
+article 7a is amended as follows:
+(a)
+in the third subparagraph of paragraph 1, point (a) is replaced by the following:
+‘(a)
+(b)
+in paragraph 2, the introductory wording is replaced by the following:
+‘2.   member states shall require suppliers to reduce as gradually as possible life cycle greenhouse gas emissions per unit of energy from fuel and energy supplied by up to 10 % by 31 december 2020, compared with the fuel baseline standard set out in annex ii to council directive (eu) 2015/652. that reduction shall consist of:’;
+(2)
+in article 8, paragraph 4 is replaced by the following:
+‘4.   the commission shall ensure that the information submitted pursuant to paragraph 3 is promptly made available by appropriate means.’.

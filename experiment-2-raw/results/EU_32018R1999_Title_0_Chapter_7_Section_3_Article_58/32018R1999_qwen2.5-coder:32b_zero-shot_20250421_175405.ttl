@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+<https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_Article_11(3)_of_Regulation_525/2013> pol:appliesTo pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_SecondCommitmentPeriodOfKyotoProtocol .
+
+<https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_Article_19_of_Regulation_525/2013> pol:appliesTo pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_ReviewsOfGreenhouseGasInventoryData2018-2020 .
+
+<https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_Article_22_of_Regulation_525/2013> pol:appliesTo pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_SubmissionOfReportRequiredUnderThatArticle .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_Article_58 a pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TransitionalProvisions ;
+    pol:allowsApplicationOf pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_DerogationsPursuantToRelevantUnionSectoralLawInAreaOfElectricityAndElectricityRiskPreparedness ;
+    pol:appliesTo pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_Reports2018-2020 ;
+    pol:derogatesFrom pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_Article_57 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_Reports2018-2020 pol:containsDataRequiredUnder <https://polianna-kg.org/Ontology#EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_Article_57,_Article_7,_Points_a_and_d_of_Article_17(1)_of_Regulation_525/2013> .
+

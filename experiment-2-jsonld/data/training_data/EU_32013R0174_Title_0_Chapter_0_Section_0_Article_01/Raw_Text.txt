@@ -1,0 +1,58 @@
+article 1
+regulation (ec) no 106/2008 is hereby amended as follows:
+(1)
+the title is replaced by the following:
+‘regulation (ec) no 106/2008 of the european parliament and of the council of 15 january 2008 on a union energy-efficiency labelling programme for office equipment’;
+(2)
+article 1 is replaced by the following:
+‘article 1
+objective
+this regulation establishes the rules for the union energy-efficiency labelling programme for office equipment (hereinafter referred to as the energy star programme) as defined in the agreement between the government of the united states of america and the european union on the coordination of energy-efficiency labelling programmes for office equipment signed on 10 december 2012 in brussels and 18 january 2013 in washington (10) (hereinafter referred to as “the agreement”).
+(3)
+article 4 is amended as follows:
+(a)
+paragraph 1 is replaced by the following:
+‘1.   the energy star programme shall contribute to fulfilling the member states’ and the union’s energy-efficiency targets as referred to in articles 1 and 3 of directive 2012/27/eu of the european parliament and of the council of 25 october 2012 on energy efficiency (11). it shall be coordinated, as appropriate, with other union labelling or quality certification arrangements as well as with schemes such as, in particular, the union ecolabel award scheme, established by regulation (ec) no 66/2010 of the european parliament and of the council of 25 november 2009 on the eu ecolabel (12), the indication by labelling and standard product information of the consumption of energy and other resources by energy-related products, established by directive 2010/30/eu of the european parliament and of the council (13) and measures implementing directive 2009/125/ec of the european parliament and of the council of 21 october 2009 establishing a framework for the setting of ecodesign requirements for energy-related products (14). that coordination shall include the exchange of evidence and, if appropriate, the setting of common levels of specifications and requirements across the different schemes.
+(b)
+paragraphs 4 and 5 are replaced by the following:
+‘4.   other existing and new voluntary energy-efficiency labelling schemes for office equipment products in the member states may co-exist with the energy star programme.
+5.   without prejudice to any union rules on conformity assessment and conformity marking and/or to any international agreement concluded between the union and third countries as regards access to the union market, products covered by this regulation which are placed on the union market may be tested by the commission or member states in order to verify their compliance with the requirements of this regulation.’;
+(4)
+article 6 is replaced by the following:
+‘article 6
+promotion of energy-efficiency criteria
+1.   for the duration of the agreement, central government authorities within the meaning of directive 2004/18/ec of the european parliament and of the council of 31 march 2004 on the coordination of procedures for the award of public works contracts, public supply contracts and public service contracts (15) shall, without prejudice to union and national law and economic criteria, specify energy-efficiency requirements not less demanding than the common specifications for public supply contracts having a value equal to or greater than the thresholds laid down in article 7 of that directive. contracting authorities at regional and local level shall be encouraged by member states to use those requirements. this article shall apply without prejudice to the provisions laid down in article 6 of directive 2012/27/eu and in point (c) of annex iii to that directive.
+2.   for the duration of the agreement the commission and the other union institutions shall, without prejudice to union and national law and economic criteria, specify energy-efficiency requirements not less demanding than the common specifications for public supply contracts having a value equal to or greater than the thresholds laid down in article 7 of directive 2004/18/ec.
+(5)
+article 7 is deleted;
+(6)
+article 8 is replaced by the following:
+‘article 8
+european union energy star board
+1.   the commission shall establish a european union energy star board (euesb) consisting of national representatives referred to in article 9 and representatives of interested parties. the euesb shall review the implementation of the energy star programme within the union and shall provide the commission with advice and assistance, as appropriate, to enable it to carry out its role as management entity, as referred to in article iv of the agreement.
+2.   the commission shall ensure that, to the extent possible in the conduct of its activities, the euesb observes, in respect of each office equipment product group, the balanced participation of all relevant interested parties concerned with that product group, such as manufacturers, retailers, importers, environmental protection groups and consumer organisations.
+3.   the commission, assisted by the euesb, shall monitor the market penetration of products bearing the common logo and developments in the energy efficiency of office equipment, with a view to the timely revision of the common specifications.
+4.   the commission shall establish the euesb’s rules of procedure, taking account of the views of national representatives in the euesb.’;
+(7)
+in article 10, point (a) is replaced by the following:
+‘(a)
+the objectives for energy-efficiency improvement, bearing in mind the need to pursue a high standard of consumer and environmental protection and the market penetration which the energy star programme should seek to achieve at union level;’;
+(8)
+article 11 is replaced by the following:
+‘article 11
+preparatory procedures for the revision of technical criteria
+1.   with a view to preparing for the revision of the common specifications and of the office equipment product groups covered by annex c to the agreement, and before submitting a draft proposal or replying to usepa in accordance with the procedures laid down in the agreement and in council decision 2013/107/eu of 13 november 2012 on the signing and conclusion of the agreement between the government of the united states of america and the european union on the coordination of energy-efficiency labelling programmes for office equipment (16), the steps set out in paragraphs 2 to 5 shall be taken.
+2.   the commission may request the euesb to make a proposal for the revision of the agreement or of the common specifications for a product. the commission may make a proposal to the euesb for the revision of the common specifications for a product or the agreement. the euesb may also make a proposal to the commission on its own initiative.
+3.   the commission shall consult the euesb whenever it receives a proposal for revision of the agreement from usepa.
+4.   when giving their views to the commission, the members of the euesb shall take into account the results of feasibility and market studies and best available technology for reducing energy consumption.
+5.   the commission shall take particular account of the objective of setting common specifications at an ambitious level, as provided for in article i, paragraph 3, of the agreement, with the aim of reducing energy consumption and shall have due regard for the technology available and the associated life-cycle costs. in particular, the euesb shall, before giving its views on any new common specifications, take into account the latest results of ecodesign studies.
+(9)
+article 12(3) is replaced by the following:
+‘3.   the commission shall ensure proper use of the common logo by undertaking or coordinating action described in article ix, paragraphs 2, 3 and 4, of the agreement. member states shall take action as appropriate, in particular as described in article ix, paragraph 5, of the agreement to ensure conformity with the provisions of this regulation in their own territory and shall inform the commission. member states may refer evidence of non-compliance by programme participants to the commission for initial action.’;
+(10)
+article 13 is replaced by the following:
+‘article 13
+review and revision
+before the parties to the agreement discuss its renewal in accordance with article xiv, paragraph 2 thereof, the commission shall evaluate the effectiveness of the energy star programme in improving the energy efficiency of office equipment, in creating new jobs and in providing market opportunities for manufacturers, and assess alternative policy options such as those provided by union legislation, in particular directives 2009/125/ec and 2010/30/eu. the results of such an evaluation and assessment shall be reported to the european parliament and to the council at least two years before the expiry of the agreement.’;
+(11)
+article 14 is deleted.

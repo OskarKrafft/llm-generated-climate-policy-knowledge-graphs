@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32008R1099 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_03 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 3
+data sources
+1.   while applying the principles of maintaining a reduced burden on respondents and of administrative simplification, member states shall compile data concerning energy products and their aggregates in the community from the following sources:
+(a)
+specific statistical surveys addressed to the primary and transformed energy producers and traders, distributors and transporters, importers and exporters of energy products;
+(b)
+other statistical surveys addressed to final energy users in the sectors of manufacturing industry, transport, and other sectors, including households;
+(c)
+other statistical estimation procedures or other sources, including administrative sources, such as regulators of the electricity and gas markets.
+2.   member states shall lay down the detailed rules concerning the reporting of the data needed for the national statistics as specified in article 4 by undertakings and other sources.
+3.   the list of data sources may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2)."""^^xsd:string ;
+    pol:imposes_monitoring pol:Member_States .
+

@@ -1,0 +1,114 @@
+article 29
+sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels
+1.   energy from biofuels, bioliquids and biomass fuels shall be taken into account for the purposes referred to in points (a), (b) and (c) of this subparagraph only if they fulfil the sustainability and the greenhouse gas emissions saving criteria laid down in paragraphs 2 to 7 and 10:
+(a)
+contributing towards the union target set in article 3(1) and the renewable energy shares of member states;
+(b)
+measuring compliance with renewable energy obligations, including the obligation laid down in article 25;
+(c)
+eligibility for financial support for the consumption of biofuels, bioliquids and biomass fuels.
+however, biofuels, bioliquids and biomass fuels produced from waste and residues, other than agricultural, aquaculture, fisheries and forestry residues, are required to fulfil only the greenhouse gas emissions saving criteria laid down in paragraph 10 in order to be taken into account for the purposes referred to in points (a), (b) and (c) of the first subparagraph. this subparagraph shall also apply to waste and residues that are first processed into a product before being further processed into biofuels, bioliquids and biomass fuels.
+electricity, heating and cooling produced from municipal solid waste shall not be subject to the greenhouse gas emissions saving criteria laid down in paragraph 10.
+biomass fuels shall fulfil the sustainability and greenhouse gas emissions saving criteria laid down in paragraphs 2 to 7 and 10 if used in installations producing electricity, heating and cooling or fuels with a total rated thermal input equal to or exceeding 20 mw in the case of solid biomass fuels, and with a total rated thermal input equal to or exceeding 2 mw in the case of gaseous biomass fuels. member states may apply the sustainability and greenhouse gas emissions saving criteria to installations with lower total rated thermal input.
+the sustainability and the greenhouse gas emissions saving criteria laid down in paragraphs 2 to 7 and 10 shall apply irrespective of the geographical origin of the biomass.
+2.   biofuels, bioliquids and biomass fuels produced from waste and residues derived not from forestry but from agricultural land shall be taken into account for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1 only where operators or national authorities have monitoring or management plans in place in order to address the impacts on soil quality and soil carbon. information about how those impacts are monitored and managed shall be reported pursuant to article 30(3).
+3.   biofuels, bioliquids and biomass fuels produced from agricultural biomass taken into account for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1 shall not be made from raw material obtained from land with a high biodiversity value, namely land that had one of the following statuses in or after january 2008, whether or not the land continues to have that status:
+(a)
+primary forest and other wooded land, namely forest and other wooded land of native species, where there is no clearly visible indication of human activity and the ecological processes are not significantly disturbed;
+(b)
+highly biodiverse forest and other wooded land which is species-rich and not degraded, or has been identified as being highly biodiverse by the relevant competent authority, unless evidence is provided that the production of that raw material did not interfere with those nature protection purposes;
+(c)
+areas designated:
+(i)
+by law or by the relevant competent authority for nature protection purposes; or
+(ii)
+for the protection of rare, threatened or endangered ecosystems or species recognised by international agreements or included in lists drawn up by intergovernmental organisations or the international union for the conservation of nature, subject to their recognition in accordance with the first subparagraph of article 30(4),
+unless evidence is provided that the production of that raw material did not interfere with those nature protection purposes;
+(d)
+highly biodiverse grassland spanning more than one hectare that is:
+(i)
+natural, namely grassland that would remain grassland in the absence of human intervention and that maintains the natural species composition and ecological characteristics and processes; or
+(ii)
+non-natural, namely grassland that would cease to be grassland in the absence of human intervention and that is species-rich and not degraded and has been identified as being highly biodiverse by the relevant competent authority, unless evidence is provided that the harvesting of the raw material is necessary to preserve its status as highly biodiverse grassland.
+the commission may adopt implementing acts further specifying the criteria by which to determine which grassland are to be covered by point (d) of the first subparagraph of this paragraph. those implementing acts shall be adopted in accordance with the examination procedure referred to in article 34(3).
+4.   biofuels, bioliquids and biomass fuels produced from agricultural biomass taken into account for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1 shall not be made from raw material obtained from land with high-carbon stock, namely land that had one of the following statuses in january 2008 and no longer has that status:
+(a)
+wetlands, namely land that is covered with or saturated by water permanently or for a significant part of the year;
+(b)
+continuously forested areas, namely land spanning more than one hectare with trees higher than five metres and a canopy cover of more than 30 %, or trees able to reach those thresholds in situ;
+(c)
+land spanning more than one hectare with trees higher than five metres and a canopy cover of between 10 % and 30 %, or trees able to reach those thresholds in situ, unless evidence is provided that the carbon stock of the area before and after conversion is such that, when the methodology laid down in part c of annex v is applied, the conditions laid down in paragraph 10 of this article would be fulfilled.
+this paragraph shall not apply if, at the time the raw material was obtained, the land had the same status as it had in january 2008.
+5.   biofuels, bioliquids and biomass fuels produced from agricultural biomass taken into account for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1 shall not be made from raw material obtained from land that was peatland in january 2008, unless evidence is provided that the cultivation and harvesting of that raw material does not involve drainage of previously undrained soil.
+6.   biofuels, bioliquids and biomass fuels produced from forest biomass taken into account for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1 shall meet the following criteria to minimise the risk of using forest biomass derived from unsustainable production:
+(a)
+the country in which forest biomass was harvested has national or sub-national laws applicable in the area of harvest as well as monitoring and enforcement systems in place ensuring:
+(i)
+the legality of harvesting operations;
+(ii)
+forest regeneration of harvested areas;
+(iii)
+that areas designated by international or national law or by the relevant competent authority for nature protection purposes, including in wetlands and peatlands, are protected;
+(iv)
+that harvesting is carried out considering maintenance of soil quality and biodiversity with the aim of minimising negative impacts; and
+(v)
+that harvesting maintains or improves the long-term production capacity of the forest;
+(b)
+when evidence referred to in point (a) of this paragraph is not available, the biofuels, bioliquids and biomass fuels produced from forest biomass shall be taken into account for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1 if management systems are in place at forest sourcing area level ensuring:
+(i)
+the legality of harvesting operations;
+(ii)
+forest regeneration of harvested areas;
+(iii)
+that areas designated by international or national law or by the relevant competent authority for nature protection purposes, including in wetlands and peatlands, are protected unless evidence is provided that the harvesting of that raw material does not interfere with those nature protection purposes;
+(iv)
+that harvesting is carried out considering the maintenance of soil quality and biodiversity with the aim of minimising negative impacts; and
+(v)
+that harvesting maintains or improves the long-term production capacity of the forest.
+7.   biofuels, bioliquids and biomass fuels produced from forest biomass taken into account for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1 shall meet the following land-use, land-use change and forestry (lulucf) criteria:
+(a)
+the country or regional economic integration organisation of origin of the forest biomass:
+(i)
+is a party to the paris agreement;
+(ii)
+has submitted a nationally determined contribution (ndc) to the united nations framework convention on climate change (unfccc), covering emissions and removals from agriculture, forestry and land use which ensures that changes in carbon stock associated with biomass harvest are accounted towards the country's commitment to reduce or limit greenhouse gas emissions as specified in the ndc; or
+(iii)
+has national or sub-national laws in place, in accordance with article 5 of the paris agreement, applicable in the area of harvest, to conserve and enhance carbon stocks and sinks, and providing evidence that reported lulucf-sector emissions do not exceed removals;
+(b)
+where evidence referred to in point (a) of this paragraph is not available, the biofuels, bioliquids and biomass fuels produced from forest biomass shall be taken into account for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1 if management systems are in place at forest sourcing area level to ensure that carbon stocks and sinks levels in the forest are maintained, or strengthened over the long term.
+8.   by 31 january 2021, the commission shall adopt implementing acts establishing the operational guidance on the evidence for demonstrating compliance with the criteria laid down in paragraphs 6 and 7 of this article. those implementing acts shall be adopted in accordance with the examination procedure referred to in article 34(3).
+9.   by 31 december 2026, the commission shall assess whether the criteria laid down in paragraphs 6 and 7 effectively minimise the risk of using forest biomass derived from unsustainable production and address lulucf criteria, on the basis of the available data.
+the commission shall, if appropriate, submit a legislative proposal to amend the criteria laid down in paragraphs 6 and 7 for the period after 2030.
+10.   the greenhouse gas emission savings from the use of biofuels, bioliquids and biomass fuels taken into account for the purposes referred to in paragraph 1 shall be:
+(a)
+at least 50 % for biofuels, biogas consumed in the transport sector, and bioliquids produced in installations in operation on or before 5 october 2015;
+(b)
+at least 60 % for biofuels, biogas consumed in the transport sector, and bioliquids produced in installations starting operation from 6 october 2015 until 31 december 2020;
+(c)
+at least 65 % for biofuels, biogas consumed in the transport sector, and bioliquids produced in installations starting operation from 1 january 2021;
+(d)
+at least 70 % for electricity, heating and cooling production from biomass fuels used in installations starting operation from 1 january 2021 until 31 december 2025, and 80 % for installations starting operation from 1 january 2026.
+an installation shall be considered to be in operation once the physical production of biofuels, biogas consumed in the transport sector and bioliquids, and the physical production of heating and cooling and electricity from biomass fuels has started.
+the greenhouse gas emission savings from the use of biofuels, biogas consumed in the transport sector, bioliquids and biomass fuels used in installations producing heating, cooling and electricity shall be calculated in accordance with article 31(1).
+11.   electricity from biomass fuels shall be taken into account for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1 only if it meets one or more of the following requirements:
+(a)
+it is produced in installations with a total rated thermal input below 50 mw;
+(b)
+for installations with a total rated thermal input from 50 to 100 mw, it is produced applying high-efficiency cogeneration technology, or, for electricity-only installations, meeting an energy efficiency level associated with the best available techniques (bat-aeels) as defined in commission implementing decision (eu) 2017/1442 (26);
+(c)
+for installations with a total rated thermal input above 100 mw, it is produced applying high-efficiency cogeneration technology, or, for electricity-only installations, achieving an net-electrical efficiency of at least 36 %;
+(d)
+it is produced applying biomass co2 capture and storage.
+for the purposes of points (a), (b) and (c) of the first subparagraph of paragraph 1 of this article, electricity-only-installations shall be taken into account only if they do not use fossil fuels as a main fuel and only if there is no cost-effective potential for the application of high-efficiency cogeneration technology according to the assessment in accordance with article 14 of directive 2012/27/eu.
+for the purposes of points (a) and (b) of the first subparagraph of paragraph 1 of this article, this paragraph shall apply only to installations starting operation or converted to the use of biomass fuels after 25 december 2021. for the purposes of point (c) of the first subparagraph of paragraph 1 of this article, this paragraph shall be without prejudice to support granted under support schemes in accordance with article 4 approved by 25 december 2021.
+member states may apply higher energy efficiency requirements than those referred in the first subparagraph to installations with lower rated thermal input.
+the first subparagraph shall not apply to electricity from installations which are the object of a specific notification by a member state to the commission based on the duly substantiated existence of risks for the security of supply of electricity. upon assessment of the notification, the commission shall adopt a decision taking into account the elements included therein.
+12.   for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1 of this article, and without prejudice to articles 25 and 26, member states shall not refuse to take into account, on other sustainability grounds, biofuels and bioliquids obtained in compliance with this article. this paragraph shall be without prejudice to public support granted under support schemes approved before 24 december 2018.
+13.   for the purposes referred to in point (c) of the first subparagraph of paragraph 1 of this article, member states may derogate, for a limited period of time, from the criteria laid down in paragraphs 2 to 7 and 10 and 11 of this article by adopting different criteria for:
+(a)
+installations located in an outermost region as referred to in article 349 tfeu to the extent that such facilities produce electricity or heating or cooling from biomass fuels; and
+(b)
+biomass fuels used in the installations referred to in point (a) of this subparagraph, irrespective of the place of origin of that biomass, provided that such criteria are objectively justified on the grounds that their aim is to ensure, for that outermost region, a smooth phase-in of the criteria laid down in paragraphs 2 to 7 and 10 and 11 of this article and thereby incentivise the transition from fossil fuels to sustainable biomass fuels.
+the different criteria referred to in this paragraph shall be subject to a specific notification by the relevant member state to the commission.
+14.   for the purposes referred to in points (a), (b) and (c) of the first subparagraph of paragraph 1, member states may establish additional sustainability criteria for biomass fuels.
+by 31 december 2026, the commission shall assess the impact of such additional criteria on the internal market, accompanied, if necessary, by a proposal to ensure harmonisation thereof.

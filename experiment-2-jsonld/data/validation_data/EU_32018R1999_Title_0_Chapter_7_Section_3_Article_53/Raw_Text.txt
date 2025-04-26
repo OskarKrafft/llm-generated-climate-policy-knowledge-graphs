@@ -1,0 +1,27 @@
+article 53
+amendments to directive 2010/31/eu
+directive 2010/31/eu is amended as follows:
+(1)
+article 2a is amended as follows:
+(a)
+in paragraph 1, the introductory wording is replaced by the following:
+‘1.   each member state shall establish a long-term renovation strategy to support the renovation of the national stock of residential and non-residential buildings, both public and private, into a highly energy efficient and decarbonised building stock by 2050, facilitating the cost-effective transformation of existing buildings into nearly zero-energy buildings. each long-term renovation strategy shall encompass:’;
+(b)
+the following paragraph is added:
+‘8.   each member state's long-term renovation strategy shall be submitted to the commission as part of its final integrated national energy and climate plan referred to in article 3 of regulation (eu) 2018/1999 of the european parliament and of the council (*2). as a derogation from article 3(1) of that regulation, the first long-term renovation strategy under paragraph 1 of this article shall be submitted to the commission by 10 march 2020.
+
+(*2)  regulation (eu) 2018/1999 of the european parliament and of the council of 11 december 2018 on the governance of the energy union and climate action, amending regulations (ec) no 663/2009 and (ec) no 715/2009 of the european parliament and of the council, directives 94/22/ec, 98/70/ec, 2009/31/ec, 2009/73/ec, 2010/31/eu, 2012/27/eu and 2013/30/eu of the european parliament and of the council, council directives 2009/119/ec and (eu) 2015/652 and repealing regulation (eu) no 525/2013 of the european parliament and of the council (oj l 328, 21.12.2018, p. 1).’;"
+                        
+(2)
+in the second subparagraph of article 5(2), the sentence ‘the report may be included in the energy efficiency action plans referred to in article 14(2) of directive 2006/32/ec’ is deleted;
+(3)
+in article 9, paragraph 5 is replaced by the following:
+‘5.   as part of its state of the energy union report referred to in article 35 of regulation (eu) 2018/1999, the commission shall report every four years to the european parliament and to the council on the progress of member states in increasing the number of nearly zero-energy buildings. on the basis of this reported information the commission shall, where necessary, develop an action plan and propose recommendations and measures in accordance with article 34 of regulation (eu) 2018/1999 to increase the number of those buildings and encourage best practices as regards the cost-effective transformation of existing buildings into nearly zero-energy buildings.’;
+(4)
+in article 10, paragraphs 2 and 3 are deleted;
+(5)
+in article 14(3), the third subparagraph is replaced by the following:
+‘such a report shall be submitted to the commission as part of the member states' integrated national energy and climate plans referred to in article 3 of regulation (eu) 2018/1999’;
+(6)
+in article 15(3), the third subparagraph is replaced by the following:
+‘such a report shall be submitted to the commission as part of the member states' integrated national energy and climate plans referred to in article 3 of regulation (eu) 2018/1999’.

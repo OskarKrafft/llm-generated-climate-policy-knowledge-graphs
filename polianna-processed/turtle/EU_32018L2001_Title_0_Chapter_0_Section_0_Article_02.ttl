@@ -1,0 +1,123 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_02 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives,
+        pol:TradablePermit,
+        pol:VoluntaryAgrmt ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 2
+definitions
+for the purposes of this directive, the relevant definitions in directive 2009/72/ec of the european parliament and of the council (22) apply.
+the following definitions also apply:
+(1)
+‘energy from renewable sources’ or ‘renewable energy’ means energy from renewable non-fossil sources, namely wind, solar (solar thermal and solar photovoltaic) and geothermal energy, ambient energy, tide, wave and other ocean energy, hydropower, biomass, landfill gas, sewage treatment plant gas, and biogas;
+(2)
+‘ambient energy’ means naturally occurring thermal energy and energy accumulated in the environment with constrained boundaries, which can be stored in the ambient air, excluding in exhaust air, or in surface or sewage water;
+(3)
+‘geothermal energy’ means energy stored in the form of heat beneath the surface of solid earth;
+(4)
+‘gross final consumption of energy’ means the energy commodities delivered for energy purposes to industry, transport, households, services including public services, agriculture, forestry and fisheries, the consumption of electricity and heat by the energy branch for electricity, heat and transport fuel production, and losses of electricity and heat in distribution and transmission;
+(5)
+‘support scheme’ means any instrument, scheme or mechanism applied by a member state, or a group of member states, that promotes the use of energy from renewable sources by reducing the cost of that energy, increasing the price at which it can be sold, or increasing, by means of a renewable energy obligation or otherwise, the volume of such energy purchased, including but not restricted to, investment aid, tax exemptions or reductions, tax refunds, renewable energy obligation support schemes including those using green certificates, and direct price support schemes including feed-in tariffs and sliding or fixed premium payments;
+(6)
+‘renewable energy obligation’ means a support scheme requiring energy producers to include a given share of energy from renewable sources in their production, requiring energy suppliers to include a given share of energy from renewable sources in their supply, or requiring energy consumers to include a given share of energy from renewable sources in their consumption, including schemes under which such requirements may be fulfilled by using green certificates;
+(7)
+‘financial instrument’ means a financial instrument as defined in point (29) of article 2 of regulation (eu, euratom) 2018/1046 of the european parliament and of the council (23);
+(8)
+‘sme’ means a micro, small or medium-sized enterprise as defined in article 2 of the annex to commission recommendation 2003/361/ec (24);
+(9)
+‘waste heat and cold’ means unavoidable heat or cold generated as by-product in industrial or power generation installations, or in the tertiary sector, which would be dissipated unused in air or water without access to a district heating or cooling system, where a cogeneration process has been used or will be used or where cogeneration is not feasible;
+(10)
+‘repowering’ means renewing power plants that produce renewable energy, including the full or partial replacement of installations or operation systems and equipment for the purposes of replacing capacity or increasing the efficiency or capacity of the installation;
+(11)
+‘distribution system operator’ means an operator as defined in point (6) of article 2 of directive 2009/72/ec and in point (6) of article 2 of directive 2009/73/ec of the european parliament and of the council (25);
+(12)
+‘guarantee of origin’ means an electronic document which has the sole function of providing evidence to a final customer that a given share or quantity of energy was produced from renewable sources;
+(13)
+‘residual energy mix’ means the total annual energy mix for a member state, excluding the share covered by cancelled guarantees of origin;
+(14)
+‘renewables self-consumer’ means a final customer operating within its premises located within confined boundaries or, where permitted by a member state, within other premises, who generates renewable electricity for its own consumption, and who may store or sell self-generated renewable electricity, provided that, for a non-household renewables self-consumer, those activities do not constitute its primary commercial or professional activity;
+(15)
+‘jointly acting renewables self-consumers’ means a group of at least two jointly acting renewables self-consumers in accordance with point (14) who are located in the same building or multi-apartment block;
+(16)
+‘renewable energy community’ means a legal entity:
+(a)
+which, in accordance with the applicable national law, is based on open and voluntary participation, is autonomous, and is effectively controlled by shareholders or members that are located in the proximity of the renewable energy projects that are owned and developed by that legal entity;
+(b)
+the shareholders or members of which are natural persons, smes or local authorities, including municipalities;
+(c)
+the primary purpose of which is to provide environmental, economic or social community benefits for its shareholders or members or for the local areas where it operates, rather than financial profits;
+(17)
+‘renewables power purchase agreement’ means a contract under which a natural or legal person agrees to purchase renewable electricity directly from an electricity producer;
+(18)
+‘peer-to-peer trading’ of renewable energy means the sale of renewable energy between market participants by means of a contract with pre-determined conditions governing the automated execution and settlement of the transaction, either directly between market participants or indirectly through a certified third-party market participant, such as an aggregator. the right to conduct peer-to-peer trading shall be without prejudice to the rights and obligations of the parties involved as final customers, producers, suppliers or aggregators;
+(19)
+‘district heating’ or ‘district cooling’ means the distribution of thermal energy in the form of steam, hot water or chilled liquids, from central or decentralised sources of production through a network to multiple buildings or sites, for the use of space or process heating or cooling;
+(20)
+‘efficient district heating and cooling’ means efficient district heating and cooling as defined in point (41) of article 2 of directive 2012/27/eu;
+(21)
+‘high-efficiency cogeneration’ means high-efficiency cogeneration as defined in point (34) of article 2 of directive 2012/27/eu;
+(22)
+‘energy performance certificate’ means energy performance certificate as defined in point (12) of article 2 of directive 2010/31/eu;
+(23)
+‘waste’ means waste as defined in point (1) of article 3 of directive 2008/98/ec, excluding substances that have been intentionally modified or contaminated in order to meet this definition;
+(24)
+‘biomass’ means the biodegradable fraction of products, waste and residues from biological origin from agriculture, including vegetal and animal substances, from forestry and related industries, including fisheries and aquaculture, as well as the biodegradable fraction of waste, including industrial and municipal waste of biological origin;
+(25)
+‘agricultural biomass’ means biomass produced from agriculture;
+(26)
+‘forest biomass’ means biomass produced from forestry;
+(27)
+‘biomass fuels’ means gaseous and solid fuels produced from biomass;
+(28)
+‘biogas’ means gaseous fuels produced from biomass;
+(29)
+‘biowaste’ means biowaste as defined in point (4) of article 3 of directive 2008/98/ec;
+(30)
+‘sourcing area’ means the geographically defined area from which the forest biomass feedstock is sourced, from which reliable and independent information is available and where conditions are sufficiently homogeneous to evaluate the risk of the sustainability and legality characteristics of the forest biomass;
+(31)
+‘forest regeneration’ means the re-establishment of a forest stand by natural or artificial means following the removal of the previous stand by felling or as a result of natural causes, including fire or storm;
+(32)
+‘bioliquids’ means liquid fuel for energy purposes other than for transport, including electricity and heating and cooling, produced from biomass;
+(33)
+‘biofuels’ means liquid fuel for transport produced from biomass;
+(34)
+‘advanced biofuels’ means biofuels that are produced from the feedstock listed in part a of annex ix;
+(35)
+‘recycled carbon fuels’ means liquid and gaseous fuels that are produced from liquid or solid waste streams of non-renewable origin which are not suitable for material recovery in accordance with article 4 of directive 2008/98/ec, or from waste processing gas and exhaust gas of non-renewable origin which are produced as an unavoidable and unintentional consequence of the production process in industrial installations;
+(36)
+‘renewable liquid and gaseous transport fuels of non-biological origin’ means liquid or gaseous fuels which are used in the transport sector other than biofuels or biogas, the energy content of which is derived from renewable sources other than biomass;
+(37)
+‘low indirect land-use change-risk biofuels, bioliquids and biomass fuels’ means biofuels, bioliquids and biomass fuels, the feedstock of which was produced within schemes which avoid displacement effects of food and feed-crop based biofuels, bioliquids and biomass fuels through improved agricultural practices as well as through the cultivation of crops on areas which were previously not used for cultivation of crops, and which were produced in accordance with the sustainability criteria for biofuels, bioliquids and biomass fuels laid down in article 29;
+(38)
+‘fuel supplier’ means an entity supplying fuel to the market that is responsible for passing fuel through an excise duty point or, in the case of electricity or where no excise is due or where duly justified, any other relevant entity designated by a member state;
+(39)
+‘starch-rich crops’ means crops comprising mainly cereals, regardless of whether the grains alone or the whole plant, such as in the case of green maize, are used; tubers and root crops, such as potatoes, jerusalem artichokes, sweet potatoes, cassava and yams; and corm crops, such as taro and cocoyam;
+(40)
+‘food and feed crops’ means starch-rich crops, sugar crops or oil crops produced on agricultural land as a main crop excluding residues, waste or ligno-cellulosic material and intermediate crops, such as catch crops and cover crops, provided that the use of such intermediate crops does not trigger demand for additional land;
+(41)
+‘ligno-cellulosic material’ means material composed of lignin, cellulose and hemicellulose, such as biomass sourced from forests, woody energy crops and forest-based industries' residues and wastes;
+(42)
+‘non-food cellulosic material’ means feedstock mainly composed of cellulose and hemicellulose, and having a lower lignin content than ligno-cellulosic material, including food and feed crop residues, such as straw, stover, husks and shells; grassy energy crops with a low starch content, such as ryegrass, switchgrass, miscanthus, giant cane; cover crops before and after main crops; ley crops; industrial residues, including from food and feed crops after vegetal oils, sugars, starches and protein have been extracted; and material from biowaste, where ley and cover crops are understood to be temporary, short-term sown pastures comprising grass-legume mixture with a low starch content to obtain fodder for livestock and improve soil fertility for obtaining higher yields of arable main crops;
+(43)
+‘residue’ means a substance that is not the end product(s) that a production process directly seeks to produce; it is not a primary aim of the production process and the process has not been deliberately modified to produce it;
+(44)
+‘agricultural, aquaculture, fisheries and forestry residues’ means residues that are directly generated by agriculture, aquaculture, fisheries and forestry and that do not include residues from related industries or processing;
+(45)
+‘actual value’ means the greenhouse gas emissions savings for some or all of the steps of a specific biofuel, bioliquid or biomass fuel production process, calculated in accordance with the methodology laid down in part c of annex v or part b of annex vi;
+(46)
+‘typical value’ means an estimate of the greenhouse gas emissions and greenhouse gas emissions savings for a particular biofuel, bioliquid or biomass fuel production pathway, which is representative of the union consumption;
+(47)
+‘default value’ means a value derived from a typical value by the application of pre-determined factors and that may, in circumstances specified in this directive, be used in place of an actual value."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> .
+

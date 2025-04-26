@@ -1,0 +1,46 @@
+@prefix pol: <http://www.purl.org/polifonia#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://example.com/article>
+    a pol:Article ;
+    dcterms:title "Review and Revision of Emissions Reduction Targets" ;
+    foaf:topic "Emissions Reduction", "Transportation", "Climate Change" ;
+    pol:section [
+        a pol:Section ;
+        dcterms:description "Commission Review and Report" ;
+        pol:subsection [
+            a pol:Subsection ;
+            dcterms:description "Real-world Representativeness of Emissions Values"
+        ] , [
+            a pol:Subsection ;
+            dcterms:description "Deployment of Zero- and Low-Emission Vehicles"
+        ]
+    ] ;
+    pol:articleBody """
+In the report referred to in paragraph 1, the Commission shall consider, inter alia, 
+the real-world representativeness of the CO2 emission and fuel or energy consumption values 
+determined pursuant to Regulation (EC) No 715/2007.
+""" .
+
+<https://example.com/article#review>
+    a pol:Review ;
+    dcterms:description "Commission Review" ;
+    pol:conclusion [
+        a pol:Conclusion ;
+        dcterms:description "Proposal for Amending the Regulation"
+    ] ;
+    foaf:agent <http://example.com/commission> .
+
+<http://example.com/commission>
+    a foaf:Organization ;
+    foaf:name "European Commission" ;
+    foaf:mbox <mailto:commission@example.eu> .
+
+<https://example.com/article#report>
+    a pol:Report ;
+    dcterms:description "Commission Report" ;
+    pol:recommendation [
+        a pol:Recommendation ;
+        dcterms:description "Introduction of Binding Emissions Reduction Targets"
+    ] .

@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "poliana": "http://data.europa.eu/poli/ontology/poliana#",
+    "eli": "http://data.europa.eu/eli/ontology#"
+  },
+  "@type": "poliana:Article",
+  "eli:title": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+  "eli:number": "32006L0066",
+  "eli:uri": "http://data.europa.eu/eli/dir/2006/66/oj",
+  "poliana:text": "penalties\nmember states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member states shall notify those measures to the commission by 26 september 2008 and shall inform it without delay of any subsequent amendment to them.",
+  "poliana:annotators": [
+    {
+      "@type": "poliana:Annotator",
+      "eli:name": "C"
+    },
+    {
+      "@type": "poliana:Annotator",
+      "eli:name": "F"
+    }
+  ]
+}

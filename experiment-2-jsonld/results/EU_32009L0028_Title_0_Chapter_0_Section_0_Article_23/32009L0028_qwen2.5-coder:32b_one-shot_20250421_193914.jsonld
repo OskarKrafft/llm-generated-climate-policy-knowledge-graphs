@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "poliana:Article",
+  "dct:title": "Monitoring and Reporting Requirements for Renewable Energy Targets",
+  "dct:description": "This article outlines the monitoring and reporting requirements for achieving renewable energy targets, including specific deadlines and reports to be submitted by the European Commission.",
+  "poliana:hasSection": [
+    {
+      "@type": "poliana:Section",
+      "dct:title": "Monitoring of Renewable Energy Targets",
+      "poliana:hasParagraph": [
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall present an analysis and action plan on energy from renewable sources by 31 December 2010, focusing on better use of structural funds, increased use of public finance institutions, risk capital access, coordination of funding, and support for cross-border initiatives.",
+          "poliana:hasComplianceDeadline": {
+            "@type": "poliana:ComplianceDeadline",
+            "dct:date": "2010-12-31",
+            "xsd:date": "2010-12-31"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "By 31 December 2014, the Commission shall present a report reviewing minimum greenhouse gas emission saving thresholds, cost-efficiency of measures, sustainability of biofuels production, impact on food availability, commercial availability of electric/hybrid vehicles, and specific market conditions.",
+          "poliana:hasComplianceDeadline": {
+            "@type": "poliana:ComplianceDeadline",
+            "dct:date": "2014-12-31",
+            "xsd:date": "2014-12-31"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "In 2018, the Commission shall present a renewable energy roadmap for the post-2020 period, potentially accompanied by proposals for the period after 2020.",
+          "poliana:hasComplianceDeadline": {
+            "@type": "poliana:ComplianceDeadline",
+            "dct:date": "2018",
+            "xsd:gYear": "2018"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "In 2021, the Commission shall present a report reviewing the application of this directive and addressing the role of forecasts, cooperation mechanisms, technological developments, national support schemes, and conclusions from previous reports.",
+          "poliana:hasComplianceDeadline": {
+            "@type": "poliana:ComplianceDeadline",
+            "dct:date": "2021",
+            "xsd:gYear": "2021"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "dct:title": "Monitoring of Biofuels Production and Sustainability",
+      "poliana:hasParagraph": [
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall monitor biofuels production in the Community and third countries, considering economic, environmental, and social impacts, including indirect effects and biodiversity impacts.",
+          "poliana:hasMonitoringActivity": {
+            "@type": "poliana:MonitoringActivity",
+            "dct:title": "Biofuels Production Monitoring"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall assess the commercial availability of second-generation biofuels and evaluate their greenhouse gas emission savings.",
+          "poliana:hasMonitoringActivity": {
+            "@type": "poliana:MonitoringActivity",
+            "dct:title": "Second-Generation Biofuels Availability"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall review the impact of biofuels production on food availability and affordability.",
+          "poliana:hasMonitoringActivity": {
+            "@type": "poliana:MonitoringActivity",
+            "dct:title": "Food Availability Impact"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall evaluate the commercial availability of electric, hybrid, and hydrogen-powered vehicles.",
+          "poliana:hasMonitoringActivity": {
+            "@type": "poliana:MonitoringActivity",
+            "dct:title": "Electric/Hybrid Vehicles Availability"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall assess specific market conditions related to renewable energy targets.",
+          "poliana:hasMonitoringActivity": {
+            "@type": "poliana:MonitoringActivity",
+            "dct:title": "Market Conditions Assessment"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "dct:title": "Reporting Requirements",
+      "poliana:hasParagraph": [
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall submit reports to the European Parliament and Council on the progress made towards achieving renewable energy targets.",
+          "poliana:hasReportingActivity": {
+            "@type": "poliana:ReportingActivity",
+            "dct:title": "Progress Reports"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The reports shall include information on the measures taken, their effectiveness, and any challenges encountered.",
+          "poliana:hasReportingActivity": {
+            "@type": "poliana:ReportingActivity",
+            "dct:title": "Measures Effectiveness Reporting"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall provide data on the commercial availability of second-generation biofuels and their greenhouse gas emission savings.",
+          "poliana:hasReportingActivity": {
+            "@type": "poliana:ReportingActivity",
+            "dct:title": "Second-Generation Biofuels Reporting"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall report on the impact of biofuels production on food availability and affordability.",
+          "poliana:hasReportingActivity": {
+            "@type": "poliana:ReportingActivity",
+            "dct:title": "Food Availability Impact Reporting"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall provide data on the commercial availability of electric, hybrid, and hydrogen-powered vehicles.",
+          "poliana:hasReportingActivity": {
+            "@type": "poliana:ReportingActivity",
+            "dct:title": "Electric/Hybrid Vehicles Reporting"
+          }
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "dct:description": "The Commission shall report on specific market conditions related to renewable energy targets.",
+          "poliana:hasReportingActivity": {
+            "@type": "poliana:ReportingActivity",
+            "dct:title": "Market Conditions Reporting"
+          }
+        }
+      ]
+    }
+  ]
+}

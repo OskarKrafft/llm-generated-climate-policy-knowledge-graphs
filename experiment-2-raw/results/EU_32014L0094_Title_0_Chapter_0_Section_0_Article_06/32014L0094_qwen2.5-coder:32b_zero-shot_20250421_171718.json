@@ -1,0 +1,79 @@
+json
+[
+    {
+        "Subject": "Article",
+        "Predicate": "hasTitle",
+        "Object": "natural gas supply for transport"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasSectionNumber",
+        "Object": "6"
+    },
+    {
+        "Subject": "MemberStates",
+        "Predicate": "shallEnsure",
+        "Object": "appropriate number of refuelling points for lng at maritime ports"
+    },
+    {
+        "Subject": "RefuellingPointsForLNGAtMaritimePorts",
+        "Predicate": "enableCirculation",
+        "Object": "lng inland waterway vessels or seagoing ships throughout the ten-t core network by 31 december 2025"
+    },
+    {
+        "Subject": "MemberStates",
+        "Predicate": "shallCooperate",
+        "Object": "neighbouring member states where necessary for adequate coverage of the ten-t core network"
+    },
+    {
+        "Subject": "MemberStates",
+        "Predicate": "shallEnsure",
+        "Object": "appropriate number of refuelling points for lng at inland ports"
+    },
+    {
+        "Subject": "RefuellingPointsForLNGAtInlandPorts",
+        "Predicate": "enableCirculation",
+        "Object": "lng inland waterway vessels or seagoing ships throughout the ten-t core network by 31 december 2030"
+    },
+    {
+        "Subject": "MemberStates",
+        "Predicate": "shallDesignate",
+        "Object": "maritime and inland ports providing access to refuelling points for lng"
+    },
+    {
+        "Subject": "MaritimeAndInlandPorts",
+        "Predicate": "consider",
+        "Object": "actual market needs"
+    },
+    {
+        "Subject": "MemberStates",
+        "Predicate": "shallEnsure",
+        "Object": "appropriate number of refuelling points for lng accessible to the public by 31 december 2025 along existing ten-t core network"
+    },
+    {
+        "Subject": "RefuellingPointsForLNGAccessibleToPublic",
+        "Predicate": "ensureCirculation",
+        "Object": "lng heavy-duty motor vehicles throughout the union where there is demand, unless costs are disproportionate to benefits including environmental benefits"
+    },
+    {
+        "Subject": "Commission",
+        "Predicate": "shallAssess",
+        "Object": "refuelling points for lng accessible to public by 31 december 2025 along existing ten-t core network"
+    },
+    {
+        "Subject": "Commission",
+        "Predicate": "shallEmpowerToAdoptDelegatedActs",
+        "Object": "requirements for interfaces of bunker transfer of lng in maritime and inland waterway transport, requirements related to safety aspects of the onshore storage and bunkering procedure of lng in maritime and inland waterway transport"
+    },
+    {
+        "Subject": "Commission",
+        "Predicate": "shallFollowUsualPractice",
+        "Object": "carry out consultations with experts including member states' experts before adopting delegated acts"
+    },
+    {
+        "Subject": "DelegatedActs",
+        "Predicate": "provideForTransitionalPeriods",
+        "Object": "at least 24 months before technical specifications become binding on the infrastructure to be deployed or renewed"
+    }
+]
+```

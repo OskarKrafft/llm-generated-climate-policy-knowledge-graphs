@@ -1,0 +1,191 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "annotatedText": {
+                "value": "2010"
+            },
+            "id": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_1",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "31\u00a0december 2012"
+            },
+            "id": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_4",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "2012"
+            },
+            "id": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_2",
+            "type": "Time_Monitoring"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2012-12-31"
+            },
+            "annotatedText": {
+                "value": "31\u00a0december 2012"
+            },
+            "id": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeCompliance_3",
+            "type": "Time_Compliance"
+        },
+        {
+            "hasArticle": {
+                "id": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18"
+            },
+            "id": "32009L0028",
+            "type": "PolicyDocument"
+        },
+        {
+            "addresses": [
+                {
+                    "id": "eurovoc:4038"
+                },
+                {
+                    "id": "Member_States"
+                }
+            ],
+            "authorises": [
+                {
+                    "id": "eurovoc:114"
+                },
+                {
+                    "id": "eurovoc:2243"
+                },
+                {
+                    "id": "eurovoc:4038"
+                }
+            ],
+            "contains_instrument": [
+                {
+                    "id": "RegulatoryInstr"
+                },
+                {
+                    "id": "VoluntaryAgrmt"
+                }
+            ],
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "contains_objective": {
+                "id": "Objective"
+            },
+            "contains_sanctioning_form": {
+                "id": "Form_sanctioning"
+            },
+            "fullText": "article\u00a018\nverification of compliance with the sustainability criteria for biofuels and bioliquids\n1.\u00a0\u00a0\u00a0where biofuels and bioliquids are to be taken into account for the purposes referred to in points\u00a0(a), (b) and\u00a0(c) of article\u00a017(1), member states shall require economic operators to show that the sustainability criteria set out in article\u00a017(2) to\u00a0(5) have been fulfilled. for that purpose they shall require economic operators to use a mass balance system which:\n(a)\nallows consignments of raw material or biofuel with differing sustainability characteristics to be mixed;\n(b)\nrequires information about the sustainability characteristics and sizes of the consignments referred to in point\u00a0(a) to remain assigned to the mixture; and\n(c)\nprovides for the sum of all consignments withdrawn from the mixture to be described as having the same sustainability characteristics, in the same quantities, as the sum of all consignments added to the mixture.\n2.\u00a0\u00a0\u00a0the commission shall report to the european parliament and the council in 2010 and\u00a02012 on the operation of the mass balance verification method described in paragraph\u00a01 and on the potential for allowing for other verification methods in relation to some or all types of raw material, biofuel or bioliquids. in its assessment, the commission shall consider those verification methods in which information about sustainability characteristics need not remain physically assigned to particular consignments or mixtures. the assessment shall take into account the need to maintain the integrity and effectiveness of the verification system while avoiding the imposition of an unreasonable burden on industry. the report shall be accompanied, where appropriate, by proposals to the european parliament and the council concerning the use of other verification methods.\n3.\u00a0\u00a0\u00a0member states shall take measures to ensure that economic operators submit reliable information and make available to the member state, on request, the data that were used to develop the information. member states shall require economic operators to arrange for an adequate standard of independent auditing of the information submitted, and to provide evidence that this has been done. the auditing shall verify that the systems used by economic operators are accurate, reliable and protected against fraud. it shall evaluate the frequency and methodology of sampling and the robustness of the data.\nthe information referred to in the first subparagraph shall include in particular information on compliance with the sustainability criteria set out in article\u00a017(2) to\u00a0(5), appropriate and relevant information on measures taken for soil, water and air protection, the restoration of degraded land, the avoidance of excessive water consumption in areas where water is scarce and appropriate and relevant information concerning measures taken in order to take into account the issues referred to in the second subparagraph of article\u00a017(7).\nthe commission shall, in accordance with the advisory procedure referred to in article\u00a025(3), establish the list of appropriate and relevant information referred to in the first two subparagraphs. it shall ensure, in particular, that the provision of that information does not represent an excessive administrative burden for operators in general or for smallholder farmers, producer organisations and cooperatives in particular.\nthe obligations laid down in this paragraph shall apply whether the biofuels or bioliquids are produced within the community or imported.\nmember states shall submit to the commission, in aggregated form, the information referred to in the first subparagraph of this paragraph. the commission shall publish that information on the transparency platform referred to in article\u00a024 in summary form preserving the confidentiality of commercially sensitive information.\n4.\u00a0\u00a0\u00a0the community shall endeavour to conclude bilateral or multilateral agreements with third countries containing provisions on sustainability criteria that correspond to those of this directive. where the community has concluded agreements containing provisions relating to matters covered by the sustainability criteria set out in article\u00a017(2) to\u00a0(5), the commission may decide that those agreements demonstrate that biofuels and bioliquids produced from raw materials cultivated in those countries comply with the sustainability criteria in question. when those agreements are concluded, due consideration shall be given to measures taken for the conservation of areas that provide, in critical situations, basic ecosystem services (such as watershed protection and erosion control), for soil, water and air protection, indirect land-use changes, the restoration of degraded land, the avoidance of excessive water consumption in areas where water is scarce and to the issues referred to in the second subparagraph of article\u00a017(7).\nthe commission may decide that voluntary national or international schemes setting standards for the production of biomass products contain accurate data for the purposes of article\u00a017(2) or demonstrate that consignments of biofuel comply with the sustainability criteria set out in article\u00a017(3) to\u00a0(5). the commission may decide that those schemes contain accurate data for the purposes of information on measures taken for the conservation of areas that provide, in critical situations, basic ecosystem services (such as watershed protection and erosion control), for soil, water and air protection, the restoration of degraded land, the avoidance of excessive water consumption in areas where water is scarce and on the issues referred to in the second subparagraph of article\u00a017(7). the commission may also recognise areas for the protection of rare, threatened or endangered ecosystems or species recognised by international agreements or included in lists drawn up by intergovernmental organisations or the international union for the conservation of nature for the purposes of article\u00a017(3)(b)(ii).\nthe commission may decide that voluntary national or international schemes to measure greenhouse gas emission saving contain accurate data for the purposes of article\u00a017(2).\nthe commission may decide that land that falls within the scope of a national or regional recovery programme aimed at improving severely degraded or heavily contaminated land fulfils the criteria referred to in point\u00a09 of part c of annex\u00a0v.\n5.\u00a0\u00a0\u00a0the commission shall adopt decisions under paragraph\u00a04 only if the agreement or scheme in question meets adequate standards of reliability, transparency and independent auditing. in the case of schemes to measure greenhouse gas emission saving, such schemes shall also comply with the methodological requirements in annex\u00a0v. lists of areas of high biodiversity value as referred to in article\u00a017(3)(b)(ii) shall meet adequate standards of objectivity and coherence with internationally recognised standards and provide for appropriate appeal procedures.\n6.\u00a0\u00a0\u00a0decisions under paragraph\u00a04 shall be adopted in accordance with the advisory procedure referred to in article\u00a025(3). such decisions shall be valid for a period of no more than five years.\n7.\u00a0\u00a0\u00a0when an economic operator provides proof or data obtained in accordance with an agreement or scheme that has been the subject of a decision pursuant to paragraph\u00a04, to the extent covered by that decision, a member state shall not require the supplier to provide further evidence of compliance with the sustainability criteria set out in article\u00a017(2) to\u00a0(5) nor information on measures referred to in the second subparagraph of paragraph\u00a03 of this article.\n8.\u00a0\u00a0\u00a0at the request of a member state or on its own initiative the commission shall examine the application of article\u00a017 in relation to a source of biofuel or bioliquid and, within six months of receipt of a request and in accordance with the advisory procedure referred to in article\u00a025(3), decide whether the member state concerned may take biofuel or bioliquid from that source into account for the purposes referred to in points\u00a0(a), (b) and\u00a0(c) of article\u00a017(1).\n9.\u00a0\u00a0\u00a0by 31\u00a0december 2012, the commission shall report to the european parliament and to the council on:\n(a)\nthe effectiveness of the system in place for the provision of information on sustainability criteria; and\n(b)\nwhether it is feasible and appropriate to introduce mandatory requirements in relation to air, soil or water protection, taking into account the latest scientific evidence and the community\u2019s international obligations.\nthe commission shall, if appropriate, propose corrective action.",
+            "grants_monitoring_authority": [
+                {
+                    "id": "eurovoc:114"
+                },
+                {
+                    "id": "eurovoc:2243"
+                },
+                {
+                    "id": "eurovoc:4038"
+                },
+                {
+                    "id": "Member_States"
+                }
+            ],
+            "id": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18",
+            "imposes_monitoring": [
+                {
+                    "id": "eurovoc:4038"
+                },
+                {
+                    "id": "Member_States"
+                }
+            ],
+            "specifies_compliance_time": {
+                "id": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeCompliance_3"
+            },
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_1"
+                },
+                {
+                    "id": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_2"
+                },
+                {
+                    "id": "EU_32009L0028_Title_0_Chapter_0_Section_0_Article_18_TimeMonitoring_4"
+                }
+            ],
+            "type": "PolicyArticle"
+        }
+    ]
+}

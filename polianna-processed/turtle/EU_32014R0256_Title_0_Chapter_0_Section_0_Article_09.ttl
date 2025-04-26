@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_09 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_09 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:fullText """article 9
+protection of individuals with regards to the processing of data
+this regulation is without prejudice to union law and, in particular, does not alter member states’ obligations with regard to the processing of personal data, as laid down in directive 95/46/ec, or the obligations incumbent upon the union’s institutions and bodies under regulation (ec) no 45/2001 with regard to the processing of personal data by them in the course of their duties."""^^xsd:string .
+

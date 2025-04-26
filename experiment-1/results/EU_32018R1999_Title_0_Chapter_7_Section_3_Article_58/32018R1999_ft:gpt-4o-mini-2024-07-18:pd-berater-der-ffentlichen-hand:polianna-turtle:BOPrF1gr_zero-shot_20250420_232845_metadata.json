@@ -1,0 +1,25 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018R1999 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 a pol:PolicyArticle ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1,\n        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2,\n        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3 .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"2018\" .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"2019\" .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"2020\" .",
+  "original_output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018R1999 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 a pol:PolicyArticle ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1,\n        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2,\n        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3 .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"2018\" .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"2019\" .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"2020\" .",
+  "generation_time": 4.15306282043457,
+  "output": "@prefix pol: <https://polianna-kg.org/Ontology#> .\n\npol:32018R1999 a pol:PolicyDocument ;\n    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 a pol:PolicyArticle ;\n    pol:contains_monitoring_form pol:Form_monitoring ;\n    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1,\n        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2,\n        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3 .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1 a pol:Time_Monitoring ;\n    pol:annotatedText \"2018\" .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2 a pol:Time_Monitoring ;\n    pol:annotatedText \"2019\" .\n\npol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3 a pol:Time_Monitoring ;\n    pol:annotatedText \"2020\" .",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58",
+      "CELEX_Number": "32018R1999",
+      "ELI": "http://data.europa.eu/eli/reg/2018/1999/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "ttl",
+    "model": "ft:gpt-4o-mini-2024-07-18:pd-berater-der-ffentlichen-hand:polianna-turtle:BOPrF1gr",
+    "timestamp": "2025-04-20T23:28:45.328029"
+  },
+  "triple_count": 13
+}

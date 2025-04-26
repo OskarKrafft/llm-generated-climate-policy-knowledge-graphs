@@ -1,0 +1,11 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_20 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_20 a pol:PolicyArticle ;
+    pol:fullText """article 20
+implementing measures
+the implementing measures referred to in the second subparagraph of article 17(3), the third subparagraph of article 18(3), article 18(6), article 18(8), article 19(5), the first subparagraph of article 19(7), and article 19(8) shall also take full account of the purposes of article 7a of directive 98/70/ec."""^^xsd:string .
+

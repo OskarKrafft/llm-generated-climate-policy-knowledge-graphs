@@ -1,0 +1,30 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32013R0174 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0174_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32013R0174_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4060>,
+        pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038>,
+        <http://eurovoc.europa.eu/4060>,
+        pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:PublicInvt,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4060> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0174_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_1 .
+
+pol:EU_32013R0174_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "two years before the expiry" .
+

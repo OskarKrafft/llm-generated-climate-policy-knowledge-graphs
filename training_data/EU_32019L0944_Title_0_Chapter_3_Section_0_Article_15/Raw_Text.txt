@@ -1,0 +1,27 @@
+article 15
+active customers
+1.   member states shall ensure that final customers are entitled to act as active customers without being subject to disproportionate or discriminatory technical requirements, administrative requirements, procedures and charges, and to network charges that are not cost-reflective.
+2.   member states shall ensure that active customers are:
+(a)
+entitled to operate either directly or through aggregation;
+(b)
+entitled to sell self-generated electricity, including through power purchase agreements;
+(c)
+entitled to participate in flexibility schemes and energy efficiency schemes;
+(d)
+entitled to delegate to a third party the management of the installations required for their activities, including installation, operation, data handling and maintenance, without that third party being considered to be an active customer;
+(e)
+subject to cost-reflective, transparent and non-discriminatory network charges that account separately for the electricity fed into the grid and the electricity consumed from the grid, in accordance with article 59(9) of this directive and article 18 of regulation (eu) 2019/943, ensuring that they contribute in an adequate and balanced way to the overall cost sharing of the system;
+(f)
+financially responsible for the imbalances they cause in the electricity system; to that extent they shall be balance responsible parties or shall delegate their balancing responsibility in accordance with article 5 of regulation (eu) 2019/943.
+3.   member states may have different provisions applicable to individual and jointly-acting active customers in their national law, provided that all rights and obligations under this article apply to all active customers. any difference in the treatment of jointly-acting active customers shall be proportionate and duly justified.
+4.   member states that have existing schemes that do not account separately for the electricity fed into the grid and the electricity consumed from the grid, shall not grant new rights under such schemes after 31 december 2023. in any event, customers subject to existing schemes shall have the possibility at any time to opt for a new scheme that accounts separately for the electricity fed into the grid and the electricity consumed from the grid as the basis for calculating network charges.
+5.   member states shall ensure that active customers that own an energy storage facility:
+(a)
+have the right to a grid connection within a reasonable time after the request, provided that all necessary conditions, such as balancing responsibility and adequate metering, are fulfilled;
+(b)
+are not subject to any double charges, including network charges, for stored electricity remaining within their premises or when providing flexibility services to system operators;
+(c)
+are not subject to disproportionate licensing requirements or fees;
+(d)
+are allowed to provide several services simultaneously, if technically feasible.

@@ -1,0 +1,64 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pplan: <https://w3id.org/pplan/> .
+
+<https://w3id.org/pplan/32018R1999>
+    a dcat:Dataset ;
+    skos:notation "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37" ;
+    prov:wasGeneratedBy _:b1, _:b2 .
+
+_:b1
+    a prov:Activity ;
+    pplan:hasAnnotator "A", "C" .
+
+_:b2
+    a prov:Entity ;
+    dcat:accessURL <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    skos:notation "32018R1999" .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37>
+    a pplan:PolicyDocument ;
+    dcat:accessURL <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    skos:notation "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37" .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/2021-01-01>
+    a pplan:Timepoint ;
+    xsd:date "2021-01-01"^^xsd:date .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/Article_37_Paragraph_1>
+    a pplan:Paragraph ;
+    skos:notation "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37" .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/Article_37_Paragraph_1>
+    skos:related <https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/2021-01-01> ;
+    pplan:hasDuty "to establish, operate and seek to continuously improve national inventory systems" .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/Article_37_Paragraph_2>
+    a pplan:Paragraph ;
+    skos:notation "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37" .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/Article_37_Paragraph_2>
+    skos:related <https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/2021-01-01> ;
+    pplan:hasDuty "to ensure that their competent inventory authorities have access to the information specified in Annex XII" .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/Article_37_Paragraph_3>
+    a pplan:Paragraph ;
+    skos:notation "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37" .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/Article_37_Paragraph_4>
+    a pplan:Paragraph ;
+    skos:notation "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37" .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/Article_37_Paragraph_5>
+    a pplan:Paragraph ;
+    skos:notation "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37" .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/Article_37_Paragraph_5>
+    skos:related <https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/2021-01-01> ;
+    pplan:hasCondition "if a member state fails to comply with the requirements" .
+
+<https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/Article_37_Paragraph_5>
+    skos:related <https://w3id.org/pplan/EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37/2021-01-01> ;
+    pplan:hasAction "the Commission may adopt measures" .

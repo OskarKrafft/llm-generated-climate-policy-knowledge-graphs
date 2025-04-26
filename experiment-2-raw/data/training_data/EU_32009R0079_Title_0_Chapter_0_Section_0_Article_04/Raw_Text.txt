@@ -1,0 +1,7 @@
+article 4
+obligations of manufacturers
+1.   manufacturers shall demonstrate that all new hydrogen-powered vehicles sold, registered or put into service within the community and all hydrogen components or hydrogen systems sold or put into service within the community are type-approved in accordance with this regulation and its implementing measures.
+2.   for the purposes of vehicle type-approval, manufacturers shall equip hydrogen-powered vehicles with hydrogen components and systems that comply with the requirements of this regulation and its implementing measures and are installed in accordance with this regulation and its implementing measures.
+3.   for the purposes of the type-approval of components and systems, manufacturers shall ensure that hydrogen components and systems comply with the requirements of this regulation and its implementing measures.
+4.   manufacturers shall provide the approval authorities with appropriate information concerning the vehicle specifications and test conditions.
+5.   manufacturers shall provide information for the purposes of inspection of hydrogen components and systems during the service life of the vehicle.

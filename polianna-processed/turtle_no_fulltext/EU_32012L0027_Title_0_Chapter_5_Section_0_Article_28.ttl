@@ -1,0 +1,19 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_28 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_28 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_28_TimeCompliance_1 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_28_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2014-06-05"^^xsd:date ;
+    pol:annotatedText "5 june 2014" .
+

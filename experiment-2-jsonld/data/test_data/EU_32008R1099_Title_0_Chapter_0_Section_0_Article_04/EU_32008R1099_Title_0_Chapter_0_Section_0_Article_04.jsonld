@@ -1,0 +1,125 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "hasArticle": {
+                "id": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04"
+            },
+            "id": "32008R1099",
+            "type": "PolicyDocument"
+        },
+        {
+            "annotatedText": {
+                "value": "short-term monthly"
+            },
+            "id": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "annual"
+            },
+            "id": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "monthly"
+            },
+            "id": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2",
+            "type": "Time_Monitoring"
+        },
+        {
+            "contains_instrument": {
+                "id": "RegulatoryInstr"
+            },
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "fullText": "article\u00a04\naggregates, energy products and the transmission frequency of national statistics\n1.\u00a0\u00a0\u00a0the national statistics to be reported shall be as set out in the annexes. they shall be transmitted with the following frequencies:\n(a)\nannual, for the energy statistics in annex\u00a0b;\n(b)\nmonthly, for the energy statistics in annex\u00a0c;\n(c)\nshort-term monthly, for the energy statistics in annex\u00a0d.\n2.\u00a0\u00a0\u00a0applicable clarifications or definitions of the technical terms used are provided in the individual annexes and also in annex\u00a0a (clarifications of terminology).\n3.\u00a0\u00a0\u00a0the data to be forwarded and the applicable clarifications or definitions may be modified in accordance with the regulatory procedure with scrutiny referred to in article\u00a011(2).",
+            "id": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1"
+                },
+                {
+                    "id": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2"
+                },
+                {
+                    "id": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3"
+                }
+            ],
+            "type": "PolicyArticle"
+        }
+    ]
+}

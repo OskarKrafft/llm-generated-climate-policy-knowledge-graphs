@@ -1,0 +1,31 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_09 .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_09 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 9
+procedures for completing emission estimates to compile the union inventory
+1.   the commission shall perform an initial check of the data submitted by member states pursuant to article 7(1) for accuracy. it shall send the results of that check to member states within six weeks of the submission deadline. member states shall respond to any relevant questions raised by the initial check by 15 march, together with the final inventory submission for the year x-2.
+2.   where a member state does not submit the inventory data required to compile the union inventory by 15 march, the commission may prepare estimates to complete the data submitted by the member state, in consultation and close cooperation with the member state concerned. the commission shall use, for this purpose, the guidelines applicable for preparing the national greenhouse gas inventories."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_09_TimeMonitoring_1,
+        pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_09_TimeMonitoring_2,
+        pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_09_TimeMonitoring_3 .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_09_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "six weeks of the submission deadline" .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_09_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "15 march" .
+
+pol:EU_32013R0525_Title_0_Chapter_3_Section_0_Article_09_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "15 march" .
+

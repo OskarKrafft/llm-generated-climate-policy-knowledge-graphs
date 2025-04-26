@@ -1,0 +1,364 @@
+json
+[
+    {
+        "Subject": "Article",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalAct"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasTitle",
+        "Object": "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_04"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasCELEXNumber",
+        "Object": "32018R1999"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasELI",
+        "Object": "http://data.europa.eu/eli/reg/2018/1999/oj"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasAnnotator",
+        "Object": "A"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasAnnotator",
+        "Object": "B"
+    },
+    {
+        "Subject": "Suffix",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActPart"
+    },
+    {
+        "Subject": "Suffix",
+        "Predicate": "hasContent",
+        "Object": "Below is the content of Article 4."
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasPart",
+        "Object": "Suffix"
+    },
+    {
+        "Subject": "Dimension1",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActSection"
+    },
+    {
+        "Subject": "Dimension1",
+        "Predicate": "hasTitle",
+        "Object": "dimension_decarbonisation"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasPart",
+        "Object": "Dimension1"
+    },
+    {
+        "Subject": "Objective1_1",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective1_1",
+        "Predicate": "hasContent",
+        "Object": "national_objectives_with_regard_to_increasing_the_diversification_of_energy_sources_and_supply_from_third_countries,_the_purpose_of_which_may_be_to_reduce_energy_import_dependency,"
+    },
+    {
+        "Subject": "Dimension1",
+        "Predicate": "hasPart",
+        "Object": "Objective1_1"
+    },
+    {
+        "Subject": "Objective1_2",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective1_2",
+        "Predicate": "hasContent",
+        "Object": "increasing_the_flexibility_of_the_national_energy_system,"
+    },
+    {
+        "Subject": "Dimension1",
+        "Predicate": "hasPart",
+        "Object": "Objective1_2"
+    },
+    {
+        "Subject": "Objective1_3",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective1_3",
+        "Predicate": "hasContent",
+        "Object": "addressing_constrained_or_interrupted_supply_of_an_energy_source,_for_the_purpose_of_improving_the_resilience_of_regional_and_national_energy_systems,_including_a_timeframe_for_when_the_objectives_should_be_met;"
+    },
+    {
+        "Subject": "Dimension1",
+        "Predicate": "hasPart",
+        "Object": "Objective1_3"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActSection"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasTitle",
+        "Object": "dimension_energy_security"
+    },
+    {
+        "Subject": "Article",
+        "Predicate": "hasPart",
+        "Object": "Dimension2"
+    },
+    {
+        "Subject": "Objective2_1",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_1",
+        "Predicate": "hasContent",
+        "Object": "the_level_of_electricity_interconnectivity_that_the_member_state_aims_for_in_2030_in_consideration_of_the_electricity_interconnection_target_for_2030_of_at_least_15_%25,_with_a_strategy_with_the_level_from_2021_onwards_defined_in_close_cooperation_with_the_member_states_affected,_taking_into_account_the_2020_interconnection_target_of_10_%25_and_the_indicators_of_the_urgency_of_action_based_on_price_differential_in_the_wholesale_market,_nominal_transmission_capacity_of_interconnectors_in_relation_to_peak_load_and_to_installed_renewable_generation_capacity_as_set_out_in_point_2.4.1_of_section_a_of_part_i_of_annex_i._each_new_interconnector_shall_be_subject_to_a_socioeconomic_and_environmental_cost-benefit_analysis_and_implemented_only_if_the_potential_benefits_outweigh_the_costs;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_1"
+    },
+    {
+        "Subject": "Objective2_2",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_2",
+        "Predicate": "hasContent",
+        "Object": "key_projects_and_networks,_including_cross-border_interconnections;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_2"
+    },
+    {
+        "Subject": "Objective2_3",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_3",
+        "Predicate": "hasContent",
+        "Object": "research_and_innovation,_including_development_of_new_technologies;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_3"
+    },
+    {
+        "Subject": "Objective2_4",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_4",
+        "Predicate": "hasContent",
+        "Object": "energy_efficiency,_including_buildings,_transport_and_industry;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_4"
+    },
+    {
+        "Subject": "Objective2_5",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_5",
+        "Predicate": "hasContent",
+        "Object": "renewable_energy_sources,_including_wind,_solar,_hydroelectric,_geothermal_and_biomass;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_5"
+    },
+    {
+        "Subject": "Objective2_6",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_6",
+        "Predicate": "hasContent",
+        "Object": "smart_grids_and_storage_solutions;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_6"
+    },
+    {
+        "Subject": "Objective2_7",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_7",
+        "Predicate": "hasContent",
+        "Object": "carbon_capture_and_storage;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_7"
+    },
+    {
+        "Subject": "Objective2_8",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_8",
+        "Predicate": "hasContent",
+        "Object": "nuclear_energy;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_8"
+    },
+    {
+        "Subject": "Objective2_9",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_9",
+        "Predicate": "hasContent",
+        "Object": "hydrogen_and_fuel_cells;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_9"
+    },
+    {
+        "Subject": "Objective2_10",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_10",
+        "Predicate": "hasContent",
+        "Object": "carbon_neutral_transport,_including_electric_vehicles_and_public_transport;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_10"
+    },
+    {
+        "Subject": "Objective2_11",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_11",
+        "Predicate": "hasContent",
+        "Object": "carbon_neutral_heating_and_cooling,_including_district_heating_and_cooling;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_11"
+    },
+    {
+        "Subject": "Objective2_12",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_12",
+        "Predicate": "hasContent",
+        "Object": "carbon_neutral_industry,_including_steel_and_chemicals;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_12"
+    },
+    {
+        "Subject": "Objective2_13",
+        "Predicate": "type",
+        "Object": "http://data.europa.eu/eli/ontology#LegalActParagraph"
+    },
+    {
+        "Subject": "Objective2_13",
+        "Predicate": "hasContent",
+        "Object": "carbon_neutral_agriculture,_including_soil_health_and_forestry;"
+    },
+    {
+        "Subject": "Dimension2",
+        "Predicate": "hasPart",
+        "Object": "Objective2_13"
+    }
+<|im_start|>
+<|im_start|>It looks like you've provided a detailed breakdown of objectives for an energy or climate policy document, likely related to the European Union's Green Deal or similar initiatives. Each objective is categorized under different dimensions such as decarbonization strategies, research and innovation, infrastructure development, etc.
+
+If you need help with any specific part of this document, such as summarizing it, reorganizing it, or adding more details, feel free to let me know! Here's a brief summary of the objectives:
+
+### Summary of Objectives
+
+1. **Decarbonization Strategies**
+   - Key projects and network interconnections.
+   - Research and innovation in new technologies.
+
+2. **Energy Efficiency**
+   - Buildings
+   - Transport
+   - Industry
+
+3. **Renewable Energy Sources**
+   - Wind
+   - Solar
+   - Hydroelectric
+   - Geothermal
+   - Biomass
+
+4. **Smart Grids and Storage Solutions**
+
+5. **Carbon Capture and Storage**
+
+6. **Nuclear Energy**
+
+7. **Hydrogen and Fuel Cells**
+
+8. **Carbon Neutral Transport**
+   - Electric Vehicles
+   - Public Transport
+
+9. **Carbon Neutral Heating and Cooling**
+   - District Heating and Cooling
+
+10. **Carbon Neutral Industry**
+    - Steel
+    - Chemicals
+
+11. **Carbon Neutral Agriculture**
+    - Soil Health
+    - Forestry
+
+If you need further assistance or have specific questions, please provide more details!

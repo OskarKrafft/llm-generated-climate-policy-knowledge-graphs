@@ -1,0 +1,6 @@
+article 10
+establishment and operation of registries
+1.   the union and the member states shall set up and maintain registries to accurately account for the issue, holding, transfer, acquisition, cancellation, retirement, carry-over, replacement or change of expiry date, as relevant, of aaus, rmus, erus, cers, tcers and lcers. member states may also use these registries to accurately account for the units referred to in article 11a(5) of directive 2003/87/ec.
+2.   the union and the member states may maintain their registries in a consolidated system, together with one or more other member states.
+3.   the data referred to in paragraph 1 of this article shall be made available to the central administrator designated pursuant to article 20 of directive 2003/87/ec.
+4.   the commission shall be empowered to adopt delegated acts in accordance with article 25 in order to set up the union registry referred to in paragraph 1 of this article.

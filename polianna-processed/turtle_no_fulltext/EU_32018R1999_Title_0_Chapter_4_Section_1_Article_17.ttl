@@ -1,0 +1,31 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_17 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_17 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring <http://eurovoc.europa.eu/4060>,
+        pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_17_TimeMonitoring_1,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_17_TimeMonitoring_2,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_17_TimeMonitoring_3,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_17_TimeMonitoring_4 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_17_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "15 march 2023" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_17_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years thereafter" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_17_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "biennial" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_17_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "annual" .
+

@@ -1,0 +1,11 @@
+article 10
+effects of joint projects between member states and third countries
+1.   within three months of the end of each year falling within the period specified under article 9(5)(c), the member state having made the notification under article 9 shall issue a letter of notification stating:
+(a)
+the total amount of electricity produced during that year from renewable energy sources by the installation which was the subject of the notification under article 9;
+(b)
+the amount of electricity produced during the year from renewable energy sources by that installation which is to count towards its national overall target in accordance with the terms of the notification under article 9; and
+(c)
+proof of compliance with the conditions set out in article 9(2).
+2.   the member state shall send the letter of notification to the third country which has acknowledged the project in accordance with article 9(5)(d) and to the commission.
+3.   for the purposes of measuring target compliance with the requirements of this directive concerning national overall targets, the amount of electricity produced from renewable energy sources notified in accordance with paragraph 1(b) shall be added to the amount of energy from renewable sources that is taken into account, in measuring compliance by the member state issuing the letter of notification.

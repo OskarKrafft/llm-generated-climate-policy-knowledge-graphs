@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_instrument\",\n        \"o\": \"RegulatoryInstr\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"grants_monitoring_authority\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2023-12-31\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"the regulatory authorities have not been able to reach an agreement within a period of four months after the start of consultations\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_monitoring_form\",\n        \"o\": \"Form_monitoring\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_sanctioning_form\",\n        \"o\": \"Form_sanctioning\"\n    }\n]",
+  "original_output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_instrument\",\n        \"o\": \"RegulatoryInstr\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"grants_monitoring_authority\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2023-12-31\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"the regulatory authorities have not been able to reach an agreement within a period of four months after the start of consultations\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_monitoring_form\",\n        \"o\": \"Form_monitoring\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_sanctioning_form\",\n        \"o\": \"Form_sanctioning\"\n    }\n]\n```",
+  "generation_time": 3.7866029739379883,
+  "output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_instrument\",\n        \"o\": \"RegulatoryInstr\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"grants_monitoring_authority\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2023-12-31\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"the regulatory authorities have not been able to reach an agreement within a period of four months after the start of consultations\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_monitoring_form\",\n        \"o\": \"Form_monitoring\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_sanctioning_form\",\n        \"o\": \"Form_sanctioning\"\n    }\n]\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32019L0944_Title_0_Chapter_7_Section_5_Article_59",
+      "CELEX_Number": "32019L0944",
+      "ELI": "http://data.europa.eu/eli/dir/2019/944/oj",
+      "Annotators": [
+        "A",
+        "B"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "raw",
+    "model": "gpt-4o-2024-08-06",
+    "timestamp": "2025-04-21T02:58:11.642820",
+    "reconstructed_from_raw": true
+  },
+  "triple_count": 11
+}

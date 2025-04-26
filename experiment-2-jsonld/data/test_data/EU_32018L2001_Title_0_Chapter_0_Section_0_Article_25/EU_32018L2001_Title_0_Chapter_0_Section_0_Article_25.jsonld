@@ -1,0 +1,202 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2022-01-01"
+            },
+            "annotatedText": {
+                "value": "2022"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_3",
+            "type": "Time_Compliance"
+        },
+        {
+            "addresses": {
+                "id": "Member_States"
+            },
+            "contains_instrument": [
+                {
+                    "id": "FrameworkPolicy"
+                },
+                {
+                    "id": "RegulatoryInstr"
+                }
+            ],
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "contains_objective": {
+                "id": "Objective"
+            },
+            "fullText": "article 25\nmainstreaming renewable energy in the transport sector\n1.\u00a0\u00a0\u00a0in order to mainstream the use of renewable energy in the transport sector, each member\u00a0state shall set an obligation on fuel suppliers to ensure that the share of renewable energy within the final consumption of energy in the transport sector is at least 14\u00a0% by 2030 (minimum share) in accordance with an indicative trajectory set by the member\u00a0state and calculated in accordance with the methodology set out in this article and in articles\u00a026 and 27. the commission shall assess that obligation, with a view to submitting, by 2023, a legislative proposal to increase it in the event of further substantial costs reductions in the production of renewable energy, where necessary to meet the union's international commitments for decarbonisation, or where justified on the grounds of a significant decrease in energy consumption in the union.\nmember\u00a0states may exempt, or distinguish between, different fuel suppliers and different energy carriers when setting the obligation on the fuel suppliers, ensuring that the varying degrees of maturity and the cost of different technologies are taken into account.\nfor the calculation of the minimum share referred to in the first subparagraph, member\u00a0states:\n(a)\nshall take into account renewable liquid and gaseous transport fuels of non-biological origin also when they are used as intermediate products for the production of conventional fuels; and\n(b)\nmay take into account recycled carbon fuels.\nwithin the minimum share referred to in the first subparagraph, the contribution of advanced biofuels and biogas produced from the feedstock listed in part a of annex ix as a share of final consumption of energy in the transport sector shall be at least 0,2\u00a0% in\u00a02022, at least 1\u00a0% in 2025 and at least 3,5\u00a0% in 2030.\nmember\u00a0states may exempt fuel suppliers supplying fuel in the form of electricity or renewable liquid and gaseous transport fuels of non-biological origin from the requirement to comply with the minimum share of advanced biofuels and biogas produced from the feedstock listed in part a of annex ix with respect to those fuels.\nwhen setting the obligation referred to in the first and fourth subparagraphs to ensure the achievement of the share set out therein, member\u00a0states may do so, inter\u00a0alia, by means of measures targeting volumes, energy content or greenhouse gas emissions, provided that it is demonstrated that the minimum shares referred to in the first and fourth subparagraphs are achieved.\n2.\u00a0\u00a0\u00a0the greenhouse gas emissions savings from the use of renewable liquid and gaseous transport fuels of non-biological origin shall be at least 70\u00a0% from 1\u00a0january 2021.\nby 1\u00a0january 2021, the commission shall adopt a delegated act in accordance with article\u00a035 to supplement this directive by establishing appropriate minimum thresholds for greenhouse gas emissions savings of recycled carbon fuels through a life-cycle assessment that takes into account the specificities of each fuel.",
+            "grants_legislative_authority": {
+                "id": "eurovoc:4038"
+            },
+            "grants_monitoring_authority": {
+                "id": "eurovoc:4038"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25",
+            "specifies_compliance_time": [
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_1"
+                },
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_3"
+                },
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_4"
+                },
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_5"
+                },
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_6"
+                },
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_7"
+                }
+            ],
+            "specifies_monitoring_time": {
+                "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeMonitoring_2"
+            },
+            "type": "PolicyArticle"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2021-01-01"
+            },
+            "annotatedText": {
+                "value": "1\u00a0january 2021"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_6",
+            "type": "Time_Compliance"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2021-01-01"
+            },
+            "annotatedText": {
+                "value": "1\u00a0january 2021"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_7",
+            "type": "Time_Compliance"
+        },
+        {
+            "annotatedText": {
+                "value": "by 2030"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_1",
+            "type": "Time_Compliance"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2025-01-01"
+            },
+            "annotatedText": {
+                "value": "2025"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_4",
+            "type": "Time_Compliance"
+        },
+        {
+            "hasArticle": {
+                "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25"
+            },
+            "id": "32018L2001",
+            "type": "PolicyDocument"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2030-01-01"
+            },
+            "annotatedText": {
+                "value": "2030"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeCompliance_5",
+            "type": "Time_Compliance"
+        },
+        {
+            "annotatedText": {
+                "value": "2023"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_25_TimeMonitoring_2",
+            "type": "Time_Monitoring"
+        }
+    ]
+}

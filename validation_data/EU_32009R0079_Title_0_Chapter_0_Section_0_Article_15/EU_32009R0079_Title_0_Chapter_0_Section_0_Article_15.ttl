@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_15 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_15 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_15_TimeMonitoring_1 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_15_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "24 august 2010" .
+

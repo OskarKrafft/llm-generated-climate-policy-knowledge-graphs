@@ -1,0 +1,37 @@
+[
+  {
+    "Subject": "Article_10",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/eli/dir/2006/66/oj"
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "hasTitle",
+    "Object": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10"
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "hasCELEXNumber",
+    "Object": "32006L0066"
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "hasELI",
+    "Object": "http://data.europa.eu/eli/dir/2006/66/oj"
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "hasAnnotators",
+    "Object": "[\"C\", \"F\"]"
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "hasContent",
+    "Object": "collection targets\n1.   member states shall calculate the collection rate for the first time in respect of the fifth full calendar year following the entry into force of this directive.\nwithout prejudice to directive 2002/96/ec, annual collection and sales figures shall include batteries and accumulators incorporated into appliances.\n2.   member states shall achieve the following minimum collection rates:\n(a)\n25 % by 26 september 2012;\n(b)\n45 % by 26 september 2016.\n3.   member states shall monitor collection rates on a yearly basis according to the scheme set out in annex i. without prejudice to regulation (ec) no 2150/2002 of the european parliament and of the council of 25 november 2002 on waste statistics (19), member states shall transmit reports to the commission within six months of the end of the calendar year concerned. reports shall indicate how they obtained the data necessary to calculate the collection rate.\n4.   in accordance with the procedure referred to in article 24(2):\n(a)\ntransitional arrangements may be laid down to address difficulties faced by a member state in satisfying the requirements of paragraph 2 as a result of specific national circumstances;\n(b)\na common methodology shall be established for the calculation of annual sales of portable batteries and accumulators to end-users by 26 september 2007."
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "hasPolicyType",
+    "Object": "http://purl.org/policyonto/ontologies/policy#Regulation"
+  }
+]

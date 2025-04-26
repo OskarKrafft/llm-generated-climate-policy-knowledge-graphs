@@ -1,0 +1,21 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:addresses eurovoc:4060 ;
+    pol:specifies_in_effect_time pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Time_InEffect_1,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Time_InEffect_2,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Time_InEffect_3,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Time_InEffect_4 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Time_InEffect_1 pol:In_effect_date "2011-02-24"^^xsd:date ;
+    pol:annotatedText "it shall apply from 24 February 2011" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Time_InEffect_2 pol:In_effect_date "20th day following its publication in the official journal of the european union" ;
+    pol:annotatedText "this regulation shall enter into force on the 20th day following its publication in the official journal of the european union" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Time_InEffect_3 pol:annotatedText "article 11(3) and article 12, which shall apply from the date of entry into force of this regulation" .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Time_InEffect_4 pol:annotatedText "article 11(2), which shall apply from the date set out therein" .
+

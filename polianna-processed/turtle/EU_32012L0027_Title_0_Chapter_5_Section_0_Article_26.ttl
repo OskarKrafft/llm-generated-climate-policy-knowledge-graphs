@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_26 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_26 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:fullText """article 26
+committee procedure
+1.   the commission shall be assisted by a committee. that committee shall be a committee within the meaning of regulation (eu) no 182/2011.
+2.   where reference is made to this paragraph, article 4 of regulation (eu) no 182/2011 shall apply."""^^xsd:string .
+

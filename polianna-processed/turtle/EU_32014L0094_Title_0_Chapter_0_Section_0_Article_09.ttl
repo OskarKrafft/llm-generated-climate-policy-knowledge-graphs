@@ -1,0 +1,14 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014L0094 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_09 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_09 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038> ;
+    pol:fullText """article 9
+committee procedure
+1.   the commission shall be assisted by a committee. that committee shall be a committee within the meaning of regulation (eu) no 182/2011.
+2.   where reference is made to this paragraph, article 5 of regulation (eu) no 182/2011 shall apply. where the committee delivers no opinion, the commission shall not adopt the draft implementing act and the third subparagraph of article 5(4) of regulation (eu) no 182/2011 shall apply.
+3.   where the opinion of the committee is to be obtained by written procedure, that procedure shall be terminated without result when, within the time limit for delivery of the opinion, the chair of the committee so decides or a simple majority of committee members so request."""^^xsd:string .
+

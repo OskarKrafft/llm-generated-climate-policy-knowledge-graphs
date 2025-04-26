@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_20 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_20 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 20
+access to and operation of the grids
+1.   where relevant, member states shall assess the need to extend existing gas network infrastructure to facilitate the integration of gas from renewable sources.
+2.   where relevant, member states shall require transmission system operators and distribution system operators in their territory to publish technical rules in accordance with article 8 of directive 2009/73/ec, in particular regarding network connection rules that include gas quality, gas odoration and gas pressure requirements. member states shall also require transmission and distribution system operators to publish the connection tariffs to connect gas from renewable sources based on objective, transparent and non-discriminatory criteria.
+3.   subject to their assessment included in the integrated national energy and climate plans in accordance with annex i to regulation (eu) 2018/1999 on the necessity to build new infrastructure for district heating and cooling from renewable sources in order to achieve the union target set in article 3(1) of this directive, member states shall, where relevant, take the necessary steps with a view to developing a district heating and cooling infrastructure to accommodate the development of heating and cooling from large biomass, solar energy, ambient energy and geothermal energy facilities and from waste heat and cold."""^^xsd:string .
+

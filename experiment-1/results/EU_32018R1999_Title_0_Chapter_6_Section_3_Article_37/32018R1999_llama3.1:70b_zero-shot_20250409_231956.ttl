@@ -1,0 +1,49 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix poli: <https://w3id.org/poli/def/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/eli/reg/2018/1999/oj>
+  dct:title "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37" ;
+  skos:notation "CELEX_Number: 32018R1999" ;
+  prov:wasDerivedFrom [
+    a dctype:Text ;
+    skos:closeMatch <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    dct:description """
+      article 37
+      union and national inventory systems
+      1.   by 1 january 2021, member states shall establish, operate and seek to continuously improve national inventory systems to estimate anthropogenic emissions by sources and removals by sinks of greenhouse gases listed in part 2 of annex v and to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of their greenhouse gas inventories.
+      2.   member states shall ensure that their competent inventory authorities have access to the information specified in annex xii to this regulation, make use of reporting systems established pursuant to article 20 of regulation (eu) no 517/2014 to improve the estimate of fluorinated gases in the national greenhouse gas inventories and are able to undertake the annual consistency checks referred to in points (i) and (j) of part 1 of annex v to this regulation.
+      3.   a union inventory system to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of national inventories with regard to the union greenhouse gas inventory is hereby established. the commission shall manage, maintain and seek to continuously improve that system which shall include the setting of a quality assurance and quality control programme, setting quality objectives and drafting an inventory quality assurance and quality control plan, procedures for completing emission estimates to compile the union inventory pursuant to paragraph 5 of this article and the reviews referred to in article 38.
+      4.   the commission shall perform an initial check of the accuracy of the preliminary greenhouse gas inventory data to be submitted by member states pursuant to article 26(3). it shall send the results of that check to member states within six weeks of the submission deadline. member states shall respond to any relevant questions raised by the initial check by 15 march, together with the final inventory submission for the year x-2.
+      5.   where a member state does not submit the inventory data required to compile the union inventory by 15 march, the commission may prepare estimates to complete the data submitted by the member state, in consultation and close cooperation with the member state concerned. the commission shall use, for that purpose, the guidelines applicable for preparing the national greenhouse gas inventories.
+      6.   the commission, assisted by the climate change committee referred to in point (a) of article 44(1), shall adopt implementing acts in order to set out rules on the structure, format and submission process of the information relating to national inventory systems and requirements on the establishment, operation and functioning of national inventory systems.
+      in proposing such implementing acts, the commission shall take into account any relevant decisions adopted by the bodies of the unfccc or of the paris agreement.
+      those implementing acts shall be adopted in accordance with the examination procedure referred to in article 44(6).
+      7.   the commission shall adopt delegated acts in accordance with article 43 in order to supplement this regulation by setting out rules concerning the requirements on the establishment, operation and functioning of the union inventory system. in proposing such delegated acts, the commission shall take into account any relevant decisions adopted by the bodies of the unfccc or of the paris agreement.
+    """ ;
+  ] ;
+  prov:wasAnnotatedBy [
+    a poli:Annotation ;
+    dct:title "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37" ;
+    skos:notation "CELEX_Number: 32018R1999" ;
+    dct:description """
+      article 37
+      union and national inventory systems
+      1.   by 1 january 2021, member states shall establish, operate and seek to continuously improve national inventory systems to estimate anthropogenic emissions by sources and removals by sinks of greenhouse gases listed in part 2 of annex v and to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of their greenhouse gas inventories.
+      2.   member states shall ensure that their competent inventory authorities have access to the information specified in annex xii to this regulation, make use of reporting systems established pursuant to article 20 of regulation (eu) no 517/2014 to improve the estimate of fluorinated gases in the national greenhouse gas inventories and are able to undertake the annual consistency checks referred to in points (i) and (j) of part 1 of annex v to this regulation.
+      3.   a union inventory system to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of national inventories with regard to the union greenhouse gas inventory is hereby established. the commission shall manage, maintain and seek to continuously improve that system which shall include the setting of a quality assurance and quality control programme, setting quality objectives and drafting an inventory quality assurance and quality control plan, procedures for completing emission estimates to compile the union inventory pursuant to paragraph 5 of this article and the reviews referred to in article 38.
+      4.   the commission shall perform an initial check of the accuracy of the preliminary greenhouse gas inventory data to be submitted by member states pursuant to article 26(3). it shall send the results of that check to member states within six weeks of the submission deadline. member states shall respond to any relevant questions raised by the initial check by 15 march, together with the final inventory submission for the year x-2.
+      5.   where a member state does not submit the inventory data required to compile the union inventory by 15 march, the commission may prepare estimates to complete the data submitted by the member state, in consultation and close cooperation with the member state concerned. the commission shall use, for that purpose, the guidelines applicable for preparing the national greenhouse gas inventories.
+      6.   the commission, assisted by the climate change committee referred to in point (a) of article 44(1), shall adopt implementing acts in order to set out rules on the structure, format and submission process of the information relating to national inventory systems and requirements on the establishment, operation and functioning of national inventory systems.
+      in proposing such implementing acts, the commission shall take into account any relevant decisions adopted by the bodies of the unfccc or of the paris agreement.
+      those implementing acts shall be adopted in accordance with the examination procedure referred to in article 44(6).
+      7.   the commission shall adopt delegated acts in accordance with article 43 in order to supplement this regulation by setting out rules concerning the requirements on the establishment, operation and functioning of the union inventory system. in proposing such delegated acts, the commission shall take into account any relevant decisions adopted by the bodies of the unfccc or of the paris agreement.
+    """ ;
+    prov:wasAttributedTo [
+      a prov:Agent ;
+      skos:altLabel "annotators" ;
+    ] ;
+  ] .

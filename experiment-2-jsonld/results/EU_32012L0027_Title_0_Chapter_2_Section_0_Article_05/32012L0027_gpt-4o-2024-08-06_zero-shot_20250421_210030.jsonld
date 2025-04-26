@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_05",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Exemplary role of public bodies’ buildings"
+      },
+      "is_about": [
+        {
+          "id": "Member_States",
+          "type": "Organization"
+        },
+        {
+          "id": "RegulatoryInstr",
+          "type": [
+            "owl:NamedIndividual",
+            "skos:Concept"
+          ]
+        }
+      ],
+      "specifies_compliance_time": {
+        "id": "Time_Compliance",
+        "Compliance_date": "2014-01-01"
+      },
+      "specifies_in_effect_time": {
+        "id": "Time_InEffect",
+        "In_effect_date": "2013-12-31"
+      },
+      "contains_instrument": [
+        {
+          "id": "Subsidies_Incentives",
+          "type": [
+            "owl:NamedIndividual",
+            "skos:Concept"
+          ]
+        },
+        {
+          "id": "PublicInvestment",
+          "type": [
+            "owl:NamedIndividual",
+            "skos:Concept"
+          ]
+        }
+      ],
+      "contains_objective": {
+        "id": "Objective",
+        "type": [
+          "owl:NamedIndividual",
+          "skos:Concept"
+        ]
+      },
+      "annotatedText": "Each Member State shall ensure that, as from 1 January 2014, 3% of the total floor area of heated and/or cooled buildings owned and occupied by its central government is renovated each year to meet at least the minimum energy performance requirements."
+    }
+  ]
+}

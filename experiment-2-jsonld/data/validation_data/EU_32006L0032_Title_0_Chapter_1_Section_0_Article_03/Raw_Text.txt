@@ -1,0 +1,41 @@
+article 3
+definitions
+for the purposes of this directive, the following definitions shall apply:
+(a)
+‘energy’: all forms of commercially available energy, including electricity, natural gas (including liquefied natural gas), liquefied petroleum gas, any fuel for heating and cooling (including district heating and cooling), coal and lignite, peat, transport fuels (excluding aviation and maritime bunker fuels) and biomass as defined in directive 2001/77/ec of the european parliament and of the council of 27 september 2001 on the promotion of electricity produced from renewable energy sources in the internal electricity market (14);
+(b)
+‘energy efficiency’: a ratio between an output of performance, service, goods or energy, and an input of energy;
+(c)
+‘energy efficiency improvement’: an increase in energy end-use efficiency as a result of technological, behavioural and/or economic changes;
+(d)
+‘energy savings’: an amount of saved energy determined by measuring and/or estimating consumption before and after implementation of one or more energy efficiency improvement measures, whilst ensuring normalisation for external conditions that affect energy consumption;
+(e)
+‘energy service’: the physical benefit, utility or good derived from a combination of energy with energy efficient technology and/or with action, which may include the operations, maintenance and control necessary to deliver the service, which is delivered on the basis of a contract and in normal circumstances has proven to lead to verifiable and measurable or estimable energy efficiency improvement and/or primary energy savings;
+(f)
+‘energy efficiency mechanisms’: general instruments used by governments or government bodies to create a supportive framework or incentives for market actors to provide and purchase energy services and other energy efficiency improvement measures;
+(g)
+‘energy efficiency improvement programmes’: activities that focus on groups of final customers and that normally lead to verifiable and measurable or estimable energy efficiency improvement;
+(h)
+‘energy efficiency improvement measures’: all actions that normally lead to verifiable and measurable or estimable energy efficiency improvement;
+(i)
+‘energy service company’ (esco): a natural or legal person that delivers energy services and/or other energy efficiency improvement measures in a user's facility or premises, and accepts some degree of financial risk in so doing. the payment for the services delivered is based (either wholly or in part) on the achievement of energy efficiency improvements and on the meeting of the other agreed performance criteria;
+(j)
+‘energy performance contracting’: a contractual arrangement between the beneficiary and the provider (normally an esco) of an energy efficiency improvement measure, where investments in that measure are paid for in relation to a contractually agreed level of energy efficiency improvement;
+(k)
+‘third-party financing’: a contractual arrangement involving a third party — in addition to the energy supplier and the beneficiary of the energy efficiency improvement measure — that provides the capital for that measure and charges the beneficiary a fee equivalent to a part of the energy savings achieved as a result of the energy efficiency improvement measure. that third party may or may not be an esco;
+(l)
+‘energy audit’: a systematic procedure to obtain adequate knowledge of the existing energy consumption profile of a building or group of buildings, of an industrial operation and/or installation or of a private or public service, identify and quantify cost‐effective energy savings opportunities, and report the findings;
+(m)
+‘financial instruments for energy savings’: all financial instruments such as funds, subsidies, tax rebates, loans, third-party financing, energy performance contracting, guarantee of energy savings contracts, energy outsourcing and other related contracts that are made available to the market place by public or private bodies in order to cover partly or totally the initial project cost for implementing energy efficiency improvement measures;
+(n)
+‘final customer’: a natural or legal person that purchases energy for his own end use;
+(o)
+‘energy distributor’: a natural or legal person responsible for transporting energy with a view to its delivery to final customers and to distribution stations that sell energy to final customers. this definition excludes electricity and natural gas distribution system operators, covered in point (p);
+(p)
+‘distribution system operator’: a natural or legal person responsible for operating, ensuring the maintenance of and, if necessary, developing the distribution system of electricity or natural gas in a given area and, where applicable, its interconnections with other systems, and for ensuring the long term ability of the system to meet reasonable demands for the distribution of electricity or natural gas;
+(q)
+‘retail energy sales company’: a natural or legal person that sells energy to final customers;
+(r)
+‘small distributor, small distribution system operator and small retail energy sales company’: a natural or legal person that distributes or sells energy to final customers, and that distributes or sells less than the equivalent of 75 gwh energy per year or employs fewer than 10 persons or whose annual turnover and/or annual balance sheet total does not exceed eur 2 000 000;
+(s)
+‘white certificates’: certificates issued by independent certifying bodies confirming the energy savings claims of market actors as a consequence of energy efficiency improvement measures.

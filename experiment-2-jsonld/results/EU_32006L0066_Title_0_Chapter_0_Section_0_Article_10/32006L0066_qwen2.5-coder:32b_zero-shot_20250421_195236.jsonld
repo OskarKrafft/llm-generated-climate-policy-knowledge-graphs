@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "poliana": "https://w3id.org/polianna/ontology#"
+  },
+  "@type": "poliana:Article",
+  "dct:title": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10",
+  "eli:number": "32006L0066",
+  "eli:hasExpression": {
+    "@type": "eli:LegalResource",
+    "eli:expressionDate": "2006-09-25",
+    "dct:source": "http://data.europa.eu/eli/dir/2006/66/oj"
+  },
+  "poliana:hasParagraph": [
+    {
+      "@type": "poliana:Paragraph",
+      "dct:description": "Member States shall calculate the collection rate for the first time in respect of the fifth full calendar year following the entry into force of this directive. Without prejudice to Directive 2002/96/EC, annual collection and sales figures shall include batteries and accumulators incorporated into appliances."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:description": "Member States shall achieve the following minimum collection rates:",
+      "poliana:hasSubparagraph": [
+        {
+          "@type": "poliana:Subparagraph",
+          "dct:description": "25 % by 26 September 2012;"
+        },
+        {
+          "@type": "poliana:Subparagraph",
+          "dct:description": "45 % by 26 September 2016."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:description": "Member States shall monitor collection rates on a yearly basis according to the scheme set out in Annex I. Without prejudice to Regulation (EC) No 2150/2002 of the European Parliament and of the Council of 25 November 2002 on waste statistics, Member States shall transmit reports to the Commission within six months of the end of the calendar year concerned. Reports shall indicate how they obtained the data necessary to calculate the collection rate."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:description": "In accordance with the procedure referred to in Article 24(2):",
+      "poliana:hasSubparagraph": [
+        {
+          "@type": "poliana:Subparagraph",
+          "dct:description": "transitional arrangements may be laid down to address difficulties faced by a Member State in satisfying the requirements of paragraph 2 as a result of specific national circumstances;"
+        },
+        {
+          "@type": "poliana:Subparagraph",
+          "dct:description": "a common methodology shall be established for the calculation of annual sales of portable batteries and accumulators to end-users by 26 September 2007."
+        }
+      ]
+    }
+  ]
+}

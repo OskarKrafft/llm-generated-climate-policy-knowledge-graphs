@@ -1,0 +1,28 @@
+article 3
+definitions
+1.   for the purposes of this regulation, the following definitions shall apply:
+(a)
+‘hydrogen-powered vehicle’ means any motor vehicle that uses hydrogen as fuel to propel the vehicle;
+(b)
+‘propulsion system’ means the internal combustion engine or fuel cell system used to propel the vehicle;
+(c)
+‘hydrogen component’ means the hydrogen container and all other parts of the hydrogen-powered vehicle that are in direct contact with hydrogen or which form part of a hydrogen system;
+(d)
+‘hydrogen system’ means an assembly of hydrogen components and connecting parts fitted on hydrogen-powered vehicles, excluding the propulsion systems or auxiliary power units;
+(e)
+‘maximum allowable working pressure’ (mawp) means the maximum pressure to which a component is designed to be subjected to and which is the basis for determining the strength of the component under consideration;
+(f)
+‘nominal working pressure’ (nwp) means, as regards containers, the settled pressure at a uniform temperature of 288k (15 °c) for a full container, or as regards other components, the pressure level at which a component typically operates;
+(g)
+‘inner tank’ means the part of the hydrogen container designed to use liquid hydrogen that contains the cryogenic hydrogen.
+2.   for the purposes of paragraph 1(d), ‘hydrogen systems’ shall include, inter alia, the following:
+(a)
+usage monitoring and control systems;
+(b)
+vehicle interface systems;
+(c)
+excess flow systems;
+(d)
+overpressure protection systems;
+(e)
+heat exchanger failure detection systems.

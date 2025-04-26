@@ -1,0 +1,39 @@
+article 16
+citizen energy communities
+1.   member states shall provide an enabling regulatory framework for citizen energy communities ensuring that:
+(a)
+participation in a citizen energy community is open and voluntary;
+(b)
+members or shareholders of a citizen energy community are entitled to leave the community, in which case article 12 applies;
+(c)
+members or shareholders of a citizen energy community do not lose their rights and obligations as household customers or active customers;
+(d)
+subject to fair compensation as assessed by the regulatory authority, relevant distribution system operators cooperate with citizen energy communities to facilitate electricity transfers within citizen energy communities;
+(e)
+citizen energy communities are subject to non-discriminatory, fair, proportionate and transparent procedures and charges, including with respect to registration and licensing, and to transparent, non-discriminatory and cost-reflective network charges in accordance with article 18 of regulation (eu) 2019/943, ensuring that they contribute in an adequate and balanced way to the overall cost sharing of the system.
+2.   member states may provide in the enabling regulatory framework that citizen energy communities:
+(a)
+are open to cross-border participation;
+(b)
+are entitled to own, establish, purchase or lease distribution networks and to autonomously manage them subject to conditions set out in paragraph 4 of this article;
+(c)
+are subject to the exemptions provided for in article 38(2).
+3.   member states shall ensure that citizen energy communities:
+(a)
+are able to access all electricity markets, either directly or through aggregation, in a non-discriminatory manner;
+(b)
+are treated in a non-discriminatory and proportionate manner with regard to their activities, rights and obligations as final customers, producers, suppliers, distribution system operators or market participants engaged in aggregation;
+(c)
+are financially responsible for the imbalances they cause in the electricity system; to that extent they shall be balance responsible parties or shall delegate their balancing responsibility in accordance with article 5 of regulation (eu) 2019/943;
+(d)
+with regard to consumption of self-generated electricity, citizen energy communities are treated like active customers in accordance with point (e) of article 15(2);
+(e)
+are entitled to arrange within the citizen energy community the sharing of electricity that is produced by the production units owned by the community, subject to other requirements laid down in this article and subject to the community members retaining their rights and obligations as final customers.
+for the purposes of point (e) of the first subparagraph, where electricity is shared, this shall be without prejudice to applicable network charges, tariffs and levies, in accordance with a transparent cost-benefit analysis of distributed energy resources developed by the competent national authority.
+4.   member states may decide to grant citizen energy communities the right to manage distribution networks in their area of operation and establish the relevant procedures, without prejudice to chapter iv or to other rules and regulations applying to distribution system operators. if such a right is granted, member states shall ensure that citizen energy communities:
+(a)
+are entitled to conclude an agreement on the operation of their network with the relevant distribution system operator or transmission system operator to which their network is connected;
+(b)
+are subject to appropriate network charges at the connection points between their network and the distribution network outside the citizen energy community and that such network charges account separately for the electricity fed into the distribution network and the electricity consumed from the distribution network outside the citizen energy community in accordance with article 59(7);
+(c)
+do not discriminate or harm customers who remain connected to the distribution system.

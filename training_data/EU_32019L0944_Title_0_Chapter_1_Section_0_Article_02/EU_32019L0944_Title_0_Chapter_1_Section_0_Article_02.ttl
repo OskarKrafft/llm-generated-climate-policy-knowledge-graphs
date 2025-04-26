@@ -1,0 +1,14 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_1_Section_0_Article_02 .
+
+pol:EU_32019L0944_Title_0_Chapter_1_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TradablePermit ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> .
+

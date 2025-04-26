@@ -1,0 +1,71 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_10 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:Subsidies_Incentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 10
+derogations for certain manufacturers
+1.   an application for a derogation from the specific emissions target calculated in accordance with annex i may be made by a manufacturer of fewer than 10 000 new passenger cars or 22 000 new light commercial vehicles registered in the union per calendar year, and which:
+(a)
+is not part of a group of connected manufacturers; or
+(b)
+is part of a group of connected manufacturers that is responsible in total for fewer than 10 000 new passenger cars or 22 000 new light commercial vehicles registered in the union per calendar year; or
+(c)
+is part of a group of connected manufacturers but operates its own production facilities and design centre.
+2.   a derogation applied for under paragraph 1 may be granted for a maximum period of five calendar years, which is renewable. an application shall be made to the commission and shall include:
+(a)
+the name of, and contact person for, the manufacturer;
+(b)
+evidence that the manufacturer is eligible for a derogation under paragraph 1;
+(c)
+details of the passenger cars or light commercial vehicles which it manufactures including the test mass and specific emissions of co2 of those passenger cars or light commercial vehicles; and
+(d)
+a specific emissions target consistent with its reduction potential, including the economic and technological potential to reduce its specific emissions of co2 and taking into account the characteristics of the market for the type of passenger car or light commercial vehicle manufactured.
+3.   where the commission considers that the manufacturer is eligible for a derogation applied for under paragraph 1 and is satisfied that the specific emissions target proposed by the manufacturer is consistent with its reduction potential, including the economic and technological potential to reduce its specific emissions of co2, and taking into account the characteristics of the market for the type of passenger car or light commercial vehicle manufactured, the commission shall grant a derogation to the manufacturer.
+the application shall be submitted at the latest by 31 october of the first year in which the derogation shall apply.
+4.   an application for a derogation from the specific emissions target calculated in accordance with points 1 to 4 and 6.3 of part a of annex i may be made by a manufacturer which is responsible, together with all of its connected undertakings, for between 10 000 and 300 000 new passenger cars registered in the union per calendar year.
+such application may be made by a manufacturer in respect of itself or in respect of itself together with any of its connected undertakings. an application shall be made to the commission and shall include:
+(a)
+all of the information referred to in points (a) and (c) of paragraph 2, including, where relevant, information about any connected undertakings;
+(b)
+in relation to applications referring to points 1 to 4 of part a of annex i, a target which is a 45 % reduction on the average specific emissions of co2 in 2007 or, where a single application is made in respect of a number of connected undertakings, a 45 % reduction on the average of those undertakings' average specific emissions of co2 in 2007;
+(c)
+in relation to applications referring to point 6.3 of part a of annex i to this regulation, a target applicable in the calendar years 2025 to 2028 which is the reduction specified in point (a) of article 1(4) of this regulation on the target calculated in accordance with point (b) of this paragraph taking into account the co2 emissions measured pursuant to regulation (eu) 2017/1151.
+where information on a manufacturer's average specific emissions of co2 does not exist for the year 2007, the commission shall determine an equivalent reduction target based upon the best available co2 emissions reduction technologies deployed in passenger cars of comparable mass and taking into account the characteristics of the market for the type of car manufactured. that target shall be used by the applicant for the purposes of point (b) of the second subparagraph.
+the commission shall grant a derogation to the manufacturer where it is demonstrated that the criteria for the derogation referred to in this paragraph have been met.
+5.   a manufacturer which is subject to a derogation in accordance with this article shall notify the commission immediately of any change which affects or may affect its eligibility for a derogation.
+6.   where the commission considers, whether on the basis of a notification under paragraph 5 or otherwise, that a manufacturer is no longer eligible for the derogation, it shall revoke the derogation with effect from 1 january of the next calendar year and shall notify the manufacturer thereof.
+7.   where the manufacturer does not attain its specific emissions target, the commission shall impose the excess emissions premium on the manufacturer, as set out in article 8.
+8.   the commission is empowered to adopt delegated acts in accordance with article 17 laying down rules to supplement paragraphs 1 to 7 of this article, as regards the interpretation of the eligibility criteria for derogations, the content of the applications, and the content and assessment of programmes for the reduction of specific emissions of co2.
+the commission is also empowered to adopt delegated acts in accordance with article 17 to amend part a of annex i for the purpose of setting out the calculation formulae of the derogation targets referred to in point (c) of the second subparagraph of paragraph 4 of this article.
+9.   applications for a derogation, including the information supporting it, notifications under paragraph 5, revocations under paragraph 6, any imposition of an excess emissions premium under paragraph 7 and measures adopted pursuant to paragraph 8, shall be made publicly available, subject to regulation (ec) no 1049/2001 of the european parliament and of the council (19)."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_compliance_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_3,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_4 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-10-31"^^xsd:date ;
+    pol:annotatedText "31 october of the first year" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2007-01-01"^^xsd:date ;
+    pol:annotatedText "2007" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:annotatedText "2025 to 2028" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-01-01"^^xsd:date ;
+    pol:annotatedText "1 january" .
+

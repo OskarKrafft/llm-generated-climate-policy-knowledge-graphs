@@ -1,0 +1,177 @@
+[
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_1"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "biennially, from 2023"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "imposes_monitoring",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_3"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_7",
+    "p": "annotatedText",
+    "o": "31\u00a0october 2019 and every four years thereafter"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_6"
+  },
+  {
+    "s": "32018R1999",
+    "p": "hasArticle",
+    "o": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_7",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_5"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_7"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_5",
+    "p": "annotatedText",
+    "o": "progress report"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_4",
+    "p": "annotatedText",
+    "o": "biennially"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_4"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_5",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "addresses",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_6",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "contains_instrument",
+    "o": "VoluntaryAgrmt"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "contains_instrument",
+    "o": "FrameworkPolicy"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_6",
+    "p": "annotatedText",
+    "o": "every four years"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "biennially"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "31 october of every year"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "contains_instrument",
+    "o": "Subsidies_Incentives"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_4",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_TimeMonitoring_2"
+  },
+  {
+    "s": "32018R1999",
+    "p": "type",
+    "o": "PolicyDocument"
+  }
+]

@@ -1,0 +1,57 @@
+@prefix pola: <http://example.org/polia#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://example.org/legalacts/CARBON-REDUCTION-REPORT>
+    a pola:LegalAct ;
+    pola:title "Carbon Reduction Report" ;
+    pola:hasProvision <http://example.org/provisions/reporting-co2-reduction> .
+
+<http://example.org/provisions/reporting-co2-reduction>
+    a pola:Provision ;
+    pola:hasRequirement <http://example.org/requirements/report-2030-pathway>,
+                        <http://example.org/requirements/amend-regulation>,
+                        <http://example.org/requirements/pems-feasibility>,
+                        <http://example.org/requirements/revenue-fund-evaluation>,
+                        <http://example.org/requirements/directive-review>,
+                        <http://example.org/requirements/co2-correlation-parameters>,
+                        <http://example.org/requirements/delegated-acts> .
+
+<http://example.org/requirements/report-2030-pathway>
+    a pola:Requirement ;
+    pola:description "Commission shall identify clear pathway for further CO2 emissions reductions beyond 2030." ;
+    pola:dutyBearer <http://example.org/agencies/commission> .
+
+<http://example.org/requirements/amend-regulation>
+    a pola:Requirement ;
+    pola:description "Commission may propose amendments to this regulation including possible revision of EU fleet-wide targets and introduction of binding emissions reduction targets for 2035 and 2040." ;
+    pola:dutyBearer <http://example.org/agencies/commission> .
+
+<http://example.org/requirements/pems-feasibility>
+    a pola:Requirement ;
+    pola:description "Commission shall assess feasibility of developing real-world emission test procedures using PEMS." ;
+    pola:dutyBearer <http://example.org/agencies/commission> .
+
+<http://example.org/requirements/revenue-fund-evaluation>
+    a pola:Requirement ;
+    pola:description "Commission shall evaluate possibility to assign revenue from excess emissions premiums to a specific fund or relevant program and may propose legislative action by 2027." ;
+    pola:dutyBearer <http://example.org/agencies/commission> .
+
+<http://example.org/requirements/directive-review>
+    a pola:Requirement ;
+    pola:description "Commission shall review Directive 1999/94/EC and evaluate options for introducing fuel economy and CO2 emissions label by December 31, 2020." ;
+    pola:dutyBearer <http://example.org/agencies/commission> .
+
+<http://example.org/requirements/co2-correlation-parameters>
+    a pola:Requirement ;
+    pola:description "Commission shall determine correlation parameters for CO2 emissions measurement through implementing acts." ;
+    pola:dutyBearer <http://example.org/agencies/commission> .
+
+<http://example.org/requirements/delegated-acts>
+    a pola:Requirement ;
+    pola:description "Commission is empowered to adopt delegated acts in order to amend this regulation by adapting formulae while ensuring reduction requirements of comparable stringency." ;
+    pola:dutyBearer <http://example.org/agencies/commission> .
+
+<http://example.org/agencies/commission>
+    a pola:Agency ;
+    pola:name "European Commission" .
+.

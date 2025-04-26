@@ -1,0 +1,20 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_36 .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_36 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 36
+monitoring of the governance mechanism
+in the context of the state of the energy union as referred to in article 35, the commission shall inform the european parliament and the council on the implementation of the integrated national energy and climate plans. the european parliament and the council shall, on an annual basis, address the progress achieved by the energy union on all dimensions of energy and climate policies."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_36_TimeMonitoring_1 .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_36_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "annual" .
+

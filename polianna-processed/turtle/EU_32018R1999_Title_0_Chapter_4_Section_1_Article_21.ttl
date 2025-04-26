@@ -1,0 +1,54 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_21 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_21 a pol:PolicyArticle ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 21
+integrated reporting on energy efficiency
+member states shall include in the integrated national energy and climate progress reports information:
+(a)
+on the implementation of the following national trajectories, objectives and targets:
+(1)
+the indicative trajectory for primary and final annual energy consumption from 2021 to 2030 as the national energy savings contribution to achieving the union-level 2030 target, including the underlying methodology;
+(2)
+the indicative milestones of the long-term strategy for the renovation of the national stock of residential and non-residential buildings, both public and private, and the contributions to the union's energy efficiency targets pursuant to directive 2012/27/eu in accordance with article 2a of directive 2010/31/eu;
+(3)
+where applicable, an update of other national objectives set out in the national plan;
+(b)
+on the implementation of the following policies and measures:
+(1)
+implemented, adopted and planned policies, measures and programmes to achieve the indicative national energy efficiency contribution for 2030 as well as other objectives referred to in article 6, including planned measures and instruments (also of a financial nature) to promote the energy performance of buildings, measures to utilise energy efficiency potentials of gas and electricity infrastructure and other measures to promote energy efficiency;
+(2)
+where applicable, market-based instruments that incentivise energy efficiency improvements, including but not limited to energy taxes, levies and allowances;
+(3)
+national energy efficiency obligation scheme and alternative measures pursuant to article 7a and 7b of directive 2012/27/eu and in accordance with annex iii to this regulation;
+(4)
+long-term renovation strategies in accordance with article 2a of directive 2010/31/eu;
+(5)
+policy and measures to promote energy services in the public sector and measures to remove regulatory and non-regulatory barriers that impede the uptake of energy performance contracting and other energy efficiency service models;
+(6)
+regional cooperation in the area of energy efficiency, where applicable;
+(7)
+without prejudice to articles 107 and 108 tfeu, financing measures, including union support and the use of union funds, in the area of energy efficiency at national level, where applicable;
+(c)
+as set out in part 2 of annex ix."""^^xsd:string ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_21_TimeCompliance_1,
+        pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_21_TimeCompliance_2 .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_21_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_4_Section_1_Article_21_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+

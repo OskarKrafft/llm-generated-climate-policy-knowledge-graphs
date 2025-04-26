@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_08 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 8
+availability of qualification, accreditation and certification schemes
+with a view to achieving a high level of technical competence, objectivity and reliability, member states shall ensure, where they deem it necessary, the availability of appropriate qualification, accreditation and/or certification schemes for providers of energy services, energy audits and energy efficiency improvement measures as referred to in article 6(2)(a) (i) and (ii)."""^^xsd:string .
+

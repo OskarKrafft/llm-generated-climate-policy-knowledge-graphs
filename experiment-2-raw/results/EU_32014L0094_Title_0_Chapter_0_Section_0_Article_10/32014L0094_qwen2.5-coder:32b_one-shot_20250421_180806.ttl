@@ -1,0 +1,31 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_Article_10 a <http://data.europa.eu/eli/dir/2014/94/oj#Article> ;
+    pol:actionPlanContent pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_Implementation_of_Alternative_Fuels_Strategy ;
+    pol:actionPlanDeadline pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_2018-12-31 ;
+    pol:annualReportContent pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_Assessment_of_MemberState_Actions,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_Effects_on_Alternative_Fuels_Market,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_Technical_Progress_and_Market_Development ;
+    pol:commissionAnnualReportingFrequency pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_P3Y ;
+    pol:commissionMayMakeRecommendations pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_true ;
+    pol:commissionMayOutline pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_Best_Practices ;
+    pol:commissionReportContent pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_Infrastructure_Buildup_and_Specifications ;
+    pol:commissionReportDeadline pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_2017-11-18 ;
+    pol:guidelinesContent pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_Reporting_By_MemberStates ;
+    pol:hasAnnotators pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_B,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_C ;
+    pol:hasCELEXNumber pol:32014L0094 ;
+    pol:hasELI <http://data.europa.eu/eli/dir/2014/94/oj> ;
+    pol:hasTitle pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10 ;
+    pol:maySubmitProposalToAmendDirective pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_true ;
+    pol:proposalContent pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_New_Common_Technical_Specifications ;
+    pol:reportingContent pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_Annex_I ;
+    pol:reportingDeadline pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_2019-11-18 ;
+    pol:requiresCommissionActionPlan pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_true ;
+    pol:requiresCommissionGuidelines pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_true ;
+    pol:requiresCommissionReportToEPAndCouncil pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_true ;
+    pol:requiresCommissionReview pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_true ;
+    pol:requiresReportingBy pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_MemberState ;
+    pol:reviewDeadline pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_2020-12-31 ;
+    pol:subsequentReportingFrequency pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_10_P3Y .
+

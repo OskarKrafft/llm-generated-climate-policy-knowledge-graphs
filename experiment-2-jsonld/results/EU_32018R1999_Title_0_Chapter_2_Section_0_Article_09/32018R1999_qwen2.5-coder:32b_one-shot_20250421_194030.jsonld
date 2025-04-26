@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "poliana": "http://example.org/poliana#"
+  },
+  "@id": "http://data.europa.eu/eli/reg/2018/1999/oj/article_9",
+  "@type": "eli:Article",
+  "eli:title": {
+    "@value": "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_09"
+  },
+  "eli:number": "9",
+  "eli:has_part": [
+    {
+      "@id": "#section_1",
+      "@type": "poliana:Section",
+      "skos:prefLabel": "Submission of Draft Plans",
+      "poliana:specifies_time": {
+        "@id": "#time_compliance_1",
+        "@type": "poliana:Time_Compliance",
+        "poliana:Compliance_date": {
+          "@value": "2018-12-31",
+          "@type": "xsd:date"
+        }
+      },
+      "poliana:specifies_time": {
+        "@id": "#time_compliance_2",
+        "@type": "poliana:Time_Compliance",
+        "poliana:Compliance_date": {
+          "@value": "2028-01-01",
+          "@type": "xsd:date"
+        }
+      },
+      "poliana:specifies_time": {
+        "@id": "#time_compliance_3",
+        "@type": "poliana:Time_Compliance",
+        "skos:prefLabel": "Every ten years thereafter"
+      },
+      "poliana:contains_instrument": {
+        "@id": "#instrument_1",
+        "@type": "poliana:RegulatoryInstr",
+        "skos:prefLabel": "Submission of Draft Integrated National Energy and Climate Plans"
+      }
+    },
+    {
+      "@id": "#section_2",
+      "@type": "poliana:Section",
+      "skos:prefLabel": "Commission's Assessment and Recommendations",
+      "poliana:specifies_time": {
+        "@id": "#time_monitoring_1",
+        "@type": "poliana:Time_Monitoring",
+        "skos:prefLabel": "No later than six months before the deadline"
+      },
+      "poliana:contains_instrument": {
+        "@id": "#instrument_2",
+        "@type": "poliana:RegulatoryInstr",
+        "skos:prefLabel": "Commission's Assessment and Recommendations"
+      }
+    },
+    {
+      "@id": "#section_3",
+      "@type": "poliana:Section",
+      "skos:prefLabel": "Member States' Consideration of Recommendations",
+      "poliana:contains_instrument": {
+        "@id": "#instrument_3",
+        "@type": "poliana:RegulatoryInstr",
+        "skos:prefLabel": "Consideration and Public Reasons"
+      }
+    },
+    {
+      "@id": "#section_4",
+      "@type": "poliana:Section",
+      "skos:prefLabel": "Public Consultation",
+      "poliana:contains_instrument": {
+        "@id": "#instrument_4",
+        "@type": "poliana:RegulatoryInstr",
+        "skos:prefLabel": "Availability of Draft Plan for Public Consultation"
+      }
+    }
+  ]
+}

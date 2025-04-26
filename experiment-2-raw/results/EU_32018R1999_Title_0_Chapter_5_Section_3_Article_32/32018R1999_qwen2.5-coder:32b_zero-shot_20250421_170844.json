@@ -1,0 +1,143 @@
+json
+[
+    {
+        "Subject": "Article_32",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_32",
+        "Predicate": "hasTitle",
+        "Object": "response to insufficient progress towards the union's energy and climate objectives and targets"
+    },
+    {
+        "Subject": "Article_32.1",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_32.1",
+        "Predicate": "hasContent",
+        "Object": "where, on the basis of its assessment pursuant to point (b) of article 29(1), the commission concludes that progress towards achieving the union's energy and climate objectives is insufficient, it shall propose measures and exercise its power at union level in addition to those set out in directive 2010/31/eu and directive 2012/27/eu to ensure that the union's 2030 energy efficiency targets are met."
+    },
+    {
+        "Subject": "Article_32.1",
+        "Predicate": "hasSuffix",
+        "Object": "1"
+    },
+    {
+        "Subject": "Article_32.1",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_1a"
+    },
+    {
+        "Subject": "Paragraph_1a",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_1a",
+        "Predicate": "hasContent",
+        "Object": "the commission shall propose measures and exercise its power at union level in addition to those set out in directive 2010/31/eu and directive 2012/27/eu"
+    },
+    {
+        "Subject": "Paragraph_1a",
+        "Predicate": "hasSuffix",
+        "Object": "a"
+    },
+    {
+        "Subject": "Article_32.1",
+        "Predicate": "hasPart",
+        "Object": "Paragraph_1b"
+    },
+    {
+        "Subject": "Paragraph_1b",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Paragraph_1b",
+        "Predicate": "hasContent",
+        "Object": "to ensure that the union's 2030 energy efficiency targets are met."
+    },
+    {
+        "Subject": "Paragraph_1b",
+        "Predicate": "hasSuffix",
+        "Object": "b"
+    },
+    {
+        "Subject": "Article_32.2",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_32.2",
+        "Predicate": "hasContent",
+        "Object": "where, in the area of energy efficiency, without prejudice to other measures at union level pursuant to the third subparagraph of paragraph 2 of this article, the commission concludes, based on its assessment pursuant to article 29(1) and (3), carried out by the years 2022, 2025 and 2027 that progress towards collectively achieving the union's energy efficiency targets referred to in the first subparagraph of article 29(3) is insufficient, it shall propose measures and exercise its power at union level in addition to those set out in directive 2010/31/eu and directive 2012/27/eu to ensure that the union's 2030 energy efficiency targets are met."
+    },
+    {
+        "Subject": "Article_32.2",
+        "Predicate": "hasSuffix",
+        "Object": "2"
+    },
+    {
+        "Subject": "Article_32.3",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_32.3",
+        "Predicate": "hasContent",
+        "Object": "where, in the area of energy efficiency, without prejudice to other measures at union level pursuant to the third subparagraph of paragraph 2 of this article, the commission concludes, based on its assessment pursuant to article 29(1) and (3), carried out by the years 2022, 2025 and 2027 that progress towards collectively achieving the union's energy efficiency targets referred to in the first subparagraph of article 29(3) is insufficient, it shall propose measures and exercise its power at union level in addition to those set out in directive 2010/31/eu and directive 2012/27/eu to ensure that the union's 2030 energy efficiency targets are met."
+    },
+    {
+        "Subject": "Article_32.3",
+        "Predicate": "hasSuffix",
+        "Object": "3"
+    },
+    {
+        "Subject": "Article_32.4",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_32.4",
+        "Predicate": "hasContent",
+        "Object": "from 1 january 2021 onwards, the share of energy from renewable sources in each member state's final energy consumption shall be at least [percentage]%."
+    },
+    {
+        "Subject": "Article_32.4",
+        "Predicate": "hasSuffix",
+        "Object": "4"
+    },
+    {
+        "Subject": "Article_32.5",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_32.5",
+        "Predicate": "hasContent",
+        "Object": "where, in the area of energy efficiency, without prejudice to other measures at union level pursuant to the third subparagraph of paragraph 2 of this article, the commission concludes, based on its assessment pursuant to article 29(1) and (3), carried out by the years 2022, 2025 and 2027 that progress towards collectively achieving the union's energy efficiency targets referred to in the first subparagraph of article 29(3) is insufficient, it shall propose measures and exercise its power at union level in addition to those set out in directive 2010/31/eu and directive 2012/27/eu to ensure that the union's 2030 energy efficiency targets are met."
+    },
+    {
+        "Subject": "Article_32.5",
+        "Predicate": "hasSuffix",
+        "Object": "5"
+    },
+    {
+        "Subject": "Article_32.6",
+        "Predicate": "type",
+        "Object": "http://purl.org/dc/terms/Text"
+    },
+    {
+        "Subject": "Article_32.6",
+        "Predicate": "hasContent",
+        "Object": "where, in the area of energy efficiency, without prejudice to other measures at union level pursuant to the third subparagraph of paragraph 2 of this article, the commission concludes, based on its assessment pursuant to article 29(1) and (3), carried out by the years 2022, 2025 and 2027 that progress towards collectively achieving the union's energy efficiency targets referred to in the first subparagraph of article 29(3) is insufficient, it shall propose measures and exercise its power at union level in addition to those set out in directive 2010/31/eu and directive 2012/27/eu to ensure that the union's 2030 energy efficiency targets are met."
+    },
+    {
+        "Subject": "Article_32.6",
+        "Predicate": "hasSuffix",
+        "Object": "6"
+    }
+]

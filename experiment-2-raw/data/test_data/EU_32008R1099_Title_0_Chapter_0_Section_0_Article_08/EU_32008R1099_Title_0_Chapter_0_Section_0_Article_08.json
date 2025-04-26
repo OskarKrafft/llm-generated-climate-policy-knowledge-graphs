@@ -1,0 +1,127 @@
+[
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "annual"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "annual"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_6",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_5",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_5",
+    "p": "annotatedText",
+    "o": "reported period"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_6",
+    "p": "annotatedText",
+    "o": "annual"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_4",
+    "p": "annotatedText",
+    "o": "2009"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_2"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_3"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "from 2009 onwards"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_4",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_6"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:2198"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_4"
+  },
+  {
+    "s": "32008R1099",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "32008R1099",
+    "p": "hasArticle",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_5"
+  }
+]

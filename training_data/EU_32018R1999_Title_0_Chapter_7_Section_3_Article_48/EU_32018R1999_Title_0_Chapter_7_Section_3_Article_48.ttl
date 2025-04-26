@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_48 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_48 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_48_TimeMonitoring_1,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_48_TimeMonitoring_2,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_48_TimeMonitoring_3 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_48_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "every four years" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_48_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "30 june 2011" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_48_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "least six months before the deadline" .
+

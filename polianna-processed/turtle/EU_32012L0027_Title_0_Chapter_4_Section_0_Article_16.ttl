@@ -1,0 +1,27 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_4_Section_0_Article_16 .
+
+pol:EU_32012L0027_Title_0_Chapter_4_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 16
+availability of qualification, accreditation and certification schemes
+1.   where a member state considers that the national level of technical competence, objectivity and reliability is insufficient, it shall ensure that, by 31 december 2014, certification and/or accreditation schemes and/or equivalent qualification schemes, including, where necessary, suitable training programmes, become or are available for providers of energy services, energy audits, energy managers and installers of energy-related building elements as defined in article 2(9) of directive 2010/31/eu.
+2.   member states shall ensure that the schemes referred to in paragraph 1 provide transparency to consumers, are reliable and contribute to national energy efficiency objectives.
+3.   member states shall make publicly available the certification and/or accreditation schemes or equivalent qualification schemes referred to in paragraph 1 and shall cooperate among themselves and with the commission on comparisons between, and recognition of, the schemes.
+member states shall take appropriate measures to make consumers aware of the availability of qualification and/or certification schemes in accordance with article 18(1)."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_4_Section_0_Article_16_TimeCompliance_1 .
+
+pol:EU_32012L0027_Title_0_Chapter_4_Section_0_Article_16_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2014-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2014" .
+

@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_25 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_25 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:fullText """article 25
+committees
+1.   except in the cases referred to in paragraph 2, the commission shall be assisted by the committee on renewable energy sources.
+2.   for matters relating to the sustainability of biofuels and bioliquids, the commission shall be assisted by the committee on the sustainability of biofuels and bioliquids.
+3.   where reference is made to this paragraph, articles 3 and 7 of decision 1999/468/ec shall apply, having regard to the provisions of article 8 thereof.
+4.   where reference is made to this paragraph, article 5a(1) to (4) and article 7 of decision 1999/468/ec shall apply, having regard to the provisions of article 8 thereof."""^^xsd:string .
+

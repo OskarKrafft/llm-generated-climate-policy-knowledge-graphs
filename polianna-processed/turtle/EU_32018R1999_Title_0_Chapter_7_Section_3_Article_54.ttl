@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_54 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_54 a pol:PolicyArticle ;
+    pol:fullText """article 54
+amendments to directive 2012/27/eu
+directive 2012/27/eu is amended as follows:
+(1)
+article 4 is deleted;
+(2)
+in article 18(1), point (e) is deleted;
+(3)
+article 24 is amended as follows:
+(a)
+paragraphs 1, 3, 4 and 11, are deleted;
+(b)
+paragraph 2 is deleted;
+(4)
+annex xiv is deleted."""^^xsd:string .
+

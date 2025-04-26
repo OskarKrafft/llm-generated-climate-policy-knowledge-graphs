@@ -1,0 +1,21 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_13 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_13 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_sanctioning_form pol:Form_sanctioning ;
+    pol:fullText """article 13
+penalties
+member states shall lay down the rules on penalties applicable in case of non-compliance with the national provisions adopted pursuant to articles 7 to 11 and article 18(3) and shall take the necessary measures to ensure that they are implemented. the penalties provided for shall be effective, proportionate and dissuasive. member states shall notify those provisions to the commission by 5 june 2014 and shall notify it without delay of any subsequent amendment affecting them."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_13_TimeMonitoring_1 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_13_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "5 june 2014" .
+

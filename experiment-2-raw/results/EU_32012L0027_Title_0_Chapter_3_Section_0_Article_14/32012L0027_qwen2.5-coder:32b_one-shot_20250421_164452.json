@@ -1,0 +1,20 @@
+json
+[
+    {"Article": "1", "Suffix": "", "type": "pol:hasTitle", "value": "Comprehensive Assessment and Cost-Benefit Analysis for High-Efficiency Cogeneration"},
+    {"Article": "1", "Suffix": "", "type": "pol:hasDeadline", "value": "2013-12-31"},
+    {"Article": "1", "Suffix": "", "type": "pol:requiresActionBy", "value": "Member States"},
+    {"Article": "1", "Suffix": "", "type": "pol:hasDescription", "value": "Member States shall carry out a comprehensive assessment and cost-benefit analysis for high-efficiency cogeneration installations."},
+    {"Article": "2", "Suffix": "", "type": "pol:requiresActionBy", "value": "Member States"},
+    {"Article": "2", "Suffix": "", "type": "pol:hasDescription", "value": "Member States may exempt certain installations from the cost-benefit analysis requirements."},
+    {"Article": "3", "Suffix": "", "type": "pol:requiresActionBy", "value": "Member States"},
+    {"Article": "3", "Suffix": "", "type": "pol:hasDescription", "value": "Member States shall adopt authorisation criteria or equivalent permit criteria based on the comprehensive assessment and cost-benefit analysis."},
+    {"Article": "4", "Suffix": "", "type": "pol:requiresActionBy", "value": "Member States"},
+    {"Article": "4", "Suffix": "", "type": "pol:hasDescription", "value": "Member States may exempt individual installations from implementing options whose benefits exceed their costs for imperative reasons."},
+    {"Article": "5", "Suffix": "", "type": "pol:requiresActionBy", "value": "Member States"},
+    {"Article": "5", "Suffix": "", "type": "pol:hasDescription", "value": "Member States shall ensure the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria."},
+    {"Article": "6", "Suffix": "", "type": "pol:requiresActionBy", "value": "Commission"},
+    {"Article": "6", "Suffix": "", "type": "pol:hasDescription", "value": "The Commission shall review the harmonised efficiency reference values by 31 December 2014."},
+    {"Article": "7", "Suffix": "", "type": "pol:requiresActionBy", "value": "Member States"},
+    {"Article": "7", "Suffix": "", "type": "pol:hasDescription", "value": "Public support to cogeneration and district heating generation and networks shall be subject to state aid rules, where applicable."}
+]
+```

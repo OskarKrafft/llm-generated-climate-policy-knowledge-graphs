@@ -1,0 +1,52 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Text ;
+    pol:hasSection pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix1,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix10,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix11,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix12,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix2,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix3,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix4,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix5,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix6,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix7,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix8,
+        pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix9 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix1 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix10 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix11 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix12 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix2 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix3 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix4 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix5 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix6 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix7 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix8 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Suffix9 a pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Paragraph ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32012L0027_Title_0_Chapter_2_Section_0_Article_07_Below_is_the_article_text...> .
+

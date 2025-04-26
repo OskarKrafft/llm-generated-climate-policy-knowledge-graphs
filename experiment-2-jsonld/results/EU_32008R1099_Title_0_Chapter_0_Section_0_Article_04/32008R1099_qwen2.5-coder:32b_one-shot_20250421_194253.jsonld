@@ -1,0 +1,44 @@
+jsonld
+{
+  "@context": {
+    "eli": "http://data.europa.eu/eli/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "PoliannaInstrumentScheme": "http://example.org/PoliannaInstrumentScheme#",
+    "PoliannaMonitoringTimeScheme": "http://example.org/PoliannaMonitoringTimeScheme#"
+  },
+  "@type": "eli:Article",
+  "eli:title": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+  "eli:has_part": [
+    {
+      "@type": "PoliannaMonitoringTimeScheme:Time_Monitoring",
+      "PoliannaMonitoringTimeScheme:Compliance_date": null,
+      "PoliannaMonitoringTimeScheme:Transmission_frequency": [
+        {
+          "@type": "skos:Concept",
+          "skos:prefLabel": "annual",
+          "eli:is_about": "http://data.europa.eu/eli/reg/2008/1099/oj#annex-
+        },
+        {
+          @type": "skos:Concept",
+          "skos:prefLabel": "monthly",
+          "eli:is_about": "http://data.europa.eu/eli/reg/2008/1099/oj#annex-c"
+        },
+        {
+          "@type": "skos:Concept",
+          "skos:prefLabel": "short-term monthly",
+          "eli:is_about": "http://data.europa.eu/eli/reg/2008/1099/oj#annex-d"
+        }
+      ]
+    }
+  ],
+  "contains_instrument": {
+    "@type": "PoliannaInstrumentScheme:RegulatoryInstr",
+    "skos:prefLabel": "Regulatory Instrument",
+    "eli:is_about": "http://data.europa.eu/eli/reg/2008/1099/oj#article-11(2)"
+  },
+  "specifies_time": {
+    "@type": "PoliannaMonitoringTimeScheme:Time_Monitoring"
+  }
+}
+```

@@ -1,0 +1,23 @@
+article 31
+calculation of the greenhouse gas impact of biofuels, bioliquids and biomass fuels
+1.   for the purposes of article 29(10), the greenhouse gas emissions saving from the use of biofuel, bioliquids and biomass fuels shall be calculated in one of the following ways:
+(a)
+where a default value for greenhouse gas emissions saving for the production pathway is laid down in part a or b of annex v for biofuels and bioliquids and in part a of annex vi for biomass fuels where the el value for those biofuels or bioliquids calculated in accordance with point 7 of part c of annex v and for those biomass fuels calculated in accordance with point 7 of part b of annex vi is equal to or less than zero, by using that default value;
+(b)
+by using an actual value calculated in accordance with the methodology laid down in part c of annex v for biofuels and bioliquids and in part b of annex vi for biomass fuels;
+(c)
+by using a value calculated as the sum of the factors of the formulas referred to in point 1 of part c of annex v, where disaggregated default values in part d or e of annex v may be used for some factors, and actual values, calculated in accordance with the methodology laid down in part c of annex v, are used for all other factors;
+(d)
+by using a value calculated as the sum of the factors of the formulas referred to in point 1 of part b of annex vi, where disaggregated default values in part c of annex vi may be used for some factors, and actual values, calculated in accordance with the methodology laid down in part b of annex vi, are used for all other factors.
+2.   member states may submit to the commission reports including information on the typical greenhouse gas emissions from the cultivation of agricultural raw materials of the areas on their territory classified as level 2 in the nomenclature of territorial units for statistics (nuts) or as a more disaggregated nuts level in accordance with regulation (ec) no 1059/2003 of the european parliament and of the council (27). those reports shall be accompanied by a description of the method and data sources used to calculate the level of emissions. that method shall take into account soil characteristics, climate and expected raw material yields.
+3.   in the case of territories outside the union, reports equivalent to those referred to in paragraph 2 and drawn up by competent bodies may be submitted to the commission.
+4.   the commission may, by means of implementing acts, decide that the reports referred to in paragraphs 2 and 3 of this article contain accurate data for the purposes of measuring the greenhouse gas emissions associated with the cultivation of agriculture biomass feedstock produced in the areas included in such reports for the purposes of article 29(10). those implementing acts shall be adopted in accordance with the examination procedure referred to in article 34(3).
+those data may, pursuant to such decisions, be used instead of the disaggregated default values for cultivation laid down in part d or e of annex v for biofuels and bioliquids and in part c of annex vi for biomass fuels.
+5.   the commission shall review annexes v and vi with a view, where justified, to adding or revising values for biofuel, bioliquid and biomass fuel production pathways. those reviews shall also consider modifying the methodology laid down in part c of annex v and in part b of annex vi.
+the commission is empowered to adopt delegated acts pursuant to article 35 to amend, where appropriate, annexes v and vi by adding or revising the default values or modifying the methodology.
+in the case of an adaptation of, or addition to, the list of default values in annexes v and vi:
+(a)
+where the contribution of a factor to overall emissions is small, where there is limited variation, or where the cost or difficulty of establishing actual values is high, the default values shall be typical of normal production processes;
+(b)
+in all other cases, the default values shall be conservative compared to normal production processes.
+6.   where necessary in order to ensure the uniform application of part c of annex v and part b of annex vi, the commission may adopt implementing acts setting out detailed technical specifications including definitions, conversion factors, the calculation of annual cultivation emissions or emission savings caused by changes above and below-ground carbon stocks on already cultivated land, the calculation of emission savings from co2 capture, co2 replacement and co2 geological storage. those implementing acts shall be adopted in accordance with the examination procedure referred to in article 34(3).

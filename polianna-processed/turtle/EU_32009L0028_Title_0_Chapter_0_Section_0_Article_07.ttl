@@ -1,0 +1,29 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_07 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_07 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 7
+joint projects between member states
+1.   two or more member states may cooperate on all types of joint projects relating to the production of electricity, heating or cooling from renewable energy sources. that cooperation may involve private operators.
+2.   member states shall notify the commission of the proportion or amount of electricity, heating or cooling from renewable energy sources produced by any joint project in their territory, that became operational after 25 june 2009, or by the increased capacity of an installation that was refurbished after that date, which is to be regarded as counting towards the national overall target of another member state for the purposes of measuring compliance with the requirements of this directive.
+3.   the notification referred to in paragraph 2 shall:
+(a)
+describe the proposed installation or identify the refurbished installation;
+(b)
+specify the proportion or amount of electricity or heating or cooling produced from the installation which is to be regarded as counting towards the national overall target of another member state;
+(c)
+identify the member state in whose favour the notification is being made; and
+(d)
+specify the period, in whole calendar years, during which the electricity or heating or cooling produced by the installation from renewable energy sources is to be regarded as counting towards the national overall target of the other member state.
+4.   the period specified under paragraph 3(d) shall not extend beyond 2020. the duration of a joint project may extend beyond 2020.
+5.   a notification made under this article shall not be varied or withdrawn without the joint agreement of the member state making the notification and the member state identified in accordance with paragraph 3(c)."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_resources pol:Member_States ;
+    pol:imposes_monitoring pol:Member_States .
+

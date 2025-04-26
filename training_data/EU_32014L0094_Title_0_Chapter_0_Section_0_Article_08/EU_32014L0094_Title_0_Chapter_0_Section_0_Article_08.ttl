@@ -1,0 +1,22 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32014L0094 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_08 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_compliance_time pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_08_TimeCompliance_1 ;
+    pol:specifies_in_effect_time pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect_2,
+        pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect_3 .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_08_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:annotatedText "nine months before the end of the five-year period" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:annotatedText "day following the publication of the decision in the official journal of the european union or at a later date specified therein" .
+
+pol:EU_32014L0094_Title_0_Chapter_0_Section_0_Article_08_TimeInEffect_3 a pol:Time_InEffect ;
+    pol:annotatedText "period of two months of notification of that act" .
+

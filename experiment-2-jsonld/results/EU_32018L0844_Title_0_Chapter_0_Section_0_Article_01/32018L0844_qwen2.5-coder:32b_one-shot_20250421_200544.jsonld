@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "schema": "http://schema.org/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@type": "poliana:LegalDocument",
+  "schema:name": "Directive on the energy performance of buildings",
+  "schema:description": "This directive aims to improve the energy efficiency of buildings and reduce their greenhouse gas emissions.",
+  "poliana:hasArticle": [
+    {
+      "@type": "poliana:Article",
+      "schema:name": "Article 19a",
+      "schema:description": "The commission shall, before 2020, conclude a feasibility study, clarifying the possibilities and timeline to introduce the inspection of stand-alone ventilation systems and an optional building renovation passport that is complementary to the energy performance certificates, in order to provide a long-term, step-by-step renovation roadmap for a specific building based on quality criteria, following an energy audit, and outlining relevant measures and renovations that could improve the energy performance.",
+      "poliana:hasSection": [
+        {
+          "@type": "poliana:Section",
+          "schema:name": "Feasibility Study",
+          "schema:description": "Conducting a feasibility study on inspections of stand-alone ventilation systems and building renovation passports."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Article",
+      "schema:name": "Article 20",
+      "schema:description": "Member states shall provide information to the owners or tenants of buildings on energy performance certificates, including their purpose and objectives, on cost-effective measures and, where appropriate, financial instruments, to improve the energy performance of the building, and on replacing fossil fuel boilers with more sustainable alternatives.",
+      "poliana:hasSection": [
+        {
+          "@type": "poliana:Section",
+          "schema:name": "Information Provision",
+          "schema:description": "Providing information through accessible and transparent advisory tools such as renovation advice and one-stop-shops."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Article",
+      "schema:name": "Article 23",
+      "schema:description": "The power to adopt delegated acts is conferred on the commission subject to the conditions laid down in this article.",
+      "poliana:hasSection": [
+        {
+          "@type": "poliana:Section",
+          "schema:name": "Delegation of Power",
+          "schema:description": "Conditions for the delegation of power to the commission, including consultation with experts and notification to the European Parliament and Council."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Article",
+      "schema:name": "Article 26",
+      "schema:description": "The commission shall be assisted by a committee. That committee shall be a committee within the meaning of regulation (EU) no 182/2011.",
+      "poliana:hasSection": [
+        {
+          "@type": "poliana:Section",
+          "schema:name": "Committee Procedure",
+          "schema:description": "The commission's assistance by a committee as per Regulation (EU) No 182/2011."
+        }
+      ]
+    }
+  ]
+}

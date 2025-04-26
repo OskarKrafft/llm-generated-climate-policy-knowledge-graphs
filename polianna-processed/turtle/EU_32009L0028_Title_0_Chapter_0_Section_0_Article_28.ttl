@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009L0028 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_28 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_28 a pol:PolicyArticle ;
+    pol:fullText """article 28
+entry into force
+this directive shall enter into force on the 20th day following its publication in the official journal of the european union."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_28_TimeInEffect_1 .
+
+pol:EU_32009L0028_Title_0_Chapter_0_Section_0_Article_28_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:annotatedText "20th day following its publication" .
+

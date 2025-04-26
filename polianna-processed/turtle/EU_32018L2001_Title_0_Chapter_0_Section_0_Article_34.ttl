@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_34 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_34 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:fullText """article 34
+committee procedure
+1.   the commission shall be assisted by the energy union committee established by article 44 of regulation (eu) 2018/1999.
+2.   notwithstanding paragraph 1, for matters relating to the sustainability of biofuels, bioliquids and biomass fuels, the commission shall be assisted by the committee on the sustainability of biofuels, bioliquids and biomass fuels. that committee shall be a committee within the meaning of regulation (eu) no 182/2011.
+3.   where reference is made to this paragraph, article 5 of regulation (eu) no 182/2011 shall apply.
+where the committee delivers no opinion, the commission shall not adopt the draft implementing act and the third subparagraph of article 5(4) of regulation (eu) no 182/2011 shall apply."""^^xsd:string .
+

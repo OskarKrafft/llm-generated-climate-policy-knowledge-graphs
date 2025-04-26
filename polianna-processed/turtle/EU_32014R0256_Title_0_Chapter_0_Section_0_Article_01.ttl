@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 1
+subject matter and scope
+1.   this regulation establishes a common framework for the notification to the commission of data and information on investment projects in energy infrastructure in the sectors of oil, natural gas, electricity — including electricity from renewable sources, electricity from coal and lignite, and cogeneration of electricity and useful heat — as well as on investment projects related to bio-fuel production and the capture, transport and storage of carbon dioxide produced by those sectors.
+2.   this regulation shall apply to investment projects of the types listed in the annex on which construction or decommissioning work has started or on which a final investment decision has been taken.
+member states may furthermore submit any estimated data or preliminary information on investment projects of the types listed in the annex on which construction work is scheduled to start within five years and on those which are scheduled to be decommissioned within three years, but for which a final investment decision has not been taken."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038>,
+        pol:Member_States .
+

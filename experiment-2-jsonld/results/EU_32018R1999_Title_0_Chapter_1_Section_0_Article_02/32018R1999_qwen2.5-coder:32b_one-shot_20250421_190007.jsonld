@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "poliana:energyEfficiencyDirective",
+      "@type": "poliana:LegalDocument",
+      "rdfs:label": "Energy Efficiency Directive Definitions",
+      "poliana:defines": [
+        {
+          "@id": "poliana:energyService",
+          "@type": "poliana:Concept",
+          "rdfs:label": "Energy Service"
+        },
+        {
+          "@id": "poliana:nearlyZeroEnergyBuilding",
+          "@type": "poliana:Concept",
+          "rdfs:label": "Nearly Zero-Energy Building"
+        },
+        {
+          "@id": "poliana:energyPerformanceContracting",
+          "@type": "poliana:Concept",
+          "rdfs:label": "Energy Performance Contracting"
+        },
+        {
+          "@id": "poliana:cogeneration",
+          "@type": "poliana:Concept",
+          "rdfs:label": "Cogeneration"
+        },
+        {
+          "@id": "poliana:energyDistributor",
+          "@type": "poliana:Role",
+          "rdfs:label": "Energy Distributor"
+        },
+        {
+          "@id": "poliana:distributionSystemOperator",
+          "@type": "poliana:Role",
+          "rdfs:label": "Distribution System Operator"
+        },
+        {
+          "@id": "poliana:retailEnergySalesCompany",
+          "@type": "poliana:Role",
+          "rdfs:label": "Retail Energy Sales Company"
+        },
+        {
+          "@id": "poliana:energyServiceProvider",
+          "@type": "poliana:Role",
+          "rdfs:label": "Energy Service Provider"
+        },
+        {
+          "@id": "poliana:obligatedParty",
+          "@type": "poliana:Role",
+          "rdfs:label": "Obligated Party"
+        },
+        {
+          "@id": "poliana:implementingPublicAuthority",
+          "@type": "poliana:Role",
+          "rdfs:label": "Implementing Public Authority"
+        },
+        {
+          "@id": "poliana:energyManagementSystem",
+          "@type": "poliana:System",
+          "rdfs:label": "Energy Management System"
+        },
+        {
+          "@id": "poliana:primaryEnergyConsumption",
+          "@type": "poliana:Metric",
+          "rdfs:label": "Primary Energy Consumption"
+        },
+        {
+          "@id": "poliana:finalEnergyConsumption",
+          "@type": "poliana:Metric",
+          "rdfs:label": "Final Energy Consumption"
+        },
+        {
+          "@id": "poliana:energyEfficiencyImprovement",
+          "@type": "poliana:Process",
+          "rdfs:label": "Energy Efficiency Improvement"
+        },
+        {
+          "@id": "poliana:energySavings",
+          "@type": "poliana:Metric",
+          "rdfs:label": "Energy Savings"
+        },
+        {
+          "@id": "poliana:totalUsefulFloorArea",
+          "@type": "poliana:Metric",
+          "rdfs:label": "Total Useful Floor Area"
+        },
+        {
+          "@id": "poliana:building",
+          "@type": "poliana:Object",
+          "rdfs:label": "Building"
+        },
+        {
+          "@id": "poliana:heatPump",
+          "@type": "poliana:Device",
+          "rdfs:label": "Heat Pump"
+        },
+        {
+          "@id": "poliana:fossilFuel",
+          "@type": "poliana:Resource",
+          "rdfs:label": "Fossil Fuel"
+        }
+      ]
+    }
+  ]
+}

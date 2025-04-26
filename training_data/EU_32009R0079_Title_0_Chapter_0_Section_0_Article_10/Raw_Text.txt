@@ -1,0 +1,3 @@
+article 10
+general requirements for the installation of hydrogen components and systems
+hydrogen components and systems shall be installed in accordance with the requirements of annex vi.

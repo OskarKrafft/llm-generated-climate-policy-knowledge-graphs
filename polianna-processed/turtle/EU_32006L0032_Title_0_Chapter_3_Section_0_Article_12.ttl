@@ -1,0 +1,25 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_12 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_12 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 12
+energy audits
+1.   member states shall ensure the availability of efficient, high-quality energy audit schemes which are designed to identify potential energy efficiency improvement measures and which are carried out in an independent manner, to all final consumers, including smaller domestic, commercial and small and medium-sized industrial customers.
+2.   market segments that have higher transaction costs and non-complex facilities may be reached by other measures such as questionnaires and computer programmes made available on the internet and/or sent to customers by mail. member states shall ensure the availability of energy audits for market segments where they are not sold commercially, taking into account article 11(1).
+3.   certification in accordance with article 7 of directive 2002/91/ec of the european parliament and of the council of 16 december 2002 on the energy performance of buildings (15) shall be regarded as equivalent to an energy audit meeting the requirements set out in paragraphs 1 and 2 of this article and as equivalent to an energy audit as referred to in annex vi(e) to this directive. furthermore, audits resulting from schemes based on voluntary agreements between organisations of stakeholders and an appointed body, supervised and followed up by the member state concerned in accordance with article 6(2)(b) of this directive, shall likewise be considered as having fulfilled the requirements set out in paragraphs 1 and 2 of this article."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_in_effect_time pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_12_TimeInEffect_1 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_12_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2002-12-16"^^xsd:date ;
+    pol:annotatedText "16 december 2002" .
+

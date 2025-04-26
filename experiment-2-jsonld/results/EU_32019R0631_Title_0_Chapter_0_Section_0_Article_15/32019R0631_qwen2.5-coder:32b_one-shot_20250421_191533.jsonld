@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "poliana:RegulationArticle",
+  "schema:name": "Review and Reporting on CO2 Emissions for Passenger Cars and Light Commercial Vehicles",
+  "schema:description": "This article outlines the requirements for the European Commission to review and report on CO2 emissions, deployment of zero- and low-emission vehicles, recharging infrastructure, and other related aspects. It also includes provisions for potential amendments to existing regulations.",
+  "poliana:hasProvision": [
+    {
+      "@type": "poliana:RegulationProvision",
+      "schema:name": "Review and Report by December 31, 2020",
+      "schema:description": "The Commission shall review Directive 1999/94/EC to provide consumers with accurate information on fuel consumption, CO2 emissions, and air pollutant emissions of new passenger cars. It may also evaluate options for a label for light commercial vehicles.",
+      "poliana:dueDate": {
+        "@type": "xsd:date",
+        "@value": "2020-12-31"
+      }
+    },
+    {
+      "@type": "poliana:RegulationProvision",
+      "schema:name": "Review and Report by December 31, 2027",
+      "schema:description": "The Commission shall evaluate the possibility of assigning revenue from excess emissions premiums to a specific fund or programme for a just transition towards a climate-neutral economy.",
+      "poliana:dueDate": {
+        "@type": "xsd:date",
+        "@value": "2027-12-31"
+      }
+    },
+    {
+      "@type": "poliana:RegulationProvision",
+      "schema:name": "Review and Report by December 31, 2020 (Continued)",
+      "schema:description": "The Commission shall review the feasibility of developing real-world emission test procedures using portable emission measurement systems (PEMS) and may revise CO2 emissions measurement procedures.",
+      "poliana:dueDate": {
+        "@type": "xsd:date",
+        "@value": "2020-12-31"
+      }
+    },
+    {
+      "@type": "poliana:RegulationProvision",
+      "schema:name": "Review and Report by December 31, 2020 (Further)",
+      "schema:description": "The Commission shall determine correlation parameters for changes in the regulatory test procedure for CO2 emissions measurement.",
+      "poliana:dueDate": {
+        "@type": "xsd:date",
+        "@value": "2020-12-31"
+      }
+    },
+    {
+      "@type": "poliana:RegulationProvision",
+      "schema:name": "Review and Report by December 31, 2020 (Final)",
+      "schema:description": "The Commission is empowered to adopt delegated acts to amend the regulation by adapting formulae in Annex I using methodology from paragraph 7.",
+      "poliana:dueDate": {
+        "@type": "xsd:date",
+        "@value": "2020-12-31"
+      }
+    },
+    {
+      "@type": "poliana:RegulationProvision",
+      "schema:name": "Review and Report by December 31, 2020 (Ongoing)",
+      "schema:description": "The Commission shall review the deployment of zero- and low-emission vehicles, recharging infrastructure, synthetic fuels, CO2 emissions reductions, incentive mechanisms, transitional measures, consumer impact, and transition facilitation.",
+      "poliana:dueDate": {
+        "@type": "xsd:date",
+        "@value": "2020-12-31"
+      }
+    },
+    {
+      "@type": "poliana:RegulationProvision",
+      "schema:name": "Review and Report by December 31, 2020 (Proposal)",
+      "schema:description": "The Commission shall identify a clear pathway for further CO2 emissions reductions beyond 2030 and propose amendments to the regulation, including EU fleet-wide targets for 2030 and binding targets for 2035 and onwards.",
+      "poliana:dueDate": {
+        "@type": "xsd:date",
+        "@value": "2020-12-31"
+      }
+    }
+  ]
+}

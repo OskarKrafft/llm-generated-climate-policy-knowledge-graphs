@@ -1,0 +1,11 @@
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_Article_8 a eli:LegalProvision ;
+    pol:hasCELEXNumber pol:32008R1099 ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_the_commission_(eurostat)_shall,_in_cooperation_with_the_nuclear_energy_sector_in_the_eu,_define_a_set_of_annual_nuclear_statistics_which_shall_be_reported_and_disseminated_from_2009_onwards,_that_year_being_the_first_reported_period,_without_prejudice_to_confidentiality,_where_it_is_necessary,_and_avoiding_any_duplication_of_data_collection,_while_at_the_same_time_keeping_production_costs_low_and_the_reporting_burden_reasonable.>,
+        <https://polianna-kg.org/Ontology#EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_the_set_of_annual_nuclear_statistics_shall_be_established_and_may_be_modified_in_accordance_with_the_regulatory_procedure_with_scrutiny_referred_to_in_article 11(2).> ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2008/1099/oj> ;
+    pol:hasTitle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_annual_nuclear_statistics ;
+    pol:isPartOf pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_EU_32008R1099_Title_0_Chapter_0_Section_0 .
+

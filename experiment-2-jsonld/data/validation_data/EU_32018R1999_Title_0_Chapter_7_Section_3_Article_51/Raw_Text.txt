@@ -1,0 +1,13 @@
+article 51
+amendments to directive 2009/73/ec
+directive 2009/73/ec is amended as follows:
+(1)
+article 5 is deleted;
+(2)
+article 52 is replaced by the following:
+‘article 52
+reporting
+the commission shall monitor and review the application of this directive and submit an overall progress report to the european parliament and to the council as an annex to the state of the energy union report referred to in article 35 of regulation (eu) 2018/1999 of the european parliament and of the council (*1).
+
+(*1)  regulation (eu) 2018/1999 of the european parliament and of the council of 11 december 2018 on the governance of the energy union and climate action, amending regulations (ec) no 663/2009 and (ec) no 715/2009 of the european parliament and of the council, directives 94/22/ec, 98/70/ec, 2009/31/ec, 2009/73/ec, 2010/31/eu, 2012/27/eu and 2013/30/eu of the european parliament and of the council, council directives 2009/119/ec and (eu) 2015/652 and repealing regulation (eu) no 525/2013 of the european parliament and of the council (oj l 328, 21.12.2018, p. 1).’."
+                        

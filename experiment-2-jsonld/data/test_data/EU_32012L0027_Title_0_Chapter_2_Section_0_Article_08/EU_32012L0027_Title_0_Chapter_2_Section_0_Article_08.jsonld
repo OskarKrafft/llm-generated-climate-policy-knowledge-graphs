@@ -1,0 +1,153 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "annotatedText": {
+                "value": "5 december 2015"
+            },
+            "id": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "annual"
+            },
+            "id": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_1",
+            "type": "Time_Monitoring"
+        },
+        {
+            "addresses": {
+                "id": "Member_States"
+            },
+            "authorises": [
+                {
+                    "id": "eurovoc:4038"
+                },
+                {
+                    "id": "Member_States"
+                }
+            ],
+            "contains_instrument": [
+                {
+                    "id": "Edu_Outreach"
+                },
+                {
+                    "id": "RegulatoryInstr"
+                },
+                {
+                    "id": "Subsidies_Incentives"
+                },
+                {
+                    "id": "VoluntaryAgrmt"
+                }
+            ],
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "contains_objective": {
+                "id": "Objective"
+            },
+            "fullText": "article 8\nenergy audits and energy management systems\n1.\u00a0\u00a0\u00a0member states shall promote the availability to all final customers of high quality energy audits which are cost-effective and:\n(a)\ncarried out in an independent manner by qualified and/or accredited experts according to qualification criteria; or\n(b)\nimplemented and supervised by independent authorities under national legislation.\nthe energy audits referred to in the first subparagraph may be carried out by in-house experts or energy auditors provided that the member state concerned has put in place a scheme to assure and check their quality, including, if appropriate, an annual random selection of at least a statistically significant percentage of all the energy audits they carry out.\nfor the purpose of guaranteeing the high quality of the energy audits and energy management systems, member states shall establish transparent and non-discriminatory minimum criteria for energy audits based on annex vi.\nenergy audits shall not include clauses preventing the findings of the audit from being transferred to any qualified/accredited energy service provider, on condition that the customer does not object.\n2.\u00a0\u00a0\u00a0member states shall develop programmes to encourage smes to undergo energy audits and the subsequent implementation of the recommendations from these audits.\non the basis of transparent and non-discriminatory criteria and without prejudice to union state aid law, member states may set up support schemes for smes, including if they have concluded voluntary agreements, to cover costs of an energy audit and of the implementation of highly cost-effective recommendations from the energy audits, if the proposed measures are implemented.\nmember states shall bring to the attention of smes, including through their respective representative intermediary organisations, concrete examples of how energy management systems could help their businesses. the commission shall assist member states by supporting the exchange of best practices in this domain.\n3.\u00a0\u00a0\u00a0member states shall also develop programmes to raise awareness among households about the benefits of such audits through appropriate advice services.\nmember states shall encourage training programmes for the qualification of energy auditors in order to facilitate sufficient availability of experts.\n4.\u00a0\u00a0\u00a0member states shall ensure that enterprises that are not smes are subject to an energy audit carried out in an independent and cost-effective manner by qualified and/or accredited experts or implemented and supervised by independent authorities under national legislation by 5 december 2015 and at least every four years from the date of the previous energy audit.\n5.\u00a0\u00a0\u00a0energy audits shall be considered as fulfilling the requirements of paragraph 4 when they are carried out in an independent manner, on the basis of minimum criteria based on annex vi, and implemented under voluntary agreements concluded between organisations of stakeholders and an appointed body and supervised by the member state concerned, or other bodies to which the competent authorities have delegated the responsibility concerned, or by the commission.\naccess of market participants offering energy services shall be based on transparent and non-discriminatory criteria.\n6.\u00a0\u00a0\u00a0enterprises that are not smes and that are implementing an energy or environmental management system - certified by an independent body according to the relevant european or international standards - shall be exempted from the requirements of paragraph 4, provided that member states ensure that the management system concerned includes an energy audit on the basis of the minimum criteria based on annex vi.\n7.\u00a0\u00a0\u00a0energy audits may stand alone or be part of a broader environmental audit. member states may require that an assessment of the technical and economic feasibility of connection to an existing or planned district heating or cooling network shall be part of the energy audit.\nwithout prejudice to union state aid law, member states may implement incentive and support schemes for the implementation of recommendations from energy audits and similar measures.",
+            "grants_monitoring_authority": {
+                "id": "Member_States"
+            },
+            "id": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08",
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_1"
+                },
+                {
+                    "id": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_2"
+                },
+                {
+                    "id": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_3"
+                }
+            ],
+            "type": "PolicyArticle"
+        },
+        {
+            "hasArticle": {
+                "id": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08"
+            },
+            "id": "32012L0027",
+            "type": "PolicyDocument"
+        },
+        {
+            "annotatedText": {
+                "value": "at least every four years"
+            },
+            "id": "EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeMonitoring_3",
+            "type": "Time_Monitoring"
+        }
+    ]
+}

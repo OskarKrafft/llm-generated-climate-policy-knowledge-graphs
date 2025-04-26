@@ -1,0 +1,11 @@
+{
+  "test_data": "experiment-2-jsonld/data/test_data",
+  "output_dir": "experiment-2-jsonld/results",
+  "model_type": "openai",
+  "model_name": "gpt-4o-2024-08-06", 
+  "strategies": ["zero-shot", "one-shot"],
+  "output_format": "json-ld",
+  "prompt_dir": "experiment-2-jsonld/prompts/",
+  "ontology_path": "ontology/ontology_v17_no_fulltext.jsonld",
+  "temperature": 0.0
+  }

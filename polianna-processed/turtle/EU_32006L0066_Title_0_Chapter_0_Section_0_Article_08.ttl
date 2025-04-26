@@ -1,0 +1,34 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_08 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 8
+collection schemes
+1.   member states shall ensure that appropriate collection schemes are in place for waste portable batteries and accumulators. such schemes:
+(a)
+shall enable end-users to discard waste portable batteries or accumulators at an accessible collection point in their vicinity, having regard to population density;
+(b)
+shall require distributors to take back waste portable batteries or accumulators at no charge when supplying portable batteries or accumulators, unless an assessment shows that alternative existing schemes are at least as effective in attaining the environmental aims of this directive. member states shall make public such assessments;
+(c)
+shall not involve any charge to end-users when discarding waste portable batteries or accumulators, nor any obligation to buy a new battery or accumulator;
+(d)
+may be run in conjunction with the schemes referred to in article 5(2) of directive 2002/96/ec.
+collection points set up to comply with point (a) of this paragraph shall not be subject to the registration or permit requirements of directive 2006/12/ec or council directive 91/689/eec of 12 december 1991 on hazardous waste (18).
+2.   provided that the schemes meet the criteria listed in paragraph 1, member states may:
+(a)
+require producers to set up such schemes;
+(b)
+require other economic operators to participate in such schemes;
+(c)
+maintain existing schemes.
+3.   member states shall ensure that producers of industrial batteries and accumulators, or third parties acting on their behalf, shall not refuse to take back waste industrial batteries and accumulators from end-users, regardless of chemical composition and origin. independent third parties may also collect industrial batteries and accumulators.
+4.   member states shall ensure that producers of automotive batteries and accumulators, or third parties, set up schemes for the collection of waste automotive batteries and accumulators from end-users or from an accessible collection point in their vicinity, where collection is not carried out under the schemes referred to in article 5(1) of directive 2000/53/ec. in the case of automotive batteries and accumulators from private, non-commercial vehicles, such schemes shall not involve any charge to end-users when discarding waste batteries or accumulators, nor any obligation to buy a new battery or accumulator."""^^xsd:string ;
+    pol:grants_monitoring_authority pol:Member_States .
+

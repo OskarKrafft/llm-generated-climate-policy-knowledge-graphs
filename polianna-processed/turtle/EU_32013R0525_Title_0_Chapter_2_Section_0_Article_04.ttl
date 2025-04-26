@@ -1,0 +1,30 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_2_Section_0_Article_04 .
+
+pol:EU_32013R0525_Title_0_Chapter_2_Section_0_Article_04 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038>,
+        <http://eurovoc.europa.eu/4060> ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 4
+low-carbon development strategies
+1.   member states, and the commission on behalf of the union, shall prepare their low-carbon development strategies in accordance with any reporting provisions agreed internationally in the context of the unfccc process, to contribute to:
+(a)
+the transparent and accurate monitoring of the actual and projected progress made by member states, including the contribution made by union measures, in fulfilling the union’s and the member states’ commitments under the unfccc to limit or reduce anthropogenic greenhouse gas emissions;
+(b)
+meeting the greenhouse gas emission reduction commitments of member states under decision no 406/2009/ec and achieving long-term emission reductions and enhancements of removals by sinks in all sectors in line with the union’s objective, in the context of necessary reductions according to the ipcc by developed countries as a group, to reduce emissions by 80 to 95 % by 2050 compared to 1990 levels in a cost-effective manner.
+2.   member states shall report to the commission on the status of implementation of their low-carbon development strategy by 9 january 2015 or in accordance with any timetable agreed internationally in the context of the unfccc process.
+3.   the commission and the member states shall make available to the public forthwith their respective low-carbon development strategies and any updates thereof."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_1 .
+
+pol:EU_32013R0525_Title_0_Chapter_2_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "9 january 2015" .
+

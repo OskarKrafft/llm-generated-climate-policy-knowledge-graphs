@@ -1,0 +1,17 @@
+article 61
+regional cooperation between regulatory authorities on cross-border issues
+1.   regulatory authorities shall closely consult and cooperate with each other, in particular within acer, and shall provide each other and acer with any information necessary for the fulfilment of their tasks under this directive. with respect to the information exchanged, the receiving authority shall ensure the same level of confidentiality as that required of the originating authority.
+2.   regulatory authorities shall cooperate at least at a regional level to:
+(a)
+foster the creation of operational arrangements in order to enable an optimal management of the network, promote joint electricity exchanges and the allocation of cross-border capacity, and to enable an adequate level of interconnection capacity, including through new interconnection, within the region and between regions to allow for development of effective competition and improvement of security of supply, without discriminating between suppliers in different member states;
+(b)
+coordinate the joint oversight of entities performing functions at regional level;
+(c)
+coordinate, in cooperation with other involved authorities, the joint oversight of national, regional and european resource adequacy assessments;
+(d)
+coordinate the development of all network codes and guidelines for the relevant transmission system operators and other market actors; and
+(e)
+coordinate the development of the rules governing the management of congestion.
+3.   regulatory authorities shall have the right to enter into cooperative arrangements with each other to foster regulatory cooperation.
+4.   the actions referred to in paragraph 2 shall be carried out, as appropriate, in close consultation with other relevant national authorities and without prejudice to their specific competence.
+5.   the commission is empowered to adopt delegated acts in accordance with article 67 in order to supplement this directive by establishing guidelines on the extent of the duties of regulatory authorities to cooperate with each other and with acer.

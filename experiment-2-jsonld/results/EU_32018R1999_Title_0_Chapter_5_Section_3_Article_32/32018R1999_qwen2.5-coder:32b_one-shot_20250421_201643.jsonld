@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "poliana": "https://w3id.org/poliana/ontology#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "eli:Article",
+  "eli:title": "Article on Renewable Energy and Energy Efficiency Targets",
+  "eli:hasPart": [
+    {
+      "@type": "poliana:Section",
+      "poliana:sectionNumber": "1",
+      "poliana:text": "In the event of insufficient progress towards renewable energy targets, the Commission shall issue recommendations to Member States."
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:sectionNumber": "2",
+      "poliana:text": "If progress in achieving the Union's energy efficiency targets is deemed insufficient, the Commission may propose additional measures at the Union level."
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:sectionNumber": "3",
+      "poliana:text": "Member States falling short of their national reference points for renewable energy deployment must implement additional measures within one year to cover the gap.",
+      "poliana:hasInstrument": [
+        {
+          "@type": "poliana:Instrument",
+          "poliana:instrumentType": "national_measures",
+          "poliana:description": "National measures to increase deployment of renewable energy."
+        },
+        {
+          "@type": "poliana:Instrument",
+          "poliana:instrumentType": "adjustment_share_renewable_energy",
+          "poliana:description": "Adjusting the share of renewable energy in specific sectors."
+        },
+        {
+          "@type": "poliana:Instrument",
+          "poliana:instrumentType": "financial_payment",
+          "poliana:description": "Making a voluntary financial payment to the Union Renewable Energy Financing Mechanism."
+        },
+        {
+          "@type": "poliana:Instrument",
+          "poliana:instrumentType": "cooperation_mechanisms",
+          "poliana:description": "Using cooperation mechanisms as set out in Directive (EU) 2018/2001."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:sectionNumber": "4",
+      "poliana:text": "Member States must maintain a baseline share of energy from renewable sources equal to their mandatory national target for 2020, as set out in Directive (EU) 2018/2001.",
+      "poliana:hasInstrument": [
+        {
+          "@type": "poliana:Instrument",
+          "poliana:instrumentType": "baseline_share_renewable_energy",
+          "poliana:description": "Maintaining a baseline share of energy from renewable sources equal to the 2020 target."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:sectionNumber": "5",
+      "poliana:text": "Member States must explain in their next integrated report how they will cover any gaps compared to their national reference points for 2022, 2025, and 2027."
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:sectionNumber": "6",
+      "poliana:text": "If progress towards the Union's energy efficiency targets is insufficient, the Commission may propose additional measures at the Union level to ensure that these targets are met.",
+      "poliana:hasInstrument": [
+        {
+          "@type": "poliana:Instrument",
+          "poliana:instrumentType": "additional_measures_energy_efficiency",
+          "poliana:description": "Proposing additional measures and exercising power at the Union level to meet energy efficiency targets."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:sectionNumber": "7",
+      "poliana:text": "Member States must detail any additional implemented, adopted, or planned measures in their following progress report."
+    },
+    {
+      "@type": "poliana:Section",
+      "poliana:sectionNumber": "8",
+      "poliana:text": "If progress towards interconnections is insufficient by 2025, the Commission shall cooperate with the relevant Member States to address any circumstances encountered by 2026."
+    }
+  ],
+  "eli:isAdoptedBy": {
+    "@type": "eli:Legislation",
+    "eli:title": "Directive (EU) 2018/2001"
+  },
+  "eli:hasInstrument": [
+    {
+      "@type": "poliana:Instrument",
+      "poliana:instrumentType": "recommendations",
+      "poliana:description": "Recommendations to Member States in case of insufficient progress towards renewable energy targets."
+    }
+  ],
+  "eli:hasLegalBasis": [
+    {
+      "@type": "eli:Legislation",
+      "eli:title": "Directive (EU) 2018/2001"
+    },
+    {
+      "@type": "eli:Legislation",
+      "eli:title": "Directive 2012/27/EU on energy efficiency, amending Directives 2009/28/EC and 2006/32/EC of the European Parliament and of the Council and repealing Commission Decision 2005/662/EC"
+    }
+  ],
+  "eli:hasLegalEffect": [
+    {
+      "@type": "poliana:LegalEffect",
+      "poliana:effectType": "obligation",
+      "poliana:description": "Obligation for Member States to implement additional measures in case of insufficient progress towards renewable energy and energy efficiency targets."
+    }
+  ],
+  "eli:hasSubjectMatter": [
+    {
+      "@type": "poliana:SubjectMatter",
+      "poliana:subjectType": "renewable_energy",
+      "poliana:description": "Renewable energy deployment and targets."
+    },
+    {
+      "@type": "poliana:SubjectMatter",
+      "poliana:subjectType": "energy_efficiency",
+      "poliana:description": "Energy efficiency measures and targets."
+    }
+  ],
+  "eli:hasDateDocument": [
+    {
+      "@type": "eli:DateDocument",
+      "eli:dateDocumentType": "entry_into_force",
+      "eli:dateDocumentValue": {
+        "@value": "2018-12-31",
+        "@type": "xsd:date"
+      }
+    },
+    {
+      "@type": "eli:DateDocument",
+      "eli:dateDocumentType": "publication",
+      "eli:dateDocumentValue": {
+        "@value": "2018-06-30",
+        "@type": "xsd:date"
+      }
+    }
+  ]
+}

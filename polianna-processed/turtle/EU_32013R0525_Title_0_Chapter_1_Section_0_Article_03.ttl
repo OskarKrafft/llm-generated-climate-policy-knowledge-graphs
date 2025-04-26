@@ -1,0 +1,66 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_1_Section_0_Article_03 .
+
+pol:EU_32013R0525_Title_0_Chapter_1_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 3
+definitions
+for the purposes of this regulation, the following definitions apply:
+(1)
+‘global warming potential’ or ‘gwp’ of a gas means the total contribution to global warming resulting from the emission of one unit of that gas relative to one unit of the reference gas, co2, which is assigned a value of 1;
+(2)
+‘national inventory system’ means a system of institutional, legal and procedural arrangements established within a member state for estimating anthropogenic emissions by sources and removals by sinks of greenhouse gases not controlled by the montreal protocol, and for reporting and archiving inventory information in accordance with decision 19/cmp.1 or other relevant decisions of unfccc or kyoto protocol bodies;
+(3)
+‘competent inventory authorities’ means authorities entrusted under a national inventory system with the task of compiling the greenhouse gas inventory;
+(4)
+‘quality assurance’ or ‘qa’ means a planned system of review procedures to ensure that data quality objectives are met and that the best possible estimates and information are reported to support the effectiveness of the quality control programme and to assist member states;
+(5)
+‘quality control’ or ‘qc’ means a system of routine technical activities to measure and control the quality of the information and estimates compiled with the purpose of ensuring data integrity, correctness and completeness, identifying and addressing errors and omissions, documenting and archiving data and other material used, and recording all qa activities;
+(6)
+‘indicator’ means a quantitative or qualitative factor or variable that contributes to better understanding progress in implementing policies and measures and greenhouse gas emission trends;
+(7)
+‘assigned amount unit’ or ‘aau’ means a unit issued pursuant to the relevant provisions in the annex to decision 13/cmp.1 of the conference of the parties to the unfccc serving as the meeting of the parties to the kyoto protocol (decision 13/cmp.1) or in other relevant decisions of unfccc or kyoto protocol bodies;
+(8)
+‘removal unit’ or ‘rmu’ means a unit issued pursuant to the relevant provisions in the annex to decision 13/cmp.1 or in other relevant decisions of unfccc or kyoto protocol bodies;
+(9)
+‘emission reduction unit’ or ‘eru’ means a unit issued pursuant to the relevant provisions in the annex to decision 13/cmp.1 or in other relevant decisions of unfccc or kyoto protocol bodies;
+(10)
+‘certified emission reduction’ or ‘cer’ means a unit issued pursuant to article 12 of the kyoto protocol and requirements thereunder, as well as the relevant provisions in the annex to decision 13/cmp.1 or in other relevant decisions of unfccc or kyoto protocol bodies;
+(11)
+‘temporary certified emission reduction’ or ‘tcer’ means a unit issued pursuant to article 12 of the kyoto protocol and requirements thereunder, as well as the relevant provisions in the annex to decision 13/cmp.1, or in other relevant decisions of unfccc or kyoto protocol bodies, that is to say credits given for emission removals which are certified for an afforestation or reforestation clean development mechanism (cdm) project, to be replaced upon expiry at end of the second commitment period;
+(12)
+‘long-term certified emission reduction’ or ‘lcer’ means a unit issued pursuant to article 12 of the kyoto protocol and requirements thereunder, as well as the relevant provisions in the annex to decision 13/cmp.1, or in other relevant decisions of unfccc or kyoto protocol bodies, that is to say credits given for long-term emission removals which are certified for an afforestation or reforestation cdm project, to be replaced upon expiry at end of the project’s crediting period or in event of storage reversal or non-submission of a certification report;
+(13)
+‘national registry’ means a registry in the form of a standardised electronic database which includes data on the issue, holding, transfer, acquisition, cancellation, retirement, carry-over, replacement or change of expiry date, as relevant, of aaus, rmus, erus, cers, tcers and lcers;
+(14)
+‘policies and measures’ means all instruments which aim to implement commitments under article 4(2)(a) and (b) of the unfccc, which may include those that do not have the limitation and reduction of greenhouse gas emissions as a primary objective;
+(15)
+‘system for policies and measures and projections’ means a system of institutional, legal and procedural arrangements established for reporting policies and measures and projections of anthropogenic emissions by sources and removals by sinks of greenhouse gases not controlled by the montreal protocol as required by article 12 of this regulation;
+(16)
+‘ex ante assessment of policies and measures’ means an evaluation of the projected effects of a policy or measure;
+(17)
+‘ex post assessment of policies and measures’ means an evaluation of the past effects of a policy or measure;
+(18)
+‘projections without measures’ means projections of anthropogenic greenhouse gas emissions by sources and removals by sinks that exclude the effects of all policies and measures which are planned, adopted or implemented after the year chosen as the starting point for the relevant projection;
+(19)
+‘projections with measures’ means projections of anthropogenic greenhouse gas emissions by sources and removals by sinks that encompass the effects, in terms of greenhouse gas emissions reductions, of policies and measures that have been adopted and implemented;
+(20)
+‘projections with additional measures’ means projections of anthropogenic greenhouse gas emissions by sources and removals by sinks that encompass the effects, in terms of greenhouse gas emissions reductions, of policies and measures which have been adopted and implemented to mitigate climate change as well as policies and measures which are planned for that purpose;
+(21)
+‘sensitivity analysis’ means an investigation of a model algorithm or an assumption to quantify how sensitive or stable the model output data are in relation to variations in the input data or underlying assumptions. it is carried out by varying input values or model equations and by observing how the model output varies correspondingly;
+(22)
+‘climate change mitigation-related support’ means support for activities in developing countries that contribute to the objective of stabilising greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous anthropogenic interference with the climate system;
+(23)
+‘climate change adaptation-related support’ means support for activities in developing countries that are intended to reduce the vulnerability of human or natural systems to the impact of climate change and climate-related risks, by maintaining or increasing developing countries’ adaptive capacity and resilience;
+(24)
+‘technical corrections’ means adjustments to the national greenhouse gas inventory estimates made in the context of the review carried out pursuant to article 19 when the submitted inventory data are incomplete or are prepared in a way that is not consistent with relevant international or union rules or guidelines and that are intended to replace originally submitted estimates;
+(25)
+‘recalculations’, in accordance with the unfccc reporting guidelines on annual inventories, means a procedure for re-estimating anthropogenic greenhouse gas emissions by sources and removals by sinks of previously submitted inventories as a consequence of changes in methodologies or in the manner in which emission factors and activity data are obtained and used; the inclusion of new source and sink categories or of new gases; or changes in the gwp of greenhouse gases."""^^xsd:string .
+

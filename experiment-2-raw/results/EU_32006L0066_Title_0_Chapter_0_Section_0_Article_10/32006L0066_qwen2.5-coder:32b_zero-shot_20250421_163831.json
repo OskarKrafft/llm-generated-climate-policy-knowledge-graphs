@@ -1,0 +1,143 @@
+json
+[
+  {
+    "Subject": "Article_10",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "hasPart",
+    "Object": "Article_10_Suffix_1"
+  },
+  {
+    "Subject": "Article_10_Suffix_1",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_10_Suffix_1",
+    "Predicate": "hasContent",
+    "Object": "member states shall calculate the collection rate for the first time in respect of the fifth full calendar year following the entry into force of this directive."
+  },
+  {
+    "Subject": "Article_10_Suffix_1",
+    "Predicate": "hasPart",
+    "Object": "Article_10_Suffix_1_Part_a"
+  },
+  {
+    "Subject": "Article_10_Suffix_1_Part_a",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_10_Suffix_1_Part_a",
+    "Predicate": "hasContent",
+    "Object": "without prejudice to directive 2002/96/ec, annual collection and sales figures shall include batteries and accumulators incorporated into appliances."
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "hasPart",
+    "Object": "Article_10_Suffix_2"
+  },
+  {
+    "Subject": "Article_10_Suffix_2",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_10_Suffix_2",
+    "Predicate": "hasContent",
+    "Object": "member states shall achieve the following minimum collection rates:"
+  },
+  {
+    "Subject": "Article_10_Suffix_2",
+    "Predicate": "hasPart",
+    "Object": "Article_10_Suffix_2_Part_a"
+  },
+  {
+    "Subject": "Article_10_Suffix_2_Part_a",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_10_Suffix_2_Part_a",
+    "Predicate": "hasContent",
+    "Object": "25 % by 26 september 2012;"
+  },
+  {
+    "Subject": "Article_10_Suffix_2",
+    "Predicate": "hasPart",
+    "Object": "Article_10_Suffix_2_Part_b"
+  },
+  {
+    "Subject": "Article_10_Suffix_2_Part_b",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_10_Suffix_2_Part_b",
+    "Predicate": "hasContent",
+    "Object": "45 % by 26 september 2016."
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "hasPart",
+    "Object": "Article_10_Suffix_3"
+  },
+  {
+    "Subject": "Article_10_Suffix_3",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_10_Suffix_3",
+    "Predicate": "hasContent",
+    "Object": "member states shall monitor collection rates on a yearly basis according to the scheme set out in annex i. without prejudice to regulation (ec) no 2150/2002 of the european parliament and of the council of 25 november 2002 on waste statistics (19), member states shall transmit reports to the commission within six months of the end of the calendar year concerned. reports shall indicate how they obtained the data necessary to calculate the collection rate."
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "hasPart",
+    "Object": "Article_10_Suffix_4"
+  },
+  {
+    "Subject": "Article_10_Suffix_4",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_10_Suffix_4",
+    "Predicate": "hasContent",
+    "Object": "in accordance with the procedure referred to in article 24(2):"
+  },
+  {
+    "Subject": "Article_10_Suffix_4",
+    "Predicate": "hasPart",
+    "Object": "Article_10_Suffix_4_Part_a"
+  },
+  {
+    "Subject": "Article_10_Suffix_4_Part_a",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_10_Suffix_4_Part_a",
+    "Predicate": "hasContent",
+    "Object": "transitional arrangements may be laid down to address difficulties faced by a member state in satisfying the requirements of paragraph 2 as a result of specific national circumstances;"
+  },
+  {
+    "Subject": "Article_10_Suffix_4",
+    "Predicate": "hasPart",
+    "Object": "Article_10_Suffix_4_Part_b"
+  },
+  {
+    "Subject": "Article_10_Suffix_4_Part_b",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_10_Suffix_4_Part_b",
+    "Predicate": "hasContent",
+    "Object": "a common methodology shall be established for the calculation of annual sales of portable batteries and accumulators to end-users by 26 september 2007."
+  }
+]

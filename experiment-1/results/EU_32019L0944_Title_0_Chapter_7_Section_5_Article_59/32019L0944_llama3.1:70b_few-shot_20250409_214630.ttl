@@ -1,0 +1,44 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix polianna: <https://w3id.org/poli/annapolis/ontologies/poliana/> .
+
+<https://example.com/article1> a polianna:LegislativeDocument ;
+    dc:title "Article 61" ;
+    dc:description """Monitoring of transmission system operators
+ Article 61 Monitoring of transmission system operators""" ;
+    polianna:hasSection <https://example.com/article1#section1>, <https://example.com/article1#section2> .
+
+<https://example.com/article1#section1> a polianna:LegislativeDocumentSection ;
+    dc:title "Monitoring of transmission system operators" ;
+    dc:description """1. The regulatory authorities shall monitor the execution of the tasks assigned to transmission system operators, including the development and maintenance of the network, management of data exchange, facilitation of access to the network for new producers and consumers, guarantees of non-discrimination, effective competition and customer benefits.
+2. For that purpose, regulatory authorities shall have the power to request from transmission system operators and other specified bodies any relevant information.
+3. In addition to their tasks under Article 59, regulatory authorities shall monitor the independence of transmission system operators and take action in relation to any transmission system operator which does not comply with Articles 43 to 53 or Articles 54 to 57.""" ;
+    polianna:hasParagraph <https://example.com/article1#section1-paragraph1>, <https://example.com/article1#section1-paragraph2>, <https://example.com/article1#section1-paragraph3> .
+
+<https://example.com/article1#section1-paragraph1> a polianna:LegislativeDocumentParagraph ;
+    dc:description "The regulatory authorities shall monitor the execution of the tasks assigned to transmission system operators, including the development and maintenance of the network, management of data exchange, facilitation of access to the network for new producers and consumers, guarantees of non-discrimination, effective competition and customer benefits." .
+
+<https://example.com/article1#section1-paragraph2> a polianna:LegislativeDocumentParagraph ;
+    dc:description "For that purpose, regulatory authorities shall have the power to request from transmission system operators and other specified bodies any relevant information." .
+
+<https://example.com/article1#section1-paragraph3> a polianna:LegislativeDocumentParagraph ;
+    dc:description "In addition to their tasks under Article 59, regulatory authorities shall monitor the independence of transmission system operators and take action in relation to any transmission system operator which does not comply with Articles 43 to 53 or Articles 54 to 57." .
+
+<https://example.com/article1#section2> a polianna:LegislativeDocumentSection ;
+    dc:title "Additional tasks for regulatory authorities" ;
+    dc:description """4. Without prejudice to the procedure under point (c) of Article 44(2), for the first ten-year network development plan, regulatory authorities shall approve the investments planning and the multi-annual network development plan submitted at least every two years by the transmission system operator.
+5. Regulatory authorities may request amendments to those plans.
+6. Without prejudice to the procedure under point (c) of Article 44(2), for the first ten-year network development plan, regulatory authorities shall approve the investments planning and the multi-annual network development plan submitted at least every two years by the independent system operator.
+7. Regulatory authorities may request amendments to those plans.""" ;
+    polianna:hasParagraph <https://example.com/article1#section2-paragraph4>, <https://example.com/article1#section2-paragraph5>, <https://example.com/article1#section2-paragraph6>, <https://example.com/article1#section2-paragraph7> .
+
+<https://example.com/article1#section2-paragraph4> a polianna:LegislativeDocumentParagraph ;
+    dc:description "Without prejudice to the procedure under point (c) of Article 44(2), for the first ten-year network development plan, regulatory authorities shall approve the investments planning and the multi-annual network development plan submitted at least every two years by the transmission system operator." .
+
+<https://example.com/article1#section2-paragraph5> a polianna:LegislativeDocumentParagraph ;
+    dc:description "Regulatory authorities may request amendments to those plans." .
+
+<https://example.com/article1#section2-paragraph6> a polianna:LegislativeDocumentParagraph ;
+    dc:description "Without prejudice to the procedure under point (c) of Article 44(2), for the first ten-year network development plan, regulatory authorities shall approve the investments planning and the multi-annual network development plan submitted at least every two years by the independent system operator." .
+
+<https://example.com/article1#section2-paragraph7> a polianna:LegislativeDocumentParagraph ;
+    dc:description "Regulatory authorities may request amendments to those plans." .

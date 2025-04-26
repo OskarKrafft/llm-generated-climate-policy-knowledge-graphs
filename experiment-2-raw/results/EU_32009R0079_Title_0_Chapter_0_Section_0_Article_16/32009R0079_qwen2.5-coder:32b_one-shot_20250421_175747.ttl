@@ -1,0 +1,19 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Article_16 a <http://data.europa.eu/eli/reg/2009/79/oj#Article> ;
+    pol:appliesFrom pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_24_February_2011 ;
+    pol:hasAnnotators pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_B,
+        pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_F ;
+    pol:hasCELEXNumber pol:32009R0079 ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2009/79/oj> ;
+    pol:hasEntryIntoForceDate pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_20_days_following_its_publication_in_the_official_journal_of_the_european_union ;
+    pol:hasTitle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16 ;
+    pol:isBindingInEntirety pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_true ;
+    pol:isDirectlyApplicable pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_all_member_states .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Article_16\(11\)\(2\) pol:appliesFrom pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_date_set_out_therein .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Article_16\(11\)\(3\) pol:appliesFrom pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_date_of_entry_into_force_of_this_regulation .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_Article_16\(12\) pol:appliesFrom pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_date_of_entry_into_force_of_this_regulation .
+

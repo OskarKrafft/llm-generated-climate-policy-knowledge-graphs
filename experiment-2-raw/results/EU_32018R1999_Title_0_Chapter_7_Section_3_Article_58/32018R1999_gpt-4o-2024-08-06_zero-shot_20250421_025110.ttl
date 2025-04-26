@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 a pol:PolicyArticle ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1 pol:Monitoring_date "2018",
+        "2019",
+        "2020" ;
+    pol:annotatedText "reports containing the data required under those articles for the years 2018, 2019 and 2020" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2 pol:Monitoring_date "2018",
+        "2019",
+        "2020" ;
+    pol:annotatedText "reviews of the greenhouse gas inventory data for the years 2018, 2019 and 2020" .
+

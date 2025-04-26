@@ -1,0 +1,23 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14 a pol:PolicyArticle ;
+    pol:addresses eurovoc:4060 ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_1,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_2,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_3,
+        pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_4 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_1 pol:Monitoring_date "2023-06-30"^^xsd:date .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_2 pol:Monitoring_date "2033-01-01"^^xsd:date .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_3 pol:Monitoring_date "2024-06-30"^^xsd:date .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14_TimeMonitoring_4 pol:Monitoring_date "2034-01-01"^^xsd:date .
+

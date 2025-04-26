@@ -1,0 +1,33 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:specifies_compliance_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeCompliance_1,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeCompliance_2,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeCompliance_3 ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:annotatedText "for the years 2018, 2019 and 2020" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:annotatedText "as regards the second commitment period of the kyoto protocol" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:annotatedText "for the years 2018, 2019 and 2020" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "for the years 2018, 2019 and 2020" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "as regards the second commitment period of the kyoto protocol" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "for the years 2018, 2019 and 2020" .

@@ -1,0 +1,14 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_25 .
+
+pol:EU_32012L0027_Title_0_Chapter_5_Section_0_Article_25 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:Edu_Outreach ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 25
+online platform
+the commission shall establish an online platform in order to foster the practical implementation of this directive at national, regional and local levels. that platform shall support the exchange of experiences on practices, benchmarking, networking activities, as well as innovative practices."""^^xsd:string .
+

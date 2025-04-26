@@ -1,0 +1,9 @@
+article 2
+scope
+this directive shall apply to:
+(a)
+providers of energy efficiency improvement measures, energy distributors, distribution system operators and retail energy sales companies. however, member states may exclude small distributors, small distribution system operators and small retail energy sales companies from the application of articles 6 and 13;
+(b)
+final customers. however, this directive shall not apply to those undertakings involved in categories of activities listed in annex i to directive 2003/87/ec of the european parliament and of the council of 13 october 2003 establishing a scheme for greenhouse gas emission allowance trading within the community (13);
+(c)
+the armed forces, only to the extent that its application does not cause any conflict with the nature and primary aim of the activities of the armed forces and with the exception of material used exclusively for military purposes.

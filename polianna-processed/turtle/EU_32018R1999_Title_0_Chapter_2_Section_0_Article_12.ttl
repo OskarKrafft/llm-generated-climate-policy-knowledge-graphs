@@ -1,0 +1,27 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_12 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_12 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:FrameworkPolicy ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 12
+regional cooperation
+1.   member states shall cooperate with each other, taking account of all existing and potential forms of regional cooperation, to meet the objectives, targets and contributions set out in their integrated national energy and climate plan effectively.
+2.   each member state shall, well before submitting its draft integrated national energy and climate plan to the commission pursuant to article 9(1) — as regards the plans for the 2021 to 2030 period, in the preparation of the final plan well before its adoption — identify opportunities for regional cooperation and consult neighbouring member states, including in regional cooperation fora. if deemed to be appropriate by the member state authoring the plan, that member state may consult other member states or third countries that have expressed an interest. insular member states without energy interconnections to other member states shall carry out such consultations with neighbouring member states with maritime borders. the member states consulted should be given a reasonable time within which to react. each member state shall set out in its draft integrated national energy and climate plan — as regards the plans for the 2021-2030 period, in its final national energy and climate plan — at least the provisional results of such regional consultations, including, where applicable, how the comments of the member states or third countries consulted have been taken into account.
+3.   member states may engage in voluntary joint drafting of parts of their integrated national energy and climate plans and progress reports, including in regional cooperation fora. if they do so, the result shall replace the equivalent parts of their integrated national energy and climate plan and progress reports. upon a request by two or more member states, the commission shall facilitate that exercise.
+4.   in order to facilitate market integration and cost-efficient policies and measures, member states shall, in the period between the deadline for submission of their draft integrated national energy and climate plans and the deadline for submission of their final plans, present the relevant parts of their draft integrated national energy and climate plan in relevant regional cooperation fora with a view to their finalisation. where necessary, the commission shall facilitate such cooperation and consultation among the member states, and if it identifies opportunities for further regional cooperation, it may provide member states with indicative guidance in order to facilitate the effective cooperation and consultation process.
+5.   member states shall consider the comments received from other member states pursuant to paragraphs 2 and 3 in their final integrated national energy and climate plan, and explain in those plans how such comments have been considered.
+6.   for the purposes referred to in paragraph 1, member states shall continue to cooperate at regional level, and, as appropriate, in regional cooperation fora, when implementing the relevant policies and measures of their integrated national energy and climate plans.
+7.   member states may also envisage cooperation with signatories to the energy community and with third-country members of the european economic area.
+8.   in so far as the provisions of directive 2001/42/ec are applicable, transboundary consultation undertaken on the draft in accordance with article 7 of that directive shall be deemed to satisfy the obligations on regional cooperation pursuant to this regulation, provided that the requirements of this article are complied with."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_12_TimeCompliance_1 .
+
+pol:EU_32018R1999_Title_0_Chapter_2_Section_0_Article_12_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:annotatedText "in the period between the deadline for submission of their draft integrated national energy and climate plans and the deadline for submission of their final plans" .
+

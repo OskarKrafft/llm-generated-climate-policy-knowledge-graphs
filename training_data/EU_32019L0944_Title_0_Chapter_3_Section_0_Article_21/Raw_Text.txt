@@ -1,0 +1,18 @@
+article 21
+entitlement to a smart meter
+1.   where the deployment of smart metering systems has been negatively assessed as a result of the cost-benefit assessment referred to in article 19(2) and where smart metering systems are not systematically deployed, member states shall ensure that every final customer is entitled on request, while bearing the associated costs, to have installed or, where applicable, to have upgraded, under fair, reasonable and cost-effective conditions, a smart meter that:
+(a)
+is equipped, where technically feasible, with the functionalities referred to in article 20, or with a minimum set of functionalities to be defined and published by member states at national level in accordance with annex ii;
+(b)
+is interoperable and able to deliver the desired connectivity of the metering infrastructure with consumer energy management systems in near real-time.
+2.   in the context of a customer request for a smart meter pursuant to paragraph 1, member states or, where a member state has so provided, the designated competent authorities shall:
+(a)
+ensure that the offer to the final customer requesting the installation of a smart meter explicitly states and clearly describes:
+(i)
+the functions and interoperability that can be supported by the smart meter and the services that are feasible as well as the benefits that can be realistically attained by having that smart meter at that moment in time;
+(ii)
+any associated costs to be borne by the final customer;
+(b)
+ensure that it is installed within a reasonable time, no later than four months after the customer's request;
+(c)
+regularly, and at least every two years, review and make publicly available the associated costs, and trace the evolution of those costs as a result of technology developments and potential metering system upgrades.

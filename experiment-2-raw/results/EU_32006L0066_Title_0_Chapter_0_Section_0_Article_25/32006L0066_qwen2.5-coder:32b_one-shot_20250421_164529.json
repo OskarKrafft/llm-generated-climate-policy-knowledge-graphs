@@ -1,0 +1,57 @@
+[
+  {
+    "Subject": "Article_25",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/eli/dir/2006/66/oj#Article"
+  },
+  {
+    "Subject": "Article_25",
+    "Predicate": "hasTitle",
+    "Object": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25"
+  },
+  {
+    "Subject": "Article_25",
+    "Predicate": "hasCELEXNumber",
+    "Object": "32006L0066"
+  },
+  {
+    "Subject": "Article_25",
+    "Predicate": "hasELI",
+    "Object": "http://data.europa.eu/eli/dir/2006/66/oj"
+  },
+  {
+    "Subject": "Article_25",
+    "Predicate": "hasAnnotators",
+    "Object": "[\"C\", \"F\"]"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "layDownRulesOn",
+    "Object": "penalties"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "applicableToInfringementsOf",
+    "Object": "nationalProvisionsAdoptedPursuantToThisDirective"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "takeMeasuresToEnsureImplementation",
+    "Object": "true"
+  },
+  {
+    "Subject": "PenaltiesProvidedFor",
+    "Predicate": "mustBeEffectiveProportionateAndDissuasive",
+    "Object": "true"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "notifyMeasuresToCommissionBy",
+    "Object": "2008-09-26"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "informCommissionOfSubsequentAmendmentsWithoutDelay",
+    "Object": "true"
+  }
+]

@@ -1,0 +1,76 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix eli: <http://data.europa.eu/eli/> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj>
+    a <http://purl.org/dc/terms/BibliographicResource> ;
+    rdfs:label "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14"@en .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14>
+    a <http://www.polann.io/ontology/policy-article> ;
+    rdfs:label "article 14"@en ;
+    eli:isPartOf <http://data.europa.eu/eli/reg/2019/631/oj> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1>
+    a <http://www.polann.io/ontology/policy-article-paragraph> ;
+    rdfs:label "article 14 - paragraph 1"@en ;
+    eli:isPartOf <http://data.europa.eu/eli/reg/2019/631/oj#Article_14> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1>
+    <http://www.polann.io/ontology/policy-article-paragraph-text>
+        "the m0 and tm0 values referred to in parts a and b of annex i shall be adjusted as follows:"@en .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1#Point_a>
+    a <http://www.polann.io/ontology/policy-article-paragraph-point> ;
+    rdfs:label "article 14 - paragraph 1 point (a)"@en ;
+    eli:isPartOf <http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1#Point_a>
+    <http://www.polann.io/ontology/policy-article-paragraph-point-text>
+        "by 31 october 2020, the m0 value in point 4 of part a of annex i shall be adjusted to the average mass in running order of all new passenger cars registered in 2017, 2018, and 2019. that new m0 value shall apply from 1 january 2022 until 31 december 2024;"@en .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1#Point_b>
+    a <http://www.polann.io/ontology/policy-article-paragraph-point> ;
+    rdfs:label "article 14 - paragraph 1 point (b)"@en ;
+    eli:isPartOf <http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1#Point_b>
+    <http://www.polann.io/ontology/policy-article-paragraph-point-text>
+        "by 31 october 2022, the m0 value in point 4 of part b of annex i shall be adjusted to the average mass in running order of all new light commercial vehicles registered in 2019, 2020 and 2021. that new m0 value shall apply in 2024;"@en .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1#Point_c>
+    a <http://www.polann.io/ontology/policy-article-paragraph-point> ;
+    rdfs:label "article 14 - paragraph 1 point (c)"@en ;
+    eli:isPartOf <http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1#Point_c>
+    <http://www.polann.io/ontology/policy-article-paragraph-point-text>
+        "by 31 october 2022, the indicative tm0 value for 2025 shall be determined as the respective average test mass of all new passenger cars and new light commercial vehicles registered in 2021;"@en .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1#Point_d>
+    a <http://www.polann.io/ontology/policy-article-paragraph-point> ;
+    rdfs:label "article 14 - paragraph 1 point (d)"@en ;
+    eli:isPartOf <http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_1#Point_d>
+    <http://www.polann.io/ontology/policy-article-paragraph-point-text>
+        "by 31 october of each year starting from 2023, the m0 value in point 4 of part a and part b of annex i shall be adjusted to the average mass in running order of all new passenger cars and light commercial vehicles registered in the previous three years. those new m0 values shall apply from 1 january of the following year until 31 december of that year"@en .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_2>
+    a <http://www.polann.io/ontology/policy-article-paragraph> ;
+    rdfs:label "article 14 - paragraph 2"@en ;
+    eli:isPartOf <http://data.europa.eu/eli/reg/2019/631/oj#Article_14> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Article_14#Paragraph_2>
+    <http://www.polann.io/ontology/policy-article-paragraph-text>
+        "the commission is empowered to adopt delegated acts in accordance with article 11 to adjust the m0 values referred to in this paragraph and annex i, where necessary, based on technical progress or scientific evidence"@en .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Annotator_F>
+    a <http://www.polann.io/ontology/policy-annotator> ;
+    rdfs:label "F"@en ;
+    eli:hasAnnotation <http://data.europa.eu/eli/reg/2019/631/oj> .
+
+<http://data.europa.eu/eli/reg/2019/631/oj#Annotator_S>
+    a <http://www.polann.io/ontology/policy-annotator> ;
+    rdfs:label "S"@en ;
+    eli:hasAnnotation <http://data.europa.eu/eli/reg/2019/631/oj> .

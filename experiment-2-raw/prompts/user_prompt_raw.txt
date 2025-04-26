@@ -1,0 +1,16 @@
+Below is the policy metadata in JSON form:
+{policy_info}
+
+Below is the raw article text:
+{article_text}
+
+Task:
+- Convert this article into a valid JSON array of raw triplets using the POLIANNA ontology.
+- Follow the naming and formatting conventions specified in the system instructions precisely (e.g., simplify URIs to "Article", "Suffix", "type", CURIEs, etc.).
+- Put your complete JSON array in a single code fence labeled 'json'.
+- No text outside that fence.
+- DO NOT include any binary string markers like b'', b''^b', or similar.
+- Ensure the output is clean, valid JSON text, with all strings properly escaped where necessary.
+- Make sure it is a valid JSON array that can be parsed by standard JSON tools.
+
+Begin now.

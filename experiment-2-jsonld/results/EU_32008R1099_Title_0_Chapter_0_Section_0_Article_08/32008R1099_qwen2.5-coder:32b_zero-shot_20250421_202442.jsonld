@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "poliana": "https://w3id.org/poliana/ontology#"
+  },
+  "@type": "poliana:Article",
+  "dct:title": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+  "eli:number": "32008R1099",
+  "eli:uri": "http://data.europa.eu/eli/reg/2008/1099/oj",
+  "poliana:hasAnnotator": [
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "A"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "C"
+    }
+  ],
+  "dct:description": "The Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2)."
+}

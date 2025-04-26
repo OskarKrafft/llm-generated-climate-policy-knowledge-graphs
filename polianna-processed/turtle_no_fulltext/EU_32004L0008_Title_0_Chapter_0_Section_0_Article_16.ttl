@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32004L0008 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_16 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_in_effect_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2004-02-11"^^xsd:date ;
+    pol:annotatedText "11 february 2004" .
+

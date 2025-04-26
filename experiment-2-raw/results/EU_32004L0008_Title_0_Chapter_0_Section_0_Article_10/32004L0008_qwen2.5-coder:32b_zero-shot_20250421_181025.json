@@ -1,0 +1,88 @@
+json
+[
+  {
+    "Subject": "Article_10",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/eli/dir/2004/8/oj#Article"
+  },
+  {
+    "Subject": "Article_10",
+    "Predicate": "Suffix",
+    "Object": "10"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "publishReportByDate",
+    "Object": "2006-02-21"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "reportContent",
+    "Object": "resultsOfAnalysisAndEvaluations"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "basedOnArticles",
+    "Object": "5(3), 6(1), 9(1) and 9(2)"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "publishReportByDate",
+    "Object": "2007-02-21"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "reportFrequency",
+    "Object": "every four years"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "reportContent",
+    "Object": "resultOfEvaluation"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "basedOnArticle",
+    "Object": "6(3)"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "submitStatisticsToCommissionByDate",
+    "Object": "2004-12-31"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "statisticsCoveringYear",
+    "Object": "2003"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "submitStatisticsFrequency",
+    "Object": "annual basis"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "statisticsContent",
+    "Object": "nationalElectricityAndHeatProductionFromCogeneration"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "basedOnMethodologyInAnnex",
+    "Object": "II"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "submitStatisticsContent",
+    "Object": "cogenerationCapacitiesAndFuelsUsedForCogeneration"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "maySubmitStatisticsContent",
+    "Object": "primaryEnergySavingsAchievedByApplicationOfCogeneration"
+  },
+  {
+    "Subject": "MemberStates",
+    "Predicate": "basedOnMethodologyInAnnex",
+    "Object": "III"
+  }
+]

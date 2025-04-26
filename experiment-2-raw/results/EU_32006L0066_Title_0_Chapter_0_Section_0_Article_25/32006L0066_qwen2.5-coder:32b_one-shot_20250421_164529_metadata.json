@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "[\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"type\",\n    \"Object\": \"http://data.europa.eu/eli/dir/2006/66/oj#Article\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasTitle\",\n    \"Object\": \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasCELEXNumber\",\n    \"Object\": \"32006L0066\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasELI\",\n    \"Object\": \"http://data.europa.eu/eli/dir/2006/66/oj\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasAnnotators\",\n    \"Object\": \"[\\\"C\\\", \\\"F\\\"]\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"layDownRulesOn\",\n    \"Object\": \"penalties\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"applicableToInfringementsOf\",\n    \"Object\": \"nationalProvisionsAdoptedPursuantToThisDirective\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"takeMeasuresToEnsureImplementation\",\n    \"Object\": \"true\"\n  },\n  {\n    \"Subject\": \"PenaltiesProvidedFor\",\n    \"Predicate\": \"mustBeEffectiveProportionateAndDissuasive\",\n    \"Object\": \"true\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"notifyMeasuresToCommissionBy\",\n    \"Object\": \"2008-09-26\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"informCommissionOfSubsequentAmendmentsWithoutDelay\",\n    \"Object\": \"true\"\n  }\n]",
+  "original_output": "```json\n[\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"type\",\n    \"Object\": \"http://data.europa.eu/eli/dir/2006/66/oj#Article\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasTitle\",\n    \"Object\": \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasCELEXNumber\",\n    \"Object\": \"32006L0066\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasELI\",\n    \"Object\": \"http://data.europa.eu/eli/dir/2006/66/oj\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasAnnotators\",\n    \"Object\": \"[\\\"C\\\", \\\"F\\\"]\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"layDownRulesOn\",\n    \"Object\": \"penalties\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"applicableToInfringementsOf\",\n    \"Object\": \"nationalProvisionsAdoptedPursuantToThisDirective\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"takeMeasuresToEnsureImplementation\",\n    \"Object\": \"true\"\n  },\n  {\n    \"Subject\": \"PenaltiesProvidedFor\",\n    \"Predicate\": \"mustBeEffectiveProportionateAndDissuasive\",\n    \"Object\": \"true\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"notifyMeasuresToCommissionBy\",\n    \"Object\": \"2008-09-26\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"informCommissionOfSubsequentAmendmentsWithoutDelay\",\n    \"Object\": \"true\"\n  }\n]\n```",
+  "generation_time": 26.634901523590088,
+  "output": "```json\n[\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"type\",\n    \"Object\": \"http://data.europa.eu/eli/dir/2006/66/oj#Article\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasTitle\",\n    \"Object\": \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasCELEXNumber\",\n    \"Object\": \"32006L0066\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasELI\",\n    \"Object\": \"http://data.europa.eu/eli/dir/2006/66/oj\"\n  },\n  {\n    \"Subject\": \"Article_25\",\n    \"Predicate\": \"hasAnnotators\",\n    \"Object\": \"[\\\"C\\\", \\\"F\\\"]\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"layDownRulesOn\",\n    \"Object\": \"penalties\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"applicableToInfringementsOf\",\n    \"Object\": \"nationalProvisionsAdoptedPursuantToThisDirective\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"takeMeasuresToEnsureImplementation\",\n    \"Object\": \"true\"\n  },\n  {\n    \"Subject\": \"PenaltiesProvidedFor\",\n    \"Predicate\": \"mustBeEffectiveProportionateAndDissuasive\",\n    \"Object\": \"true\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"notifyMeasuresToCommissionBy\",\n    \"Object\": \"2008-09-26\"\n  },\n  {\n    \"Subject\": \"MemberStates\",\n    \"Predicate\": \"informCommissionOfSubsequentAmendmentsWithoutDelay\",\n    \"Object\": \"true\"\n  }\n]\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+      "CELEX_Number": "32006L0066",
+      "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "one-shot",
+    "output_format": "raw",
+    "model": "qwen2.5-coder:32b",
+    "timestamp": "2025-04-21T16:45:29.682926",
+    "reconstructed_from_raw": true
+  },
+  "triple_count": 11
+}

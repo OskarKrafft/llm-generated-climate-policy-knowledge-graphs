@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_28",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Other provisions on renewable energy in the transport sector"
+      },
+      "is_about": [
+        {
+          "id": "TradablePermit",
+          "type": "skos:Concept"
+        },
+        {
+          "id": "PublicInvestment",
+          "type": "skos:Concept"
+        },
+        {
+          "id": "Edu_Outreach",
+          "type": "skos:Concept"
+        }
+      ],
+      "contains_instrument": [
+        {
+          "id": "VoluntaryAgrmt",
+          "type": "skos:Concept"
+        },
+        {
+          "id": "RegulatoryInstr",
+          "type": "skos:Concept"
+        }
+      ],
+      "specifies_compliance_time": {
+        "id": "Time_Compliance",
+        "Compliance_date": "2021-12-31"
+      },
+      "specifies_monitoring_time": {
+        "id": "Time_Monitoring",
+        "Monitoring_date": "2019-06-25"
+      },
+      "grants_legislative_authority": {
+        "id": "eurovoc:4038",
+        "type": "Organization"
+      },
+      "grants_monitoring_authority": {
+        "id": "eurovoc:4038",
+        "type": "Organization"
+      },
+      "addresses": {
+        "id": "Member_States",
+        "type": "Organization"
+      },
+      "annotatedText": {
+        "value": "By 31 December 2021, Member States shall take measures to ensure the availability of fuels from renewable sources for transport including with regard to publicly accessible high-power recharging points and other refuelling infrastructure as provided for in their national policy frameworks in accordance with Directive 2014/94/EU."
+      }
+    }
+  ]
+}

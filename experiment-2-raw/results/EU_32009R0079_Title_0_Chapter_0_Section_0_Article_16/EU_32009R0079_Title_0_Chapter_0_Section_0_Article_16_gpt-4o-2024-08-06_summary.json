@@ -1,0 +1,83 @@
+{
+  "zero-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_1\"\n    },\n    {\n        \"s\": \"Time_InEffect_1\",\n        \"p\": \"In_effect_date\",\n        \"o\": \"2011-02-24\"\n    },\n    {\n        \"s\": \"Time_InEffect_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"it shall apply from 24 February 2011\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_2\"\n    },\n    {\n        \"s\": \"Time_InEffect_2\",\n        \"p\": \"In_effect_date\",\n        \"o\": \"20th day following its publication in the official journal of the european union\"\n    },\n    {\n        \"s\": \"Time_InEffect_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"this regulation shall enter into force on the 20th day following its publication in the official journal of the european union\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_3\"\n    },\n    {\n        \"s\": \"Time_InEffect_3\",\n        \"p\": \"annotatedText\",\n        \"o\": \"article 11(3) and article 12, which shall apply from the date of entry into force of this regulation\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_4\"\n    },\n    {\n        \"s\": \"Time_InEffect_4\",\n        \"p\": \"annotatedText\",\n        \"o\": \"article 11(2), which shall apply from the date set out therein\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4060\"\n    }\n]",
+    "original_output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_1\"\n    },\n    {\n        \"s\": \"Time_InEffect_1\",\n        \"p\": \"In_effect_date\",\n        \"o\": \"2011-02-24\"\n    },\n    {\n        \"s\": \"Time_InEffect_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"it shall apply from 24 February 2011\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_2\"\n    },\n    {\n        \"s\": \"Time_InEffect_2\",\n        \"p\": \"In_effect_date\",\n        \"o\": \"20th day following its publication in the official journal of the european union\"\n    },\n    {\n        \"s\": \"Time_InEffect_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"this regulation shall enter into force on the 20th day following its publication in the official journal of the european union\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_3\"\n    },\n    {\n        \"s\": \"Time_InEffect_3\",\n        \"p\": \"annotatedText\",\n        \"o\": \"article 11(3) and article 12, which shall apply from the date of entry into force of this regulation\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_4\"\n    },\n    {\n        \"s\": \"Time_InEffect_4\",\n        \"p\": \"annotatedText\",\n        \"o\": \"article 11(2), which shall apply from the date set out therein\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4060\"\n    }\n]\n```",
+    "generation_time": 4.508058786392212,
+    "output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_1\"\n    },\n    {\n        \"s\": \"Time_InEffect_1\",\n        \"p\": \"In_effect_date\",\n        \"o\": \"2011-02-24\"\n    },\n    {\n        \"s\": \"Time_InEffect_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"it shall apply from 24 February 2011\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_2\"\n    },\n    {\n        \"s\": \"Time_InEffect_2\",\n        \"p\": \"In_effect_date\",\n        \"o\": \"20th day following its publication in the official journal of the european union\"\n    },\n    {\n        \"s\": \"Time_InEffect_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"this regulation shall enter into force on the 20th day following its publication in the official journal of the european union\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_3\"\n    },\n    {\n        \"s\": \"Time_InEffect_3\",\n        \"p\": \"annotatedText\",\n        \"o\": \"article 11(3) and article 12, which shall apply from the date of entry into force of this regulation\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_in_effect_time\",\n        \"o\": \"Time_InEffect_4\"\n    },\n    {\n        \"s\": \"Time_InEffect_4\",\n        \"p\": \"annotatedText\",\n        \"o\": \"article 11(2), which shall apply from the date set out therein\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4060\"\n    }\n]\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "raw",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-21T02:54:40.999543",
+      "reconstructed_from_raw": true
+    },
+    "total_processing_time": 4.513041973114014,
+    "triple_count": 12
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "[\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_1\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"In_effect_date\",\n    \"o\": \"2011-02-24\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"24 February 2011\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_2\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"20th day following its publication in the Official Journal of the European Union\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  }\n]",
+    "original_output": "```json\n[\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_1\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"In_effect_date\",\n    \"o\": \"2011-02-24\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"24 February 2011\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_2\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"20th day following its publication in the Official Journal of the European Union\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  }\n]\n```",
+    "generation_time": 3.739210844039917,
+    "output": "```json\n[\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_1\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"In_effect_date\",\n    \"o\": \"2011-02-24\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"24 February 2011\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_2\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"annotatedText\",\n    \"o\": \"20th day following its publication in the Official Journal of the European Union\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  }\n]\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "raw",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-21T02:54:44.744006",
+      "reconstructed_from_raw": true
+    },
+    "total_processing_time": 3.744178056716919,
+    "triple_count": 11
+  },
+  "few-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "[\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_1\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"20th day following its publication in the official journal of the european union\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_2\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"In_effect_date\",\n    \"o\": \"2011-02-24\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  }\n]",
+    "original_output": "```json\n[\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_1\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"20th day following its publication in the official journal of the european union\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_2\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"In_effect_date\",\n    \"o\": \"2011-02-24\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  }\n]\n```",
+    "generation_time": 3.3128650188446045,
+    "output": "```json\n[\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"type\",\n    \"o\": \"PolicyDocument\"\n  },\n  {\n    \"s\": \"32009R0079\",\n    \"p\": \"hasArticle\",\n    \"o\": \"Article\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"type\",\n    \"o\": \"PolicyArticle\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_1\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_1\",\n    \"p\": \"annotatedText\",\n    \"o\": \"20th day following its publication in the official journal of the european union\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"specifies_in_effect_time\",\n    \"o\": \"Time_InEffect_2\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"type\",\n    \"o\": \"Time_InEffect\"\n  },\n  {\n    \"s\": \"Time_InEffect_2\",\n    \"p\": \"In_effect_date\",\n    \"o\": \"2011-02-24\"\n  },\n  {\n    \"s\": \"Article\",\n    \"p\": \"addresses\",\n    \"o\": \"Member_States\"\n  }\n]\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+        "CELEX_Number": "32009R0079",
+        "ELI": "http://data.europa.eu/eli/reg/2009/79/oj",
+        "Annotators": [
+          "B",
+          "F"
+        ]
+      },
+      "prompt_strategy": "few-shot",
+      "output_format": "raw",
+      "model": "gpt-4o-2024-08-06",
+      "timestamp": "2025-04-21T02:54:48.062092",
+      "reconstructed_from_raw": true
+    },
+    "total_processing_time": 3.3196768760681152,
+    "triple_count": 10
+  }
+}

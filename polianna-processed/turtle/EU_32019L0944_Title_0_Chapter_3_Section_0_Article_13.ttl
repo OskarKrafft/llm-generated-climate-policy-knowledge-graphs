@@ -1,0 +1,18 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_13 .
+
+pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_13 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 13
+aggregation contract
+1.   member states shall ensure that all customers are free to purchase and sell electricity services, including aggregation, other than supply, independently from their electricity supply contract and from an electricity undertaking of their choice.
+2.   member states shall ensure that, where a final customer wishes to conclude an aggregation contract, the final customer is entitled to do so without the consent of the final customer's electricity undertakings.
+member states shall ensure that market participants engaged in aggregation fully inform customers of the terms and conditions of the contracts that they offer to them.
+3.   member states shall ensure that final customers are entitled to receive all relevant demand response data or data on supplied and sold electricity free of charge at least once every billing period if requested by the customer.
+4.   member states shall ensure that the rights referred to in paragraphs 2 and 3 are granted to final customers in a non-discriminatory manner as regards cost, effort or time. in particular, member states shall ensure that customers are not subject to discriminatory technical and administrative requirements, procedures or charges by their supplier on the basis of whether they have a contract with a market participant engaged in aggregation."""^^xsd:string .
+

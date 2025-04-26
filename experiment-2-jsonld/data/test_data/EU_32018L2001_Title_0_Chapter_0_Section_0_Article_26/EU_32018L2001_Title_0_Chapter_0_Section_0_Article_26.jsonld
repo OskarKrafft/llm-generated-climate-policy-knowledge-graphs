@@ -1,0 +1,182 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "In_effect_date": {
+                "type": "xsd:date",
+                "value": "2023-12-31"
+            },
+            "annotatedText": {
+                "value": "from 31\u00a0december 2023 until 31\u00a0december 2030"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_2",
+            "type": "Time_InEffect"
+        },
+        {
+            "annotatedText": {
+                "value": "1\u00a0february 2019"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_3",
+            "type": "Time_Monitoring"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2019-02-01"
+            },
+            "annotatedText": {
+                "value": "1\u00a0february 2019"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_4",
+            "type": "Time_Compliance"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2020-01-01"
+            },
+            "annotatedText": {
+                "value": "2020"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_1",
+            "type": "Time_Compliance"
+        },
+        {
+            "hasArticle": {
+                "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26"
+            },
+            "id": "32018L2001",
+            "type": "PolicyDocument"
+        },
+        {
+            "annotatedText": {
+                "value": "1\u00a0september 2023"
+            },
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_5",
+            "type": "Time_Monitoring"
+        },
+        {
+            "addresses": {
+                "id": "Member_States"
+            },
+            "authorises": {
+                "id": "eurovoc:4038"
+            },
+            "contains_instrument": {
+                "id": "RegulatoryInstr"
+            },
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "contains_objective": {
+                "id": "Objective"
+            },
+            "fullText": "article 26\nspecific rules for biofuels, bioliquids and biomass fuels produced from food and feed crops\n1.\u00a0\u00a0\u00a0for the calculation of a member\u00a0state's gross final consumption of energy from renewable sources referred to in article 7 and the minimum share referred to in the first subparagraph of article 25(1), the share of biofuels and bioliquids, as well as of biomass fuels consumed in transport, where produced from food and feed crops, shall be no more than one percentage point higher than the share of such fuels in the final consumption of energy in the road and rail transport sectors in 2020 in that member\u00a0state, with a maximum of 7\u00a0% of final consumption of energy in the road and rail transport sectors in that member\u00a0state.\nwhere that share is below 1\u00a0% in a member\u00a0state, it may be increased to a maximum of 2\u00a0% of the final consumption of energy in the road and rail transport sectors.\nmember\u00a0states may set a lower limit and may distinguish, for the purposes of article\u00a029(1), between different biofuels, bioliquids and biomass fuels produced from food and feed crops, taking into account best available evidence on indirect land-use change impact. member\u00a0states may, for example, set a lower limit for the share of biofuels, bioliquids and biomass fuels produced from oil crops.\nwhere the share of biofuels and bioliquids, as well as of biomass fuels consumed in transport, produced from food and feed crops in a member\u00a0state is limited to a share lower than 7\u00a0% or a member\u00a0state decides to limit the share further, that member\u00a0state may reduce the minimum share referred to in the first subparagraph of article\u00a025(1) accordingly, by a maximum of 7 percentage points.\n2.\u00a0\u00a0\u00a0for the calculation of a member\u00a0state's gross final consumption of energy from renewable sources referred to in article 7 and the minimum share referred to in the first subparagraph of article 25(1), the share of high indirect land-use change-risk biofuels, bioliquids or biomass fuels produced from food and feed crops for which a significant expansion of the production area into land with high-carbon stock is observed shall not exceed the level of consumption of such fuels in that member\u00a0state in 2019, unless they are certified to be low indirect land-use change-risk biofuels, bioliquids or biomass fuels pursuant to this paragraph.\nfrom 31\u00a0december 2023 until 31\u00a0december 2030 at the latest, that limit shall gradually decrease to 0\u00a0%.\nby 1\u00a0february 2019, the commission shall submit to the european parliament and to the council a report on the status of worldwide production expansion of the relevant food and feed crops.\nby 1\u00a0february 2019, the commission shall adopt a delegated act in accordance with article\u00a035 to supplement this directive by setting out the criteria for certification of low indirect land-use change-risk biofuels, bioliquids and biomass fuels and for determining the high indirect land-use change-risk feedstock for which a significant expansion of the production area into land with high-carbon stock is observed. the report and the accompanying delegated act shall be based on the best available scientific data.\nby 1\u00a0september 2023, the commission shall review the criteria laid down in the delegated act referred to in the fourth subparagraph based on the best available scientific data and shall adopt delegated acts in accordance with article\u00a035 to amend such criteria, where appropriate, and to include a trajectory to gradually decrease the contribution to the union target set in article\u00a03(1) and to the minimum share referred to in the first subparagraph of article\u00a025(1), of high indirect land-use change-risk biofuels, bioliquids and biomass fuels produced from feedstock for which a significant expansion of the production into land with high-carbon stock is observed.",
+            "grants_legislative_authority": {
+                "id": "eurovoc:4038"
+            },
+            "grants_monitoring_authority": [
+                {
+                    "id": "eurovoc:114"
+                },
+                {
+                    "id": "eurovoc:2243"
+                },
+                {
+                    "id": "eurovoc:4038"
+                }
+            ],
+            "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26",
+            "specifies_compliance_time": [
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_1"
+                },
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeCompliance_4"
+                }
+            ],
+            "specifies_in_effect_time": {
+                "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeInEffect_2"
+            },
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_3"
+                },
+                {
+                    "id": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_26_TimeMonitoring_5"
+                }
+            ],
+            "type": "PolicyArticle"
+        }
+    ]
+}

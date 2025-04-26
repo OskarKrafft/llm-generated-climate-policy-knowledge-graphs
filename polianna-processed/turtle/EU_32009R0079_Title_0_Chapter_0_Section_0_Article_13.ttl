@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_13 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_13 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:fullText """article 13
+committee procedure
+1.   the commission shall be assisted by the technical committee — motor vehicles (tcmv) established by article 40(1) of directive 2007/46/ec.
+2.   where reference is made to this paragraph, article 5a(1) to (4) and article 7 of decision 1999/468/ec shall apply, having regard to the provisions of article 8 thereof."""^^xsd:string .
+

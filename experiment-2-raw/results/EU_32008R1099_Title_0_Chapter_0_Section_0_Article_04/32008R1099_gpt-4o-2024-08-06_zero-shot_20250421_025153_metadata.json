@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"annual\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"annual, for the energy statistics in annex B\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_2\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"monthly\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"monthly, for the energy statistics in annex C\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_3\"\n    },\n    {\n        \"s\": \"TimeMonitoring_3\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"short-term monthly\"\n    },\n    {\n        \"s\": \"TimeMonitoring_3\",\n        \"p\": \"annotatedText\",\n        \"o\": \"short-term monthly, for the energy statistics in annex D\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_instrument\",\n        \"o\": \"RegulatoryInstr\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective\"\n    }\n]",
+  "original_output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"annual\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"annual, for the energy statistics in annex B\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_2\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"monthly\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"monthly, for the energy statistics in annex C\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_3\"\n    },\n    {\n        \"s\": \"TimeMonitoring_3\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"short-term monthly\"\n    },\n    {\n        \"s\": \"TimeMonitoring_3\",\n        \"p\": \"annotatedText\",\n        \"o\": \"short-term monthly, for the energy statistics in annex D\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_instrument\",\n        \"o\": \"RegulatoryInstr\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective\"\n    }\n]\n```",
+  "generation_time": 3.7749431133270264,
+  "output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"annual\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"annotatedText\",\n        \"o\": \"annual, for the energy statistics in annex B\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_2\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"monthly\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"annotatedText\",\n        \"o\": \"monthly, for the energy statistics in annex C\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_3\"\n    },\n    {\n        \"s\": \"TimeMonitoring_3\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"short-term monthly\"\n    },\n    {\n        \"s\": \"TimeMonitoring_3\",\n        \"p\": \"annotatedText\",\n        \"o\": \"short-term monthly, for the energy statistics in annex D\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_instrument\",\n        \"o\": \"RegulatoryInstr\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective\"\n    }\n]\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04",
+      "CELEX_Number": "32008R1099",
+      "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "raw",
+    "model": "gpt-4o-2024-08-06",
+    "timestamp": "2025-04-21T02:51:53.573372",
+    "reconstructed_from_raw": true
+  },
+  "triple_count": 12
+}

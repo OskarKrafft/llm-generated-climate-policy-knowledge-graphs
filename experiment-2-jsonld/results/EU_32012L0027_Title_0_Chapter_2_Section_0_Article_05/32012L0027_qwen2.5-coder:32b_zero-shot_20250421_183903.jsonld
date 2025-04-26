@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "poliana": "http://data.europa.eu/poli/ontology/poliana#",
+    "dct": "http://purl.org/dc/terms/",
+    "celex": "http://publications.europa.eu/resource/authority/legal-base-type/",
+    "eli": "http://data.europa.eu/eli/ontology#"
+  },
+  "@type": "poliana:LegalActArticle",
+  "dct:title": "exemplary role of public bodies’ buildings",
+  "celex:number": "32012L0027",
+  "eli:hasIdentifier": {
+    "@type": "eli:Identifier",
+    "eli:scheme": "CELEX",
+    "eli:key": "32012L0027"
+  },
+  "poliana:articleNumber": "5",
+  "dct:description": "Each member state shall ensure that, as from 1 January 2014, 3% of the total floor area of heated and/or cooled buildings owned and occupied by its central government is renovated each year to meet at least the minimum energy performance requirements.",
+  "poliana:paragraphs": [
+    {
+      "@type": "poliana:Paragraph",
+      "dct:description": "Without prejudice to article 7 of directive 2010/31/eu, each member state shall ensure that, as from 1 January 2014, 3% of the total floor area of heated and/or cooled buildings owned and occupied by its central government is renovated each year to meet at least the minimum energy performance requirements that it has set in application of article 4 of directive 2010/31/eu. The 3% rate shall be calculated on the total floor area of buildings with a total useful floor area over 500 m2 owned and occupied by the central government of the member state concerned that, on 1 January of each year, do not meet the national minimum energy performance requirements set in application of article 4 of directive 2010/31/eu. That threshold shall be lowered to 250 m2 as of 9 July 2015.",
+      "poliana:subparagraphs": [
+        {
+          "@type": "poliana:SubParagraph",
+          "dct:description": "Where a member state requires that the obligation to renovate each year 3% of the total floor area extends to floor area owned and occupied by administrative departments at a level below central government, the 3% rate shall be calculated on the total floor area of buildings with a total useful floor area over 500 m2 and, as of 9 July 2015, over 250 m2 owned and occupied by central government and by these administrative departments of the member state concerned that, on 1 January of each year, do not meet the national minimum energy performance requirements set in application of article 4 of directive 2010/31/eu."
+        },
+        {
+          "@type": "poliana:SubParagraph",
+          "dct:description": "When implementing renovations, member states should consider putting in place an energy management system, including energy audits, as part of the implementation of their plan."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:description": "Member states opting for the alternative approach shall notify to the commission, by 31 December 2013, the alternative measures that they plan to adopt, showing how they would achieve an equivalent improvement in the energy performance of the buildings within the central government estate."
+    },
+    {
+      "@type": "poliana:Paragraph",
+      "dct:description": "Member states shall encourage public bodies, including at regional and local level, and social housing bodies governed by public law, with due regard for their respective competences and administrative set-up, to adopt an energy efficiency plan, put in place an energy management system, and use, where appropriate, energy service companies, and energy performance contracting to finance renovations and implement plans to maintain or improve energy efficiency in the long term."
+    }
+  ]
+}

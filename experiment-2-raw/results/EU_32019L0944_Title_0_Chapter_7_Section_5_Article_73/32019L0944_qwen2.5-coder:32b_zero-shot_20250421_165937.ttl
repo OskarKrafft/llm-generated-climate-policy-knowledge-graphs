@@ -1,0 +1,42 @@
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_10\(2\)_to_\(10\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_38\(1\)_\(3\)_and_\(4\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_46\(1\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_46\(2\)_points_\(a\)_\(b\)_\(c\)_and_\(e\)_to_\(h\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_46\(3\)_to_\(6\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_6\(1\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_7\(2\)_to_\(5\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_70_point_\(4\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2020-10-26 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_70_point_\(5\)\(a\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2020-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_70_points_\(1\)_to_\(3\)_\(5\)\(b\)_and_\(6\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_73 a eli:LegalProvision ;
+    pol:hasEntryIntoForceDate pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_20_days_after_publication_in_the_OJEU .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_8\(1\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_8\(2\)_points_\(a\)_to_\(i\)_and_\(k\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_8\(3\)_and_\(4\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Article_9\(1\)_\(3\)_\(4\)_and_\(5\) pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+<https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Articles_25,_27,_30,_35_and_37> pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+<https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Articles_39,_41,_43,_44_and_45> pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Articles_47_to_50 pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+
+<https://polianna-kg.org/Ontology#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_Articles_52,_53,_55,_56,_60,_64_and_65> pol:appliesFrom pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73_2021-01-01 .
+

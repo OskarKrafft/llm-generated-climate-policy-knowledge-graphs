@@ -1,0 +1,64 @@
+turtle
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefixowl: <http://www.w3.org/2002/07/owl#> .
+@prefix pol: <https://w3id.org/policy/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/policy#article-2020-1>
+  dc:title "Regulation on the Real Driving Emissions of New Passenger Cars and New Light Commercial Vehicles (Light Vehicle Emissions Regulation)";
+  dc:description "Article 12 of EU Reg. No. 2019/631 for new passenger cars and light commercial vehicles";
+  dctype:Text;
+  a pol:Article.
+
+<https://w3id.org/policy#article-2020-1-par-1>
+  dc:title "Review of the Regulation by 2027 at the latest.";
+  dc:description "The Commission shall review this regulation, including its annexes, by 31 December 2027 and report to the European Parliament and to the Council on the review findings.";
+  dctype:Paragraph;
+  a pol:Paragraph;
+  pol:hasArticle <https://w3id.org/policy#article-2020-1>.
+
+<https://w3id.org/policy#article-2020-1-par-2>
+  dc:title "Review of the Regulation in particular the real-world representativeness of the CO2 emission and fuel or energy consumption values";
+  dc:description "The Commission shall review this regulation, including its annexes, by 31 December 2027 and report to the European Parliament and to the Council on the review findings. In that review, the Commission shall consider inter alia the real-world representativeness of the CO2 emission and fuel or energy consumption values determined pursuant to Regulation (EC) No 715/2007;";
+  dctype:Paragraph;
+  a pol:Paragraph;
+  pol:hasArticle <https://w3id.org/policy#article-2020-1>.
+
+<https://w3id.org/policy#article-2020-1-par-2-sent-1>
+  dc:title "Review of the Regulation in particular the real-world representativeness of the CO2 emission and fuel or energy consumption values";
+  dc:description "In that review, the Commission shall consider inter alia the real-world representativeness of the CO2 emission and fuel or energy consumption values determined pursuant to Regulation (EC) No 715/2007;";
+  dctype:Sentence;
+  a pol:Sentence;
+  pol:hasParagraph <https://w3id.org/policy#article-2020-1-par-2>.
+
+<https://w3id.org/policy#article-2020-1-par-3>
+  dc:title "Proposal for amending this regulation";
+  dc:description "The report referred to in paragraph 2 shall, where appropriate, be accompanied by a proposal for amending this regulation;";
+  dctype:Paragraph;
+  a pol:Paragraph;
+  pol:hasArticle <https://w3id.org/policy#article-2020-1>.
+
+<https://w3id.org/policy#article-2020-1-par-4>
+  dc:title "Assess the feasibility of developing real-world emission test procedures using portable emission measurement systems (PEMS)";
+  dc:description "As part of the review referred to in paragraph 1 of this article, the Commission shall assess the feasibility of developing real-world emission test procedures using portable emission measurement systems (PEMS).";
+  dctype:Paragraph;
+  a pol:Paragraph;
+  pol:hasArticle <https://w3id.org/policy#article-2020-1>.
+
+<https://w3id.org/policy#article-2020-1-par-5>
+  dc:title "Evaluate the possibility to assign the revenue from the excess emissions premiums";
+  dc:description "As part of the review referred to in paragraph 1 of this article, the Commission shall evaluate the possibility to assign the revenue from the excess emissions premiums to a specific fund or a relevant programme;";
+  dctype:Paragraph;
+  a pol:Paragraph;
+  pol:hasArticle <https://w3id.org/policy#article-2020-1>.
+
+<https://w3id.org/policy#article-2020-1-par-6>
+  dc:title "Review Directive 1999/94/EC";
+  dc:description "By 31 December 2020, the Commission shall review Directive 1999/94/EC;";
+  dctype:Paragraph;
+  a pol:Paragraph;
+  pol:hasArticle <https://w3id.org/policy#article-2020-1>.

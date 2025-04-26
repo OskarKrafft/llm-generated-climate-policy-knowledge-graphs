@@ -1,0 +1,11 @@
+article 12
+effects of joint projects between member states and third countries
+1.   within 12 months of the end of each year falling within the period specified under point (c) of article 11(5), the notifying member state shall issue a letter of notification stating:
+(a)
+the total amount of electricity produced from renewable sources during that year by the installation which was the subject of the notification under article 11;
+(b)
+the amount of electricity produced from renewable sources during that year by that installation which is to count towards its renewable energy share in accordance with the terms of the notification under article 11; and
+(c)
+evidence of compliance with the conditions laid down in article 11(2).
+2.   the member state referred to in paragraph 1 shall submit the letter of notification to the commission and to the third country that has acknowledged the project in accordance with point (d) of article 11(5).
+3.   for the purposes of calculating the renewable energy shares under this directive, the amount of electricity from renewable sources notified in accordance with point (b) of paragraph 1 shall be added to the amount of energy from renewable sources that is taken into account in calculating the renewable energy shares of the member state issuing the letter of notification.

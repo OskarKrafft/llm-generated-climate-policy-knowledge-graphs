@@ -1,0 +1,4 @@
+article 1
+purpose
+the purpose of this directive is to increase energy efficiency and improve security of supply by creating a framework for promotion and development of high efficiency cogeneration of heat and power based on useful heat demand and primary energy savings in the internal energy market, taking into account the specific national circumstances especially concerning climatic and economic conditions.
+

@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "@base": "https://polianna-kg.org/Ontology#",
+    "@language": "en",
+    "@voca: https://polianna-kg.org/Ontology#",
+    "Agent": "eli:Agent",
+    "LegalResource": "eli:LegalResource",
+    "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+    "Organization": "eli:Organization",
+    "broadMatch": {
+      "@id": "skos:broadMatch",
+      "@type": "@id"
+    },
+    "closeMatch": {
+      "@id": "skos:closeMatch",
+      "@type": "@id"
+    },
+    "comment": "rdfs:comment",
+    "domain": {
+      "@id": "rdfs:domain",
+      "@type": "@id"
+    },
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "eurovoc": "http://eurovoc.europa.eu/",
+    "exactMatch": {
+      "@id": "skos:exactMatch",
+      "@type": "@id"
+    },
+    "has_part": {
+      "@id": "eli:has_part",
+      "@type": "@id"
+    },
+    "id": "@id",
+    "inScheme": {
+      "@id": "skos:inScheme",
+      "@type": "@id"
+    },
+    "is_about": {
+      "@id": "eli:is_about",
+      "@type": "@id"
+    },
+    "label": "rdfs:label",
+    "language": "@language",
+    "narrowMatch": {
+      "@id": "skos:narrowMatch",
+      "@type": "@id"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prefLabel": "skos:prefLabel",
+    "range": {
+      "@id": "rdfs:range",
+      "@type": "@id"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "relatedMatch": {
+      "@id": "skos:relatedMatch",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "subClassOf": {
+      "@id": "rdfs:subClassOf",
+      "@type": "@id"
+    },
+    "subPropertyOf": {
+      "@id": "rdfs:subPropertyOf",
+      "@type": "@id"
+    },
+    "type": "@type",
+    "value": "@value",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "id": "EU_32018R1999_Title_0_Chapter_2_Section_0_Article_14",
+      "type": "PolicyArticle",
+      "label": {
+        "value": "Article 14: Update of the Integrated National Energy and Climate Plan"
+      },
+      "specifies_compliance_time": [
+        {
+          "id": "_:complianceTime1",
+          "type": "Time_Compliance",
+          "Compliance_date": "2023-06-30",
+          "annotatedText": "by 30 June 2023"
+        },
+        {
+          "id": "_:complianceTime2",
+          "type": "Time_Compliance",
+          "Compliance_date": "2033-01-01",
+          "annotatedText": "by 1 January 2033 and every 10 years thereafter"
+        },
+        {
+          "id": "_:complianceTime3",
+          "type": "Time_Compliance",
+          "Compliance_date": "2024-06-30",
+          "annotatedText": "by 30 June 2024"
+        },
+        {
+          "id": "_:complianceTime4",
+          "type": "Time_Compliance",
+          "Compliance_date": "2034-01-01",
+          "annotatedText": "by 1 January 2034 and every 10 years thereafter"
+        }
+      ],
+      "contains_objective": {
+        "id": "Objective",
+        "type": "skos:Concept",
+        "comment": {
+          "value": "Modify national objectives, targets, or contributions to reflect increased ambition."
+        }
+      },
+      "contains_instrument": [
+        {
+          "id": "RegulatoryInstr",
+          "type": "skos:Concept",
+          "prefLabel": "Regulatory Instrument"
+        },
+        {
+          "id": "FrameworkPolicy",
+          "type": "skos:Concept",
+          "prefLabel": "Framework Policy"
+        }
+      ],
+      "addresses": {
+        "id": "Member_States",
+        "type": "Organization",
+        "label": {
+          "value": "Member States"
+        }
+      },
+      "grants_monitoring_authority": {
+        "id": "eurovoc:4038",
+        "type": "Organization",
+        "label": "European Commission"
+      },
+      "annotatedText": "Article 14: Update of the Integrated National Energy and Climate Plan"
+    }
+  ]
+}

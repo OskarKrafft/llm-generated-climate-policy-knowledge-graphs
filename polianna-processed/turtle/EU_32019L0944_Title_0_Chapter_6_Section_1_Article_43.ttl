@@ -1,0 +1,48 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_6_Section_1_Article_43 .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_1_Article_43 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 43
+ownership unbundling of transmission systems and transmission system operators
+1.   member states shall ensure that:
+(a)
+each undertaking which owns a transmission system acts as a transmission system operator;
+(b)
+the same person or persons are not entitled either:
+(i)
+directly or indirectly to exercise control over an undertaking performing any of the functions of generation or supply, and directly or indirectly to exercise control or exercise any right over a transmission system operator or over a transmission system; or
+(ii)
+directly or indirectly to exercise control over a transmission system operator or over a transmission system, and directly or indirectly to exercise control or exercise any right over an undertaking performing any of the functions of generation or supply;
+(c)
+the same person or persons are not entitled to appoint members of the supervisory board, the administrative board or bodies legally representing the undertaking, of a transmission system operator or a transmission system, and directly or indirectly to exercise control or exercise any right over an undertaking performing any of the functions of generation or supply; and
+(d)
+the same person is not entitled to be a member of the supervisory board, the administrative board or bodies legally representing the undertaking, of both an undertaking performing any of the functions of generation or supply and a transmission system operator or a transmission system.
+2.   the rights referred to in points (b) and (c) of paragraph 1 shall include, in particular:
+(a)
+the power to exercise voting rights;
+(b)
+the power to appoint members of the supervisory board, the administrative board or bodies legally representing the undertaking; or
+(c)
+the holding of a majority share.
+3.   for the purpose of point (b) of paragraph 1, the notion ‘undertaking performing any of the functions of generation or supply’ shall include ‘undertaking performing any of the functions of production and supply’ within the meaning of directive 2009/73/ec, and the terms ‘transmission system operator’ and ‘transmission system’ shall include ‘transmission system operator’ and ‘transmission system’ within the meaning of that directive.
+4.   the obligation set out in point (a) of paragraph 1 shall be deemed to be fulfilled in a situation where two or more undertakings which own transmission systems have created a joint venture which acts as a transmission system operator in two or more member states for the transmission systems concerned. no other undertaking may be part of the joint venture, unless it has been approved under article 44 as an independent system operator or as an independent transmission operator for the purposes of section 3.
+5.   for the implementation of this article, where the person referred to in points (b), (c) and (d) of paragraph 1 is the member state or another public body, two separate public bodies exercising control over a transmission system operator or over a transmission system on the one hand, and over an undertaking performing any of the functions of generation or supply on the other, shall be deemed not to be the same person or persons.
+6.   member states shall ensure that neither commercially sensitive information referred to in article 41 held by a transmission system operator which was part of a vertically integrated undertaking, nor the staff of such a transmission system operator, is transferred to undertakings performing any of the functions of generation and supply.
+7.   where on 3 september 2009, the transmission system belongs to a vertically integrated undertaking a member state may decide not to apply paragraph 1.
+in such case, the member state concerned shall either:
+(a)
+designate an independent system operator in accordance with article 44; or
+(b)
+comply with section 3.
+8.   where, on 3 september 2009, the transmission system belongs to a vertically integrated undertaking and there are arrangements in place which guarantee more effective independence of the transmission system operator than section 3, a member state may decide not to apply paragraph 1.
+9.   before an undertaking is approved and designated as a transmission system operator under paragraph 8 of this article, it shall be certified in accordance with the procedures laid down in article 52(4), (5), and (6) of this directive and in article 51 of regulation (eu) 2019/943, pursuant to which the commission shall verify that the arrangements in place clearly guarantee more effective independence of the transmission system operator than section 3 of this chapter.
+10.   vertically integrated undertakings which own a transmission system shall not in any event be prevented from taking steps to comply with paragraph 1.
+11.   undertakings performing any of the functions of generation or supply shall not in any event be able to directly or indirectly take control over or exercise any right over unbundled transmission system operators in member states which apply paragraph 1."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> .
+

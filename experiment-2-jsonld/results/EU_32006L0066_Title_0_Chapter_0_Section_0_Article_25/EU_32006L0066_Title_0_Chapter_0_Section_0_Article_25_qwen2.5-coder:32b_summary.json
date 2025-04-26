@@ -1,0 +1,54 @@
+{
+  "zero-shot": {
+    "is_valid": false,
+    "error": "Expecting value: line 1 column 1 (char 0)",
+    "extracted_content": "jsonld\n{\n  \"@context\": {\n    \"poliana\": \"http://data.europa.eu/poli/ontology/poliana#\",\n    \"eli\": \"http://data.europa.eu/eli/ontology#\"\n  },\n  \"@type\": \"poliana:Article\",\n  \"eli:title\": \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\",\n  \"eli:number\": \"32006L0066\",\n  \"eli:uri\": \"http://data.europa.eu/eli/dir/2006/66/oj\",\n  \"poliana:text\": \"penalties\\nmember states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member\u00a0states shall notify those measures to the commission by 26\u00a0september 2008 and shall inform it without delay of any subsequent amendment to them.\",\n  \"poliana:annotators\": [\n    {\n      \"@type\": \"poliana:Annotator\",\n      \"eli:name\": \"C\"\n    },\n    {\n      \"@type\": \"poliana:Annotator\",\n      \"eli:name\": \"F\"\n    }\n  ]\n}",
+    "original_output": "jsonld\n{\n  \"@context\": {\n    \"poliana\": \"http://data.europa.eu/poli/ontology/poliana#\",\n    \"eli\": \"http://data.europa.eu/eli/ontology#\"\n  },\n  \"@type\": \"poliana:Article\",\n  \"eli:title\": \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\",\n  \"eli:number\": \"32006L0066\",\n  \"eli:uri\": \"http://data.europa.eu/eli/dir/2006/66/oj\",\n  \"poliana:text\": \"penalties\\nmember states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member\u00a0states shall notify those measures to the commission by 26\u00a0september 2008 and shall inform it without delay of any subsequent amendment to them.\",\n  \"poliana:annotators\": [\n    {\n      \"@type\": \"poliana:Annotator\",\n      \"eli:name\": \"C\"\n    },\n    {\n      \"@type\": \"poliana:Annotator\",\n      \"eli:name\": \"F\"\n    }\n  ]\n}",
+    "generation_time": 14.152829885482788,
+    "output": "jsonld\n{\n  \"@context\": {\n    \"poliana\": \"http://data.europa.eu/poli/ontology/poliana#\",\n    \"eli\": \"http://data.europa.eu/eli/ontology#\"\n  },\n  \"@type\": \"poliana:Article\",\n  \"eli:title\": \"EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25\",\n  \"eli:number\": \"32006L0066\",\n  \"eli:uri\": \"http://data.europa.eu/eli/dir/2006/66/oj\",\n  \"poliana:text\": \"penalties\\nmember states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. the penalties provided for must be effective, proportionate and dissuasive. member\u00a0states shall notify those measures to the commission by 26\u00a0september 2008 and shall inform it without delay of any subsequent amendment to them.\",\n  \"poliana:annotators\": [\n    {\n      \"@type\": \"poliana:Annotator\",\n      \"eli:name\": \"C\"\n    },\n    {\n      \"@type\": \"poliana:Annotator\",\n      \"eli:name\": \"F\"\n    }\n  ]\n}",
+    "success": false,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+        "CELEX_Number": "32006L0066",
+        "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "json-ld",
+      "model": "qwen2.5-coder:32b",
+      "timestamp": "2025-04-21T19:58:11.371607"
+    },
+    "total_processing_time": 14.156241655349731,
+    "triple_count": 0
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "{\n  \"@context\": {\n    \"eli\": \"http://data.europa.eu/eli/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"eurovoc\": \"http://eurovoc.europa.eu/schema#\",\n    \"PoliannaInstrumentScheme\": \"#PoliannaInstrumentScheme\",\n    \"PoliannaMonitoringScheme\": \"#PoliannaMonitoringScheme\",\n    \"PoliannaComplianceScheme\": \"#PoliannaComplianceScheme\",\n    \"PoliannaObjectiveScheme\": \"#PoliannaObjectiveScheme\",\n    \"PoliannaTimeScheme\": \"#PoliannaTimeScheme\"\n  },\n  \"@id\": \"http://data.europa.eu/eli/dir/2006/66/oj#article_25\",\n  \"@type\": \"eli:Article\",\n  \"eli:title\": \"penalties\",\n  \"eli:number\": \"25\",\n  \"eli:has_part\": [\n    {\n      \"@id\": \"#section1\",\n      \"@type\": \"eli:Section\",\n      \"eli:text\": \"Member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive.\",\n      \"contains_instrument\": {\n        \"@id\": \"#RegulatoryInstr\",\n        \"@type\": \"skos:Concept\",\n        \"skos:prefLabel\": \"Regulatory Instrument\",\n        \"inScheme\": \"PoliannaInstrumentScheme\"\n      },\n      \"specifies_compliance_time\": {\n        \"@id\": \"#complianceTime1\",\n        \"@type\": \"Time_Compliance\",\n        \"Compliance_date\": {\n          \"@value\": \"2008-09-26\",\n          \"@type\": \"xsd:date\"\n        }\n      },\n      \"specifies_monitoring_time\": {\n        \"@id\": \"#monitoringTime1\",\n        \"@type\": \"Time_Monitoring\",\n        \"Monitoring_frequency\": \"without delay on subsequent amendments\"\n      }\n    }\n  ]\n}",
+    "original_output": "```jsonld\n{\n  \"@context\": {\n    \"eli\": \"http://data.europa.eu/eli/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"eurovoc\": \"http://eurovoc.europa.eu/schema#\",\n    \"PoliannaInstrumentScheme\": \"#PoliannaInstrumentScheme\",\n    \"PoliannaMonitoringScheme\": \"#PoliannaMonitoringScheme\",\n    \"PoliannaComplianceScheme\": \"#PoliannaComplianceScheme\",\n    \"PoliannaObjectiveScheme\": \"#PoliannaObjectiveScheme\",\n    \"PoliannaTimeScheme\": \"#PoliannaTimeScheme\"\n  },\n  \"@id\": \"http://data.europa.eu/eli/dir/2006/66/oj#article_25\",\n  \"@type\": \"eli:Article\",\n  \"eli:title\": \"penalties\",\n  \"eli:number\": \"25\",\n  \"eli:has_part\": [\n    {\n      \"@id\": \"#section1\",\n      \"@type\": \"eli:Section\",\n      \"eli:text\": \"Member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive.\",\n      \"contains_instrument\": {\n        \"@id\": \"#RegulatoryInstr\",\n        \"@type\": \"skos:Concept\",\n        \"skos:prefLabel\": \"Regulatory Instrument\",\n        \"inScheme\": \"PoliannaInstrumentScheme\"\n      },\n      \"specifies_compliance_time\": {\n        \"@id\": \"#complianceTime1\",\n        \"@type\": \"Time_Compliance\",\n        \"Compliance_date\": {\n          \"@value\": \"2008-09-26\",\n          \"@type\": \"xsd:date\"\n        }\n      },\n      \"specifies_monitoring_time\": {\n        \"@id\": \"#monitoringTime1\",\n        \"@type\": \"Time_Monitoring\",\n        \"Monitoring_frequency\": \"without delay on subsequent amendments\"\n      }\n    }\n  ]\n}\n```",
+    "generation_time": 26.066885709762573,
+    "output": "```jsonld\n{\n  \"@context\": {\n    \"eli\": \"http://data.europa.eu/eli/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"eurovoc\": \"http://eurovoc.europa.eu/schema#\",\n    \"PoliannaInstrumentScheme\": \"#PoliannaInstrumentScheme\",\n    \"PoliannaMonitoringScheme\": \"#PoliannaMonitoringScheme\",\n    \"PoliannaComplianceScheme\": \"#PoliannaComplianceScheme\",\n    \"PoliannaObjectiveScheme\": \"#PoliannaObjectiveScheme\",\n    \"PoliannaTimeScheme\": \"#PoliannaTimeScheme\"\n  },\n  \"@id\": \"http://data.europa.eu/eli/dir/2006/66/oj#article_25\",\n  \"@type\": \"eli:Article\",\n  \"eli:title\": \"penalties\",\n  \"eli:number\": \"25\",\n  \"eli:has_part\": [\n    {\n      \"@id\": \"#section1\",\n      \"@type\": \"eli:Section\",\n      \"eli:text\": \"Member states shall lay down rules on penalties applicable to infringements of national provisions adopted pursuant to this directive and shall take all necessary measures to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive.\",\n      \"contains_instrument\": {\n        \"@id\": \"#RegulatoryInstr\",\n        \"@type\": \"skos:Concept\",\n        \"skos:prefLabel\": \"Regulatory Instrument\",\n        \"inScheme\": \"PoliannaInstrumentScheme\"\n      },\n      \"specifies_compliance_time\": {\n        \"@id\": \"#complianceTime1\",\n        \"@type\": \"Time_Compliance\",\n        \"Compliance_date\": {\n          \"@value\": \"2008-09-26\",\n          \"@type\": \"xsd:date\"\n        }\n      },\n      \"specifies_monitoring_time\": {\n        \"@id\": \"#monitoringTime1\",\n        \"@type\": \"Time_Monitoring\",\n        \"Monitoring_frequency\": \"without delay on subsequent amendments\"\n      }\n    }\n  ]\n}\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25",
+        "CELEX_Number": "32006L0066",
+        "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+        "Annotators": [
+          "C",
+          "F"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "json-ld",
+      "model": "qwen2.5-coder:32b",
+      "timestamp": "2025-04-21T19:58:37.444240"
+    },
+    "total_processing_time": 26.074084758758545,
+    "triple_count": 6
+  }
+}

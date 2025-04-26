@@ -1,0 +1,19 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_52 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_52 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 52
+amendment to council directive 2009/119/ec
+in article 6 of directive 2009/119/ec, paragraph 2 is replaced by the following:
+‘2.   by 15 march each year, each member state shall send the commission a summary copy of the stock register referred to in paragraph 1 showing at least the quantities and nature of the emergency stocks included in the register on the last day of the preceding calendar year.’."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_52_TimeMonitoring_1 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_52_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "15 march each year" .
+

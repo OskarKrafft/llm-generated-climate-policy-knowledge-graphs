@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "poliana": "http://data.europa.eu/polianna/",
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "poliana:LegalActArticle",
+  "dct:title": "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37",
+  "eli:hasIdentifier": {
+    "@type": "eli:Identifier",
+    "eli:schemeName": "CELEX",
+    "eli:keyValue": "32018R1999"
+  },
+  "eli:isRealizedBy": [
+    {
+      "@type": "eli:Expression",
+      "dct:title": "EU_32018R1999_Title_0_Chapter_6_Section_3_Article_37",
+      "eli:hasIdentifier": {
+        "@type": "eli:Identifier",
+        "eli:schemeName": "ELI",
+        "eli:keyValue": "http://data.europa.eu/eli/reg/2018/1999/oj"
+      },
+      "poliana:hasAnnotator": [
+        {
+          "@type": "poliana:Person",
+          "dct:title": "A"
+        },
+        {
+          "@type": "poliana:Person",
+          "dct:title": "C"
+        }
+      ],
+      "poliana:hasParagraph": [
+        {
+          "@type": "poliana:LegalActParagraph",
+          "dct:title": "1",
+          "dct:description": "By 1 January 2021, Member States shall establish, operate and seek to continuously improve national inventory systems to estimate anthropogenic emissions by sources and removals by sinks of greenhouse gases listed in Part 2 of Annex V and to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of their greenhouse gas inventories."
+        },
+        {
+          "@type": "poliana:LegalActParagraph",
+          "dct:title": "2",
+          "dct:description": "Member States shall ensure that their competent inventory authorities have access to the information specified in Annex XII to this Regulation, make use of reporting systems established pursuant to Article 20 of Regulation (EU) No 517/2014 to improve the estimate of fluorinated gases in the national greenhouse gas inventories and are able to undertake the annual consistency checks referred to in points (i) and (j) of Part 1 of Annex V to this Regulation."
+        },
+        {
+          "@type": "poliana:LegalActParagraph",
+          "dct:title": "3",
+          "dct:description": "A Union inventory system to ensure the timeliness, transparency, accuracy, consistency, comparability and completeness of national inventories with regard to the Union greenhouse gas inventory is hereby established. The Commission shall manage, maintain and seek to continuously improve that system which shall include the setting of a quality assurance and quality control programme, setting quality objectives and drafting an inventory quality assurance and quality control plan, procedures for completing emission estimates to compile the Union inventory pursuant to paragraph 5 of this Article and the reviews referred to in Article 38."
+        },
+        {
+          "@type": "poliana:LegalActParagraph",
+          "dct:title": "4",
+          "dct:description": "The Commission shall perform an initial check of the accuracy of the preliminary greenhouse gas inventory data to be submitted by Member States pursuant to Article 26(3). It shall send the results of that check to Member States within six weeks of the submission deadline. Member States shall respond to any relevant questions raised by the initial check by 15 March, together with the final inventory submission for the year x-2."
+        },
+        {
+          "@type": "poliana:LegalActParagraph",
+          "dct:title": "5",
+          "dct:description": "Where a Member State does not submit the inventory data required to compile the Union inventory by 15 March, the Commission may prepare estimates to complete the data submitted by the Member State, in consultation and close cooperation with the Member State concerned. The Commission shall use, for that purpose, the guidelines applicable for preparing the national greenhouse gas inventories."
+        },
+        {
+          "@type": "poliana:LegalActParagraph",
+          "dct:title": "6",
+          "dct:description": "The Commission, assisted by the Climate Change Committee referred to in point (a) of Article 44(1), shall adopt implementing acts in order to set out rules on the structure, format and submission process of the information relating to national inventory systems and requirements on the establishment, operation and functioning of national inventory systems. In proposing such implementing acts, the Commission shall take into account any relevant decisions adopted by the bodies of the UNFCCC or of the Paris Agreement. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 44(6)."
+        },
+        {
+          "@type": "poliana:LegalActParagraph",
+          "dct:title": "7",
+          "dct:description": "The Commission shall adopt delegated acts in accordance with Article 43 in order to supplement this Regulation by setting out rules concerning the requirements on the establishment, operation and functioning of the Union inventory system. In proposing such delegated acts, the Commission shall take into account any relevant decisions adopted by the bodies of the UNFCCC or of the Paris Agreement."
+        }
+      ]
+    }
+  ]
+}

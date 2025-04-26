@@ -1,0 +1,17 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_5_Section_0_Article_42 .
+
+pol:EU_32019L0944_Title_0_Chapter_5_Section_0_Article_42 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 42
+decision-making powers regarding the connection of new generating installations and energy storage facilities to the transmission system
+1.   the transmission system operator shall establish and publish transparent and efficient procedures for non-discriminatory connection of new generating installations and energy storage facilities to the transmission system. those procedures shall be subject to approval by the regulatory authorities.
+2.   the transmission system operator shall not be entitled to refuse the connection of a new generating installation or energy storage facility on the grounds of possible future limitations to available network capacities, such as congestion in distant parts of the transmission system. the transmission system operator shall supply necessary information.
+the first subparagraph shall be without prejudice to the possibility for transmission system operators to limit the guaranteed connection capacity or to offer connections subject to operational limitations, in order to ensure economic efficiency regarding new generating installations or energy storage facilities, provided that such limitations have been approved by the regulatory authority. the regulatory authority shall ensure that any limitations in guaranteed connection capacity or operational limitations are introduced on the basis of transparent and non-discriminatory procedures and do not create undue barriers to market entry. where the generating installation or energy storage facility bears the costs related to ensuring unlimited connection, no limitation shall apply.
+3.   the transmission system operator shall not be entitled to refuse a new connection point, on the ground that it would lead to additional costs resulting from the necessary capacity increase of system elements in the close-up range to the connection point."""^^xsd:string .
+

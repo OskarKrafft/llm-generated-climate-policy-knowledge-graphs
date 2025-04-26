@@ -1,0 +1,9 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_16 .
+
+pol:EU_32006L0032_Title_0_Chapter_4_Section_0_Article_16 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038>,
+        <http://eurovoc.europa.eu/6049> .
+

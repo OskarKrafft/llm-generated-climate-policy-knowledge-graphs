@@ -1,0 +1,14 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_11 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:authorises pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:fullText """article 11
+removal of waste batteries and accumulators
+member states shall ensure that manufacturers design appliances in such a way that waste batteries and accumulators can be readily removed. appliances into which batteries and accumulators are incorporated shall be accompanied by instructions showing how they can be removed safely and, where appropriate, informing the end-user of the type of the incorporated batteries and accumulators. these provisions shall not apply where, for safety, performance, medical or data integrity reasons, continuity of power supply is necessary and requires a permanent connection between the appliance and the battery or accumulator."""^^xsd:string .
+

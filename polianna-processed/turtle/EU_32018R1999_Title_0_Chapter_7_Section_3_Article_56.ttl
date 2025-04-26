@@ -1,0 +1,42 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_56 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_56 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 56
+amendments to directive (eu) 2015/652
+directive (eu) 2015/652 is amended as follows:
+(1)
+in article 5, paragraph 1 is replaced by the following:
+‘1.   each year by 31 december member states shall provide the commission with data for the preceding calendar year related to compliance with article 7a of directive 98/70/ec, as defined in annex iii to this directive.’;
+(2)
+in annex i, part 2, points 1(h), 2, 3, 4 and 7 are deleted.
+(3)
+annex iii is amended as follows:
+(a)
+point 1 is replaced by the following:
+‘1.
+(b)
+in point 3, points (e) and (f) are deleted;
+(4)
+annex iv is amended as follows:
+(a)
+the following templates for reporting information for consistency of the reported data are deleted:
+—
+origin — single suppliers
+—
+origin — joint suppliers
+—
+place of purchase;
+(b)
+in the format notes, points 8 and 9 are deleted."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_56_TimeMonitoring_1 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_56_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "each year by 31 december" .
+

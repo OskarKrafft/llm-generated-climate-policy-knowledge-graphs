@@ -1,0 +1,22 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4060>,
+        pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 1
+subject matter
+this directive establishes a common framework for the promotion of energy from renewable sources. it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030. it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training. it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels."""^^xsd:string ;
+    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01_TimeCompliance_1 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+

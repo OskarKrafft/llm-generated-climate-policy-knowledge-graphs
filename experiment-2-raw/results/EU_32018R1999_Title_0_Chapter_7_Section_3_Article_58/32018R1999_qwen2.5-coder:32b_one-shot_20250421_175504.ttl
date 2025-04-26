@@ -1,0 +1,24 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_Article_58 a <http://data.europa.eu/eli/reg/2018/1999/oj#Article_58> ;
+    pol:annotatedBy pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_A,
+        pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_C ;
+    pol:appliesTo <http://data.europa.eu/eli/reg/2013/525/oj#Kyoto_Protocol_Second_Commitment_Period>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Report_2018>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Report_2019>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Report_2020>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Report_Submission>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Review_2018>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Review_2019>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Review_2020> ;
+    pol:derogatesFrom <http://data.europa.eu/eli/reg/2013/525/oj#Article_11(3)>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Article_17(1)(a)>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Article_17(1)(d)>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Article_19>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Article_22>,
+        <http://data.europa.eu/eli/reg/2013/525/oj#Article_7>,
+        <http://data.europa.eu/eli/reg/2018/1999/oj#Article_57> ;
+    pol:hasCELEXNumber pol:32018R1999 ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    pol:hasTitle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58_EU_32018R1999_Title_0_Chapter_7_Section_3_Article_58 .
+

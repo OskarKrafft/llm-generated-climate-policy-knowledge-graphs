@@ -1,0 +1,341 @@
+{
+    "@context": {
+        "@base": "https://polianna-kg.org/Ontology#",
+        "@language": "en",
+        "@vocab": "https://polianna-kg.org/Ontology#",
+        "Agent": "eli:Agent",
+        "LegalResource": "eli:LegalResource",
+        "LegalResourceSubdivision": "eli:LegalResourceSubdivision",
+        "Organization": "eli:Organization",
+        "broadMatch": {
+            "@id": "skos:broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "skos:closeMatch",
+            "@type": "@id"
+        },
+        "comment": "rdfs:comment",
+        "domain": {
+            "@id": "rdfs:domain",
+            "@type": "@id"
+        },
+        "eli": "http://data.europa.eu/eli/ontology#",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "exactMatch": {
+            "@id": "skos:exactMatch",
+            "@type": "@id"
+        },
+        "has_part": {
+            "@id": "eli:has_part",
+            "@type": "@id"
+        },
+        "id": "@id",
+        "inScheme": {
+            "@id": "skos:inScheme",
+            "@type": "@id"
+        },
+        "is_about": {
+            "@id": "eli:is_about",
+            "@type": "@id"
+        },
+        "label": "rdfs:label",
+        "language": "@language",
+        "narrowMatch": {
+            "@id": "skos:narrowMatch",
+            "@type": "@id"
+        },
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prefLabel": "skos:prefLabel",
+        "range": {
+            "@id": "rdfs:range",
+            "@type": "@id"
+        },
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "relatedMatch": {
+            "@id": "skos:relatedMatch",
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "subClassOf": {
+            "@id": "rdfs:subClassOf",
+            "@type": "@id"
+        },
+        "subPropertyOf": {
+            "@id": "rdfs:subPropertyOf",
+            "@type": "@id"
+        },
+        "type": "@type",
+        "value": "@value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "annotatedText": {
+                "value": "2022, 2025 and 2027"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_15",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "2022"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_12",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "2022, 2025 and 2027"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_5",
+            "type": "Time_Monitoring"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2030-01-01"
+            },
+            "annotatedText": {
+                "value": "2030"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_2",
+            "type": "Time_Compliance"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2026-01-01"
+            },
+            "annotatedText": {
+                "value": "2026"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_18",
+            "type": "Time_Compliance"
+        },
+        {
+            "annotatedText": {
+                "value": "2025"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_13",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "within one year"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_11",
+            "type": "Time_Compliance"
+        },
+        {
+            "annotatedText": {
+                "value": "over a one-year period"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_9",
+            "type": "Time_Monitoring"
+        },
+        {
+            "annotatedText": {
+                "value": "within one year following the date of reception"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeInEffect_6",
+            "type": "Time_InEffect"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2021-01-01"
+            },
+            "annotatedText": {
+                "value": "1\u00a0january 2021"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_7",
+            "type": "Time_Compliance"
+        },
+        {
+            "hasArticle": {
+                "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32"
+            },
+            "id": "32018R1999",
+            "type": "PolicyDocument"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2030-01-01"
+            },
+            "annotatedText": {
+                "value": "2030"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_3",
+            "type": "Time_Compliance"
+        },
+        {
+            "annotatedText": {
+                "value": "2025"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_17",
+            "type": "Time_Monitoring"
+        },
+        {
+            "addresses": {
+                "id": "Member_States"
+            },
+            "authorises": {
+                "id": "eurovoc:4038"
+            },
+            "contains_instrument": [
+                {
+                    "id": "FrameworkPolicy"
+                },
+                {
+                    "id": "VoluntaryAgrmt"
+                }
+            ],
+            "contains_monitoring_form": {
+                "id": "Form_monitoring"
+            },
+            "contains_objective": {
+                "id": "Objective"
+            },
+            "contains_sanctioning_form": {
+                "id": "Form_sanctioning"
+            },
+            "fullText": "article 32\nresponse to insufficient progress towards the union's energy and climate objectives and targets\n1.\u00a0\u00a0\u00a0where, on the basis of its assessment pursuant to point (b) of article 29(1), the commission concludes that insufficient progress is made by a member state towards meeting its objectives, targets and contributions, its reference points for renewable energy, or in implementing the policies and measures set out in its integrated national climate and energy plan, it shall issue recommendations to the member state concerned pursuant to article 34.\nin its recommendations in the area of renewable energy, the commission shall take into consideration the relevant circumstances indicated by the member state in accordance with the second subparagraph of article 5(1). the commission shall also take into consideration renewable energy projects for which a final investment decision has been taken, provided that those projects become operational in the period 2021 to 2030 and have a significant impact on a member state's national contribution.\nin its recommendations in the area of energy efficiency, the commission shall take due account of the objective criteria listed in points (a) and (b) of article 6(1) and the relevant national circumstances indicated by the member state in accordance with article 6(2).\n2.\u00a0\u00a0\u00a0where, on the basis of its aggregate assessment of member states' integrated national energy and climate progress reports pursuant to point (a) of article 29(1), and supported by other information sources, as appropriate, the commission concludes that the union is at risk of not meeting the objectives of the energy union and, in particular, for the first ten-year period, the targets of the union's 2030 framework for climate and energy, it may issue recommendations to all member states pursuant to article 34 to mitigate such a risk.\nin the area of renewable energy, the commission shall assess if the national measures provided for in paragraph 3 are sufficient to achieve the union's renewable energy targets.\u00a0in the case of insufficient national measures, the commission shall, as appropriate, propose measures and exercise its power at union level in addition to those recommendations in order to ensure, in particular, the achievement of the union's 2030 target for renewable energy.\nin the area of energy efficiency, the commission shall as appropriate, propose measures and exercise its powers at union level in addition to those recommendations in order to ensure, in particular, the achievement of the union's 2030 target for energy efficiency.\nin the area of energy efficiency, such additional measures may in particular improve the energy efficiency of:\n(a)\nproducts, pursuant to directive 2009/125/ec of the european parliament and of the council\u00a0(34) and regulation (eu) 2017/1369 of the european parliament and of the council\u00a0(35);\n(b)\nbuildings, pursuant to directives 2010/31/eu and 2012/27/eu; and\n(c)\ntransport.\n3.\u00a0\u00a0\u00a0where, in the area of renewable energy the commission concludes, based on its assessment pursuant to article\u00a029(1) and (2), that one or more of the reference points of the indicative union trajectory in 2022, 2025 and\u00a02027 referred to in article 29(2) were not met, member states that have fallen below one or more of their national reference points in 2022, 2025 and 2027 as referred to in point (a)(2) of article 4 shall ensure that additional measures are implemented within one year following the date of reception of the commission's assessment in order to cover the gap compared to their national reference point, such as:\n(a)\nnational measures to increase deployment of renewable energy;\n(b)\nadjusting the share of renewable energy in the heating and cooling sector set out in article 23(1) of directive (eu) 2018/2001;\n(c)\nadjusting the share of renewable energy in the transport sector set out in article\u00a025(1) of directive (eu) 2018/2001;\n(d)\nmaking a voluntary financial payment to the union renewable energy financing mechanism set up at union level, contributing to renewable energy projects and managed directly or indirectly by the commission as set out in article 33;\n(e)\nusing cooperation mechanisms set out in directive (eu) 2018/2001.\nsuch measures shall take into account the commission's considerations as set out in the second subparagraph of paragraph 1 of this article. the member states concerned shall include those measures as part of their integrated national energy and climate progress report.\n4.\u00a0\u00a0\u00a0from 1\u00a0january 2021 onwards, the share of energy from renewable sources in each member state's gross final consumption of energy shall not be lower than a baseline share that is equal to its mandatory national overall target for the share of energy from renewable sources in 2020 set out in article 3(4) of directive (eu) 2018/2001. if a member state does not maintain its baseline share as measured over a one-year period, the member state concerned shall take, within one year, additional measures such as those as set out in points (a) to (e) of the first subparagraph of paragraph 3 of this article sufficient to cover the gap within one year.\nmember states fulfilling the obligation to cover the gap to the baseline shall be deemed to be in compliance with the obligations set out in the first sentence of the first\u00a0subparagraph of this paragraph and in article 3(4) of directive (eu) 2018/2001 throughout the period where the gap occurred.\nfor the purposes of point (d) of the first subparagraph of paragraph 3 of this article, member states may use their revenues from annual emission allowances under directive\u00a02003/87/ec.\n5.\u00a0\u00a0\u00a0where a member state's share of energy from renewable sources falls below one or more of its national reference points in 2022, 2025 and 2027 as referred to in point (a)(2) of article 4, it shall include in the next integrated report submitted to the commission pursuant to article 17 an explanation of how it will cover the gap compared to its national reference points.\n6.\u00a0\u00a0\u00a0where, in the area of energy efficiency, without prejudice to other measures at union level pursuant to the third subparagraph of paragraph 2 of this article, the commission concludes, based on its assessment pursuant to article\u00a029(1) and (3), carried out by the years 2022, 2025 and 2027 that progress towards collectively achieving the union's energy efficiency targets referred to in the first subparagraph of article 29(3) is insufficient, it shall propose measures and exercise its power at union level in addition to those set out in directive 2010/31/eu and directive 2012/27/eu to ensure that the union's 2030 energy efficiency targets are met.\n7.\u00a0\u00a0\u00a0each member state concerned referred to in paragraph 3 of this article shall detail the additional implemented, adopted and planned measures as part of its following progress report referred to in article 17.\n8.\u00a0\u00a0\u00a0where, in the area of interconnections, the commission concludes, based on its assessment pursuant to article\u00a029(1) and (4), in the year 2025 that progress is insufficient, the commission shall cooperate with the member states concerned by the year 2026 with the aim of addressing the circumstances encountered.",
+            "grants_legislative_authority": [
+                {
+                    "id": "eurovoc:114"
+                },
+                {
+                    "id": "eurovoc:2243"
+                }
+            ],
+            "grants_monitoring_authority": {
+                "id": "eurovoc:4038"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32",
+            "imposes_monitoring": [
+                {
+                    "id": "eurovoc:4060"
+                },
+                {
+                    "id": "Member_States"
+                }
+            ],
+            "specifies_compliance_time": [
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_1"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_10"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_11"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_16"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_18"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_2"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_3"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_7"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_8"
+                }
+            ],
+            "specifies_in_effect_time": {
+                "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeInEffect_6"
+            },
+            "specifies_monitoring_time": [
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_12"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_13"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_14"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_15"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_17"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_4"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_5"
+                },
+                {
+                    "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_9"
+                }
+            ],
+            "type": "PolicyArticle"
+        },
+        {
+            "annotatedText": {
+                "value": "within one year"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_10",
+            "type": "Time_Compliance"
+        },
+        {
+            "annotatedText": {
+                "value": "2027"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_14",
+            "type": "Time_Monitoring"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2030-01-01"
+            },
+            "annotatedText": {
+                "value": "2030"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_16",
+            "type": "Time_Compliance"
+        },
+        {
+            "annotatedText": {
+                "value": "2022, 2025 and\u00a02027"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeMonitoring_4",
+            "type": "Time_Monitoring"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2020-01-01"
+            },
+            "annotatedText": {
+                "value": "2020"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_8",
+            "type": "Time_Compliance"
+        },
+        {
+            "Compliance_date": {
+                "type": "xsd:date",
+                "value": "2030-01-01"
+            },
+            "annotatedText": {
+                "value": "2030"
+            },
+            "id": "EU_32018R1999_Title_0_Chapter_5_Section_3_Article_32_TimeCompliance_1",
+            "type": "Time_Compliance"
+        }
+    ]
+}

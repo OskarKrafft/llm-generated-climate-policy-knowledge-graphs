@@ -1,0 +1,20 @@
+article 19
+inventory review
+1.   the commission shall carry out a comprehensive review of the national inventory data submitted by member states pursuant to article 7(4) of this regulation to determine the annual emission allocation provided in the fourth subparagraph of article 3(2) of decision no 406/2009/ec, for the application of articles 20 and 27 of this regulation and with a view to monitoring member states’ achievement of their greenhouse gas emission reduction or limitation targets pursuant to articles 3 and 7 of decision no 406/2009/ec in the years when a comprehensive review is carried out.
+2.   starting with the data reported for the year 2013, the commission shall conduct an annual review of the national inventory data submitted by member states pursuant to article 7(1) of this regulation that are relevant to monitor member states’ greenhouse gas emission reduction or limitation pursuant to articles 3 and 7 of decision no 406/2009/ec, and any other greenhouse gas emission reduction or limitation targets set out in union legislation. member states shall participate fully in that process.
+3.   the comprehensive review referred to in paragraph 1 shall involve:
+(a)
+checks to verify the transparency, accuracy, consistency, comparability and completeness of information submitted;
+(b)
+checks to identify cases where inventory data is prepared in a manner which is inconsistent with unfccc guidance documentation or union rules; and
+(c)
+where appropriate, calculating the resulting technical corrections necessary, in consultation with the member states.
+4.   the annual reviews shall involve the checks set out in point (a) of paragraph 3. where requested by a member state in consultation with the commission or where those checks identify significant issues, such as:
+(a)
+recommendations from earlier union or unfccc reviews which have not been implemented, or questions that have not been explained by a member state; or
+(b)
+overestimations or underestimations relating to a key category in a member state’s inventory,
+the annual review for the member state concerned shall also involve the checks set out in point (b) of paragraph 3 in order for the calculations set out in point (c) of paragraph 3 to be carried out.
+5.   the commission shall adopt implementing acts to determine the timing and steps for the conduct of the comprehensive review and annual review referred to in paragraphs 1 and 2 respectively of this article, including the tasks set out in paragraphs 3 and 4 of this article and ensuring due consultation of the member states with regard to the conclusions of the reviews. those implementing acts shall be adopted in accordance with the examination procedure referred to in article 26(2).
+6.   the commission shall, by means of an implementing act, determine the total sum of emissions for the relevant year arising from the corrected inventory data for each member state upon completion of the relevant review.
+7.   the data for each member state as recorded in the registries set up pursuant to article 11 of decision no 406/2009/ec and article 19 of directive 2003/87/ec as at the date falling four months from the date of publication of an implementing act adopted pursuant to paragraph 6 of this article, shall be relevant for the application of article 7(1) of decision no 406/2009/ec. this includes changes to such data arising as a result of that member state making use of the flexibilities by that member state pursuant to articles 3 and 5 of decision no 406/2009/ec.

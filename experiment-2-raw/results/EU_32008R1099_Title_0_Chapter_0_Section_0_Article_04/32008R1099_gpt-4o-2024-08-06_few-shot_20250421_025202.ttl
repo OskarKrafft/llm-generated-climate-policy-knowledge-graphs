@@ -1,0 +1,22 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32008R1099 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a pol:PolicyArticle ;
+    pol:authorises eurovoc:4038 ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "annual, for the energy statistics in annex b" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "monthly, for the energy statistics in annex c" .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "short-term monthly, for the energy statistics in annex d" .
+

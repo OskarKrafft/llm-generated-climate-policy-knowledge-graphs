@@ -1,0 +1,117 @@
+[
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_5"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_4",
+    "p": "annotatedText",
+    "o": "every two years"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "imposes_monitoring",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "1 january 2015 and every two years thereafter"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_5",
+    "p": "annotatedText",
+    "o": "31 july of the reporting year"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_5",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "reporting year"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_4"
+  },
+  {
+    "s": "32014R0256",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_3"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_4",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "32014R0256",
+    "p": "hasArticle",
+    "o": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03_TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "2015"
+  },
+  {
+    "s": "EU_32014R0256_Title_0_Chapter_0_Section_0_Article_03",
+    "p": "contains_instrument",
+    "o": "FrameworkPolicy"
+  }
+]

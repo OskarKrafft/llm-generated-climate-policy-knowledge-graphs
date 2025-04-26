@@ -1,0 +1,9 @@
+article 9
+renewable energy statistics and final energy consumption statistics
+1.   with a view to improving the quality of renewable energy and final energy consumption statistics, the commission (eurostat), in collaboration with the member states, shall make sure that these statistics are comparable, transparent, detailed and flexible by:
+(a)
+reviewing the methodology used to generate renewable energy statistics in order to make available additional, pertinent, detailed statistics on each renewable energy source, annually and in a cost-effective manner. the commission (eurostat) shall present and disseminate the statistics generated from 2010 (reference year) onwards;
+(b)
+reviewing and determining the methodology used at national and community level to generate final energy consumption statistics (sources, variables, quality, costs) based on the current situation, existing studies and feasibility pilot studies, as well as cost-benefit analyses yet to be conducted, and evaluating the findings of the pilot studies and cost-benefit analyses with a view to establishing breakdown keys for final energies by sector and main energy uses and gradually integrating the resulting elements into the statistics from 2012 (reference year) onwards.
+2.   the set of renewable energy statistics may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).
+3.   the set of final energy consumption statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article 11(2).

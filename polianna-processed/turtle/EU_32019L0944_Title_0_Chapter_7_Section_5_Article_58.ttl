@@ -1,0 +1,30 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_58 .
+
+pol:EU_32019L0944_Title_0_Chapter_7_Section_5_Article_58 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 58
+general objectives of the regulatory authority
+in carrying out the regulatory tasks specified in this directive, the regulatory authority shall take all reasonable measures in pursuit of the following objectives within the framework of its duties and powers as laid down in article 59, in close consultation with other relevant national authorities, including competition authorities, as well as authorities, including regulatory authorities, from neighbouring member states and neighbouring third countries, as appropriate, and without prejudice to their competence:
+(a)
+promoting, in close cooperation with regulatory authorities of other member states, the commission and acer, a competitive, flexible, secure and environmentally sustainable internal market for electricity within the union, and effective market opening for all customers and suppliers in the union, and ensuring appropriate conditions for the effective and reliable operation of electricity networks, taking into account long-term objectives;
+(b)
+developing competitive and properly functioning regional cross-border markets within the union with a view to achieving the objectives referred to in point (a);
+(c)
+eliminating restrictions on trade in electricity between member states, including developing appropriate cross-border transmission capacities to meet demand and enhancing the integration of national markets which may facilitate electricity flows across the union;
+(d)
+helping to achieve, in the most cost-effective way, the development of secure, reliable and efficient non-discriminatory systems that are consumer-oriented, and promoting system adequacy and, in accordance with general energy policy objectives, energy efficiency, as well as the integration of large and small-scale production of electricity from renewable sources and distributed generation in both transmission and distribution networks, and facilitating their operation in relation to other energy networks of gas or heat;
+(e)
+facilitating access to the network for new generation capacity and energy storage facilities, in particular removing barriers that could prevent access for new market entrants and of electricity from renewable sources;
+(f)
+ensuring that system operators and system users are granted appropriate incentives, in both the short and the long term, to increase efficiencies, especially energy efficiency, in system performance and to foster market integration;
+(g)
+ensuring that customers benefit through the efficient functioning of their national market, promoting effective competition and helping to ensure a high level of consumer protection, in close cooperation with relevant consumer protection authorities;
+(h)
+helping to achieve high standards of universal service and of public service in electricity supply, contributing to the protection of vulnerable customers and contributing to the compatibility of necessary data exchange processes for customer switching."""^^xsd:string .
+

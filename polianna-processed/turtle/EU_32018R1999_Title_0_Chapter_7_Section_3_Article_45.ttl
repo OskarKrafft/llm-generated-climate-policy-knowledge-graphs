@@ -1,0 +1,25 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_45 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_45 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 45
+review
+the commission shall report to the european parliament and to the council within six months of each global stocktake agreed under article 14 of the paris agreement on the operation of this regulation, its contribution to governance of the energy union, its contribution to the long-term goals of the paris agreement, progress towards the achievement of the 2030 climate and energy targets, additional energy union objectives and the conformity of the planning, reporting and monitoring provisions laid down in this regulation with other union law or decisions relating to the unfccc and the paris agreement. the commission reports may be accompanied by legislative proposals where appropriate."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_compliance_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_45_TimeCompliance_2 ;
+    pol:specifies_monitoring_time pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_45_TimeMonitoring_1 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_45_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_45_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "within six months of each global stocktake agreed under article 14 of the paris agreement" .
+

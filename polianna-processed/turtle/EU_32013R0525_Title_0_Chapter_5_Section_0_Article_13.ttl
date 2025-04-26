@@ -1,0 +1,60 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_13 .
+
+pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_13 a pol:PolicyArticle ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 13
+reporting on policies and measures
+1.   by 15 march 2015, and every two years thereafter, member states shall provide the commission with the following:
+(a)
+a description of their national system for reporting on policies and measures, or groups of measures, and for reporting on projections of anthropogenic greenhouse gas emissions by sources and removals by sinks pursuant to article 12(1), where such description has not already been provided, or information on any changes made to that system where such a description has already been provided;
+(b)
+updates relevant to their low-carbon development strategies referred to in article 4 and progress in implementing those strategies;
+(c)
+information on national policies and measures, or groups of measures, and on implementation of union policies and measures, or groups of measures, that limit or reduce greenhouse gas emissions by sources or enhance removals by sinks, presented on a sectoral basis and organised by gas or group of gases (hfcs and pfcs) listed in annex i. that information shall refer to applicable and relevant national or union policies and shall include:
+(i)
+the objective of the policy or measure and a short description of the policy or measure;
+(ii)
+the type of policy instrument;
+(iii)
+the status of implementation of the policy or measure or group of measures;
+(iv)
+where used, indicators to monitor and evaluate progress over time;
+(v)
+where available, quantitative estimates of the effects on emissions by sources and removals by sinks of greenhouse gases broken down into:
+—
+the results of ex ante assessments of the effects of individual or groups of policies and measures on the mitigation of climate change. estimates shall be provided for a sequence of four future years ending with 0 or 5 immediately following the reporting year, with a distinction between greenhouse gas emissions covered by directive 2003/87/ec and those covered by decision no 406/2009/ec;
+—
+the results of ex post assessments of the effects of individual or groups of policies and measures on the mitigation of climate change, with a distinction between greenhouse gas emissions covered by directive 2003/87/ec and those covered by decision no 406/2009/ec;
+(vi)
+where available, estimates of the projected costs and benefits of policies and measures, as well as estimates, as appropriate, of the realised costs and benefits of policies and measures;
+(vii)
+where available, all references to the assessments and the underpinning technical reports referred to in paragraph 3;
+(d)
+the information referred to in point (d) of article 6(1) of decision no 406/2009/ec;
+(e)
+information on the extent to which the member state’s action constitutes a significant element of the efforts undertaken at national level as well as the extent to which the projected use of joint implementation, of the cdm and of international emissions trading is supplemental to domestic action in accordance with the relevant provisions of the kyoto protocol and the decisions adopted thereunder.
+2.   a member state shall communicate to the commission any substantial changes to the information reported pursuant to this article during the first year of the reporting period, by 15 march of the year following the previous report.
+3.   member states shall make available to the public, in electronic form, any relevant assessment of the costs and effects of national policies and measures, where available, and any relevant information on the implementation of union policies and measures that limit or reduce greenhouse gas emissions by sources or enhance removals by sinks along with any existing technical reports that underpin those assessments. those assessments should include descriptions of the models and methodological approaches used, definitions and underlying assumptions."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_13_TimeMonitoring_1,
+        pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_13_TimeMonitoring_2,
+        pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_13_TimeMonitoring_3 .
+
+pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_13_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "15 march 2015" .
+
+pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_13_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "every two years" .
+
+pol:EU_32013R0525_Title_0_Chapter_5_Section_0_Article_13_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "15 march of the year following the previous report" .
+

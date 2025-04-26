@@ -1,0 +1,182 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "dct": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@type": "poliana:Article",
+  "dct:title": "Promotion of the use of cogeneration based on a high-efficiency cogeneration process and of heat pumps",
+  "dct:description": "This article outlines requirements for member states to promote high-efficiency cogeneration and heat pumps, including comprehensive assessments, cost-benefit analyses, authorisation criteria, and guarantees of origin.",
+  "poliana:hasSection": [
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Comprehensive Assessment",
+      "dct:description": "Member states must carry out a comprehensive assessment to identify potential for high-efficiency cogeneration and heat pumps, taking into account local conditions.",
+      "poliana:hasRequirement": [
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Carry out Comprehensive Assessment",
+          "dct:description": "Member states must carry out a comprehensive assessment to identify potential for high-efficiency cogeneration and heat pumps, taking into account local conditions.",
+          "poliana:hasDeadline": {
+            "@type": "xsd:date",
+            "value": "2013-12-31"
+          }
+        },
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Notify Commission of Exemptions",
+          "dct:description": "Member states must notify the commission of any exemptions adopted under paragraph 6.",
+          "poliana:hasDeadline": {
+            "@type": "xsd:date",
+            "value": "2013-12-31"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Cost-Benefit Analysis",
+      "dct:description": "Member states must carry out cost-benefit analyses for certain installations to determine the feasibility of high-efficiency cogeneration and heat pumps.",
+      "poliana:hasRequirement": [
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Conduct Cost-Benefit Analysis",
+          "dct:description": "Member states must conduct cost-benefit analyses for installations covered by points (c) and (d) of paragraph 5 in cooperation with district heating and cooling network operators, if required.",
+          "poliana:hasScope": [
+            {
+              "@type": "poliana:Scope",
+              "rdfs:label": "Points (c) and (d) of Paragraph 5"
+            }
+          ]
+        },
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Exempt Certain Installations",
+          "dct:description": "Member states may exempt certain installations from the cost-benefit analysis requirements under paragraph 6.",
+          "poliana:hasScope": [
+            {
+              "@type": "poliana:Scope",
+              "rdfs:label": "Paragraph 6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Authorisation Criteria",
+      "dct:description": "Member states must adopt authorisation criteria to ensure the requirements of paragraphs 5 and 7 are met.",
+      "poliana:hasRequirement": [
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Adopt Authorisation Criteria",
+          "dct:description": "Member states must adopt authorisation criteria as referred to in article 7 of directive 2009/72/ec, or equivalent permit criteria.",
+          "poliana:hasScope": [
+            {
+              "@type": "poliana:Scope",
+              "rdfs:label": "Paragraphs 5 and 7"
+            }
+          ]
+        },
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Exempt Individual Installations",
+          "dct:description": "Member states may exempt individual installations from being required to implement options whose benefits exceed their costs, if there are imperative reasons of law, ownership or finance for so doing.",
+          "poliana:hasScope": [
+            {
+              "@type": "poliana:Scope",
+              "rdfs:label": "Paragraph 8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Guarantee of Origin",
+      "dct:description": "Member states must ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria.",
+      "poliana:hasRequirement": [
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Ensure Guarantee of Origin",
+          "dct:description": "Member states must ensure that the origin of electricity produced from high-efficiency cogeneration can be guaranteed according to objective, transparent and non-discriminatory criteria.",
+          "poliana:hasScope": [
+            {
+              "@type": "poliana:Scope",
+              "rdfs:label": "Paragraphs 10-12"
+            }
+          ]
+        },
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Review Guarantee of Origin Scheme",
+          "dct:description": "Member states must review their guarantee of origin scheme every three years.",
+          "poliana:hasScope": [
+            {
+              "@type": "poliana:Scope",
+              "rdfs:label": "Paragraph 13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Support Measures",
+      "dct:description": "Member states must take support measures to promote the use of high-efficiency cogeneration and heat pumps.",
+      "poliana:hasRequirement": [
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Take Support Measures",
+          "dct:description": "Member states must take support measures to promote the use of high-efficiency cogeneration and heat pumps, including financial incentives, technical assistance, and information campaigns.",
+          "poliana:hasScope": [
+            {
+              "@type": "poliana:Scope",
+              "rdfs:label": "Paragraphs 14-16"
+            }
+          ]
+        },
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Report on Support Measures",
+          "dct:description": "Member states must report to the commission on the support measures they have taken.",
+          "poliana:hasScope": [
+            {
+              "@type": "poliana:Scope",
+              "rdfs:label": "Paragraph 17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "rdfs:label": "Monitoring and Reporting",
+      "dct:description": "Member states must monitor the implementation of this directive and report to the commission.",
+      "poliana:hasRequirement": [
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Monitor Implementation",
+          "dct:description": "Member states must monitor the implementation of this directive, including the number of installations covered by paragraphs 5 and 7, the results of cost-benefit analyses, and the effectiveness of support measures.",
+          "poliana:hasScope": [
+            {
+              "@type": "poliana:Scope",
+              "rdfs:label": "Paragraphs 18-20"
+            }
+          ]
+        },
+        {
+          "@type": "poliana:Requirement",
+          "rdfs:label": "Report to Commission",
+          "dct:description": "Member states must report to the commission on their implementation of this directive.",
+          "poliana:hasScope": [
+            {
+              "@type": "poliana:Scope",
+              "rdfs:label": "Paragraph 21"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

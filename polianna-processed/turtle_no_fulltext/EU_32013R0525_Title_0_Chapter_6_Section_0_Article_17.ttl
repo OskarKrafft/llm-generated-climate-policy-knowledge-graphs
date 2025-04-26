@@ -1,0 +1,18 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_6_Section_0_Article_17 .
+
+pol:EU_32013R0525_Title_0_Chapter_6_Section_0_Article_17 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:PublicInvt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_6_Section_0_Article_17_TimeMonitoring_1 .
+
+pol:EU_32013R0525_Title_0_Chapter_6_Section_0_Article_17_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "31 july each year" .
+

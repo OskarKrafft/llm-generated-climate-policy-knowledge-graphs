@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0032 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_09 .
+
+pol:EU_32006L0032_Title_0_Chapter_3_Section_0_Article_09 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:PublicInvt,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives ;
+    pol:fullText """article 9
+financial instruments for energy savings
+1.   member states shall repeal or amend national legislation and regulations, other than those of a clearly fiscal nature, that unnecessarily or disproportionately impede or restrict the use of financial instruments for energy savings in the market for energy services or other energy efficiency improvement measures.
+2.   member states shall make model contracts for those financial instruments available to existing and potential purchasers of energy services and other energy efficiency improvement measures in the public and private sectors. these may be issued by the authority or agency referred to in article 4(4)."""^^xsd:string .
+

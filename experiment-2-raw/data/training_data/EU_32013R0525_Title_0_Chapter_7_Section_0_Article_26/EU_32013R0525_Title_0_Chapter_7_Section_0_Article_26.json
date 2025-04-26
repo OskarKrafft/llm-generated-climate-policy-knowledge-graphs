@@ -1,0 +1,32 @@
+[
+  {
+    "s": "32013R0525",
+    "p": "hasArticle",
+    "o": "Article"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "32013R0525",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "Article",
+    "p": "authorises",
+    "o": "eurovoc:6049"
+  },
+  {
+    "s": "Article",
+    "p": "establishes_authority",
+    "o": "eurovoc:6049"
+  },
+  {
+    "s": "Article",
+    "p": "type",
+    "o": "PolicyArticle"
+  }
+]

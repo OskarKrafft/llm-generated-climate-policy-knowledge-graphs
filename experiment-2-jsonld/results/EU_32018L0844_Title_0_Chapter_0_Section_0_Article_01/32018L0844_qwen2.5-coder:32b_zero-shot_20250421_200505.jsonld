@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/"
+  },
+  "@type": "poliana:LegalAct",
+  "schema:name": "Directive on the energy performance of buildings",
+  "dct:description": "This directive aims to improve the energy performance of buildings and reduce their greenhouse gas emissions.",
+  "poliana:hasArticle": [
+    {
+      "@type": "poliana:Article",
+      "schema:name": "Article 15",
+      "dct:description": "Member States shall ensure that all new buildings are nearly zero-energy buildings by 2020 at the latest.",
+      "poliana:hasParagraph": [
+        {
+          "@type": "poliana:Paragraph",
+          "schema:text": "For non-residential buildings, Member States may allow a transition period until 2030."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Article",
+      "schema:name": "Article 19a",
+      "dct:description": "The Commission shall conclude a feasibility study on the inspection of stand-alone ventilation systems and an optional building renovation passport.",
+      "poliana:hasParagraph": [
+        {
+          "@type": "poliana:Paragraph",
+          "schema:text": "This study should provide a long-term, step-by-step renovation roadmap for buildings based on quality criteria."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Article",
+      "schema:name": "Article 20",
+      "dct:description": "Member States shall provide information to building owners or tenants on energy performance certificates and cost-effective measures.",
+      "poliana:hasParagraph": [
+        {
+          "@type": "poliana:Paragraph",
+          "schema:text": "Information should be provided through accessible and transparent advisory tools such as renovation advice and one-stop-shops."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Article",
+      "schema:name": "Article 23",
+      "dct:description": "The Commission is conferred the power to adopt delegated acts for a period of five years.",
+      "poliana:hasParagraph": [
+        {
+          "@type": "poliana:Paragraph",
+          "schema:text": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State."
+        },
+        {
+          "@type": "poliana:Paragraph",
+          "schema:text": "A delegated act enters into force only if no objection is expressed by the European Parliament or the Council within two months of notification."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> .
+@prefix poli: <https://w3id.org/poli/def/politico#> .
+
+<http://data.europa.eu/eli/dir/2019/944/oj>
+  rdfs:label "Directive (EU) 2019/944 of the European Parliament and of the Council" ;
+  eli:date_publication "2019-06-05"^^xsd:date ;
+  eli:isRepealedBy <http://data.europa.eu/eli/dir/2020/1844/oj> .
+
+<https://w3id.org/poli/def/politico#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73>
+  a poli:Article ;
+  rdfs:label "Entry into force" ;
+  eli:date_entry_into_force "2019-07-04"^^xsd:date .
+
+<https://w3id.org/poli/def/politico#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_73> 
+  poli:annotatedText "This Directive shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union." .
+
+<https://w3id.org/poli/def/politico#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_6-1>
+  a poli:Article ;
+  rdfs:label "Article 6(1)" ;
+  eli:date_application "2021-01-01"^^xsd:date .
+
+<https://w3id.org/poli/def/politico#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_70-4>
+  a poli:Article ;
+  rdfs:label "Article 70(4)" ;
+  eli:date_application "2020-10-26"^^xsd:date .
+
+<https://w3id.org/poli/def/politico#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_70-5-a>
+  a poli:Article ;
+  rdfs:label "Article 70(5)(a)" ;
+  eli:date_application "2020-01-01"^^xsd:date .
+
+<https://w3id.org/poli/def/politico#EU_32019L0944_Title_0_Chapter_7_Section_5_Article_6-1_Annotators> 
+  a poli:Annotation ;
+  rdfs:label "Annotator A, Annotator B" .
+
+.

@@ -1,0 +1,49 @@
+@prefix poli: <http://www.semanticweb.org/poli/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01 a poli:Article ;
+    dcterms:title "article 1"@en ;
+    skos:notation "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01" .
+
+poli:EU_32019R0631 a poli:Policy ;
+    dcterms:title "Regulation (EU) 2019/631"@en ;
+    skos:notation "32019R0631" ;
+    dcterms:identifier "http://data.europa.eu/eli/reg/2019/631/oj" .
+
+poli:F a poli:Annotator .
+poli:B a poli:Annotator .
+
+poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_01 a poli:Paragraph ;
+    dcterms:title "Subject matter and objectives"@en ;
+    skos:notation "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_01" .
+
+poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_02 a poli:Paragraph ;
+    dcterms:title "Emissions targets from 2020"@en ;
+    skos:notation "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_02" .
+
+poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_03 a poli:Paragraph ;
+    dcterms:title "Additional measures until 2024"@en ;
+    skos:notation "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_03" .
+
+poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_04 a poli:Paragraph ;
+    dcterms:title "Emissions targets from 2025"@en ;
+    skos:notation "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_04" .
+
+poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_05 a poli:Paragraph ;
+    dcterms:title "Emissions targets from 2030"@en ;
+    skos:notation "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_05" .
+
+poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_06 a poli:Paragraph ;
+    dcterms:title "Zero- and low-emission vehicles' benchmark from 2025"@en ;
+    skos:notation "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_06" .
+
+poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_07 a poli:Paragraph ;
+    dcterms:title "Zero- and low-emission vehicles' benchmarks from 2030"@en ;
+    skos:notation "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01_07" .
+
+poli:F poli:annotated poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01 .
+poli:B poli:annotated poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01 .
+
+poli:EU_32019R0631 dcterms:hasPart poli:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01 .
+.

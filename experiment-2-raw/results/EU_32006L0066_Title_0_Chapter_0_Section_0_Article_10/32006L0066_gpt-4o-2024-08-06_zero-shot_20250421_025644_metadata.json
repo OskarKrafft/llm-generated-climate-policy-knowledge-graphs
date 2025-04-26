@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2012-09-26\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_2\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2016-09-26\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_compliance_time\",\n        \"o\": \"TimeCompliance_1\"\n    },\n    {\n        \"s\": \"TimeCompliance_1\",\n        \"p\": \"Compliance_date\",\n        \"o\": \"2007-09-26\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4060\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"pol:Member_States\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"grants_monitoring_authority\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective\"\n    },\n    {\n        \"s\": \"Objective\",\n        \"p\": \"annotatedText\",\n        \"o\": \"Member states shall achieve the following minimum collection rates: 25% by 26 September 2012; 45% by 26 September 2016.\"\n    }\n]",
+  "original_output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2012-09-26\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_2\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2016-09-26\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_compliance_time\",\n        \"o\": \"TimeCompliance_1\"\n    },\n    {\n        \"s\": \"TimeCompliance_1\",\n        \"p\": \"Compliance_date\",\n        \"o\": \"2007-09-26\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4060\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"pol:Member_States\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"grants_monitoring_authority\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective\"\n    },\n    {\n        \"s\": \"Objective\",\n        \"p\": \"annotatedText\",\n        \"o\": \"Member states shall achieve the following minimum collection rates: 25% by 26 September 2012; 45% by 26 September 2016.\"\n    }\n]\n```",
+  "generation_time": 3.882127285003662,
+  "output": "```json\n[\n    {\n        \"s\": \"Article\",\n        \"p\": \"type\",\n        \"o\": \"PolicyArticle\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_1\"\n    },\n    {\n        \"s\": \"TimeMonitoring_1\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2012-09-26\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_monitoring_time\",\n        \"o\": \"TimeMonitoring_2\"\n    },\n    {\n        \"s\": \"TimeMonitoring_2\",\n        \"p\": \"Monitoring_date\",\n        \"o\": \"2016-09-26\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"specifies_compliance_time\",\n        \"o\": \"TimeCompliance_1\"\n    },\n    {\n        \"s\": \"TimeCompliance_1\",\n        \"p\": \"Compliance_date\",\n        \"o\": \"2007-09-26\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"addresses\",\n        \"o\": \"eurovoc:4060\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"imposes_monitoring\",\n        \"o\": \"pol:Member_States\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"grants_monitoring_authority\",\n        \"o\": \"eurovoc:4038\"\n    },\n    {\n        \"s\": \"Article\",\n        \"p\": \"contains_objective\",\n        \"o\": \"Objective\"\n    },\n    {\n        \"s\": \"Objective\",\n        \"p\": \"annotatedText\",\n        \"o\": \"Member states shall achieve the following minimum collection rates: 25% by 26 September 2012; 45% by 26 September 2016.\"\n    }\n]\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10",
+      "CELEX_Number": "32006L0066",
+      "ELI": "http://data.europa.eu/eli/dir/2006/66/oj",
+      "Annotators": [
+        "C",
+        "F"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "raw",
+    "model": "gpt-4o-2024-08-06",
+    "timestamp": "2025-04-21T02:56:44.696589",
+    "reconstructed_from_raw": true
+  },
+  "triple_count": 12
+}

@@ -1,0 +1,16 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_24 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_24 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:fullText """article 24
+committee procedure
+1.   the commission shall be assisted by the committee set up under article 18 of directive 2006/12/ec.
+2.   where reference is made to this article, articles 5 and 7 of decision 1999/468/ec shall apply, having regard to the provisions of article 8 thereof.
+the period laid down in article 5(6) of decision 1999/468/ec shall be set at three months.
+3.   the committee shall adopt its rules of procedure."""^^xsd:string .
+

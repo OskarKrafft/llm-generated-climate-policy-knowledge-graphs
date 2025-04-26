@@ -1,0 +1,59 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03 a pol:PolicyArticle ;
+    pol:addresses <http://eurovoc.europa.eu/4060>,
+        pol:Member_States ;
+    pol:authorises <http://eurovoc.europa.eu/4038>,
+        <http://eurovoc.europa.eu/4060> ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 3
+binding overall union target for 2030
+1.   member states shall collectively ensure that the share of energy from renewable sources in the union's gross final consumption of energy in 2030 is at least 32 %. the commission shall assess that target with a view to submitting a legislative proposal by 2023 to increase it where there are further substantial costs reductions in the production of renewable energy, where needed to meet the union's international commitments for decarbonisation, or where a significant decrease in energy consumption in the union justifies such an increase.
+2.   member states shall set national contributions to meet, collectively, the binding overall union target set in paragraph 1 of this article as part of their integrated national energy and climate plans in accordance with articles 3 to 5 and 9 to 14 of regulation (eu) 2018/1999. in preparing their draft integrated national energy and climate plans, member states may consider the formula referred to in annex ii to that regulation.
+if, on the basis of the assessment of the draft integrated national energy and climate plans submitted pursuant to article 9 of regulation (eu) 2018/1999, the commission concludes that the national contributions of the member states are insufficient for the collective achievement of the binding overall union target, it shall follow the procedure laid down in articles 9 and 31 of that regulation.
+3.   member states shall ensure that their national policies, including the obligations deriving from articles 25 to 28 of this directive, and their support schemes, are designed with due regard to the waste hierarchy as set out in article 4 of directive 2008/98/ec to aim to avoid undue distortive effects on the raw material markets. member states shall grant no support for renewable energy produced from the incineration of waste if the separate collection obligations laid down in that directive have not been complied with.
+4.   from 1 january 2021, the share of energy from renewable sources in each member state's gross final consumption of energy shall not be lower than the baseline share shown in the third column of the table in part a of annex i to this directive. member states shall take the necessary measures to ensure compliance with that baseline share. if a member state does not maintain its baseline share as measured over any one-year period, the first and second subparagraphs of article 32(4) of regulation (eu) 2018/1999 shall apply.
+5.   the commission shall support the high ambition of member states through an enabling framework comprising the enhanced use of union funds, including additional funds to facilitate a just transition of carbon intensive regions towards increased shares of renewable energy, in particular financial instruments, especially for the following purposes:
+(a)
+reducing the cost of capital for renewable energy projects;
+(b)
+developing projects and programmes for integrating renewable sources into the energy system, for increasing flexibility of the energy system, for maintaining grid stability and for managing grid congestions;
+(c)
+developing transmission and distribution grid infrastructure, intelligent networks, storage facilities and interconnections, with the objective of arriving at a 15 % electricity interconnection target by 2030, in order to increase the technically feasible and economically affordable level of renewable energy in the electricity system;
+(d)
+enhancing regional cooperation between member states and between member states and third countries, through joint projects, joint support schemes and the opening of support schemes for renewable electricity to producers located in other member states.
+6.   the commission shall establish a facilitative platform in order to support member states that use cooperation mechanisms to contribute to the binding overall union target set in paragraph 1."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_compliance_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_1,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_2,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_3,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_4,
+        pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_5 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_3 a pol:Time_Compliance ;
+    pol:Compliance_date "2023-01-01"^^xsd:date ;
+    pol:annotatedText "2023" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_4 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2021" .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_03_TimeCompliance_5 a pol:Time_Compliance ;
+    pol:Compliance_date "2030-01-01"^^xsd:date ;
+    pol:annotatedText "2030" .
+

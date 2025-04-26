@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32013R0525 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_27 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_27 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 27
+review
+1.   the commission shall regularly review the conformity of the monitoring and reporting provisions under this regulation with future decisions relating to the unfccc and the kyoto protocol or other union legislation. the commission shall also regularly assess whether developments within the framework of the unfccc give rise to a situation where the obligations pursuant to this regulation are no longer necessary, not proportionate to the corresponding benefits, need adjusting or are not consistent with, or are duplicative of, reporting requirements under the unfccc, and shall submit, if appropriate, a legislative proposal to the european parliament and to the council.
+2.   by december 2016, the commission shall examine if the impact of the use of the 2006 ipcc guidelines for national greenhouse gas inventories, or a significant change to unfccc methodologies used, in determining the greenhouse gas inventories leads to a difference of more than 1 % in a member state’s total greenhouse gas emissions relevant for article 3 of decision no 406/2009/ec and may revise member states’ annual emissions allocations as provided in the fourth subparagraph of article 3(2) of decision no 406/2009/ec."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:grants_resources pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_27_TimeMonitoring_1 .
+
+pol:EU_32013R0525_Title_0_Chapter_7_Section_0_Article_27_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "december 2016" .
+

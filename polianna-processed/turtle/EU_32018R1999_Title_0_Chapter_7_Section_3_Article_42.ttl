@@ -1,0 +1,44 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018R1999 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_42 .
+
+pol:EU_32018R1999_Title_0_Chapter_7_Section_3_Article_42 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 42
+role of the european environment agency
+the european environment agency shall assist the commission in its work as regards the decarbonisation and energy efficiency dimensions to comply with articles 15 to 21, 26, 28, 29, 35, 37, 38, 39 and 41 in accordance with its annual work programme. that shall include assistance, as required, with:
+(a)
+compiling the information reported by member states on policies and measures and projections;
+(b)
+performing quality assurance and quality control procedures on the information reported by member states on projections and policies and measures;
+(c)
+preparing estimates or complementing those available to the commission for data on projections not reported by the member states;
+(d)
+compiling data, wherever available taken from european statistics and appropriate in terms of timing, as required for the state of the energy union report to the european parliament and to the council prepared by the commission;
+(e)
+disseminating information collected under this regulation, including maintaining and updating a database on member states' mitigation policies and measures and the european climate adaptation platform relating to impacts, vulnerabilities and adaptation to climate change;
+(f)
+performing quality assurance and quality control procedures in the preparation of the union greenhouse gas inventory;
+(g)
+compiling the union greenhouse gas inventory and preparing the union greenhouse gas inventory report;
+(h)
+preparing estimates for data not reported in the national greenhouse gas inventories;
+(i)
+conducting the review referred to in article 38;
+(j)
+compiling the union approximated greenhouse gas inventory.
+
+chapter 8
+
+
+
+final provisions"""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States .
+

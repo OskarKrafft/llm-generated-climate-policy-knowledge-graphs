@@ -1,0 +1,52 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32006L0066 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22 a pol:PolicyArticle ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RD_D,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 22
+national implementation reports
+1.   member states shall send the commission a report on the implementation of this directive every three years. however, the first report shall cover the period until 26 september 2012.
+2.   reports shall be drawn up on the basis of a questionnaire or outline established in accordance with the procedure referred to in article 24(2). the questionnaire or outline shall be sent to member states six months before the beginning of the first period that the report is to cover.
+3.   member states shall also report on any measures that they take to encourage developments affecting the impact of batteries and accumulators on the environment, in particular:
+(a)
+developments, including voluntary steps taken by producers, reducing quantities of heavy metals and other hazardous substances contained in batteries and accumulators;
+(b)
+new recycling and treatment techniques;
+(c)
+economic operators' participation in environmental management schemes;
+(d)
+research in those fields; and
+(e)
+measures taken to promote waste prevention.
+4.   the report shall be made available to the commission no later than nine months after the end of the three-year period concerned or, in the case of the first report, no later than 26 june 2013.
+5.   the commission shall publish a report on the implementation of this directive and on the impact of this directive on the environment and on the functioning of the internal market no later than nine months after receiving the reports from member states in accordance with paragraph 4."""^^xsd:string ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_1,
+        pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_2,
+        pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_3,
+        pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_4,
+        pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_5 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "every three years" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "period until 26 september 2012" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "nine months after the end of the three-year period concerned" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "26 june 2013" .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_22_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "nine months after receiving the reports" .
+

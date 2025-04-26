@@ -1,0 +1,18 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32008R1099 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:addresses eurovoc:4060 ;
+    pol:authorises eurovoc:2198 ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_monitoring_authority eurovoc:2198 ;
+    pol:imposes_monitoring eurovoc:4060 ;
+    pol:specifies_monitoring_time pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "from 2009 onwards" .
+

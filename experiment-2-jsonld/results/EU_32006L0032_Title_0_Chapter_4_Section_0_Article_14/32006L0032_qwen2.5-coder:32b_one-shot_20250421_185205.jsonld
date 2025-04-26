@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "celex": "http://publications.europa.eu/resource/authority/code/uri_type/CODE_CELEX",
+    "eli": "http://data.europa.eu/eli/",
+    "poliana": "https://w3id.org/poliana/ontology#"
+  },
+  "@type": "poliana:Article",
+  "celex": "32006L0032",
+  "eli": "http://data.europa.eu/eli/dir/2006/32/oj",
+  "poliana:title": "EU_32006L0032_Title_0_Chapter_4_Section_0_Article_14",
+  "poliana:annotators": ["C", "F"],
+  "poliana:content": {
+    "@type": "poliana:ArticleContent",
+    "poliana:paragraphs": [
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "1",
+        "poliana:text": "Member states that already use, for whatever purpose, calculation methods for measuring energy savings similar to those described in annex iv at the time of the entry into force of this directive may submit information at the appropriate level of detail to the commission. Such submissions shall take place as soon as possible, preferably not later than 17 November 2006. This information will enable the commission to take due account of existing practices."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "2",
+        "poliana:text": "Member states shall submit to the commission the following EEAPS:\n— a first EEAP not later than 30 June 2007;\n— a second EEAP not later than 30 June 2011;\n— a third EEAP not later than 30 June 2014.\nAll EEAPS shall describe the energy efficiency improvement measures planned to reach the targets set out in article 4(1) and (2), as well as to comply with the provisions on the exemplary role of the public sector and provision of information and advice to final customers set out in articles 5(1) and 7(2) respectively.\nThe second and third EEAPS shall:\n— include a thorough analysis and evaluation of the preceding EEAP;\n— include the final results with regard to the fulfilment of the energy savings targets set out in article 4(1) and (2);\n— include plans for — and information on the anticipated effects of — additional measures which address any existing or expected shortfall vis-à-vis the target;\n— in accordance with article 15(4), use and gradually increase the use of harmonised efficiency indicators and benchmarks, both for the evaluation of past measures and estimated effects of planned future measures;\n— be based on available data, supplemented with estimates."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "3",
+        "poliana:text": "Not later than 17 May 2008, the commission shall publish a cost/benefit impact assessment examining the linkages between EU standards, regulations, policies and measures on end‐use energy efficiency."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "4",
+        "poliana:text": "The EEAPS shall be assessed in accordance with the procedure referred to in article 16(2):\n— the first EEAPS shall be reviewed before 1 January 2008;\n— the second EEAPS shall be reviewed before 1 January 2012;\n— the third EEAPS shall be reviewed before 1 January 2015."
+      },
+      {
+        "@type": "poliana:Paragraph",
+        "poliana:number": "5",
+        "poliana:text": "On the basis of the EEAPS, the commission shall assess the extent to which member states have made progress towards achieving their national indicative energy savings targets. The commission shall publish reports with its conclusions:\n— on the first EEAPS before 1 January 2008;\n— on the second EEAPS before 1 January 2012;\n— on the third EEAPS before 1 January 2015.\nThese reports shall include information on related action at community level, including legislation currently in force and future legislation. The reports shall take into account the benchmarking system referred to in article 15(4), identify best practices, identify cases where member states and/or the commission are not making enough progress, and may contain recommendations.\nThe second report shall be followed, as appropriate and where necessary, by proposals to the European parliament and to the council for additional measures including a possible extension of the period of application of targets. If later than article 4(1) and (2), use and gradually increase the use of harmonised efficiency indicators and benchmarks, both for the evaluation of past measures and estimated effects of planned future measures; be based on available data, supplemented with estimates."
+      }
+    ]
+  },
+  "poliana:timeReferences": [
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2006-11-17",
+      "poliana:description": "Preferred submission date for information on calculation methods"
+    },
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2007-06-30",
+      "poliana:description": "Submission deadline for the first EEAP"
+    },
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2011-06-30",
+      "poliana:description": "Submission deadline for the second EEAP"
+    },
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2014-06-30",
+      "poliana:description": "Submission deadline for the third EEAP"
+    },
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2008-05-17",
+      "poliana:description": "Publication date for cost/benefit impact assessment"
+    },
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2008-01-01",
+      "poliana:description": "Review deadline for the first EEAP"
+    },
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2012-01-01",
+      "poliana:description": "Review deadline for the second EEAP"
+    },
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2015-01-01",
+      "poliana:description": "Review deadline for the third EEAP"
+    },
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2008-01-01",
+      "poliana:description": "Publication date for conclusions on the first EEAP"
+    },
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2012-01-01",
+      "poliana:description": "Publication date for conclusions on the second EEAP"
+    },
+    {
+      "@type": "poliana:TimeReference",
+      "poliana:date": "2015-01-01",
+      "poliana:description": "Publication date for conclusions on the third EEAP"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_22 .
+
+pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_22 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:fullText """article 22
+conventional meters
+1.   where final customers do not have smart meters, member states shall ensure that final customers are provided with individual conventional meters that accurately measure their actual consumption.
+2.   member states shall ensure that final customers are able to easily read their conventional meters, either directly or indirectly through an online interface or through another appropriate interface."""^^xsd:string .
+

@@ -1,0 +1,34 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32004L0008 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_in_effect_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_3 ;
+    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1,
+        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_2 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_3 a pol:Time_InEffect ;
+    pol:In_effect_date "2003-10-13"^^xsd:date ;
+    pol:annotatedText "13 october 2003" .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "not later than 21 february 2008" .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "thereafter every four years" .
+

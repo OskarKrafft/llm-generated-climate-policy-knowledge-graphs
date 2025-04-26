@@ -1,0 +1,26 @@
+{
+  "is_valid": true,
+  "error": null,
+  "extracted_content": "[\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"type\",\n    \"Object\": \"http://data.europa.eu/eli/ontology#LegalProvision\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasTitle\",\n    \"Object\": \"annual nuclear statistics\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasContent\",\n    \"Object\": \"the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasContent\",\n    \"Object\": \"the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article\u00a011(2).\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"isPartOf\",\n    \"Object\": \"EU_32008R1099_Title_0_Chapter_0_Section_0\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasCELEXNumber\",\n    \"Object\": \"32008R1099\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasELI\",\n    \"Object\": \"http://data.europa.eu/eli/reg/2008/1099/oj\"\n  }\n]",
+  "original_output": "```json\n[\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"type\",\n    \"Object\": \"http://data.europa.eu/eli/ontology#LegalProvision\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasTitle\",\n    \"Object\": \"annual nuclear statistics\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasContent\",\n    \"Object\": \"the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasContent\",\n    \"Object\": \"the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article\u00a011(2).\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"isPartOf\",\n    \"Object\": \"EU_32008R1099_Title_0_Chapter_0_Section_0\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasCELEXNumber\",\n    \"Object\": \"32008R1099\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasELI\",\n    \"Object\": \"http://data.europa.eu/eli/reg/2008/1099/oj\"\n  }\n]\n```",
+  "generation_time": 18.66773533821106,
+  "output": "```json\n[\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"type\",\n    \"Object\": \"http://data.europa.eu/eli/ontology#LegalProvision\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasTitle\",\n    \"Object\": \"annual nuclear statistics\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasContent\",\n    \"Object\": \"the commission (eurostat) shall, in cooperation with the nuclear energy sector in the eu, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable.\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasContent\",\n    \"Object\": \"the set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in article\u00a011(2).\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"isPartOf\",\n    \"Object\": \"EU_32008R1099_Title_0_Chapter_0_Section_0\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasCELEXNumber\",\n    \"Object\": \"32008R1099\"\n  },\n  {\n    \"Subject\": \"Article_8\",\n    \"Predicate\": \"hasELI\",\n    \"Object\": \"http://data.europa.eu/eli/reg/2008/1099/oj\"\n  }\n]\n```",
+  "success": true,
+  "metadata": {
+    "policy_info": {
+      "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+      "CELEX_Number": "32008R1099",
+      "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+      "Annotators": [
+        "A",
+        "C"
+      ]
+    },
+    "prompt_strategy": "zero-shot",
+    "output_format": "raw",
+    "model": "qwen2.5-coder:32b",
+    "timestamp": "2025-04-21T17:10:45.918759",
+    "reconstructed_from_raw": true
+  },
+  "triple_count": 7
+}

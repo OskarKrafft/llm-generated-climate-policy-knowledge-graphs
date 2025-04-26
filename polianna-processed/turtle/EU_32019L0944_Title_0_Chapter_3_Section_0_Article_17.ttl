@@ -1,0 +1,32 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_17 .
+
+pol:EU_32019L0944_Title_0_Chapter_3_Section_0_Article_17 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 17
+demand response through aggregation
+1.   member states shall allow and foster participation of demand response through aggregation. member states shall allow final customers, including those offering demand response through aggregation, to participate alongside producers in a non-discriminatory manner in all electricity markets.
+2.   member states shall ensure that transmission system operators and distribution system operators, when procuring ancillary services, treat market participants engaged in the aggregation of demand response in a non-discriminatory manner alongside producers on the basis of their technical capabilities.
+3.   member states shall ensure that their relevant regulatory framework contains at least the following elements:
+(a)
+the right for each market participant engaged in aggregation, including independent aggregators, to enter electricity markets without the consent of other market participants;
+(b)
+non-discriminatory and transparent rules that clearly assign roles and responsibilities to all electricity undertakings and customers;
+(c)
+non-discriminatory and transparent rules and procedures for the exchange of data between market participants engaged in aggregation and other electricity undertakings that ensure easy access to data on equal and non-discriminatory terms while fully protecting commercially sensitive information and customers' personal data;
+(d)
+an obligation on market participants engaged in aggregation to be financially responsible for the imbalances that they cause in the electricity system; to that extent they shall be balance responsible parties or shall delegate their balancing responsibility in accordance with article 5 of regulation (eu) 2019/943;
+(e)
+provision for final customers who have a contract with independent aggregators not to be subject to undue payments, penalties or other undue contractual restrictions by their suppliers;
+(f)
+a conflict resolution mechanism between market participants engaged in aggregation and other market participants, including responsibility for imbalances.
+4.   member states may require electricity undertakings or participating final customers to pay financial compensation to other market participants or to the market participants' balance responsible parties, if those market participants or balance responsible parties are directly affected by demand response activation. such financial compensation shall not create a barrier to market entry for market participants engaged in aggregation or a barrier to flexibility. in such cases, the financial compensation shall be strictly limited to covering the resulting costs incurred by the suppliers of participating customers or the suppliers' balance responsible parties during the activation of demand response. the method for calculating compensation may take account of the benefits brought about by the independent aggregators to other market participants and, where it does so, the aggregators or participating customers may be required to contribute to such compensation but only where and to the extent that the benefits to all suppliers, customers and their balance responsible parties do not exceed the direct costs incurred. the calculation method shall be subject to approval by the regulatory authority or by another competent national authority.
+5.   member states shall ensure that regulatory authorities or, where their national legal system so requires, transmission system operators and distribution system operators, acting in close cooperation with market participants and final customers, establish the technical requirements for participation of demand response in all electricity markets on the basis of the technical characteristics of those markets and the capabilities of demand response. such requirements shall cover participation involving aggregated loads."""^^xsd:string .
+

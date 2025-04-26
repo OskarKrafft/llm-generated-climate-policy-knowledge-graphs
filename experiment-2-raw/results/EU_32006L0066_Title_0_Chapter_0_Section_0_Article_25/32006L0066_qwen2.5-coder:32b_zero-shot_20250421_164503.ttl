@@ -1,0 +1,8 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_Article_25 a dcterms:Text ;
+    pol:hasContent <https://polianna-kg.org/Ontology#EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_member_states_shall_lay_down_rules_on_penalties_applicable_to_infringements_of_national_provisions_adopted_pursuant_to_this_directive_and_shall_take_all_necessary_measures_to_ensure_that_they_are_implemented._the_penalties_provided_for_must_be_effective,_proportionate_and_dissuasive._member states_shall_notify_those_measures_to_the_commission_by_26 september_2008_and_shall_inform_it_without_delay_of_any_subsequent_amendment_to_them.> ;
+    pol:hasSuffix pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_25 ;
+    pol:hasTitle pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_25_penalties .
+

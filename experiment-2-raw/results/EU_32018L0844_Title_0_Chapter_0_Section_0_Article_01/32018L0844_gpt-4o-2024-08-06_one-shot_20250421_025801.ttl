@@ -1,0 +1,33 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32018L0844 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:authorises eurovoc:4038 ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority eurovoc:2243 ;
+    pol:specifies_monitoring_time pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_1,
+        pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_2,
+        pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_3,
+        pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_4,
+        pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_5 .
+
+pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "by 1 January 2026" .
+
+pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "before 2020" .
+
+pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "by 31 December 2019" .
+
+pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "by 1 January 2025" .
+
+pol:EU_32018L0844_Title_0_Chapter_0_Section_0_Article_01_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "by 10 March 2021" .
+

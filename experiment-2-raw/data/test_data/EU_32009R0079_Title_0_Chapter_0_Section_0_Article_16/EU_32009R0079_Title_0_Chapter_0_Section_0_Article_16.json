@@ -1,0 +1,102 @@
+[
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+    "p": "specifies_in_effect_time",
+    "o": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_5",
+    "p": "annotatedText",
+    "o": "date set out therein"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2",
+    "p": "annotatedText",
+    "o": "20th day following its publication"
+  },
+  {
+    "s": "32009R0079",
+    "p": "hasArticle",
+    "o": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_4",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+    "p": "specifies_in_effect_time",
+    "o": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_4"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+    "p": "specifies_in_effect_time",
+    "o": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_5"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+    "p": "specifies_in_effect_time",
+    "o": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_2",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_5",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+    "p": "specifies_in_effect_time",
+    "o": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3",
+    "p": "type",
+    "o": "Time_InEffect"
+  },
+  {
+    "s": "32009R0079",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3",
+    "p": "annotatedText",
+    "o": "24\u00a0february 2011"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_3",
+    "p": "In_effect_date",
+    "o": "2011-02-24"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_1",
+    "p": "annotatedText",
+    "o": "20th day following its publication in the official journal of the european union"
+  },
+  {
+    "s": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16_TimeInEffect_4",
+    "p": "annotatedText",
+    "o": "date of entry into force"
+  }
+]

@@ -1,0 +1,20 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 a <http://data.europa.eu/eli/reg/2008/1099/oj#Article_4> ;
+    pol:hasAnnotators pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_A,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_C ;
+    pol:hasCELEXNumber pol:32008R1099 ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2008/1099/oj> ;
+    pol:hasTitle pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04 .
+
+<http://data.europa.eu/eli/reg/2008/1099/oj#Article_4> pol:hasTransmissionFrequency pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_annual,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_monthly,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_short-term_monthly ;
+    pol:mayModifyDataAndDefinitionsAccordingTo pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_regulatory_procedure_with_scrutiny_referred_to_in_article_11\(2\) ;
+    pol:providesClarificationsIn pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_annex_A_\(clarifications_of_terminology\),
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_individual_annexes ;
+    pol:reportsStatisticsFrom pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_annexes ;
+    pol:transmitsFrequencyFor pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_energy_statistics_in_annex_B,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_energy_statistics_in_annex_C,
+        pol:EU_32008R1099_Title_0_Chapter_0_Section_0_Article_04_energy_statistics_in_annex_D .
+

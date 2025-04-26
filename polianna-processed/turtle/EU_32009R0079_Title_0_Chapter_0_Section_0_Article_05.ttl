@@ -1,0 +1,28 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_05 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_05 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:fullText """article 5
+general requirements for hydrogen components and systems
+manufacturers shall ensure that:
+(a)
+hydrogen components and systems function in a correct and safe way and reliably withstand electrical, mechanical, thermal and chemical operating conditions without leaking or visibly deforming;
+(b)
+hydrogen systems are protected against over-pressurisation;
+(c)
+the materials used for those parts of the hydrogen components and systems which are to be in direct contact with hydrogen are compatible with hydrogen;
+(d)
+hydrogen components and systems reliably withstand expected temperatures and pressures during their expected lifetime;
+(e)
+hydrogen components and systems reliably withstand the range of operating temperatures laid down in the implementing measures;
+(f)
+hydrogen components are marked in accordance with the implementing measures;
+(g)
+hydrogen components with directional flow have the flow direction clearly indicated;
+(h)
+hydrogen components and systems are designed in such a way that they can be installed in accordance with the requirements of annex vi."""^^xsd:string .
+

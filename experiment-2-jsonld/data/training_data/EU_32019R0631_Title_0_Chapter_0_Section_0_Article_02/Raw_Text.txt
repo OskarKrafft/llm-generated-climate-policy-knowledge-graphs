@@ -1,0 +1,10 @@
+article 2
+scope
+1.   this regulation shall apply to the following motor vehicles:
+(a)
+category m1 as defined in annex ii to directive 2007/46/ec (‘passenger cars’)which are registered in the union for the first time and which have not previously been registered outside the union (‘new passenger cars’);
+(b)
+category n1 as defined in annex ii to directive 2007/46/ec with a reference mass not exceeding 2 610 kg, and vehicles of category n1 to which type-approval is extended in accordance with article 2(2) of regulation (ec) no 715/2007 (‘light commercial vehicles’), which are registered in the union for the first time and which have not previously been registered outside the union (‘new light commercial vehicles’). in the case of zero-emission vehicles of category n with a reference mass exceeding 2 610 kg or 2 840 kg, as the case may be, they shall, from 1 january 2025, for the purposes of this regulation and without prejudice to directive 2007/46/ec and regulation (ec) no 715/2007, be counted as light commercial vehicles falling within the scope of this regulation if the excess reference mass is due only to the mass of the energy storage system.
+2.   a previous registration outside the union made less than three months before registration in the union shall not be taken into account.
+3.   this regulation shall not apply to special purpose vehicles as defined in point 5 of part a of annex ii to directive 2007/46/ec.
+4.   article 4, points (b) and (c) of article 7(4), article 8 and points (a) and (c) of article 9(1) shall not apply to a manufacturer which, together with all of its connected undertakings, is responsible for fewer than 1 000 new passenger cars or for fewer than 1 000 new light commercial vehicles registered in the union in the previous calendar year, unless that manufacturer applies for and is granted a derogation in accordance with article 10.

@@ -1,0 +1,21 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10 a pol:PolicyArticle ;
+    pol:addresses eurovoc:4060 ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority eurovoc:4038 ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_compliance_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1 ;
+    pol:specifies_monitoring_time pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1,
+        pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeCompliance_1 pol:Compliance_date "2007-09-26"^^xsd:date .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_1 pol:Monitoring_date "2012-09-26"^^xsd:date .
+
+pol:EU_32006L0066_Title_0_Chapter_0_Section_0_Article_10_TimeMonitoring_2 pol:Monitoring_date "2016-09-26"^^xsd:date .
+
+pol:Objective pol:annotatedText "Member states shall achieve the following minimum collection rates: 25% by 26 September 2012; 45% by 26 September 2016." .
+

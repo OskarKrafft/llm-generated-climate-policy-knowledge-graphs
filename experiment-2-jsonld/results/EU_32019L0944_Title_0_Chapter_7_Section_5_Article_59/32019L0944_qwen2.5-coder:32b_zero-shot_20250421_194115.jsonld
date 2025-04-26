@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "poliana": "http://example.org/poliana#",
+    "schema": "http://schema.org/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@type": "poliana:Article",
+  "schema:name": "Regulatory Authorities Duties and Powers",
+  "schema:description": "This article outlines the duties and powers of regulatory authorities as per the given text.",
+  "poliana:hasSection": [
+    {
+      "@type": "poliana:Section",
+      "schema:name": "General Duties",
+      "schema:description": "Duties of regulatory authorities in general.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Below are the duties and powers of regulatory authorities."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Monitor other relevant entities to ensure compliance with regulations."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "schema:name": "Specific Duties and Powers",
+      "schema:description": "Detailed duties and powers of regulatory authorities in specific scenarios.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Publish methodologies for calculating or establishing terms and conditions for connection, access to national networks, provision of ancillary services, and access to cross-border infrastructures."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Make publicly available detailed methodology and underlying costs used for the calculation of relevant network tariffs while preserving confidentiality of commercially sensitive information."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:Section",
+      "schema:name": "Monitoring Congestion Management",
+      "schema:description": "Duties related to monitoring congestion management in national electricity systems.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Monitor congestion management of national electricity systems including interconnectors and the implementation of congestion management rules."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Request amendments to congestion management rules, including capacity allocation, from transmission system operators or market operators."
+        }
+      ]
+    }
+  ],
+  "poliana:hasSubSection": [
+    {
+      "@type": "poliana:SubSection",
+      "schema:name": "Independent System Operator (ISO) Specific Duties",
+      "schema:description": "Duties and powers of regulatory authorities when an ISO is designated.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Approve investments planning and multi-annual network development plan submitted by the independent system operator."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Ensure that network access tariffs collected by the independent system operator include remuneration for the network owner or owners, providing adequate remuneration of the network assets and new investments."
+        }
+      ]
+    },
+    {
+      "@type": "poliana:SubSection",
+      "schema:name": "Transmission System Operator (TSO) Specific Duties",
+      "schema:description": "Duties and powers of regulatory authorities when a TSO is designated.",
+      "poliana:hasPoint": [
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Impose penalties for discriminatory behavior in favor of the vertically integrated undertaking."
+        },
+        {
+          "@type": "poliana:Point",
+          "schema:text": "Monitor commercial and financial relations, including loans between the vertically integrated undertaking and the transmission system operator."
+        }
+      ]
+    }
+  ]
+}

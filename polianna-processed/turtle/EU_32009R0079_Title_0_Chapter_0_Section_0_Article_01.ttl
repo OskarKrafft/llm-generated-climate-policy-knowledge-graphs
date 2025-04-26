@@ -1,0 +1,12 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32009R0079 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_01 .
+
+pol:EU_32009R0079_Title_0_Chapter_0_Section_0_Article_01 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:fullText """article 1
+subject matter
+this regulation establishes requirements for the type-approval of motor vehicles with regard to hydrogen propulsion and for the type-approval of hydrogen components and hydrogen systems. this regulation also establishes requirements for the installation of such components and systems."""^^xsd:string .
+

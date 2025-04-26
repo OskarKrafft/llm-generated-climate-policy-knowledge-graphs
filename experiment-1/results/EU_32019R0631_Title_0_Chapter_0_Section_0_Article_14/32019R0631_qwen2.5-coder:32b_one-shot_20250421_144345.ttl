@@ -1,0 +1,47 @@
+@prefix pol: <https://poliana.org/ontology/> .
+@prefix ex: <http://example.org/> .
+
+ex:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 a pol:PolicyDocument ;
+    pol:hasCELEXNumber "32019R0631" ;
+    pol:hasELI <http://data.europa.eu/eli/reg/2019/631/oj> ;
+    pol:annotatedBy (ex:F ex:B) .
+
+ex:Article_14 a pol:PolicyArticle ;
+    pol:isPartOf ex:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 ;
+    pol:hasProvision ex:Adjustment_of_m0_and_tm0_values .
+
+ex:Adjustment_of_m0_and_tm0_values a pol:PolicyProvision ;
+    pol:adjustsValue ex:m0_value_in_point_4_part_a_annex_i , ex:m0_value_in_point_4_part_b_annex_i , ex:tm0_value_for_2025 , ex:tm0_value_in_point_6_2_parts_a_and_b_annex_i ;
+    pol:hasAdjustmentDate "2020-10-31"^^xsd:date , "2022-10-31"^^xsd:date , "2024-10-31"^^xsd:date ;
+    pol:appliesFrom "2022-01-01"^^xsd:date , "2024-01-01"^^xsd:date ;
+    pol:appliesUntil "2024-12-31"^^xsd:date .
+
+ex:m0_value_in_point_4_part_a_annex_i a pol:PolicyValue ;
+    pol:hasNewValue ex:new_m0_value_for_passenger_cars_2017_2018_2019 .
+
+ex:new_m0_value_for_passenger_cars_2017_2018_2019 a pol:AverageMassInRunningOrder ;
+    pol:calculatedFrom ex:new_passenger_cars_registered_in_2017 , ex:new_passenger_cars_registered_in_2018 , ex:new_passenger_cars_registered_in_2019 .
+
+ex:m0_value_in_point_4_part_b_annex_i a pol:PolicyValue ;
+    pol:hasNewValue ex:new_m0_value_for_light_commercial_vehicles_2019_2020_2021 .
+
+ex:new_m0_value_for_light_commercial_vehicles_2019_2020_2021 a pol:AverageMassInRunningOrder ;
+    pol:calculatedFrom ex:new_light_commercial_vehicles_registered_in_2019 , ex:new_light_commercial_vehicles_registered_in_2020 , ex:new_light_commercial_vehicles_registered_in_2021 .
+
+ex:tm0_value_for_2025 a pol:PolicyValue ;
+    pol:hasNewValue ex:indicative_tm0_value_for_2025 .
+
+ex:indicative_tm0_value_for_2025 a pol:AverageTestMass ;
+    pol:calculatedFrom ex:new_passenger_cars_registered_in_2021 , ex:new_light_commercial_vehicles_registered_in_2021 .
+
+ex:tm0_value_in_point_6_2_parts_a_and_b_annex_i a pol:PolicyValue ;
+    pol:hasNewValue ex:new_tm0_values_for_subsequent_years .
+
+ex:new_tm0_values_for_subsequent_years a pol:AverageTestMass ;
+    pol:calculatedFrom ex:new_passenger_cars_registered_in_preceding_two_years , ex:new_light_commercial_vehicles_registered_in_preceding_two_years .
+
+ex:Commission a pol:PolicyAuthority ;
+    pol:empoweredToAdopt ex:delegated_act_for_adjustments .
+
+ex:delegated_act_for_adjustments a pol:DelegatedAct ;
+    pol:supplements ex:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 .

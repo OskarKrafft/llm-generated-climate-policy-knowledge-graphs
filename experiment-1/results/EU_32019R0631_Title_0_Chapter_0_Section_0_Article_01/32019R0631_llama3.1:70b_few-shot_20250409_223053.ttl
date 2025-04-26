@@ -1,0 +1,39 @@
+@prefix : <http://example.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix eli: <http://data.europa.eu/eli/> .
+
+<http://example.org/EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01>
+  a skos:Concept ;
+  dc:title "EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01" ;
+  eli:celexNumber "32019R0631" ;
+  eli:eli "http://data.europa.eu/eli/reg/2019/631/oj" ;
+  dc:description """
+    Article 1
+    Subject matter and objectives
+
+    1.   This Regulation establishes CO2 emissions performance requirements for new passenger cars and for new light commercial vehicles in order to contribute to achieving the Union's target of reducing its greenhouse gas emissions, as laid down in Regulation (EU) 2018/842, and the objectives of the Paris Agreement and to ensure the proper functioning of the internal market.
+
+    2.   From 1 January 2020, this Regulation sets an EU fleet-wide target of 95 g CO2/km for the average emissions of new passenger cars and an EU fleet-wide target of 147 g CO2/km for the average emissions of new light commercial vehicles registered in the Union, as measured until 31 December 2020 in accordance with Regulation (EC) No 692/2008 together with implementing regulations (EU) 2017/1152 and (EU) 2017/1153, and from 1 January 2021 measured in accordance with Regulation (EU) 2017/1151.
+
+    3.   This Regulation will, until 31 December 2024, be complemented by additional measures corresponding to a reduction of 10 g CO2/km as part of the Union's integrated approach referred to in the Commission's communication of 7 February 2007 entitled ‘Results of the review of the Community strategy to reduce CO2 emissions from passenger cars and light-commercial vehicles’.
+
+    4.   From 1 January 2025, the following EU fleet-wide targets shall apply:
+        (a) for the average emissions of the new passenger car fleet, an EU fleet-wide target equal to a 15 % reduction of the target in 2021 determined in accordance with point 6.1.1 of part A of Annex I;
+        (b) for the average emissions of the new light commercial vehicles fleet, an EU fleet-wide target equal to a 15 % reduction of the target in 2021 determined in accordance with point 6.1.1 of part B of Annex I.
+
+    5.   From 1 January 2030, the following EU fleet-wide targets shall apply:
+        (a) for the average emissions of the new passenger car fleet, an EU fleet-wide target equal to a 37,5 % reduction of the target in 2021 determined in accordance with point 6.1.2 of part A of Annex I;
+        (b) for the average emissions of the new light commercial vehicles fleet, an EU fleet- wide target equal to a 31 % reduction of the target in 2021 determined in accordance with point 6.1.2 of part B of Annex I.
+
+    6.   From 1 January 2025, a zero- and low-emission vehicles' benchmark equal to a 15 % share of the respective fleets of new passenger cars and new light commercial vehicles shall apply in accordance with points 6.3 of parts A and B of Annex I, respectively.
+
+    7.   From 1 January 2030, the following zero- and low-emission vehicles' benchmarks shall apply in accordance with points 6.3 of parts A and B of Annex I, respectively:
+        (a) a benchmark equal to a 35 % share of the fleet of new passenger cars; and
+        (b) a benchmark equal to a 30 % share of the fleet of new light commercial vehicles.
+
+    """ ;
+  dc:annotator "F" , "B" .
+
+<http://example.org/EU_32019R0631_Title_0_Chapter_0_Section_0_Article_01>
+   dc:date "2023-02-15T14:30:00"^^xsd:dateTime .

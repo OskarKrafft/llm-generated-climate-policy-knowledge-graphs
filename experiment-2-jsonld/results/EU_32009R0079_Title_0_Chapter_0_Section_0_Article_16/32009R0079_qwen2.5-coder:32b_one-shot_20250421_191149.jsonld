@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "eli": "http://data.europa.eu/eli/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "eurovoc": "http://eurovoc.europa.eu/schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "PoliannaInstrumentScheme": "http://example.org/PoliannaInstrumentScheme#",
+    "PoliannaMonitoringScheme": "http://example.org/PoliannaMonitoringScheme#",
+    "PoliannaComplianceScheme": "http://example.org/PoliannaComplianceScheme#"
+  },
+  "@id": "http://data.europa.eu/eli/reg/2009/79/oj/art_16",
+  "@type": "eli:Article",
+  "eli:title": "EU_32009R0079_Title_0_Chapter_0_Section_0_Article_16",
+  "eli:has_part": [
+    {
+      "@id": "_:timeInForce",
+      "@type": "Time_InForce",
+      "Compliance_date": {
+        "@value": "2011-02-24",
+        "@type": "xsd:date"
+      }
+    },
+    {
+      "@id": "_:timeEntryIntoForce",
+      "@type": "Time_EntryIntoForce",
+      "Compliance_date": {
+        "@value": "2011-03-13",  // Assuming the regulation was published on February 24, 2011
+        "@type": "xsd:date"
+      }
+    },
+    {
+      "@id": "_:timeSpecificEntryIntoForce",
+      "@type": "Time_EntryIntoForce",
+      "Compliance_date": {
+        "@value": "2011-03-13",  // Same as above, for articles 11(3) and 12
+        "@type": "xsd:date"
+      }
+    },
+    {
+      "@id": "_:timeSpecificEntryIntoForce_11_2",
+      "@type": "Time_EntryIntoForce",
+      "Compliance_date": {
+        "@value": "TBD",  // To be determined as per the article
+        "@type": "xsd:date"
+      }
+    }
+  ],
+  "specifies_time": [
+    "_:timeInForce",
+    "_:timeEntryIntoForce",
+    "_:timeSpecificEntryIntoForce",
+    "_:timeSpecificEntryIntoForce_11_2"
+  ]
+}

@@ -1,0 +1,133 @@
+json
+[
+  {
+    "Subject": "Article_9",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/polianna/ontology#Article"
+  },
+  {
+    "Subject": "Article_9",
+    "Predicate": "hasTitle",
+    "Object": "draft integrated national energy and climate plans"
+  },
+  {
+    "Subject": "Article_9",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_1"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/polianna/ontology#Paragraph"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasContent",
+    "Object": "by 31 december 2018, and subsequently by 1 january 2028 and every ten years thereafter, each member state shall prepare and submit to the commission a draft of the integrated national energy and climate plan in accordance with article 3(1) and annex i."
+  },
+  {
+    "Subject": "Article_9",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_2"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/polianna/ontology#Paragraph"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "hasContent",
+    "Object": "the commission shall assess the draft integrated national energy and climate plans and may issue country-specific recommendations to member states in accordance with article 34 no later than six months before the deadline for submitting those integrated national energy and climate plans. those recommendations may, in particular, address:"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "hasSubPart",
+    "Object": "Point_a"
+  },
+  {
+    "Subject": "Point_a",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/polianna/ontology#Point"
+  },
+  {
+    "Subject": "Point_a",
+    "Predicate": "hasContent",
+    "Object": "the level of ambition of objectives, targets and contributions with a view to collectively achieving the energy union objectives and, in particular, the union's 2030 targets for renewable energy and energy efficiency as well as the level of electricity interconnectivity that the member state aims for in 2030 as referred to in point (d) of article 4, taking due account of relevant circumstances affecting the deployment of renewable energy and energy consumption, as indicated by the member state concerned in the draft integrated national energy and climate plan and the indicators of the urgency of action for interconnectivity established in point 2.4.1 of section a of part 1 of annex i;"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "hasSubPart",
+    "Object": "Point_b"
+  },
+  {
+    "Subject": "Point_b",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/polianna/ontology#Point"
+  },
+  {
+    "Subject": "Point_b",
+    "Predicate": "hasContent",
+    "Object": "policies and measures relating to member state- and union-level objectives and other policies and measures of potential cross-border relevance;"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "hasSubPart",
+    "Object": "Point_c"
+  },
+  {
+    "Subject": "Point_c",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/polianna/ontology#Point"
+  },
+  {
+    "Subject": "Point_c",
+    "Predicate": "hasContent",
+    "Object": "any additional policies and measures that might be required in the integrated national energy and climate plans;"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "hasSubPart",
+    "Object": "Point_d"
+  },
+  {
+    "Subject": "Point_d",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/polianna/ontology#Point"
+  },
+  {
+    "Subject": "Point_d",
+    "Predicate": "hasContent",
+    "Object": "interactions between and consistency of existing and planned policies and measures included in the integrated national energy and climate plan within one dimension and among different dimensions of the energy union."
+  },
+  {
+    "Subject": "Article_9",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_3"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/polianna/ontology#Paragraph"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "hasContent",
+    "Object": "each member state shall take due account of any recommendations from the commission in its integrated national energy and climate plan. if the member state concerned does not address a recommendation or a substantial part thereof, that member state shall provide and make public its reasons."
+  },
+  {
+    "Subject": "Article_9",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_4"
+  },
+  {
+    "Subject": "Paragraph_4",
+    "Predicate": "type",
+    "Object": "http://data.europa.eu/polianna/ontology#Paragraph"
+  },
+  {
+    "Subject": "Paragraph_4",
+    "Predicate": "hasContent",
+    "Object": "in the context of the public consultation as referred to in article 10, each member state shall make available to the public its draft integrated national energy and climate plan."
+  }
+]

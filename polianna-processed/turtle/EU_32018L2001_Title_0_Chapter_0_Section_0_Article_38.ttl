@@ -1,0 +1,15 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32018L2001 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_38 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_38 a pol:PolicyArticle ;
+    pol:fullText """article 38
+entry into force
+this directive shall enter into force on the third day following that of its publication in the official journal of the european union."""^^xsd:string ;
+    pol:specifies_in_effect_time pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_38_TimeInEffect_1 .
+
+pol:EU_32018L2001_Title_0_Chapter_0_Section_0_Article_38_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:annotatedText "third day following that of its publication in the official journal" .
+

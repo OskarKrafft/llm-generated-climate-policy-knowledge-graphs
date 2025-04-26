@@ -1,0 +1,40 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019L0944 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019L0944_Title_0_Chapter_6_Section_2_Article_44 .
+
+pol:EU_32019L0944_Title_0_Chapter_6_Section_2_Article_44 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038>,
+        pol:Member_States ;
+    pol:contains_instrument pol:FrameworkPolicy,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 44
+independent system operator
+1.   where the transmission system belongs to a vertically integrated undertaking on 3 september 2009, member states may decide not to apply article 43(1) and designate an independent system operator upon a proposal from the transmission system owner. such designation shall be subject to approval by the commission.
+2.   the member state may approve and designate an independent system operator provided that:
+(a)
+the candidate operator has demonstrated that it complies with the requirements laid down in points (b), (c) and (d) of article 43(1);
+(b)
+the candidate operator has demonstrated that it has at its disposal the required financial, technical, physical and human resources to carry out its tasks under article 40;
+(c)
+the candidate operator has undertaken to comply with a ten-year network development plan monitored by the regulatory authority;
+(d)
+the transmission system owner has demonstrated its ability to comply with its obligations under paragraph 5. to that end, it shall provide all the draft contractual arrangements with the candidate operator and any other relevant entity; and
+(e)
+the candidate operator has demonstrated its ability to comply with its obligations under regulation (eu) 2019/943, including the cooperation of transmission system operators at european and regional level.
+3.   undertakings which have been certified by the regulatory authority as having complied with the requirements of article 53 and paragraph 2 of this article shall be approved and designated as independent system operators by member states. the certification procedure in either article 52 of this directive and article 51 of regulation (eu) 2019/943 or in article 53 of this directive shall be applicable.
+4.   each independent system operator shall be responsible for granting and managing third-party access, including the collection of access charges, congestion charges, and payments under the inter-transmission system operator compensation mechanism in accordance with article 49 of regulation (eu) 2019/943, as well as for operating, maintaining and developing the transmission system, and for ensuring the long-term ability of the system to meet reasonable demand through investment planning. when developing the transmission system, the independent system operator shall be responsible for planning (including authorisation procedure), construction and commissioning of the new infrastructure. for this purpose, the independent system operator shall act as a transmission system operator in accordance with this section. the transmission system owner shall not be responsible for granting and managing third-party access, nor for investment planning.
+5.   where an independent system operator has been designated, the transmission system owner shall:
+(a)
+provide all the relevant cooperation and support to the independent system operator for the fulfilment of its tasks, including in particular all relevant information;
+(b)
+finance the investments decided by the independent system operator and approved by the regulatory authority, or give its agreement to financing by any interested party including the independent system operator. the relevant financing arrangements shall be subject to approval by the regulatory authority. prior to such approval, the regulatory authority shall consult the transmission system owner together with the other interested parties;
+(c)
+provide for the coverage of liability relating to the network assets, excluding the liability relating to the tasks of the independent system operator; and
+(d)
+provide guarantees to facilitate financing any network expansions with the exception of those investments where, pursuant to point (b), it has given its agreement to financing by any interested party including the independent system operator.
+6.   in close cooperation with the regulatory authority, the relevant national competition authority shall be granted all relevant powers to effectively monitor compliance of the transmission system owner with its obligations under paragraph 5."""^^xsd:string .
+

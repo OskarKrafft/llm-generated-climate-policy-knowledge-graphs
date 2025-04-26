@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_09 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_09 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:specifies_compliance_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_09_TimeCompliance_1,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_09_TimeCompliance_2 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_09_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2025-10-31"^^xsd:date ;
+    pol:annotatedText "31 october of each year" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_09_TimeCompliance_2 a pol:Time_Compliance ;
+    pol:Compliance_date "2022-10-31"^^xsd:date ;
+    pol:annotatedText "31 october 2022" .
+

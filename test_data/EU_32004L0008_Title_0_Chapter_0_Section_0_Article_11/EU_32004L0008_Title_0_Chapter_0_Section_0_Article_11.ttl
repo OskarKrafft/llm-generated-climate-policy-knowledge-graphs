@@ -1,0 +1,47 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32004L0008 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr,
+        pol:TradablePermit ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:fullText """article 11
+commission reporting
+1. on the basis of the reports submitted pursuant to article 10, the commission shall review the application of this directive and submit to the european parliament and to the council not later than 21 february 2008 and thereafter every four years, a progress report on the implementation of this directive.
+in particular, the report shall:
+(a) consider progress towards realising national potentials for high-efficiency cogeneration referred to in article 6;
+(b) assess the extent to which rules and procedures defining the framework conditions for cogeneration in the internal energy market are set on the basis of objective, transparent and non-discriminatory criteria taking due account of the benefits of cogeneration;
+(c) examine the experiences gained with the application and coexistence of different support mechanisms for cogeneration;
+(d) review efficiency reference values for separate production on the basis of the current technologies.
+if appropriate, the commission shall submit with the report further proposals to the european parliament and the council.
+2. when evaluating the progress referred to in paragraph 1(a), the commission shall consider to what extent the national potentials for high-efficiency cogeneration, referred to in article 6, have been or are foreseen to be realised taking into account member state measures, conditions, including climate conditions, and impacts of the internal energy market and implications of other community initiatives such as directive 2003/87/ec of the european parliament and of the council of 13 october 2003 establishing a scheme for greenhouse gas emission allowance trading within the community and amending council directive 96/61/ec(19).
+if appropriate, the commission shall submit further proposals to the european parliament and council, notably aiming at the establishment of an action plan for the development of high efficiency cogeneration in the community.
+3. when evaluating the scope for further harmonisation of calculation methods as referred to in article 4(1), the commission shall consider the impact of the coexistence of calculations as referred to in article 12, annex ii and annex iii, on the internal energy market also taking into account the experiences gained from national support mechanisms.
+if appropriate, the commission shall submit further proposals to the european parliament and council aiming at further harmonisation of the calculation methods."""^^xsd:string ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243>,
+        <http://eurovoc.europa.eu/4038> ;
+    pol:imposes_monitoring pol:Member_States ;
+    pol:specifies_in_effect_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_3 ;
+    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1,
+        pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_2 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeInEffect_3 a pol:Time_InEffect ;
+    pol:In_effect_date "2003-10-13"^^xsd:date ;
+    pol:annotatedText "13 october 2003" .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "not later than 21 february 2008" .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "thereafter every four years" .
+

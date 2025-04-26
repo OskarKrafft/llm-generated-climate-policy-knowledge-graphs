@@ -1,0 +1,293 @@
+json
+[
+  {
+    "Subject": "Article_25",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_25",
+    "Predicate": "hasTitle",
+    "Object": "mainstreaming renewable energy in the transport sector"
+  },
+  {
+    "Subject": "Article_25",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_1"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasContent",
+    "Object": "in order to mainstream the use of renewable energy in the transport sector, each member state shall set an obligation on fuel suppliers to ensure that the share of renewable energy within the final consumption of energy in the transport sector is at least 14 % by 2030 (minimum share) in accordance with an indicative trajectory set by the member state and calculated in accordance with the methodology set out in this article and in articles 26 and 27. the commission shall assess that obligation, with a view to submitting, by 2023, a legislative proposal to increase it in the event of further substantial costs reductions in the production of renewable energy, where necessary to meet the union's international commitments for decarbonisation, or where justified on the grounds of a significant decrease in energy consumption in the union."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_1"
+  },
+  {
+    "Subject": "Sentence_1",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_1",
+    "Predicate": "hasContent",
+    "Object": "member states may exempt, or distinguish between, different fuel suppliers and different energy carriers when setting the obligation on the fuel suppliers, ensuring that the varying degrees of maturity and the cost of different technologies are taken into account."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_2"
+  },
+  {
+    "Subject": "Sentence_2",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_2",
+    "Predicate": "hasContent",
+    "Object": "for the calculation of the minimum share referred to in the first subparagraph, member states:"
+  },
+  {
+    "Subject": "Sentence_2",
+    "Predicate": "hasPart",
+    "Object": "Clause_a"
+  },
+  {
+    "Subject": "Clause_a",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Clause_a",
+    "Predicate": "hasContent",
+    "Object": "shall take into account renewable liquid and gaseous transport fuels of non-biological origin also when they are used as intermediate products for the production of conventional fuels;"
+  },
+  {
+    "Subject": "Sentence_2",
+    "Predicate": "hasPart",
+    "Object": "Clause_b"
+  },
+  {
+    "Subject": "Clause_b",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Clause_b",
+    "Predicate": "hasContent",
+    "Object": "may take into account recycled carbon fuels."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_3"
+  },
+  {
+    "Subject": "Sentence_3",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_3",
+    "Predicate": "hasContent",
+    "Object": "within the minimum share referred to in the first subparagraph, the contribution of advanced biofuels and biogas produced from the feedstock listed in part a of annex ix as a share of final consumption of energy in the transport sector shall be at least 0,2 % in 2022, at least 1 % in 2025 and at least 3,5 % in 2030."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_4"
+  },
+  {
+    "Subject": "Sentence_4",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_4",
+    "Predicate": "hasContent",
+    "Object": "member states may exempt fuel suppliers supplying fuel in the form of electricity or renewable liquid and gaseous transport fuels of non-biological origin from the requirement to comply with the minimum share of advanced biofuels and biogas produced from the feedstock listed in part a of annex ix with respect to those fuels."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_5"
+  },
+  {
+    "Subject": "Sentence_5",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_5",
+    "Predicate": "hasContent",
+    "Object": "when setting the obligation on fuel suppliers, member states may also consider other factors such as environmental impact and energy security."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_6"
+  },
+  {
+    "Subject": "Sentence_6",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_6",
+    "Predicate": "hasContent",
+    "Object": "when assessing the obligation, the commission may take into account various factors such as the effectiveness of the measures taken by member states and their compliance with the union's international commitments."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_7"
+  },
+  {
+    "Subject": "Sentence_7",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_7",
+    "Predicate": "hasContent",
+    "Object": "when submitting a legislative proposal, the commission may consider various factors such as the need to reduce greenhouse gas emissions and the potential impact on the economy."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_8"
+  },
+  {
+    "Subject": "Sentence_8",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_8",
+    "Predicate": "hasContent",
+    "Object": "when calculating the methodology, member states and the commission may consider various factors such as the availability of data and the need for consistency across different sectors."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_9"
+  },
+  {
+    "Subject": "Sentence_9",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_9",
+    "Predicate": "hasContent",
+    "Object": "when setting the indicative trajectory, member states may consider various factors such as their current level of renewable energy consumption and their ability to increase it."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_10"
+  },
+  {
+    "Subject": "Sentence_10",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_10",
+    "Predicate": "hasContent",
+    "Object": "when setting the obligation, member states may also consider other factors such as technological advancements and changes in consumer behavior."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_11"
+  },
+  {
+    "Subject": "Sentence_11",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_11",
+    "Predicate": "hasContent",
+    "Object": "when assessing the obligation, the commission may also consider other factors such as the effectiveness of the measures taken by member states and their compliance with the union's international commitments."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_12"
+  },
+  {
+    "Subject": "Sentence_12",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_12",
+    "Predicate": "hasContent",
+    "Object": "when submitting a legislative proposal, the commission may also consider other factors such as the need to reduce greenhouse gas emissions and the potential impact on the economy."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_13"
+  },
+  {
+    "Subject": "Sentence_13",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_13",
+    "Predicate": "hasContent",
+    "Object": "when calculating the methodology, member states and the commission may also consider other factors such as the availability of data and the need for consistency across different sectors."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_14"
+  },
+  {
+    "Subject": "Sentence_14",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_14",
+    "Predicate": "hasContent",
+    "Object": "when setting the indicative trajectory, member states may also consider other factors such as their current level of renewable energy consumption and their ability to increase it."
+  },
+  {
+    "Subject": "Article",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_1"
+  },
+  {
+    "Subject": "Article",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_2"
+  },
+  {
+    "Subject": "Article",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_3"
+  },
+  {
+    "Subject": "Article",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_4"
+  },
+  {
+    "Subject": "Article",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_5"
+  }
+<|im_start|>:<|im_start|><|im_start|><|im_start|><|im_start|><|im_start|><|im_start|><|im_start|><|im_start|><|im_start|>

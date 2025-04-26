@@ -1,0 +1,30 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:specifies_in_effect_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeInEffect_1,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeInEffect_2,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeInEffect_3,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeInEffect_4 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeInEffect_1 a pol:Time_InEffect ;
+    pol:In_effect_date "2022-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2022" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeInEffect_2 a pol:Time_InEffect ;
+    pol:In_effect_date "2024-12-31"^^xsd:date ;
+    pol:annotatedText "31 december 2024" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeInEffect_3 a pol:Time_InEffect ;
+    pol:In_effect_date "2024-01-01"^^xsd:date ;
+    pol:annotatedText "2024" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeInEffect_4 a pol:Time_InEffect ;
+    pol:In_effect_date "2025-01-01"^^xsd:date ;
+    pol:annotatedText "2025" .
+

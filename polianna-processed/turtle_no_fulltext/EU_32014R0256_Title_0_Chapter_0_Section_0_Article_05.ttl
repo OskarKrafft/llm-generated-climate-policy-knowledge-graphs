@@ -1,0 +1,13 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32014R0256 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_05 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_05 a pol:PolicyArticle ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:grants_monitoring_authority pol:Member_States ;
+    pol:specifies_monitoring_time pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_05_TimeMonitoring_1 .
+
+pol:EU_32014R0256_Title_0_Chapter_0_Section_0_Article_05_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "reporting year" .
+

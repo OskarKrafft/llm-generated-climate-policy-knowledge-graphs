@@ -1,0 +1,19 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_13 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_13 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:fullText """article 13
+verification of the co2 emissions of vehicles in-service
+1.   manufacturers shall ensure that the co2 emission and fuel consumption values recorded in the certificates of conformity correspond to the co2 emissions from, and fuel consumption of, vehicles in-service as determined in accordance with regulation (eu) 2017/1151.
+2.   following the entry into force of the procedures referred to in the first subparagraph of paragraph 4, type-approval authorities shall verify for those vehicle families for which they are responsible for the type-approval, on the basis of appropriate and representative vehicle samples, that the co2 emission and fuel consumption values recorded in the certificates of conformity correspond to the co2 emissions from, and fuel consumption of, vehicles in-service as determined in accordance with regulation (eu) 2017/1151 while considering, inter alia, available data from on-board fuel and/or energy consumption monitoring devices.
+type-approval authorities shall also verify the presence of any strategies on board or relating to the sampled vehicles that artificially improve the vehicle's performance in the tests performed for the purpose of type-approval by, inter alia, using data from on-board fuel and/or energy consumption monitoring devices.
+3.   where a lack of correspondence of co2 emission and fuel consumption values or the presence of any strategies artificially improving a vehicle's performance is found as a result of the verifications performed pursuant to paragraph 2, the responsible type-approval authority shall, in addition to taking the necessary measures set out in chapter xi of regulation (eu) 2018/858, ensure the correction of the certificates of conformity.
+4.   the commission shall determine, by means of implementing acts, the procedures for performing the verifications referred to in paragraph 2 of this article. those implementing acts shall be adopted in accordance with the examination procedure referred to in article 16(2).
+the commission is empowered, prior to adopting the implementing acts referred to in the first subparagraph of this paragraph, to adopt a delegated act in accordance with article 17 in order to supplement this regulation by setting out the guiding principles and criteria for defining the procedures referred to in the first subparagraph of this paragraph."""^^xsd:string .
+

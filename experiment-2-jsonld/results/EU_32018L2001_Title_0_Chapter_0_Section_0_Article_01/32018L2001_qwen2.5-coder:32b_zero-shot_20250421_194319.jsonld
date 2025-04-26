@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "poliana": "https://w3id.org/poliana/ontology#"
+  },
+  "@type": "eli:Article",
+  "eli:title": {
+    "@value": "EU_32018L2001_Title_0_Chapter_0_Section_0_Article_01",
+    "@language": "en"
+  },
+  "eli:number": "1",
+  "dct:identifier": "32018L2001",
+  "eli:hasExpression": {
+    "@type": "eli:LegalResource",
+    "eli:expressionDate": "2018-12-11",
+    "eli:isVersionOf": {
+      "@id": "http://data.europa.eu/eli/dir/2018/2001"
+    },
+    "dct:format": "text/html",
+    "eli:expressionPointer": "/oj",
+    "dct:source": "OJ:L:2018:347:TOC"
+  },
+  "poliana:hasProvision": [
+    {
+      "@type": "poliana:Provision",
+      "poliana:text": "this directive establishes a common framework for the promotion of energy from renewable sources.",
+      "dct:language": "en"
+    },
+    {
+      "@type": "poliana:Provision",
+      "poliana:text": "it sets a binding union target for the overall share of energy from renewable sources in the union's gross final consumption of energy in 2030.",
+      "dct:language": "en"
+    },
+    {
+      "@type": "poliana:Provision",
+      "poliana:text": "it also lays down rules on financial support for electricity from renewable sources, on self-consumption of such electricity, on the use of energy from renewable sources in the heating and cooling sector and in the transport sector, on regional cooperation between member states, and between member states and third countries, on guarantees of origin, on administrative procedures and on information and training.",
+      "dct:language": "en"
+    },
+    {
+      "@type": "poliana:Provision",
+      "poliana:text": "it also establishes sustainability and greenhouse gas emissions saving criteria for biofuels, bioliquids and biomass fuels.",
+      "dct:language": "en"
+    }
+  ]
+}

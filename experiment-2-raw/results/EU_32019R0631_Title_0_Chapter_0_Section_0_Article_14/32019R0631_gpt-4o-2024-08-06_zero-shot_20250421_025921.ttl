@@ -1,0 +1,36 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14 a pol:PolicyArticle ;
+    pol:contains_instrument pol:RegulatoryInstr ;
+    pol:grants_legislative_authority eurovoc:4038 ;
+    pol:specifies_compliance_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeCompliance_1,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeCompliance_2,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeCompliance_3 ;
+    pol:specifies_monitoring_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_1,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_2,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_3,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_4 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeCompliance_1 pol:Compliance_date "2022-01-01"^^xsd:date ;
+    pol:annotatedText "that new m0 value shall apply from 1 January 2022 until 31 December 2024" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeCompliance_2 pol:Compliance_date "2024-01-01"^^xsd:date ;
+    pol:annotatedText "that new m0 value shall apply in 2024" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeCompliance_3 pol:Compliance_date "2025-01-01"^^xsd:date ;
+    pol:annotatedText "the new tm0 values shall apply from 1 January of the calendar year following the date of the adjustment." .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_1 pol:Monitoring_date "2020-10-31"^^xsd:date ;
+    pol:annotatedText "by 31 October 2020, the m0 value in point 4 of part a of annex i shall be adjusted to the average mass in running order of all new passenger cars registered in 2017, 2018, and 2019." .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_2 pol:Monitoring_date "2022-10-31"^^xsd:date ;
+    pol:annotatedText "by 31 October 2022, the m0 value in point 4 of part b of annex i shall be adjusted to the average mass in running order of all new light commercial vehicles registered in 2019, 2020 and 2021." .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_3 pol:Monitoring_date "2022-10-31"^^xsd:date ;
+    pol:annotatedText "by 31 October 2022, the indicative tm0 value for 2025 shall be determined as the respective average test mass of all new passenger cars and new light commercial vehicles registered in 2021." .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_14_TimeMonitoring_4 pol:Monitoring_date "2024-10-31"^^xsd:date ;
+    pol:annotatedText "by 31 October 2024, and every second year thereafter, the tm0 value in point 6.2 of parts a and b of annex i shall be adjusted to the respective average test mass of all new passenger cars and new light commercial vehicles registered in the preceding two calendar years, starting with 2022 and 2023." .
+

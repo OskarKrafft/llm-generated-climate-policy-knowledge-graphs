@@ -1,0 +1,54 @@
+{
+  "zero-shot": {
+    "is_valid": false,
+    "error": "Expecting value: line 1 column 1 (char 0)",
+    "extracted_content": "jsonld\n{\n  \"@context\": {\n    \"dct\": \"http://purl.org/dc/terms/\",\n    \"eli\": \"http://data.europa.eu/eli/ontology#\",\n    \"poliana\": \"https://w3id.org/poliana/ontology#\"\n  },\n  \"@type\": \"poliana:Article\",\n  \"dct:title\": \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\",\n  \"eli:number\": \"32008R1099\",\n  \"eli:uri\": \"http://data.europa.eu/eli/reg/2008/1099/oj\",\n  \"poliana:hasAnnotator\": [\n    {\n      \"@type\": \"foaf:Person\",\n      \"foaf:name\": \"A\"\n    },\n    {\n      \"@type\": \"foaf:Person\",\n      \"foaf:name\": \"C\"\n    }\n  ],\n  \"dct:description\": \"The Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).\"\n}",
+    "original_output": "jsonld\n{\n  \"@context\": {\n    \"dct\": \"http://purl.org/dc/terms/\",\n    \"eli\": \"http://data.europa.eu/eli/ontology#\",\n    \"poliana\": \"https://w3id.org/poliana/ontology#\"\n  },\n  \"@type\": \"poliana:Article\",\n  \"dct:title\": \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\",\n  \"eli:number\": \"32008R1099\",\n  \"eli:uri\": \"http://data.europa.eu/eli/reg/2008/1099/oj\",\n  \"poliana:hasAnnotator\": [\n    {\n      \"@type\": \"foaf:Person\",\n      \"foaf:name\": \"A\"\n    },\n    {\n      \"@type\": \"foaf:Person\",\n      \"foaf:name\": \"C\"\n    }\n  ],\n  \"dct:description\": \"The Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).\"\n}",
+    "generation_time": 16.1274573802948,
+    "output": "jsonld\n{\n  \"@context\": {\n    \"dct\": \"http://purl.org/dc/terms/\",\n    \"eli\": \"http://data.europa.eu/eli/ontology#\",\n    \"poliana\": \"https://w3id.org/poliana/ontology#\"\n  },\n  \"@type\": \"poliana:Article\",\n  \"dct:title\": \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\",\n  \"eli:number\": \"32008R1099\",\n  \"eli:uri\": \"http://data.europa.eu/eli/reg/2008/1099/oj\",\n  \"poliana:hasAnnotator\": [\n    {\n      \"@type\": \"foaf:Person\",\n      \"foaf:name\": \"A\"\n    },\n    {\n      \"@type\": \"foaf:Person\",\n      \"foaf:name\": \"C\"\n    }\n  ],\n  \"dct:description\": \"The Commission (Eurostat) shall, in cooperation with the nuclear energy sector in the EU, define a set of annual nuclear statistics which shall be reported and disseminated from 2009 onwards, that year being the first reported period, without prejudice to confidentiality, where it is necessary, and avoiding any duplication of data collection, while at the same time keeping production costs low and the reporting burden reasonable. The set of annual nuclear statistics shall be established and may be modified in accordance with the regulatory procedure with scrutiny referred to in Article 11(2).\"\n}",
+    "success": false,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "zero-shot",
+      "output_format": "json-ld",
+      "model": "qwen2.5-coder:32b",
+      "timestamp": "2025-04-21T20:24:42.635444"
+    },
+    "total_processing_time": 16.129539489746094,
+    "triple_count": 0
+  },
+  "one-shot": {
+    "is_valid": true,
+    "error": null,
+    "extracted_content": "{\n  \"@context\": {\n    \"eli\": \"http://data.europa.eu/eli/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"skos\": \"http://www.w3.org/2004/02/skos/core#\",\n    \"PoliannaInstrumentScheme\": \"http://example.org/PoliannaInstrumentScheme#\",\n    \"PoliannaMonitoringTimeScheme\": \"http://example.org/PoliannaMonitoringTimeScheme#\"\n  },\n  \"@id\": \"eli/reg/2008/1099/oj\",\n  \"@type\": \"PolicyArticle\",\n  \"Titel\": \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\",\n  \"CELEX_Number\": \"32008R1099\",\n  \"Annotators\": [\"A\", \"C\"],\n  \"eli:has_part\": {\n    \"@id\": \"#article8\",\n    \"@type\": \"PolicyArticleSection\",\n    \"specifies_time\": {\n      \"@id\": \"#timeMonitoring\",\n      \"@type\": \"Time_Monitoring\",\n      \"Compliance_date\": \"2009-01-01\"\n    },\n    \"contains_instrument\": {\n      \"@id\": \"PoliannaInstrumentScheme:RegulatoryInstr\",\n      \"@type\": \"skos:Concept\",\n      \"skos:prefLabel\": \"Regulatory Instrument\"\n    },\n    \"specifies_compliance_time\": {\n      \"@id\": \"#timeCompliance\",\n      \"@type\": \"Time_Compliance\",\n      \"Compliance_date\": \"2009-01-01\"\n    }\n  }\n}",
+    "original_output": "```jsonld\n{\n  \"@context\": {\n    \"eli\": \"http://data.europa.eu/eli/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"skos\": \"http://www.w3.org/2004/02/skos/core#\",\n    \"PoliannaInstrumentScheme\": \"http://example.org/PoliannaInstrumentScheme#\",\n    \"PoliannaMonitoringTimeScheme\": \"http://example.org/PoliannaMonitoringTimeScheme#\"\n  },\n  \"@id\": \"eli/reg/2008/1099/oj\",\n  \"@type\": \"PolicyArticle\",\n  \"Titel\": \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\",\n  \"CELEX_Number\": \"32008R1099\",\n  \"Annotators\": [\"A\", \"C\"],\n  \"eli:has_part\": {\n    \"@id\": \"#article8\",\n    \"@type\": \"PolicyArticleSection\",\n    \"specifies_time\": {\n      \"@id\": \"#timeMonitoring\",\n      \"@type\": \"Time_Monitoring\",\n      \"Compliance_date\": \"2009-01-01\"\n    },\n    \"contains_instrument\": {\n      \"@id\": \"PoliannaInstrumentScheme:RegulatoryInstr\",\n      \"@type\": \"skos:Concept\",\n      \"skos:prefLabel\": \"Regulatory Instrument\"\n    },\n    \"specifies_compliance_time\": {\n      \"@id\": \"#timeCompliance\",\n      \"@type\": \"Time_Compliance\",\n      \"Compliance_date\": \"2009-01-01\"\n    }\n  }\n}\n```",
+    "generation_time": 22.575000762939453,
+    "output": "```jsonld\n{\n  \"@context\": {\n    \"eli\": \"http://data.europa.eu/eli/\",\n    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",\n    \"skos\": \"http://www.w3.org/2004/02/skos/core#\",\n    \"PoliannaInstrumentScheme\": \"http://example.org/PoliannaInstrumentScheme#\",\n    \"PoliannaMonitoringTimeScheme\": \"http://example.org/PoliannaMonitoringTimeScheme#\"\n  },\n  \"@id\": \"eli/reg/2008/1099/oj\",\n  \"@type\": \"PolicyArticle\",\n  \"Titel\": \"EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08\",\n  \"CELEX_Number\": \"32008R1099\",\n  \"Annotators\": [\"A\", \"C\"],\n  \"eli:has_part\": {\n    \"@id\": \"#article8\",\n    \"@type\": \"PolicyArticleSection\",\n    \"specifies_time\": {\n      \"@id\": \"#timeMonitoring\",\n      \"@type\": \"Time_Monitoring\",\n      \"Compliance_date\": \"2009-01-01\"\n    },\n    \"contains_instrument\": {\n      \"@id\": \"PoliannaInstrumentScheme:RegulatoryInstr\",\n      \"@type\": \"skos:Concept\",\n      \"skos:prefLabel\": \"Regulatory Instrument\"\n    },\n    \"specifies_compliance_time\": {\n      \"@id\": \"#timeCompliance\",\n      \"@type\": \"Time_Compliance\",\n      \"Compliance_date\": \"2009-01-01\"\n    }\n  }\n}\n```",
+    "success": true,
+    "metadata": {
+      "policy_info": {
+        "Titel": "EU_32008R1099_Title_0_Chapter_0_Section_0_Article_08",
+        "CELEX_Number": "32008R1099",
+        "ELI": "http://data.europa.eu/eli/reg/2008/1099/oj",
+        "Annotators": [
+          "A",
+          "C"
+        ]
+      },
+      "prompt_strategy": "one-shot",
+      "output_format": "json-ld",
+      "model": "qwen2.5-coder:32b",
+      "timestamp": "2025-04-21T20:25:05.215005"
+    },
+    "total_processing_time": 22.580487728118896,
+    "triple_count": 3
+  }
+}

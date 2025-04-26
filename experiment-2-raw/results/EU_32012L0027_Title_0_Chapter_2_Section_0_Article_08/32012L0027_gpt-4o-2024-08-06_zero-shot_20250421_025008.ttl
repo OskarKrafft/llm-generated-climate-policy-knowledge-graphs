@@ -1,0 +1,17 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:VoluntaryAgrmt ;
+    pol:imposes_monitoring eurovoc:4038 ;
+    pol:specifies_compliance_time pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 .
+
+pol:EU_32012L0027_Title_0_Chapter_2_Section_0_Article_08_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2015-12-05"^^xsd:date ;
+    pol:annotatedText "by 5 December 2015 and at least every four years from the date of the previous energy audit" .
+

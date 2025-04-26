@@ -1,0 +1,108 @@
+json
+[
+  {
+    "Subject": "Article_8",
+    "Predicate": "type",
+    "Object": "Article"
+  },
+  {
+    "Subject": "Article_8",
+    "Predicate": "Suffix",
+    "Object": "energy_audits_and_energy_management_systems"
+  },
+  {
+    "Subject": "Member_States",
+    "Predicate": "promote_availability_of_high_quality_energy_audits",
+    "Object": "true"
+  },
+  {
+    "Subject": "Energy_Audits",
+    "Predicate": "carried_out_independent_manner_by_experts",
+    "Object": "true"
+  },
+  {
+    "Subject": "Energy_Audits",
+    "Predicate": "implemented_and_supervised_by_authorities",
+    "Object": "true"
+  },
+  {
+    "Subject": "Member_States",
+    "Predicate": "establish_quality_assurance_scheme_for_experts",
+    "Object": "true"
+  },
+  {
+    "Subject": "Energy_Audits",
+    "Predicate": "include_clauses_preventing_transfer_of_findings",
+    "Object": "false"
+  },
+  {
+    "Subject": "Member_States",
+    "Predicate": "develop_programmes_to_encourage_smes_energy_audits",
+    "Object": "true"
+  },
+  {
+    "Subject": "Member_States",
+    "Predicate": "set_up_support_schemes_for_smes",
+    "Object": "true"
+  },
+  {
+    "Subject": "Member_States",
+    "Predicate": "bring_attention_to_energy_management_systems_benefits",
+    "Object": "true"
+  },
+  {
+    "Subject": "Commission",
+    "Predicate": "assist_member_states_exchange_best_practices",
+    "Object": "true"
+  },
+  {
+    "Subject": "Member_States",
+    "Predicate": "develop_programmes_to_raise_household_awareness",
+    "Object": "true"
+  },
+  {
+    "Subject": "Member_States",
+    "Predicate": "encourage_training_programmes_for_energy_auditors",
+    "Object": "true"
+  },
+  {
+    "Subject": "Enterprises_not_SMEs",
+    "Predicate": "subject_to_independent_energy_audit_by_2015",
+    "Object": "true"
+  },
+  {
+    "Subject": "Energy_Audits_Enterprises_not_SMEs",
+    "Predicate": "carried_out_independent_manner_based_on_minimum_criteria",
+    "Object": "true"
+  },
+  {
+    "Subject": "Energy_Audits_Enterprises_not_SMEs",
+    "Predicate": "implemented_under_voluntary_agreements_supervised_by_member_state",
+    "Object": "true"
+  },
+  {
+    "Subject": "Access_of_market_participants_offering_energy_services",
+    "Predicate": "based_on_transparent_and_non_discriminatory_criteria",
+    "Object": "true"
+  },
+  {
+    "Subject": "Enterprises_not_SMEs_with_certified_management_system",
+    "Predicate": "exempted_from_requirements_paragraph_4",
+    "Object": "true"
+  },
+  {
+    "Subject": "Energy_Audits",
+    "Predicate": "may_stand_alone_or_part_of_broader_environmental_audit",
+    "Object": "true"
+  },
+  {
+    "Subject": "Member_States",
+    "Predicate": "require_assessment_technical_and_economic_feasibility_district_heating_cooling_network",
+    "Object": "true"
+  },
+  {
+    "Subject": "Member_States",
+    "Predicate": "implement_incentive_support_schemes_for_recommendations_from_energy_audits",
+    "Object": "true"
+  }
+]

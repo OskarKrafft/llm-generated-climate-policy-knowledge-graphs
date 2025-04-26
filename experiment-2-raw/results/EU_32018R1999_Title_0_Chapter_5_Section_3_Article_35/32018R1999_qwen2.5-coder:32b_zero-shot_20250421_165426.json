@@ -1,0 +1,208 @@
+json
+[
+  {
+    "Subject": "Article_35",
+    "Predicate": "type",
+    "Object": "Article"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "1"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "by 31 october of every year, the commission shall submit to the european parliament and to the council a state of the energy union report."
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "the state of the energy union report shall include the following elements:"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2a"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(a) the assessment carried out pursuant to article 29;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2b"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(b) where appropriate, recommendations pursuant to article 34;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2c"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(c) the report on the functioning of the carbon market referred to in article 10(5) of directive 2003/87/ec, including information on the application of that directive in accordance with article 21(2) thereof;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2d"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(d) biennially, from 2023, a report on union bioenergy sustainability, containing the information specified in annex x;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2e"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(e) biennially, a report on voluntary schemes in respect of which the commission has adopted a decision pursuant to article 30(4) of directive (eu) 2018/2001, containing the information specified in annex xi to this regulation;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2f"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(f) an overall progress report on the application of directive 2009/72/ec;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2g"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(g) an overall progress report on the application of directive 2009/73/ec pursuant to article 52 of that directive;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2h"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(h) an overall progress report on energy efficiency obligation schemes and alternative policy measures as referred to in articles 7a and 7b of directive 2012/27/eu;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2i"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(i) biennially, an overall progress report on the renovation of the national stock of residential and non-residential buildings, both public and private, in line with the roadmaps set out in the long-term renovation strategies that each member state shall establish in accordance with article 2a of directive 2010/31/eu;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2j"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(j) every four years, an overall progress report on member states' increase in the number of nearly zero-energy buildings in accordance with article 9(5) of directive 2010/31/eu;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2k"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(k) an overall progress report on member states' progress in creating a complete and operational energy market;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2l"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(l) the report on the functioning of the carbon market referred to in article 10(5) of directive 2003/87/ec, including information on the application of that directive in accordance with article 21(2) thereof;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2m"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(m) an overall progress report on the application of directive 2009/72/ec;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2n"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(n) an overall progress report on the application of directive 2009/73/ec pursuant to article 52 of that directive;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2o"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(o) an overall progress report on energy efficiency obligation schemes and alternative policy measures as referred to in articles 7a and 7b of directive 2012/27/eu;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2p"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(p) biennially, an overall progress report on the renovation of the national stock of residential and non-residential buildings, both public and private, in line with the roadmaps set out in the long-term renovation strategies that each member state shall establish in accordance with article 2a of directive 2010/31/eu;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2q"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(q) every four years, an overall progress report on member states' increase in the number of nearly zero-energy buildings in accordance with article 9(5) of directive 2010/31/eu;"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "Suffix",
+    "Object": "2r"
+  },
+  {
+    "Subject": "Article_35",
+    "Predicate": "hasContent",
+    "Object": "(r) an overall progress report on member states' progress in creating a complete and operational energy market;"
+  }
+]

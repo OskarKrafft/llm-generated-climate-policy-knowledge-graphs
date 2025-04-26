@@ -1,0 +1,17 @@
+[
+    {"Article": "Suffix", "type": "CURIE"},
+    {"Article": "hasDefinition", "Suffix": "A regulation or directive issued by the European Union to promote energy efficiency and renewable energy sources."},
+    {"Article": "hasPart", "Suffix": "Definitions"},
+    {"Definitions": "hasItem", "Suffix": "renewable energy source"},
+    {"renewable energy source": "type": "CURIE"},
+    {"renewable energy source": "hasDefinition", "Suffix": "Energy derived from natural processes that are replenished at a rate comparable to their consumption, such as sunlight, wind, rain, tides, waves, and geothermal heat."},
+    {"Definitions": "hasItem", "Suffix": "energy efficiency"},
+    {"energy efficiency": "type": "CURIE"},
+    {"energy efficiency": "hasDefinition", "Suffix": "The ratio of the useful energy output to the total energy input in a system or process."},
+    {"Definitions": "hasItem", "Suffix": "nearly zero-energy building"},
+    {"nearly zero-energy building": "type": "CURIE"},
+    {"nearly zero-energy building": "hasDefinition", "Suffix": "A building with very low energy requirements for heating, cooling and lighting, which are almost completely covered by energy produced on-site from renewable sources."},
+    {"Definitions": "hasItem", "Suffix": "fossil fuel"},
+    {"fossil fuel": "type": "CURIE"},
+    {"fossil fuel": "hasDefinition", "Suffix": "Non-renewable carbon-based energy sources such as solid fuels, natural gas and oil."}
+]

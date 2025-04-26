@@ -1,0 +1,20 @@
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11 a pol:PolicyArticle ;
+    pol:addresses eurovoc:4038 ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:imposes_monitoring eurovoc:114,
+        eurovoc:2243 ;
+    pol:is_about pol:FrameworkPolicy,
+        pol:Objective,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives,
+        pol:TradablePermit ;
+    pol:specifies_monitoring_time pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1 .
+
+pol:EU_32004L0008_Title_0_Chapter_0_Section_0_Article_11_TimeMonitoring_1 pol:Monitoring_date "2008-02-21"^^xsd:date ;
+    pol:annotatedText "not later than 21 February 2008 and thereafter every four years" .
+

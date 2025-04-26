@@ -1,0 +1,32 @@
+article 12
+implementing measures
+1.   the commission shall adopt the following implementing measures:
+(a)
+administrative provisions for the ec type-approval of vehicles, with regard to hydrogen propulsion, and hydrogen components and systems;
+(b)
+rules on the information to be provided by manufacturers for the purposes of the type-approval and inspection referred to in article 4(4) and (5);
+(c)
+detailed rules for the test procedures set out in annexes ii to v;
+(d)
+detailed rules concerning the requirements for the installation of hydrogen components and systems set out in annex vi;
+(e)
+detailed rules concerning the requirements for the safe and reliable functioning of hydrogen components and systems set out in article 5;
+(f)
+detailed rules for the labelling or other means of clear and rapid identification of hydrogen-powered vehicles referred to in point 16 of annex vi.
+those measures, designed to amend non-essential elements of this regulation by supplementing it, shall be adopted in accordance with the regulatory procedure with scrutiny referred to in article 13(2).
+2.   the commission may adopt the following implementing measures:
+(a)
+specifications for requirements relating to any of the following:
+—
+the use of pure hydrogen or a mixture of hydrogen and natural gas/biomethane,
+—
+new forms of hydrogen storage or usage,
+—
+the impact protection of vehicles with regard to the integrity of hydrogen components and systems,
+—
+integrated system safety requirements, covering at least the detection of leakage and requirements relating to purge gas,
+—
+electrical isolation and electric safety;
+(b)
+other measures necessary for the application of this regulation.
+those measures, designed to amend non-essential elements of this regulation by supplementing it, shall be adopted in accordance with the regulatory procedure with scrutiny referred to in article 13(2).

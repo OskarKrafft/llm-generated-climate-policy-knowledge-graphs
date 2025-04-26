@@ -1,0 +1,80 @@
+@prefix pol: <http://data.europa.eu/policy/ontology/pol#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35 a pol:Article ;
+    pol:hasTitle "State of the energy union report" ;
+    pol:isPartOf <http://data.europa.eu/eli/reg/2018/1999/oj> ;
+    pol:hasNumber "35" ;
+    pol:hasProvision pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_1 ,
+                    pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2 .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_1 a pol:Provision ;
+    pol:hasText "By 31 October of every year, the Commission shall submit to the European Parliament and to the Council a state of the energy union report." .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2 a pol:Provision ;
+    pol:hasText "The state of the energy union report shall include the following elements:" ;
+    pol:hasSubProvision pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_a ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_b ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_c ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_d ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_e ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_f ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_g ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_h ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_i ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_j ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_k ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_l ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_m ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_n ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_o ,
+                        pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_p .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_a a pol:SubProvision ;
+    pol:hasText "the assessment carried out pursuant to Article 29;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_b a pol:SubProvision ;
+    pol:hasText "where appropriate, recommendations pursuant to Article 34;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_c a pol:SubProvision ;
+    pol:hasText "the report on the functioning of the carbon market referred to in Article 10(5) of Directive 2003/87/EC, including information on the application of that directive in accordance with Article 21(2) thereof;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_d a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_e a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_f a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_g a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_h a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_i a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_j a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_k a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_l a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_m a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_n a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_o a pol:SubProvision ;
+    pol:hasText "biennially, an assessment of the progress made in implementing this Regulation;" .
+
+pol:EU_32018R1999_Title_0_Chapter_5_Section_3_Article_35_Provision_2_p a pol:SubProvision ;
+    pol:hasText "by 31 October 2024, and every five years thereafter, an assessment of the progress made in implementing this Regulation." .
+.

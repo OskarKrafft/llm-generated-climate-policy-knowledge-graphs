@@ -1,0 +1,188 @@
+json
+[
+  {
+    "Subject": "Article_4",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Article_4",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_1"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasContent",
+    "Object": "each member state shall adopt a national renewable energy action plan. the national renewable energy action plans shall set out member states’ national targets for the share of energy from renewable sources consumed in transport, electricity and heating and cooling in 2020, taking into account the effects of other policy measures relating to energy efficiency on final consumption of energy, and adequate measures to be taken to achieve those national overall targets, including cooperation between local, regional and national authorities, planned statistical transfers or joint projects, national policies to develop existing biomass resources and mobilise new biomass resources for different uses, and the measures to be taken to fulfil the requirements of articles 13 to 19."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_1"
+  },
+  {
+    "Subject": "Sentence_1",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_1",
+    "Predicate": "hasContent",
+    "Object": "each member state shall adopt a national renewable energy action plan."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_2"
+  },
+  {
+    "Subject": "Sentence_2",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_2",
+    "Predicate": "hasContent",
+    "Object": "the national renewable energy action plans shall set out member states’ national targets for the share of energy from renewable sources consumed in transport, electricity and heating and cooling in 2020, taking into account the effects of other policy measures relating to energy efficiency on final consumption of energy, and adequate measures to be taken to achieve those national overall targets, including cooperation between local, regional and national authorities, planned statistical transfers or joint projects, national policies to develop existing biomass resources and mobilise new biomass resources for different uses, and the measures to be taken to fulfil the requirements of articles 13 to 19."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_3"
+  },
+  {
+    "Subject": "Sentence_3",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_3",
+    "Predicate": "hasContent",
+    "Object": "by 30 june 2009, the commission shall adopt a template for the national renewable energy action plans. that template shall comprise the minimum requirements set out in annex vi."
+  },
+  {
+    "Subject": "Paragraph_1",
+    "Predicate": "hasPart",
+    "Object": "Sentence_4"
+  },
+  {
+    "Subject": "Sentence_4",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_4",
+    "Predicate": "hasContent",
+    "Object": "member states shall comply with that template in the presentation of their national renewable energy action plans."
+  },
+  {
+    "Subject": "Article_4",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_2"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_2",
+    "Predicate": "hasContent",
+    "Object": "member states shall notify their national renewable energy action plans to the commission by 30 june 2010."
+  },
+  {
+    "Subject": "Article_4",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_3"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "hasContent",
+    "Object": "each member state shall publish and notify to the commission, six months before its national renewable energy action plan is due, a forecast document indicating:"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "hasPart",
+    "Object": "Sentence_5"
+  },
+  {
+    "Subject": "Sentence_5",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Sentence_5",
+    "Predicate": "hasContent",
+    "Object": "its national renewable energy action plan is due, a forecast document indicating:"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "hasPart",
+    "Object": "Point_1"
+  },
+  {
+    "Subject": "Point_1",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Point_1",
+    "Predicate": "hasContent",
+    "Object": "its national renewable energy action plan is due, a forecast document indicating:"
+  },
+  {
+    "Subject": "Paragraph_3",
+    "Predicate": "hasPart",
+    "Object": "Point_2"
+  },
+  {
+    "Subject": "Point_2",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Point_2",
+    "Predicate": "hasContent",
+    "Object": "its national renewable energy action plan is due, a forecast document indicating:"
+  },
+  {
+    "Subject": "Article_4",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_4"
+  },
+  {
+    "Subject": "Paragraph_4",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_4",
+    "Predicate": "hasContent",
+    "Object": "each member state shall publish and notify to the commission, six months before its national renewable energy action plan is due, a forecast document indicating:"
+  },
+  {
+    "Subject": "Article_4",
+    "Predicate": "hasPart",
+    "Object": "Paragraph_5"
+  },
+  {
+    "Subject": "Paragraph_5",
+    "Predicate": "type",
+    "Object": "http://purl.org/dc/terms/Text"
+  },
+  {
+    "Subject": "Paragraph_5",
+    "Predicate": "hasContent",
+    "Object": "each member state shall publish and notify to the commission, six months before its national renewable energy action plan is due, a forecast document indicating:"
+  }
+]

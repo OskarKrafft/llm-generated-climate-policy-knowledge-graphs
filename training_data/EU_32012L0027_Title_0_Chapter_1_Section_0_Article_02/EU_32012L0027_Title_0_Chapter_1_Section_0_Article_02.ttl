@@ -1,0 +1,23 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+
+pol:32012L0027 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_02 .
+
+pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_02 a pol:PolicyArticle ;
+    pol:addresses pol:Member_States ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:FrameworkPolicy,
+        pol:PublicInvt,
+        pol:RegulatoryInstr,
+        pol:Subsidies_Incentives,
+        pol:TaxIncentives,
+        pol:VoluntaryAgrmt ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_legislative_authority <http://eurovoc.europa.eu/114>,
+        <http://eurovoc.europa.eu/2243> ;
+    pol:specifies_monitoring_time pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_02_TimeMonitoring_1 .
+
+pol:EU_32012L0027_Title_0_Chapter_1_Section_0_Article_02_TimeMonitoring_1 a pol:Time_Monitoring ;
+    pol:annotatedText "whole term of the contract" .
+

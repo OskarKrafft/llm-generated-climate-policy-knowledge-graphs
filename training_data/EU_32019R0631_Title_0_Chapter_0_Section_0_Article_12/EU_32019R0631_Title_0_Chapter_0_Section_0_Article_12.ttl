@@ -1,0 +1,35 @@
+@prefix pol: <https://polianna-kg.org/Ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pol:32019R0631 a pol:PolicyDocument ;
+    pol:hasArticle pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12 a pol:PolicyArticle ;
+    pol:authorises <http://eurovoc.europa.eu/4038> ;
+    pol:contains_instrument pol:Edu_Outreach,
+        pol:RegulatoryInstr ;
+    pol:contains_monitoring_form pol:Form_monitoring ;
+    pol:contains_objective pol:Objective ;
+    pol:grants_monitoring_authority <http://eurovoc.europa.eu/4038> ;
+    pol:specifies_compliance_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12_TimeCompliance_1 ;
+    pol:specifies_monitoring_time pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12_TimeMonitoring_2,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12_TimeMonitoring_3,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12_TimeMonitoring_4,
+        pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12_TimeMonitoring_5 .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12_TimeCompliance_1 a pol:Time_Compliance ;
+    pol:Compliance_date "2021-01-01"^^xsd:date ;
+    pol:annotatedText "1 january 2021" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12_TimeMonitoring_2 a pol:Time_Monitoring ;
+    pol:annotatedText "1 june 2023" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12_TimeMonitoring_3 a pol:Time_Monitoring ;
+    pol:annotatedText "annually" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12_TimeMonitoring_4 a pol:Time_Monitoring ;
+    pol:annotatedText "2021 to 2026" .
+
+pol:EU_32019R0631_Title_0_Chapter_0_Section_0_Article_12_TimeMonitoring_5 a pol:Time_Monitoring ;
+    pol:annotatedText "2027" .
+

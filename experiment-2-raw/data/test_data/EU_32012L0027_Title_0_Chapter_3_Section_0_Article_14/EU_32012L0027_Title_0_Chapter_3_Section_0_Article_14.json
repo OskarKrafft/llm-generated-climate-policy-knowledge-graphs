@@ -1,0 +1,177 @@
+[
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "imposes_monitoring",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_1",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_5",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:114"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_2"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "authorises",
+    "o": "Member_States"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_5"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "grants_legislative_authority",
+    "o": "eurovoc:2243"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_7",
+    "p": "annotatedText",
+    "o": "31 december 2014"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_1"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_4",
+    "p": "annotatedText",
+    "o": "31 december 2013"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_1",
+    "p": "annotatedText",
+    "o": "31 december 2015"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_5",
+    "p": "annotatedText",
+    "o": "within three months of the date of taking it"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_2",
+    "p": "annotatedText",
+    "o": "every five years"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_2",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "32012L0027",
+    "p": "hasArticle",
+    "o": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_6",
+    "p": "annotatedText",
+    "o": "within three months"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_7",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_7"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "contains_instrument",
+    "o": "RegulatoryInstr"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "addresses",
+    "o": "Member_States"
+  },
+  {
+    "s": "32012L0027",
+    "p": "type",
+    "o": "PolicyDocument"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_3"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "contains_objective",
+    "o": "Objective"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "type",
+    "o": "PolicyArticle"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_6"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_4",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "grants_monitoring_authority",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "contains_instrument",
+    "o": "Edu_Outreach"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_3",
+    "p": "annotatedText",
+    "o": "at least one year before the due date"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "specifies_monitoring_time",
+    "o": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_4"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "authorises",
+    "o": "eurovoc:4038"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_6",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14_TimeMonitoring_3",
+    "p": "type",
+    "o": "Time_Monitoring"
+  },
+  {
+    "s": "EU_32012L0027_Title_0_Chapter_3_Section_0_Article_14",
+    "p": "contains_monitoring_form",
+    "o": "Form_monitoring"
+  }
+]
